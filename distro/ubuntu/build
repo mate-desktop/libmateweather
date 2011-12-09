@@ -2,7 +2,7 @@
 
 # fill it
 pkgname=libmateweather
-pkgver=2011.12.01
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="Provides access to weather information from the net"
 depends=('libsoup-dev')

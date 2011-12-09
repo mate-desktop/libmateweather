@@ -1,4 +1,4 @@
-AC_INIT([libmateweather], [2011.12.01], [https://github.com/perberos/mate-desktop-environment])
+AC_INIT([libmateweather], [1.1.0], [http://www.mate-desktop.org])
 AC_PREREQ(2.59)
 
 AM_CONFIG_HEADER(config.h)
@@ -33,8 +33,8 @@ AM_CONDITIONAL(OS_WIN32, [test "$mateweather_native_win32" = "yes"])
 GTK_REQUIRED=2.11.0
 GLIB_REQUIRED=2.13.0
 LIBSOUP_REQUIRED=2.4.0
-LIBSOUP_MATE_REQUIRED=2.25.1
-MATECONF_REQUIRED=2.8.0
+LIBSOUP_MATE_REQUIRED=1.1.0
+MATECONF_REQUIRED=1.1.0
 LIBXML_REQUIRED=2.6.0
 
 AM_MAINTAINER_MODE
@@ -136,7 +136,7 @@ AC_SUBST(LIBSOUP_LIBS)
 
 dnl -- check for mateconf (required) -----------------------------------------
 PKG_CHECK_MODULES(MATECONF,
-		  [mateconf-2.0 >= $MATECONF_REQUIRED])
+		  [mateconf-2.0])
 AC_SUBST(MATECONF_CFLAGS)
 AC_SUBST(MATECONF_LIBS)
 
