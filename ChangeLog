@@ -1,3 +1,40 @@
+commit 0a4385c777571efa9784dcdc3da67e030222d736
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue May 29 12:20:44 2012 -0400
+
+    Removed ubuntu folder from distro.
+
+ distro/ubuntu/build    |   36 ------------------------------------
+ distro/ubuntu/postinst |    9 ---------
+ distro/ubuntu/postrm   |    6 ------
+ distro/ubuntu/preinst  |    8 --------
+ distro/ubuntu/prerm    |   11 -----------
+ 5 files changed, 0 insertions(+), 70 deletions(-)
+
+commit 44ec5aed7c1c7130caee72d56cf3a234603ef0d0
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue May 29 12:19:30 2012 -0400
+
+    libsoup-mate doesn't exist. Use libsoup-gnome instead.
+
+ configure.in                  |   12 ++++++------
+ libmateweather/weather-priv.h |    4 ++--
+ libmateweather/weather.c      |    4 ++--
+ 3 files changed, 10 insertions(+), 10 deletions(-)
+
+commit 561c43c0463a41e819f31f42e30991e802b593df
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Wed Feb 22 20:58:53 2012 -0500
+
+    Preparing for 1.2 release.
+
+ AUTHORS      |    9 +-
+ ChangeLog    | 4220 ++++++++++++----------------------------------------------
+ README       |    2 +
+ autogen.sh   |    4 +-
+ configure.in |    2 +-
+ 5 files changed, 881 insertions(+), 3356 deletions(-)
+
 commit 035e71f179cbb173a212d7407b729a0ee418f9cd
 Author: Perberos <perberos@gmail.com>
 Date:   Thu Jan 26 10:58:09 2012 -0300
