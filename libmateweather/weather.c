@@ -549,8 +549,8 @@ _weather_info_fill (WeatherInfo *info,
 
     if (!info->session) {
 	info->session = soup_session_async_new ();
-#ifdef HAVE_LIBSOUP_MATE
-	soup_session_add_feature_by_type (info->session, SOUP_TYPE_PROXY_RESOLVER_MATE);
+#ifdef HAVE_LIBSOUP_GNOME
+	soup_session_add_feature_by_type (info->session, SOUP_TYPE_PROXY_RESOLVER_GNOME);
 #endif
     }
 

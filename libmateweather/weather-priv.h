@@ -24,8 +24,8 @@
 #include <time.h>
 #include <libintl.h>
 #include <math.h>
-#ifdef HAVE_LIBSOUP_MATE
-#include <libsoup/soup-mate.h>
+#ifdef HAVE_LIBSOUP_GNOME
+#include <libsoup/soup-gnome.h>
 #else
 #include <libsoup/soup.h>
 #endif
