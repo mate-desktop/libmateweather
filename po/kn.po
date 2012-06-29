@@ -1,22 +1,23 @@
-# translation of libmateweather.master.kn.po to Kannada
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Praveen <prawinmysore@gmail.com>, 2008.
 # Shankar Prasad <svenkate@redhat.com>, 2008, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather.master.kn\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-21 15:39+0530\n"
-"PO-Revision-Date: 2009-09-20 13:53+0530\n"
-"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
-"Language-Team: Kannada <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:17+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -28,8 +29,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "ಬೆಂಗಳೂರು"
@@ -44,8 +46,9 @@ msgstr "ಬೆಂಗಳೂರು"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "VOBG"
@@ -60,8 +63,9 @@ msgstr "VOBG"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "DEFAULT_ZONE"
@@ -77,8 +81,9 @@ msgstr "DEFAULT_ZONE"
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr "DEFAULT_RADAR"
@@ -94,14 +99,17 @@ msgstr "DEFAULT_RADAR"
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "12-57N 077-40E"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತ"
 
@@ -192,14 +200,16 @@ msgstr "mi"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "km/h"
 
@@ -207,13 +217,15 @@ msgstr "km/h"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "hPa"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "km"
 
@@ -225,26 +237,19 @@ msgstr "ಗ್ರೀನ್‌ವಿಚ್ ಸರಾಸರಿ ಸಮಯ"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"weather.com ನಿಂದ ರಾಡಾರ್ ನಕ್ಷೆಗಳನ್ನು ಪಡೆಯಲು ಬಳಸಲಾಗುವ ಮೂರು ಅಂಕಿಗಳ ಒಂದು ಕೋಡ್, "
-"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ನಲ್ಲಿ ಕಂಡು "
-"ಬಂದಂತೆ"
+msgstr "weather.com ನಿಂದ ರಾಡಾರ್ ನಕ್ಷೆಗಳನ್ನು ಪಡೆಯಲು ಬಳಸಲಾಗುವ ಮೂರು ಅಂಕಿಗಳ ಒಂದು ಕೋಡ್, http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ನಲ್ಲಿ ಕಂಡು ಬಂದಂತೆ"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"ನಗರದ ಒಂದು ವಿಶಿಷ್ಟ ವಲಯ, http://git.gnome.org/cgit/libmateweather/plain/data/"
-"Locations.xml.in ನಲ್ಲಿ ಕಂಡು ಬಂದಂತೆ"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "ನಗರದ ಒಂದು ವಿಶಿಷ್ಟ ವಲಯ, http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ನಲ್ಲಿ ಕಂಡು ಬಂದಂತೆ"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr ""
-"ಹವಾಮಾನ ಆಪ್ಲೆಟ್‌ ತಾನಾಗಿಯೆ ಹವಾಮಾನ ಅಂಕಿಅಂಶಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡುತ್ತದೆಯೆ ಅಥವ ಇಲ್ಲವೆ ಎಂದು "
-"ನಿರ್ಧರಿಸುತ್ತದೆ."
+msgstr "ಹವಾಮಾನ ಆಪ್ಲೆಟ್‌ ತಾನಾಗಿಯೆ ಹವಾಮಾನ ಅಂಕಿಅಂಶಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡುತ್ತದೆಯೆ ಅಥವ ಇಲ್ಲವೆ ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
 #: ../libmateweather/mateweather.schemas.in.h:9
 msgid "Display radar map"
@@ -260,19 +265,15 @@ msgstr "ಪ್ರತಿಯೊಂದು ಅಪ್ಡೇಟಿನಲ್ಲೂ ರ�
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"ಇದು ಸತ್ಯವಾಗಿದ್ದರೆ, ರಾಡಾರ್ ನಕ್ಷೆಯನ್ನು \"ರಾಡಾರ್\" ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾದ ಒಂದು ಸ್ಥಳದಿಂದ "
-"ಪಡೆದುಕೊಳ್ಳಿ."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "ಇದು ಸತ್ಯವಾಗಿದ್ದರೆ, ರಾಡಾರ್ ನಕ್ಷೆಯನ್ನು \"ರಾಡಾರ್\" ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾದ ಒಂದು ಸ್ಥಳದಿಂದ ಪಡೆದುಕೊಳ್ಳಿ."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"ನೀವಿರುವ ಜಾಗದ ರೇಖಾಂಶ ಮತ್ತು ಅಕ್ಷಾಂಶವನ್ನು DD-MM-SS[NS] DD-MM-SS[EW] ಮಾದರಿಯಲ್ಲಿ "
-"ತೋರಿಸಲಾಗಿದೆ."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "ನೀವಿರುವ ಜಾಗದ ರೇಖಾಂಶ ಮತ್ತು ಅಕ್ಷಾಂಶವನ್ನು DD-MM-SS[NS] DD-MM-SS[EW] ಮಾದರಿಯಲ್ಲಿ ತೋರಿಸಲಾಗಿದೆ."
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -284,11 +285,9 @@ msgstr "ಹತ್ತಿರದ ಪಟ್ಟಣ"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ನಲ್ಲಿ "
-"ಕಂಡುಬಂದಂತಹ ರಾಜಧಾನಿಯಂತಹ ಸಮೀಪದ ಪ್ರಮುಖ ವಲಯ"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -779,7 +778,7 @@ msgstr "ಸಮೀಪದಲ್ಲಿ ರಭಸದಿಂದ ತಿರುಗುವ 
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
+#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
@@ -798,25 +797,29 @@ msgstr "ಗೊತ್ತಿರದ ವೀಕ್ಷಣಾ ಸಮಯ"
 msgid "Unknown"
 msgstr "ಗೊತ್ತಿರದ"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
@@ -866,7 +869,7 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
+#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

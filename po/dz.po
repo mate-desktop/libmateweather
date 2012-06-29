@@ -1,22 +1,21 @@
-# Dzongkha translation of mate-applets.
-# Copyright @ 2006 Free Software Foundation, Inc.
-# Mindu Dorji
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-applets\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-26 21:39-0500\n"
-"PO-Revision-Date: 2007-03-20 11:47+0530\n"
-"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
-"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:15+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Dzongkha\n"
-"X-Poedit-Country: BHUTAN\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: dz\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -28,8 +27,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:163 ../libmateweather/mateweather-mateconf.c:164
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "སྔོན་སྒྲིག་གནས་ཁོངས།(_L)"
@@ -37,15 +37,16 @@ msgstr "སྔོན་སྒྲིག་གནས་ཁོངས།(_L)"
 #. TRANSLATOR: Change this to the code of your default location that
 #. * corresponds to the DEFAULT_LOCATION name you put above. This is
 #. * normally a four-letter (ICAO) code and can be found in
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * NB. The web page is over 1.7MB in size.
 #. * Pick a default location like a capital city so that it would be ok
 #. * for more of your users. For example, for Greek, we use "LGAV" for
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:183 ../libmateweather/mateweather-mateconf.c:184
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr ",སྔོན་སྒྲིག་ཀོཌི།(_C)"
@@ -54,14 +55,15 @@ msgstr ",སྔོན་སྒྲིག་ཀོཌི།(_C)"
 #. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
 #. * Normally, US and Canada locations have zones while the rest do not.
 #. * Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any zone you put here must also be present in the Locations.xml
 #. * file.
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:203 ../libmateweather/mateweather-mateconf.c:204
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "སྔོན་སྒྲིག་གླིང་སྡེ།(_Z)"
@@ -70,15 +72,16 @@ msgstr "སྔོན་སྒྲིག་གླིང་སྡེ།(_Z)"
 #. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
 #. * Normally, US and Canada locations have radar names while the rest do
 #. * not. Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any radar you put here must also be present in the Locations.xml
 #. * file.
 #. *
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:224 ../libmateweather/mateweather-mateconf.c:225
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr "སྔོན་སྒྲིག་ར་ཌར།(_R)"
@@ -86,7 +89,7 @@ msgstr "སྔོན་སྒྲིག་ར་ཌར།(_R)"
 #. TRANSLATOR: Change this to the coordinates of your default location
 #. * that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
 #. * above. Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any coordinates you put here must also be present in the
 #. * Locations.xml file.
 #. *
@@ -94,113 +97,117 @@ msgstr "སྔོན་སྒྲིག་ར་ཌར།(_R)"
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:245 ../libmateweather/mateweather-mateconf.c:246
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "སྔོན་སྒྲིག་ཆ་སྙོམ།(_C)"
 
-#: ../libmateweather/mateweather-prefs.c:25 ../libmateweather/mateweather-prefs.c:36
-#: ../libmateweather/mateweather-prefs.c:51 ../libmateweather/mateweather-prefs.c:68
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "སྔོན་སྒྲིག"
 
 #. translators: Kelvin
-#: ../libmateweather/mateweather-prefs.c:27
+#: ../libmateweather/mateweather-prefs.c:36
 msgid "K"
 msgstr ""
 
 #. translators: Celsius
-#: ../libmateweather/mateweather-prefs.c:29
+#: ../libmateweather/mateweather-prefs.c:38
 msgid "C"
 msgstr ""
 
 #. translators: Fahrenheit
-#: ../libmateweather/mateweather-prefs.c:31
+#: ../libmateweather/mateweather-prefs.c:40
 msgid "F"
 msgstr ""
 
 #. translators: meters per second
-#: ../libmateweather/mateweather-prefs.c:38
+#: ../libmateweather/mateweather-prefs.c:47
 msgid "m/s"
 msgstr "སྐར་ཆ་རེ་ནང་ མི་ཊར།"
 
 #. translators: kilometers per hour
-#: ../libmateweather/mateweather-prefs.c:40
+#: ../libmateweather/mateweather-prefs.c:49
 msgid "km/h"
 msgstr "ཆུ་ཚོད་རེ་ནང་ ཀི་ལོ་མི་ཊར།"
 
 #. translators: miles per hour
-#: ../libmateweather/mateweather-prefs.c:42
+#: ../libmateweather/mateweather-prefs.c:51
 msgid "mph"
 msgstr "ཆུ་ཚོད་རེ་ནང་ མ་ཡིལ།"
 
 #. translators: knots (speed unit)
-#: ../libmateweather/mateweather-prefs.c:44
+#: ../libmateweather/mateweather-prefs.c:53
 msgid "knots"
 msgstr "ནོཊསི།"
 
 #. translators: wind speed
-#: ../libmateweather/mateweather-prefs.c:46
+#: ../libmateweather/mateweather-prefs.c:55
 msgid "Beaufort scale"
 msgstr "བིའུ་ཕོརཊི་ཆ་ཚད།"
 
 #. translators: kilopascals
-#: ../libmateweather/mateweather-prefs.c:53
+#: ../libmateweather/mateweather-prefs.c:62
 msgid "kPa"
 msgstr "ཀི་ལོ་པཱསི་ཀཱལ།"
 
 #. translators: hectopascals
-#: ../libmateweather/mateweather-prefs.c:55
+#: ../libmateweather/mateweather-prefs.c:64
 msgid "hPa"
 msgstr "ཧེཀ་ཊོ་པཱསི་ཀཱལ།"
 
 #. translators: millibars
-#: ../libmateweather/mateweather-prefs.c:57
+#: ../libmateweather/mateweather-prefs.c:66
 msgid "mb"
 msgstr "མི་ལི་བཱར།"
 
 #. translators: millimeters of mercury
-#: ../libmateweather/mateweather-prefs.c:59
+#: ../libmateweather/mateweather-prefs.c:68
 msgid "mmHg"
 msgstr "མར་ཀུ་རིའི་ མི་ལི་བར། "
 
 #. translators: inches of mercury
-#: ../libmateweather/mateweather-prefs.c:61
+#: ../libmateweather/mateweather-prefs.c:70
 msgid "inHg"
 msgstr "མར་ཀུ་རིའི་ ཨིན་ཅེསི།"
 
 #. translators: atmosphere
-#: ../libmateweather/mateweather-prefs.c:63
+#: ../libmateweather/mateweather-prefs.c:72
 msgid "atm"
 msgstr "བར་སྣང་གི་ཁམས།"
 
 #. translators: meters
-#: ../libmateweather/mateweather-prefs.c:70
-#, fuzzy
+#: ../libmateweather/mateweather-prefs.c:79
 msgid "m"
-msgstr "མི་ལི་བཱར།"
+msgstr ""
 
 #. translators: kilometers
-#: ../libmateweather/mateweather-prefs.c:72
+#: ../libmateweather/mateweather-prefs.c:81
 msgid "km"
 msgstr "ཀི་ལོ་མི་ཊར།"
 
 #. translators: miles
-#: ../libmateweather/mateweather-prefs.c:74
+#: ../libmateweather/mateweather-prefs.c:83
 msgid "mi"
 msgstr ""
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:93 ../libmateweather/mateweather-prefs.c:102
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "སྔོན་སྒྲིག་དྲོད་ཚུགས་ཆ་ཕྲན།"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:131 ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "སྔོན་སྒྲིག་མགྱོགས་ཚད་ཆ་ཕྲན།"
 
@@ -208,33 +215,33 @@ msgstr "སྔོན་སྒྲིག་མགྱོགས་ཚད་ཆ་ཕ
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:172 ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "སྔོན་སྒྲིག་ཨེབ་ཤུགས་ཆ་ཕྲན།"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:212 ../libmateweather/mateweather-prefs.c:221
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "སྔོག་སྒྲིག་རྒྱང་ཚད་ཆ་ཕྲན།"
+
+#: ../libmateweather/mateweather-timezone.c:314
+msgid "Greenwich Mean Time"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:1
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
-"from http://cvs.gnome.org/viewcvs/*checkout*/mate-applets/mateweather/"
-"Locations.xml.in"
+"from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"ཝེ་དར་.ཀོམ་ནང་ལས་ ར་ཌར་ས་ཁྲ་ སླར་འདྲེན་འབད་ནིའི་དོན་ལུ་ ཨང་ཡིག་གསུམ་འབད་མི་ ཨང་རྟགས་ཅིག་ "
-"http://cvs.gnome.org/viewcvs/*checkout*/mate-applets/mateweather/Locations.xml."
-"in ནང་ལས་ ཐོབ་ཅི།"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://cvs.gnome.org/viewcvs/"
-"*checkout*/mate-applets/mateweather/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"ཁྲོམ་སྡེའི་དོན་ལུ་ མཐུན་མོངས་མ་ཡིན་པའི་གླིང་སྡེ་ཅིག་ http://cvs.gnome.org/viewcvs/*checkout*/"
-"mate-applets/mateweather/Locations.xml.in ནང་ལས་ཐོབ་ཅི།"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
@@ -256,19 +263,15 @@ msgstr "དུས་མཐུན་ཚར་རེ་བཟོཝ་ད་ ར�
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"བདེན་པ་ཨིན་པ་ཅིན་ \"radar\"ལྡེ་མིག་གིས་ གསལ་བཀོད་འབད་མི་ གནས་ཁོངས་ནང་ལས་ ར་ཌར་ས་ཁྲ་ཅིག་ "
-"སླར་འདྲེན་འབད།"
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "བདེན་པ་ཨིན་པ་ཅིན་ \"radar\"ལྡེ་མིག་གིས་ གསལ་བཀོད་འབད་མི་ གནས་ཁོངས་ནང་ལས་ ར་ཌར་ས་ཁྲ་ཅིག་ སླར་འདྲེན་འབད།"
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS[EW]."
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -280,12 +283,9 @@ msgstr "ཉེ་འདབས་ཀྱི་ཁྲོམ་སྡེ།"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://cvs.mate."
-"org/viewcvs/*checkout*/mate-applets/mateweather/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"ཉེ་འདབས་ཀྱི་གླིང་སྡེ་སྦོམ་ དཔེར་ན་ རྒྱལ་ས་ལྟེ་བའི་ཁྲོམ་སྡེ་བཟུམ་ཅིག་ as found from http://cvs."
-"gnome.org/viewcvs/*checkout*/mate-applets/mateweather/Locations.xml.in ནང་ལས་"
-"ཐོབ་ཅི།"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -375,3637 +375,572 @@ msgstr "Weather location information."
 msgid "Zone location"
 msgstr "གླིང་སྡེའི་གནས་ཁོངས།"
 
-#: ../libmateweather/weather-iwin.c:135 ../libmateweather/weather-metar.c:554
-#: ../libmateweather/weather-metar.c:582
+#: ../libmateweather/timezone-menu.c:277
+msgctxt "timezone"
+msgid "Unknown"
+msgstr ""
+
+#. Translators: %d is an error code, and %s the error string
+#: ../libmateweather/weather-metar.c:504
+#, c-format
+msgid "Failed to get METAR data: %d %s.\n"
+msgstr ""
+
+#: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
 msgstr "གནམ་གཤིས་བརྡ་དོན་མེད་པའི་གནས་ཁོངས།"
 
-#: ../libmateweather/weather-metar.c:527 ../libmateweather/weather-metar.c:562
-#: ../libmateweather/weather-wx.c:63
-msgid "Failed to get METAR data.\n"
-msgstr "མེ་ཊར་གནད་སྡུད་ ལེན་མ་ཚུགས།\n"
-
-#: ../libmateweather/weather.c:180
+#: ../libmateweather/weather.c:232
 msgid "Variable"
 msgstr "འགྱུར་བ་ཅན།"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "North"
 msgstr "བྱང་།"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
 msgstr "བྱང་-བྱང་ཤར།"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "Northeast"
 msgstr "བྱང་ཤར།"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
 msgstr "ཤར་-བྱང་ཤར།"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "East"
 msgstr "ཤར།"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "East - Southeast"
 msgstr "ཤར་-ཤར་ལྷོ།"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "Southeast"
 msgstr "ཤར་ལྷོ།"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "South - Southeast"
 msgstr "ལྷོ་-ཤར་ལྷོ།"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "South"
 msgstr "ལྷོ།"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "South - Southwest"
 msgstr "ལྷོ་-ལྷོ་ནུབ།"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "Southwest"
 msgstr "ལྷོ་ནུབ།"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "West - Southwest"
 msgstr "ནུབ་-ལྷོ་ནུབ།"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "West"
 msgstr "ནུབ།"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "West - Northwest"
 msgstr "ནུབ་-ནུབ་བྱང་།"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "Northwest"
 msgstr "ནུབ་བྱང་།"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "བྱང་-ནུབ་བྱང་།"
 
-#: ../libmateweather/weather.c:190 ../libmateweather/weather.c:690
-#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:752
-#: ../libmateweather/weather.c:764 ../libmateweather/weather.c:779
-#: ../libmateweather/weather.c:795 ../libmateweather/weather.c:832
-#: ../libmateweather/weather.c:844 ../libmateweather/weather.c:863
-#: ../libmateweather/weather.c:895 ../libmateweather/weather.c:908
-#: ../libmateweather/weather.c:928
-msgid "Unknown"
-msgstr "མ་ཤེསཔ།"
-
-#: ../libmateweather/weather.c:192 ../libmateweather/weather.c:209
-#: ../libmateweather/weather.c:280
+#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:332
 msgid "Invalid"
 msgstr "ནུས་མེད།"
 
-#: ../libmateweather/weather.c:198
+#: ../libmateweather/weather.c:249
 msgid "Clear Sky"
 msgstr "གནམ་དྭངས།"
 
-#: ../libmateweather/weather.c:199
+#: ../libmateweather/weather.c:250
 msgid "Broken clouds"
 msgstr "བར་ཆད་པའི་ས་སྨུག"
 
-#: ../libmateweather/weather.c:200
+#: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
 msgstr "ཁ་ཐོར་བའི་ས་སྨུག"
 
-#: ../libmateweather/weather.c:201
+#: ../libmateweather/weather.c:252
 msgid "Few clouds"
 msgstr "ས་སྨུག་ཐར་ཐོར།"
 
-#: ../libmateweather/weather.c:202
+#: ../libmateweather/weather.c:253
 msgid "Overcast"
 msgstr "སྨུག་གྲིབ་ཅན།"
 
 #. TRANSLATOR: If you want to know what "blowing" "shallow" "partial"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
-#. * http://www.crh.noaa.gov/arx/wx.tbl.html
+#. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:241 ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
 msgstr "འབྲུག་ཆར།"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Drizzle"
 msgstr "ཟིམ་ཆར།"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Light drizzle"
 msgstr "ཟིམ་ཆར་དུམ་གྲ་རེ།"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
 msgstr "ཟིམ་ཆར་རན་པ།"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
 msgstr "ཟིམ་ཆར་ཤུགས་ཅན།"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
 msgstr "གྲང་ངེར་ཟིམ་ཆར།"
 
 #. RAIN
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Rain"
 msgstr "ཆརཔ།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Light rain"
 msgstr "ཆརཔ་དུམ་གྲ་རེ།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Moderate rain"
 msgstr "ཆརཔ་རན་པ།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Heavy rain"
 msgstr "ཆརཔ་ཤུགས་ཅན།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Rain showers"
 msgstr "འབྲུ་ཆར།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Freezing rain"
 msgstr "གྲང་ཆར།"
 
 #. SNOW
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snow"
 msgstr "ཁཝ།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Light snow"
 msgstr "ཁཝ་དུམ་གྲ་རེ།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Moderate snow"
 msgstr "ཁཝ་རན་པ།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Heavy snow"
 msgstr "ཁཝ་ཤུགས་ཅན།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snowstorm"
 msgstr "ཁ་ཆར།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
 msgstr "ཁ་རླུང་།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snow showers"
 msgstr "ཁ་ཟིམ།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Drifting snow"
 msgstr "ཁ་ཕུང་།"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Snow grains"
 msgstr "ཁ་རིལ།"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Light snow grains"
 msgstr "ཁ་རིལ་དུམ་གྲ་རེ།"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
 msgstr "ཁ་རིལ་རན་པ།"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
 msgstr "ཁ་རིལ་ཤུགས་ཅན།"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:297
 msgid "Ice crystals"
 msgstr "ཁྱེགས་ཤེལ།"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Ice pellets"
 msgstr "ཁྱེགས་རིལ།"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
 msgstr "ཁྱེགས་རིལ་དག་པ་རེ།"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
 msgstr "ཁྱེགས་རིལ་རན་པ།"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
 msgstr "ཁྱེགས་རིལ་ཤུགས་ཅན།"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
 msgstr "ཁྱེགས་རིལ་རླུང་འཚུབས།"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
 msgstr "ཁྱེགས་རིལ་ཟིམ་ཆར།"
 
 #. HAIL
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hail"
 msgstr "སེརཝ།"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hailstorm"
 msgstr "སེར་ཆར།"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hail showers"
 msgstr "སེར་ཟིམ།"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Small hail"
 msgstr "སེར་ཆུང་།"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
 msgstr "སེར་ཆར་ཆུང་ཀུ།"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
 msgstr "སེར་ཆུང་གི་ཆར་ཟིམ།"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:250
+#: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
 msgstr "མ་ཤེས་པའི་ཆར་ཞོད།"
 
 #. MIST
-#: ../libmateweather/weather.c:251
+#: ../libmateweather/weather.c:302
 msgid "Mist"
 msgstr "སྨུག་ཟིལ།"
 
 #. FOG
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Fog"
 msgstr "ན་བུན།"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
 msgstr "མཐའ་སྐོར་གྱི་ན་བུན།"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Shallow fog"
 msgstr "ན་བུན་སྲབ་མོ།"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Patches of fog"
 msgstr "ན་བུན་མཚམས་ཐོར།"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Partial fog"
 msgstr "ན་བུན་ཐར་ཐོར།"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Freezing fog"
 msgstr "གྲང་ངེར་ཅན་གྱི་ན་བུན།"
 
 #. SMOKE
-#: ../libmateweather/weather.c:253
+#: ../libmateweather/weather.c:304
 msgid "Smoke"
 msgstr "དུ་པ།"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:254
+#: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
 msgstr "མེ་རིའི་སྒོ་ཐལ།"
 
 #. SAND
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Sand"
 msgstr "བྱེམ།"
 
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Blowing sand"
 msgstr "འཕུར་བའི་བྱེམ།"
 
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Drifting sand"
 msgstr "བྱེ་ཕུང་།"
 
 #. HAZE
-#: ../libmateweather/weather.c:256
+#: ../libmateweather/weather.c:307
 msgid "Haze"
 msgstr "དུ་སྨུག"
 
 #. SPRAY
-#: ../libmateweather/weather.c:257
+#: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
 msgstr "འཕུར་བའི་ཆར་ཟིལ།"
 
 #. DUST
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Dust"
 msgstr "ཐལཝ།"
 
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Blowing dust"
 msgstr "འཕུར་ཐལ།"
 
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Drifting dust"
 msgstr "ཐལ་ཕུང་།"
 
 #. SQUALL
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:310
 msgid "Squall"
 msgstr "རླུང་འཚུབས།"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm"
 msgstr "བྱེ་མའི་རླུང་།"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
 msgstr "མཐའ་སྐོར་གྱི་བྱེ་མའི་རླུང་།"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
 msgstr "བྱེ་མའི་རླུང་དྲག་པོ།"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Duststorm"
 msgstr "ཐལ་རླུང་།"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
 msgstr "མཐའ་སྐོར་གྱི་ཐལ་རླུང་།"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
 msgstr "ཐལ་རླུང་དྲག་པོ།"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
 msgstr "ས་སྨུག་དཀྱུས་རིང་།"
 
 #. TORNADO
-#: ../libmateweather/weather.c:263
+#: ../libmateweather/weather.c:314
 msgid "Tornado"
 msgstr "དྲག་རླུང་།"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:264
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls"
 msgstr "ཐལ་བའི་འཁྱིལ་རླུང་།"
 
-#: ../libmateweather/weather.c:264
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
 msgstr "མཐའ་སྐོར་ནང་གི་་ ཐལ་བའི་འཁྱིར་རླུང་།"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
-#: ../libmateweather/weather.c:662
+#. 
+#: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
 
-#: ../libmateweather/weather.c:677
+#: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
 msgstr "མ་ཤེས་པའི་ བལྟ་དཔྱད་དུས་ཚོད།"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\342\204\211 is the "DEGREE FAHRENHEIT" symbol)
-#: ../libmateweather/weather.c:710
-#, fuzzy, c-format
-msgid "%.1f ℉"
-msgstr "%.1f ཀེ"
+#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
+#: ../libmateweather/weather.c:830 ../libmateweather/weather.c:843
+#: ../libmateweather/weather.c:861 ../libmateweather/weather.c:879
+#: ../libmateweather/weather.c:917 ../libmateweather/weather.c:933
+#: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
+#: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\342\204\211 is the "DEGREE FAHRENHEIT" symbol)
-#: ../libmateweather/weather.c:713
-#, fuzzy, c-format
-msgid "%d ℉"
-msgstr "%d K"
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:761
+#, c-format
+msgid "%.1f °F"
+msgstr ""
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\342\204\203 is the "DEGREE CELSIUS" symbol)
-#: ../libmateweather/weather.c:719
-#, fuzzy, c-format
-msgid "%.1f ℃"
-msgstr "%.1f ཀེ"
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:764
+#, c-format
+msgid "%d °F"
+msgstr ""
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\342\204\203 is the "DEGREE CELSIUS" symbol)
-#: ../libmateweather/weather.c:722
-#, fuzzy, c-format
-msgid "%d ℃"
-msgstr "%d K"
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:770
+#, c-format
+msgid "%.1f °C"
+msgstr ""
+
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:773
+#, c-format
+msgid "%d °C"
+msgstr ""
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:728
+#: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f ཀེ"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:731
+#: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:782
+#: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:807
+#: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f ནོཊིསི།"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:811
+#: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f ཆུ་ཚོད་རེ་ནང་མ་ཡེལ།"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:815
+#: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f ཆུ་ཚོད་རེ་ནང་ ཀི་ལོ་མི་ཊར།"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:819
+#: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f སྐར་ཆ་རེ་ནང་ མི་ཊར།"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
-#: ../libmateweather/weather.c:825
+#. 
+#: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "བིའུ་ཕོརཊི་གི་ནུས་ཤུགས་%.1f།"
 
-#: ../libmateweather/weather.c:846
+#: ../libmateweather/weather.c:935
 msgid "Calm"
 msgstr "ཞི་འཇམ།"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:850
+#: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:868
+#: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f མར་ཀུ་རིའི་ ཨིན་ཅེསི།"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:872
+#: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f མར་ཀུ་རིའི་ མི་ལི་མི་ཊར།"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:876
+#: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f ཀི་ལོ་པཱསི་ཀཱལ།"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:880
+#: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f ཧེཀ་ཊོ་པཱསི་ཀཱལ།"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:884
+#: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f མི་ལི་བར།"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:888
+#: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f ཨེ་ཊི་ཨེམ།"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:913
+#: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f མ་ཡིལ།"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:917
+#: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f ཀི་ལོ་མི་ཊར།"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:921
+#: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
 msgstr "%.0f མི་ཊར།"
 
-#: ../libmateweather/weather.c:949 ../libmateweather/weather.c:969
+#: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: ../libmateweather/weather.c:1002
+#: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "སླར་འདྲེན་འབད་མ་ཚུགས།"
-
-#~ msgid "_About"
-#~ msgstr "སྐོར་ལས།(_A)"
-
-#~ msgid "_Help"
-#~ msgstr "གྲོགས་རམ།(_H)"
-
-#~ msgid "_Keyboard Accessibility Preferences"
-#~ msgstr "ལྡེ་སྒྲོམ་ལུ་ འཛུལ་སྤྱོད་ཀྱི་དགའ་གདམ་ཚུ།\"(_K)"
-
-#~ msgid "AccessX Status Applet Factory"
-#~ msgstr "འཛུལ་སྤྱོད་ཨེགསི་ གནས་ཚད་ཀྱི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid "Keyboard Accessibility Status"
-#~ msgstr "ལྡེ་སྒྲོམ་ལུ་ འཛུལ་སྤྱོད་ཀྱི་གནས་ཚད།"
-
-#~ msgid "Keyboard Accessibility Status Applet Factory"
-#~ msgstr "ལྡེ་སྒྲོམ་ལུ་ འཛུལ་སྤྱོད་གནས་ཚད་ཀྱི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid "Shows the status of keyboard accessibility features"
-#~ msgstr "ལྡེ་སྒྲོམ་ལུ་ འཛུལ་སྤྱོད་ཁྱད་རྣམ་གྱི་ གནས་ཚད་སྟོན།"
-
-#~ msgid "AccessX Status"
-#~ msgstr "འཛུལ་སྤྱོད་ཨེགསི་གི་གནས་ཚད།"
-
-#~ msgid "Shows the state of AccessX features such as latched modifiers"
-#~ msgstr "འཛུལ་སྤྱོད་ཨེགསི་གི་ཁྱད་རྣམ་ ལེཊིཆ་ ལེགས་བཅོས་པ་བཟུམ་སྦེ་ གནས་ལུགས་སྟོན།"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་"
-#~ "གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
-
-#~ msgid "There was an error launching the help viewer: %s"
-#~ msgstr "གྲོགས་རམ་མཐོང་བྱེད་:%s གསར་བཙུགས་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ཡི།"
-
-#~ msgid "There was an error launching the keyboard preferences dialog: %s"
-#~ msgstr "ལྡེ་སྒྲོམ་གྱི་དགའ་གདམ་ ཌའི་ལོག་ :%s གསར་བཙུགས་འབད་ནི་ལུ་ འཚོལ་བ་ཅིག་བྱུང་ནུག"
-
-#~ msgid "a"
-#~ msgstr "ཨེ།"
-
-#~ msgid "Shows keyboard status when accessibility features are used."
-#~ msgstr "འཛུལ་སྤྱོད་ཀྱི་ཁྱད་རྣམ་ཚུ་ ལག་ལེན་འཐབ་པའི་སྐབས་ ལྡེ་སྒྲོམ་གྱི་གནས་ཚད་སྟོན།"
-
-#~ msgid "XKB Extension is not enabled"
-#~ msgstr "ཨེགསི་ཀེ་བི་ རྒྱ་བསྐྱེད་དེ་ ལྕོགས་ཅན་མིན་པས།"
-
-#~ msgid "Unknown error"
-#~ msgstr "མ་ཤེས་པའི་འཛོལ་བ།"
-
-#~ msgid "Error: %s"
-#~ msgstr "འཛོལ་བ་:%s"
-
-#~ msgid "Displays current state of keyboard accessibility features"
-#~ msgstr "ལྡེ་སྒྲོམ་འཛུལ་སྤྱོད་ཁྱད་རྣམ་གྱི་ ད་ལྟོའི་གནས་ལུགས་ བཀྲམ་སྟོན་འབད།"
-
-#~ msgid "Battery Charge Monitor"
-#~ msgstr "འཕྲུལ་ལྟོའི་ཤུགས་ཚད་ ལྟ་རྟོག་།"
-
-#~ msgid "Battstat Factory"
-#~ msgstr "འཕྲུལ་ལྟོའི་གནས་ཚད་ འཕྲུལ་ཁང་།"
-
-#~ msgid "Monitor a laptop's remaining power"
-#~ msgstr "ལེཔ་ཊོཔ་གི་ ནུས་ཤུགས་ལྷག་ལུས་ བལྟ་རྟོག་འབད།"
-
-#~ msgid "_Preferences"
-#~ msgstr "དགའ་གདམ་ཚུ།\"(_P)"
-
-#~ msgid "0 for no label, 1 for percentage and 2 for time remaining"
-#~ msgstr "ཁ་ཡིག་མེད་པའི་དོན་ལུ་ ༠། བརྒྱ་ཆའི་དོན་ལུ་ ༡། དུས་ཚོད་ལྷག་ལུས་དོན་ལུ་ ༢།"
-
-#~ msgid "Beep for warnings"
-#~ msgstr "ཉེན་བརྡའི་དོན་ལུ་ བརྡ་སྐད་སྟོན།"
-
-#~ msgid "Beep when displaying a warning"
-#~ msgstr "ཉེན་བརྡ་བཀྲམ་་སྟོན་འབད་བའི་སྐབས་ བརྡ་སྐད་སྟོན།"
-
-#~ msgid "Drain from top"
-#~ msgstr "མགུ་ལས་བཙགས་གཏང་།"
-
-#~ msgid "Full Battery Notification"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གང་བའི་བརྡ་བསྐུལ།"
-
-#~ msgid "Low Battery Notification"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་དམའ་བའི་བརྡ་བསྐུལ།"
-
-#~ msgid "Notify user when the battery is full"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གངམ་སྦེ་ཡོད་པའི་སྐབས་ ལག་ལེན་པ་ལུ་ བརྡ་བསྐུལ་འབད།"
-
-#~ msgid "Notify user when the battery is low"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་དམའ་བའི་སྐབས་ ལག་ལེན་པ་ལུ་ བརྡ་བསྐུལ་འབད།"
-
-#~ msgid "Red value level"
-#~ msgstr "དམརཔོ་གི་བེ་ལུའི་ གནས་རིམ།"
-
-#~ msgid ""
-#~ "Show the battery meter draining from the top of the battery. Only "
-#~ "implemented for traditional battery view."
-#~ msgstr ""
-#~ "འཕྲུལ་ལྟོའི་མགུ་ལས་བཙགས་པའི་ འཕྲུལ་ལྟོའི་མི་ཊར་སྟོན། སྔར་སྲོལ་འཕྲུལ་ལྟོའི་དོན་ལུ་རྐྱངམ་གཅིག་ བསྟཡཝར་སྤྱོད་"
-#~ "འབདཝ་ཨིན།"
-
-#~ msgid "Show the horizontal battery"
-#~ msgstr "ཐད་སྙོམས་འཕྲུལ་ལྟོ་སྟོན།"
-
-#~ msgid "Show the time/percent label"
-#~ msgstr "དུས་ཚོད་/བརྒྱ་ཆའི་ ཁ་ཡིག་སྟོན།"
-
-#~ msgid "Show the traditional, horizontal battery on the panel"
-#~ msgstr "པེ་ནཱལ་གུ་ སྔར་སྲོལ་གྱི་ཐད་སྙོམས་འཕྲུལ་ལྟོ་སྟོན།"
-
-#~ msgid "Show the upright, smaller battery on the panel"
-#~ msgstr "པེ་ནཱལ་གུ་ ཡར་ལོངས་པའི་ འཕྲུལ་ལྟོ་ཆུང་ཀུ་སྟོན།"
-
-#~ msgid ""
-#~ "The battery level below which the battery is displayed as red. Also the "
-#~ "value at which the low battery warning is displayed."
-#~ msgstr ""
-#~ "དམརཔོ་གི་ཚད་ཀྱི་འོག་ལུ་ བཀྲམ་སྟོན་འབད་མི་ འཕྲུལ་ལྟོའི་གནས་རིམ། འཕྲུལ་ལྟོ་དམའ་བའི་ཉེན་བརྡ་ བཀྲམ་སྟོན་"
-#~ "འབད་ཡོད་པའི་བེ་ལུ།"
-
-#~ msgid "Upright (small) battery"
-#~ msgstr "ཡར་ལོངས་པའི་འཕྲུལ་ལྟོ་(ཆུང་ཀུ)"
-
-#~ msgid ""
-#~ "Use the value defined in red_value as a time remaining to show the "
-#~ "warning dialog rather than a percentage"
-#~ msgstr ""
-#~ "བརྒྱ་ཆའི་ཚབ་ལུ་ ཉེན་བརྡའི་ཌའི་ལོག་སྟོན་ནིའི་དོན་ལུ་ རེཌི་བེ་ལུ་ནང་ ངེས་འཛིན་འབད་མི་བེ་ལུ་དེ་ དུས་ཚོད་"
-#~ "ལྷག་ལུས་བཟུམ་ཅིག་སྦེ་ ལག་ལེན་འཐབ།(_v)"
-
-#~ msgid "Warn on low time rather than low percentage"
-#~ msgstr "བརྒྱ་ཆ་དམའ་བའི་ཚབ་ལུ་ དུས་ཚོད་དམའ་བའི་ ཉེན་བརྡ་སྟོན།"
-
-#~ msgid "System is running on AC power"
-#~ msgstr "རིམ་ལུགས་འདི་ ཨེ་སི་ནུས་ཤུགས་གུ་ གཡོག་བཀོལ་་དོ།"
-
-#~ msgid "System is running on battery power"
-#~ msgstr "རིམ་ལུགས་འདི་ འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གུ་ གཡོག་བཀོལ་་དོ།"
-
-#~ msgid "Battery charged (%d%%)"
-#~ msgstr "འཕྲུལ་ལྟོ་ལུ་ ནུས་ཤུགས་ (%d%%)བླུགས་ཡོད།"
-
-#~ msgid "Unknown time (%d%%) remaining"
-#~ msgstr "མ་ཤེས་པའི་དུས་ཚོད་ (%d%%) ལྷག་ལུས།"
-
-#~ msgid "Unknown time (%d%%) until charged"
-#~ msgstr "ཤུགས་མ་བླུགས་ཚུན་ཚོད་(%d%%)  མ་ཤེས་པའི་དུས་ཚོད།"
-
-#~ msgid "%d minute (%d%%) remaining"
-#~ msgid_plural "%d minutes (%d%%) remaining"
-#~ msgstr[0] "སྐར་མ་%d ལྷག་ལུས་(%d%%)།"
-#~ msgstr[1] "སྐར་མ་%d ལྷག་ལུས་(%d%%)། "
-
-#~ msgid "%d minute until charged (%d%%)"
-#~ msgid_plural "%d minutes until charged (%d%%)"
-#~ msgstr[0] "སྐར་མ་%d ནུས་ཤུགས་(%d%%)མ་བླུགས་ཚུན་ཚོད།"
-#~ msgstr[1] "སྐར་མ་%d ནུས་ཤུགས་(%d%%)མ་བླུགས་ཚུན་ཚོད།"
-
-#~ msgid "%d hour (%d%%) remaining"
-#~ msgid_plural "%d hours (%d%%) remaining"
-#~ msgstr[0] "ཆུ་ཚོད་%d ལྷག་ལུས་(%d%%)།"
-#~ msgstr[1] "ཆུ་ཚོད་%d ལྷག་ལུས་(%d%%)།"
-
-#~ msgid "%d hour until charged (%d%%)"
-#~ msgid_plural "%d hours until charged (%d%%)"
-#~ msgstr[0] "ཆུ་ཚོད་%d ནུས་ཤུགས་(%d%%)མ་བླུགས་ཚུན་ཚོད།"
-#~ msgstr[1] "ཆུ་ཚོད་%d ནུས་ཤུགས་(%d%%)མ་བླུགས་ཚུན་ཚོད།"
-
-#~ msgid "%d %s %d %s (%d%%) remaining"
-#~ msgstr "ལྷག་ལུས་%d %s %d %s (%d%%)། "
-
-#~ msgid "hour"
-#~ msgid_plural "hours"
-#~ msgstr[0] "ཆུ་ཚོད།"
-#~ msgstr[1] "ཆུ་ཚོད་ཚུ།"
-
-#~ msgid "minute"
-#~ msgid_plural "minutes"
-#~ msgstr[0] "སྐར་མ།"
-#~ msgstr[1] "སྐར་མ་ཚུ།"
-
-#~ msgid "%d %s %d %s until charged (%d%%)"
-#~ msgstr " %d %s %d %s ནུས་ཤུགས་(%d%%)མ་བླུགས་ཚུན་ཚོད་།"
-
-#~ msgid "Battery Monitor"
-#~ msgstr "འཕྲུལ་ལྟོའི་ཤུགས་ཚད་ལྟ་རྟོག་།"
-
-#~ msgid "Your battery is now fully recharged"
-#~ msgstr "ཁྱོད་ཀྱི་འཕྲུལ་ལྟོ་དེ་ ནུས་ཤུགས་གངམ་སྦེ་རང་ བསྐྱར་བླུགས་འབད་ཡི།"
-
-#~ msgid "Battery Notice"
-#~ msgstr "འཕྲུལ་ལྟོའི་བརྡ་བསྐུལ།"
-
-#~ msgid "You have %d%% of your total battery capacity remaining."
-#~ msgstr "ཁྱོད་རའི་འཕྲུལ་ལྟོ་ཤོང་ཚད་ལྷག་ལུད་ཀྱི་བསྡོམ་གྱི་ %d%% ཁྱོད་ལུ་ཡོདཔ་ཨིན།"
-
-#~ msgid ""
-#~ "You have %d minute of battery power remaining (%d%% of the total "
-#~ "capacity)."
-#~ msgid_plural ""
-#~ "You have %d minutes of battery power remaining (%d%% of the total "
-#~ "capacity)."
-#~ msgstr[0] ""
-#~ "ཁྱོད་ལུ་འཕྲུལ་ལྟོའི་ནུས་ཤུགས་ སྐར་མ་%dལྷག་ལུས་ཡོད། ནུས་ཤུགས་ཡོངས་བསྡོམས་ (%d%%ཡོད་ས་ལས།"
-#~ msgstr[1] ""
-#~ "\"ཁྱོད་ལུ་འཕྲུལ་ལྟོའི་ནུས་ཤུགས་ སྐར་མ་%dལྷག་ལུས་ཡོད། ནུས་ཤུགས་ཡོངས་བསྡོམས་ (%d%%ཡོད་ས་ལས།\""
-
-#~ msgid ""
-#~ "To avoid losing your work:\n"
-#~ " • plug your laptop into external power, or\n"
-#~ " • save open documents and shut your laptop down."
-#~ msgstr ""
-#~ "ཁྱོད་རའི་ལཱ་ བརླག་སྟོར་མི་ཞུགས་ནིའི་དོན་ལུ:\n"
-#~ "* ཁྱོད་རའི་ལེཔ་ཊོཔ་ ཕྱི་ཁའི་གློག་ལམ་ནང་བཙུགས། ཡང་ན་\n"
-#~ "* ཁ་ཕྱེ་སྟེ་ཡོད་པའི་ཡིག་ཆ་ཚུ་བསྲུངས་ཞིནམ་ལས་ ལེཔ་ཊོཔ་སྒོ་བསྡམས།"
-
-#~ msgid ""
-#~ "To avoid losing your work:\n"
-#~ " • suspend your laptop to save power,\n"
-#~ " • plug your laptop into external power, or\n"
-#~ " • save open documents and shut your laptop down."
-#~ msgstr ""
-#~ "ཁྱོད་རའི་ལཱ་ བརླག་སྟོར་མི་ཞུགས་ནིའི་དོན་ལུ:\n"
-#~ "* འཕྲུལ་ལྟོའི་ནུས་ཤུགས་ བསྲུང་ནིའི་དོན་ལུ་ ཁྱོད་རའི་ལེཔ་ཊོཔ་ འཕྲལ་བཀད་འབད་བཞག\n"
-#~ "* ཁྱོད་རའི་ལེཔ་ཊོཔ་ ཕྱི་ཁའི་གློག་ལམ་ནང་བཙུགས།\n"
-#~ "* ཡིག་ཆ་ཚུ་བསྲུང་ཞིནམ་ལས་ ལེཔ་ཊོཔ་སྒོ་བསྡམས།"
-
-#~ msgid "Your battery is running low"
-#~ msgstr "ཁྱོད་ཀྱི་འཕྲུལ་ལྟོའི་ནུས་ཤུགས་དེ་ དམའ་སུ་ཅིག་འགྱོ་དོ།"
-
-#~ msgid "No battery present"
-#~ msgstr "འཕྲུལ་ལྟོ་མིན་འདུག"
-
-#~ msgid "Battery status unknown"
-#~ msgstr "འཕྲུལ་ལྟོའི་གནས་ཚད་མ་ཤེས"
-
-#~ msgid "N/A"
-#~ msgstr "ཨེན་/ཨེ།"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "་གྲོགས་རམ་ %s བཀྲམ་སྟོན་འབད་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ནུག"
-
-#~ msgid "This utility shows the status of your laptop battery."
-#~ msgstr "སྤྱོད་ཆས་འདི་གིས་ ཁྱོད་ཀྱི་ལེཔ་ཊོཔ་གི་ འཕྲུལ་ལྟོའི་གནས་ཚད་སྟོནམ་ཨིན།"
-
-#~ msgid "HAL backend enabled."
-#~ msgstr "ཨེཆ་ཨེ་ཨེལ་ རྒྱབ་མཐའ་ལྕོགས་ཅན་བཟོ་ཡི།"
-
-#~ msgid "Legacy (non-HAL) backend enabled."
-#~ msgstr "སྔོན་བཤུལ་(ཨེཆ་ཨེ་ཨེལ་མེན་པའི་) རྒྱབ་མཐའ་ལྕོགས་ཅན་བཟོ་ཡི།"
-
-#~ msgid "<b>Appearance</b>"
-#~ msgstr "<b>འབྱུང་སྣང་</b>"
-
-#~ msgid "<b>Notifications</b>"
-#~ msgstr "<b>བརྡ་བསྐུལ་ཚུ་</b>"
-
-#~ msgid "<small>(shows single image for status and charge)</small>"
-#~ msgstr "<small>(གནས་ཚད་དང་ ཤུགས་ཚད་ཀྱི་དོན་ལུ་ གཟུགས་བརྙན་གཅིག་སྟོན)</small>"
-
-#~ msgid "<small>(two images: one for status, one for charge)</small>"
-#~ msgstr "<small>(གཟུགས་བརྙན་གཉིས་: གཅིག་གནས་ཚད་དོན་ལུ། གཅིག་ཤུགས་ཚད་དོན་ལུ)</small>"
-
-#~ msgid "Battery Charge Monitor Preferences"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་ ལྟ་རྟོག་་ཀྱི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "Show _percentage remaining"
-#~ msgstr "ལྷག་ལུས་ཀྱི་བརྒྱ་ཆ་སྟོན།\"(_p)"
-
-#~ msgid "Show _time remaining"
-#~ msgstr "དུས་ཚོད་ལྷག་ལུས་སྟོན།\"(_t)"
-
-#~ msgid "_Compact view"
-#~ msgstr "སྲབ་ཆུང་མཐོང་སྣང་།(_C)"
-
-#~ msgid "_Expanded view"
-#~ msgstr "རྒྱ་བསྐྱེད་འབད་བའི་མཐོང་སྣང་།(_E)"
-
-#~ msgid "_Notify when battery is fully recharged"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གངམ་སྦེ་ བསྐྱར་བླུགས་འབད་སྐབས་ བརྡ་བསྐུལ་འབད།(_N)"
-
-#~ msgid "_Show time/percentage:"
-#~ msgstr "ཆུ་ཚོད་/བརྒྱ་ཆ་སྟོན་:(_S)"
-
-#~ msgid "_Warn when battery charge drops to:"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་: ལུ་འབབ་པའི་འི་སྐབས་ ཉེན་བརྡ་འབད།(_W)"
-
-#~ msgid "Percent"
-#~ msgstr "བརྒྱ་ཆ།"
-
-#~ msgid "Minutes Remaining"
-#~ msgstr "སྐར་མ་ལྷག་ལུས།"
-
-#~ msgid "Battery Status Utility"
-#~ msgstr "འཕྲུལ་ལྟོའི་གནས་ཚད་སྤྱོད་ཆས།"
-
-#~ msgid "Battery fully re-charged"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་གངམ་སྦེ་རང་ ལོག་བླུགས་ཅི།"
-
-#~ msgid "Battery power low"
-#~ msgstr "འཕྲུལ་ལྟོའི་ནུས་ཤུགས་དམའ་བས།"
-
-#~ msgid "Character Palette"
-#~ msgstr "ཡིག་འབྲུའི་པེ་ལེཊི།"
-
-#~ msgid "Charpicker Applet Factory"
-#~ msgstr "ཡིག་འབྲུ་འཐུ་མི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid "Insert characters"
-#~ msgstr "ཡིག་འབྲུ་བཙུགས།"
-
-#~ msgid "Available palettes"
-#~ msgstr "འཐོབ་ཚུགས་པའི་ པེ་ལེཊིསི།"
-
-#~ msgid "Insert \"%s\""
-#~ msgstr "\"%s\"བཙུགས།"
-
-#~ msgid "Insert special character"
-#~ msgstr "དམིགས་བསལ་གྱི་ཡིག་འབྲུ་བཙུགས།"
-
-#~ msgid "insert special character %s"
-#~ msgstr "དམིགས་བསལ་གྱི་ཡིག་འབྲུ་%s བཙུགས།"
-
-#~ msgid ""
-#~ "Mate Panel applet for selecting strange characters that are not on my "
-#~ "keyboard. Released under GNU General Public Licence."
-#~ msgstr ""
-#~ "ངེད་ཀྱི་ལྡེ་སྒྲོམ་གུ་མེད་པའི་ ཡིག་འབྲུ་གསརཔ་ཚུ་ སེལ་འཐུའི་དོན་ལུ་ ཇི་ནོམ་པེ་ནཱལ་གྱི་ ཨེཔ་ལེཊི། ཇི་ཨེན་ཡུ་ "
-#~ "ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་ཐོག་ལས་ འཛིན་གྲོལ་འབད་ཡོད།"
-
-#~ msgid "Characters shown on applet startup"
-#~ msgstr "ཨེཔ་ལེཊི་ འགོ་བཙུགས་སྐབས་སྟོན་མི་ ཡིག་འབྲུ་ཚུ།"
-
-#~ msgid "DEPRECATED - Characters shown on applet startup"
-#~ msgstr "ངོས་ལེན་མེདཔ་-ཨེཔ་ལེཊི་ འགོ་བཙུགས་སྐབས་སྟོན་མི་ ཡིག་འབྲུ་ཚུ།"
-
-#~ msgid "List of available palettes"
-#~ msgstr "འཐོབ་ཚུགས་པའི་ པེ་ལེཊིསི་གི་ ཐོ་ཡིག"
-
-#~ msgid "List of strings containing the available palettes"
-#~ msgstr "འཐོབ་ཚུགས་པའི་ པེ་ལེཊིསི་གི་ནང་ན་ཡོད་པའི་ ཡིག་རྒྱུན་ཚུ་གི་ཐོ་ཡིག"
-
-#~ msgid ""
-#~ "The string that the user had selected when the applet was last used. This "
-#~ "string will be displayed when the user starts the applet."
-#~ msgstr ""
-#~ "ལག་ལེན་པ་གིས་ མཐའ་མཇུག་གི་པེ་ལེཊི་དེ་ ལག་ལེན་འཐབ་པའི་སྐབས་ སེལ་འཐུ་འབད་མི་ཡིག་རྒྱུན། ལག་ལེན་"
-#~ "པ་གིས་ པེ་ལེཊི་དེ་ འགོ་བཙུགསཔ་ད་ ཡིག་རྒྱུན་དེ་བཀྲམ་སྟོན་འབད་འོང་།"
-
-#~ msgid "_Edit"
-#~ msgstr "ཞུན་དག(_E)"
-
-#~ msgid "_Palette:"
-#~ msgstr "པེ་ལེཊི་:(_P)"
-
-#~ msgid "Palette entry"
-#~ msgstr "པེ་ལེཊི་ཐོ་བཀོད།"
-
-#~ msgid "Modify a palette by adding or removing characters"
-#~ msgstr "ཡིག་འབྲུ་ཚུ་ ཁ་སྐོང་བརྐྱབས་པའམ་ རྩ་བསྐྲད་བཏང་ཐོག་ལས་ པེ་ལེཊི་ཅིག་ ལེགས་བཅོས་འབད།"
-
-#~ msgid "Add Palette"
-#~ msgstr "པེ་ལེཊི་ ཁ་སྐོང་རྐྱབས།"
-
-#~ msgid "Edit Palette"
-#~ msgstr "པེ་ལེཊི་ ཞུན་དག་རྐྱབས།"
-
-#~ msgid "Palettes list"
-#~ msgstr "པེ་ལེཊིསི་གི་ ཐོ་ཡིག"
-
-#~ msgid "_Palettes:"
-#~ msgstr "པེ་ལེཊིསི་:(_P)"
-
-#~ msgid "Add button"
-#~ msgstr "ཨེབ་རྟ་ཁ་སྐོང་རྐྱབས།"
-
-#~ msgid "Click to add a new palette"
-#~ msgstr "པེ་ལེཊི་གསརཔ་ཅིག་ ཁ་སྐོང་བརྐྱབ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
-
-#~ msgid "Edit button"
-#~ msgstr "ཨེབ་རྟ་ཞུན་དག་རྐྱབས།"
-
-#~ msgid "Click to edit the selected palette"
-#~ msgstr "སེལ་འཐུ་འབད་མི་ པེ་ལེཊི་དེ་ ཞུན་དག་བརྐྱབ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
-
-#~ msgid "Delete button"
-#~ msgstr "ཨེབ་རྟ་བཏོན་གཏང་།"
-
-#~ msgid "Click to delete the selected palette"
-#~ msgstr "སེལ་འཐུ་འབད་མི་ པེ་ལེཊི་དེ་ བཏོན་གཏང་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
-
-#~ msgid "Character Palette Preferences"
-#~ msgstr "ཡིག་འབྲུའི་ པེ་ལེཊི་གི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "CPU Frequency Scaling Monitor"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བ་འབྱུང་ཐེངས་ཀྱི་ཆ་ཚད་འཇལ་ནིའི་ ལྟ་རྟོག"
-
-#~ msgid "Monitor the CPU Frequency Scaling"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་ཐེངས་ཀྱི་ཆ་ཚད་འཇལ་ནི་ལུ་ བལྟ་རྟོག་འབད།"
-
-#~ msgid ""
-#~ "A 0 value means to show cpu frequency, 1 to show frequency and units, and "
-#~ "2 to show percentage instead of frequency."
-#~ msgstr ""
-#~ "བེ་ལུ་ ༠ ཅིག་གིས་ ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་ཐེངས་སྟོནམ་ཨིན། ༡ གིས་ འབྱུང་ཐེངས་དང་ཆ་ཕྲན་ཚུ་སྟོནམ་ཨིན། "
-#~ "༢ ཀྱིས་འབྱུང་ཐེངས་ཀྱི་ཚབ་ལུ་ བརྒྱ་ཆ་སྟོནམ་ཨིན།"
-
-#~ msgid ""
-#~ "A 0 value means to show the applet in graphic mode (pixmap only), 1 to "
-#~ "show the applet in text mode (not to show the pixmap) and 2 to show the "
-#~ "applet in graphic and text mode."
-#~ msgstr ""
-#~ "བེ་ལུ་༠ གིས་ ཚད་རིས་ཐབས་ལམ་(པར་ཁྲ་རྐྱངམ)ནང་ ཨེཔ་ལེཊི་སྟོནམ་ཨིན། ༡ གིས་ ཚིག་ཡིག་ཐབས་ལམ་ནང་"
-#~ "(པར་ཁྲ་སྟོན་ནི་མེན་པར) ཨེཔ་ལེཊི་སྟོནམ་ཨིན། དེ་ལས་ ༢ ཀྱིས་ ཚད་རིས་དང་ ཚིག་ཡིག་ཐབས་ལམ་ནང་ ཨེཔ་"
-#~ "ལེཊི་སྟོནམ་ཨིན།"
-
-#~ msgid "CPU to Monitor"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བ་ལས་ ལྟ་རྟོག་པ་ལུ།"
-
-#~ msgid "Mode to show cpu usage"
-#~ msgstr "ཐབས་ལམ་གྱིས་ ལས་སྦྱོར་ལྟེ་བའི་ ལག་ལེན་སྟོན་དགོཔ།"
-
-#~ msgid ""
-#~ "Set the CPU to monitor. In a single processor system you don't have to "
-#~ "change it."
-#~ msgstr ""
-#~ "ལས་སྦྱོར་ལྟེ་བ་དེ་ ལྟ་རྟོག་་ལུ་ གཞི་སྒྲིག་འབད། ལས་སྦྱོར་གློག་འཕྲུལ་རྐྱང་པའི་རིམ་ལུགས་སྐབས་ བསྒྱུར་བཅོས་"
-#~ "འབད་མི་དགོ"
-
-#~ msgid "The type of text to display (if the text is enabled)."
-#~ msgstr "བཀྲམ་སྟོན་འབད་ནིའི་ ཚིག་ཡིག་གི་དབྱེ་བ། (ཚིག་ཡིག་དེ་ལྕོགས་ཅན་ཨིན་པ་ཅིན)"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "<b>Display Settings</b>"
-#~ msgstr "<b>གཞི་སྒྲིག་ཚུ་བཀྲམ་སྟོན་འབད།</b>"
-
-#~ msgid "<b>Monitor Settings</b>"
-#~ msgstr "<b>གཞི་སྒྲིག་ཚུ་ལུ་ བལྟ་རྟོག་འབད།</b>"
-
-#~ msgid "CPU Frequency Monitor Preferences"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་་ཐེངས་བལྟ་རྟོག་གི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "Show CPU frequency as _frequency"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་ཐེངས་དེ་ ལན་ཐེངས་སྦེ་་སྟོན།(_f)"
-
-#~ msgid "Show CPU frequency as _percentage"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་ཐེངས་དེ་ བརྒྱ་ཆ་སྦེ་སྟོན།(_p)"
-
-#~ msgid "Show frequency _units"
-#~ msgstr "འབྱུང་ཐེངས་ཆ་ཕྲན་སྦེ་སྟོན།(_u)"
-
-#~ msgid "_Appearance:"
-#~ msgstr "འབྱུང་སྣང་:(_A)"
-
-#~ msgid "_Monitored CPU:"
-#~ msgstr "བལྟ་རྟོག་འབད་ཡོད་པའི་ ལས་སྦྱོར་ལྟེ་བ་:(_M)"
-
-#~ msgid "Could not open help document"
-#~ msgstr "གྲོགས་རམ་ཡིག་ཆ་ ཁ་ཕྱེ་མ་ཚུགས།"
-
-#~ msgid "This utility shows the current CPU Frequency Scaling."
-#~ msgstr "སྤྱོད་ཆས་འདི་གིས་ ད་ལྟོའི་ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་ཐེངས་ཀྱི་ཆ་ཚད་འཇལ་ཐངས་སྟོནམ་ཨིན།"
-
-#~ msgid "This utility shows the current CPU Frequency"
-#~ msgstr "སྤྱོད་ཆས་འདི་གིས་ ད་ལྟོའི་ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་ཐེངས་སྟོནམ་ཨིན།"
-
-#~ msgid "Graphic"
-#~ msgstr "ཚད་རིས།"
-
-#~ msgid "Text"
-#~ msgstr "ཡིག་ཚིག"
-
-#~ msgid "Graphic and Text"
-#~ msgstr "ཚད་རིས་དང་ཡིག་ཚིག"
-
-#~ msgid "Frequency Scaling Unsupported"
-#~ msgstr "འབྱུང་ཐེངས་ཀྱི་ ཚད་འཇལ་ནི་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
-
-#~ msgid "CPU frequency scaling unsupported"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བའི་ འབྱུང་ཐེངས་ཀྱི་ཆ་ཚད་འཇལ་ནི་ལུ་ རྒྱབ་སྐྱོར་མིན་འདུག"
-
-#~ msgid ""
-#~ "You will not be able to modify the frequency of your machine.  Your "
-#~ "machine may be misconfigured or not have hardware support for CPU "
-#~ "frequency scaling."
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱིས་ཁྱོད་རའི་གློག་འཕྲུལ་གྱི་ འབྱུང་ཐེངས་དེ་ ལེགས་བཅོས་འབད་མི་ཚུགས། ཁྱོད་ཀྱི་གློག་འཕྲུལ་ལུ་ རིམ་སྒྲིག་"
-#~ "ཕྱི་འགྱུར་འབད་ཡོད་པའམ་ ལས་སྦྱོར་ལྟེ་བའི་འབྱུང་ཐེངས་ཀྱི་ཆ་ཚད་འཇལ་ནིའི་དོན་ལུ་ སྲ་ཆས་ཀྱི་རྒྱབ་སྐྱོར་མི་"
-#~ "འཐོབ།"
-
-#~ msgid "Disk Mounter"
-#~ msgstr "ཌིཀསི་ སྦྱར་བརྩེགས་འབད་མི།"
-
-#~ msgid "Drive Mount Applet Factory"
-#~ msgstr "འཐེན་འཕྲུལ་སྦྱར་བརྩེགས་ཀྱི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid "Factory for drive mount applet"
-#~ msgstr "འཐེན་འཕྲུལ་སྦྱར་བརྩེགས་ཀྱི་ ཨེཔ་ལེཊི་གི་དོན་ལུ་ འཕྲུལ་ཁང་།"
-
-#~ msgid "Mount local disks and devices"
-#~ msgstr "ཉེ་གནས་ཀྱི་ཌིཀསི་དང་ ཐབས་འཕྲུལ་ཚུ་ སྦྱར་བརྩེགས་འབད།"
-
-#~ msgid "(mounted)"
-#~ msgstr "(སྦྱར་བརྩེགས་ཅན་)"
-
-#~ msgid "(not mounted)"
-#~ msgstr "(སྦྱར་བརྩེགས་མ་འབདཝ་)"
-
-#~ msgid "(not connected)"
-#~ msgstr "(མ་མཐུདཔ་)"
-
-#~ msgid "Cannot execute '%s'"
-#~ msgstr "'%s'ལག་ལེན་འཐབ་མི་ཚུགས།"
-
-#~ msgid "Mount Error"
-#~ msgstr "སྦྱར་བརྩེགས་ཀྱི་འཛོལ་བ།"
-
-#~ msgid "Unmount Error"
-#~ msgstr "བརྩེགས་བཤོལ་ལུ་འཛོལ་བ།"
-
-#~ msgid "Eject Error"
-#~ msgstr "ཕྱིར་གཏོན་ལུ་འཛོལ་བ།"
-
-#~ msgid "Error"
-#~ msgstr "འཛོལ་བ།"
-
-#~ msgid "_Play DVD"
-#~ msgstr "ཌི་བི་ཌི་གཏང་།(_P)"
-
-#~ msgid "_Play CD"
-#~ msgstr "སི་ཌི་གཏང་།(_P)"
-
-#~ msgid "_Open %s"
-#~ msgstr "%s ཁ་ཕྱེ།(_O)"
-
-#~ msgid "_Mount %s"
-#~ msgstr "%s སྦྱར་བརྩེགས་འབད།(_M)"
-
-#~ msgid "Un_mount %s"
-#~ msgstr "%s བརྩེགས་བཤོལ་འབད།(_m)"
-
-#~ msgid "_Eject %s"
-#~ msgstr "%s ཕྱིར་བཏོན་འབད།(_E)"
-
-#~ msgid "Applet for mounting and unmounting block volumes."
-#~ msgstr "སྡེབ་ཚན་གྱི་བེ་ལུསི་ཚུ་ སྦྱར་བརྩེགས་འབད་ནི་དང་ བརྩེགས་བཤོལ་འབད་ནིའི་ཨེཔ་ལེཊི།"
-
-#~ msgid "Interval timeout to check mount point status"
-#~ msgstr "སྦྱར་བརྩེགས་ཚད་ཀྱི་གནས་ཚད་ བལྟ་ནིའི་བར་མཚམས་ཀྱི་ངལ་མཚམས།"
-
-#~ msgid "Time in seconds between status updates"
-#~ msgstr "གནས་ཚད་དུས་མཐུན་བཟོ་བའི་ བར་ན་གི་དུས་ཚོད་ སྐར་ཆའི་ནང་།"
-
-#~ msgid "A set of eyeballs for your panel"
-#~ msgstr "ཁྱོད་ཀྱི་པེ་ནཱལ་གྱི་དོན་ལུ་ མིག་རིལ་ཆ་ཚན་ཅིག"
-
-#~ msgid "Geyes"
-#~ msgstr "ཇི་མིག་ཏོ།"
-
-#~ msgid "Geyes Applet Factory"
-#~ msgstr "ཇི་མིག་ཏོའི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid "A goofy little xeyes clone for the MATE panel."
-#~ msgstr "ཇི་ནོམ་ པེ་ནཱལ་གྱི་དོན་ལུ་ ངོ་འདྲ་བཟོ་མི་ ཨེགསི་མིག་རིལ་ཆུང་ཀུ་ཅིག"
-
-#~ msgid "The eyes look in the direction of the mouse pointer"
-#~ msgstr "མིག་ཏོ་ཚུ་གིས་ མཱའུསི་གི་དཔག་བྱེད་ཀྱི་ ཁ་ཐུག་ལུ་བལྟཝ་ཨིན།"
-
-#~ msgid "Directory in which the theme is located"
-#~ msgstr "བརྗོད་དོན་གནས་སའི་སྣོད་ཐོ།"
-
-#~ msgid "Can not launch the eyes applet."
-#~ msgstr "མིག་ཏོ་གི་ཨེཔ་ལེཊི་ གསར་བཙུགས་འབད་མི་ཚུགས་པས།"
-
-#~ msgid "There was a fatal error while trying to load the theme."
-#~ msgstr "བརྗོད་དོན་དེ་ མངོན་གསལ་འབད་ནི་ལུ་ འབད་རྩོལ་བསྐྱེད་པའི་སྐབས་ འཛོལ་བ་ཚབས་ཆེན་ཅིག་བྱུང་ནུག"
-
-#~ msgid "Geyes Preferences"
-#~ msgstr "ཇི་མིག་ཏོའི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "Themes"
-#~ msgstr "བརྗོད་དོན་ཚུ།"
-
-#~ msgid "_Select a theme:"
-#~ msgstr "བརྗོད་དོན་ཅིག་ སེལ་འཐུ་འབད།(_S)"
-
-#~ msgid "Alt+Control changes layout."
-#~ msgstr "གདམ་ལྡེ་+ཚད་འཛིན་གྱིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Alt+Shift changes layout."
-#~ msgstr "གདམ་ལྡེ་+སོར་ལྡེ་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Arabic keymap"
-#~ msgstr "ཨ་ར་བིཀ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Armenian"
-#~ msgstr "ཨར་མི་ནི་ཡཱན།"
-
-#~ msgid "Basque"
-#~ msgstr "བཱསིཀ"
-
-#~ msgid "Belgian"
-#~ msgstr "བེལ་ཇི་ཡཱན།"
-
-#~ msgid "Both Alt keys together change layout."
-#~ msgstr "གདམ་ལྡེ་གཉིས་ཆཔ་ད་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Both Ctrl keys together change layout."
-#~ msgstr "ཚད་འཛིན་གཉིས་ཆཔ་ད་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Both Shift keys together change layout."
-#~ msgstr "སོར་ལྡེ་གཉིས་ཆཔ་ད་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Brazil Portuguese keymap"
-#~ msgstr "བ་ར་ཛིལ་ པོར་ཊུ་གིསི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Bulgarian Cyrillic"
-#~ msgstr "བཱལ་ག་རི་ཡཱན་ སི་རི་ལིཀ"
-
-#~ msgid "Bulgarian keymap"
-#~ msgstr "བཱལ་ག་རི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "CapsLock key changes layout."
-#~ msgstr "ཚུགས་ལྡེ་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Control+Shift changes layout."
-#~ msgstr "ཚད་འཛིན་+སོར་ལྡེ་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Czech keymap"
-#~ msgstr "ཅེཛི་ ས་ཁྲ་གཙོ་བོ། "
-
-#~ msgid "Danish keymap"
-#~ msgstr "ཌེ་ནིཤ་ ས་ཁྲ་གཙོ་བོ། "
-
-#~ msgid "Dutch keymap"
-#~ msgstr "ཌཆི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "English keymap"
-#~ msgstr "ཨིང་ལིཤ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Estonian keymap"
-#~ msgstr "ཨིསི་ཊོ་ནི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Finnish keymap"
-#~ msgstr "ཕིན་ནིཤ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "French Swiss"
-#~ msgstr "ཕེརེནཆི་ སུའིསི།"
-
-#~ msgid "French Swiss keymap"
-#~ msgstr "ཕེརེནཆི་ སུའིསི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "French keymap"
-#~ msgstr "ཕེརེནཆི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "French-Canadian 105-key"
-#~ msgstr "ཕེརེནཆི་-ཀེ་ན་ཌི་ཡཱན་ ལྡེ་མིག་-༡༠༥།"
-
-#~ msgid "GB 102-key"
-#~ msgstr "ཇི་བི་ ལྡེ་མིག་-༡༠༢།"
-
-#~ msgid "GB 105-key"
-#~ msgstr "ཇི་བི་ ལྡེ་མིག་-༡༠༥།"
-
-#~ msgid "Generic Keyboard"
-#~ msgstr "ཇེ་ནི་རིཀ་ ལྡེ་སྒྲོམ།"
-
-#~ msgid "Georgian Latin"
-#~ msgstr "ཇོར་ཇི་ཡཱན་ ལེ་ཊིན།"
-
-#~ msgid "Georgian Russian layout"
-#~ msgstr "ཇོར་ཇི་ཡཱན་ ར་ཤི་ཡཱན་ སྒྲིག་བཀོད།"
-
-#~ msgid "Georgian keymap"
-#~ msgstr "ཇོར་ཇི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "German"
-#~ msgstr "ཇར་མཱན།"
-
-#~ msgid "German Swiss with Euro"
-#~ msgstr "ཇར་མཱན་ སུའིསི་ ཡུ་རོ་དང་བཅས།"
-
-#~ msgid "German keymap"
-#~ msgstr "ཇར་མཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Greek keymap"
-#~ msgstr "གིརིཀ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Hebrew keymap"
-#~ msgstr "ཧེབ་བིརིའུ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Hungarian 101-key latin 1"
-#~ msgstr "ཧང་ག་རི་ཡཱན་ ལྡེ་མིག་-༡༠༡ ལེ་ཊིན་ ༡།"
-
-#~ msgid "Hungarian 101-key latin 2"
-#~ msgstr "ཧང་ག་རི་ཡཱན་ ལྡེ་མིག་-༡༠༡ ལེ་ཊིན་ ༢།"
-
-#~ msgid "Hungarian 105-key latin 1"
-#~ msgstr "ཧང་ག་རི་ཡཱན་ ལྡེ་མིག་-༡༠༥ ལེ་ཊིན་ ༡།"
-
-#~ msgid "Hungarian 105-key latin 2"
-#~ msgstr "ཧང་ག་རི་ཡཱན་ ལྡེ་མིག་-༡༠༥ ལེ་ཊིན་ ༢།"
-
-#~ msgid "Hungarian PC/AT 101 keyboard"
-#~ msgstr "ཧང་ག་རི་ཡཱན་ པི་སི་/ཨེ་ཊི་ ༡༠༡ ལྡེ་སྒྲོམ།"
-
-#~ msgid "Hungarian latin1"
-#~ msgstr "ཧང་ག་རི་ཡཱན་ ལེ་ཊིན་ ༡།"
-
-#~ msgid "Icelandic keymap"
-#~ msgstr "ཨའིསི་ལེན་ཌིཀ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Italian keymap"
-#~ msgstr "ཨི་ཊ་ལི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Japanese keymap"
-#~ msgstr "ཇ་པ་ནིསི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Lao keymap"
-#~ msgstr "ལའོ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Layout shift behavior"
-#~ msgstr "སྒྲིག་བཀོད་སོར་ནིའི་སྤྱོད་ལམ།"
-
-#~ msgid "Left Alt key changes layout."
-#~ msgstr "གཡོན་གྱི་གདམ་ལྡེ་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Left Ctrl key changes group."
-#~ msgstr "གཡོན་གྱི་ཚད་འཛིན་གྱིས་ སྡེ་ཚན་སོརཝ་ཨིན།"
-
-#~ msgid "Left Shift key changes group."
-#~ msgstr "གཡོན་གྱི་སོར་ལྡེ་གིས་ སྡེ་ཚན་སོརཝ་ཨིན།"
-
-#~ msgid "Left Win-key changes layout."
-#~ msgstr "གཡོན་གྱི་ ཝིན་-ལྡེ་མིག་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Lithuanian keymap"
-#~ msgstr "ལི་ཐུ་ནི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Macedonian"
-#~ msgstr "མེ་སི་ཌོ་ནི་ཡཱན།"
-
-#~ msgid "Menu key changes layout."
-#~ msgstr "དཀར་ཆག་ལྡེ་མིག་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Mongolian alt keymap"
-#~ msgstr "མོང་གོ་ལི་ཡཱན་ གདམ་ལྡེའི་ས་ཁྲ་གཙོ་བོ། "
-
-#~ msgid "Mongolian keymap"
-#~ msgstr "མོང་གོ་ལི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Mongolian phonetic keymap"
-#~ msgstr "མོང་གོ་ལི་ཡཱན་ བརྗོད་གདངས་ས་ཁྲ་གཙོ་བོ། "
-
-#~ msgid "Norwegian"
-#~ msgstr "ནོར་ཝེ་ཇི་ཡཱན།"
-
-#~ msgid "Plain Russian keymap"
-#~ msgstr "པེལེན་ར་ཤི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Polish"
-#~ msgstr "པོ་ལིཤ།"
-
-#~ msgid "Polish deadkeys"
-#~ msgstr "པོ་ལིཤ་ ཌེཌི་ཀིསི།"
-
-#~ msgid "Portugal"
-#~ msgstr "པོར་ཊུ་གཱལ།"
-
-#~ msgid "Portugal Deadkeys"
-#~ msgstr "པོར་ཊུ་གཱལ་ ཌེཌི་ཀིསི།"
-
-#~ msgid "Portuguese keymap"
-#~ msgstr "པོར་ཊུ་གིསི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Right Alt key changes layout."
-#~ msgstr "གཡས་ཀྱི་གདམ་ལྡེ་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Right Ctrl key changes group."
-#~ msgstr "གཡས་ཀྱི་ཚད་འཛིན་གྱིས་ སྡེ་ཚན་སོརཝ་ཨིན།"
-
-#~ msgid "Right Shift key changes group."
-#~ msgstr "གཡས་ཀྱི་སོར་ལྡེ་གིས་ སྡེ་ཚན་སོརཝ་ཨིན།"
-
-#~ msgid "Right Win-key changes layout."
-#~ msgstr "གཡས་ཀྱི་ཝིན་-ལྡེ་མིག་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Russian Cyrillic"
-#~ msgstr "ར་ཤི་ཡཱན་ སི་རི་ལིཀ"
-
-#~ msgid "Russian keymap"
-#~ msgstr "རཱ་ཤི་ཡཱན་ ས་ཁྲ་གཙོ་བོ། "
-
-#~ msgid "Serbian keymap"
-#~ msgstr "སར་བི་ཡཱན་ ས་ཁྲ་གཙོ་བོ། "
-
-#~ msgid "Shift+CapsLock changes layout."
-#~ msgstr "སོར་ལྡེ་+ཚུགས་ལྡེ་གིས་ སྒྲིག་བཀོད་སོརཝ་ཨིན།"
-
-#~ msgid "Slovak keymap"
-#~ msgstr "སོལོ་བཱཀ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Slovenian"
-#~ msgstr "སོལོ་བི་ཡཱན།"
-
-#~ msgid "Slovenian keymap"
-#~ msgstr "སོལོ་བི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Spanish keymap"
-#~ msgstr "སིཔེ་ནིཤ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Sun (!not PC!) type5 Hungarian latin 2"
-#~ msgstr "སཱན་ (!པི་སི་ མེན་!) དབྱེ་བ་༥ ཧང་ག་རི་ཡཱན་ ལེ་ཊིན་ ༢།"
-
-#~ msgid "Swedish"
-#~ msgstr "སུའི་ཌིཤ།"
-
-#~ msgid "Swedish keymap"
-#~ msgstr "སུའི་ཌིཤ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Swiss keymap"
-#~ msgstr "སུའིསི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Thai"
-#~ msgstr "ཐཱའི།"
-
-#~ msgid "Thai Kedmanee"
-#~ msgstr "ཐཱའི་ ཀེཌི་མ་ནི།"
-
-#~ msgid "Thai keymap"
-#~ msgstr "ཐཱའི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Turkish \"F\" keyboard"
-#~ msgstr "ཊར་ཀིཤ་\"F\"ལྡེ་སྒྲོམ།"
-
-#~ msgid "Turkish \"Q\" keyboard"
-#~ msgstr "ཊར་ཀིཤ་\"Q\"ལྡེ་སྒྲོམ།"
-
-#~ msgid "Turkish keymap"
-#~ msgstr "ཊར་ཀིཤ་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "UK 105-key"
-#~ msgstr "ཡུ་ཀེ་ ལྡེ་མིག་-༡༠༥།"
-
-#~ msgid "UK PC/AT keyboard"
-#~ msgstr "ཡུ་ཀེ་ པི་སི་/ཨེ་ཊི་ ལྡེ་སྒྲོམ།"
-
-#~ msgid "US 101-key keyboard"
-#~ msgstr "ཡུ་ཨེསི་ ལྡེ་མིག་-༡༠༢ ལྡེ་སྒྲོམ།"
-
-#~ msgid "US 105-key keyboard (with windows keys)"
-#~ msgstr "ཡུ་ཨེསི་ ལྡེ་མིག་-༡༠༥ ལྡེ་སྒྲོམ། (སྒོ་སྒྲིག་གི་ལྡེ་མིག་ཚུ་དང་སྦྲགས་ཏེ)"
-
-#~ msgid "US 84-key"
-#~ msgstr "ཡུ་ཨེསི་ ལྡེ་མིག་-༨༤།"
-
-#~ msgid "US DEC 450"
-#~ msgstr "ཡུ་ཨེསི་ ཌི་ཨི་སི་ ༤༥༠།"
-
-#~ msgid "US IBM RS/6000"
-#~ msgstr "ཡུ་ཨེསི་ ཨའི་བི་ཨེམ་ ཨར་ཨེསི་/༦༠༠༠།"
-
-#~ msgid "US International"
-#~ msgstr "ཡུ་ཨེསི་  རྒྱལ་སྤྱི།"
-
-#~ msgid "US Macintosh"
-#~ msgstr "ཡུ་ཨེསི་ མེ་ཀིན་ཊོཤི།"
-
-#~ msgid "US PC/AT 101 keyboard"
-#~ msgstr "ཡུ་ཨེསི་ པི་སི་/ཨེ་ཊི་ ༡༠༡ ལྡེ་སྒྲོམ།"
-
-#~ msgid "US Silicon Graphics 101-key"
-#~ msgstr "ཡུ་ཨེསི་ སི་ལི་ཀཱོན་ ཚད་རིས་ཀྱི་ ལྡེ་མིག་-༡༠༡།"
-
-#~ msgid "US Sun type5"
-#~ msgstr "ཡུ་ཨེསི་ སཱན་ དབྱེ་བ་༥།"
-
-#~ msgid "Armenian Sun keymap"
-#~ msgstr "ཨ་མི་རི་ཀཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Azerbaijani Turkish Sun keymap"
-#~ msgstr "ཨ་ཛར་བའི་ཇ་ནི་ ཊར་ཀིཤ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Belarusian Sun keymap"
-#~ msgstr "བེ་ལ་རུ་སི་ཡཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Brazil Portuguese Sun USB keymap"
-#~ msgstr "བ་ར་ཛིལ་ པོར་ཊུ་གིསི་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Brazil Portuguese Sun keymap"
-#~ msgstr "བ་ར་ཛིལ་ པོར་ཊུ་གིསི་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "British Sun Type-4 keymap"
-#~ msgstr "བིརི་ཊིཤ་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "British Sun USB keymap"
-#~ msgstr "བིརི་ཊིཤ་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "British Sun keymap"
-#~ msgstr "བིརི་ཊིཤ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Bulgarian Sun keymap"
-#~ msgstr "བཱལ་ག་རི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Canadian Sun keymap"
-#~ msgstr "ཀེ་ན་ཌི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Czech Sun keymap"
-#~ msgstr "ཅེཛི་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Danish Sun Type-4 keymap"
-#~ msgstr "ཌེ་ནིཤ་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Danish Sun USB keymap"
-#~ msgstr "ཌེ་ནིཤ་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Danish Sun keymap"
-#~ msgstr "ཌེ་ནིཤ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Dutch Sun keymap"
-#~ msgstr "ཌཆི་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Estonian Sun keymap"
-#~ msgstr "ཨིསི་ཊོ་ནི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Finnish Sun keymap"
-#~ msgstr "ཕིན་ནིཤ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "French Sun USB keymap"
-#~ msgstr "ཕེརེནཆ་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "French Sun keymap"
-#~ msgstr "ཕེརེནཆ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "German Sun Type-4 keymap"
-#~ msgstr "ཇར་མཱན་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "German Sun USB keymap"
-#~ msgstr "ཇར་མཱན་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "German Sun keymap"
-#~ msgstr "ཇར་མཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Hebrew Sun keymap"
-#~ msgstr "ཧེ་བིརིའུ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Hungarian latin2 Sun keymap"
-#~ msgstr "ཧང་ག་རི་ཡཱན་ ལེ་ཊིན་༢ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Hungarian type5 latin 1 keymap"
-#~ msgstr "ཧང་ག་རི་ཡཱན་ དབྱེ་བ་༥ ལེ་ཊིན་༡ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Icelandic Sun keymap"
-#~ msgstr "ཨའིསི་ལེན་ཌིཀ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Italian Sun Type-4 keymap"
-#~ msgstr "ཨི་ཊ་ལི་ཡཱན་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Italian Sun USB keymap"
-#~ msgstr "ཨི་ཊ་ལི་ཡཱན་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Italian Sun keymap"
-#~ msgstr "ཨི་ཊ་ལི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ། "
-
-#~ msgid "Japanese Sun Type-4 keymap"
-#~ msgstr "ཇ་པ་ནིསི་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Japanese Sun keymap"
-#~ msgstr "ཇ་པ་ནིསི་་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Latvian Sun keymap"
-#~ msgstr "ལེཊི་བི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Lithuanian Sun keymap"
-#~ msgstr "ལི་ཐུ་འ་ནི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Macedonian Sun keymap"
-#~ msgstr "མེ་སི་ཌོ་ནི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Norwegian Sun keymap"
-#~ msgstr "ནོར་ཝེ་ཇི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Polish Sun keymap"
-#~ msgstr "པོ་ལིཤ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Portuguese Sun Type-4 keymap"
-#~ msgstr "པོར་ཊུ་གིསི་་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Portuguese Sun keymap"
-#~ msgstr "པོར་ཊུ་གིསི་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Romanian Sun keymap"
-#~ msgstr "རོ་མ་ནི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Russian Sun keymap"
-#~ msgstr "སར་བི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Serbian Sun standard keymap"
-#~ msgstr "སར་བི་ཡཱན་ སཱན་ ཚད་ལྡན་གྱི་ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Slovak Sun keymap"
-#~ msgstr "སོལོ་བཱཀ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Slovenian Sun keymap"
-#~ msgstr "སོལོ་བི་ནི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Spanish Sun Type-4 keymap"
-#~ msgstr "སིཔེ་ནིཤ་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Spanish Sun USB keymap"
-#~ msgstr "སིཔེ་ནིཤ་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Spanish Sun keymap"
-#~ msgstr "སིཔེ་ནིཤ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Swedish Sun Type-4 keymap"
-#~ msgstr "སུའི་ཌིཤ་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Swedish Sun USB keymap"
-#~ msgstr "སུའི་ཌིཤ་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Swedish Sun keymap"
-#~ msgstr "སུའི་ཌིཤ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Swiss German Sun keymap"
-#~ msgstr "སུའིསི་ ཇར་མཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Thai Sun keymap"
-#~ msgstr "ཐཱའི་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Turkish Sun keymap"
-#~ msgstr "ཊར་ཀིཤ་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "US Sun Type-4 keymap"
-#~ msgstr "ཡུ་ཨེསི་ སཱན་ དབྱེ་བ་-༤ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "US Sun USB keymap"
-#~ msgstr "ཡུ་ཨེསི་ སཱན་ ཡུ་ཨེསི་བི་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "US Sun type5 keymap"
-#~ msgstr "ཡུ་ཨེསི་ སཱན་ དབྱེ་བ་-༥ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Ukrainian Sun keymap"
-#~ msgstr "ཡུཀ་རའི་ནི་ཡཱན་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Vietnamese Sun keymap"
-#~ msgstr "བེཊི་ན་མིསི་ སཱན་ ས་ཁྲ་གཙོ་བོ།"
-
-#~ msgid "Keyboard _Preferences"
-#~ msgstr "ལྡེ་སྒྲོམ་གྱི་དགའ་གདམ་ཚུ།(_P)"
-
-#~ msgid "Show Current _Layout"
-#~ msgstr "ད་ལྟོའི་སྒྲིག་བཀོད་སྟོན།(_L)"
-
-#~ msgid "_Groups"
-#~ msgstr "སྡེ་ཚན་ཚུ།(_G)"
-
-#~ msgid "Keyboard Indicator"
-#~ msgstr "ལྡེ་སྒྲོམ་བརྡ་སྟོན་པ།"
-
-#~ msgid "Keyboard applet factory"
-#~ msgstr "ལྡེ་སྒྲོམ་ ཨེཔ་ལེཊི་ འཕྲུལ་ཁང་།"
-
-#~ msgid "Keyboard layout indicator"
-#~ msgstr "ལྡེ་སྒྲོམ་སྒྲིག་བཀོད་ཀྱི་བརྡ་སྟོན་པ།"
-
-#~ msgid "Keyboard Layout \"%s\""
-#~ msgstr "ལྡེ་སྒྲོམ་སྒྲིག་བཀོད་\"%s\"།"
-
-#~ msgid "Copyright (c) Sergey V. Udaltsov 1999-2004"
-#~ msgstr "འདྲ་བཤུས་དབང་ཆ་(c) སར་གེ་ ཝི་ ཨུ་ཌཱལཊི་སོབ་ ༡༩༩༩-༢༠༠༤།"
-
-#~ msgid "Keyboard layout indicator applet for MATE"
-#~ msgstr "ཇི་ནོམ་གྱི་དོན་ལས་ ལྡེ་སྒྲོམ་སྒྲིག་བཀོད་ བརྡ་སྟོན་པའི་ ཨེཔ་ལེཊི་།"
-
-#~ msgid "Keyboard Indicator (%s)"
-#~ msgstr "ལྡེ་སྒྲོམ་བརྡ་སྟོན་པ་(%s)།"
-
-#~ msgid "Keyboard Layout"
-#~ msgstr "ལྡེ་སྒྲོམ་སྒྲིག་བཀོད།"
-
-#~ msgid "_Details"
-#~ msgstr "རྒྱས་བཤད།(_D)"
-
-#~ msgid "_Update"
-#~ msgstr "དུས་མཐུན་བཟོ། (_U)"
-
-#~ msgid "Factory for creating the weather applet."
-#~ msgstr "གནམ་གཤིས་ཀྱི་ཨེཔ་ལེཊི་ གསར་བསྐྲུན་འབད་ནིའི་འཕྲུལ་ཁང་།"
-
-#~ msgid "Gweather Applet Factory"
-#~ msgstr "ཇི་གནམ་གཤིས་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid "Monitor the current weather conditions, and forecasts"
-#~ msgstr "ད་ལྟོའི་གནམ་གཤིས་ཀྱི་ གནས་སྟངས་དང་ སྔོན་བཤད་ལུ་ བལྟ་རྟོག་འབད།"
-
-#~ msgid "Weather Report"
-#~ msgstr "གནམ་གཤིས་ཀྱི་སྙན་ཞུ།"
-
-#~ msgid "© 1999-2005 by S. Papadimitriou and others"
-#~ msgstr "འདྲ་བཤུས་བདག་དབང་© ༡༩༩༩-༢༠༠༥ པ་པ་དི་མི་ཊིའུ་དང་ གཞན་ཚུ་ལུ་ཡོད།"
-
-#~ msgid "A panel application for monitoring local weather conditions."
-#~ msgstr "ཉེ་གནས་ཀྱི་གནམ་གཤིས་གནས་སྟངས་ ལྟ་རྟོག་གི་དོན་ལུ་ པེ་ནཱལ་གྱི་གློག་རིམ་ཅིག"
-
-#~ msgid "MATE Weather"
-#~ msgstr "ཇི་ནོམ་ གནམ་གཤིས།"
-
-#~ msgid "Weather Forecast"
-#~ msgstr "གནམ་གཤིས་ཀྱི་སྔོན་བཤད།"
-
-#~ msgid ""
-#~ "City: %s\n"
-#~ "Sky: %s\n"
-#~ "Temperature: %s"
-#~ msgstr ""
-#~ "ཁྲོམ་སྡེ་:%s\n"
-#~ "ནམ་མཁའ་:%s\n"
-#~ "ཚ་དྲོད་:%s།"
-
-#~ msgid "Updating..."
-#~ msgstr "དུས་མཐུན་བཟོ་དོ་...།"
-
-#~ msgid "Details"
-#~ msgstr "རྒྱས་བཤད།"
-
-#~ msgid "City:"
-#~ msgstr "ཁྲོམ་སྡེ་:"
-
-#~ msgid "Last update:"
-#~ msgstr "མཐའ་མཇུག་དུས་མཐུན་བཟོ་བ་:"
-
-#~ msgid "Conditions:"
-#~ msgstr "གནས་སྟངས་:"
-
-#~ msgid "Sky:"
-#~ msgstr "གནམ་མཁའ་:"
-
-#~ msgid "Temperature:"
-#~ msgstr "དྲོད་ཤུགས་:"
-
-#~ msgid "Feels like:"
-#~ msgstr "ཚོར་སྣང་:"
-
-#~ msgid "Dew point:"
-#~ msgstr "ཟིལ་པའི་ཚད་:"
-
-#~ msgid "Relative humidity:"
-#~ msgstr "རློན་གཤེར་གྱི་གནས་ཚད་:"
-
-#~ msgid "Wind:"
-#~ msgstr "རླུང་མ་:"
-
-#~ msgid "Pressure:"
-#~ msgstr "ཨེབ་ཤུགས་:"
-
-#~ msgid "Visibility:"
-#~ msgstr "མཐོང་གསལ་:"
-
-#~ msgid "Sunrise:"
-#~ msgstr "ཉི་ཤར་:"
-
-#~ msgid "Sunset:"
-#~ msgstr "ཉི་ནུབ་:"
-
-#~ msgid "Current Conditions"
-#~ msgstr "ད་ལྟོའི་གནས་སྟངས།"
-
-#~ msgid "Forecast Report"
-#~ msgstr "སྔོན་བཤད་སྙན་ཞུ།"
-
-#~ msgid "See the ForeCast Details"
-#~ msgstr "སྔོན་བཤད་རྒྱས་བཤད་ལུ་བལྟ།"
-
-#~ msgid "Forecast"
-#~ msgstr "སྔོན་བཤད།"
-
-#~ msgid "Radar Map"
-#~ msgstr "ར་ཌར་ ས་ཁྲ།"
-
-#~ msgid "_Visit Weather.com"
-#~ msgstr "Weather.com ལུ་ ལྟ་སྤྱོད་འབད།(_V)"
-
-#~ msgid "Visit Weather.com"
-#~ msgstr "གནམ་གཤིས་.ཀོམ་ ལུ་ ལྟ་སྤྱོད་འབད།"
-
-#~ msgid "Click to Enter Weather.com"
-#~ msgstr "གནམ་གཤིས་.ཀོམ་ ལུ་ འཛུལ་ནིའི་དོན་ལུ་ ཨེབ་གཏང་འབད།"
-
-#~ msgid "Forecast not currently available for this location."
-#~ msgstr "གནས་ཁོངས་འདི་གི་དོན་ལུ་ ད་ལྟོ་སྔོན་བཤད་འཐོབ་མི་ཚུགས་པས།"
-
-#~ msgid "Location view"
-#~ msgstr "གནས་ཁོངས་ཀྱི་མཐོང་སྣང་།"
-
-#~ msgid "Select Location from the list"
-#~ msgstr "ཐོ་ཡིག་ནང་ལས་ གནས་ཁོངས་སེལ་འཐུ་འབད།"
-
-#~ msgid "Update spin button"
-#~ msgstr "བསྒྱིར་རྟ་དུས་མཐུན་བཟོ།"
-
-#~ msgid "Spinbutton for updating"
-#~ msgstr "དུས་མཐུན་བཟོ་ནིའི་བསྒྱིར་རྟ།"
-
-#~ msgid "Address Entry"
-#~ msgstr "ཁ་བྱང་ཐོ་བཀོད།"
-
-#~ msgid "Enter the URL"
-#~ msgstr "ཡུ་ཨར་ཨེལ་བཙུགས།"
-
-#~ msgid ""
-#~ "Failed to load the Locations XML database.  Please report this as a bug."
-#~ msgstr ""
-#~ "གནས་ཁོངས་ཚུ་ ཨེགསི་ཨེམ་ཨེལ་ གནད་སྡུད་གཞི་རྟེན་ མངོན་གསལ་འབད་མ་ཚུགས། འདི་རྐྱེན་ཅིག་སྦེ་ སྙན་ཞུ་"
-#~ "འབད་གནང་།"
-
-#~ msgid "Weather Preferences"
-#~ msgstr "གནམ་གཤིས་ཀྱི་དགའ་གདམ་ཚུ།"
-
-#~ msgid "_Automatically update every:"
-#~ msgstr "རེ་ནང་ ང་བཞིན་གྱིས་ དུས་མཐུན་བཟོ།(_A)"
-
-#~ msgid "_Temperature unit:"
-#~ msgstr "དྲོད་ཤུགས་ཆ་ཕྲན་:(_T)"
-
-#~ msgid "Kelvin"
-#~ msgstr "ཀེལ་བིན།"
-
-#~ msgid "Celsius"
-#~ msgstr "སེལ་ཤི་ཡཱསི།"
-
-#~ msgid "Fahrenheit"
-#~ msgstr "ཕེ་རེན་ཧེཊི།"
-
-#~ msgid "_Wind speed unit:"
-#~ msgstr "རླུང་མའི་མགྱོགས་ཚད་ཆ་ཕྲན་:(_W)"
-
-#~ msgid "_Pressure unit:"
-#~ msgstr "ཨེབ་ཤུགས་ཆ་ཕྲན་:(_P)"
-
-#~ msgid "_Visibility unit:"
-#~ msgstr "མཐོང་གསལ་ཆ་ཕྲན་:(_V)"
-
-#~ msgid "meters"
-#~ msgstr "མི་ཊརསི།"
-
-#~ msgid "miles"
-#~ msgstr "མ་ཡིལ།"
-
-#~ msgid "Enable _radar map"
-#~ msgstr "ར་ཌར་ས་ཁྲ་ ལྕོགས་ཅན་བཟོ།(_r)"
-
-#~ msgid "Use _custom address for radar map"
-#~ msgstr "ར་ཌར་ས་ཁྲའི་དོན་ལུ་ སྲོལ་སྒྲིག་ཁ་བྱང་ ལག་ལེན་འཐབ།(_c)"
-
-#~ msgid "A_ddress:"
-#~ msgstr "ཁ་བྱང་:(_d)"
-
-#~ msgid "Update"
-#~ msgstr "དུས་མཐུན་བཟོ།"
-
-#~ msgid "minutes"
-#~ msgstr "སྐར་མ།"
-
-#~ msgid "Display"
-#~ msgstr "བཀྲམ་སྟོན།"
-
-#~ msgid "General"
-#~ msgstr "ཡོངས་ཁྱབ།"
-
-#~ msgid "_Select a location:"
-#~ msgstr "གནས་ཁོངས་ཅིག་སེལ་འཐུ་འབད་:(_S)"
-
-#~ msgid "_Find:"
-#~ msgstr "འཚོལ་:(_F)"
-
-#~ msgid "Find _Next"
-#~ msgstr "ཤུལ་མམ་འཚོལ། (_N)"
-
-#~ msgid "Location"
-#~ msgstr "གནས་ཁོངས།"
-
-#~ msgid "Invest"
-#~ msgstr "མ་རྩ་བཙུགས།"
-
-#~ msgid "Track your invested money."
-#~ msgstr "ཁྱོད་རའི་མ་རྩ་བཙུགས་མི་དངུལ་དེ་རྗེས་འཚོལ་འབད།"
-
-#~ msgid "_Refresh"
-#~ msgstr "ཡང་སེལ་འབད།(_R)"
-
-#~ msgid "10"
-#~ msgstr "༡༠།"
-
-#~ msgid "100"
-#~ msgstr "༡༠༠།"
-
-#~ msgid ""
-#~ "1d\n"
-#~ "5d\n"
-#~ "3m\n"
-#~ "6m\n"
-#~ "1y\n"
-#~ "3y"
-#~ msgstr ""
-#~ "ཉིནམ་༡།\n"
-#~ "ཉིནམ་༥།\n"
-#~ "ཟླཝ་༣།\n"
-#~ "ཟླཝ་༦།\n"
-#~ "ལོ་༡།\n"
-#~ "ལོ་༣།"
-
-#~ msgid "20"
-#~ msgstr "༢༠།"
-
-#~ msgid "200"
-#~ msgstr "༢༠༠།"
-
-#~ msgid "5"
-#~ msgstr "༥།"
-
-#~ msgid "50"
-#~ msgstr "༥༠།"
-
-#~ msgid "Auto _refresh"
-#~ msgstr "རང་བཞིན་ཡང་སེལ།(_r)"
-
-#~ msgid "Bollinger"
-#~ msgstr "བོ་ལིང་གར།"
-
-#~ msgid "Downloading chart from <b>Yahoo!</b>"
-#~ msgstr "<b>Yahoo!</b> ནང་ལས་ ཚད་རིས་ཕབ་ལེན་འབད་དོ།"
-
-#~ msgid "Exponential moving average: "
-#~ msgstr "བསྒྱུར་གྲངས་འགུལ་བསྐྱོད་ཀྱི་ཆ་སྙོམས་:"
-
-#~ msgid "Fast stoch"
-#~ msgstr "སི་ཊོཆ་མགྱོགས་དྲགས།"
-
-#~ msgid "Financial Chart"
-#~ msgstr "དངུལ་འབྲེལ་ཚད་རིས།"
-
-#~ msgid "Indicators: "
-#~ msgstr "བརྡ་སྟོན་པ་:"
-
-#~ msgid "MACD"
-#~ msgstr "ཨེམ་ཨེ་སི་ཌི།"
-
-#~ msgid "MFI"
-#~ msgstr "ཨེམ་ཨེཕ་ཨའི།"
-
-#~ msgid "Moving average: "
-#~ msgstr "འགུལ་བསྐྱོད་ཆ་སྙོམས་:"
-
-#~ msgid "Overlays: "
-#~ msgstr "སྤུར་ཁེབས།"
-
-#~ msgid "ROC"
-#~ msgstr "ཨར་ཨོ་སི།"
-
-#~ msgid "RSI"
-#~ msgstr "ཨར་ཨེསི་ཨའི།"
-
-#~ msgid "SAR"
-#~ msgstr "ཨེསི་ཨེ་ཨར།"
-
-#~ msgid "Slow stoch"
-#~ msgstr "སི་ཊོཆ་ལྷོད་དྲགས།"
-
-#~ msgid "Splits"
-#~ msgstr "གཤག་མ་ཚུ།"
-
-#~ msgid "Vol"
-#~ msgstr "སྐད་ཤུགས།"
-
-#~ msgid "Vol+MA"
-#~ msgstr "སྐད་ཤུགས་+ཨེམ་ཨེ།"
-
-#~ msgid "Volumes"
-#~ msgstr "སྐད་ཤུགས།"
-
-#~ msgid "W%R"
-#~ msgstr "དྲབ་ལུ་%ཨར།"
-
-#~ msgid "_Graph style: "
-#~ msgstr "ཚད་ཁྲམ་གྱི་བཟོ་རྣམ།(_G)"
-
-#~ msgid "_Options"
-#~ msgstr "གདམ་ཁ་ཚུ།(_O)"
-
-#~ msgid "_Ticker symbol: "
-#~ msgstr "ཨིན་རྟགས་བཀལ་མིའི་བརྡ་མཚོན།"
-
-#~ msgid ""
-#~ "l\n"
-#~ "b\n"
-#~ "c"
-#~ msgstr ""
-#~ "ཨེལ།\n"
-#~ "བི།\n"
-#~ "སི།"
-
-#~ msgid "Display yahoo charts"
-#~ msgstr "ཡ་ཧུ་གི་ཚད་རིས་སྟོན།"
-
-#~ msgid "Invest Chart"
-#~ msgstr "དཔེ་རིས་བྱིན།"
-
-#~ msgid "<b>Stocks</b>"
-#~ msgstr "<b>ཅ་མཛོད་</b>"
-
-#~ msgid ""
-#~ "<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
-#~ "<b>Source: </b> Yahoo!</small></i>"
-#~ msgstr ""
-#~ "<i><small><b>དྲན་འཛིན་:</b> འདྲེན་ཚིག་ཚུ་ཉུང་མཐའ་སྐར་མ་༡༥ཕྱིསཔ་ཨིན།\n"
-#~ "<b>Source: </b> ཡ་ཧུ་</small></i>"
-
-#~ msgid "Invest Preferences"
-#~ msgstr "དགའ་གདམ་དོན་ལུ་མ་རྩ་བཙུགས།"
-
-#~ msgid "Invest Website"
-#~ msgstr "ཝེབ་ས་ཁོངས་དོན་ལུ་མ་རྩ་བཙུགས།"
-
-#~ msgid "Financial Chart - %s"
-#~ msgstr "དངུལ་འབྲེལ་ཚད་རིས་-%s།"
-
-#~ msgid "Opening Chart"
-#~ msgstr "ཚད་རིས་ཁ་ཕྱེ་དོ།"
-
-#~ msgid "Downloading Chart"
-#~ msgstr "ཚད་རིས་ཕབ་ལེན་འབད་དོ།"
-
-#~ msgid "Reading Chart chunk"
-#~ msgstr "ཚད་རིས་ཀྱི་དུམ་བུ་ལྷག་དོ།"
-
-#~ msgid "Invest Applet"
-#~ msgstr "ཨེཔ་ལེཊི་དོན་ལུ་མ་རྩ་བཙུགས།"
-
-#~ msgid "Symbol"
-#~ msgstr "བརྡ་མཚོན།"
-
-#~ msgid "Amount"
-#~ msgstr "དངུལ་བསྡོམས།"
-
-#~ msgid "Price"
-#~ msgstr "རིན་གོང་།"
-
-#~ msgid "Commission"
-#~ msgstr "ཀ་མི་ཤཱན།"
-
-#~ msgid "%.1f °F"
-#~ msgstr "%.1f °F"
-
-#~ msgid "%d °F"
-#~ msgstr "%d °F"
-
-#~ msgid "%.1f °C"
-#~ msgstr "%.1f °C"
-
-#~ msgid "%d °C"
-#~ msgstr "%d °C"
-
-#~ msgid "Deskbar (formerly Mini-Commander)"
-#~ msgstr "ཌེཀསི་ཕྲ་རིང་ (ཧེ་མར་གཙོ་དཔོན་ཆུང་བ་)"
-
-#~ msgid "Deskbar (transparent upgrade from Mini-Commander)"
-#~ msgstr "ཌེཀསི་ཕྲ་རིང་། (གཙོ་དཔོན་ཆུང་བ་ལས་ཡར་བསྐྱེད་འབད་མི་དྭངས་གསལ)"
-
-#~ msgid "Command Line"
-#~ msgstr "བཀོད་ལམ།"
-
-#~ msgid "Mini-Commander"
-#~ msgstr "གཙོ་དཔོན་ཆུང་བ།"
-
-#~ msgid "MiniCommander Applet Factory"
-#~ msgstr "གཙོ་དཔོན་ཆུང་བའི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid ""
-#~ "This MATE applet adds a command line to the panel. It features command "
-#~ "completion, command history, and changeable macros."
-#~ msgstr ""
-#~ "ཇི་ནོམ་ཨེཔ་ལེཊི་འདི་གིས་ པེ་ནཱལ་ལུ་ བཀོད་ལམ་ཅིག་ ཁ་སྐོང་བརྐྱབ་ཨིན། འདི་གིས་བརྡ་བཀོད་ཡོངས་རྫོགས་"
-#~ "དང་ བརྡ་བཀོད་ལོ་རྒྱུས་་ བསྒྱུར་བཏུབ་པའི་ མེཀ་ཀོརོསི་གི་ ཁྱད་རྣམ་ཚུ་སྟོནམ་ཨིན།"
-
-#~ msgid "No items in history"
-#~ msgstr "ལོ་རྒྱུས་ནང་ དོན་ཚན་མིན་འདུག"
-
-#~ msgid "Start program"
-#~ msgstr "ལས་རིམ་འགོ་བཙུགས།"
-
-#~ msgid "Command line"
-#~ msgstr "བཀོད་ལམ།"
-
-#~ msgid "Type a command here and Mate will execute it for you"
-#~ msgstr "ནཱ་ལུ་བརྡ་བཀོད་ཅིག་ ཡིག་དཔར་རྐྱབས། དེ་ལས་ ཇི་ནོམ་གྱིས་ཁྱོད་ཀྱི་དོན་ལུ་ ལག་ལེན་འཐབ་འོང་།"
-
-#~ msgid "Cannot get schema for %s: %s"
-#~ msgstr "%s: %sགི་དོན་ལས་ ལས་འཆར་འཐོབ་མི་ཚུགས་པས།"
-
-#~ msgid "Cannot set schema for %s: %s"
-#~ msgstr "%s: %sགི་དོན་ལས་ ལས་འཆར་གཞི་སྒྲིག་འབད་མི་ཚུགས་པས།"
-
-#~ msgid "Set default list value for %s\n"
-#~ msgstr "%sགི་དོན་ལུ་ སྔོན་སྒྲིག་ཐོ་ཡིག་གི་བེ་ལུ་ གཞི་སྒྲིག་འབད།\n"
-
-#~ msgid ""
-#~ "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-#~ msgstr ""
-#~ "ཇི་ཀཱོནཕ་_ལྕོགས་མིན་བཟོ་_ཡིག་སྣོད་བཟོ་_ལས་འཆར་_གཞི་བཙུགས་ཚུ་ ལས་འཆར་གཞི་བཙུགས་མ་འབད་བར་ "
-#~ "གཞི་སྒྲིག་འབད་ཡི།\n"
-
-#~ msgid "Must set the MATECONF_CONFIG_SOURCE environment variable\n"
-#~ msgstr "ཇི་ཀཱོནཕ་_ཀཱོན་ཕིག་_འབྱུང་ཁུངས་ཀྱི་ མཐའ་འཁོར་འགྱུར་བ་ གཞི་སྒྲིག་འབད་དགོ\n"
-
-#~ msgid "Failed to access configuration source(s): %s\n"
-#~ msgstr "རིམ་སྒྲིག་འབྱུང་ཁུངས་%sལུ་ འཛུལ་སྤྱོད་འབད་མ་ཚུགས།\n"
-
-#~ msgid "Error syncing config data: %s"
-#~ msgstr "རིམ་སྒྲིག་གནད་སྡུད་%s མཉམ་འབྱུང་འབད་ནི་ལུ་འཛོལ་བ།"
-
-#~ msgid ""
-#~ "List of MateConfValue entries containing strings for the macro commands."
-#~ msgstr "མེཀ་ཀོརོ་བརྡ་བཀོད་ཀྱི་དོན་ལུ་ ཡིག་རྒྱུན་ཚུ་ཡོད་པའི་ ཇི་ཀཱོནཕ་བེ་ལུའི་ ཐོ་བཀོད་ཀྱི་ཐོ་ཡིག"
-
-#~ msgid ""
-#~ "List of MateConfValue entries containing strings for the macro patterns."
-#~ msgstr "མེཀ་ཀོརོ་དཔེ་གཞི་དོན་ལུ་ ཡིག་རྒྱུན་ཚུ་ཡོད་པའི་ ཇི་ཀཱོནཕ་བེ་ལུའི་ ཐོ་བཀོད་ཀྱི་ཐོ་ཡིག"
-
-#~ msgid "Macro command list"
-#~ msgstr "མེཀ་ཀོརོ་བརྡ་བཀོད་ཀྱི་ཐོ་ཡིག"
-
-#~ msgid "Macro pattern list"
-#~ msgstr "མེཀ་ཀོརོ་དཔེ་གཞིའི་ཐོ་ཡིག"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "<b>Auto Completion</b>"
-#~ msgstr "<b>རང་བཞིན་ཡོངས་སྒྲུབ་</b>"
-
-#~ msgid "<b>Colors</b>"
-#~ msgstr "<b>ཚོས་གཞི་</b>"
-
-#~ msgid "<b>Size</b>"
-#~ msgstr "<b>ཚད་b>"
-
-#~ msgid "Add New Macro"
-#~ msgstr "མེཀ་ཀོརོ་གསརཔ་ ཁ་སྐོང་རྐྱབས།"
-
-#~ msgid "Co_mmand:"
-#~ msgstr "བརྡ་བཀོད་:(_m)"
-
-#~ msgid "Command Line Preferences"
-#~ msgstr "བཀོད་ལམ་གྱི་དགའ་གདམ་ཚུ།"
-
-#~ msgid "Command line _background:"
-#~ msgstr "བཀོད་ལམ་གྱི་རྒྱབ་གཞི།(_b)"
-
-#~ msgid "Command line _foreground:"
-#~ msgstr "བཀོད་ལམ་གྱི་གདོང་གཞི་:(_f)"
-
-#~ msgid "E_nable history-based auto completion"
-#~ msgstr "ལོ་རྒྱུས་ལུ་བརྟེན་པའི་ རང་བཞིན་ཡོངས་སྒྲུབ་ལྕོགས་ཅན་བཟོ།(_n)"
-
-#~ msgid "Macros"
-#~ msgstr "མེཀ་ཀོརོསི།"
-
-#~ msgid "Pick a color"
-#~ msgstr "ཚོས་གཞི་ཅིག་འཐུ།"
-
-#~ msgid "_Add Macro..."
-#~ msgstr "མེཀ་ཀོརོ་ ཁ་སྐོང་རྐྱབས་...(_A)"
-
-#~ msgid "_Delete Macro"
-#~ msgstr "མེཀ་ཀོརོ་ བཏོན་གཏང་།(_D)"
-
-#~ msgid "_Macros:"
-#~ msgstr "མེཀ་ཀོརོསི་:(_M)"
-
-#~ msgid "_Pattern:"
-#~ msgstr "དཔེ་གཞི་:(_P)"
-
-#~ msgid "_Use default theme colors"
-#~ msgstr "སྔོན་སྒྲིག་བརྗོད་དོན་གྱི་ཚོས་གཞི་ ལག་ལེན་འཐབ།(_U)"
-
-#~ msgid "_Width:"
-#~ msgstr "རྒྱ་ཚད་:(_W)"
-
-#~ msgid "pixels"
-#~ msgstr "པིག་སེལསི།"
-
-#~ msgid ""
-#~ "Attempt to autocomplete a command from the history of commands entered."
-#~ msgstr ""
-#~ "ཐོ་བཀོད་འབད་དེ་ཡོད་པའི་ བརྡ་བཀོད་ཀྱི་ལོ་རྒྱུས་ནང་ལས་ བརྡ་བཀོད་ཅིག་ རང་བཞིན་ཡོངས་སྒྲུབ་འབད་ནིའི་ "
-#~ "དཔའ་བཅམ།"
-
-#~ msgid "Background color, blue component"
-#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི། ཆ་ཤས་ཧོནམ།"
-
-#~ msgid "Background color, green component"
-#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི། ཆ་ཤས་ལྗང་ཁུ།"
-
-#~ msgid "Background color, red component"
-#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི། ཆ་ཤས་དམརཔོ།"
-
-#~ msgid "Foreground color, blue component"
-#~ msgstr "གདོང་གཞིའི་ཚོས་གཞི། ཆ་ཤས་ཧོནམ།"
-
-#~ msgid "Foreground color, green component"
-#~ msgstr "གདོང་གཞིའི་ཚོས་གཞི། ཆ་ཤས་ལྗང་ཁུ།"
-
-#~ msgid "Foreground color, red component"
-#~ msgstr "གདོང་གཞིའི་ཚོས་གཞི། ཆ་ཤས་དམརཔོ།"
-
-#~ msgid "History list"
-#~ msgstr "ལོ་རྒྱུས་ཀྱི་ཐོ་ཡིག"
-
-#~ msgid "List of MateConfValue entries containing strings for history entries."
-#~ msgstr "ལོ་རྒྱུས་ཐོ་བཀོད་ཀྱི་དོན་ལུ་ ཡིག་རྒྱུན་ཚུ་ཡོད་པའི་ ཇི་ཀཱོནཕ་བེ་ལུའི་ ཐོ་བཀོད་ཀྱི་ཐོ་ཡིག"
-
-#~ msgid "Perform history autocompletion"
-#~ msgstr "ལོ་རྒྱུས་ཡོངས་སྒྲུབ་ཀྱི་ལཱ་འབད།"
-
-#~ msgid "Show a frame surrounding the applet."
-#~ msgstr "ཨེཔ་ལེཊི་གི་མཐའ་བསྐོར་ཏེ་ གཞི་ཁྲམ་ཅིག་སྟོན།"
-
-#~ msgid "Show a handle so the applet can be detached from the panel."
-#~ msgstr "བཤེད་བཟུང་ཅིག་སྟོན་པ་ཅིན་ ཨེཔ་ལེཊི་དེ་ པེ་ནཱལ་ལས་ ཁ་འཕྱལ་ཚུགས།"
-
-#~ msgid "Show frame"
-#~ msgstr "གཞི་ཁྲམ་སྟོན།"
-
-#~ msgid "Show handle"
-#~ msgstr "བཤེད་བཟུང་སྟོན།"
-
-#~ msgid "The blue component of the background color."
-#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི་གི་ ཆ་ཤས་ཧོནམ།"
-
-#~ msgid "The blue component of the foreground color."
-#~ msgstr "གདོང་གཞིའི་ཚོས་གཞི་གི་ ཆ་ཤས་ཧོནམ།"
-
-#~ msgid "The green component of the background color."
-#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི་གི་ ཆ་ཤས་ལྗང་ཁུ།"
-
-#~ msgid "The green component of the foreground color."
-#~ msgstr "གདོང་གཞིའི་ཚོས་གཞི་གི་ ཆ་ཤས་ལྗང་ཁུ།"
-
-#~ msgid "The red component of the background color."
-#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི་གི་ ཆ་ཤས་དམརཔོ།"
-
-#~ msgid "The red component of the foreground color."
-#~ msgstr "གདོང་གཞིའི་ཚོས་གཞི་གི་ ཆ་ཤས་དམརཔོ།"
-
-#~ msgid ""
-#~ "This per-applet key is deprecated in favour of the global key, /schemas/"
-#~ "apps/mini-commander-global/macro_patterns."
-#~ msgstr ""
-#~ "ཨེཔ་ལེཊི་རེའི་ལྡེ་མིག་འདི་ སྤྱི་ཁྱབ་ལྡེ་མིག་དང་ /ལས་འཆར་/ཨེ་པི་པི་ཨེསི་/གཙོ་དཔོན་ཆུང་བ་-སྤྱི་ཁྱབ/མེཀ་"
-#~ "ཀོརོ་དཔེ་གཞིའི་ངོ་སྲུང་ལུ་ ངོས་ལེན་མ་འབདཝ་བཟོ་ཡི།(_p)"
-
-#~ msgid "Use the default theme colors"
-#~ msgstr "སྔོན་སྒྲིག་བརྗོད་དོན་གྱི་ཚོས་གཞི་ ལག་ལེན་འཐབ།"
-
-#~ msgid "Use theme colors instead of custom ones."
-#~ msgstr "སྲོལ་སྒྲིག་ཚོས་གཞིའི་ཚབ་ལུ་ བརྗོད་དོན་གྱི་ཚོས་གཞི་ཚུ་ ལག་ལེན་འཐབ།"
-
-#~ msgid "Width"
-#~ msgstr "རྒྱ་ཚད།"
-
-#~ msgid "Width of the applet"
-#~ msgstr "ཨེཔ་ལེཊི་གི་རྒྱ་ཚད།"
-
-#~ msgid "Browser"
-#~ msgstr "བརའུ་ཟར།"
-
-#~ msgid "Click this button to start the browser"
-#~ msgstr "བརའུ་ཟར་ འགོ་བཙུགས་ཀྱི་དོན་ལུ་ ཨེབ་རྟ་འདི་ལུ་ ཨེབ་གཏང་འབད།"
-
-#~ msgid "History"
-#~ msgstr "ལོ་རྒྱུས།"
-
-#~ msgid "Click this button for the list of previous commands"
-#~ msgstr "ཧེ་མའི་བརྡ་བཀོད་ཐོ་ཡིག་གི་དོན་ལུ་ ཨེབ་རྟ་འདི་ལུ་ ཨེབ་གཏང་འབད།"
-
-#~ msgid "Command line has been disabled by your system administrator"
-#~ msgstr "བཀོད་ལམ་དེ་ ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་གིས་ ལྕོགས་མིན་བཟོ་ནུག"
-
-#~ msgid "Mini-Commander applet"
-#~ msgstr "གཙོ་དཔོན་ཆུང་བའི་ ཨེཔ་ལེཊི།"
-
-#~ msgid "This applet adds a command line to the panel"
-#~ msgstr "ཨེཔ་ལེཊི་འདི་གིས་ པེ་ནཱལ་ལུ་ བཀོད་ལམ་ཅིག་ ཁ་སྐོང་བརྐྱབ་ཨིན།"
-
-#~ msgid "You must specify a pattern"
-#~ msgstr "ཁྱོད་ཀྱིས་དཔེ་གཞི་ཅིག་ གསལ་བཀོད་འབད་དགོ"
-
-#~ msgid "You must specify a pattern and a command"
-#~ msgstr "ཁྱོད་ཀྱིས་དཔེ་གཞི་ཅིག་དང་ བརྡ་བཀོད་ཅིག་ གསལ་བཀོད་འབད་དགོ"
-
-#~ msgid "You must specify a command"
-#~ msgstr "ཁྱོད་ཀྱིས་བརྡ་བཀོད་ཅིག་ གསལ་བཀོད་འབད་དགོ"
-
-#~ msgid "You may not specify duplicate patterns"
-#~ msgstr "ཁྱོད་ཀྱིས་དཔེ་གཞིའི་ངོ་བཤུས་ གསལ་བཀོད་མི་འབདཝ་འོང་།"
-
-#~ msgid "Pattern"
-#~ msgstr "དཔེ་གཞི།"
-
-#~ msgid "Command"
-#~ msgstr "བརྡ་བཀོད།"
-
-#~ msgid "Adjust the sound volume"
-#~ msgstr "སྒྲ་སྐད་ཀྱི་ཤུགས་ བདེ་སྒྲིག་འབད།"
-
-#~ msgid "Volume Control"
-#~ msgstr "་སྐད་ཤུགས་ཚད་འཛིན།"
-
-#~ msgid "Mu_te"
-#~ msgstr "སྐད་མེད།(_t)"
-
-#~ msgid "_Open Volume Control"
-#~ msgstr "སྐད་ཤུགས་ཚད་འཛིན་ཁ་ཕྱེ།(_O)"
-
-#~ msgid ""
-#~ "The volume control did not find any elements and/or devices to control. "
-#~ "This means either that you don't have the right GStreamer plugins "
-#~ "installed, or that you don't have a sound card configured."
-#~ msgstr ""
-#~ "སྐད་ཤུགས་ཚད་འཛིན་གྱིས་ ཚད་འཛིན་འབད་ནིའི་ ཆ་ཤས་དང་ཐབས་འཕྲུལ་ཚུ་ ག་ནི་ཡང་མ་འཐོབ་པས། འདི་གི་"
-#~ "དོན་དག་ ཁྱོད་ལུ་ངེས་བདེན་གྱི་ ཇི་སི་ཊི་མར་ པ་ལག་ཨིནསི་ གཞི་བཙུགས་འབད་འབདཝ་ མེདཔ་འོང་ནི་དང་ "
-#~ "ཡང་ཅིན་ སྒྲ་བྱང་ཅིག་ རིམ་སྒྲིག་འབད་འབདཝ་ མེདཔ་འོང་ནི་མས།"
-
-#~ msgid ""
-#~ "You can remove the volume control from the panel by right-clicking the "
-#~ "speaker icon on the panel and selecting \"Remove From Panel\" from the "
-#~ "menu."
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱིས་པེ་ནཱལ་གུ་ ཁ་པར་གྱི་ངོས་དཔར་ལུ་ གཡས་ཀྱི་ཨེབ་གཏང་འབད་བའི་ཐོག་ལས་དང་ དཀར་ཆག་ནང་"
-#~ "ལས་ \"Remove From Panel\" སེལ་འཐུ་འབད་བའི་ཐོག་ལས་ སྐད་ཤུགས་ཚད་འཛིན་དེ་ རྩ་བསྐྲད་གཏང་"
-#~ "ཚུགས།"
-
-#~ msgid "Failed to start Volume Control: %s"
-#~ msgstr "སྐད་ཤུགས་ཚད་འཛིན་:%s འགོ་བཙུགས་མ་ཚུགས།"
-
-#~ msgid "%s: muted"
-#~ msgstr "%s: སྐད་་མེད་བཟོས་པ།"
-
-#~ msgid "%s: %d%%"
-#~ msgstr "%s: %d%%"
-
-#~ msgid "Failed to display help: %s"
-#~ msgstr "གྲོགས་རམ་%s བཀྲམ་སྟོན་འབད་མ་ཚུགས།"
-
-#~ msgid "Volume control for your MATE Panel."
-#~ msgstr "ཁྱོད་རའི་ཇི་ནོམ་པེ་ནཱལ་གྱི་དོན་ལུ་ སྐད་ཤུགས་ཚད་འཛིན།"
-
-#~ msgid "Using GStreamer 0.10."
-#~ msgstr "ཇི་སི་ཊི་མར་ ༠.༡༠ ལག་ལེན་འཐབ་དོ།"
-
-#~ msgid "Using GStreamer 0.8."
-#~ msgstr "ཇི་སི་ཊི་མར་ ༠.༨ ལག་ལེན་འཐབ་དོ།"
-
-#~ msgid "Volume Applet"
-#~ msgstr "སྐད་ཤུགས་ཀྱི་ ཨེཔ་ལེཊི།"
-
-#~ msgid "+"
-#~ msgstr "+"
-
-#~ msgid "-"
-#~ msgstr "-"
-
-#~ msgid "Unknown Volume Control %d"
-#~ msgstr "མ་ཤེས་པའི་སྐད་ཤུགས་ཚད་འཛིན་%d།"
-
-#~ msgid "Channel controlled by applet. Only for OSS setups"
-#~ msgstr "ཨེཔ་ལེཊི་གིས་ ཚད་འཛིན་འབད་མི་རྒྱུ་ལམ། ཨོ་ཨེསི་ཨེསི་ གཞི་སྒྲིག་གི་དོན་ལུ་རྐྱངམ་ཅིག"
-
-#~ msgid "Saved mute state"
-#~ msgstr "སྐད་མེད་ཀྱི་གནས་ལུགས་ སྲུང་བཞག་འབད་ཡོད།"
-
-#~ msgid "Saved volume to restore on startup"
-#~ msgstr "འགོ་བཙུགསཔ་ད་ སོར་ཆུད་འབད་ནིའི་དོན་ལུ་ སྐད་ཤུགས་སྲུང་བཞག་འབད་ཡོད།"
-
-#~ msgid "Volume Control Preferences"
-#~ msgstr "སྐད་ཤུགས་ཚད་འཛིན་གྱི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "Select the device and track to control."
-#~ msgstr "ཚད་འཛིན་གྱི་དོན་ལུ་ ཐབས་འཕྲུལ་དང་གླུ་རིམ་ སེལ་འཐུ་འབད།"
-
-#~ msgid "Activate and monitor a dial-up network connection"
-#~ msgstr " ཌའིལ་-ཨཔ་ ཡོངས་འབྲེལ་གྱི་མཐུད་ལམ་ཅིག་ ཤུགས་ལྡན་བཟོ་སྟེ་ ལྟ་རྟོག་འབད"
-
-#~ msgid "Modem Monitor"
-#~ msgstr "མོ་ཌེམ་གྱི་ ལྟ་རྟོག་པ།"
-
-#~ msgid "_Activate"
-#~ msgstr "ཤུགས་ལྡན་བཟོ།(_A)"
-
-#~ msgid "_Deactivate"
-#~ msgstr "ཤུགས་མེད་བཟོ།(_D)"
-
-#~ msgid "_Properties"
-#~ msgstr "རྒྱུ་དངོས་ཚུ།(_P)"
-
-#~ msgid "Connection active, but could not get connection time"
-#~ msgstr "མཐུད་ལམ་ཤུགས་ལྡན་ཨིན་པས། དེ་འབདཝ་ད་ མཐུད་ལམ་དུས་ཚོད་ ཐོབ་མ་ཚུགས།"
-
-#~ msgid "Time connected: %.1d:%.2d"
-#~ msgstr "དུས་ཚོད་མཐུད་ནུག་:%.1d:%.2d"
-
-#~ msgid "Not connected"
-#~ msgstr "མ་མཐུད་པས།"
-
-#~ msgid ""
-#~ "To connect to your Internet service provider, you need administrator "
-#~ "privileges"
-#~ msgstr ""
-#~ "ཁྱོད་རའི་ཨིན་ཊར་ནེཊི་ ཞབས་ཏོག་བྱིན་མི་ལུ་ མཐུད་ནིའི་དོན་ལུ་ ཁྱོད་ལུ་བདག་སྐྱོང་པའི་ ཁེ་དབང་དགོ"
-
-#~ msgid ""
-#~ "To disconnect from your Internet service provider, you need administrator "
-#~ "privileges"
-#~ msgstr ""
-#~ "ཁྱོད་རའི་ཨིན་ཊར་ནེཊི་ ཞབས་ཏོག་བྱིན་མི་ལས་ བཏོག་ནིའི་དོན་ལུ་ ཁྱོད་ལུ་བདག་སྐྱོང་པའི་ ཁེ་དབང་དགོ"
-
-#~ msgid "The entered password is invalid"
-#~ msgstr "ཆོག་ཡིག་བཙུགས་མི་དེ་ ནུས་མེད་ཨིན་པས།"
-
-#~ msgid ""
-#~ "Check that you have typed it correctly and that you haven't activated the "
-#~ "\"caps lock\" key"
-#~ msgstr ""
-#~ "ཡིག་དཔར་ངེས་བདེན་སྦེ་ བརྐྱབས་ཞིནམ་ལས་  \"caps lock\" ལྡེ་མིག་ ཤུགས་ལྡན་བཟོ་མ་བཟོ་བལྟ།"
-
-#~ msgid "Do you want to connect?"
-#~ msgstr "མཐུད་ནི་ཨིན་ན?"
-
-#~ msgid "Do you want to disconnect?"
-#~ msgstr "བཏོག་ནི་ཨིན་ན?"
-
-#~ msgid "C_onnect"
-#~ msgstr "མཐུད།(_o)"
-
-#~ msgid "_Disconnect"
-#~ msgstr "བཏོག(_D)"
-
-#~ msgid "Could not launch network configuration tool"
-#~ msgstr "ཡོངས་འབྲེལ་རིམ་སྒྲིག་ལག་ཆས་ གསར་བཙུགས་འབད་མ་ཚུགས།"
-
-#~ msgid ""
-#~ "Check that it's installed in the correct path and that it has the correct "
-#~ "permissions"
-#~ msgstr ""
-#~ "འགྲུལ་ལམ་ངོ་མའི་གུ་ གཞི་བཙུགས་འབད་མ་འབད་དང་ གནང་བ་ངེས་བདེན་ཡོད་ག་མེད་ ཞིབ་དཔྱད་འབད།"
-
-#~ msgid "Applet for activating and monitoring a dial-up network connection."
-#~ msgstr "ཌ་ཡེལ་ཨཔ་ ཡོངས་འབྲེལ་་མཐུད་ལམ་ ཤུགས་ལྡན་བཟོ་ནི་དང་ ལྟ་རྟོག་འབད་ནིའི་ཨེཔ་ལེཊི།"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Connecting with Internet Service "
-#~ "Provider</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">ཨིན་ཊར་ནེཊི་ཞབས་ཏོག་བྱིན་མི་ལུ་མཐུད་ནི་</span>"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Root password required</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">རྩ་བའི་ཆོག་ཡིག་དགོ་</span>"
-
-#~ msgid "Enter password"
-#~ msgstr "ཆོག་ཡིག་བཙུགས།"
-
-#~ msgid "Password:"
-#~ msgstr "ཆོག་ཡིག་:"
-
-#~ msgid "A system load indicator"
-#~ msgstr "རིམ་ལུགས་ལྗིད་ཚད་ཀྱི་བརྡ་སྟོན་པ་ཅིག།"
-
-#~ msgid "System Monitor"
-#~ msgstr "རིམ་ལུགས་ལྟ་རྟོག་པ"
-
-#~ msgid "_Open System Monitor"
-#~ msgstr "རིམ་ལུགས་ལྟ་རྟོག་པ་ཁ་ཕྱེ།(_O)"
-
-#~ msgid ""
-#~ "A system load monitor capable of displaying graphs for CPU, ram, and swap "
-#~ "space use, plus network traffic."
-#~ msgstr ""
-#~ "ལས་སྦྱོར་ལྟེ་བ་དང་ རེམ་ བརྗེ་སོར་་བར་སྟོང་ལག་ལེན་ དེ་ལས་ཡོངས་འབྲེལ་འགྲུལ་ལམ་གྱི་དོན་ལུ་ ཚད་ཁྲམ་ཚུ་"
-#~ "བཀྲམ་སྟོན་འབད་ནིའི་ ལྕོགས་གྲུབ་ཅན་གྱི་ རིམ་ལུགས་ལྗིད་ཚད་ལྟ་རྟོག་པ་ཅིག"
-
-#~ msgid "There was an error executing '%s': %s"
-#~ msgstr "'%s': %s བཀོལ་སྤྱོད་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ནུག"
-
-#~ msgid "Processor"
-#~ msgstr "ལས་སྦྱོར་་འཕྲུལ་ཆས།"
-
-#~ msgid "Memory"
-#~ msgstr "དྲན་ཚད།"
-
-#~ msgid "Network"
-#~ msgstr "ཡོངས་འབྲེལ།"
-
-#~ msgid "Swap Space"
-#~ msgstr "བརྗེ་སོར་བར་སྟོང་།"
-
-#~ msgid "Load Average"
-#~ msgstr "ཆ་སྙོམས་ལྗིད་ཚད།"
-
-#~ msgid "Disk"
-#~ msgstr "ཌིཀསི།"
-
-#~ msgid ""
-#~ "%s:\n"
-#~ "%u%% in use by programs\n"
-#~ "%u%% in use as cache"
-#~ msgstr ""
-#~ "%s:\n"
-#~ "%u%%ལས་རིམ་གྱིས་ལག་ལེན་འཐབ་བཞིན་ཡོདཔ་ \n"
-#~ "%u%% འདྲ་མཛོད་སྦེ་ལག་ལེན་འཐབ་བཞིན་ཡོདཔ།"
-
-#~ msgid "The system load average is %0.02f"
-#~ msgstr "རིམ་ལུགས་ཀྱི་ཆ་སྙོམས་ལྗིད་ཚད་དེ་ %0.02f ཨིན་མས།"
-
-#~ msgid ""
-#~ "%s:\n"
-#~ "%u%% in use"
-#~ msgid_plural ""
-#~ "%s:\n"
-#~ "%u%% in use"
-#~ msgstr[0] ""
-#~ "%s:\n"
-#~ "%u%%ལག་ལེན་འཐབ་དོ།"
-#~ msgstr[1] ""
-#~ "%s:\n"
-#~ "%u%%ལག་ལེན་འཐབ་དོ།"
-
-#~ msgid "CPU Load"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བའི་ལྗིད་ཚད།"
-
-#~ msgid "Memory Load"
-#~ msgstr "དྲན་ཚད་ཀྱི་ལྗིད་ཚད།"
-
-#~ msgid "Net Load"
-#~ msgstr "ལྗིད་ཚད་བསྡོམས།"
-
-#~ msgid "Swap Load"
-#~ msgstr "བརྗེ་སོར་གྱི་ལྗིད་ཚད།"
-
-#~ msgid "Disk Load"
-#~ msgstr "ཌིཀསི་གི་ལྗིད་ཚད།"
-
-#~ msgid "Applet refresh rate in milliseconds"
-#~ msgstr "ཨེཔ་ལེཊི་ཡང་སེལ་གྱི་མྱུར་ཚད་ མི་ལི་སྐར་ཆའི་ནང་།"
-
-#~ msgid "Background color for disk load graph"
-#~ msgstr "ཌིཀསི་གི་ལྗིད་ཚད་ཀྱི་ ཚད་ཁྲམ་གྱི་དོན་ལས་ རྒྱབ་གཞིའི་ཚོས་གཞི།"
-
-#~ msgid "CPU graph background color"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བའི་ཚད་ཁྲམ་གྱི་ རྒྱབ་གཞིའི་ཚོས་གཞི།"
-
-#~ msgid "Enable CPU load graph"
-#~ msgstr "ལས་སྦྱོར་ལྟེ་བ་ ལྗིད་ཚད་ཚད་ཁྲམ་ ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid "Enable disk load graph"
-#~ msgstr "ཌིསིཀ་གི་ལྗིད་ཚད་ཚད་ཁྲམ་ ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid "Enable load average graph"
-#~ msgstr "ལྗིད་ཚད་ཆ་སྙོམས་ཀྱི་ཚད་ཁྲམ་ ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid "Enable memory load graph"
-#~ msgstr "དྲན་ཚད་ཀྱི་ལྗིད་ཚད་ཚད་ཁྲམ་ ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid "Enable network load graph"
-#~ msgstr "ཡོངས་འབྲེལ་ལྗིད་ཚད་ཀྱི་ཚད་ཁྲམ་ ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid "Enable swap load graph"
-#~ msgstr "བརྗེ་སོར་ལྗིད་ཚད་ཀྱི་ཚད་ཁྲམ་ ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid ""
-#~ "For horizontal panels, the width of the graphs in pixels. For vertical "
-#~ "panels, this is the height of the graphs."
-#~ msgstr ""
-#~ "ཐད་སྙོམས་པེ་ནཱལསི་གི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་རྒྱ་ཚད་དེ་ པིཀ་སེལསི་ནང་ཨིན། ཀེར་ཕྲང་པེ་ནཱལ་ཚུ་གི་དོན་ལུ་ "
-#~ "འདི་ཚད་ཁྲམ་གྱི་མཐོ་ཚད་ཨིན།"
-
-#~ msgid "Graph color for Ethernet network activity"
-#~ msgstr "ཨི་ཐར་ནེཊི་ ཡོངས་འབྲེལ་ལཱ་གི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for PLIP network activity"
-#~ msgstr "པི་ཨེལ་ཨའི་པི་ ཡོངས་འབྲེལ་ལཱ་གི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for SLIP network activity"
-#~ msgstr "ཨེསི་ཨེལ་ཨའི་པི་ ཡོངས་འབྲེལ་ལཱ་གི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for buffer memory"
-#~ msgstr "གནད་ཁོངས་ཀྱི་ དྲན་ཚད་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for cached memory"
-#~ msgstr "འདྲ་མཛོད་ནང་གི་ དྲན་ཚད་ཀྱི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for disk read"
-#~ msgstr "ཌིཀསི་ལྷག་ནིའི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for disk write"
-#~ msgstr "ཌིཀསི་ལུ་འབྲི་ནིའི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for iowait related CPU activity"
-#~ msgstr "ཨའི་ཨོ་ཝེཊི་དང་ འབྲེལ་བ་ཡོད་པའི་ ལས་སྦྱོར་ལྟེ་བའི་ ལཱ་གི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for load average"
-#~ msgstr "་ཆ་སྙོམས་ལྗིད་ཚད་ཀྱི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for nice-related CPU activity"
-#~ msgstr "ཆུང་ཀུ་དང་འབྲེལ་བ་ཡོད་པའི་ ལས་སྦྱོར་ལྟེ་བའི་ལཱ་གི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for other network usage"
-#~ msgstr "ཡོངས་འབྲེལ་གཞན་ལག་ལེན་གྱི་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for shared memory"
-#~ msgstr "རུབ་སྤྱོད་དྲན་ཚད་ཀྱི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for system-related CPU activity"
-#~ msgstr "རིམ་ལུགས་དང་འབྲེལ་བའི་ ལས་སྦྱོར་ལྟེ་བའི་ལཱ་གི་དོན་ལས་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for user-related CPU activity"
-#~ msgstr "ལག་ལེན་པ་དང་འབྲེལ་བའི་ ལས་སྦྱོར་ལྟེ་བའི་ལཱ་གི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for user-related memory usage"
-#~ msgstr "ལག་ལེན་པ་དང་འབྲེལ་བའི་ དྲན་ཚད་ལག་ལེན་གྱི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph color for user-related swap usage"
-#~ msgstr "ལག་ལེན་པ་དང་འབྲེལ་བའི་ བརྗེ་སོར་ལག་ལེན་གྱི་དོན་ལུ་ ཚད་ཁྲམ་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Graph size"
-#~ msgstr "ཚད་ཁྲམ་གྱི་ཚད།"
-
-#~ msgid "Load graph background color"
-#~ msgstr "ལྗིད་ཚད་ཚད་ཁྲམ་གྱི་ རྒྱབ་གཞིའི་ཚོས་གཞི།"
-
-#~ msgid "Memory graph background color"
-#~ msgstr "དྲན་ཚད་ཚད་ཁྲམ་གྱི་ རྒྱབ་གཞིའི་ཚོས་གཞི།"
-
-#~ msgid "Network graph background color"
-#~ msgstr "ནེཊི་ཝོརོཀ་ཚད་ཁྲམ་གྱི་ རྒྱབ་གཞིའི་ཚོས་གཞི།"
-
-#~ msgid "Swap graph background color"
-#~ msgstr "བརྗེ་སོར་ཚད་ཁྲམ་གྱི་ རྒྱབ་གཞིའི་ཚོས་གཞི།"
-
-#~ msgid "Monitored Resources"
-#~ msgstr "ལྟ་རྟོག་འབད་ཡོད་པའི་ཐོན་ཁུངས།"
-
-#~ msgid "_Processor"
-#~ msgstr "ལས་སྦྱོར་འཕྲུལ་ཆས།(_P)"
-
-#~ msgid "_Memory"
-#~ msgstr "དྲན་ཚད།(_M)"
-
-#~ msgid "_Network"
-#~ msgstr "ཡོངས་འབྲེལ།(_N)"
-
-#~ msgid "S_wap Space"
-#~ msgstr "བརྗེ་སོར་བར་སྟོང་།(_w)"
-
-#~ msgid "_Load"
-#~ msgstr "ལྗིད་ཚད།(_L)"
-
-#~ msgid "_Harddisk"
-#~ msgstr "ཧརཌི་ཌིཀསི།(_H)"
-
-#~ msgid "Options"
-#~ msgstr "གདམ་ཁ་ཚུ།"
-
-#~ msgid "System m_onitor width: "
-#~ msgstr "རིམ་ལུགས་གསལ་གཞིའི་གློག་འཕྲུལ་གྱི་རྒྱ་ཚད།(_o)"
-
-#~ msgid "System m_onitor height: "
-#~ msgstr "རིམ་ལུགས་ལྟ་རྟོག་པའི་མཐོ་ཚད་:(_o)"
-
-#~ msgid "Sys_tem monitor update interval: "
-#~ msgstr "རིམ་ལུགས་ལྟ་རྟོག་པ དུས་མཐུན་བཟོ་བའི་བར་མཚམས།(_t)"
-
-#~ msgid "milliseconds"
-#~ msgstr "མི་ལི་སྐར་ཆ།"
-
-#~ msgid "Colors"
-#~ msgstr "ཚོས་གཞི།"
-
-#~ msgid "_User"
-#~ msgstr "ལག་ལེན་པ།(_U)"
-
-#~ msgid "S_ystem"
-#~ msgstr "རིམ་ལུགས།(_y)"
-
-#~ msgid "N_ice"
-#~ msgstr "ཆུང་ཀུ།(_i)"
-
-#~ msgid "I_OWait"
-#~ msgstr "ཨའི་ཨོ་ཝེཊི།(_O)"
-
-#~ msgid "I_dle"
-#~ msgstr "ལས་མེད།(_d)"
-
-#~ msgid "Sh_ared"
-#~ msgstr "རུབ་སྤྱོད་འབད་ཡོདཔ།(_a)"
-
-#~ msgid "_Buffers"
-#~ msgstr "གནད་ཁོངས་ཚུ།(_B)"
-
-#~ msgid "Cach_ed"
-#~ msgstr "འདྲ་མཛོད་ནང་བཞག་ཡོདཔ།(_e)"
-
-#~ msgid "F_ree"
-#~ msgstr "དལཝ།(_r)"
-
-#~ msgid "_SLIP"
-#~ msgstr "སི་ལིཔ།(_S)"
-
-#~ msgid "PL_IP"
-#~ msgstr "སི་ལིཔ།(_I)"
-
-#~ msgid "_Ethernet"
-#~ msgstr "ཨི་ཐར་ནེཊི།(_E)"
-
-#~ msgid "Othe_r"
-#~ msgstr "གཞན།(_O)"
-
-#~ msgid "_Background"
-#~ msgstr "རྒྱབ་གཞི།(_B)"
-
-#~ msgid "_Used"
-#~ msgstr "ལག་ལེན་འཐབ་ཡོདཔ།(_U)"
-
-#~ msgid "_Free"
-#~ msgstr "དལཝ།(_F)"
-
-#~ msgid "Load"
-#~ msgstr "ལྗིད་ཚད།"
-
-#~ msgid "_Average"
-#~ msgstr "ཆ་སྙོམས།(_A)"
-
-#~ msgid "Harddisk"
-#~ msgstr "ཧརཌི་ཌིཀསི།"
-
-#~ msgid "_Read"
-#~ msgstr "ལྷག(_R)"
-
-#~ msgid "_Write"
-#~ msgstr "བྲིས།(_W)"
-
-#~ msgid "System Monitor Preferences"
-#~ msgstr "རིམ་ལུགས་ལྟ་རྟོག་་ཀྱི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "CD Player (Deprecated)"
-#~ msgstr "སི་ཌི་གཏང་འཕྲུལ། (ངོས་ལེན་མེདཔ)"
-
-#~ msgid "Panel applet for playing audio CDs"
-#~ msgstr "རྣར་ཉན་སི་ཌི་གཏང་ནིའི་ པེ་ནཱལ་ཨེཔ་ལེཊི།"
-
-#~ msgid "Alert you when new mail arrives"
-#~ msgstr "ཡིག་འཕྲིན་གསརཔ་ལྷོདཔ་ད་ ཁྱོད་ལུ་དྲན་བརྡ་བྱིནམ་ཨིན།"
-
-#~ msgid "Inbox Monitor (Deprecated)"
-#~ msgstr "ཨིན་བོགསི་ལྟ་རྟོག་པ། (ངོས་ལེན་མེདཔ)"
-
-#~ msgid "Factory for deprecating applets"
-#~ msgstr "ཨེཔ་ལེཊི་ཚུ་ ངོས་ལེན་མེདཔ་བཟོ་ནིའི་འཕྲུལ་ཁང་།"
-
-#~ msgid "Null Applet Factory"
-#~ msgstr "ཨེཔ་ལེཊི་སྟོང་པའི་ འཕྲུལ་ཁང་།"
-
-#~ msgid "Monitor the quality of a wireless network link"
-#~ msgstr "རླུང་འཕྲིན་ཡོངས་འབྲེལ་ འབྲེལ་ལམ་གྱི་སྤུས་ཚད་ ལྟ་རྟོག་འབད།"
-
-#~ msgid "Wireless Link Monitor"
-#~ msgstr "རླུང་འཕྲིན་འབྲེལ་ལམ་ ལྟ་རྟོག་པ།"
-
-#~ msgid "Some panel items are no longer available"
-#~ msgstr "པེ་ནཱལ་གྱི་རྣམ་གྲངས་ལ་ལོ་ཅིག་ ད་ལས་ཕར་ འཐོབ་མི་ཚུགས།"
-
-#~ msgid ""
-#~ "One or more panel items (also referred to as applets) are no longer "
-#~ "available in the MATE desktop."
-#~ msgstr ""
-#~ "པེ་ནཱལ་གྱི་རྣམ་གྲངས་ གཅིག་གམ་དེ་ལས་ལྷག་སྟེ་ (ཨེཔ་ལེཊིསི་ཟེར་བཀོད་དེ་ཡོད་མི་) ཚུ་ ད་ལས་ཕར་ ཇི་ནོམ་"
-#~ "ཌེཀསི་་ཊོཔ་ནང་ འཐོབ་མི་ཚུགས།"
-
-#~ msgid "These items will now be removed from your configuration:"
-#~ msgstr "རྣམ་གྲངས་འདི་ཚུ་ ད་ལས་ཕར་ ཁྱོད་ཀྱི་རིམ་སྒྲིག་ནང་ལས་ རྩ་བསྐྲད་འགྱོ་འོང་།"
-
-#~ msgid "You will not receive this message again."
-#~ msgstr "ཁྱོད་ཀྱིས་འཕྲིན་དོན་འདི་ ལོག་སྟེ་མི་འཐོབ།"
-
-#~ msgid "Tomboy (ne Stickynotes)"
-#~ msgstr "ཊོམ་བོ་ཡེ། (ཨེན་ཨི་ སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་)"
-
-#~ msgid "Tomboy (transparent upgrade from stickynotes)"
-#~ msgstr "ཊོམ་བོ་ཡེ། (སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ལས་ ཡར་བསྐྱེད་འབད་མི་དྭངས་གསལ་ཅན)"
-
-#~ msgid "Create, view, and manage sticky notes on the desktop"
-#~ msgstr "ཌེཀསི་་ཊོཔ་གུ་ སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་ གསར་བསྐྲུན་འབད་ བལྟ་ འཛིན་སྐྱོང་འཐབ།"
-
-#~ msgid "Sticky Notes"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ།"
-
-#~ msgid "Sticky Notes Applet Factory"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་གྱི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid "Hi_de Notes"
-#~ msgstr "དྲན་འཛིན་ཚུ་སྦ་བཞག།(_d)"
-
-#~ msgid "_Delete Notes"
-#~ msgstr "དྲན་འཛིན་ཚུ་བཏོན་གཏང་།(_D)"
-
-#~ msgid "_Lock Notes"
-#~ msgstr "དྲན་འཛིན་ཚུ་ལྡེ་མིག་རྐྱབས།(_L)"
-
-#~ msgid "_New Note"
-#~ msgstr "དྲན་འཛིན་གསརཔ།(_N)"
-
-#~ msgid "This note is locked."
-#~ msgstr "དྲན་འཛིན་འདི་ ལྡེ་མིག་བརྐྱབས་ནུག"
-
-#~ msgid "This note is unlocked."
-#~ msgstr "དྲན་འཛིན་འདི་ ལྡེ་མིག་ཕྱེ་ནུག"
-
-#~ msgid "    Font C_olor:"
-#~ msgstr "ཡིག་གཟུགས་ཀྱི་ཚོས་གཞི་:(_o)"
-
-#~ msgid "    Font Co_lor:"
-#~ msgstr "ཡིག་གཟུགས་ཀྱི་ཚོས་གཞི་:(_l"
-
-#~ msgid "    Note C_olor:"
-#~ msgstr "དྲན་འཛིན་གྱི་ཚོས་གཞི་:(_o)"
-
-#~ msgid "    Note _Color:"
-#~ msgstr "དྲན་འཛིན་གྱི་ཚོས་གཞི་:(_C)"
-
-#~ msgid "    _Font:"
-#~ msgstr "ཡིག་གཟུགས་:(_F)"
-
-#~ msgid "<b>Behavior</b>"
-#~ msgstr "<b>སྤྱོད་ལམ།</b>"
-
-#~ msgid "<b>Default Note Properties</b>"
-#~ msgstr "<b>དྲན་འཛིན་གྱི་རྒྱུ་དངོས་ཚུ་ སྔོན་སྒྲིག་འབད་</b>"
-
-#~ msgid ""
-#~ "<b>Delete all sticky notes?</b>\n"
-#~ "\n"
-#~ "This cannot be undone."
-#~ msgstr ""
-#~ "<b>སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ ཆ་མཉམ་བཏོན་གཏང་ནི་ཨིན་ན?</b>\n"
-#~ "\n"
-#~ "འདི་འབད་བཤོལ་ འབད་མི་བཏུབ།"
-
-#~ msgid ""
-#~ "<b>Delete this sticky note?</b>\n"
-#~ "\n"
-#~ "This cannot be undone."
-#~ msgstr ""
-#~ "<b>སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་འདི་བཏོན་གཏང་ནི་ཨིན་ན?</b>\n"
-#~ "\n"
-#~ "འདི་འབད་བཤོལ་ འབད་མི་བཏུབ།"
-
-#~ msgid "<b>Properties</b>"
-#~ msgstr "<b>རྒྱུ་དངོས་ཚུ་</b>"
-
-#~ msgid "Choose a base color to use for all sticky notes"
-#~ msgstr ""
-#~ "སྦྱར་རྩིས་ཅན་གྱི་དྲན་འཛིན་ ཆ་མཉམ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ གཞི་རྟེན་ཚོས་གཞི་ཅིག་ གདམ་ཁ་རྐྱབས།"
-
-#~ msgid "Choose a color for the note"
-#~ msgstr "དྲན་འཛིན་གྱི་དོན་ལུ་ ཚོས་གཞི་ཅིག་ གདམ་ཁ་རྐྱབས།"
-
-#~ msgid "Choose a font for the note"
-#~ msgstr "དྲན་འཛིན་གྱི་དོན་ལུ་ ཡིག་གཟུགས་ཅིག་ གདམ་ཁ་རྐྱབས།"
-
-#~ msgid "Choose a font to use for all sticky notes"
-#~ msgstr ""
-#~ "སྦྱར་རྩིས་ཅན་གྱི་ དྲན་འཛིན་ཆ་མཉམ་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་ནིའི་ ཡིག་གཟུགས་ཅིག་ གདམ་ཁ་རྐྱབས།"
-
-#~ msgid "Choose if notes are visible on all workspaces"
-#~ msgstr "ལཱ་གི་ས་སྒོ་ ཆ་མཉམ་ནང་ དྲན་འཛིན་ཚུ་ མཐོང་ཚུགས་པ་ཅིན་ གདམ་ཁ་རྐྱབས།"
-
-#~ msgid "Choose if the default style is forced on all notes"
-#~ msgstr "སྔོན་སྒྲིག་བཟོ་རྣམ་དེ་ དྲན་འཛིན་ཆ་མཉམ་ལུ་ དབང་མནོན་འབད་ཡོད་པ་ཅིན་ གདམ་ཁ་རྐྱབས།"
-
-#~ msgid "Close note"
-#~ msgstr "དྲན་འཛིན་ཁ་བསྡམས།"
-
-#~ msgid "Force _default color and font on notes"
-#~ msgstr "དྲན་འཛིན་ཚུ་ལུ་ སྔོན་སྒྲིག་ཚོས་གཞི་དང་ ཡིག་གཟུགས་ཀྱིས་ དབང་མནོན་འབད།(_d)"
-
-#~ msgid "H_eight:"
-#~ msgstr "མཐོ་ཚད།(_e)"
-
-#~ msgid "Lock/Unlock note"
-#~ msgstr "དྲན་འཛིན་ལྡེ་མིག་རྐྱབས/ལྡེ་མིག་ཕྱེ།"
-
-#~ msgid "Pick a color for the sticky note"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་དེ་གི་དོན་ལུ་ ཚོས་གཞི་ཅིག་འཐུ།"
-
-#~ msgid "Pick a default sticky note color"
-#~ msgstr "སྔོན་སྒྲིག་སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་ཚོས་གཞི་ཅིག་འཐུ།"
-
-#~ msgid "Pick a default sticky note font"
-#~ msgstr "སྔོན་སྒྲིག་སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་གྱི་ཡིག་གཟུགས་ཅིག་འཐུ།"
-
-#~ msgid "Pick a font for the sticky note"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་གྱི་དོན་ལུ་ ཡིག་གཟུགས་ཅིག་འཐུ།"
-
-#~ msgid "Resize note"
-#~ msgstr "དྲན་འཛིན་ཚད་བསྒྱུར་འབད།"
-
-#~ msgid "Specify a title for the note"
-#~ msgstr "དྲན་འཛིན་གྱི་དོན་ལུ་ མགོ་མིང་ཅིག་ གསལ་བཀོད་འབད།"
-
-#~ msgid "Specify the default height (in pixels) of new notes"
-#~ msgstr "དྲན་འཛིན་གསརཔཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་མཐོ་ཚད་ (པིག་སེལསི་ནང་) གསལ་བཀོད་འབད།"
-
-#~ msgid "Specify the default width (in pixels) of new notes"
-#~ msgstr "དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྒྱ་ཚད་ (པིག་སེལསི་ནང་) གསལ་བཀོད་འབད།"
-
-#~ msgid "Sticky Note"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན།"
-
-#~ msgid "Sticky Note Properties"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་གྱི་རྒྱུ་དངོས་ཚུ།"
-
-#~ msgid "Sticky Notes Preferences"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་གི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "Use co_lor from the system theme"
-#~ msgstr "རིམ་ལུགས་བརྗོད་དོན་ནང་ལས་ ཚོས་གཞི་ལག་ལེན་འཐབ།(_l)"
-
-#~ msgid "Use default co_lor"
-#~ msgstr "སྔོན་སྒྲིག་ཚོས་གཞི་ ལག་ལེན་འཐབ།(_l)"
-
-#~ msgid "Use default fo_nt"
-#~ msgstr "སྔོན་སྒྲིག་ཡིག་གཟུགས་ ལག་ལེན་འཐབ།(_n)"
-
-#~ msgid "Use fo_nt from the system theme"
-#~ msgstr "རིམ་ལུགས་བརྗོན་དོན་ནང་ལས་ ཡིག་གཟུགས་ལག་ལེན་འཐབ།(_n)"
-
-#~ msgid "_Delete All"
-#~ msgstr "ཆ་མཉམ་བཏོན་གཏང་།(_D)"
-
-#~ msgid "_Delete Note..."
-#~ msgstr "དྲན་འཛིན་བཏོན་གཏང་...(_D)"
-
-#~ msgid "_Lock Note"
-#~ msgstr "དྲན་འཛིན་ལྡེ་མིག་རྐྱབས།(_L)"
-
-#~ msgid "_Put notes on all workspaces"
-#~ msgstr "ལཱ་གི་ས་སྒོ་ཆ་མཉམ་ནང་ དྲན་འཛིན་བཙུགས།(_P)"
-
-#~ msgid "_Title:"
-#~ msgstr "མགོ་མིང་:(_T)"
-
-#~ msgid ""
-#~ "By default, sticky notes are given the current date as the title when "
-#~ "they are created. This format is used; anything that can be parsed by "
-#~ "strftime() is valid."
-#~ msgstr ""
-#~ "སྔོན་སྒྲིག་གིས་ སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་ གསརཔ་བཟོ་བའི་སྐབས་ལུ་ མགོ་མིང་བཟུམ་ཅིག་སྦེ་ ད་ལྟོའི་ཚེས་"
-#~ "གྲངས་བྱིནམ་ཨིན། strftime()  ནུས་ལྡན་གྱིས་ མིང་དཔྱད་འབད་ཚུགས་མི་ ག་ཅིའི་དོན་ལུ་ཡང་ ཚད་གཞི་"
-#~ "འདི་ ལག་ལེན་འཐབ་ཨིན།"
-
-#~ msgid "Date format of note's title"
-#~ msgstr "དྲན་འཛིན་གྱི་མགོ་མིང་གི་ ཚེས་གྲངས་ཚད་གཞི།"
-
-#~ msgid "Default color for font"
-#~ msgstr "སྔོན་སྒྲིག་ཡིག་གཟུགས་ཀྱི་ཚོས་གཞི།"
-
-#~ msgid "Default color for new notes"
-#~ msgstr "སྔོན་སྒྲིག་དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་ཚོས་གཞི།"
-
-#~ msgid ""
-#~ "Default color for new sticky notes. This should be in html hex "
-#~ "specification, for example \"#30FF50\"."
-#~ msgstr ""
-#~ "སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཚོས་གཞི། འདི་ཡང་ ཨེཆ་ཊི་ཨེམ་ཨེལ་ ཧེགསི་གི་ཁྱད་"
-#~ "རྣམ་ དཔེར་ན་\"#30FF50\" ནང་ལུ་ཨིན་དགོ"
-
-#~ msgid ""
-#~ "Default font color for new sticky notes. This should be in html hex "
-#~ "specification, for example \"#000000\"."
-#~ msgstr ""
-#~ "སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་སྔོན་སྒྲིག་ཚོས་གཞི། འདི་ཡང་ ཨེཆ་ཊི་ཨེམ་ཨེལ་ ཧེག་གི་ཁྱད་"
-#~ "རྣམ་ དཔེར་ན་\"#000000\" ནང་ལུ་ཨིན་དགོ"
-
-#~ msgid "Default font for new notes"
-#~ msgstr "དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས།"
-
-#~ msgid ""
-#~ "Default font for new sticky notes. This should be a Pango Font Name, for "
-#~ "example \"Sans Italic 10\""
-#~ msgstr ""
-#~ "སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་ཡིག་གཟུགས། འདི་ཡང་ པང་གོ་ཡིག་གཟུགས་ཀྱི་མིང་ "
-#~ "དཔེར་ན་\"Sans Italic 10\"ཅིག་ཨིན་དགོ"
-
-#~ msgid "Default height for new notes"
-#~ msgstr "དྲན་འཛིན་་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་མཐོ་ཚད།"
-
-#~ msgid "Default height for new sticky notes in pixels."
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་མཐོ་ཚད་ པིག་སེལསི་ནང་།"
-
-#~ msgid "Default width for new notes"
-#~ msgstr "དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྒྱ་ཚད།"
-
-#~ msgid "Default width for new sticky notes in pixels."
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་ དྲན་འཛིན་གསརཔ་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་རྒྱ་ཚད་ པིག་སེལསི་ནང་།"
-
-#~ msgid "Empty notes are always deleted without confirmation"
-#~ msgstr "དྲན་འཛིན་སྟོངམ་ཚུ་ ཨ་རྟག་རང་ ངེས་གཏན་མ་འདྲི་བར་ བཏོན་གཏངམ་ཨིན།"
-
-#~ msgid ""
-#~ "If this option is disabled, a custom color can be used as the default "
-#~ "color for all sticky notes."
-#~ msgstr ""
-#~ "གདམ་ཁ་འདི་ ལྕོགས་མིན་ཨིན་པ་ཅིན་ སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ ཆ་མཉམ་གྱི་དོན་ལས་ སྔོན་སྒྲིག་ཚོས་གཞི་སྦེ་ "
-#~ "སྲོལ་སྒྲིག་ཚོས་གཞི་ཅིག་ ལག་ལེན་འཐབ།"
-
-#~ msgid ""
-#~ "If this option is disabled, a custom font can be used as the default font "
-#~ "for all sticky notes."
-#~ msgstr ""
-#~ "གདམ་ཁ་འདི་ ལྕོགས་མིན་ཨིན་པ་ཅིན་ སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ ཆ་མཉམ་གྱི་དོན་ལས་ སྔོན་སྒྲིག་ཡིག་གཟུགས་"
-#~ "སྦེ་ སྲོལ་སྒྲིག་ཡིག་གཟུགས་ཅིག་ ལག་ལེན་འཐབ།"
-
-#~ msgid ""
-#~ "If this option is enabled, the custom colors and fonts that have been "
-#~ "assigned to individual notes will be ignored."
-#~ msgstr ""
-#~ "གདམ་ཁ་འདི་ ལྕོགས་ཅན་ཨིན་པ་ཅིན་ དྲན་འཛིན་སོ་སོ་ལུ་སྤྲོད་དེ་ཡོད་པའི་ སྲོལ་སྒྲིག་ཚོས་གཞི་དང་ ཡིག་"
-#~ "གཟུགས་ཚུ་ སྣང་མེད་སྦེ་བཞགཔ་ཨིན།"
-
-#~ msgid "Specifies whether the sticky notes are locked (non-editable) or not."
-#~ msgstr ""
-#~ "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་ ལྡེ་མིག་བརྐྱབས་མ་བརྐྱབས་ (ཞུན་དག་བརྐྱབ་མ་བཏུབ) གསལ་བཀོད་འབདཝ་ཨིན།"
-
-#~ msgid ""
-#~ "Specifies whether the sticky notes are visible on ALL workspaces on the "
-#~ "desktop, or not."
-#~ msgstr ""
-#~ "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་ ཌེཀསི་ཊོཔ་གུ་ ལཱ་གི་ས་སྒོ་ཆ་མཉམ་ནང་ མཐོང་ཚུགས་ག་མི་ཚུགས་ གསལ་བཀོད་"
-#~ "འབདཝ་ཨིན།"
-
-#~ msgid "Sticky notes' locked state"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་ ལྡེ་མིག་བརྐྱབས་ཡོད་པའི་གནས་ལུགས།"
-
-#~ msgid "Sticky notes' workspace stickyness"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་གི་ ལཱ་གི་ས་སྒོའི་ སྦྱར་རྩིའི་རང་བཞིན།"
-
-#~ msgid "Whether to ask for confirmation when deleting a note"
-#~ msgstr "དྲན་འཛིན་ཅིག་ བཏོན་གཏང་བའི་སྐབས་ ངེས་གཏན་སྦེ་ འདྲི་དགོ་ག་མིན་དགོ"
-
-#~ msgid "Whether to force the default color and font on all notes"
-#~ msgstr "དྲན་འཛིན་ཆ་མཉམ་གུ་ སྔོན་སྒྲིག་ཚོས་གཞི་དང་ཡིག་གཟུགས་ དབང་མནོན་འབད་དགོ་ག་མིན་དགོ"
-
-#~ msgid "Whether to use the default system color"
-#~ msgstr "སྔོན་སྒྲིག་རིམ་ལུགས་ཀྱི་ཚོས་གཞི་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།"
-
-#~ msgid "Whether to use the default system font"
-#~ msgstr "སྔོན་སྒྲིག་རིམ་ལུགས་ཀྱི་ཡིག་གཟུགས་ ལག་ལེན་འཐབ་ནི་ཨིན་ན་མེན།"
-
-#~ msgid "%d note"
-#~ msgid_plural "%d notes"
-#~ msgstr[0] "དྲན་འཛིན་%d"
-#~ msgstr[1] "དྲན་འཛིན་%d"
-
-#~ msgid "Show sticky notes"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་སྟོན།"
-
-#~ msgid "Sticky Notes for the MATE Desktop Environment"
-#~ msgstr "ཇི་ནོམ་ ཌེཀསི་ཊོཔ་གི་ མཐའ་འཁོར་གྱི་དོན་ལུ་ སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ།"
-
-#~ msgid "Go to Trash"
-#~ msgstr "ཕྱགས་ཧོད་ནང་འགྱོ།"
-
-#~ msgid "Trash"
-#~ msgstr "ཕྱགས་ཧོད།"
-
-#~ msgid "_Empty Trash"
-#~ msgstr "ཕྱགས་ཧོད་སྟོངམ་བཏོན།(_E)"
-
-#~ msgid "_Open"
-#~ msgstr "ཁ་ཕྱེ།(_O)"
-
-#~ msgid "Unable to find the Trash directory: %s"
-#~ msgstr "ཕྱགས་ཧོད་ཀྱི་སྣོད་ཐོ་ %s འཚོལ་མ་ཐོབ།"
-
-#~ msgid "No Items in Trash"
-#~ msgstr "ཕྱགས་ཧོད་ནང་ རྣམ་གྲངས་མིན་འདུག"
-
-#~ msgid "%d Item in Trash"
-#~ msgid_plural "%d Items in Trash"
-#~ msgstr[0] "ཕྱགས་ཧོད་ནང་ རྣམ་གྲངས་%d འདུག"
-#~ msgstr[1] "ཕྱགས་ཧོད་ནང་ རྣམ་གྲངས་%d འདུག"
-
-#~ msgid "Removing item %d of %d"
-#~ msgstr "%d གི་%dརྣམ་གྲངས་རྩ་བསྐྲད་གཏང་དོ་"
-
-#~ msgid "Removing:"
-#~ msgstr "རྩ་བསྐྲད་གཏང་དོ:"
-
-#~ msgid "Empty all of the items from the trash?"
-#~ msgstr "ཕྱགས་ཧོད་ནང་ལས་ རྣམ་གྲངས་ཆ་མཉམ་ར་ བཏོན་གཏང་ནི་ཨིན་ན"
-
-#~ msgid ""
-#~ "If you choose to empty the trash, all items in it will be permanently "
-#~ "lost. Please note that you can also delete them separately."
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱིས་ཕྱགས་ཧོད་ སྟོངམ་བཏོན་གཏང་པ་ཅིན་ དེ་ནང་ཡོད་པའི་ རྣམ་གྲངས་ཆ་མཉམ་ རྟག་བརྟན་སྦེ་ འཐོན་"
-#~ "འགྱོ་འོང་། ཁྱོད་ཀྱིས་རྣམ་གྲངས་ཚུ་ རེ་རེ་འབད་ཡང་ བཏོན་གཏང་བཏུབ་ སེམས་ཁར་དྲན།"
-
-#~ msgid ""
-#~ "Error while spawning Caja:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "ནའུ་ཊི་ལཱསི་ འབྱུང་ཐབས་འབད་བའི་སྐབས་ འཛོལ་བ་བྱུང་ནུག\n"
-#~ "%s"
-
-#~ msgid "Trash Applet"
-#~ msgstr "་ཕྱགས་ཧོད་ཨེཔ་ལེཊི།"
-
-#~ msgid ""
-#~ "A MATE trash bin that lives in your panel. You can use it to view the "
-#~ "trash or drag and drop items into the trash."
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱི་པེ་ནཱལ་ནང་སྡོད་མི་ ཇི་ནོམ་ཕྱགས་ཧོད། འདི་ཁྱོད་ཀྱིས་ ཕྱགས་ཧོད་བལྟ་ནི་དང་ དོན་ཚན་ཚུ་འདྲུད་དེ་ "
-#~ "ཕྱགས་ཧོད་ནང་བཙུགས་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་བཏུབ།"
-
-#~ msgid "Delete Immediately?"
-#~ msgstr "དེ་འཕྲལ་ལས་ བཏོན་གཏང་ནི་ཨིན་ན?"
-
-#~ msgid "Cannot move items to trash, do you want to delete them immediately?"
-#~ msgstr "རྣམ་གྲངས་ཚུ་ ཕྱགས་ཧོད་ནང་ སྤོ་མི་ཚུགས་པས། དེ་ཚུ་དེ་འཕྲལ་ལས་ བཏོན་གཏང་ནི་ཨིན་ན?"
-
-#~ msgid ""
-#~ "Cannot move some items to trash, do you want to delete these immediately?"
-#~ msgstr ""
-#~ "རྣམ་གྲངས་ལ་ལོ་ཅིག་ ཕྱགས་ཧོད་ནང་ སྤོ་་མི་ཚུགས་པས། དེ་ཚུ་དེ་འཕྲལ་ལས་ བཏོན་གཏང་ནི་ཨིན་ན?"
-
-#~ msgid ""
-#~ "Unable to move to trash:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "ཕྱགས་ཧོད་ནང་ སྤོ་མ་ཚུགས་:\n"
-#~ "%s"
-
-#~ msgid "<b>From:</b>"
-#~ msgstr "<b>ལས་</b>"
-
-#~ msgid "<big><b>Emptying the Trash</b></big>"
-#~ msgstr "<big><b>ཕྱགས་ཧོད་སྟོངམ་བཏོན་དོ།</b></big>"
-
-#~ msgid "Emptying the Trash"
-#~ msgstr "ཕྱགས་ཧོད་སྟོངམ་བཏོན་དོ།"
-
-#~ msgid "Mode to show the frequency selector drop down menu"
-#~ msgstr "འབྱུང་ཐེངས་འདེམས་བྱེད་ཀྱི་གདམ་ཐོ་སྟོན་ནིའི་ཐབས་ལམ"
-
-#~ msgid "<b>Frequency Selector</b>"
-#~ msgstr "<b>འབྱུང་ཐེངས་འདེམས་བྱེད།</b>"
-
-#~ msgid "Show m_enu:"
-#~ msgstr "དཀར་ཆག་སྟོན།(_e)"
-
-#~ msgid "Frequencies"
-#~ msgstr "དགའ་གདམ་ཚུ།"
-
-#~ msgid "Governors"
-#~ msgstr "གོ་བ་ནརསི"
-
-#~ msgid "Frequencies and Governors"
-#~ msgstr "འབྱུང་ཐེངས་དང་ གོ་བ་ནརསི།"
-
-#~ msgid "_Frequencies"
-#~ msgstr "འབྱུང་ཐེངས།(_F)"
-
-#~ msgid "_Governors"
-#~ msgstr "གོ་བ་ནརསི།(_G)"
-
-#~ msgid "No description."
-#~ msgstr "འགྲེལ་བཤད་མིན་འདུག"
-
-#~ msgid "Failed to init MateConf: %s\n"
-#~ msgstr "ཇི་ཀཱོནཕ་ %s འགོ་འབྱེད་འབད་མ་ཚུགས།\n"
-
-#~ msgid "Activate more plugins"
-#~ msgstr "པ་ལག་ཨིནསི་མངམ་ ཤུགས་ལྡན་བཟོ།"
-
-#~ msgid "Active _plugins:"
-#~ msgstr "ཤུགས་ལྡན་གྱི་ པ་ལག་ཨིནསི་:(_P)"
-
-#~ msgid "Add Plugin"
-#~ msgstr "པ་ལག་ཨིན་ ཁ་སྐོང་རྐྱབས།"
-
-#~ msgid "Close the dialog"
-#~ msgstr "ཌའི་ལོག་ཁ་བསྡམས།"
-
-#~ msgid "Configure the selected plugin"
-#~ msgstr "སེལ་འཐུ་འབད་མི་ པ་ལག་ཨིན་ རིམ་སྒྲིག་འབད།"
-
-#~ msgid "Deactivate selected plugin"
-#~ msgstr "སེལ་འཐུ་འབད་མི་ པ་ལག་ཨིན་ ཤུགས་མེད་བཟོ།"
-
-#~ msgid "Decrease the plugin priority"
-#~ msgstr "པ་ལག་ཨིན་གྱི་ གཙོ་རིམ་དེ་ མར་ཕབ་འབད།"
-
-#~ msgid "Increase the plugin priority"
-#~ msgstr "པ་ལག་ཨིན་གྱི་ གཙོ་རིམ་དེ་ ཡར་འཕར་རྐྱབས།"
-
-#~ msgid "Keyboard Indicator Plugins"
-#~ msgstr "ལྡེ་སྒྲོམ་བརྡ་སྟོན་པའི་ པ་ལག་ཨིནསི།"
-
-#~ msgid "The list of active plugins"
-#~ msgstr "ཤུགས་ལྡན་པ་ལག་ཨིནསི་གི་ ཐོ་ཡིག"
-
-#~ msgid "_Available plugins:"
-#~ msgstr "འཐོབ་ཚུགས་པའི་ པ་ལག་ཨིནསི།(_A)"
-
-#~ msgid "Keyboard Indicator Test (%s)"
-#~ msgstr "ལྡེ་སྒྲོམ་བརྡ་སྟོན་པའི་བརྟག་ཞིབ་(%s)།"
-
-#~ msgid "Indicator:"
-#~ msgstr "བརྡ་སྟོན་པ་:"
-
-#~ msgid "layout \"%s\""
-#~ msgid_plural "layouts \"%s\""
-#~ msgstr[0] "ག་བཀོདt \"%s\"།"
-#~ msgstr[1] "ལྡེ་སྒྲོམ་སྒྲིག་བཀོད་\"%s\"ཚུ།"
-
-#~ msgid "option \"%s\""
-#~ msgid_plural "options \"%s\""
-#~ msgstr[0] "གདམ་ཁ་ཚུ་\"%s\"།"
-#~ msgstr[1] "གདམ་ཁ་\"%s\"ཚུ།"
-
-#~ msgid "model \"%s\", %s and %s"
-#~ msgstr "དཔེ་\"%s\" དང་ %s %s།"
-
-#~ msgid "no layout"
-#~ msgstr "སྒྲིག་བཀོད་མིན་འདུག"
-
-#~ msgid "no options"
-#~ msgstr "གདམ་ཁ་མིན་འདུག"
-
-#~ msgid "Enable/disable installed plugins"
-#~ msgstr "གཞི་བཙུགས་འབད་དེ་ཡོད་པའི་ པ་ལང་ཨིནསི་ཚུ་ ལྕོགས་ཅན་བཟོ་/ལྕོགས་མིན་བཟོ།"
-
-#~ msgid "Keyboard Indicator plugins"
-#~ msgstr "ལྡེ་སྒྲོམ་བརྡ་སྟོན་པའི་པ་ལག་ཨིནསི།"
-
-#~ msgid "Secondary groups"
-#~ msgstr "གལ་གནད་ཆུང་བའི་སྡེ་ཚན་ཚུ།"
-
-#~ msgid "Show flags in the applet"
-#~ msgstr "ཟུར་རྟགས་་ཚུ་ ཨེཔ་ལེཊི་ནང་སྟོན།"
-
-#~ msgid "Show flags in the applet to indicate the current layout"
-#~ msgstr "ད་ལྟོའི་སྒྲིག་བཀོད་ཀྱི་ བརྡ་སྟོན་ནིའི་དོན་ལུ་ ཟུར་རྟགས་ཚུ་ ཨེཔ་ལེཊི་ནང་སྟོན།"
-
-#~ msgid "The list of enabled Keyboard Indicator plugins"
-#~ msgstr "ལྕོགས་ཅན་ལྡེ་སྒྲོམ་ བརྡ་སྟོན་པའི་ པ་ལག་ཨིནསི་གི་ ཐོ་ཡིག"
-
-#~ msgid "Autosave timeout in minutes"
-#~ msgstr "རང་བཞིན་སྲུང་བཞག་ངལ་མཚམས་ སྐར་མའི་ནང་།"
-
-#~ msgid ""
-#~ "Every time the specified number of minutes pass, the sticky notes are "
-#~ "automatically saved."
-#~ msgstr ""
-#~ "གསལ་བཀོད་འབད་མི་ སྐར་མའི་གྱངས་ཁ་ ཚར་རེ་འདས་པའི་སྐབས་ སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་ རང་བཞིན་"
-#~ "གྱིས་སྲུང་བཞག་འབདཝ་ཨིན།"
-
-#~ msgid "Pl_ugins"
-#~ msgstr "པ་ལག་ཨིནསི།(_u)"
-
-#~ msgid "_Layout View"
-#~ msgstr "སྒྲིག་བཀོད་མཐོང་སྣང་།(_L)"
-
-#~ msgid "Waiting..."
-#~ msgstr "བསྒུག་དོ་...།"
-
-#~ msgid "There was an error loading an image: %s"
-#~ msgstr "་གཟུགས་བརྙན་:%s བཀྲམ་སྟོན་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་བྱུང་ནུག"
-
-#~ msgid "XKB initialization error"
-#~ msgstr "ཨེགསི་ཀེ་བི་ འགོ་འབྱེད་འབད་ནི་ལུ་འཛོལ་བ།"
-
-#~ msgid "Error loading XKB configuration registry"
-#~ msgstr "ཨེགསི་ཀེ་བི་གི་ རིམ་སྒྲིག་ཐོ་མཛོད་ མངོན་གསལ་འབད་ནི་ལུ་འཛོལ་བ།"
-
-#~ msgid "Total"
-#~ msgstr "བསྡོམས།"
-
-#~ msgid "Get continuously updated stock quotes"
-#~ msgstr "དུས་མཐུན་བཟོ་མི་ ཅ་མཛོད་ཀྱི་ འདྲེན་ཚིག་ཚུ་ འཕྲོ་མཐུད་དེ་རང་ལེན།"
-
-#~ msgid "Gtik Applet Factory"
-#~ msgstr "ཇི་ཊིཀ་ ཨེཔ་ལེཊི་ འཕྲུལ་ཁང་།"
-
-#~ msgid "Stock Ticker"
-#~ msgstr "ཅ་མཛོད་ཀྱི་ ཨིན་རྟགས་བཀལ་མི།"
-
-#~ msgid "Could not retrieve the stock data."
-#~ msgstr "ཅ་མཛོད་ཀྱི་གནད་སྡུད་ སླར་འདྲེན་འབད་མ་ཚུགས།"
-
-#~ msgid "No stock list"
-#~ msgstr "ཅ་མཛོད་ཀྱི་ཐོ་ཡིག་མིན་འདུག"
-
-#~ msgid ""
-#~ "This program connects to a popular site and downloads current stock "
-#~ "quotes.\n"
-#~ "\n"
-#~ "The MATE Stock Ticker is a free Internet-based application. It comes "
-#~ "with ABSOLUTELY NO WARRANTY.\n"
-#~ "\n"
-#~ "Do not use the MATE Stock Ticker for making investment decisions; it is "
-#~ "for informational purposes only."
-#~ msgstr ""
-#~ "ལས་རིམ་འདི་གིས་ ཡོངས་གྲགས་ཅན་གྱི་ས་ཁོངས་ལུ་ འབྲེལ་མཐུད་འབད་དེ་ ད་ལྟོའི་ཅ་མཛོད་ཀྱི་ འདྲེན་ཚིག་ཚུ་ "
-#~ "ཕབ་ལེན་འབདཝ་ཨིན།.\n"
-#~ "\n"
-#~ "ཇི་ནོམ་ ཅ་མཛོད་ཨིན་རྟགས་བཀལ་མི་དེ་ སྟོང་མར་འཐོབ་པའི་ ཨིན་ཊར་ནེཊི་ལུ་བརྟེན་པའི་ གློག་རིམ་ཅིག་ཨིནམ་"
-#~ "ལས་ ཉེན་ལེན་རྩ་ལས་རང་མེད།.\n"
-#~ "\n"
-#~ "ཇི་ནོམ་ཅ་མཛོད་ ཨིན་རྟགས་བཀལ་མི་དེ་ མ་རྩ་བཙུགས་ནིའི་ གྲོས་ཆོད་དོན་ལུ་ ལག་ལེན་མ་འཐབ། འདི་གནས་"
-#~ "ཚུལ་གྱི་ དགོས་དོན་ལུ་རྐྱངམ་ཅིག་ཨིན།"
-
-#~ msgid "Current _stocks:"
-#~ msgstr "ད་ལྟོའི་ཅ་མཛོད་ཚུ་:(_s)"
-
-#~ msgid "Add _new symbol:"
-#~ msgstr "བརྡ་མཛོན་གསརཔ་ཁ་སྐོང་རྐྱབས་:(_n)"
-
-#~ msgid "Stock Ticker Preferences"
-#~ msgstr "ཅ་མཛོད་ཨིན་རྟགས་བཀལ་མི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "Behavior"
-#~ msgstr "སྤྱོད་ལམ།"
-
-#~ msgid "Stock update fre_quency:"
-#~ msgstr "ཅ་མཛོད་དུས་མཐུན་བཟོ་བའི་འབྱུང་ཐེངས་:(_q)"
-
-#~ msgid "_Scroll speed:"
-#~ msgstr "བཤུད་བསྒྲིལ་གྱི་མགྱོགས་ཚད་:(_S)"
-
-#~ msgid "Slow"
-#~ msgstr "ལྷོད།"
-
-#~ msgid "Medium"
-#~ msgstr "འབྲིང་།"
-
-#~ msgid "Fast"
-#~ msgstr "མགྱོགས།"
-
-#~ msgid "_Enable scroll buttons"
-#~ msgstr "བཤུད་རྟ་ཚུ་ ལྕོགས་ཅན་བཟོ།(_E)"
-
-#~ msgid "Scroll _left to right"
-#~ msgstr "གཡོན་ལས་གཡས་ལུ་བཤུད་བསྒྲིལ་འབད།(_l)"
-
-#~ msgid "Appearance"
-#~ msgstr "འབྱུང་སྣང་།"
-
-#~ msgid "Displa_y only symbols and price"
-#~ msgstr "བརྡ་མཚོན་དང་ གོང་ཚད་རྐྱངམ་གཅིག་ བཀྲམ་སྟོན་འབད།(_y)"
-
-#~ msgid "Font and Colors"
-#~ msgstr "ཡིག་གཟུགས་དང་ཚོས་གཞི་ཚུ།"
-
-#~ msgid "Use _default theme font and colors"
-#~ msgstr "སྔོན་སྒྲིག་འབད་མི་ བརྗོད་དོན་གྱི་ཡིག་གཟུགས་དང་ ཚོས་གཞི་ཚུ་ ལག་ལེན་འཐབ།(_d)"
-
-#~ msgid "_Font:"
-#~ msgstr "ཡིག་གཟུགས་:(_F)"
-
-#~ msgid "Stock _raised:"
-#~ msgstr "ཅ་མཛོད་ཡར་སེང་འབད་ཡོད་:(_r)"
-
-#~ msgid "Stock _lowered:"
-#~ msgstr "ཅ་མཛོད་མར་ཕབ་ཡོད་:(_l)"
-
-#~ msgid "Stock _unchanged:"
-#~ msgstr "ཅ་མཛོད་བསྒྱུར་མ་འབདཝ་:(_u)"
-
-#~ msgid "_Background:"
-#~ msgstr "རྒྱབ་གཞི ་:(_B)"
-
-#~ msgid "Skip forward"
-#~ msgstr "གདོང་ཁར་གོམ་འགྱོ།"
-
-#~ msgid "Skip backward"
-#~ msgstr "རྒྱབ་ཁར་གོམ་འགྱོ།"
-
-#~ msgid ""
-#~ "Stock Ticker\n"
-#~ "Get continuously updated stock quotes"
-#~ msgstr ""
-#~ "ཅ་མཛོད་ ཨིན་རྟགས་བཀལ་མི།\n"
-#~ "དུས་མཐུན་བཟོ་མི་ ཅ་མཛོད་ཀྱི་འདྲེན་ཚིག་ཚུ་ འཕྲོ་མཐུད་དེ་རང་ལེན།"
-
-#~ msgid "+%s (%s)"
-#~ msgstr "+%s (%s)"
-
-#~ msgid "%s (%s)"
-#~ msgstr "%s (%s)"
-
-#~ msgid "(No Change)"
-#~ msgstr "(འགྱུར་བ་མེད)"
-
-#~ msgid "Applet scrolls right to left when this key is set to true."
-#~ msgstr ""
-#~ "ལྡེ་མིག་འདི་ བདེན་པ་ལུ་ གཞི་སྒྲིག་འབད་བའི་སྐབས་ ཨེཔ་ལེཊི་དེ་ གཡས་ལས་གཡོན་ལུ་ བཤུད་བསྒྲིལ་འབདཝ་"
-#~ "ཨིན།"
-
-#~ msgid "Background color"
-#~ msgstr "རྒྱབ་གཞིའི་ཚོས་གཞི།"
-
-#~ msgid ""
-#~ "Display only stock symbols along with their value. Do not display changes "
-#~ "in value."
-#~ msgstr ""
-#~ "ཅ་མཛོད་ཀྱི་བརྡ་མཛོན་ཚུ་ ཁོང་རའི་བེ་ལུ་དང་སྦྲགས་ཏེ་ བཀྲམ་སྟོན་འབད། བེ་ལུ་ནང་ འགྱུར་བ་ཚུ་ ཀྲམ་སྟོན་"
-#~ "མ་འབད།"
-
-#~ msgid "Display only symbols and price"
-#~ msgstr "བརྡ་མཚོན་དང་ གོང་ཚད་རྐྱངམ་ཅིག་ བཀྲམ་སྟོན་འབད།"
-
-#~ msgid "Font"
-#~ msgstr "ཡིག་གཟུགས།"
-
-#~ msgid ""
-#~ "List containing the stocks to be displayed. Consists of the stock id "
-#~ "separated by \"+\""
-#~ msgstr ""
-#~ "བཀྲམ་སྟོན་འབད་ནིའི་ ཅ་མཛོད་ཡོད་པའི་ཐོ་ཡིག \"+\" གིས་ སོ་སོ་བཟོ་མི་ ཅ་མཛོད་ཀྱི་ངོ་རྟགས་ཚུ་ ཚུད་དེ་"
-#~ "ཡོད།"
-
-#~ msgid "Lowered color"
-#~ msgstr "ཚོས་གཞི་མར་ཕབ་འབད་ཡི།"
-
-#~ msgid "Raised color"
-#~ msgstr "ཡར་སེང་ཅན་གྱི་ཚོས་གཞི།"
-
-#~ msgid "Right to left scrolling"
-#~ msgstr "གཡས་ལས་གཡོན་ལུ་བཤུད་བསྒྲིལ།"
-
-#~ msgid "Shorter time means the stocks scroll by faster."
-#~ msgstr "དུས་ཚོད་ཐུང་པ་ཅིན་ ཅ་མཛོད་ཚུ་ མགྱོགས་པར་བཤུད་བསྒྲིལ་འབདཝ་ཨིན།"
-
-#~ msgid "Show arrow buttons"
-#~ msgstr "མདའ་རྟགས་ཀྱི་ ཨེབ་རྟ་ཚུ་སྟོན།"
-
-#~ msgid ""
-#~ "Show arrow buttons on the side of the display so that the user can scroll "
-#~ "forward or backward."
-#~ msgstr ""
-#~ "མདའ་རྟགས་ཨེབ་རྟ་ཚུ་ བཀྲམ་སྟོན་གྱི་ ཟུར་ཁར་སྟོན་པ་ཅིན་ ལག་ལེན་པ་དེ་གིས་ གདོང་ཕྱོགས་དང་ རྒྱབ་ཕྱོགས་"
-#~ "ལུ་ བཤུད་བསྒྲིལ་འབད་ཚུགས། "
-
-#~ msgid "Stocks to monitor - must be separated by a +"
-#~ msgstr "ལྟ་རྟོག་འབད་དགོ་པའི་ཅ་མཛོད་ཚུ་ +ཅིག་གིས་ སོ་སོ་འཕྱལ་དགོ"
-
-#~ msgid ""
-#~ "The color of the background of the display. Has no effect when the user "
-#~ "chooses to use the default theme fonts and colors."
-#~ msgstr ""
-#~ "བཀྲམ་སྟོན་གྱི་ རྒྱབ་གཞིའི་ཚོས་གཞི། ལག་ལེན་པ་དེ་གིས་ སྔོན་སྒྲིག་བརྗོད་དོན་གྱི་ ཡིག་གཟུགས་དང་ ཚོས་གཞི་"
-#~ "ཚུ་ ལག་ལེན་འཐབ་ནི་ལུ་ གདམ་ཁ་བརྐྱབས་པའི་སྐབས་ ནུས་པ་མེད།"
-
-#~ msgid ""
-#~ "The color used when the stock's values has lowered. Has no effect when "
-#~ "the user chooses to use the default theme fonts and colors."
-#~ msgstr ""
-#~ "ཅ་མཛོད་ཀྱི་བེ་ལུསི་ མར་འབབ་འགྱོ་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི། ལག་ལེན་པ་དེ་གིས་ སྔོན་སྒྲིག་"
-#~ "བརྗོད་དོན་གྱི་ ཡིག་གཟུགས་དང་ ཚོས་གཞི་ཚུ་ ལག་ལེན་འཐབ་ནི་ལུ་ གདམ་ཁ་བརྐྱབས་པའི་སྐབས་ ནུས་པ་མེད།"
-
-#~ msgid ""
-#~ "The color used when the stock's values has not changed. Has no effect "
-#~ "when the user chooses to use the default theme fonts and colors."
-#~ msgstr ""
-#~ "ཅ་མཛོད་ཀྱི་བེ་ལུསི་ འགྱུར་བ་མེད་པའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི། ལག་ལེན་པ་དེ་གིས་ སྔོན་སྒྲིག་"
-#~ "བརྗོད་དོན་གྱི་ ཡིག་གཟུགས་དང་ ཚོས་གཞི་ཚུ་ ལག་ལེན་འཐབ་ནི་ལུ་ གདམ་ཁ་བརྐྱབས་པའི་སྐབས་ ནུས་པ་མེད།"
-
-#~ msgid ""
-#~ "The color used when the stock's values has raised. Has no effect when the "
-#~ "user chooses to use the default theme fonts and colors."
-#~ msgstr ""
-#~ "ཅ་མཛོད་ཀྱི་བེ་ལུསི་ ཡར་སེང་འབད་བའི་སྐབས་ ལག་ལེན་འཐབ་ནིའི་ཚོས་གཞི། ལག་ལེན་པ་དེ་གིས་ སྔོན་སྒྲིག་"
-#~ "བརྗོད་དོན་གྱི་ ཡིག་གཟུགས་དང་ ཚོས་གཞི་ཚུ་ ལག་ལེན་འཐབ་ནི་ལུ་ གདམ་ཁ་བརྐྱབས་པའི་སྐབས་ ནུས་པ་མེད།"
-
-#~ msgid ""
-#~ "The font used for the display. Has no effect when the user chooses to use "
-#~ "the default theme fonts and colors."
-#~ msgstr ""
-#~ "བཀྲམ་སྟོན་གྱི་དོན་ལུ་ ལག་ལེན་འཐབ་པའི་ཡིག་གཟུགས། ལག་ལེན་པ་དེ་གིས་ སྔོན་སྒྲིག་བརྗོད་དོན་གྱི་ ཡིག་"
-#~ "གཟུགས་དང་ ཚོས་གཞི་ཚུ་ ལག་ལེན་འཐབ་ནི་ལུ་ གདམ་ཁ་བརྐྱབས་པའི་སྐབས་ ནུས་པ་མེད།"
-
-#~ msgid "The time interval until when the applet updates the stock data."
-#~ msgstr "ཨེཔ་ལེཊིསི་གིས་ ཅ་མཛོད་ཀྱི་གནད་སྡུད་ དུས་མཐུན་བཟོ་བའི་སྐབས་ཀྱི་ དུས་ཚོད་བར་མཚམས།"
-
-#~ msgid "The width in pixels of the applet."
-#~ msgstr "ཨེཔ་ལེཊི་གི་རྒྱ་ཚད་ པིག་སེལསི་ནང་།"
-
-#~ msgid "Time in milliseconds for display update"
-#~ msgstr "བཀྲམ་སྟོན་དུས་མཐུན་བཟོ་ནིའི་དོན་ལུ་ དུས་ཚོད་མི་ལི་སྐར་ཆའི་ནང་།"
-
-#~ msgid "Unchanged color"
-#~ msgstr "བསྒྱུར་བཅོས་མེད་ཚོས་གཞི།"
-
-#~ msgid "Use default theme fonts and colors"
-#~ msgstr "སྔོན་སྒྲིག་བརྗོད་དོན་གྱི་ ཡིག་གཟུགས་དང་ ཚོས་གཞི་ཚུ།"
-
-#~ msgid "Use default theme fonts and colors instead of custom ones"
-#~ msgstr "སྲོལ་སྒྲིག་གི་ཚབ་ལུ་ སྔོན་སྒྲིག་བརྗོད་དོན་གྱི་ ཡིག་གཟུགས་དང་ ཚོས་གཞི་ཚུ་ ལག་ལེན་འཐབ།"
-
-#~ msgid "font 2 - No Longer used"
-#~ msgstr "ཡིག་གཟུགས་-༢ པ་ ད་ལས་ཕར་ ལག་ལེན་འཐབ་མི་འཐབ།"
-
-#~ msgid "_Show in mode:"
-#~ msgstr "ཐབས་ལམ་ནང་སྟོན་:(_S)"
-
-#~ msgid "translator_credits"
-#~ msgstr ""
-#~ "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་"
-#~ "གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
-#~ "(_c)"
-
-#~ msgid "MATE keyboard applet factory"
-#~ msgstr "ཇི་ནོམ་ལྡེ་སྒྲོམ་གྱི་ ཨེཔ་ལེཊི་འཕྲུལ་ཁང་།"
-
-#~ msgid "A MATE/GStreamer-based volume control applet"
-#~ msgstr "ཇི་ནོམ་/ཇི་སི་ཊི་མར་ལུ་བརྟེན་པའི་ སྐད་ཤུགས་ཚད་འཛིན་ ཨེཔ་ལེཊི།"
-
-#~ msgid "Copyright (C) 2003 Sun Microsystems"
-#~ msgstr "འདྲ་བཤུས་དབང་ཆ་ (C) ༢༠༠༣ སཱན་ མའི་ཀོརོ་སིསི་ཊམསི།"
-
-#~ msgid "_Suspend Computer..."
-#~ msgstr "གློག་རིག་འཕྲལ་བཀག་འབད་...(_S)"
-
-#~ msgid "Command to send to suspend the computer"
-#~ msgstr "གློག་རིག་འཕྲལ་བཀག་གི་དོན་ལུ་ གཏང་ནིའི་བརྡ་བཀོད།།"
-
-#~ msgid "Orange value level"
-#~ msgstr "ལི་ཝང་གི་བེ་ལུའི་ གནས་རིམ།"
-
-#~ msgid "Show battery status"
-#~ msgstr "འཕྲུལ་ལྟོའི་གནས་ཚད་སྟོན།"
-
-#~ msgid "Suspend Command"
-#~ msgstr "བརྡ་བཀོད་འཕྲལ་བཀག་འབད།"
-
-#~ msgid "The battery level below which the battery is displayed as red."
-#~ msgstr "དམརཔོ་གི་ཚད་ཀྱི་འོག་ལུ་ བཀྲམ་སྟོན་འབད་མི་ འཕྲུལ་ལྟོའི་གནས་རིམ།"
-
-#~ msgid "The battery level below which the battery is displayed as yellow."
-#~ msgstr "སེརཔོ་གི་ཚད་ཀྱི་འོག་ལུ་ བཀྲམ་སྟོན་འབད་མི་ འཕྲུལ་ལྟོའི་གནས་རིམ།"
-
-#~ msgid "Yellow value level"
-#~ msgstr "སེརཔོ་གི་བེ་ལུའི་ གནས་རིམ།"
-
-#~ msgid ""
-#~ "To avoid losing work please power off, suspend or plug your laptop in."
-#~ msgstr ""
-#~ "ལཱ་གཡོག་བརླག་སྟོར་ ཞུགས་མི་བཅུག་ནིའི་དོན་ལུ་ ནུས་ཤུགས་ཨོཕ་རྐྱབ་ ཡང་ཅིན་ འཕྲལ་བཀག་འབད་ ཡང་ཅིན་ "
-#~ "ཁྱོད་ཀྱི་ལེཔ་ཊོཔ་དེ་ གློག་ཁ་ནང་བཙུགས།"
-
-#~ msgid ""
-#~ "An error occured while launching the Suspend command: %s\n"
-#~ "Please try to correct this error"
-#~ msgstr ""
-#~ "འཕྲལ་བཀག་གི་ བརྡ་བཀོད་%s གསར་བཙུགས་འབད་བའི་སྐབས་ འཛོལ་བ་ཅིག་བྱུང་ནུག\n"
-#~ "འཛོལ་བ་འདི་ ནོར་བཅོས་འབད།"
-
-#~ msgid "The Suspend command '%s' was unsuccessful."
-#~ msgstr "འཕྲལ་བཀག་གི་བརྡ་བཀོད་'%s'དེ་ མཐར་འཁྱོལ་མ་ཚུགས་པས།"
-
-#~ msgid "The Suspend command was unsuccessful."
-#~ msgstr "འཕྲལ་བཀག་བརྡ་བཀོད་དེ་ མཐར་འཁྱོལ་མ་ཚུགས་པས།"
-
-#~ msgid ""
-#~ "Suspend command wasn't setup correctly in the preferences.\n"
-#~ "Please change the preferences and try again."
-#~ msgstr ""
-#~ "དགའ་གདམ་ནང་ འཕྲལ་བཀག་བརྡ་བཀོད་དེ་ ངེས་བདེན་སྦེ་ གཞི་སྒྲིག་མ་འབད་བས། དགའ་གདམ་ཚུ་ བསྒྱུར་"
-#~ "བཅོས་འབད་ཞིནམ་ལས་ ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད་གནང་།"
-
-#~ msgid "Jorgen Pehrson <jp@spektr.eu.org>"
-#~ msgstr "ཇོར་གེན་ པཱེར་སཱན <jp@spektr.eu.org>"
-
-#~ msgid "<b>Suspend</b>"
-#~ msgstr "<b>འཕྲལ་བཀག</b>"
-
-#~ msgid "S_uspend command:"
-#~ msgstr "བརྡ་བཀོད་འཕྲལ་བཀག་:\"(_u)"
-
-#~ msgid "Show _battery status"
-#~ msgstr "འཕྲུལ་ལྟོའི་གནས་ཚད་སྟོན།\"(_b)"
-
-#~ msgid "Show power _connection status"
-#~ msgstr "ནུས་ཤུགས་མཐུད་ལམ་གྱི་གནས་ཚད་སྟོན།\"(_c)"
-
-#~ msgid "Utility"
-#~ msgstr "སྤྱོད་ཆས།"
-
-#~ msgid "Mode to show when show_mode is text or both"
-#~ msgstr "སྟོན་ནིའི་ཐབས་ལམ་དེ་ ཡིག་ཚིག་གམ གཉིས་ཆ་ར་ཨིན་པའི་སྐབས་ སྟོན་དགོ་པའི་ཐབས་ལམ།(_m)"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Cannot execute '%s'</span>\n"
-#~ "%s"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">'%s'ལག་ལེན་འཐབ་མི་ཚུགས་</span>\n"
-#~ "%s"
-
-#~ msgid "Copyright (C) 1999 Dave Camp"
-#~ msgstr "འདྲ་བཤུས་དབང་ཆ་ (C) ༡༩༩༩ ཌེབ་ ཀེམཔ།"
-
-#~ msgid "Choose the default group (for newly created windows)."
-#~ msgstr "སྔོན་སྒྲིག་སྡེ་ཚན་ གདམ་ཁ་རྐྱབས། (གསར་བསྐྲུན་འབད་མི་སྒོ་སྒྲིག་ཚུ་གི་དོན་ལུ)"
-
-#~ msgid "Keep separate group for each application window."
-#~ msgstr "གློག་རིམ་སྒོ་སྒྲིག་ རེ་རེའི་དོན་ལུ་ སྡེ་ཚན་སོ་སོ་བཞག"
-
-#~ msgid "Keep the state of indicators separately for each application window."
-#~ msgstr "གློག་རིམ་སྒོ་སྒྲིག་ རེ་རེའི་དོན་ལུ་ བརྡ་སྟོན་པའི་གནས་ལུགས་ སོ་སོ་བཞག"
-
-#~ msgid "Keyboard Indicator Preferences"
-#~ msgstr "ལྡེ་སྒྲོམ་བརྡ་སྟོན་པའི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "Save/restore _indicators with group"
-#~ msgstr "བརྡ་སྟོན་པ་ཚུ་ སྡེ་ཚན་དང་གཅིག་ཁར་ སྲུངས་/སོར་ཆུད་འབད།(_i)"
-
-#~ msgid "Separate _group for each window"
-#~ msgstr "སྒོ་སྒྲིག་རེ་རེའི་དོན་ལུ་ སྡེ་ཚན་སོ་སོབཟོ།(_G)"
-
-#~ msgid "Show national flags as indicators of corresponding layouts"
-#~ msgstr "རྒྱལ་དར་ཚུ་ ཆ་མཚུངས་སྒྲིག་བཀོད་ཀྱི་ བརྡ་སྟོན་པ་བཟུམ་སྦེ་སྟོན།"
-
-#~ msgid "Use _flags as indicators"
-#~ msgstr "དར་དེ་ཚུ་ བརྡ་སྟོན་པ་བཟུམ་སྦེ་ ལག་ལེན་འཐབ། (_f)"
-
-#~ msgid "_Default group:"
-#~ msgstr "སྡེ་ཚན་སྔོན་སྒྲིག་:(_D)"
-
-#~ msgid "Pittsburgh"
-#~ msgstr "པིཊིསི་བཱརག"
-
-#~ msgid "No volume control elements and/or devices found."
-#~ msgstr "སྐད་ཤུགས་ཚད་འཛིན་ཆ་ཤས་དང་/ཡང་ན་ ཐབས་འཕྲུལ་ཚུ་མ་ཐོབ།"
-
-#~ msgid "Modem monitor"
-#~ msgstr "མོ་ཌེམ་གྱི་ ལྟ་རྟོག་པ།"
-
-#~ msgid "Resource"
-#~ msgstr "ཐོན་ཁུངས།"
-
-#~ msgid "Specifies whether the sticky notes are visible or not."
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་ མཐོང་ཚུགས་ག་མི་ཚུགས་ གསལ་བཀོད་འབདཝ་ཨིན།"
-
-#~ msgid "Sticky notes' visibility"
-#~ msgstr "སྦྱར་རྩི་ཅན་གྱི་དྲན་འཛིན་ཚུ་གི་མཐོང་གསལ།"
-
-#~ msgid "_Show Notes"
-#~ msgstr "དྲན་འཛིན་ཚུ་སྟོན།(_S)"

@@ -1,23 +1,25 @@
-# Persian translation of mate-applets.
-# Copyright (C) 2003, 2005, 2006 Sharif FarsiWeb, Inc.
-# This file is distributed under the same license as the mate-applets package.
-# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003, 2005, 2006.
-# Meelad Zakaria <meelad@farsiweb.info>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Elnaz Sarbar <elnaz@farsiweb.info>, 2005, 2006.
 # Farzaneh Sarafraz <farzaneh@farsiweb.info>, 2006.
-#
+# Meelad Zakaria <meelad@farsiweb.info>, 2005.
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003, 2005, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-applets mate-2-12\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-26 21:39-0500\n"
-"PO-Revision-Date: 2006-02-15 22:17+0330\n"
-"Last-Translator: Roozbeh Pournader <roozbeh@farsiweb.info>\n"
-"Language-Team: \n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:19+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -29,8 +31,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:163 ../libmateweather/mateweather-mateconf.c:164
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "تهران (مهرآباد)‏"
@@ -38,15 +41,16 @@ msgstr "تهران (مهرآباد)‏"
 #. TRANSLATOR: Change this to the code of your default location that
 #. * corresponds to the DEFAULT_LOCATION name you put above. This is
 #. * normally a four-letter (ICAO) code and can be found in
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * NB. The web page is over 1.7MB in size.
 #. * Pick a default location like a capital city so that it would be ok
 #. * for more of your users. For example, for Greek, we use "LGAV" for
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:183 ../libmateweather/mateweather-mateconf.c:184
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "OIII"
@@ -55,14 +59,15 @@ msgstr "OIII"
 #. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
 #. * Normally, US and Canada locations have zones while the rest do not.
 #. * Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any zone you put here must also be present in the Locations.xml
 #. * file.
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:203 ../libmateweather/mateweather-mateconf.c:204
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr " "
@@ -71,15 +76,16 @@ msgstr " "
 #. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
 #. * Normally, US and Canada locations have radar names while the rest do
 #. * not. Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any radar you put here must also be present in the Locations.xml
 #. * file.
 #. *
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:224 ../libmateweather/mateweather-mateconf.c:225
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr " "
@@ -87,7 +93,7 @@ msgstr " "
 #. TRANSLATOR: Change this to the coordinates of your default location
 #. * that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
 #. * above. Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any coordinates you put here must also be present in the
 #. * Locations.xml file.
 #. *
@@ -95,113 +101,117 @@ msgstr " "
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:245 ../libmateweather/mateweather-mateconf.c:246
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "35-41N 051-21E"
 
-#: ../libmateweather/mateweather-prefs.c:25 ../libmateweather/mateweather-prefs.c:36
-#: ../libmateweather/mateweather-prefs.c:51 ../libmateweather/mateweather-prefs.c:68
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "پیش‌فرض"
 
 #. translators: Kelvin
-#: ../libmateweather/mateweather-prefs.c:27
+#: ../libmateweather/mateweather-prefs.c:36
 msgid "K"
 msgstr ""
 
 #. translators: Celsius
-#: ../libmateweather/mateweather-prefs.c:29
+#: ../libmateweather/mateweather-prefs.c:38
 msgid "C"
 msgstr ""
 
 #. translators: Fahrenheit
-#: ../libmateweather/mateweather-prefs.c:31
+#: ../libmateweather/mateweather-prefs.c:40
 msgid "F"
 msgstr ""
 
 #. translators: meters per second
-#: ../libmateweather/mateweather-prefs.c:38
+#: ../libmateweather/mateweather-prefs.c:47
 msgid "m/s"
 msgstr "متر بر ثانیه"
 
 #. translators: kilometers per hour
-#: ../libmateweather/mateweather-prefs.c:40
+#: ../libmateweather/mateweather-prefs.c:49
 msgid "km/h"
 msgstr "کیلومتر بر ساعت"
 
 #. translators: miles per hour
-#: ../libmateweather/mateweather-prefs.c:42
+#: ../libmateweather/mateweather-prefs.c:51
 msgid "mph"
 msgstr "مایل بر ساعت"
 
 #. translators: knots (speed unit)
-#: ../libmateweather/mateweather-prefs.c:44
+#: ../libmateweather/mateweather-prefs.c:53
 msgid "knots"
 msgstr "گره"
 
 #. translators: wind speed
-#: ../libmateweather/mateweather-prefs.c:46
+#: ../libmateweather/mateweather-prefs.c:55
 msgid "Beaufort scale"
 msgstr ""
 
 #. translators: kilopascals
-#: ../libmateweather/mateweather-prefs.c:53
+#: ../libmateweather/mateweather-prefs.c:62
 msgid "kPa"
 msgstr "کیلوپاسکال"
 
 #. translators: hectopascals
-#: ../libmateweather/mateweather-prefs.c:55
+#: ../libmateweather/mateweather-prefs.c:64
 msgid "hPa"
 msgstr "هکتوپاسکال"
 
 #. translators: millibars
-#: ../libmateweather/mateweather-prefs.c:57
+#: ../libmateweather/mateweather-prefs.c:66
 msgid "mb"
 msgstr "میلی‌بار"
 
 #. translators: millimeters of mercury
-#: ../libmateweather/mateweather-prefs.c:59
+#: ../libmateweather/mateweather-prefs.c:68
 msgid "mmHg"
 msgstr "میلی‌متر جیوه"
 
 #. translators: inches of mercury
-#: ../libmateweather/mateweather-prefs.c:61
+#: ../libmateweather/mateweather-prefs.c:70
 msgid "inHg"
 msgstr "اینچ جیوه"
 
 #. translators: atmosphere
-#: ../libmateweather/mateweather-prefs.c:63
+#: ../libmateweather/mateweather-prefs.c:72
 msgid "atm"
 msgstr ""
 
 #. translators: meters
-#: ../libmateweather/mateweather-prefs.c:70
-#, fuzzy
+#: ../libmateweather/mateweather-prefs.c:79
 msgid "m"
-msgstr "میلی‌بار"
+msgstr ""
 
 #. translators: kilometers
-#: ../libmateweather/mateweather-prefs.c:72
+#: ../libmateweather/mateweather-prefs.c:81
 msgid "km"
 msgstr "کیلومتر"
 
 #. translators: miles
-#: ../libmateweather/mateweather-prefs.c:74
+#: ../libmateweather/mateweather-prefs.c:83
 msgid "mi"
 msgstr ""
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:93 ../libmateweather/mateweather-prefs.c:102
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:131 ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "km/h"
 
@@ -209,35 +219,39 @@ msgstr "km/h"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:172 ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "mb"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:212 ../libmateweather/mateweather-prefs.c:221
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "km"
+
+#: ../libmateweather/mateweather-timezone.c:314
+msgid "Greenwich Mean Time"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:1
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
-"from http://cvs.gnome.org/viewcvs/*checkout*/mate-applets/mateweather/"
-"Locations.xml.in"
+"from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://cvs.gnome.org/viewcvs/"
-"*checkout*/mate-applets/mateweather/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr ""
-"تعیین می‌کند که برنامک به طور خودکار آمار آب و هوا را به‌هنگام بکند یا نه."
+msgstr "تعیین می‌کند که برنامک به طور خودکار آمار آب و هوا را به‌هنگام بکند یا نه."
 
 #: ../libmateweather/mateweather.schemas.in.h:9
 msgid "Display radar map"
@@ -253,23 +267,19 @@ msgstr "در هر به‌هنگام‌سازی یک نقشه‌ی رادار گ�
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"اگر «درست» باشد، یک نقشه‌ی رادار از مکان مشخص شده توسط کلید «رادار» گرفته شود."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "اگر «درست» باشد، یک نقشه‌ی رادار از مکان مشخص شده توسط کلید «رادار» گرفته شود."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
-#, fuzzy
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
 msgstr ""
-"طول و عرض جغرافیایی مکان شما که به شکل DD-MM-SS[NS] DD-MM-SS[EW]‎ مشخص شده است"
 
 #: ../libmateweather/mateweather.schemas.in.h:14
-#, fuzzy
 msgid "Location coordinates"
-msgstr "مختصات مکان"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:15
 msgid "Nearby city"
@@ -277,8 +287,8 @@ msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://cvs.mate."
-"org/viewcvs/*checkout*/mate-applets/mateweather/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:17
@@ -290,9 +300,8 @@ msgid "Pressure unit"
 msgstr "واحد فشار"
 
 #: ../libmateweather/mateweather.schemas.in.h:19
-#, fuzzy
 msgid "Radar location"
-msgstr "مکان"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:20
 msgid "Speed unit"
@@ -355,3660 +364,587 @@ msgid "Use metric units instead of english units."
 msgstr "استفاده از واحدهای متریک به جای واحدهای انگلیسی."
 
 #: ../libmateweather/mateweather.schemas.in.h:35
-#, fuzzy
 msgid "Weather for a city"
-msgstr "پیش‌بینی آب و هوا"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:36
-#, fuzzy
 msgid "Weather location information"
-msgstr "اطلاعات مکان آب و هوا"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:37
-#, fuzzy
 msgid "Weather location information."
-msgstr "اطلاعات مکان آب و هوا"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:38
-#, fuzzy
 msgid "Zone location"
-msgstr "مکان"
+msgstr ""
 
-#: ../libmateweather/weather-iwin.c:135 ../libmateweather/weather-metar.c:554
-#: ../libmateweather/weather-metar.c:582
+#: ../libmateweather/timezone-menu.c:277
+msgctxt "timezone"
+msgid "Unknown"
+msgstr ""
+
+#. Translators: %d is an error code, and %s the error string
+#: ../libmateweather/weather-metar.c:504
+#, c-format
+msgid "Failed to get METAR data: %d %s.\n"
+msgstr ""
+
+#: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
 msgstr "مکان در WeatherInfo نیست"
 
-#: ../libmateweather/weather-metar.c:527 ../libmateweather/weather-metar.c:562
-#: ../libmateweather/weather-wx.c:63
-msgid "Failed to get METAR data.\n"
-msgstr "گرفتن داده‌های METAR شکست خورد.\n"
-
-#: ../libmateweather/weather.c:180
+#: ../libmateweather/weather.c:232
 msgid "Variable"
 msgstr "متغیر"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "North"
 msgstr "شمال"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
 msgstr "شمال ‐ شمال شرقی"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "Northeast"
 msgstr "شمال شرقی"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
 msgstr "شرق ‐ شمال شرقی"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "East"
 msgstr "شرق"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "East - Southeast"
 msgstr "شرق ‐ جنوب شرقی"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "Southeast"
 msgstr "جنوب شرقی"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "South - Southeast"
 msgstr "جنوب ‐ جنوب شرقی"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "South"
 msgstr "جنوب"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "South - Southwest"
 msgstr "جنوب ‐ جنوب غربی"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "Southwest"
 msgstr "جنوب غربی"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "West - Southwest"
 msgstr "غرب ‐ جنوب غربی"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "West"
 msgstr "غرب"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "West - Northwest"
 msgstr "غرب ‐ شمال غربی"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "Northwest"
 msgstr "شمال غربی"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "شمال ‐ شمال غربی"
 
-#: ../libmateweather/weather.c:190 ../libmateweather/weather.c:690
-#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:752
-#: ../libmateweather/weather.c:764 ../libmateweather/weather.c:779
-#: ../libmateweather/weather.c:795 ../libmateweather/weather.c:832
-#: ../libmateweather/weather.c:844 ../libmateweather/weather.c:863
-#: ../libmateweather/weather.c:895 ../libmateweather/weather.c:908
-#: ../libmateweather/weather.c:928
-msgid "Unknown"
-msgstr "نامعلوم"
-
-#: ../libmateweather/weather.c:192 ../libmateweather/weather.c:209
-#: ../libmateweather/weather.c:280
+#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:332
 msgid "Invalid"
 msgstr "نامعتبر"
 
-#: ../libmateweather/weather.c:198
+#: ../libmateweather/weather.c:249
 msgid "Clear Sky"
 msgstr "آسمان صاف"
 
-#: ../libmateweather/weather.c:199
+#: ../libmateweather/weather.c:250
 msgid "Broken clouds"
 msgstr "نیمه‌ابری"
 
-#: ../libmateweather/weather.c:200
+#: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
 msgstr "ابرهای پراکنده"
 
-#: ../libmateweather/weather.c:201
+#: ../libmateweather/weather.c:252
 msgid "Few clouds"
 msgstr "ابرهای اندک"
 
-#: ../libmateweather/weather.c:202
+#: ../libmateweather/weather.c:253
 msgid "Overcast"
 msgstr "ابری"
 
 #. TRANSLATOR: If you want to know what "blowing" "shallow" "partial"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
-#. * http://www.crh.noaa.gov/arx/wx.tbl.html
+#. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:241 ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
 msgstr "طوفان و رعد و برق"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Drizzle"
 msgstr "باران ریز"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Light drizzle"
 msgstr "باران ریز سبک"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
 msgstr "باران ریز متوسط"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
 msgstr "باران ریز سنگین"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
 msgstr "باران ریز یخ زده"
 
 #. RAIN
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Rain"
 msgstr "باران"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Light rain"
 msgstr "باران سبک"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Moderate rain"
 msgstr "باران معتدل"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Heavy rain"
 msgstr "باران سنگین"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Rain showers"
 msgstr "رگبار باران"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Freezing rain"
 msgstr "باران یخ زده"
 
 #. SNOW
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snow"
 msgstr "برف"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Light snow"
 msgstr "برف سبک"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Moderate snow"
 msgstr "برف معتدل"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Heavy snow"
 msgstr "برف سنگین"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snowstorm"
 msgstr "کولاک"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
 msgstr "ریزش برف همراه با باد"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snow showers"
 msgstr "رگبار برف"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Drifting snow"
 msgstr "برف خیزان"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Snow grains"
 msgstr "برف یخ‌زده"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Light snow grains"
 msgstr "برف یخ‌زده‌ی سبک"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
 msgstr "برف یخ‌زده‌ی متوسط"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
 msgstr "برف یخ‌زده‌ی سنگین"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:297
 msgid "Ice crystals"
 msgstr ""
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Ice pellets"
 msgstr ""
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
 msgstr ""
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
 msgstr ""
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
 msgstr ""
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
 msgstr ""
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
 msgstr ""
 
 #. HAIL
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hail"
 msgstr "تگرگ"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hailstorm"
 msgstr "طوفان تگرگ"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hail showers"
 msgstr "رگبار تگرگ"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Small hail"
 msgstr "تگرگ ریز"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
 msgstr "طوفان تگرگ ریز"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
 msgstr "رگبار تگرگ ریز"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:250
+#: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
 msgstr "بارش نامعلوم"
 
 #. MIST
-#: ../libmateweather/weather.c:251
+#: ../libmateweather/weather.c:302
 msgid "Mist"
 msgstr "مه رقیق"
 
 #. FOG
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Fog"
 msgstr "مه"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
 msgstr "مه در حوالی"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Shallow fog"
 msgstr "مه کم عمق"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Patches of fog"
 msgstr "مه تکه تکه"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Partial fog"
 msgstr "مه ناتمام"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Freezing fog"
 msgstr "مه یخ زده"
 
 #. SMOKE
-#: ../libmateweather/weather.c:253
+#: ../libmateweather/weather.c:304
 msgid "Smoke"
 msgstr "دود"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:254
+#: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
 msgstr "خاکستر آتشفشانی"
 
 #. SAND
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Sand"
 msgstr "شن"
 
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Blowing sand"
 msgstr "شن‌باد"
 
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Drifting sand"
 msgstr "شن خیزان"
 
 #. HAZE
-#: ../libmateweather/weather.c:256
+#: ../libmateweather/weather.c:307
 msgid "Haze"
 msgstr ""
 
 #. SPRAY
-#: ../libmateweather/weather.c:257
+#: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
 msgstr ""
 
 #. DUST
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Dust"
 msgstr "غبار"
 
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Blowing dust"
 msgstr ""
 
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Drifting dust"
 msgstr "غبار خیزان"
 
 #. SQUALL
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:310
 msgid "Squall"
 msgstr "باد و بوران"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm"
 msgstr "توفان شن"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
 msgstr "توفان شن در حوالی"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
 msgstr "توفان شن سنگین"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Duststorm"
 msgstr ""
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
 msgstr ""
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
 msgstr ""
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
 msgstr ""
 
 #. TORNADO
-#: ../libmateweather/weather.c:263
+#: ../libmateweather/weather.c:314
 msgid "Tornado"
 msgstr "توفان پیچنده"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:264
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls"
 msgstr ""
 
-#: ../libmateweather/weather.c:264
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
 msgstr ""
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
-#: ../libmateweather/weather.c:662
+#. 
+#: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%A %Od %B / %OH:%OM"
 
-#: ../libmateweather/weather.c:677
+#: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
 msgstr "زمان رصد نامشخص"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\342\204\211 is the "DEGREE FAHRENHEIT" symbol)
-#: ../libmateweather/weather.c:710
-#, fuzzy, c-format
-msgid "%.1f ℉"
-msgstr "‏%I.1f درجه‌ی کلوین‬"
+#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
+#: ../libmateweather/weather.c:830 ../libmateweather/weather.c:843
+#: ../libmateweather/weather.c:861 ../libmateweather/weather.c:879
+#: ../libmateweather/weather.c:917 ../libmateweather/weather.c:933
+#: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
+#: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
+msgid "Unknown"
+msgstr "نامعلوم"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\342\204\211 is the "DEGREE FAHRENHEIT" symbol)
-#: ../libmateweather/weather.c:713
-#, fuzzy, c-format
-msgid "%d ℉"
-msgstr "‎%Id K"
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:761
+#, c-format
+msgid "%.1f °F"
+msgstr ""
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\342\204\203 is the "DEGREE CELSIUS" symbol)
-#: ../libmateweather/weather.c:719
-#, fuzzy, c-format
-msgid "%.1f ℃"
-msgstr "‏%I.1f درجه‌ی کلوین‬"
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:764
+#, c-format
+msgid "%d °F"
+msgstr ""
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\342\204\203 is the "DEGREE CELSIUS" symbol)
-#: ../libmateweather/weather.c:722
-#, fuzzy, c-format
-msgid "%d ℃"
-msgstr "‎%Id K"
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:770
+#, c-format
+msgid "%.1f °C"
+msgstr ""
+
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:773
+#, c-format
+msgid "%d °C"
+msgstr ""
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:728
+#: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
 msgstr "‏%I.1f درجه‌ی کلوین‬"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:731
+#: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
 msgstr "‎%Id K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:782
+#: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
 msgstr "‪٪%I.f‬"
 
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:807
+#: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
 msgstr "%I0.1f گره‌"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:811
+#: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
 msgstr "%I.1f مایل بر ساعت"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:815
+#: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
 msgstr "%I.1f کیلومتر بر ساعت"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:819
+#: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
 msgstr "%I.1f متر بر ساعت"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
-#: ../libmateweather/weather.c:825
+#. 
+#: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr ""
 
-#: ../libmateweather/weather.c:846
+#: ../libmateweather/weather.c:935
 msgid "Calm"
 msgstr "آرام"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:850
+#: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
 msgstr "‏%s‏ / ‏%s‏"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:868
+#: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
 msgstr "%I.2f اینچ جیوه"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:872
+#: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%I.1f میلی‌متر جیوه"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:876
+#: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
 msgstr "%I.2f کیلوپاسکال"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:880
+#: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
 msgstr "%I.2f هکتوپاسکال"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:884
+#: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
 msgstr "%I.2f میلی‌بار"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:888
+#: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
 msgstr "%I.3f اتمسفر"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:913
+#: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
 msgstr "%I.1f مایل"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:917
+#: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
 msgstr "%I.1f کیلومتر"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:921
+#: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
 msgstr "%I.0f متر"
 
-#: ../libmateweather/weather.c:949 ../libmateweather/weather.c:969
+#: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
 msgstr "%OH:%OM"
 
-#: ../libmateweather/weather.c:1002
+#: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "بازیابی شکست خورد"
-
-#~ msgid "_About"
-#~ msgstr "_درباره"
-
-#~ msgid "_Help"
-#~ msgstr "_راهنما"
-
-#~ msgid "_Keyboard Accessibility Preferences"
-#~ msgstr "ترجیحات دسترسی‌پذیری _صفحه‌کلید"
-
-#~ msgid "AccessX Status Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک وضعیت AccessX"
-
-#~ msgid "Keyboard Accessibility Status"
-#~ msgstr "وضعیت دسترسی‌پذیری صفحه‌کلید"
-
-#~ msgid "Keyboard Accessibility Status Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک وضعیت دسترسی‌پذیری صفحه‌کلید"
-
-#~ msgid "Shows the status of keyboard accessibility features"
-#~ msgstr "وضعیت امکانات دسترسی‌پذیری صفحه‌کلید را نشان می‌دهد"
-
-#~ msgid "AccessX Status"
-#~ msgstr "وضعیت AccessX"
-
-#~ msgid "Shows the state of AccessX features such as latched modifiers"
-#~ msgstr "وضعیت امکانات AccessX از قبیل تغییردهنده‌های چفت‌شده را نشان می‌دهد"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "روزبه پورنادر <roozbeh@farsiweb.info>‏\n"
-#~ "میلاد زکریا <meelad@farsiweb.info>\n"
-#~ "الناز سربر<elnaz@farsiweb.info>\n"
-#~ "فرزانه سرافراز <farzaneh@farsiweb.info>"
-
-#~ msgid "There was an error launching the help viewer: %s"
-#~ msgstr "در راه اندازی نمایش‌دهنده‌ی راهنما خطایی پیش آمد: %s"
-
-#~ msgid "There was an error launching the keyboard preferences dialog: %s"
-#~ msgstr "در راه‌اندازی ابزار پیکربندی صفحه‌کلید خطایی پیش آمد: %s"
-
-#~ msgid "a"
-#~ msgstr "ا"
-
-#~ msgid "Shows keyboard status when accessibility features are used."
-#~ msgstr ""
-#~ "وقتی از امکانات دسترسی‌پذیری استفاده شود، وضعیت صفحه‌کلید را ‌نشان می‌دهد."
-
-#~ msgid "XKB Extension is not enabled"
-#~ msgstr "گسترش XKB به کار نیافتاده است"
-
-#~ msgid "Unknown error"
-#~ msgstr "خطای نامعلوم"
-
-#~ msgid "Error: %s"
-#~ msgstr "خطا: %s"
-
-#~ msgid "Displays current state of keyboard accessibility features"
-#~ msgstr "وضعیت فعلی امکانات دسترسی‌پذیری صفحه‌کلید را نمایش می‌دهد"
-
-#~ msgid "Battery Charge Monitor"
-#~ msgstr "پایشگر پر بودن باتری"
-
-#~ msgid "Battstat Factory"
-#~ msgstr "کارخانه‌ی Battstat"
-
-#~ msgid "Monitor a laptop's remaining power"
-#~ msgstr "پایش برق باقی‌مانده‌ی کامپیوترهای کیفی"
-
-#~ msgid "_Preferences"
-#~ msgstr "_ترجیحات"
-
-#~ msgid "0 for no label, 1 for percentage and 2 for time remaining"
-#~ msgstr "‏۰ برای بدون برچسب، ۱ برای درصد و ۲ برای زمان باقی مانده"
-
-#~ msgid "Beep for warnings"
-#~ msgstr "بوق برای هشدار"
-
-#~ msgid "Beep when displaying a warning"
-#~ msgstr "هنگام نمایش هشدار بوق بزند"
-
-#~ msgid "Drain from top"
-#~ msgstr "از بالا خالی شود"
-
-#~ msgid "Full Battery Notification"
-#~ msgstr "اطلاع پر بودن باتری"
-
-#~ msgid "Low Battery Notification"
-#~ msgstr "اطلاع کم بودن باتری"
-
-#~ msgid "Notify user when the battery is full"
-#~ msgstr "وقتی باتری پر است به کاربر اطلاع داده شود"
-
-#~ msgid "Notify user when the battery is low"
-#~ msgstr "وقتی باتری خالی است به کاربر اطلاع داده شود"
-
-#~ msgid "Red value level"
-#~ msgstr "سطح مقدار قرمز"
-
-#~ msgid ""
-#~ "Show the battery meter draining from the top of the battery. Only "
-#~ "implemented for traditional battery view."
-#~ msgstr ""
-#~ "پایین آمدن درجه‌ی باتری‌سنج به شکل خالی شدن از سر باتری نشان داده شود. فقط "
-#~ "در نمای باتری سنتی پیاده‌سازی شده است."
-
-#~ msgid "Show the horizontal battery"
-#~ msgstr "نشان دادن باتری افقی"
-
-#~ msgid "Show the time/percent label"
-#~ msgstr "نشان دادن برچسب درصد/زمان"
-
-#~ msgid "Show the traditional, horizontal battery on the panel"
-#~ msgstr "نشان دادن باتری سنتی افقی روی تابلو"
-
-#~ msgid "Show the upright, smaller battery on the panel"
-#~ msgstr "نشان دادن باتری ایستاده که کوچکتر است روی تابلو"
-
-#~ msgid ""
-#~ "The battery level below which the battery is displayed as red. Also the "
-#~ "value at which the low battery warning is displayed."
-#~ msgstr ""
-#~ "سطحی از باتری که پایین‌تر از آن باتری قرمز نمایش داده می‌شود. همچنین مقداری "
-#~ "که در آن اخطار کم شدن باتری نشان داده می‌شود."
-
-#~ msgid "Upright (small) battery"
-#~ msgstr "باتری ایستاده (کوچک)"
-
-#~ msgid ""
-#~ "Use the value defined in red_value as a time remaining to show the "
-#~ "warning dialog rather than a percentage"
-#~ msgstr ""
-#~ "برای نشان دادن محاوره‌ی اخطار به جای درصد از مقدار تعریف شده در red_value "
-#~ "به عنوان زمان باقی‌مانده استفاده شود"
-
-#~ msgid "Warn on low time rather than low percentage"
-#~ msgstr "اخطار بر اساس زمان کم نه درصد کم"
-
-#~ msgid "System is running on AC power"
-#~ msgstr "دستگاه دارد با برق  متناوب (AC) کار می‌کند"
-
-#~ msgid "System is running on battery power"
-#~ msgstr "دستگاه دارد با برق باتری کار می‌کند"
-
-#~ msgid "Battery charged (%d%%)"
-#~ msgstr "باتری پر شد (‪٪%Id)"
-
-#~ msgid "Unknown time (%d%%) remaining"
-#~ msgstr "زمان باقی‌مانده نامعلوم (‪٪%Id) است"
-
-#~ msgid "Unknown time (%d%%) until charged"
-#~ msgstr "زمان نامعلوم (‪٪%Id) تا پر شدن"
-
-#~ msgid "%d minute (%d%%) remaining"
-#~ msgid_plural "%d minutes (%d%%) remaining"
-#~ msgstr[0] "%Id دقیقه (‪٪%Id‬) باقی‌مانده است"
-
-#~ msgid "%d minute until charged (%d%%)"
-#~ msgid_plural "%d minutes until charged (%d%%)"
-#~ msgstr[0] "%Id دقیقه تا پر شدن (‪٪%Id‬)"
-
-#~ msgid "%d hour (%d%%) remaining"
-#~ msgid_plural "%d hours (%d%%) remaining"
-#~ msgstr[0] "%Id ساعت (‪٪%Id‬) باقی‌مانده است"
-
-#~ msgid "%d hour until charged (%d%%)"
-#~ msgid_plural "%d hours until charged (%d%%)"
-#~ msgstr[0] "%Id ساعت تا پر شدن (‪٪%Id‬)"
-
-#~ msgid "%d %s %d %s (%d%%) remaining"
-#~ msgstr "%Id %s و %Id %s (‪٪%Id‬) باقی‌مانده است"
-
-#~ msgid "hour"
-#~ msgid_plural "hours"
-#~ msgstr[0] "ساعت"
-
-#~ msgid "minute"
-#~ msgid_plural "minutes"
-#~ msgstr[0] "دقیقه"
-
-#~ msgid "%d %s %d %s until charged (%d%%)"
-#~ msgstr "%Id %s و %Id %s تا پر شدن (٪%Id)"
-
-#~ msgid "Battery Monitor"
-#~ msgstr "پایشگر باتری"
-
-#~ msgid "Your battery is now fully recharged"
-#~ msgstr "اکنون باتری شما کاملاً پر شده است"
-
-#~ msgid "Battery Notice"
-#~ msgstr "اعلان باتری"
-
-#~ msgid ""
-#~ "You have %d minute of battery power remaining (%d%% of the total "
-#~ "capacity)."
-#~ msgid_plural ""
-#~ "You have %d minutes of battery power remaining (%d%% of the total "
-#~ "capacity)."
-#~ msgstr[0] "برای %Id دقیقه باتری دارید (٪Id کل ظرفیت)"
-
-#~ msgid ""
-#~ "To avoid losing your work:\n"
-#~ " • plug your laptop into external power, or\n"
-#~ " • save open documents and shut your laptop down."
-#~ msgstr ""
-#~ "برای این که کارتان از دست نرود:\n"
-#~ " • رایانه‌ی کیفی را به پریز برق بزنید، یا\n"
-#~ " • نوشتارهای باز را ذخیره کنید و رایانه‌ی کیفی را خاموش کنید."
-
-#~ msgid ""
-#~ "To avoid losing your work:\n"
-#~ " • suspend your laptop to save power,\n"
-#~ " • plug your laptop into external power, or\n"
-#~ " • save open documents and shut your laptop down."
-#~ msgstr ""
-#~ "برای این که کارتان از دست نرود:\n"
-#~ " • برای صرفه‌جویی در برق، رایانه‌ی کیفی را به حالت تعلیق درآورید،\n"
-#~ " • رایانه‌ی کیفی را به پریز برق بزنید، یا\n"
-#~ " • نوشتارهای باز را ذخیره کنید و رایانه‌ی کیفی را خاموش کنید."
-
-#~ msgid "Your battery is running low"
-#~ msgstr "برق باتری شما دارد تمام می‌شود"
-
-#~ msgid "No battery present"
-#~ msgstr "باتری موجود نیست"
-
-#~ msgid "Battery status unknown"
-#~ msgstr "وضعیت باتری نامعلوم است"
-
-#~ msgid "N/A"
-#~ msgstr "مربوط نیست"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "در نمایش راهنما خطایی پیش آمد: %s"
-
-#~ msgid "This utility shows the status of your laptop battery."
-#~ msgstr "این برنامه وضعیت باتری رایانه‌ی کیفی شما را نمایش می‌دهد."
-
-#~ msgid "<b>Appearance</b>"
-#~ msgstr "<b>ظاهر</b>"
-
-#~ msgid "<b>Notifications</b>"
-#~ msgstr "<b>اطلاع‌ها</b>"
-
-#~ msgid "<small>(shows single image for status and charge)</small>"
-#~ msgstr "<small>(برای وضعیت و میزان پُری یک تصویر نشان می‌دهد)</small>"
-
-#~ msgid "<small>(two images: one for status, one for charge)</small>"
-#~ msgstr "<small>(دو تصویر: یکی برای وضعیت، یکی برای میزان پُری)</small>"
-
-#~ msgid "Battery Charge Monitor Preferences"
-#~ msgstr "ترجیحات پایشگر پر بودن باتری"
-
-#~ msgid "Show _percentage remaining"
-#~ msgstr "نمایش _درصد باقی‌مانده"
-
-#~ msgid "Show _time remaining"
-#~ msgstr "نمایش _زمان باقی‌مانده"
-
-#~ msgid "_Compact view"
-#~ msgstr "نمای _کم‌حجم"
-
-#~ msgid "_Expanded view"
-#~ msgstr "نمای _باز"
-
-#~ msgid "_Notify when battery is fully recharged"
-#~ msgstr "وقتی باتری کاملاً پر شد، ا_طلاع داده شود"
-
-#~ msgid "_Show time/percentage:"
-#~ msgstr "زمان/درصد باقی‌مانده _نمایش داده شود:"
-
-#~ msgid "_Warn when battery charge drops to:"
-#~ msgstr "_هشدار هنگامی که سطح پُری باتری تا این حد پایین می‌آید:"
-
-#~ msgid "Percent"
-#~ msgstr "درصد"
-
-#~ msgid "Minutes Remaining"
-#~ msgstr "دقیقه باقی مانده"
-
-#~ msgid "Battery Status Utility"
-#~ msgstr "برنامه‌ی وضعیت باتری"
-
-#~ msgid "Battery fully re-charged"
-#~ msgstr "باتری کاملاً پر شد"
-
-#~ msgid "Battery power low"
-#~ msgstr "برق باتری کم است"
-
-#~ msgid "Character Palette"
-#~ msgstr "پالتِ نویسه"
-
-#~ msgid "Charpicker Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک Charpicker"
-
-#~ msgid "Insert characters"
-#~ msgstr "درج نویسه‌ها"
-
-#~ msgid "Available palettes"
-#~ msgstr "پالت‌های موجود"
-
-#~ msgid "Insert \"%s\""
-#~ msgstr "‏«%s» درج شود"
-
-#~ msgid "Insert special character"
-#~ msgstr "درج نویسه‌ی ویژه"
-
-#~ msgid "insert special character %s"
-#~ msgstr "درج نویسه‌ی ویژه‌ی %s"
-
-#~ msgid ""
-#~ "Mate Panel applet for selecting strange characters that are not on my "
-#~ "keyboard. Released under GNU General Public Licence."
-#~ msgstr ""
-#~ "برنامک تابلوی گنوم برای انتخاب نویسه‌های غیرعادی که روی صفحه‌کلید نیستند. "
-#~ "تحت مجوز عمومی همگانی گنو منتشر شده است."
-
-#~ msgid "Characters shown on applet startup"
-#~ msgstr "نویسه‌هایی که موقع راه‌اندازی برنامک نمایش داده می‌شوند"
-
-#~ msgid "DEPRECATED - Characters shown on applet startup"
-#~ msgstr "منسوخ شده ـ نویسه‌هایی که هنگام برپاسازی برنامک نشان داده شوند"
-
-#~ msgid "List of available palettes"
-#~ msgstr "فهرست پالت‌های موجود"
-
-#~ msgid "List of strings containing the available palettes"
-#~ msgstr "فهرست رشته‌های حاوی پالت‌های موجود"
-
-#~ msgid ""
-#~ "The string that the user had selected when the applet was last used. This "
-#~ "string will be displayed when the user starts the applet."
-#~ msgstr ""
-#~ "رشته‌ای که کاربر در آخرین باری که برنامک استفاده شده، انتخاب کرده است. این "
-#~ "رشته وقتی که کاربر برنامک را آغاز کند نمایش داده می‌شود."
-
-#~ msgid "_Edit"
-#~ msgstr "_ویرایش"
-
-#~ msgid "_Palette:"
-#~ msgstr "_‌پالت:"
-
-#~ msgid "Palette entry"
-#~ msgstr "مدخل پالت"
-
-#~ msgid "Modify a palette by adding or removing characters"
-#~ msgstr "تغییر یک پالت با اضافه یا حذف کردن نویسه‌ها"
-
-#~ msgid "Add Palette"
-#~ msgstr "اضافه کردن پالت"
-
-#~ msgid "Edit Palette"
-#~ msgstr "ویرایش پالت"
-
-#~ msgid "Palettes list"
-#~ msgstr "فهرست پالت‌ها"
-
-#~ msgid "_Palettes:"
-#~ msgstr "_پالت‌ها:"
-
-#~ msgid "Add button"
-#~ msgstr "دکمه‌ی اضافه کردن"
-
-#~ msgid "Click to add a new palette"
-#~ msgstr "برای اضافه کردن یک پالت جدید کلیک کنید"
-
-#~ msgid "Edit button"
-#~ msgstr "دکمه‌ی ویرایش"
-
-#~ msgid "Click to edit the selected palette"
-#~ msgstr "برای ویرایش پالت انتخاب شده کلیک کنید"
-
-#~ msgid "Delete button"
-#~ msgstr "دکمه‌ی حذف"
-
-#~ msgid "Click to delete the selected palette"
-#~ msgstr "برای حذف پالت انتخاب‌شده کلیک کنید"
-
-#~ msgid "Character Palette Preferences"
-#~ msgstr "ترجیحات پالت نویسه"
-
-#~ msgid "CPU Frequency Scaling Monitor"
-#~ msgstr "پایشگر میزان‌بندی بسامد واحد پردازش مرکزی"
-
-#~ msgid "Monitor the CPU Frequency Scaling"
-#~ msgstr "پایش میزان‌بندی بسامد واحد پردازش مرکزی"
-
-#~ msgid ""
-#~ "A 0 value means to show cpu frequency, 1 to show frequency and units, and "
-#~ "2 to show percentage instead of frequency."
-#~ msgstr ""
-#~ "مقدار ۰ یعنی نمایش بسامد واحد پردازش مرکزی، ۱ یعنی نمایش بسامد و واحدها، "
-#~ "و ۲ به معنی نمایش درصد به‌جای بسامد است."
-
-#~ msgid ""
-#~ "A 0 value means to show the applet in graphic mode (pixmap only), 1 to "
-#~ "show the applet in text mode (not to show the pixmap) and 2 to show the "
-#~ "applet in graphic and text mode."
-#~ msgstr ""
-#~ "مقدار ۰ یعنی نمایش برنامک در حالت گرافیکی (فقط نقشه‌نقطه‌ای)، ۱ یعنی نمایش "
-#~ "برنامک در حالت متنی (یعنی بدون نمایش نقشه‌نقطه‌ای)، و ۲ یعنی نمایش برنامک "
-#~ "در حالت گرافیکی و متنی."
-
-#~ msgid "CPU to Monitor"
-#~ msgstr "واحد پردازش مرکزی‌ای که پایش شود"
-
-#~ msgid "Mode to show cpu usage"
-#~ msgstr "حالتی که کارکرد واحد پردازش مرکزی را نشان می‌دهد"
-
-#~ msgid "Mode to show the frequency selector drop down menu"
-#~ msgstr "حالت نشان دادن منوی طوماری انتخاب‌گر بسامد"
-
-#~ msgid ""
-#~ "Set the CPU to monitor. In a single processor system you don't have to "
-#~ "change it."
-#~ msgstr ""
-#~ "تعیین کنید کدام واحد پردازش مرکزی پایش شود. در دستگاه‌های تک‌پردازنده لازم "
-#~ "نیست این را تغییر دهید."
-
-#~ msgid "The type of text to display (if the text is enabled)."
-#~ msgstr "نوع متنی که نمایش داده شود (اگر متن به کار انداخته شده باشد)"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "<b>Display Settings</b>"
-#~ msgstr "<b>تنظیمات نمایش</b>"
-
-#~ msgid "<b>Frequency Selector</b>"
-#~ msgstr "<b>انتخاب‌گر بسامد</b>"
-
-#~ msgid "<b>Monitor Settings</b>"
-#~ msgstr "<b>تنظیمات پایشگر</b>"
-
-#~ msgid "CPU Frequency Monitor Preferences"
-#~ msgstr "ترجیحات پایشگر بسامد واحد پردازش مرکزی"
-
-#~ msgid "Show CPU frequency as _frequency"
-#~ msgstr "بسامد واحد پردازش مرکزی به شکل _بسامد نمایش یابد"
-
-#~ msgid "Show CPU frequency as _percentage"
-#~ msgstr "بسامد واحد پردازش مرکزی به شکل _درصد نمایش یابد"
-
-#~ msgid "Show frequency _units"
-#~ msgstr "نمایش _واحدهای بسامد"
-
-#~ msgid "Show m_enu:"
-#~ msgstr "نمایش _منو:"
-
-#~ msgid "_Appearance:"
-#~ msgstr "_ظاهر:"
-
-#~ msgid "_Monitored CPU:"
-#~ msgstr "واحد پردازش مرکزی _پایش‌شده:"
-
-#~ msgid "Could not open help document"
-#~ msgstr "نمی‌توان نوشتار راهنما را باز کرد"
-
-#~ msgid "This utility shows the current CPU Frequency Scaling."
-#~ msgstr "این برنامه میزان‌بندی فعلی بسامد واحد پردازش مرکزی را نمایش می‌دهد"
-
-#~ msgid "This utility shows the current CPU Frequency"
-#~ msgstr "این برنامه بسامد فعلی واحد پردازش مرکزی را نمایش می‌دهد."
-
-#~ msgid "Graphic"
-#~ msgstr "گرافیک"
-
-#~ msgid "Text"
-#~ msgstr "متن"
-
-#~ msgid "Graphic and Text"
-#~ msgstr "گرافیک و متن"
-
-#~ msgid "Frequencies"
-#~ msgstr "بسامدها"
-
-#~ msgid "Governors"
-#~ msgstr "ناظم‌ها"
-
-#~ msgid "Frequencies and Governors"
-#~ msgstr "بسامدها و ناظم‌ها"
-
-#~ msgid "Frequency Scaling Unsupported"
-#~ msgstr "میزان‌بندی بسامد پشتیبانی نمی‌شود"
-
-#~ msgid "CPU frequency scaling unsupported"
-#~ msgstr "میزان‌بندی بسامد واحد پردازش مرکزی پشتیبانی نمی‌شود"
-
-#~ msgid ""
-#~ "You will not be able to modify the frequency of your machine.  Your "
-#~ "machine may be misconfigured or not have hardware support for CPU "
-#~ "frequency scaling."
-#~ msgstr ""
-#~ "شما قادر به تغییر بسامد دستگاهتان نخواهید بود. ممکن است دستگاه شما درست "
-#~ "پیکربندی نشده باشد یا از نظر سخت‌افزاری از میزان‌بندی بسامد واحد پردازش "
-#~ "مرکزی پشتیبانی نکند."
-
-#~ msgid "Disk Mounter"
-#~ msgstr "سوارکننده‌ی دیسک"
-
-#~ msgid "Drive Mount Applet Factory"
-#~ msgstr "کارخانه‌ی برنامکِ سوار کردن دیسک گردان"
-
-#~ msgid "Factory for drive mount applet"
-#~ msgstr "کارخانه‌ای برای برنامکِ سوار کردن دیسک گردان"
-
-#~ msgid "Mount local disks and devices"
-#~ msgstr "سوار کردن دیسک‌ها و دستگاه‌های محلی"
-
-#~ msgid "(mounted)"
-#~ msgstr "(سوار شده)"
-
-#~ msgid "(not mounted)"
-#~ msgstr "(سوار نشده)"
-
-#~ msgid "(not connected)"
-#~ msgstr "(وصل نشده)"
-
-#~ msgid "Cannot execute '%s'"
-#~ msgstr "نمی‌توان «%s» را اجرا کرد"
-
-#~ msgid "Mount Error"
-#~ msgstr "خطا در سوار کردن"
-
-#~ msgid "Unmount Error"
-#~ msgstr "خطا در پیاده کردن"
-
-#~ msgid "Eject Error"
-#~ msgstr "خطا در بیرون دادن"
-
-#~ msgid "Error"
-#~ msgstr "خطا"
-
-#~ msgid "_Play DVD"
-#~ msgstr "_پخش دی‌وی‌دی"
-
-#~ msgid "_Play CD"
-#~ msgstr "_پخش سی‌دی"
-
-#~ msgid "_Open %s"
-#~ msgstr "_باز کردن %s"
-
-#~ msgid "_Mount %s"
-#~ msgstr "_سوار کردن %s"
-
-#~ msgid "Un_mount %s"
-#~ msgstr "_پیاده کردن %s"
-
-#~ msgid "_Eject %s"
-#~ msgstr "_بیرون دادن %s"
-
-#~ msgid "Applet for mounting and unmounting block volumes."
-#~ msgstr "برنامکی برای سوار کردن و پیاده کردن جلدهای بلوکی."
-
-#~ msgid "Interval timeout to check mount point status"
-#~ msgstr "بازه‌ی انقضای مدت برای بررسی وضعیت نقطه‌ی سوار شدن"
-
-#~ msgid "Time in seconds between status updates"
-#~ msgstr "زمان مابین به‌هنگام‌سازی‌های وضعیت به ثانیه"
-
-#~ msgid "A set of eyeballs for your panel"
-#~ msgstr "یک جفت چشم برای تابلوی شما"
-
-#~ msgid "Geyes"
-#~ msgstr "چشمان گنوم"
-
-#~ msgid "Geyes Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک چشمان گنوم"
-
-#~ msgid "A goofy little xeyes clone for the MATE panel."
-#~ msgstr "مشابه کوچک و مضحک xeyes برای تابلوی گنوم."
-
-#~ msgid "The eyes look in the direction of the mouse pointer"
-#~ msgstr "چشمها در جهت اشاره‌گر موشی نگاه می‌کنند"
-
-#~ msgid "Directory in which the theme is located"
-#~ msgstr "شاخه‌ای که تم در آن قرار دارد"
-
-#~ msgid "Can not launch the eyes applet."
-#~ msgstr "نمی‌توان برنامک چشمها را راه‌اندازی کرد."
-
-#~ msgid "There was a fatal error while trying to load the theme."
-#~ msgstr "خطای مهلک در تلاش برای بار کردن تم."
-
-#~ msgid "Geyes Preferences"
-#~ msgstr "ترجیحات چشمان گنوم"
-
-#~ msgid "Themes"
-#~ msgstr "تم‌ها"
-
-#~ msgid "_Select a theme:"
-#~ msgstr "یک تم _انتخاب کنید:"
-
-#~ msgid "Alt+Control changes layout."
-#~ msgstr "دگرساز+مهار چیدمان را تغییر می‌دهد."
-
-#~ msgid "Alt+Shift changes layout."
-#~ msgstr "دگرساز+تبدیل چیدمان را تغییر می‌دهد."
-
-#~ msgid "Arabic keymap"
-#~ msgstr "نقشه‌کلید عربی"
-
-#~ msgid "Armenian"
-#~ msgstr "ارمنی"
-
-#~ msgid "Basque"
-#~ msgstr "باسکی"
-
-#~ msgid "Belgian"
-#~ msgstr "بلژیکی"
-
-#~ msgid "Both Alt keys together change layout."
-#~ msgstr "هردوی کلیدهای دگرساز باهم چیدمان را تغییر می‌دهد."
-
-#~ msgid "Both Ctrl keys together change layout."
-#~ msgstr "هردوی کلیدهای مهار با هم چیدمان را تغییر می‌دهد."
-
-#~ msgid "Both Shift keys together change layout."
-#~ msgstr "هردوی کلیدهای تبدیل با هم چیدمان را تغییر می‌دهد."
-
-#~ msgid "Brazil Portuguese keymap"
-#~ msgstr "نقشه‌کلید پرتغالی برزیل"
-
-#~ msgid "Bulgarian Cyrillic"
-#~ msgstr "سیریلی بلغاری"
-
-#~ msgid "Bulgarian keymap"
-#~ msgstr "نقشه‌کلید بلغاری"
-
-#~ msgid "CapsLock key changes layout."
-#~ msgstr "کلید قفل تبدیل چیدمان را تغییر می‌دهد"
-
-#~ msgid "Control+Shift changes layout."
-#~ msgstr "مهار+تبدیل چیدمان را تغییر می‌دهد."
-
-#~ msgid "Czech keymap"
-#~ msgstr "نقشه‌کلید چکی"
-
-#~ msgid "Danish keymap"
-#~ msgstr "نقشه‌کلید دانمارکی"
-
-#~ msgid "Dutch keymap"
-#~ msgstr "نقشه‌کلید هلندی"
-
-#~ msgid "English keymap"
-#~ msgstr "نقشه‌کلید انگلیسی"
-
-#~ msgid "Estonian keymap"
-#~ msgstr "نقشه‌کلید استونیایی"
-
-#~ msgid "Finnish keymap"
-#~ msgstr "نقشه‌کلید فنلاندی"
-
-#~ msgid "French Swiss"
-#~ msgstr "فرانسوی سوئیس"
-
-#~ msgid "French Swiss keymap"
-#~ msgstr "نقشه‌کلید فرانسوی سوئیس"
-
-#~ msgid "French keymap"
-#~ msgstr "نقشه‌کلید فرانسوی"
-
-#~ msgid "French-Canadian 105-key"
-#~ msgstr "۱۰۵‐کلیدی فرانسوی کانادا"
-
-#~ msgid "GB 102-key"
-#~ msgstr "‏۱۰۲‐کلیدی بریتانیایی"
-
-#~ msgid "GB 105-key"
-#~ msgstr "۱۰۵‐کلیدی بریتانیایی"
-
-#~ msgid "Generic Keyboard"
-#~ msgstr "صفحه‌کلید عام"
-
-#~ msgid "Georgian Latin"
-#~ msgstr "گرجی لاتینی"
-
-#~ msgid "Georgian Russian layout"
-#~ msgstr "چیدمان گرجی روسی"
-
-#~ msgid "Georgian keymap"
-#~ msgstr "نقشه‌کلید گرجی"
-
-#~ msgid "German"
-#~ msgstr "آلمانی"
-
-#~ msgid "German Swiss with Euro"
-#~ msgstr "آلمانی سوئیس با یورو"
-
-#~ msgid "German keymap"
-#~ msgstr "نقشه‌کلید آلمانی"
-
-#~ msgid "Greek keymap"
-#~ msgstr "نقشه‌کلید یونانی"
-
-#~ msgid "Hebrew keymap"
-#~ msgstr "نقشه‌کلید عبری"
-
-#~ msgid "Hungarian 101-key latin 1"
-#~ msgstr "مجاری ۱۰۱‐کلیدی لاتینی ۱"
-
-#~ msgid "Hungarian 101-key latin 2"
-#~ msgstr "مجاری ۱۰۱‐کلیدی لاتینی ۲"
-
-#~ msgid "Hungarian 105-key latin 1"
-#~ msgstr "مجاری ۱۰۵‐کلیدی لاتینی ۱"
-
-#~ msgid "Hungarian 105-key latin 2"
-#~ msgstr "مجاری ۱۰۵‐کلیدی لاتینی ۲"
-
-#~ msgid "Hungarian PC/AT 101 keyboard"
-#~ msgstr "صفحه‌کلید مجاری PC/AT 101"
-
-#~ msgid "Hungarian latin1"
-#~ msgstr "مجاری لاتینی ۱"
-
-#~ msgid "Icelandic keymap"
-#~ msgstr "نقشه‌کلید ایسلندی"
-
-#~ msgid "Italian keymap"
-#~ msgstr "نقشه‌کلید ایتالیایی"
-
-#~ msgid "Japanese keymap"
-#~ msgstr "نقشه‌کلید ژاپنی"
-
-#~ msgid "Lao keymap"
-#~ msgstr "نقشه‌کلید لائوسی"
-
-#~ msgid "Layout shift behavior"
-#~ msgstr "رفتار تبدیل چیدمان"
-
-#~ msgid "Left Alt key changes layout."
-#~ msgstr "دگرساز چپ چیدمان را تغییر می‌دهد."
-
-#~ msgid "Left Ctrl key changes group."
-#~ msgstr "مهار چپ گروه را تغییر می‌دهد."
-
-#~ msgid "Left Shift key changes group."
-#~ msgstr "تبدیل چپ گروه را تغییر می‌دهد."
-
-#~ msgid "Left Win-key changes layout."
-#~ msgstr "دکمه‌ی ویندوز چپ چیدمان را تغییر می‌دهد."
-
-#~ msgid "Lithuanian keymap"
-#~ msgstr "نقشه‌کلید لیتوانیایی"
-
-#~ msgid "Macedonian"
-#~ msgstr "مقدونی"
-
-#~ msgid "Menu key changes layout."
-#~ msgstr "کلید منو چیدمان را تغییر می‌دهد."
-
-#~ msgid "Mongolian alt keymap"
-#~ msgstr "نقشه‌کلید مغولی انتخاب دوم"
-
-#~ msgid "Mongolian keymap"
-#~ msgstr "نقشه‌کلید مغولی"
-
-#~ msgid "Mongolian phonetic keymap"
-#~ msgstr "نقشه‌کلید فونتیک مغولی"
-
-#~ msgid "Norwegian"
-#~ msgstr "نروژی"
-
-#~ msgid "Plain Russian keymap"
-#~ msgstr "نقشه‌کلید روسی ساده"
-
-#~ msgid "Polish"
-#~ msgstr "لهستانی"
-
-#~ msgid "Polish deadkeys"
-#~ msgstr "لهستانی کلیدهای مرده"
-
-#~ msgid "Portugal"
-#~ msgstr "پرتغال"
-
-#~ msgid "Portugal Deadkeys"
-#~ msgstr "پرتغال کلیدهای مرده"
-
-#~ msgid "Portuguese keymap"
-#~ msgstr "نقشه‌کلید پرتغالی"
-
-#~ msgid "Right Alt key changes layout."
-#~ msgstr "کلید دگرساز راست چیدمان را تغییر می‌دهد."
-
-#~ msgid "Right Ctrl key changes group."
-#~ msgstr "کلید مهار راست گروه را تغییر می‌دهد."
-
-#~ msgid "Right Shift key changes group."
-#~ msgstr "کلید تبدیل راست گروه را تغییر می‌دهد."
-
-#~ msgid "Right Win-key changes layout."
-#~ msgstr "کلید ویندوز راست چیدمان را تغیییر می‌دهد."
-
-#~ msgid "Russian Cyrillic"
-#~ msgstr "روسی سیریلی"
-
-#~ msgid "Russian keymap"
-#~ msgstr "نقشه‌کلید روسی"
-
-#~ msgid "Serbian keymap"
-#~ msgstr "نقشه‌کلید صربی"
-
-#~ msgid "Shift+CapsLock changes layout."
-#~ msgstr "تبدیل+قفل تبدیل چیدمان را تغییر می‌دهد."
-
-#~ msgid "Slovak keymap"
-#~ msgstr "نقشه‌کلید اسلواکی"
-
-#~ msgid "Slovenian"
-#~ msgstr "اسلووینیایی"
-
-#~ msgid "Slovenian keymap"
-#~ msgstr "نقشه‌کلید اسلووینیایی"
-
-#~ msgid "Spanish keymap"
-#~ msgstr "نقشه‌کلید اسپانیایی"
-
-#~ msgid "Swedish"
-#~ msgstr "سوئدی"
-
-#~ msgid "Swedish keymap"
-#~ msgstr "نقشه‌کلید سوئدی"
-
-#~ msgid "Swiss keymap"
-#~ msgstr "نقشه‌کلید سوئیسی"
-
-#~ msgid "Thai"
-#~ msgstr "تایلندی"
-
-#~ msgid "Thai keymap"
-#~ msgstr "نقشه‌کلید تایلندی"
-
-#~ msgid "Turkish \"F\" keyboard"
-#~ msgstr "صفحه‌کلید «F» ترکیه"
-
-#~ msgid "Turkish \"Q\" keyboard"
-#~ msgstr "صفحه‌کلید «Q» ترکیه"
-
-#~ msgid "Turkish keymap"
-#~ msgstr "نقشه‌کلید ترکیه‌ای"
-
-#~ msgid "UK 105-key"
-#~ msgstr "بریتانیایی ۱۰۵‐کلیدی"
-
-#~ msgid "UK PC/AT keyboard"
-#~ msgstr "صفحه‌کلید PC/AT بریتانیایی"
-
-#~ msgid "US 101-key keyboard"
-#~ msgstr "صفحه‌کلید امریکایی ۱۰۱‐کلیدی"
-
-#~ msgid "US 105-key keyboard (with windows keys)"
-#~ msgstr "صفحه‌کلید امریکایی ۱۰۵‐کلیدی (با کلیدهای ویندوز)"
-
-#~ msgid "US 84-key"
-#~ msgstr "امریکایی ۸۴‐کلیدی"
-
-#~ msgid "US DEC 450"
-#~ msgstr "امریکایی DEC 450"
-
-#~ msgid "US IBM RS/6000"
-#~ msgstr "امریکایی RS/6000 آی‌بی‌ام"
-
-#~ msgid "US International"
-#~ msgstr "امریکایی بین‌المللی"
-
-#~ msgid "US Macintosh"
-#~ msgstr "امریکایی مکینتاش"
-
-#~ msgid "US PC/AT 101 keyboard"
-#~ msgstr "امریکایی صفحه‌کلید ۱۰۱‐کلیدی PC/AT"
-
-#~ msgid "US Silicon Graphics 101-key"
-#~ msgstr "امریکایی ۱۰۱‐کلیدی سیلیکون گرافیکس"
-
-#~ msgid "US Sun type5"
-#~ msgstr "امریکایی نوع ۵ سان"
-
-#~ msgid "Armenian Sun keymap"
-#~ msgstr "نقشه‌کلید ارمنی سان"
-
-#~ msgid "Azerbaijani Turkish Sun keymap"
-#~ msgstr "نقشه‌کلید ترکی آذربایجانی سان"
-
-#~ msgid "Belarusian Sun keymap"
-#~ msgstr "نقشه‌کلید بلوروسی سان"
-
-#~ msgid "Brazil Portuguese Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB پرتغالی برزیل سان"
-
-#~ msgid "Brazil Portuguese Sun keymap"
-#~ msgstr "نقشه‌کلید پرتغالی برزیل سان"
-
-#~ msgid "British Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید بریتانیایی نوع ۴ سان"
-
-#~ msgid "British Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB بریتانیایی سان"
-
-#~ msgid "British Sun keymap"
-#~ msgstr "نقشه‌کلید بریتانیایی سان"
-
-#~ msgid "Bulgarian Sun keymap"
-#~ msgstr "نقشه‌کلید بلغاری سان"
-
-#~ msgid "Canadian Sun keymap"
-#~ msgstr "نقشه‌کلید کانادایی سان"
-
-#~ msgid "Czech Sun keymap"
-#~ msgstr "نقشه‌کلید چکی سان"
-
-#~ msgid "Danish Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید دانمارکی نوع ۴ سان"
-
-#~ msgid "Danish Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB دانمارکی سان"
-
-#~ msgid "Danish Sun keymap"
-#~ msgstr "نقشه‌کلید دانمارکی سان"
-
-#~ msgid "Dutch Sun keymap"
-#~ msgstr "نقشه‌کلید هلندی سان"
-
-#~ msgid "Estonian Sun keymap"
-#~ msgstr "نقشه‌کلید استونیایی سان"
-
-#~ msgid "Finnish Sun keymap"
-#~ msgstr "نقشه‌کلید فنلاندی سان"
-
-#~ msgid "French Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB فرانسوی سان"
-
-#~ msgid "French Sun keymap"
-#~ msgstr "نقشه‌کلید فرانسوی سان"
-
-#~ msgid "German Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید آلمانی نوع ۴ سان"
-
-#~ msgid "German Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB آلمانی سان"
-
-#~ msgid "German Sun keymap"
-#~ msgstr "نقشه‌کلید آلمانی سان"
-
-#~ msgid "Hebrew Sun keymap"
-#~ msgstr "نقشه‌کلید عبری سان"
-
-#~ msgid "Hungarian latin2 Sun keymap"
-#~ msgstr "نقشه‌کلید مجاری لاتینی ۲ سان"
-
-#~ msgid "Hungarian type5 latin 1 keymap"
-#~ msgstr "نقشه‌کلید مجاری لاتینی ۱ نوع ۵"
-
-#~ msgid "Icelandic Sun keymap"
-#~ msgstr "نقشه‌کلید ایسلندی سان"
-
-#~ msgid "Italian Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید ایتالیایی نوع ۴ سان"
-
-#~ msgid "Italian Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB ایتالیایی سان"
-
-#~ msgid "Italian Sun keymap"
-#~ msgstr "نقشه‌کلید ایتالیایی سان"
-
-#~ msgid "Japanese Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید ژاپنی نوع ۴ سان"
-
-#~ msgid "Japanese Sun keymap"
-#~ msgstr "نقشه‌کلید ژاپنی سان"
-
-#~ msgid "Latvian Sun keymap"
-#~ msgstr "نقشه‌کلید لتونیایی سان"
-
-#~ msgid "Lithuanian Sun keymap"
-#~ msgstr "نقشه‌کلید لیتوانیایی سان"
-
-#~ msgid "Macedonian Sun keymap"
-#~ msgstr "نقشه‌کلید مقدونی سان"
-
-#~ msgid "Norwegian Sun keymap"
-#~ msgstr "نقشه‌کلید نروژی سان"
-
-#~ msgid "Polish Sun keymap"
-#~ msgstr "نقشه‌کلید لهستانی سان"
-
-#~ msgid "Portuguese Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید پرتغالی نوع ۴ سان"
-
-#~ msgid "Portuguese Sun keymap"
-#~ msgstr "نقشه‌کلید پرتغالی سان"
-
-#~ msgid "Romanian Sun keymap"
-#~ msgstr "نقشه‌کلید رومانیایی سان"
-
-#~ msgid "Russian Sun keymap"
-#~ msgstr "نقشه‌کلید روسی سان"
-
-#~ msgid "Serbian Sun standard keymap"
-#~ msgstr "نقشه‌کلید صربی استاندارد سان"
-
-#~ msgid "Slovak Sun keymap"
-#~ msgstr "نقشه‌کلید اسلواکی سان"
-
-#~ msgid "Slovenian Sun keymap"
-#~ msgstr "نقشه‌کلید اسلووینیایی سان"
-
-#~ msgid "Spanish Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید اسپانیایی نوع ۴ سان"
-
-#~ msgid "Spanish Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB اسپانیایی سان"
-
-#~ msgid "Spanish Sun keymap"
-#~ msgstr "نقشه‌کلید اسپانیایی سان‌"
-
-#~ msgid "Swedish Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید سوئدی نوع ۴ سان"
-
-#~ msgid "Swedish Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB سوئدی سان"
-
-#~ msgid "Swedish Sun keymap"
-#~ msgstr "نقشه‌کلید سوئدی سان"
-
-#~ msgid "Swiss German Sun keymap"
-#~ msgstr "نقشه‌کلید آلمانی سوئیس سان"
-
-#~ msgid "Thai Sun keymap"
-#~ msgstr "نقشه‌کلید تایلندی سان"
-
-#~ msgid "Turkish Sun keymap"
-#~ msgstr "نقشه‌کلید ترکیه‌ای سان"
-
-#~ msgid "US Sun Type-4 keymap"
-#~ msgstr "نقشه‌کلید امریکایی نوع ۴ سان"
-
-#~ msgid "US Sun USB keymap"
-#~ msgstr "نقشه‌کلید USB امریکایی سان"
-
-#~ msgid "US Sun type5 keymap"
-#~ msgstr "نقشه‌کلید امریکایی نوع ۵ سان"
-
-#~ msgid "Ukrainian Sun keymap"
-#~ msgstr "نقشه‌کلید اوکراینی سان"
-
-#~ msgid "Vietnamese Sun keymap"
-#~ msgstr "نقشه‌کلید ویتنامی سان"
-
-#~ msgid "Pl_ugins"
-#~ msgstr "_متصل شونده‌ها"
-
-#~ msgid "_Groups"
-#~ msgstr "_گروه‌ها"
-
-#~ msgid "_Layout View"
-#~ msgstr "نمای _چیدمان"
-
-#~ msgid "_Open Keyboard Preferences"
-#~ msgstr "_باز کردن ترجیحات صفحه‌کلید"
-
-#~ msgid "Keyboard Indicator"
-#~ msgstr "نشانه‌ی صفحه‌کلید"
-
-#~ msgid "Keyboard applet factory"
-#~ msgstr "کارخانه‌ی برنامک صفحه‌کلید"
-
-#~ msgid "Keyboard layout indicator"
-#~ msgstr "نشانه‌ی چیدمان صفحه‌کلید"
-
-#~ msgid "Keyboard Indicator (%s)"
-#~ msgstr "نشانه‌ی صفحه‌کلید (%s)"
-
-#~ msgid "Keyboard Layout \"%s\""
-#~ msgstr "چیدمان صفحه‌کلید «%s»"
-
-#~ msgid "Copyright (c) Sergey V. Udaltsov 1999-2004"
-#~ msgstr "Copyright © Sergey V. Udaltsov 1999-2004"
-
-#~ msgid "Keyboard layout indicator applet for MATE"
-#~ msgstr "برنامک نشانه‌ی چیدمان صفحه‌کلید برای گنوم"
-
-#~ msgid "XKB initialization error"
-#~ msgstr "خطا در راه‌اندازی XKB"
-
-#~ msgid "No description."
-#~ msgstr "بدون شرح."
-
-#~ msgid "Failed to init MateConf: %s\n"
-#~ msgstr "خطا در راه‌اندازی MateConf: %s\n"
-
-#~ msgid "Activate more plugins"
-#~ msgstr "فعال کردن متصل شونده‌های بیشتر"
-
-#~ msgid "Active _plugins:"
-#~ msgstr "_متصل شونده‌های فعال:"
-
-#~ msgid "Add Plugin"
-#~ msgstr "اضافه کردن متصل شونده"
-
-#~ msgid "Close the dialog"
-#~ msgstr "بستن محاوره"
-
-#~ msgid "Configure the selected plugin"
-#~ msgstr "پیکربندی متصل شونده‌ی انتخاب شده"
-
-#~ msgid "Deactivate selected plugin"
-#~ msgstr "غیر فعال کردن متصل شونده‌ی انتخاب شده"
-
-#~ msgid "Decrease the plugin priority"
-#~ msgstr "کاهش اولویت متصل شونده"
-
-#~ msgid "Increase the plugin priority"
-#~ msgstr "افزایش اولویت متصل شونده"
-
-#~ msgid "Keyboard Indicator Plugins"
-#~ msgstr "متصل شونده‌های نشانه‌ی صفحه‌کلید"
-
-#~ msgid "The list of active plugins"
-#~ msgstr "فهرست متصل شونده‌های فعال"
-
-#~ msgid "_Available plugins:"
-#~ msgstr "_متصل شونده‌های موجود:"
-
-#~ msgid "Keyboard Layout"
-#~ msgstr "چیدمان صفحه‌کلید"
-
-#~ msgid "Secondary groups"
-#~ msgstr "گروه‌های ثانویه"
-
-#~ msgid "Show flags in the applet"
-#~ msgstr "نمایش پرچم در برنامک"
-
-#~ msgid "Show flags in the applet to indicate the current layout"
-#~ msgstr "نشان دادن پرچم در برنامک برای مشخص کردن چیدمان فعلی"
-
-#~ msgid "The list of enabled Keyboard Indicator plugins"
-#~ msgstr "فهرست متصل شونده‌های به کار افتاده‌ی نشانه‌ی صفحه‌کلید"
-
-#~ msgid "Get continuously updated stock quotes"
-#~ msgstr "گرفتن مظنه‌ی سهامِ دائماً در حال به‌هنگام سازی"
-
-#~ msgid "Gtik Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک Gtik"
-
-#~ msgid "_Update"
-#~ msgstr "_به‌هنگام‌سازی"
-
-#~ msgid "Could not retrieve the stock data."
-#~ msgstr "نمی‌توان اطلاعات سهام را بازیابی کرد."
-
-#~ msgid "No stock list"
-#~ msgstr "فهرست سهام موجود نیست"
-
-#~ msgid "Updating..."
-#~ msgstr "در حال به‌هنگام‌سازی..."
-
-#, fuzzy
-#~ msgid ""
-#~ "This program connects to a popular site and downloads current stock "
-#~ "quotes.\n"
-#~ "\n"
-#~ "The MATE Stock Ticker is a free Internet-based application. It comes "
-#~ "with ABSOLUTELY NO WARRANTY.\n"
-#~ "\n"
-#~ "Do not use the MATE Stock Ticker for making investment decisions; it is "
-#~ "for informational purposes only."
-#~ msgstr ""
-#~ "این برنامه به یک پایگاه مشهور وصل می‌شود و مظنه‌های فعلی سهام را بارگیری "
-#~ "می‌کند.\n"
-#~ "..."
-
-#~ msgid "Current _stocks:"
-#~ msgstr "_سهام‌های فعلی:"
-
-#~ msgid "Add _new symbol:"
-#~ msgstr "اضافه کردن نماد _جدید:"
-
-#~ msgid "Stock Ticker Preferences"
-#~ msgstr "ترجیحات Stock Ticker"
-
-#~ msgid "Symbols"
-#~ msgstr "نمادها"
-
-#~ msgid "Behavior"
-#~ msgstr "رفتار"
-
-#~ msgid "Update"
-#~ msgstr "به‌هنگام‌سازی"
-
-#~ msgid "Stock update fre_quency:"
-#~ msgstr "_بسامد به‌هنگام‌سازی سهام:"
-
-#~ msgid "minutes"
-#~ msgstr "دقیقه"
-
-#~ msgid "Scrolling"
-#~ msgstr "لغزش"
-
-#~ msgid "_Scroll speed:"
-#~ msgstr "سرعت _لغزش:"
-
-#~ msgid "Slow"
-#~ msgstr "کند"
-
-#~ msgid "Medium"
-#~ msgstr "متوسط"
-
-#~ msgid "Fast"
-#~ msgstr "سریع"
-
-#~ msgid "_Enable scroll buttons"
-#~ msgstr "_به کار انداختن دکمه‌های لغزش"
-
-#~ msgid "Scroll _left to right"
-#~ msgstr "لغرش از _چپ به راست"
-
-#~ msgid "Appearance"
-#~ msgstr "ظاهر"
-
-#~ msgid "Display"
-#~ msgstr "نمایش"
-
-#~ msgid "Displa_y only symbols and price"
-#~ msgstr "_نمایش فقط نمادها و قیمت"
-
-#~ msgid "_Width:"
-#~ msgstr "_عرض:"
-
-#~ msgid "pixels"
-#~ msgstr "نقطه"
-
-#~ msgid "Font and Colors"
-#~ msgstr "قلم و رنگ‌ها"
-
-#~ msgid "Use _default theme font and colors"
-#~ msgstr "استفاده از تم _پیش‌فرض برای قلم و رنگها"
-
-#~ msgid "_Font:"
-#~ msgstr "_قلم:"
-
-#~ msgid "Stock _raised:"
-#~ msgstr "سهام با_لا رفته:"
-
-#~ msgid "Stock _lowered:"
-#~ msgstr "سهام _پایین آمده:"
-
-#~ msgid "Stock _unchanged:"
-#~ msgstr "سهام _بی‌تغییر:"
-
-#~ msgid "_Background:"
-#~ msgstr "_پس‌زمینه:"
-
-#~ msgid "Skip forward"
-#~ msgstr "پرش به جلو"
-
-#~ msgid "Skip backward"
-#~ msgstr "پرش به عقب"
-
-#~ msgid "+%s (%s)"
-#~ msgstr "‏+%s (%s)"
-
-#~ msgid "%s (%s)"
-#~ msgstr "‏%s (%s)"
-
-#~ msgid "(No Change)"
-#~ msgstr "(بی‌تغییر)"
-
-#~ msgid "Applet scrolls right to left when this key is set to true."
-#~ msgstr "وقتی این کلید به «درست» تنظیم شود، برنامک از راست به چپ می‌لغزد."
-
-#~ msgid "Background color"
-#~ msgstr "رنگ پس‌زمینه"
-
-#~ msgid ""
-#~ "Display only stock symbols along with their value. Do not display changes "
-#~ "in value."
-#~ msgstr ""
-#~ "فقط نمادهای سهام و ارزششان نمایش داده شود. تغییرات ارزش نمایش داده نشود."
-
-#~ msgid "Display only symbols and price"
-#~ msgstr "نمایش فقط نمادها و قیمت"
-
-#~ msgid "Font"
-#~ msgstr "قلم"
-
-#~ msgid ""
-#~ "List containing the stocks to be displayed. Consists of the stock id "
-#~ "separated by \"+\""
-#~ msgstr ""
-#~ "فهرست سهام‌هایی که باید نمایش داده شوند. شامل شناسه‌ی سهام‌هاست که با «+» جدا "
-#~ "شده‌اند."
-
-#~ msgid "Lowered color"
-#~ msgstr "رنگ پایین آمده‌ها"
-
-#~ msgid "Raised color"
-#~ msgstr "رنگ بالا رفته‌ها"
-
-#~ msgid "Right to left scrolling"
-#~ msgstr "لغزش از راست به چپ"
-
-#~ msgid "Shorter time means the stocks scroll by faster."
-#~ msgstr "زمان کمتر یعنی سهام‌ها سریع‌تر می‌لغزند."
-
-#~ msgid "Show arrow buttons"
-#~ msgstr "نمایش دکمه‌های پیکان"
-
-#~ msgid ""
-#~ "Show arrow buttons on the side of the display so that the user can scroll "
-#~ "forward or backward."
-#~ msgstr ""
-#~ "نمایش دکمه‌های پیکان در کنار قسمت نمایش، طوری که کاربر بتواند صفحه را به "
-#~ "جلو یا عقب بلغزاند."
-
-#~ msgid "Stocks to monitor - must be separated by a +"
-#~ msgstr "سهام‌هایی که پاییده می‌شوند. باید با + جدا شوند"
-
-#~ msgid ""
-#~ "The color of the background of the display. Has no effect when the user "
-#~ "chooses to use the default theme fonts and colors."
-#~ msgstr ""
-#~ "رنگ پس‌زمینه‌ی قسمت نمایش. وقتی کاربر استفاده از قلمها و رنگهای پیش‌فرض تم "
-#~ "را انتخاب کند، تأثیر ندارد."
-
-#~ msgid ""
-#~ "The color used when the stock's values has lowered. Has no effect when "
-#~ "the user chooses to use the default theme fonts and colors."
-#~ msgstr ""
-#~ "رنگ مورد استفاده وقتی ارزش سهام پایین آمده است. وقتی کاربر استفاده از قلم "
-#~ "و رنگ‌های پیش‌فرض را انتخاب کند تأثیری ندارد."
-
-#~ msgid ""
-#~ "The color used when the stock's values has not changed. Has no effect "
-#~ "when the user chooses to use the default theme fonts and colors."
-#~ msgstr ""
-#~ "رنگ مورد استفاده وقتی ارزش سهام تغییری نکرده است. وقتی کاربر استفاده از "
-#~ "قلم و رنگ‌های پیش‌فرض را انتخاب کند تأثیری ندارد."
-
-#~ msgid ""
-#~ "The color used when the stock's values has raised. Has no effect when the "
-#~ "user chooses to use the default theme fonts and colors."
-#~ msgstr ""
-#~ "رنگ مورد استفاده وقتی ارزش سهام بالا رفته است. وقتی کاربر استفاده از قلم "
-#~ "و رنگ‌های پیش‌فرض را انتخاب کند تأثیری ندارد."
-
-#~ msgid ""
-#~ "The font used for the display. Has no effect when the user chooses to use "
-#~ "the default theme fonts and colors."
-#~ msgstr ""
-#~ "قلم مورد استفاده برای نمایش. وقتی کاربر استفاده از قلمها و رنگهای پیش‌فرض "
-#~ "تم را انتخاب کند، تأثیر ندارد."
-
-#~ msgid "The time interval until when the applet updates the stock data."
-#~ msgstr "بازه‌ی زمانی‌ای که برنامک اطلاعات سهام را به‌هنگام می‌کند."
-
-#~ msgid "The width in pixels of the applet."
-#~ msgstr "عرض برنامک بر حسب نقطه."
-
-#~ msgid "Time in milliseconds for display update"
-#~ msgstr "زمان به‌هنگام‌سازی نمایش برحسب میلی‌ثانیه"
-
-#~ msgid "Unchanged color"
-#~ msgstr "رنگ بی‌تغییر"
-
-#~ msgid "Use default theme fonts and colors"
-#~ msgstr "استفاده از قلم‌ها و رنگ‌های تم پیش‌فرض"
-
-#~ msgid "Use default theme fonts and colors instead of custom ones"
-#~ msgstr "استفاده از قلم‌ها و رنگ‌های پیش‌فرض تم به جای قلم‌ها و رنگ‌های سفارشی"
-
-#~ msgid "Width of the applet"
-#~ msgstr "عرض برنامک"
-
-#~ msgid "font 2 - No Longer used"
-#~ msgstr "قلم ۲ - دیگر استفاده نمی‌شود"
-
-#~ msgid "_Details"
-#~ msgstr "_جزئیات"
-
-#~ msgid "Factory for creating the weather applet."
-#~ msgstr "کارخانه‌ای برای ایجاد برنامک آب و هوا"
-
-#~ msgid "Gweather Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک Gweather"
-
-#~ msgid "Monitor the current weather conditions, and forecasts"
-#~ msgstr "پایش شرایط آب و هوایی فعلی و پیش‌بینی‌ها"
-
-#~ msgid "Weather Report"
-#~ msgstr "گزارش آب و هوا"
-
-#~ msgid "© 1999-2005 by S. Papadimitriou and others"
-#~ msgstr "© 1999-2005 by S. Papadimitriou and others"
-
-#~ msgid "A panel application for monitoring local weather conditions."
-#~ msgstr "یک برنامه‌ی تابلو برای پایش شرایط محلی آب و هوا."
-
-#~ msgid "MATE Weather"
-#~ msgstr "آب و هوای گنوم"
-
-#~ msgid ""
-#~ "City: %s\n"
-#~ "Sky: %s\n"
-#~ "Temperature: %s"
-#~ msgstr ""
-#~ "شهر: %s\n"
-#~ "آسمان: %s\n"
-#~ "دما: %s"
-
-#~ msgid "Details"
-#~ msgstr "جزئیات"
-
-#~ msgid "City:"
-#~ msgstr "شهر:"
-
-#~ msgid "Last update:"
-#~ msgstr "آخرین به‌هنگام‌سازی:"
-
-#~ msgid "Conditions:"
-#~ msgstr "شرایط:"
-
-#~ msgid "Sky:"
-#~ msgstr "آسمان:"
-
-#~ msgid "Temperature:"
-#~ msgstr "دما:"
-
-#~ msgid "Feels like:"
-#~ msgstr "شبیه روزهای:"
-
-#~ msgid "Dew point:"
-#~ msgstr "نقطه‌ی میعان:"
-
-#~ msgid "Relative humidity:"
-#~ msgstr "رطوبت نسبی:"
-
-#~ msgid "Wind:"
-#~ msgstr "باد:"
-
-#~ msgid "Pressure:"
-#~ msgstr "فشار:"
-
-#~ msgid "Visibility:"
-#~ msgstr "دید:"
-
-#~ msgid "Sunrise:"
-#~ msgstr "طلوع خورشید:"
-
-#~ msgid "Sunset:"
-#~ msgstr "غروب خورشید:"
-
-#~ msgid "Current Conditions"
-#~ msgstr "شرایط فعلی"
-
-#~ msgid "Forecast Report"
-#~ msgstr "گزارش پیش‌بینی"
-
-#~ msgid "See the ForeCast Details"
-#~ msgstr "دیدن جزئیات پیش‌بینی"
-
-#~ msgid "Forecast"
-#~ msgstr "پیش‌بینی"
-
-#~ msgid "Radar Map"
-#~ msgstr "نقشه‌ی رادار"
-
-#~ msgid "_Visit Weather.com"
-#~ msgstr "_مراجعه به Weather.com"
-
-#~ msgid "Visit Weather.com"
-#~ msgstr "مراجعه به Weather.com"
-
-#~ msgid "Click to Enter Weather.com"
-#~ msgstr "برای ورود به Weather.com کلیک کنید"
-
-#~ msgid "Forecast not currently available for this location."
-#~ msgstr "برای این مکان فعلاً پیش‌بینی‌ای موجود نیست."
-
-#~ msgid "Location view"
-#~ msgstr "نمایش مکان"
-
-#~ msgid "Select Location from the list"
-#~ msgstr "انتخاب مکان از فهرست"
-
-#~ msgid "Address Entry"
-#~ msgstr "مدخل نشانی"
-
-#~ msgid "Enter the URL"
-#~ msgstr "نشانی اینترنتی را وارد کنید"
-
-#~ msgid ""
-#~ "Failed to load the Locations XML database.  Please report this as a bug."
-#~ msgstr ""
-#~ "بار کردن پایگاه‌داده‌ی Locations XML شکست خورد. لطفاً این مورد را به عنوان "
-#~ "اشکال گزارش کنید."
-
-#~ msgid "Weather Preferences"
-#~ msgstr "ترجیحات آب و هوا"
-
-#~ msgid "_Automatically update every:"
-#~ msgstr "به‌هنگام‌سازی _خودکار هر:"
-
-#~ msgid "_Temperature unit:"
-#~ msgstr "واحد _دما:"
-
-#~ msgid "Kelvin"
-#~ msgstr "کلوین"
-
-#~ msgid "Celsius"
-#~ msgstr "سلسیوس"
-
-#~ msgid "Fahrenheit"
-#~ msgstr "فارنهایت"
-
-#~ msgid "_Wind speed unit:"
-#~ msgstr "واحد سرعت _باد:"
-
-#~ msgid "_Pressure unit:"
-#~ msgstr "واحد _فشار:"
-
-#~ msgid "_Visibility unit:"
-#~ msgstr "واحد _دید:"
-
-#~ msgid "meters"
-#~ msgstr "متر"
-
-#~ msgid "miles"
-#~ msgstr "مایل"
-
-#~ msgid "Enable _radar map"
-#~ msgstr "به کار انداختن نقشه‌ی _رادار"
-
-#~ msgid "Use _custom address for radar map"
-#~ msgstr "استفاده از نشانی _سفارشی برای نقشه‌ی رادار"
-
-#~ msgid "A_ddress:"
-#~ msgstr "_نشانی:"
-
-#~ msgid "General"
-#~ msgstr "عمومی"
-
-#~ msgid "_Select a location:"
-#~ msgstr "یک مکان انتخاب کنید:"
-
-#~ msgid "_Find:"
-#~ msgstr "_پیدا کردن:"
-
-#~ msgid "Find _Next"
-#~ msgstr "پیدا کردن _بعدی"
-
-#~ msgid "%.1f °F"
-#~ msgstr "‏%I.1f درجه‌ی فارنهایت‬"
-
-#~ msgid "%d °F"
-#~ msgstr "‎%Id °F‬"
-
-#~ msgid "%.1f °C"
-#~ msgstr "‏%I.1f درجه‌ی سلسیوس‬"
-
-#~ msgid "%d °C"
-#~ msgstr "‎%Id ‬°C"
-
-#~ msgid "There was an error loading an image: %s"
-#~ msgstr "در بار کردن تصویر خطایی پیش آمد: %s"
-
-#, fuzzy
-#~ msgid "Deskbar (ne Mini-Commander)"
-#~ msgstr "فرمانده‌ی کوچک"
-
-#~ msgid "Command Line"
-#~ msgstr "سطر فرمان"
-
-#~ msgid "Mini-Commander"
-#~ msgstr "فرمانده‌ی کوچک"
-
-#~ msgid "MiniCommander Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک MiniCommander"
-
-#~ msgid ""
-#~ "This MATE applet adds a command line to the panel. It features command "
-#~ "completion, command history, and changeable macros."
-#~ msgstr ""
-#~ "این برنامک گنوم یک سطر فرمان به تابلو اضافه می‌کند. امکانات آن شامل تکمیل "
-#~ "دستور، تاریخچه‌ی دستورات، و ماکروهای قابل تغییر است."
-
-#~ msgid "No items in history"
-#~ msgstr "موردی در تاریخچه موجود نیست"
-
-#~ msgid "Start program"
-#~ msgstr "آغاز برنامه"
-
-#~ msgid "Command line"
-#~ msgstr "سطر فرمان"
-
-#~ msgid "Type a command here and Mate will execute it for you"
-#~ msgstr "اینجا دستوری وارد کنید تا گنوم برایتان اجرا کند"
-
-#~ msgid "Cannot get schema for %s: %s"
-#~ msgstr "نمی‌توان برای %s شِما گرفت: %s"
-
-#~ msgid "Cannot set schema for %s: %s"
-#~ msgstr "نمی‌توان برای %s شِما تنظیم کرد: %s"
-
-#~ msgid "Set default list value for %s\n"
-#~ msgstr "تنظیم مقدار پیش‌فرض فهرست برای %s\n"
-
-#~ msgid ""
-#~ "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-#~ msgstr ""
-#~ "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL تنظیم شده است، شِماها نصب نمی‌شوند\n"
-
-#~ msgid "Must set the MATECONF_CONFIG_SOURCE environment variable\n"
-#~ msgstr "باید متغیر محیطی MATECONF_CONFIG_SOURCE تنظیم شود\n"
-
-#~ msgid "Failed to access configuration source(s): %s\n"
-#~ msgstr "دسترسی به مبدأ(های) پیکربندی دسترسی: %s\n"
-
-#~ msgid "Error syncing config data: %s"
-#~ msgstr "خطا در همگام‌سازی داده‌های پیکربندی: %s"
-
-#~ msgid ""
-#~ "List of MateConfValue entries containing strings for the macro commands."
-#~ msgstr ""
-#~ "فهرست مدخل‌های MateConfValue که حاوی رشته‌هایی برای فرمان‌های ماکرو هستند."
-
-#~ msgid ""
-#~ "List of MateConfValue entries containing strings for the macro patterns."
-#~ msgstr "فهرست مدخل‌های MateConfValue که حاوی رشته‌هایی برای الگوهای ماکرو هستند."
-
-#~ msgid "Macro command list"
-#~ msgstr "فهرست فرمان‌های ماکرو"
-
-#~ msgid "Macro pattern list"
-#~ msgstr "فهرست الگوهای ماکرو"
-
-#~ msgid "<b>Auto Completion</b>"
-#~ msgstr "<b>تکمیل خودکار</b>"
-
-#~ msgid "<b>Colors</b>"
-#~ msgstr "<b>رنگ‌ها</b>"
-
-#~ msgid "<b>Size</b>"
-#~ msgstr "<b>اندازه</b>"
-
-#~ msgid "Add New Macro"
-#~ msgstr "اضافه کردن ماکروی جدید"
-
-#~ msgid "Co_mmand:"
-#~ msgstr "_فرمان:"
-
-#~ msgid "Command Line Preferences"
-#~ msgstr "ترجیحات سطر فرمان"
-
-#~ msgid "Command line _background:"
-#~ msgstr "پ_س‌زمینه‌ی سطر فرمان:"
-
-#~ msgid "Command line _foreground:"
-#~ msgstr "پی_ش‌زمینه‌ی سطر فرمان:"
-
-#~ msgid "E_nable history-based auto completion"
-#~ msgstr "_به کار انداختن تکمیل خودکار مبتنی بر تاریخچه"
-
-#~ msgid "Macros"
-#~ msgstr "ماکروها"
-
-#~ msgid "Pick a color"
-#~ msgstr "یک رنگ انتخاب کنید"
-
-#~ msgid "_Add Macro..."
-#~ msgstr "_اضافه کردن ماکرو..."
-
-#~ msgid "_Delete Macro"
-#~ msgstr "_حذف ماکرو"
-
-#~ msgid "_Macros:"
-#~ msgstr "_ماکروها:"
-
-#~ msgid "_Pattern:"
-#~ msgstr "_الگو:"
-
-#~ msgid "_Use default theme colors"
-#~ msgstr "استفاده از رنگ‌های _تم پیش‌فرض"
-
-#~ msgid ""
-#~ "Attempt to autocomplete a command from the history of commands entered."
-#~ msgstr "تلاش برای تکمیل خودکار یک فرمان از تاریخچه‌ی فرمان‌های وارد شده."
-
-#~ msgid "Background color, blue component"
-#~ msgstr "رنگ پس‌زمینه، مؤلفه‌ی آبی"
-
-#~ msgid "Background color, green component"
-#~ msgstr "رنگ پس‌زمینه، مؤلفه‌ی سبز"
-
-#~ msgid "Background color, red component"
-#~ msgstr "رنگ پس‌زمینه، مؤلفه‌ی قرمز"
-
-#~ msgid "Foreground color, blue component"
-#~ msgstr "رنگ پیش‌زمینه، مؤلفه‌ی آبی"
-
-#~ msgid "Foreground color, green component"
-#~ msgstr "رنگ پیش‌زمینه، مؤلفه‌ی سبز"
-
-#~ msgid "Foreground color, red component"
-#~ msgstr "رنگ پیش‌زمینه، مؤلفه‌ی قرمز"
-
-#~ msgid "History list"
-#~ msgstr "فهرست تاریخچه"
-
-#~ msgid "List of MateConfValue entries containing strings for history entries."
-#~ msgstr "فهرست مدخل‌های MateConfValue که شامل رشته‌هایی برای مداخل تاریخچه‌اند."
-
-#~ msgid "Perform history autocompletion"
-#~ msgstr "انجام تکمیل خودکار تاریخچه"
-
-#~ msgid "Show a frame surrounding the applet."
-#~ msgstr "نشان دادن یک چارچوب که برنامک را احاطه کرده است."
-
-#~ msgid "Show a handle so the applet can be detached from the panel."
-#~ msgstr "نشان دادن یک دسته، که بتوان برنامک را از تابلو جدا کرد."
-
-#~ msgid "Show frame"
-#~ msgstr "نمایش چارچوب"
-
-#~ msgid "Show handle"
-#~ msgstr "نمایش دسته"
-
-#~ msgid "The blue component of the background color."
-#~ msgstr "مؤلفه‌ی آبیِ رنگ پس‌زمینه"
-
-#~ msgid "The blue component of the foreground color."
-#~ msgstr "مؤلفه‌ی آبیِ رنگ پیش‌زمینه"
-
-#~ msgid "The green component of the background color."
-#~ msgstr "مؤلفه‌ی سبزِ رنگ پس‌زمینه"
-
-#~ msgid "The green component of the foreground color."
-#~ msgstr "مؤلفه‌ی سبزِ رنگ پیش‌زمینه"
-
-#~ msgid "The red component of the background color."
-#~ msgstr "مؤلفه‌ی قرمزِ رنگ پس‌زمینه"
-
-#~ msgid "The red component of the foreground color."
-#~ msgstr "مؤلفه‌ی قرمز رنگ پیش‌زمینه"
-
-#~ msgid "Use the default theme colors"
-#~ msgstr "استفاده از رنگهای پیش‌فرض تم"
-
-#~ msgid "Use theme colors instead of custom ones."
-#~ msgstr "استفاده از رنگهای تم به‌جای رنگ‌های سفارشی."
-
-#~ msgid "Width"
-#~ msgstr "عرض"
-
-#~ msgid "Browser"
-#~ msgstr "مرورگر"
-
-#~ msgid "Click this button to start the browser"
-#~ msgstr "برای آغاز مرورگر روی این دکمه کلیک کنید"
-
-#~ msgid "History"
-#~ msgstr "تاریخچه"
-
-#~ msgid "Click this button for the list of previous commands"
-#~ msgstr "برای فهرست فرمان‌های قبلی روی این دکمه کلیک کنید"
-
-#~ msgid "Command line has been disabled by your system administrator"
-#~ msgstr "مدیر سیستم، سطر فرمان را از کار انداخته است"
-
-#~ msgid "Mini-Commander applet"
-#~ msgstr "برنامک فرمانده‌ی کوچک"
-
-#~ msgid "This applet adds a command line to the panel"
-#~ msgstr "این برنامک یک سطر فرمان به تابلو اضافه می‌کند"
-
-#~ msgid "You must specify a pattern"
-#~ msgstr "شما باید یک الگو مشخص کنید"
-
-#~ msgid "You must specify a pattern and a command"
-#~ msgstr "شما باید یک الگو و یک فرمان مشخص کنید"
-
-#~ msgid "You must specify a command"
-#~ msgstr "شما باید یک فرمان مشخص کنید"
-
-#~ msgid "You may not specify duplicate patterns"
-#~ msgstr "نمی‌توانید الگوی تکراری مشخص کنید"
-
-#~ msgid "Pattern"
-#~ msgstr "الگو"
-
-#~ msgid "Command"
-#~ msgstr "فرمان"
-
-#~ msgid "Adjust the sound volume"
-#~ msgstr "میزان کردن بلندی صدا"
-
-#~ msgid "Volume Control"
-#~ msgstr "کنترل صدا"
-
-#~ msgid "_Mute"
-#~ msgstr "_ساکت"
-
-#~ msgid "_Open Volume Control"
-#~ msgstr "_باز کردن کنترل صدا"
-
-#~ msgid ""
-#~ "The volume control did not find any elements and/or devices to control. "
-#~ "This means either that you don't have the right GStreamer plugins "
-#~ "installed, or that you don't have a sound card configured."
-#~ msgstr ""
-#~ "کنترل بلندی صدا عنصر و/یا دستگاهی پیدا نکرد تا کنترل کند. این بدین معنی "
-#~ "است که یا متصل شونده‌های مناسب GStreamer نصب نشده‌اند، یا کارت صوتی برای "
-#~ "شما پیکربندی نشده است."
-
-#~ msgid ""
-#~ "You can remove the volume control from the panel by right-clicking the "
-#~ "speaker icon on the panel and selecting \"Remove From Panel\" from the "
-#~ "menu."
-#~ msgstr ""
-#~ "می‌توانید با راست کلیک کردن روی شمایل بلندگو در تابلو و انتخاب «حذف از "
-#~ "تابلو» از منو، کنترل بلندی صدا را از تابلو حذف کنید."
-
-#~ msgid "Failed to start Volume Control: %s"
-#~ msgstr "آغاز کردن کنترل صدا شکست خورد: %s"
-
-#~ msgid "%s: muted"
-#~ msgstr "‏%s: بی‌صدا"
-
-#~ msgid "%s: %d%%"
-#~ msgstr "‏%s: ٪%Id"
-
-#~ msgid "Failed to display help: %s"
-#~ msgstr "نمایش راهنما شکست خورد: %s"
-
-#~ msgid "Volume Applet"
-#~ msgstr "برنامک بلندی صدا"
-
-#~ msgid "+"
-#~ msgstr "+"
-
-#~ msgid "-"
-#~ msgstr "-"
-
-#~ msgid "Unknown Volume Control %d"
-#~ msgstr "کنترل بلندی صدای ناشناخته‌ی %Id"
-
-#~ msgid "Channel controlled by applet. Only for OSS setups"
-#~ msgstr "کانال کنترل‌شده توسط برنامک. فقط برای برپاسازی‌های OSS"
-
-#~ msgid "Saved mute state"
-#~ msgstr "وضعیت ساکت ذخیره شد"
-
-#~ msgid "Saved volume to restore on startup"
-#~ msgstr "بلندی صدا برای بازگرداندن در موقع راه‌اندازی ذخیره شد"
-
-#~ msgid "Volume Control Preferences"
-#~ msgstr "ترجیحات کنترل بلندی صدا"
-
-#~ msgid "Select the device and track to control."
-#~ msgstr "دستگاه و شیاری که باید کنترل شود را انتخاب کنید."
-
-#~ msgid "Activate and monitor a dial-up network connection"
-#~ msgstr "فعال کردن و پایش یک اتصال شبکه‌ای تلفنی (شماره‌گیری)"
-
-#~ msgid "Modem Monitor"
-#~ msgstr "پایشگر مودم"
-
-#~ msgid "_Activate"
-#~ msgstr "_فعال کردن"
-
-#~ msgid "_Deactivate"
-#~ msgstr "_غیرفعال کردن"
-
-#~ msgid "_Properties"
-#~ msgstr "_ویژگی‌ها"
-
-#~ msgid "Connection active, but could not get connection time"
-#~ msgstr "اتصال فعال است، اما نمی‌توان زمان اتصال را به‌دست آورد"
-
-#~ msgid "Time connected: %.1d:%.2d"
-#~ msgstr "زمان متصل بودن: %I.1d:%I.2d"
-
-#~ msgid "Not connected"
-#~ msgstr "متصل نیست"
-
-#~ msgid ""
-#~ "To connect to your Internet service provider, you need administrator "
-#~ "privileges"
-#~ msgstr ""
-#~ "برای اتصال به فراهم‌کننده‌ی خدمات اینترنتی، نیاز به امتیازات مدیریت دارید"
-
-#~ msgid ""
-#~ "To disconnect from your Internet service provider, you need administrator "
-#~ "privileges"
-#~ msgstr ""
-#~ "برای قطع اتصال از فراهم‌کننده‌ی خدمات اینترنتی، نیاز به امتیازات مدیریت "
-#~ "دارید"
-
-#~ msgid "The entered password is invalid"
-#~ msgstr "گذرواژه‌ی واردشده نامعتبر است"
-
-#~ msgid ""
-#~ "Check that you have typed it correctly and that you haven't activated the "
-#~ "\"caps lock\" key"
-#~ msgstr ""
-#~ "مطمئن شوید که آن را درست وارد کرده‌اید و کلید «قفل تبدیل» را فعال نکرده‌اید"
-
-#~ msgid "Do you want to connect?"
-#~ msgstr "آیا می‌خواهید متصل شوید؟"
-
-#~ msgid "Do you want to disconnect?"
-#~ msgstr "آیا می‌خواهید قطع شوید؟"
-
-#~ msgid "C_onnect"
-#~ msgstr "_اتصال"
-
-#~ msgid "_Disconnect"
-#~ msgstr "_قطع"
-
-#~ msgid "Could not launch network configuration tool"
-#~ msgstr "نمی‌توان ابزار پیکربندی شبکه را راه‌اندازی کرد"
-
-#~ msgid ""
-#~ "Check that it's installed in the correct path and that it has the correct "
-#~ "permissions"
-#~ msgstr "بررسی کنید که در مسیر درست نصب شده باشد و اجازه‌های درست را دارد"
-
-#~ msgid "Applet for activating and monitoring a dial-up network connection."
-#~ msgstr "برنامکی برای فعال کردن و پایش یک اتصال شبکه‌ای تلفنی (شماره‌گیری)"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Connecting with Internet Service "
-#~ "Provider</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">در حال اتصال به فراهم‌کننده‌ی خدمات "
-#~ "اینترنتی</span>"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Root password required</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">گذرواژه‌ی Root لازم است</span>"
-
-#~ msgid "Enter password"
-#~ msgstr "گذرواژه را وارد کنید"
-
-#~ msgid "Password:"
-#~ msgstr "گذرواژه:"
-
-#~ msgid "A system load indicator"
-#~ msgstr "شاخص بار دستگاه"
-
-#~ msgid "System Monitor"
-#~ msgstr "پایشگر دستگاه"
-
-#~ msgid "_Open System Monitor"
-#~ msgstr "_باز کردن پایشگر دستگاه"
-
-#~ msgid ""
-#~ "A system load monitor capable of displaying graphs for CPU, ram, and swap "
-#~ "space use, plus network traffic."
-#~ msgstr ""
-#~ "پایشگری برای بار دستگاه که می‌تواند نمودارهایی برای میزان استفاده از واحد "
-#~ "پردازش مرکزی (CPU)، حافظه‌ی با دستیابی تصادفی (RAM) و فضای مبادله نمایش "
-#~ "دهد،‌ به‌علاوه‌ی ترافیک شبکه."
-
-#~ msgid "There was an error executing '%s': %s"
-#~ msgstr "در اجرای «%s» خطایی پیش آمد: %s"
-
-#~ msgid "Processor"
-#~ msgstr "پردازنده"
-
-#~ msgid "Memory"
-#~ msgstr "حافظه"
-
-#~ msgid "Network"
-#~ msgstr "شبکه"
-
-#~ msgid "Swap Space"
-#~ msgstr "فضای مبادله"
-
-#~ msgid "Load Average"
-#~ msgstr "بار متوسط"
-
-#~ msgid "Disk"
-#~ msgstr "دیسک"
-
-#, fuzzy
-#~ msgid ""
-#~ "%s:\n"
-#~ "%u%% in use by programs\n"
-#~ "%u%% in use as cache"
-#~ msgstr ""
-#~ "%s:\n"
-#~ "٪%Iu در حال استفاده که از آن\n"
-#~ "٪%Iu در حافظه‌ی نهان است"
-
-#~ msgid ""
-#~ "%s:\n"
-#~ "%u%% in use"
-#~ msgid_plural ""
-#~ "%s:\n"
-#~ "%u%% in use"
-#~ msgstr[0] ""
-#~ "%s:\n"
-#~ "٪%Iu در حال استفاده"
-
-#~ msgid "CPU Load"
-#~ msgstr "بار واحد پردازش مرکزی"
-
-#~ msgid "Memory Load"
-#~ msgstr "بار حافظه"
-
-#~ msgid "Net Load"
-#~ msgstr "بار شبکه"
-
-#~ msgid "Swap Load"
-#~ msgstr "بار حافظه‌ی مبادله"
-
-#~ msgid "Disk Load"
-#~ msgstr "بار دیسک"
-
-#~ msgid "Applet refresh rate in milliseconds"
-#~ msgstr "آهنگ نوسازی برنامک بر حسب میلی‌ثانیه"
-
-#~ msgid "Background color for disk load graph"
-#~ msgstr "رنگ پس‌زمینه برای نمودار بار دیسک"
-
-#~ msgid "CPU graph background color"
-#~ msgstr "رنگ پس‌زمینه‌ی نمودار واحد پردازش مرکزی"
-
-#~ msgid "Enable CPU load graph"
-#~ msgstr "به کار انداختن نمودار بار واحد پردازش مرکزی"
-
-#~ msgid "Enable disk load graph"
-#~ msgstr "به کار انداختن نمودار بار دیسک"
-
-#~ msgid "Enable load average graph"
-#~ msgstr "به کار انداختن نمودار بار متوسط"
-
-#~ msgid "Enable memory load graph"
-#~ msgstr "به کار انداختن نمودار بار حافظه"
-
-#~ msgid "Enable network load graph"
-#~ msgstr "به کار انداختن نمودار بار شبکه"
-
-#~ msgid "Enable swap load graph"
-#~ msgstr "به کار انداختن نمودار بار فضای مبادله"
-
-#~ msgid ""
-#~ "For horizontal panels, the width of the graphs in pixels. For vertical "
-#~ "panels, this is the height of the graphs."
-#~ msgstr ""
-#~ "برای تابلوهای افقی، عرض نمودارها بر حسب نقطه. برای تابلوهای عمودی، این "
-#~ "ارتفاع نمودارهاست."
-
-#~ msgid "Graph color for Ethernet network activity"
-#~ msgstr "رنگ نمودار برای فعالیت شبکه‌ی اترنت"
-
-#~ msgid "Graph color for PLIP network activity"
-#~ msgstr "رنگ نمودار برای فعالیت شبکه‌ی PLIP"
-
-#~ msgid "Graph color for SLIP network activity"
-#~ msgstr "رنگ نمودار برای فعالیت شبکه‌ی SLIP"
-
-#~ msgid "Graph color for buffer memory"
-#~ msgstr "رنگ نمودار برای حافظه‌ی میانگیر"
-
-#~ msgid "Graph color for cached memory"
-#~ msgstr "رنگ نمودار برای حافظه‌ی نهان‌شده"
-
-#~ msgid "Graph color for disk read"
-#~ msgstr "رنگ نمودار برای خواندن دیسک"
-
-#~ msgid "Graph color for disk write"
-#~ msgstr "رنگ نمودار برای نوشتن دیسک"
-
-#~ msgid "Graph color for iowait related CPU activity"
-#~ msgstr "رنگ نمودار برای فعالیت‌های مربوط به iowait واحد پردازش مرکزی"
-
-#~ msgid "Graph color for load average"
-#~ msgstr "رنگ نمودار برای بار متوسط"
-
-#~ msgid "Graph color for nice-related CPU activity"
-#~ msgstr "رنگ نمودار برای فعالیت‌های مربوط به nice واحد پردازش مرکزی"
-
-#~ msgid "Graph color for other network usage"
-#~ msgstr "رنگ نمودار برای کاربردهای دیگر شبکه"
-
-#~ msgid "Graph color for shared memory"
-#~ msgstr "رنگ نمودار برای حافظه‌ی اشتراکی"
-
-#~ msgid "Graph color for system-related CPU activity"
-#~ msgstr "رنگ نمودار برای فعالیت‌های مربوط به سیستم واحد پردازش مرکزی"
-
-#~ msgid "Graph color for user-related CPU activity"
-#~ msgstr "رنگ نمودار برای فعالیت‌های مربوط به کاربر واحد پردازش مرکزی"
-
-#~ msgid "Graph color for user-related memory usage"
-#~ msgstr "رنگ نمودار برای کاربردهای مربوط به کاربر حافظه"
-
-#~ msgid "Graph color for user-related swap usage"
-#~ msgstr "رنگ نمودار برای کاربردهای مربوط به کاربر حافظه‌ی مبادله"
-
-#~ msgid "Graph size"
-#~ msgstr "اندازه‌ی نمودار"
-
-#~ msgid "Load graph background color"
-#~ msgstr "رنگ پس‌زمینه‌ی نمودار بار"
-
-#~ msgid "Memory graph background color"
-#~ msgstr "رنگ پس‌زمینه‌ی نمودار حافظه"
-
-#~ msgid "Network graph background color"
-#~ msgstr "رنگ پس‌زمینه‌ی نمودار شبکه"
-
-#~ msgid "Swap graph background color"
-#~ msgstr "رنگ پس‌زمینه‌ی نمودار حافظه‌ی مبادله"
-
-#~ msgid "Monitored Resources"
-#~ msgstr "منابع پایش‌شده"
-
-#~ msgid "_Processor"
-#~ msgstr "_پردازنده"
-
-#~ msgid "_Memory"
-#~ msgstr "_حافظه"
-
-#~ msgid "_Network"
-#~ msgstr "_شبکه"
-
-#~ msgid "S_wap Space"
-#~ msgstr "فضای _مبادله"
-
-#~ msgid "_Load"
-#~ msgstr "_بار"
-
-#~ msgid "_Harddisk"
-#~ msgstr "دیسک _سخت"
-
-#~ msgid "Options"
-#~ msgstr "گزینه‌ها"
-
-#~ msgid "System m_onitor width: "
-#~ msgstr "عرض _پایشگر دستگاه: "
-
-#~ msgid "System m_onitor height: "
-#~ msgstr "ارتفاع _پایشگر دستگاه: "
-
-#~ msgid "Sys_tem monitor update interval: "
-#~ msgstr "بازه‌ی به‌هنگام‌سازی پایشگر _سیستم: "
-
-#~ msgid "milliseconds"
-#~ msgstr "میلی‌ثانیه"
-
-#~ msgid "Colors"
-#~ msgstr "رنگ‌ها"
-
-#~ msgid "_User"
-#~ msgstr "_کاربر"
-
-#~ msgid "S_ystem"
-#~ msgstr "_سیستم"
-
-#~ msgid "N_ice"
-#~ msgstr "Nice"
-
-#~ msgid "I_OWait"
-#~ msgstr "IOWait"
-
-#~ msgid "I_dle"
-#~ msgstr "_بی‌کار"
-
-#~ msgid "Sh_ared"
-#~ msgstr "_اشتراکی"
-
-#~ msgid "_Buffers"
-#~ msgstr "_میانگیرها"
-
-#~ msgid "Cach_ed"
-#~ msgstr "_نهان‌شده"
-
-#~ msgid "F_ree"
-#~ msgstr "آ_زاد"
-
-#~ msgid "_SLIP"
-#~ msgstr "SLIP"
-
-#~ msgid "PL_IP"
-#~ msgstr "PLIP"
-
-#~ msgid "_Ethernet"
-#~ msgstr "_اترنت"
-
-#~ msgid "Othe_r"
-#~ msgstr "_دیگر"
-
-#~ msgid "_Background"
-#~ msgstr "پ_س‌زمینه"
-
-#~ msgid "_Used"
-#~ msgstr "است_فاده شده"
-
-#~ msgid "_Free"
-#~ msgstr "آ_زاد"
-
-#~ msgid "Load"
-#~ msgstr "بار"
-
-#~ msgid "_Average"
-#~ msgstr "_متوسط"
-
-#~ msgid "Harddisk"
-#~ msgstr "دیسک سخت"
-
-#~ msgid "_Read"
-#~ msgstr "_خواندن"
-
-#~ msgid "_Write"
-#~ msgstr "_نوشتن"
-
-#~ msgid "System Monitor Preferences"
-#~ msgstr "ترجیحات پایشگر دستگاه"
-
-#~ msgid "CD Player (Deprecated)"
-#~ msgstr "پخش‌کننده‌ی سی‌دی (منسوخ شده)"
-
-#~ msgid "Panel applet for playing audio CDs"
-#~ msgstr "برنامک تابلو برای پخش سی‌دی‌های صوتی"
-
-#~ msgid "Alert you when new mail arrives"
-#~ msgstr "هشدار در مواقعی که نامه‌ی جدید می‌رسد"
-
-#~ msgid "Inbox Monitor (Deprecated)"
-#~ msgstr "پایشگر نامه‌های دریافتی (منسوخ شده)"
-
-#~ msgid "Factory for deprecating applets"
-#~ msgstr "کارخانه‌ی برنامک‌های در حال منسوخ شدن"
-
-#~ msgid "Null Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک تهی"
-
-#~ msgid "Monitor the quality of a wireless network link"
-#~ msgstr "پایش کیفیت اتصال شبکه‌ای بی‌سیم"
-
-#~ msgid "Wireless Link Monitor"
-#~ msgstr "پایشگر اتصال بی‌سیم"
-
-#~ msgid "Some panel items are no longer available"
-#~ msgstr "بعضی موارد تابلو دیگر موجود نیستند"
-
-#~ msgid ""
-#~ "One or more panel items (also referred to as applets) are no longer "
-#~ "available in the MATE desktop."
-#~ msgstr ""
-#~ "یک یا چند مورد تابلو (که به آن‌ها برنامک نیز می‌گویند) دیگر در محیط رومیزی "
-#~ "گنوم موجود نیستند."
-
-#~ msgid "These items will now be removed from your configuration:"
-#~ msgstr "اکنون این موارد از پیکربندی‌تان برداشته خواهد شد:"
-
-#~ msgid "You will not receive this message again."
-#~ msgstr "شما دیگر این پیغام را دریافت نخواهید کرد."
-
-#~ msgid "Create, view, and manage sticky notes on the desktop"
-#~ msgstr "ایجاد، نمایش، و اداره‌ی یادداشت‌های چسبان روی رومیزی"
-
-#~ msgid "Sticky Notes"
-#~ msgstr "یادداشت‌های چسبان"
-
-#~ msgid "Sticky Notes Applet Factory"
-#~ msgstr "کارخانه‌ی برنامک یادداشت‌های چسبان"
-
-#~ msgid "Hi_de Notes"
-#~ msgstr "_مخفی کردن یادداشت‌ها"
-
-#~ msgid "_Delete Notes"
-#~ msgstr "_حذف یادداشت‌ها"
-
-#~ msgid "_Lock Notes"
-#~ msgstr "_قفل‌کردن یاداشت‌ها"
-
-#~ msgid "_New Note"
-#~ msgstr "یادداشت _جدید"
-
-#~ msgid "This note is locked."
-#~ msgstr "این یادداشت قفل شده است."
-
-#~ msgid "This note is unlocked."
-#~ msgstr "قفل این یادداشت باز شده است."
-
-#~ msgid "    Font C_olor:"
-#~ msgstr "    _رنگ قلم:"
-
-#~ msgid "    Font Co_lor:"
-#~ msgstr "    ر_نگ قلم:"
-
-#~ msgid "    Note C_olor:"
-#~ msgstr "    _رنگ یادداشت:"
-
-#~ msgid "    Note _Color:"
-#~ msgstr "    ر_نگ یادداشت:"
-
-#~ msgid "    _Font:"
-#~ msgstr "    _قلم:"
-
-#~ msgid "<b>Behavior</b>"
-#~ msgstr "<b>رفتار</b>"
-
-#~ msgid "<b>Default Note Properties</b>"
-#~ msgstr "<b>ویژگی‌های پیش‌فرض یادداشت</b>"
-
-#~ msgid ""
-#~ "<b>Delete all sticky notes?</b>\n"
-#~ "\n"
-#~ "This cannot be undone."
-#~ msgstr ""
-#~ "<b>حذف همه‌ی یادداشت‌های چسبان؟</b>\n"
-#~ "\n"
-#~ "این کار را نمی‌توان برگرداند."
-
-#~ msgid ""
-#~ "<b>Delete this sticky note?</b>\n"
-#~ "\n"
-#~ "This cannot be undone."
-#~ msgstr ""
-#~ "<b>این یادداشت چسبان حذف شود؟</b>\n"
-#~ "\n"
-#~ "این کار را نمی‌توان برگرداند."
-
-#~ msgid "<b>Properties</b>"
-#~ msgstr "<b>ویژگی‌ها</b>"
-
-#~ msgid "Choose a base color to use for all sticky notes"
-#~ msgstr "یک رنگ پایه‌ برای استفاده در همه‌ی یادداشت‌های چسبان انتخاب کنید"
-
-#~ msgid "Choose a color for the note"
-#~ msgstr "رنگی برای یادداشت انتخاب کنید"
-
-#~ msgid "Choose a font for the note"
-#~ msgstr "قلمی برای یادداشت انتخاب کنید"
-
-#~ msgid "Choose a font to use for all sticky notes"
-#~ msgstr "قلمی برای استفاده در همه‌ی یادداشت‌های چسبان انتخاب کنید"
-
-#~ msgid "Choose if notes are visible on all workspaces"
-#~ msgstr "انتخاب کنید که آیا یادداشت‌ها روی همه‌ی فضاهای کاری مرئی باشند"
-
-#~ msgid "Choose if the default style is forced on all notes"
-#~ msgstr "انتخاب کنید که آیا سبک پیش‌فرض بر همه‌ی یادداشت‌ها تحمیل شود"
-
-#~ msgid "Close note"
-#~ msgstr "بستن یادداشت"
-
-#~ msgid "Force _default color and font on notes"
-#~ msgstr "تحمیل رنگ و قلم _پیش‌فرض بر یادداشت‌ها"
-
-#~ msgid "H_eight:"
-#~ msgstr "_ارتفاع"
-
-#~ msgid "Lock/Unlock note"
-#~ msgstr "قفل‌کردن/باز کردن قفل یادداشت"
-
-#~ msgid "Pick a color for the sticky note"
-#~ msgstr "رنگی برای این یادداشت چسبان انتخاب کنید"
-
-#~ msgid "Pick a default sticky note color"
-#~ msgstr "رنگ پیش‌فرضی برای یادداشت‌های چسبان انتخاب کنید"
-
-#~ msgid "Pick a default sticky note font"
-#~ msgstr "قلم پیش‌فرضی برای یادداشت‌های چسبان انتخاب کنید"
-
-#~ msgid "Pick a font for the sticky note"
-#~ msgstr "قلمی برای یادداشت‌های چسبان انتخاب کنید"
-
-#~ msgid "Resize note"
-#~ msgstr "تغییر اندازه‌ی یادداشت"
-
-#~ msgid "Specify a title for the note"
-#~ msgstr "عنوانی برای یادداشت مشخص کنید"
-
-#~ msgid "Specify the default height (in pixels) of new notes"
-#~ msgstr "ارتفاع پیش‌فرض یادداشت‌های جدید (بر حسب نقطه) را مشخص کنید"
-
-#~ msgid "Specify the default width (in pixels) of new notes"
-#~ msgstr "عرض پیش‌فرض یادداشت‌های جدید (بر حسب نقطه) را مشخص کنید"
-
-#~ msgid "Sticky Note"
-#~ msgstr "یادداشت چسبان"
-
-#~ msgid "Sticky Note Properties"
-#~ msgstr "ویژگی‌های یادداشت چسبان"
-
-#~ msgid "Sticky Notes Preferences"
-#~ msgstr "ترجیحات یادداشت چسبان"
-
-#~ msgid "Use co_lor from the system theme"
-#~ msgstr "استفاده از _رنگ تم سیستم"
-
-#~ msgid "Use default co_lor"
-#~ msgstr "استفاده از _رنگ پیش‌فرض"
-
-#~ msgid "Use default fo_nt"
-#~ msgstr "استفاده از _قلم پیش‌فرض"
-
-#~ msgid "Use fo_nt from the system theme"
-#~ msgstr "استفاده از _قلم تم سیستم"
-
-#~ msgid "_Delete All"
-#~ msgstr "_حذف همه"
-
-#~ msgid "_Delete Note..."
-#~ msgstr "_حذف یادداشت..."
-
-#~ msgid "_Lock Note"
-#~ msgstr "_قفل کردن یادداشت"
-
-#~ msgid "_Put notes on all workspaces"
-#~ msgstr "_گذاشتن یادداشت روی همه‌ی فضاهای کاری"
-
-#~ msgid "_Title:"
-#~ msgstr "_عنوان:"
-
-#~ msgid "Autosave timeout in minutes"
-#~ msgstr "مدت انقضای ذخیره‌ی خودکار بر حسب دقیقه"
-
-#~ msgid ""
-#~ "By default, sticky notes are given the current date as the title when "
-#~ "they are created. This format is used; anything that can be parsed by "
-#~ "strftime() is valid."
-#~ msgstr ""
-#~ "به طور پیش‌فرض، عنوان یادداشت‌های چسبان در هنگام ایجاد شدن، تاریخ جاری است. "
-#~ "از این قالب استفاده می‌شود؛ هرچیزی که بتواند توسط strftime()‎ تجزیه شود "
-#~ "قبول است."
-
-#~ msgid "Date format of note's title"
-#~ msgstr "قالب تاریخ عنوان یادداشت"
-
-#~ msgid "Default color for font"
-#~ msgstr "رنگ پیش‌فرض قلم"
-
-#~ msgid "Default color for new notes"
-#~ msgstr "رنگ پیش‌فرض برای یادداشت‌های جدید"
-
-#~ msgid ""
-#~ "Default color for new sticky notes. This should be in html hex "
-#~ "specification, for example \"#30FF50\"."
-#~ msgstr ""
-#~ "رنگ پیش‌فرض برای یادداشت‌های چسبان جدید. باید بنا بر توصیف شانزده‌شانزدهی "
-#~ "HTML باشد، مثلاً «‎#30FF50»."
-
-#~ msgid ""
-#~ "Default font color for new sticky notes. This should be in html hex "
-#~ "specification, for example \"#000000\"."
-#~ msgstr ""
-#~ "رنگ پیش‌فرض قلم برای یادداشت‌های چسبان جدید. باید بنا بر توصیف "
-#~ "شانزده‌شانزدهی HTML باشد، مثلاً «‎#000000»."
-
-#~ msgid "Default font for new notes"
-#~ msgstr "قلم پیش‌فرض برای یادداشت‌های جدید"
-
-#~ msgid ""
-#~ "Default font for new sticky notes. This should be a Pango Font Name, for "
-#~ "example \"Sans Italic 10\""
-#~ msgstr ""
-#~ "قلم پیش‌فرض برای یادداشت‌های چسبان جدید. باید یک نام قلم پنگویی (Pango) "
-#~ "باشد، مثلاً «Sans Italic 10»"
-
-#~ msgid "Default height for new notes"
-#~ msgstr "ارتفاع پیش‌فرض برای یادداشت‌های جدید"
-
-#~ msgid "Default height for new sticky notes in pixels."
-#~ msgstr "ارتفاع پیش‌فرض برای یادداشت‌های چسبان جدید بر حسب نقطه."
-
-#~ msgid "Default width for new notes"
-#~ msgstr "عرض پیش‌فرض برای یادداشت‌های جدید"
-
-#~ msgid "Default width for new sticky notes in pixels."
-#~ msgstr "عرض پیش‌فرض برای یادداشت‌های چسبان  بر حسب نقطه"
-
-#~ msgid "Empty notes are always deleted without confirmation"
-#~ msgstr "یادداشت‌های خالی همیشه بدون تصدیق گرفتن پاک می‌شوند"
-
-#~ msgid ""
-#~ "Every time the specified number of minutes pass, the sticky notes are "
-#~ "automatically saved."
-#~ msgstr ""
-#~ "هر بار پس از گذشتن تعداد دقایق مشخص شده، یادداشت‌های چسبان به طور خودکار "
-#~ "ذخیره می‌شوند."
-
-#~ msgid ""
-#~ "If this option is disabled, a custom color can be used as the default "
-#~ "color for all sticky notes."
-#~ msgstr ""
-#~ "اگر این گزینه از کار انداخته شود، می‌توان از یک رنگ سفارشی به‌ عنوان رنگ "
-#~ "پیش‌فرض همه‌ی یادداشت‌های چسبان استفاده کرد."
-
-#~ msgid ""
-#~ "If this option is disabled, a custom font can be used as the default font "
-#~ "for all sticky notes."
-#~ msgstr ""
-#~ "اگر این گزینه از کار انداخته شود، می‌توان از یک قلم سفارشی به عنوان قلم "
-#~ "پیش‌فرض همه‌ی یادداشت‌های چسبان استفاده کرد."
-
-#~ msgid ""
-#~ "If this option is enabled, the custom colors and fonts that have been "
-#~ "assigned to individual notes will be ignored."
-#~ msgstr ""
-#~ "اگر این گزینه به کار انادخته شود، رنگ‌ها و قلم‌های سفارشی‌ای که برای "
-#~ "یادداشت‌های جداگانه تعیین شده‌اند، نادیده گرفته می‌شوند."
-
-#~ msgid "Specifies whether the sticky notes are locked (non-editable) or not."
-#~ msgstr ""
-#~ "مشخص می‌کند که آیا یادداشت‌های چسبان قفل شده (ویرایش نشدنی) هستند یا نه."
-
-#~ msgid ""
-#~ "Specifies whether the sticky notes are visible on ALL workspaces on the "
-#~ "desktop, or not."
-#~ msgstr ""
-#~ "مشخص می‌کند که آیا یادداشت‌های چسبان روی «همه‌ی» فضاهای کاری رومیزی مرئی "
-#~ "باشند یا نه."
-
-#~ msgid "Sticky notes' locked state"
-#~ msgstr "وضعیت قفل شدن یادداشت‌های چسبان"
-
-#~ msgid "Sticky notes' workspace stickyness"
-#~ msgstr "چسبندگی یادداشت‌های چسبان به فضای کاری"
-
-#~ msgid "Whether to ask for confirmation when deleting a note"
-#~ msgstr "این که موقع حذف کردن یادداشت‌ها تأیید خواسته شود یا نه"
-
-#~ msgid "Whether to force the default color and font on all notes"
-#~ msgstr "این که رنگ و قلم پیش‌فرض بر همه‌ی یادداشت‌ها تحمیل شود یا نه"
-
-#~ msgid "Whether to use the default system color"
-#~ msgstr "این که از رنگ پیش‌فرض سیستم استفاده شود یا نه"
-
-#~ msgid "Whether to use the default system font"
-#~ msgstr "این که از قلم پیش‌فرض سیستم استفاده شود یا نه"
-
-#~ msgid "%d note"
-#~ msgid_plural "%d notes"
-#~ msgstr[0] "%Id یادداشت"
-
-#~ msgid "Show sticky notes"
-#~ msgstr "نشان دادن یادداشت‌های چسبان"
-
-#~ msgid "Sticky Notes for the MATE Desktop Environment"
-#~ msgstr "یادداشت‌های چسبان برای محیط رومیزی گنوم"
-
-#~ msgid "Go to Trash"
-#~ msgstr "رفتن به زباله‌دان"
-
-#~ msgid "Trash"
-#~ msgstr "زباله‌دان"
-
-#~ msgid "_Empty Trash"
-#~ msgstr "_خالی کردن زباله‌دان"
-
-#~ msgid "_Open"
-#~ msgstr "_باز کردن"
-
-#~ msgid "Unable to find the Trash directory: %s"
-#~ msgstr "شاخه‌ی زباله یافته نشد: %s"
-
-#~ msgid "No Items in Trash"
-#~ msgstr "هیچ موردی در زباله‌دان نیست"
-
-#~ msgid "%d Item in Trash"
-#~ msgid_plural "%d Items in Trash"
-#~ msgstr[0] "%Id مورد در زباله‌دان"
-
-#~ msgid "Removing item %s of %s"
-#~ msgstr "در حال حذف مورد %s از %s"
-
-#~ msgid "<i>Removing: %s</i>"
-#~ msgstr "<i>در حال حذف: %s</i>"
-
-#~ msgid "Empty all of the items from the trash?"
-#~ msgstr "همه‌ی موارد زباله‌دان خالی شود؟"
-
-#~ msgid ""
-#~ "If you choose to empty the trash, all items in it will be permanently "
-#~ "lost. Please note that you can also delete them separately."
-#~ msgstr ""
-#~ "اگر تصمیم بگیرید که زباله‌دان را خالی کنید، همه‌ی موارد داخل آن برای همیشه "
-#~ "از دست خواهند رفت. لطفاً توجه کنید که می‌توانید هر وقت که بخواهید آنها را "
-#~ "تک تک حذف کنید."
-
-#~ msgid ""
-#~ "Error while spawning Caja:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "خطا در به وجود آوردن ناتیلوس:\n"
-#~ "%s"
-
-#~ msgid "Trash Applet"
-#~ msgstr "برنامک زباله‌دان"
-
-#~ msgid ""
-#~ "A MATE trash bin that lives in your panel. You can use it to view the "
-#~ "trash or drag and drop items into the trash."
-#~ msgstr ""
-#~ "سطل زباله‌ای که در تابلوتان زندگی می‌کند. شما می‌توانید از آن برای نمایش "
-#~ "زباله یا کشیدن و رها کردن موارد به زباله‌دان استفاده کنید."
-
-#~ msgid "Delete Immediately?"
-#~ msgstr "بلافاصله حذف شود؟"
-
-#~ msgid "Cannot move items to trash, do you want to delete them immediately?"
-#~ msgstr ""
-#~ "نمی‌توان موارد را به زباله‌دان انداخت، آیا می‌خواهید بلافاصله حذفشان کنید؟"
-
-#~ msgid ""
-#~ "Cannot move some items to trash, do you want to delete these immediately?"
-#~ msgstr ""
-#~ "نمی‌توان بعضی از موارد را به زباله‌دان انداخت، آیا می‌خواهید این‌ها را "
-#~ "بلافاصله حذف کنید؟"
-
-#~ msgid ""
-#~ "Unable to move to trash:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "انداختن به زباله‌دان ممکن نیست:\n"
-#~ "%s"
-
-#~ msgid "<b>From:</b>"
-#~ msgstr "<b>از:</b>"
-
-#~ msgid "<big><b>Emptying the Trash</b></big>"
-#~ msgstr "<big><b>در حال خالی کردن زباله‌دان</b></big>"
-
-#~ msgid "Emptying the Trash"
-#~ msgstr "در حال خالی کردن زباله‌دان"
-
-#~ msgid "_Show in mode:"
-#~ msgstr "_نمایش در حالت:"
-
-#~ msgid "translator_credits"
-#~ msgstr ""
-#~ "روزبه پورنادر <roozbeh@farsiweb.info>‏\n"
-#~ "میلاد زکریا <meelad@farsiweb.info>"
-
-#~ msgid "MATE keyboard applet factory"
-#~ msgstr "کارخانه‌ی برنامک صفحه‌کلید گنوم"
-
-#~ msgid "A MATE/GStreamer-based volume control applet"
-#~ msgstr "یک برنامک کنترل حجم صدای مبتنی بر گنوم/GStreamer"
-
-#~ msgid "Copyright (C) 2003 Sun Microsystems"
-#~ msgstr "Copyright © 2003 Sun Microsystems"
-
-#~ msgid "_Suspend Computer..."
-#~ msgstr "_معلق کردن رایانه..."
-
-#~ msgid "Command to send to suspend the computer"
-#~ msgstr "دستوری که برای معلق کردن رایانه فرستاده شود"
-
-#~ msgid "Show battery status"
-#~ msgstr "نشان دادن وضعیت باتری"
-
-#~ msgid "Suspend Command"
-#~ msgstr "فرمان تعلیق"
-
-#~ msgid "The battery level below which the battery is displayed as red."
-#~ msgstr "سطحی از باتری که پایین‌تر از آن باتری قرمز نمایش داده می‌شود."
-
-#~ msgid "The battery level below which the battery is displayed as yellow."
-#~ msgstr "سطحی از باتری که پایین‌تر از آن باتری زرد نمایش داده می‌شود."
-
-#~ msgid ""
-#~ "To avoid losing work please power off, suspend or plug your laptop in."
-#~ msgstr ""
-#~ "برای این که کارتان از دست نرود، لطفاً کامپیوتر کیفی‌تان را خاموش یا معلق "
-#~ "کنید یا آن را به برق وصل کنید."
-
-#~ msgid ""
-#~ "An error occured while launching the Suspend command: %s\n"
-#~ "Please try to correct this error"
-#~ msgstr ""
-#~ "هنگام راه‌انداختن فرمان معلق کردن خطایی پیش آمد: %s\n"
-#~ "لطفاً سعی کنید این خطا را برطرف کنید"
-
-#~ msgid "The Suspend command '%s' was unsuccessful."
-#~ msgstr "فرمان معلق کردن «%s» ناموفق بود."
-
-#~ msgid "The Suspend command was unsuccessful."
-#~ msgstr "دستور تعلیق ناموفق بود."
-
-#~ msgid ""
-#~ "Suspend command wasn't setup correctly in the preferences.\n"
-#~ "Please change the preferences and try again."
-#~ msgstr ""
-#~ "فرمان معلق کردن در ترجیحات درست تنظیم نشده است.\n"
-#~ "لطفاً ترجیحات را تغییر داده و دوباره امتحان کنید."
-
-#~ msgid "Jorgen Pehrson <jp@spektr.eu.org>"
-#~ msgstr "یورگن پِرسون <jp@spektr.eu.org>"
-
-#~ msgid "<b>Suspend</b>"
-#~ msgstr "<b>معلق کردن</b>"
-
-#~ msgid "S_uspend command:"
-#~ msgstr "فرمان _تعلیق:"
-
-#~ msgid "Show _battery status"
-#~ msgstr "نمایش وضعیت _باتری"
-
-#~ msgid "Show power _connection status"
-#~ msgstr "نمایش وضعیت _اتصال برق"
-
-#~ msgid "Utility"
-#~ msgstr "برنامه"
-
-#~ msgid "Mode to show when show_mode is text or both"
-#~ msgstr "حالتی که وقتی show_mode متنی یا هردو است نشان داده می‌شود"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Cannot execute '%s'</span>\n"
-#~ "%s"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">نمی‌توان «%s» را اجرا کرد</span>\n"
-#~ "%s"
-
-#~ msgid "Copyright (C) 1999 Dave Camp"
-#~ msgstr "Copyright © 1999 Dave Camp"
-
-#~ msgid "Choose the default group (for newly created windows)."
-#~ msgstr "انتخاب گروه پیش‌فرض (برای پنجره‌های تازه ایجاد شده)."
-
-#~ msgid "Keep separate group for each application window."
-#~ msgstr "برای هر پنجره‌ی برنامه‌ها گروه جداگانه‌ای نگهداری شود."
-
-#~ msgid "Keep the state of indicators separately for each application window."
-#~ msgstr "وضعیت نشانه‌ها برای هر پنجره‌ی برنامه‌ها جداگانه نگهداری شود."
-
-#~ msgid "Keyboard Indicator Preferences"
-#~ msgstr "ترجیحات نشانه‌ی صفحه‌کلید"
-
-#~ msgid "Save/restore _indicators with group"
-#~ msgstr "ذخیره/بازیابی _نشانه‌ها با گروه"
-
-#~ msgid "Separate _group for each window"
-#~ msgstr "_گروه جداگانه برای هر پنجره"
-
-#~ msgid "Show national flags as indicators of corresponding layouts"
-#~ msgstr "نمایش پرچم کشورها به‌عنوان نشانه‌ی چیدمان‌های متناظر"
-
-#~ msgid "Use _flags as indicators"
-#~ msgstr "استفاده از _پرچم به عنوان نشانه"
-
-#~ msgid "_Default group:"
-#~ msgstr "گروه _پیش‌فرض:"
-
-#~ msgid "No volume control elements and/or devices found."
-#~ msgstr "هیچ عنصر و/یا دستگاهی برای کنترل بلندی صدا پیدا نشد."
-
-#~ msgid "Modem monitor"
-#~ msgstr "پایشگر مودم"
-
-#~ msgid "Resource"
-#~ msgstr "منبع"
-
-#~ msgid "Specifies whether the sticky notes are visible or not."
-#~ msgstr "مشخص می‌کند که آیا یادداشت‌های چسبان مرئی باشند یا نه."
-
-#~ msgid "Sticky notes' visibility"
-#~ msgstr "مرئی‌بودن یادداشت‌های چسبان"
-
-#~ msgid "_Show Notes"
-#~ msgstr "_نمایش یادداشت‌ها"
-
-#~ msgid "_Empty"
-#~ msgstr "_خالی کردن"
-
-#~ msgid "High"
-#~ msgstr "زیاد"
-
-#~ msgid "Low"
-#~ msgstr "کم"
-
-#~ msgid "Critical"
-#~ msgstr "بحرانی"
-
-#~ msgid "Charging"
-#~ msgstr "در حال پر شدن"
-
-#~ msgid "(C) 2000 The Gnulix Society, (C) 2002 Free Software Foundation"
-#~ msgstr "© 2000 The Gnulix Society, © 2002 Free Software Foundation"
-
-#~ msgid "100%"
-#~ msgstr "٪۱۰۰"
-
-#~ msgid "_Orange:"
-#~ msgstr "نارنجی:"
-
-#, fuzzy
-#~ msgid "_Preview:"
-#~ msgstr "پیش‌نمایش:"
-
-#, fuzzy
-#~ msgid "_Yellow:"
-#~ msgstr "زرد:"
-
-#~ msgid "Multimedia"
-#~ msgstr "چندرسانه‌ای"
-
-#~ msgid "Stop"
-#~ msgstr "توقف"
-
-#, fuzzy
-#~ msgid "Device _path:"
-#~ msgstr "مسیر دستگاه:"
-
-#~ msgid "Device Path"
-#~ msgstr "مسیر دستگاه"
-
-#~ msgid ""
-#~ "(C) 1997 The Free Software Foundation\n"
-#~ "(C) 2001 Chris Phelps (MATE 2 Port)"
-#~ msgstr ""
-#~ "© 1997 The Free Software Foundation\n"
-#~ "© 2001 Chris Phelps (MATE 2 Port)"
-
-#~ msgid "Copyright (C) 1998"
-#~ msgstr "Copyright © 1998"
-
-#~ msgid "(C) 1999-2001 The MATE Hackers\n"
-#~ msgstr "© 1999-2001 The MATE Hackers\n"
-
-#, fuzzy
-#~ msgid "seconds"
-#~ msgstr "میلی‌ثانیه"
-
-#~ msgid "GKB Factory"
-#~ msgstr "کارخانه‌ی GKB"
-
-#, fuzzy
-#~ msgid "France"
-#~ msgstr "نارنجی:"
-
-#, fuzzy
-#~ msgid "Norway"
-#~ msgstr "عادی"
-
-#, fuzzy
-#~ msgid "Romanian"
-#~ msgstr "باران"
-
-#, fuzzy
-#~ msgid "Spain"
-#~ msgstr "باران"
-
-#, fuzzy
-#~ msgid "Comoros"
-#~ msgstr "رنگ‌ها"
-
-#, fuzzy
-#~ msgid "Croatia"
-#~ msgstr "بحرانی"
-
-#, fuzzy
-#~ msgid "Croatian"
-#~ msgstr "بحرانی"
-
-#, fuzzy
-#~ msgid "Lao"
-#~ msgstr "کم"
-
-#, fuzzy
-#~ msgid "Serbian"
-#~ msgstr "عمومی"
-
-#, fuzzy
-#~ msgid "Somalia"
-#~ msgstr "عادی"
-
-#~ msgid "(C) 1998-2000 Free Software Foundation"
-#~ msgstr "© 1998-2000 Free Software Foundation"
-
-#~ msgid "GKB"
-#~ msgstr "GKB"
-
-#~ msgid "_Name:"
-#~ msgstr "نام:"
-
-#, fuzzy
-#~ msgid "_Flag:"
-#~ msgstr "پرچم"
-
-#~ msgid "Flag"
-#~ msgstr "پرچم"
-
-#, fuzzy
-#~ msgid "_Keyboards:"
-#~ msgstr "ویرایش صفحه‌کلید"
-
-#~ msgid "Debug level"
-#~ msgstr "سطح اشکال‌زدایی"
-
-#, fuzzy
-#~ msgid "No mail."
-#~ msgstr "عادی"
-
-#, fuzzy
-#~ msgid "_Username:"
-#~ msgstr "کاربر"
-
-#, fuzzy
-#~ msgid "Commands"
-#~ msgstr "دستور:"
-
-#, fuzzy
-#~ msgid "Text only"
-#~ msgstr "متن"
-
-#, fuzzy
-#~ msgid "Radio"
-#~ msgstr "باران"
-
-#, fuzzy
-#~ msgid "_Foreground:"
-#~ msgstr "پیش‌زمینه"
-
-#, fuzzy
-#~ msgid "Foregroun_d:"
-#~ msgstr "پیش‌زمینه"
-
-#, fuzzy
-#~ msgid "Backg_round:"
-#~ msgstr "پس‌زمینه"
-
-#, fuzzy
-#~ msgid "For_eground:"
-#~ msgstr "پیش‌زمینه"
-
-#, fuzzy
-#~ msgid "Bac_kground:"
-#~ msgstr "پس‌زمینه"
-
-#~ msgid "_Device:"
-#~ msgstr "دستگاه:"
-
-#~ msgid "Advanced"
-#~ msgstr "پیش‌رفته"
-
-#~ msgid "(C) 2001, 2002 Free Software Foundation "
-#~ msgstr "© 2001, 2002 Free Software Foundation "
-
-#~ msgid "Show"
-#~ msgstr "نمایش"
-
-#~ msgid "_Theme Name:"
-#~ msgstr "نام تم:"
-
-#~ msgid "Big"
-#~ msgstr "بزرگ"
-
-#~ msgid "minute(s)"
-#~ msgstr "دقیقه"
-
-#, fuzzy
-#~ msgid "Windy"
-#~ msgstr "باد:"
-
-#, fuzzy
-#~ msgid "Nothing"
-#~ msgstr "شمال"
-
-#~ msgid "- Colo_r:"
-#~ msgstr "- رنگ:"
-
-#~ msgid "Thick mist"
-#~ msgstr "مه غلیظ"
-
-#~ msgid "Applications"
-#~ msgstr "برنامه‌ها"
-
-#~ msgid "Home"
-#~ msgstr "خانه"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "KDE Menus"
-#~ msgstr "منوهای KDE"
-
-#~ msgid "Programs"
-#~ msgstr "برنامه‌ها"
-
-#~ msgid "KDE"
-#~ msgstr "KDE"
-
-#~ msgid "_Windows Menu"
-#~ msgstr "منوی پنجره‌ها"
-
-#~ msgid "(c) 2001 Chris Phelps"
-#~ msgstr "© 2001 Chris Phelps"
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "نمی‌توان MateComponent را راه‌اندازی کرد"
-
-#, fuzzy
-#~ msgid "Configure keyboard layouts"
-#~ msgstr "مدل صفحه‌کلید:"
-
-#~ msgid "Choose the model of the keyboard (brand, number of keys, etc.)."
-#~ msgstr "انتخاب مدل صفحه‌کلید (مارک، تعداد کلیدها، وغیره)."
-
-#~ msgid "Clear"
-#~ msgstr "پاک کردن"
-
-#~ msgid "Clear."
-#~ msgstr "پاک کردن."
-
-#~ msgid "Keyboard _model:"
-#~ msgstr "مدل صفحه‌کلید:"
-
-#~ msgid "Options 1"
-#~ msgstr "گزینه‌های ۱"
-
-#~ msgid "Options 2"
-#~ msgstr "گزینه‌های ۲"
-
-#, fuzzy
-#~ msgid ""
-#~ "This version of XFree86 does not support multiple layouts, so only one "
-#~ "layout can be choosen."
-#~ msgstr "."
-
-#, fuzzy
-#~ msgid "_Preview"
-#~ msgstr "پیش‌نمایش"
-
-#~ msgid "Default XKB setting"
-#~ msgstr "تنظیمات پیش‌فرض XKB"
-
-#~ msgid "Right Control"
-#~ msgstr "کنترل راست"
-
-#~ msgid "Left Control"
-#~ msgstr "کنترل چپ"
-
-#~ msgid "Right Shift"
-#~ msgstr "شیفت راست"
-
-#~ msgid "Left Shift"
-#~ msgstr "شیفت چپ"
-
-#~ msgid "XKB keyboard model"
-#~ msgstr "مدل صفحه‌کلید XKB"
-
-#~ msgid "XKB options"
-#~ msgstr "گزینه‌های XKB"
-
-#~ msgid "Enable _beep"
-#~ msgstr "به کار انداختن بوق"
-
-#~ msgid "Secondary"
-#~ msgstr "ثانویه"
-
-#~ msgid "XKB Properties"
-#~ msgstr "مشخصه‌های XKB"
-
-#~ msgid "XKB settings: "
-#~ msgstr "تنظیمات XKB:"
-
-#~ msgid "General XKB Properties"
-#~ msgstr "مشخصه‌های عمومی XKB"
-
-#~ msgid "Zoom"
-#~ msgstr "زوم"
-
-#~ msgid "Zoom in."
-#~ msgstr "زوم به داخل."
-
-#~ msgid "Zoom out."
-#~ msgstr "زوم به خارج."
-
-#~ msgid "Zoom to default."
-#~ msgstr "زوم به پیش‌فرض."

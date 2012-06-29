@@ -1,25 +1,27 @@
-# Catalan translation of libmateweather.
-# Copyright © 1999-2008 The Free Software Foundation, Inc.
-# This file is copyrighted under the same license as the mate-applets package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Ivan Vilata i Balaguer <ivan@selidor.net>, 1999, 2000.
-# Softcatalà <info@softcatala.org>, 2000.
+# Joan Duran <jodufi@gmail.com>, 2008, 2009.
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005.
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2005, 2006.
-# Xavier Conde Rueda <xavi.conde@gmail.com>, 2006
-# Joan Duran <jodufi@gmail.com>, 2008, 2009.
-#
+# Softcatalà <info@softcatala.org>, 2000.
+# Xavier Conde Rueda <xavi.conde@gmail.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-21 23:01+0200\n"
-"PO-Revision-Date: 2009-09-13 23:31+0200\n"
-"Last-Translator: Joan Duran <jodufi@gmail.com>\n"
-"Language-Team: Catalan <tradmate@softcatala.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:14+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"Language: ca@valencia\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -31,8 +33,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "Barcelona"
@@ -47,8 +50,9 @@ msgstr "Barcelona"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "LEBL"
@@ -63,8 +67,9 @@ msgstr "LEBL"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "DEFAULT_ZONE"
@@ -80,8 +85,9 @@ msgstr "DEFAULT_ZONE"
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr " "
@@ -97,14 +103,17 @@ msgstr " "
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "41.383333 2.183333"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "Per defecte"
 
@@ -148,13 +157,11 @@ msgstr "nusos"
 msgid "Beaufort scale"
 msgstr "Escala de Beaufort"
 
-# kilopascals. jm
 #. translators: kilopascals
 #: ../libmateweather/mateweather-prefs.c:62
 msgid "kPa"
 msgstr "kPa"
 
-# hectapascals. jm
 #. translators: hectopascals
 #: ../libmateweather/mateweather-prefs.c:64
 msgid "hPa"
@@ -170,7 +177,6 @@ msgstr "mb"
 msgid "mmHg"
 msgstr "mmHg"
 
-# No estic segur... poHg, de "polzades"? jm
 #. translators: inches of mercury
 #: ../libmateweather/mateweather-prefs.c:70
 msgid "inHg"
@@ -198,14 +204,16 @@ msgstr "mi"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "km/h"
 
@@ -213,13 +221,15 @@ msgstr "km/h"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "hPa"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "m"
 
@@ -231,25 +241,19 @@ msgstr "Hora mitja de Greenwich"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"Un codi de tres xifres per a obtindre mapes de radar de weather.com, com "
-"apareix a http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "Un codi de tres xifres per a obtindre mapes de radar de weather.com, com apareix a http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"Una zona única per a la ciutat, com apareix a http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "Una zona única per a la ciutat, com apareix a http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr ""
-"Determina si la miniaplicació actualitza automàticament les estadístiques de "
-"l'oratge o no."
+msgstr "Determina si la miniaplicació actualitza automàticament les estadístiques de l'oratge o no."
 
 #: ../libmateweather/mateweather.schemas.in.h:9
 msgid "Display radar map"
@@ -265,19 +269,15 @@ msgstr "Obté un mapa del radar en cada actualització."
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"Si és cert, obtingues un mapa del radar d'una ubicació especificada en la "
-"clau «radar»."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "Si és cert, obtingues un mapa del radar d'una ubicació especificada en la clau «radar»."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"Latitud i longitud de la vostra ubicació expressada en DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "Latitud i longitud de la vostra ubicació expressada en DD-MM-SS[NS] DD-MM-SS[EW]."
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -289,11 +289,9 @@ msgstr "Ciutat més propera"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"La zona propera més important, per exemple una capital de ciutat, com "
-"apareix a http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -600,7 +598,6 @@ msgstr "Volves de neu fortes"
 msgid "Ice crystals"
 msgstr "Cristalls de gel"
 
-# Que collons és açò? jm
 #. ICE_PELLETS
 #: ../libmateweather/weather.c:298
 msgid "Ice pellets"
@@ -764,7 +761,6 @@ msgstr "Tempesta de pols a les rodalies"
 msgid "Heavy duststorm"
 msgstr "Tempesta de pols forta"
 
-# Gens segur de que siga "remolí". jm
 #. FUNNEL_CLOUD
 #: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
@@ -786,7 +782,7 @@ msgstr "Remolins de pols a les rodalies"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
+#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%A, %d de %B / %H:%M"
@@ -805,25 +801,29 @@ msgstr "Hora d'observació desconeguda"
 msgid "Unknown"
 msgstr "Desconegut"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
@@ -873,7 +873,7 @@ msgstr "%1.f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
+#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
@@ -889,7 +889,6 @@ msgstr "Calma"
 msgid "%s / %s"
 msgstr "%s / %s"
 
-# No estic segur... poHg, de "polzades"? jm
 #. TRANSLATOR: This is pressure in inches of mercury
 #: ../libmateweather/weather.c:961
 #, c-format
@@ -951,15 +950,3 @@ msgstr "%H:%M"
 #: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "Ha fallat la recepció"
-
-#~ msgid "%.1f ℉"
-#~ msgstr "%.1f ℉"
-
-#~ msgid "%d ℉"
-#~ msgstr "%d ℉"
-
-#~ msgid "%.1f ℃"
-#~ msgstr "%.1f ℃"
-
-#~ msgid "%d ℃"
-#~ msgstr "%d ℃"

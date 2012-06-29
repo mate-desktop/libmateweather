@@ -1,27 +1,28 @@
-# Hungarian translation of libmateweather
-# Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmateweather package.
-#
-# Szabolcs Ban <shooby dot mate dot hu>, 1999, 2000, 2001, 2002, 2003.
-# Emese Kovacs <emese dot mate dot hu>, 2000, 2001, 2002.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Andras Timar <timar dot mate dot hu>, 2001, 2002, 2003.
+# Emese Kovacs <emese dot mate dot hu>, 2000, 2001, 2002.
+# Gabor Kelemen <kelemeng at mate dot hu>, 2004, 2005, 2006, 2007, 2008, 2009.
 # Gabor Sari <saga dot mate dot hu>, 2003.
 # Laszlo Dvornik <dvornik dot mate dot hu>, 2004.
-# Gabor Kelemen <kelemeng at mate dot hu>, 2004, 2005, 2006, 2007, 2008, 2009.
 # Mate ORY <orymate at gmail d0t com>, 2006.
+# Szabolcs Ban <shooby dot mate dot hu>, 1999, 2000, 2001, 2002, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-10 01:45+0200\n"
-"PO-Revision-Date: 2009-09-10 01:40+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng at mate dot hu>\n"
-"Language-Team: Hungarian <mate at fsf dot hu>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:19+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -33,8 +34,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "Budapest"
@@ -49,8 +51,9 @@ msgstr "Budapest"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "LHBP"
@@ -65,8 +68,9 @@ msgstr "LHBP"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "------"
@@ -82,8 +86,9 @@ msgstr "------"
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr "---"
@@ -99,14 +104,17 @@ msgstr "---"
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "47-26N 019-16E"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "Alapértelmezett"
 
@@ -197,14 +205,16 @@ msgstr "mé"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "km/h"
 
@@ -212,13 +222,15 @@ msgstr "km/h"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "hPa"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "km"
 
@@ -230,25 +242,19 @@ msgstr "Greenwich-i középidő"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"Háromjegyű kód a radartérképek letöltéséhez a weather.com-ról, lásd: http://"
-"git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "Háromjegyű kód a radartérképek letöltéséhez a weather.com-ról, lásd: http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"A város egyedi zónája, lásd: http://git.gnome.org/cgit/libmateweather/plain/"
-"data/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "A város egyedi zónája, lásd: http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr ""
-"Eldönti, hogy a kisalkalmazás automatikusan frissítse-e az időjárás-"
-"statisztikáit vagy sem."
+msgstr "Eldönti, hogy a kisalkalmazás automatikusan frissítse-e az időjárás-statisztikáit vagy sem."
 
 #: ../libmateweather/mateweather.schemas.in.h:9
 msgid "Display radar map"
@@ -264,19 +270,15 @@ msgstr "Radarkép lehívása minden frissítéskor."
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"Ha be van állítva, a „radar” kulcs által megadott helyről lehívja a "
-"radarképet."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "Ha be van állítva, a „radar” kulcs által megadott helyről lehívja a radarképet."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"Az Ön helyéhez használandó szélesség és hosszúság FF-PP-MM[ÉD] FF-PP-MM[KNy] "
-"alakban kifejezve. "
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "Az Ön helyéhez használandó szélesség és hosszúság FF-PP-MM[ÉD] FF-PP-MM[KNy] alakban kifejezve. "
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -288,11 +290,9 @@ msgstr "Közeli város"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"Közeli nagy zóna, például főváros. Lásd: http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -397,96 +397,96 @@ msgstr "Nem sikerült lekérni a METAR adatokat: %d %s.\n"
 msgid "WeatherInfo missing location"
 msgstr "Hiányzó időjárási információ a megfigyelési helyen"
 
-#: ../libmateweather/weather.c:230
+#: ../libmateweather/weather.c:232
 msgid "Variable"
 msgstr "Változó"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North"
 msgstr "Észak"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
 msgstr "Észak - északkelet"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "Northeast"
 msgstr "Északkelet"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
 msgstr "Kelet - északkelet"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East"
 msgstr "Kelet"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East - Southeast"
 msgstr "Kelet - délkelet"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "Southeast"
 msgstr "Délkelet"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "South - Southeast"
 msgstr "Dél - délkelet"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South"
 msgstr "Dél"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South - Southwest"
 msgstr "Dél - délnyugat"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "Southwest"
 msgstr "Délnyugat"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "West - Southwest"
 msgstr "Nyugat - délnyugat"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West"
 msgstr "Nyugat"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West - Northwest"
 msgstr "Nyugat - északnyugat"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "Northwest"
 msgstr "Északnyugat"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "Észak - északnyugat"
 
-#: ../libmateweather/weather.c:241 ../libmateweather/weather.c:258
-#: ../libmateweather/weather.c:330
+#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:332
 msgid "Invalid"
 msgstr "Érvénytelen"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:249
 msgid "Clear Sky"
 msgstr "Tiszta ég"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:250
 msgid "Broken clouds"
 msgstr "Szakadozott felhőzet"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
 msgstr "Elszórtan felhős"
 
-#: ../libmateweather/weather.c:250
+#: ../libmateweather/weather.c:252
 msgid "Few clouds"
 msgstr "Kevés felhő"
 
-#: ../libmateweather/weather.c:251
+#: ../libmateweather/weather.c:253
 msgid "Overcast"
 msgstr "Borús"
 
@@ -494,456 +494,460 @@ msgstr "Borús"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:290 ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
 msgstr "Zivatar"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Drizzle"
 msgstr "Szitáló eső"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Light drizzle"
 msgstr "Gyenge szitálás"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
 msgstr "Mérsékelt szitálás"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
 msgstr "Erős szitálás"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
 msgstr "Jeges szitálás"
 
 #. RAIN
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain"
 msgstr "Eső"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Light rain"
 msgstr "Csendes eső"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Moderate rain"
 msgstr "Mérsékelt esőzés"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Heavy rain"
 msgstr "Heves esőzés"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain showers"
 msgstr "Záporok"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Freezing rain"
 msgstr "Fagyos eső"
 
 #. SNOW
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow"
 msgstr "Havazás"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Light snow"
 msgstr "Hószállingózás"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Moderate snow"
 msgstr "Hóesés"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Heavy snow"
 msgstr "Hószakadás"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snowstorm"
 msgstr "Hóvihar"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
 msgstr "Szeles hóesés"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow showers"
 msgstr "Zuhogó hó"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Drifting snow"
 msgstr "Hófúvás"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Snow grains"
 msgstr "Havazás"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Light snow grains"
 msgstr "Enyhe havazás"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
 msgstr "Mérsékelt havazás"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
 msgstr "Sűrű hóesés"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:295
+#: ../libmateweather/weather.c:297
 msgid "Ice crystals"
 msgstr "Jég"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellets"
 msgstr "Jégdara"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
 msgstr "Enyhe jégdarahullás"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
 msgstr "Mérsékelt jégdarahullás"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
 msgstr "Heves jégdarahullás"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
 msgstr "Jégdaravihar"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
 msgstr "Zuhogó jégdara"
 
 #. HAIL
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail"
 msgstr "Jégeső"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hailstorm"
 msgstr "Vihar jégesővel"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail showers"
 msgstr "Zuhogó jégeső"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hail"
 msgstr "Kis szemű jégeső"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
 msgstr "Viharos kis szemű jégeső"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
 msgstr "Zuhogó kis szemű jégeső"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:299
+#: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
 msgstr "Ismeretlen csapadék"
 
 #. MIST
-#: ../libmateweather/weather.c:300
+#: ../libmateweather/weather.c:302
 msgid "Mist"
 msgstr "Pára"
 
 #. FOG
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog"
 msgstr "Köd"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
 msgstr "Köd a környéken"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Shallow fog"
 msgstr "Ködfoltok"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Patches of fog"
 msgstr "Helyenként köd"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Partial fog"
 msgstr "Szórványos ködfoltok"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Freezing fog"
 msgstr "Jeges köd"
 
 #. SMOKE
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:304
 msgid "Smoke"
 msgstr "Füst"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
 msgstr "Vulkanikus hamu"
 
 #. SAND
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Sand"
 msgstr "Homok"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Blowing sand"
 msgstr "Homokfúvás"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Drifting sand"
 msgstr "Erős homokfúvás"
 
 #. HAZE
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:307
 msgid "Haze"
 msgstr "Száraz légköri homály"
 
 #. SPRAY
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
 msgstr "Szélfútta sópermet"
 
 #. DUST
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Dust"
 msgstr "Por"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Blowing dust"
 msgstr "Porfúvás"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Drifting dust"
 msgstr "Erős porfúvás"
 
 #. SQUALL
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:310
 msgid "Squall"
 msgstr "Széllökés"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm"
 msgstr "Homokvihar"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
 msgstr "Homokvihar a környéken"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
 msgstr "Erőteljes homokvihar"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm"
 msgstr "Porvihar"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
 msgstr "Porvihar a környéken"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
 msgstr "Erős porvihar"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
 msgstr "Tölcsérfelhő"
 
 #. TORNADO
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:314
 msgid "Tornado"
 msgstr "Tornádó"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls"
 msgstr "Portölcsérek"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
 msgstr "Poros forgószél a közelben"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
-#: ../libmateweather/weather.c:703
+#. 
+#: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%b. %e., %a. / %H.%M"
 
-#: ../libmateweather/weather.c:718
+#: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
 msgstr "Ismeretlen észlelési idő"
 
-#: ../libmateweather/weather.c:732 ../libmateweather/weather.c:783
-#: ../libmateweather/weather.c:797 ../libmateweather/weather.c:810
-#: ../libmateweather/weather.c:823 ../libmateweather/weather.c:836
-#: ../libmateweather/weather.c:854 ../libmateweather/weather.c:872
-#: ../libmateweather/weather.c:910 ../libmateweather/weather.c:926
-#: ../libmateweather/weather.c:949 ../libmateweather/weather.c:981
-#: ../libmateweather/weather.c:997 ../libmateweather/weather.c:1017
+#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
+#: ../libmateweather/weather.c:830 ../libmateweather/weather.c:843
+#: ../libmateweather/weather.c:861 ../libmateweather/weather.c:879
+#: ../libmateweather/weather.c:917 ../libmateweather/weather.c:933
+#: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
+#: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
 msgid "Unknown"
 msgstr "Ismeretlen"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:754
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:757
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:763
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:766
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
 msgstr "%d °C"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:772
+#: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:775
+#: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:857
+#: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:885
+#: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f csomó"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:889
+#: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f mph"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:893
+#: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f km/h"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:897
+#: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
-#: ../libmateweather/weather.c:903
+#. 
+#: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "Beaufort erősség: %.1f"
 
-#: ../libmateweather/weather.c:928
+#: ../libmateweather/weather.c:935
 msgid "Calm"
 msgstr "Szélcsend"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:932
+#: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:954
+#: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f inHg"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:958
+#: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f mmHg"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:962
+#: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f kPa"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:966
+#: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f hPa"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:970
+#: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f mb"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:974
+#: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f atm"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:1002
+#: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f mérföld"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:1006
+#: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f km"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:1010
+#: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
 msgstr "%.0fm"
 
-#: ../libmateweather/weather.c:1039 ../libmateweather/weather.c:1060
+#: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
 msgstr "%H.%M"
 
-#: ../libmateweather/weather.c:1119
+#: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "Letöltés sikertelen"

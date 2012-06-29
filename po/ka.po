@@ -1,21 +1,22 @@
-# translation of mate-applets.HEAD.po to Georgian
-# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
-# Alina Kirakosyan <alinakirakosyan@gmail.com>
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Vladimer Sichinava <vlsichinava@gmail.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-applets.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-26 21:39-0500\n"
-"PO-Revision-Date: 2006-09-09 05:33+0200\n"
-"Last-Translator: Vladimer Sichinava <vlsichinava@gmail.com>\n"
-"Language-Team: Georgian <www.gia.ge>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:19+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: KBabel 1.11.2\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -27,8 +28,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:163 ../libmateweather/mateweather-mateconf.c:164
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "თბილისი/თბილისის აეროპორტი"
@@ -36,15 +38,16 @@ msgstr "თბილისი/თბილისის აეროპორტ�
 #. TRANSLATOR: Change this to the code of your default location that
 #. * corresponds to the DEFAULT_LOCATION name you put above. This is
 #. * normally a four-letter (ICAO) code and can be found in
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * NB. The web page is over 1.7MB in size.
 #. * Pick a default location like a capital city so that it would be ok
 #. * for more of your users. For example, for Greek, we use "LGAV" for
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:183 ../libmateweather/mateweather-mateconf.c:184
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "UUEE"
@@ -53,14 +56,15 @@ msgstr "UUEE"
 #. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
 #. * Normally, US and Canada locations have zones while the rest do not.
 #. * Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any zone you put here must also be present in the Locations.xml
 #. * file.
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:203 ../libmateweather/mateweather-mateconf.c:204
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "DEFAULT_ZONE"
@@ -69,15 +73,16 @@ msgstr "DEFAULT_ZONE"
 #. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
 #. * Normally, US and Canada locations have radar names while the rest do
 #. * not. Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any radar you put here must also be present in the Locations.xml
 #. * file.
 #. *
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:224 ../libmateweather/mateweather-mateconf.c:225
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr "---"
@@ -85,7 +90,7 @@ msgstr "---"
 #. TRANSLATOR: Change this to the coordinates of your default location
 #. * that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
 #. * above. Check
-#. * http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in?view=markup
+#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
 #. * as any coordinates you put here must also be present in the
 #. * Locations.xml file.
 #. *
@@ -93,113 +98,117 @@ msgstr "---"
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:245 ../libmateweather/mateweather-mateconf.c:246
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "55-59N 037-30E"
 
-#: ../libmateweather/mateweather-prefs.c:25 ../libmateweather/mateweather-prefs.c:36
-#: ../libmateweather/mateweather-prefs.c:51 ../libmateweather/mateweather-prefs.c:68
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "ნაგულისხმევი"
 
 #. translators: Kelvin
-#: ../libmateweather/mateweather-prefs.c:27
+#: ../libmateweather/mateweather-prefs.c:36
 msgid "K"
 msgstr ""
 
 #. translators: Celsius
-#: ../libmateweather/mateweather-prefs.c:29
+#: ../libmateweather/mateweather-prefs.c:38
 msgid "C"
 msgstr ""
 
 #. translators: Fahrenheit
-#: ../libmateweather/mateweather-prefs.c:31
+#: ../libmateweather/mateweather-prefs.c:40
 msgid "F"
 msgstr ""
 
 #. translators: meters per second
-#: ../libmateweather/mateweather-prefs.c:38
+#: ../libmateweather/mateweather-prefs.c:47
 msgid "m/s"
 msgstr "მ/წ"
 
 #. translators: kilometers per hour
-#: ../libmateweather/mateweather-prefs.c:40
+#: ../libmateweather/mateweather-prefs.c:49
 msgid "km/h"
 msgstr "კმ/ს"
 
 #. translators: miles per hour
-#: ../libmateweather/mateweather-prefs.c:42
+#: ../libmateweather/mateweather-prefs.c:51
 msgid "mph"
 msgstr "მილი/საათში"
 
 #. translators: knots (speed unit)
-#: ../libmateweather/mateweather-prefs.c:44
+#: ../libmateweather/mateweather-prefs.c:53
 msgid "knots"
 msgstr "კვანძი"
 
 #. translators: wind speed
-#: ../libmateweather/mateweather-prefs.c:46
+#: ../libmateweather/mateweather-prefs.c:55
 msgid "Beaufort scale"
 msgstr "ბოფორტის შკალა"
 
 #. translators: kilopascals
-#: ../libmateweather/mateweather-prefs.c:53
+#: ../libmateweather/mateweather-prefs.c:62
 msgid "kPa"
 msgstr "კილოპასკალი"
 
 #. translators: hectopascals
-#: ../libmateweather/mateweather-prefs.c:55
+#: ../libmateweather/mateweather-prefs.c:64
 msgid "hPa"
 msgstr "ჰექტოპასკალი"
 
 #. translators: millibars
-#: ../libmateweather/mateweather-prefs.c:57
+#: ../libmateweather/mateweather-prefs.c:66
 msgid "mb"
 msgstr "მილიბარი"
 
 #. translators: millimeters of mercury
-#: ../libmateweather/mateweather-prefs.c:59
+#: ../libmateweather/mateweather-prefs.c:68
 msgid "mmHg"
 msgstr "მმ ვერცხლ.წყ"
 
 #. translators: inches of mercury
-#: ../libmateweather/mateweather-prefs.c:61
+#: ../libmateweather/mateweather-prefs.c:70
 msgid "inHg"
 msgstr "დიუიმი ვერცხლ.წყ"
 
 #. translators: atmosphere
-#: ../libmateweather/mateweather-prefs.c:63
+#: ../libmateweather/mateweather-prefs.c:72
 msgid "atm"
 msgstr "atm"
 
 #. translators: meters
-#: ../libmateweather/mateweather-prefs.c:70
-#, fuzzy
+#: ../libmateweather/mateweather-prefs.c:79
 msgid "m"
-msgstr "მილიბარი"
+msgstr ""
 
 #. translators: kilometers
-#: ../libmateweather/mateweather-prefs.c:72
+#: ../libmateweather/mateweather-prefs.c:81
 msgid "km"
 msgstr "კმ"
 
 #. translators: miles
-#: ../libmateweather/mateweather-prefs.c:74
+#: ../libmateweather/mateweather-prefs.c:83
 msgid "mi"
 msgstr ""
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:93 ../libmateweather/mateweather-prefs.c:102
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C°"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:131 ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "მ/წმ"
 
@@ -207,33 +216,33 @@ msgstr "მ/წმ"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:172 ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "გ/ცელსიუსი"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:212 ../libmateweather/mateweather-prefs.c:221
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "კმ"
+
+#: ../libmateweather/mateweather-timezone.c:314
+msgid "Greenwich Mean Time"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:1
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
-"from http://cvs.gnome.org/viewcvs/*checkout*/mate-applets/mateweather/"
-"Locations.xml.in"
+"from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"A three-digit-long code for retrieving radar maps from weather.com, found "
-"from http://cvs.gnome.org/viewcvs/*checkout*/mate-applets/mateweather/"
-"Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://cvs.gnome.org/viewcvs/"
-"*checkout*/mate-applets/mateweather/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"A unique zone for the city, as found from http://cvs.gnome.org/viewcvs/"
-"*checkout*/mate-applets/mateweather/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
@@ -255,19 +264,15 @@ msgstr "ყოველი განახლებისას რადარ�
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"თუ ჩართულია, რადარის რუქის მიღება განხორციელდება გასაღებ \"radar\"-ის "
-"მიხედვით."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "თუ ჩართულია, რადარის რუქის მიღება განხორციელდება გასაღებ \"radar\"-ის მიხედვით."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"თქვენი მდებარეობის განედი და გრძედი წარმოდგენილია DD-MM-SS[NS] DD-MM-SS[EW] "
-"ფორმატში."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "თქვენი მდებარეობის განედი და გრძედი წარმოდგენილია DD-MM-SS[NS] DD-MM-SS[EW] ფორმატში."
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -279,11 +284,9 @@ msgstr "ახლომდებარე ქალაქი"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://cvs.mate."
-"org/viewcvs/*checkout*/mate-applets/mateweather/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"ახლომდებარე ზონა, როგორიც არის დედაქალაქი, იხილეთ http://cvs.gnome.org/"
-"viewcvs/*checkout*/mate-applets/mateweather/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -373,3248 +376,572 @@ msgstr "ადგილმდებაეობის ამინდის შ�
 msgid "Zone location"
 msgstr "ზონის მდებარეობა"
 
-#: ../libmateweather/weather-iwin.c:135 ../libmateweather/weather-metar.c:554
-#: ../libmateweather/weather-metar.c:582
+#: ../libmateweather/timezone-menu.c:277
+msgctxt "timezone"
+msgid "Unknown"
+msgstr ""
+
+#. Translators: %d is an error code, and %s the error string
+#: ../libmateweather/weather-metar.c:504
+#, c-format
+msgid "Failed to get METAR data: %d %s.\n"
+msgstr ""
+
+#: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
 msgstr "არ არსებული WeatherInfo-ს ადგილმდებარეობა"
 
-#: ../libmateweather/weather-metar.c:527 ../libmateweather/weather-metar.c:562
-#: ../libmateweather/weather-wx.c:63
-msgid "Failed to get METAR data.\n"
-msgstr "ვერ განხორციელდა META მონაცემების გადმოტანა.\n"
-
-#: ../libmateweather/weather.c:180
+#: ../libmateweather/weather.c:232
 msgid "Variable"
 msgstr "ცვლადი"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "North"
 msgstr "ჩრდილოეთი"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
 msgstr "ჩრდილო-ჩრდილო-აღმოსავლური"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "Northeast"
 msgstr "ჩრდილო აღმოსავლეთის"
 
-#: ../libmateweather/weather.c:181
+#: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
 msgstr "აღმოსავლეთ-ჩრდილო-აღმოსავლეთის"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "East"
 msgstr "აღმოსავლეთი"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "East - Southeast"
 msgstr "აღმოსავლეთ-სამხრეთ-აღმოსავლეთის"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "Southeast"
 msgstr "სამხრეთ-აღმოსავლეთის"
 
-#: ../libmateweather/weather.c:182
+#: ../libmateweather/weather.c:234
 msgid "South - Southeast"
 msgstr "სამხრეთ-სამხრეთ-აღმოსავლეთის"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "South"
 msgstr "სამხრეთი"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "South - Southwest"
 msgstr "სამხრეთ-სამხრეთ-დასავლეთის"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "Southwest"
 msgstr "სამხრეთ-დასავლეთის"
 
-#: ../libmateweather/weather.c:183
+#: ../libmateweather/weather.c:235
 msgid "West - Southwest"
 msgstr "დასავლეთ-სამხრეთ-დასავლეთის"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "West"
 msgstr "დასავლეთი"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "West - Northwest"
 msgstr "დასავლეთ-ჩრდილო-დასავლეთის"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "Northwest"
 msgstr "ჩრდილო-დასავლეთის"
 
-#: ../libmateweather/weather.c:184
+#: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "ჩრდილო-ჩრდილო-დასავლეთის"
 
-#: ../libmateweather/weather.c:190 ../libmateweather/weather.c:690
-#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:752
-#: ../libmateweather/weather.c:764 ../libmateweather/weather.c:779
-#: ../libmateweather/weather.c:795 ../libmateweather/weather.c:832
-#: ../libmateweather/weather.c:844 ../libmateweather/weather.c:863
-#: ../libmateweather/weather.c:895 ../libmateweather/weather.c:908
-#: ../libmateweather/weather.c:928
-msgid "Unknown"
-msgstr "უცნობი"
-
-#: ../libmateweather/weather.c:192 ../libmateweather/weather.c:209
-#: ../libmateweather/weather.c:280
+#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:332
 msgid "Invalid"
 msgstr "მიუღებელი"
 
-#: ../libmateweather/weather.c:198
+#: ../libmateweather/weather.c:249
 msgid "Clear Sky"
 msgstr "სუფთა ცა"
 
-#: ../libmateweather/weather.c:199
+#: ../libmateweather/weather.c:250
 msgid "Broken clouds"
 msgstr "აქა-იქ ღრუბლიანი ცა"
 
-#: ../libmateweather/weather.c:200
+#: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
 msgstr "არახშირი მოღრუბლულობა"
 
-#: ../libmateweather/weather.c:201
+#: ../libmateweather/weather.c:252
 msgid "Few clouds"
 msgstr "მცირედი მოღრუბლულობა"
 
-#: ../libmateweather/weather.c:202
+#: ../libmateweather/weather.c:253
 msgid "Overcast"
 msgstr "ხშირი მოღრუბლულობა"
 
 #. TRANSLATOR: If you want to know what "blowing" "shallow" "partial"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
-#. * http://www.crh.noaa.gov/arx/wx.tbl.html
+#. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:241 ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
 msgstr "ჭექა-ქუხილი"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Drizzle"
 msgstr "ჟინჟლავს"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Light drizzle"
 msgstr "მცირედი ჟინჟვლა"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
 msgstr "ზომიერი მცირედი წვიმა"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
 msgstr "ხშირი წვიმა"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
 msgstr "ცივი სეტყვისებრი წვიმა"
 
 #. RAIN
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Rain"
 msgstr "წვიმა"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Light rain"
 msgstr "სუსტი წვიმა"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Moderate rain"
 msgstr "ზომიერი წვიმა"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Heavy rain"
 msgstr "ძლიერი წვიმა"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Rain showers"
 msgstr "კოკისპირული წვიმა"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:294
 msgid "Freezing rain"
 msgstr "სეტყვიანი წვიმა"
 
 #. SNOW
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snow"
 msgstr "თოვლი"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Light snow"
 msgstr "მცირე თოვლი"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Moderate snow"
 msgstr "ზომიერი თოვლი"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Heavy snow"
 msgstr "ხშირი თოვლი"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snowstorm"
 msgstr "თოვლიანი ქარბუქი"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
 msgstr "ძლიერი თოვლიანი ქარბუქი"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Snow showers"
 msgstr "კოკისპირული თოვლიანობა"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:295
 msgid "Drifting snow"
 msgstr "თოვლის დიუნები"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Snow grains"
 msgstr "თოვლიანი ცვიმა"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Light snow grains"
 msgstr "მცირე თოვლიანი წვიმა"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
 msgstr "ზომიეღი თოვლიანი წვიმა"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
 msgstr "ხშირი თოვლიანი წვიმა"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:297
 msgid "Ice crystals"
 msgstr "ყინულის კრისტალები"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Ice pellets"
 msgstr "სეტყვა"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
 msgstr "ცოტაოდენი სეტყვა"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
 msgstr "ზომიერი სეტყვა"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
 msgstr "ხშირი სეტყვა"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
 msgstr "სეტყვიანი ქარბუქი"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
 msgstr "სეტყვიანი კოკისპირული წვიმა"
 
 #. HAIL
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hail"
 msgstr "სეტყვა"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hailstorm"
 msgstr "სეტყვიანი შტორმი"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:299
 msgid "Hail showers"
 msgstr "აქა-იქ სეტყვა"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Small hail"
 msgstr "წვრილი სეტყვა"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
 msgstr "მცირე სეტყვიანი შტორმი"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
 msgstr "წვიმა და წვრილი სეტყვა"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:250
+#: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
 msgstr "უცნობი ნალექიანობა"
 
 #. MIST
-#: ../libmateweather/weather.c:251
+#: ../libmateweather/weather.c:302
 msgid "Mist"
 msgstr "ნისლი"
 
 #. FOG
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Fog"
 msgstr "კვამლი"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
 msgstr "კვამლი ახლო მდებარე ტერიტორიაზე"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Shallow fog"
 msgstr "ხშირი ბინდი"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Patches of fog"
 msgstr "აქა-იქ დაბინდული"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Partial fog"
 msgstr "დროდადრო ბინდი"
 
-#: ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:303
 msgid "Freezing fog"
 msgstr "გაყინული ბინდი"
 
 #. SMOKE
-#: ../libmateweather/weather.c:253
+#: ../libmateweather/weather.c:304
 msgid "Smoke"
 msgstr "კვამლი"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:254
+#: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
 msgstr "ვულკანური ფერფლი"
 
 #. SAND
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Sand"
 msgstr "ქვიშა"
 
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Blowing sand"
 msgstr "ქვიშის ქარბუქი"
 
-#: ../libmateweather/weather.c:255
+#: ../libmateweather/weather.c:306
 msgid "Drifting sand"
 msgstr "მტვრის ნამქერი"
 
 #. HAZE
-#: ../libmateweather/weather.c:256
+#: ../libmateweather/weather.c:307
 msgid "Haze"
 msgstr "მტვრიანი ნისლი"
 
 #. SPRAY
-#: ../libmateweather/weather.c:257
+#: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
 msgstr "ძლიერი მტვრიანი ქარი"
 
 #. DUST
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Dust"
 msgstr "მტვერი"
 
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Blowing dust"
 msgstr "მტვრის ქარბუქი"
 
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:309
 msgid "Drifting dust"
 msgstr "მტვრის ნიავქარი"
 
 #. SQUALL
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:310
 msgid "Squall"
 msgstr "შკვალი"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm"
 msgstr "ქვიშის ქარბუქი"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
 msgstr "ახლომახლო ქვიშის ქარბუქი"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
 msgstr "ძლიერი ქვიშის ქარი"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Duststorm"
 msgstr "მტვრის ქარბუქი"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
 msgstr "ახლო-მახლო მტვრის ქარბუქი"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
 msgstr "ძლიერი მტვრიანი ქარი"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
 msgstr "ქარბორბალა"
 
 #. TORNADO
-#: ../libmateweather/weather.c:263
+#: ../libmateweather/weather.c:314
 msgid "Tornado"
 msgstr "ტორნადო"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:264
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls"
 msgstr "მტვრიანი ქარი"
 
-#: ../libmateweather/weather.c:264
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
 msgstr "ახლომახლო მტვრის ქარბორბალები"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
-#: ../libmateweather/weather.c:662
+#. 
+#: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
 
-#: ../libmateweather/weather.c:677
+#: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
 msgstr "დაკვირვების უცნობი დრო"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\342\204\211 is the "DEGREE FAHRENHEIT" symbol)
-#: ../libmateweather/weather.c:710
-#, fuzzy, c-format
-msgid "%.1f ℉"
-msgstr "%.1f K"
+#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
+#: ../libmateweather/weather.c:830 ../libmateweather/weather.c:843
+#: ../libmateweather/weather.c:861 ../libmateweather/weather.c:879
+#: ../libmateweather/weather.c:917 ../libmateweather/weather.c:933
+#: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
+#: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
+msgid "Unknown"
+msgstr "უცნობი"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\342\204\211 is the "DEGREE FAHRENHEIT" symbol)
-#: ../libmateweather/weather.c:713
-#, fuzzy, c-format
-msgid "%d ℉"
-msgstr "%d K"
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:761
+#, c-format
+msgid "%.1f °F"
+msgstr ""
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\342\204\203 is the "DEGREE CELSIUS" symbol)
-#: ../libmateweather/weather.c:719
-#, fuzzy, c-format
-msgid "%.1f ℃"
-msgstr "%.1f K"
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:764
+#, c-format
+msgid "%d °F"
+msgstr ""
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\342\204\203 is the "DEGREE CELSIUS" symbol)
-#: ../libmateweather/weather.c:722
-#, fuzzy, c-format
-msgid "%d ℃"
-msgstr "%d K"
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:770
+#, c-format
+msgid "%.1f °C"
+msgstr ""
+
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:773
+#, c-format
+msgid "%d °C"
+msgstr ""
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:728
+#: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:731
+#: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:782
+#: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:807
+#: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f კვანძი"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:811
+#: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f მილი/სთ"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:815
+#: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f კმ/ს"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:819
+#: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f მ/წ"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
-#: ../libmateweather/weather.c:825
+#. 
+#: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "%.1f ბალი ბოფორტის შკალით"
 
-#: ../libmateweather/weather.c:846
+#: ../libmateweather/weather.c:935
 msgid "Calm"
 msgstr "მშვიდი ნიავი"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:850
+#: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:868
+#: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f inHg"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:872
+#: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f mmHg"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:876
+#: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f კილო.პასკალი"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:880
+#: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f ჰეკტო.პასკალი"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:884
+#: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f მილიბარი"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:888
+#: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
 msgstr "%.2f ატმო"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:913
+#: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f მილი"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:917
+#: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f კმ"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:921
+#: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
 msgstr "%.0f მ"
 
-#: ../libmateweather/weather.c:949 ../libmateweather/weather.c:969
+#: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: ../libmateweather/weather.c:1002
+#: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "მიღება ვერ შედგა."
-
-#~ msgid "_About"
-#~ msgstr "_პროგრამის შესახებ"
-
-#~ msgid "_Help"
-#~ msgstr "_დახმარება"
-
-#~ msgid "_Keyboard Accessibility Preferences"
-#~ msgstr "_პარამეტრები კლავიატურის დამხმარე საშუალებების შესახებ"
-
-#~ msgid "AccessX Status Applet Factory"
-#~ msgstr "ფაბრიკა AccessX მდგომარეობის შესახებ"
-
-#~ msgid "Keyboard Accessibility Status"
-#~ msgstr "კლავიატურის დამხმარე საშუალებების სტატუსი"
-
-#~ msgid "Keyboard Accessibility Status Applet Factory"
-#~ msgstr "კლავიატურის დამხმარე საშუალებების მდგომარეობის ამღნიშვნელი აპლეტი"
-
-#~ msgid "Shows the status of keyboard accessibility features"
-#~ msgstr "უჩვენებს კლავიატურის დამხმარე საშუალებების მდგომარეობას"
-
-#~ msgid "AccessX Status"
-#~ msgstr "AccessX-ს მდგომარეობა"
-
-#~ msgid "Shows the state of AccessX features such as latched modifiers"
-#~ msgstr "უჩვენებს AccessX-ს შესაძლებლობების მდგომარეობას"
-
-#~ msgid "translator-credits"
-#~ msgstr "თარგმანი-შესრულებულია"
-
-#~ msgid "There was an error launching the help viewer: %s"
-#~ msgstr "დახმარების გამოძახებისას დაიშვა შეცდომა: %s"
-
-#~ msgid "There was an error launching the keyboard preferences dialog: %s"
-#~ msgstr ""
-#~ "კლავიატურის პარამეტრების გამართვის დიალოგის ჩართვისას დაიშვა შეცდომა: %s"
-
-#~ msgid "a"
-#~ msgstr "ა"
-
-#~ msgid "Shows keyboard status when accessibility features are used."
-#~ msgstr "კლავიატურის მდგომარეობა, დამხმარე საშუალებების გამოყენების დროს."
-
-#~ msgid "XKB Extension is not enabled"
-#~ msgstr "XKB მოდული არ არის ჩართული"
-
-#~ msgid "Unknown error"
-#~ msgstr "უცნობი შეცდომა"
-
-#~ msgid "Error: %s"
-#~ msgstr "შეცდომა: %s"
-
-#~ msgid "Displays current state of keyboard accessibility features"
-#~ msgstr ""
-#~ "უჩვენებს ინფორმაციას კლავიატურის სპეც შესაძლებლობების მდგომარეობის შესახებ"
-
-#~ msgid "Battery Charge Monitor"
-#~ msgstr "კვების ელემენტის დამუხტვის ინდიკატორი"
-
-#~ msgid "Battstat Factory"
-#~ msgstr "კვებისსელემენტის დამუხტვის მდგომარეობის აპლეტის ფაბრიკაფაბრიკა"
-
-#~ msgid "Monitor a laptop's remaining power"
-#~ msgstr "ნოუთბუქის ელემენტის დარჩენილი მუხტის მონიტორი"
-
-#~ msgid "_Preferences"
-#~ msgstr "_პარამეტრები"
-
-#~ msgid "0 for no label, 1 for percentage and 2 for time remaining"
-#~ msgstr "0 არავითარი წარწერისთვის, 1 პროცენტი და 2 დარჩენილი დრო"
-
-#~ msgid "Beep for warnings"
-#~ msgstr "ხმოვანი შეტყობინება გაფრთხილებისას"
-
-#~ msgid "Beep when displaying a warning"
-#~ msgstr "ხმოვანი შეტყობინება გაბრთხილების ჩვენებისას"
-
-#~ msgid "Drain from top"
-#~ msgstr "პატარავდება ზემოდან"
-
-#~ msgid "Full Battery Notification"
-#~ msgstr "შეტყობინება - ბოლომდე დატენვის შემთხვევაში"
-
-#~ msgid "Low Battery Notification"
-#~ msgstr "შეტყობინება დაცლილი კვების ელემენტის შესახებ"
-
-#~ msgid "Notify user when the battery is full"
-#~ msgstr "შეატყობინე მომხმარებელს როდესაც კვების ელემენტი სრულად დაიმუხტება"
-
-#~ msgid "Notify user when the battery is low"
-#~ msgstr "შეატყობინე მომხმარებელს როდესაც კვების ელემენტი დაცლილია"
-
-#~ msgid "Red value level"
-#~ msgstr "მუხტის დონე წითელი ფერისთვის"
-
-#~ msgid ""
-#~ "Show the battery meter draining from the top of the battery. Only "
-#~ "implemented for traditional battery view."
-#~ msgstr ""
-#~ "კვების ელემენტის მდგომარეობის ჩვენება, მუხტის დონე ზევიდან ქვემოთ ჩადის "
-#~ "ელემენტის განმუხტვის ანუ დაცლის დროს."
-
-#~ msgid "Show the horizontal battery"
-#~ msgstr "ჰორიზონტალური კვების ელემენტის ჩვენება"
-
-#~ msgid "Show the time/percent label"
-#~ msgstr "ანახე დროის/პროცენტის წარწერა"
-
-#~ msgid "Show the traditional, horizontal battery on the panel"
-#~ msgstr "პანელზე კვების ელემენტის ტრადიციული ჰორიზონტალური ხედის ჩვენება"
-
-#~ msgid "Show the upright, smaller battery on the panel"
-#~ msgstr "პანელზე პატარა ვერტიკალური კვების ელემენტის ჩვენება"
-
-#~ msgid ""
-#~ "The battery level below which the battery is displayed as red. Also the "
-#~ "value at which the low battery warning is displayed."
-#~ msgstr ""
-#~ "კვების ელემენტის მუხტის დაბალი დონე, რომლის გადაცილების შემდეგ ელემენტი "
-#~ "ნარინჟის ფერი ხდება და გამოდის შესაბამისი შეტყობინება."
-
-#~ msgid "Upright (small) battery"
-#~ msgstr "ვერტიკალური (პატარა ზომის) კვების ელემენტი"
-
-#~ msgid ""
-#~ "Use the value defined in red_value as a time remaining to show the "
-#~ "warning dialog rather than a percentage"
-#~ msgstr ""
-#~ "გამოიყენე მნიშვნელობა, პარამეტრ red_value-დის მიერ დადგენილი, როგორც "
-#~ "დარჩენილი ენერგიის დრო და არა პროცენტი."
-
-#~ msgid "Warn on low time rather than low percentage"
-#~ msgstr "შეტყობინება, ცოტა მუშაობის დროის დარჩენის შემთხვევაში"
-
-#~ msgid "System is running on AC power"
-#~ msgstr "სისტემა მუშაობს ქსელის დენზე"
-
-#~ msgid "System is running on battery power"
-#~ msgstr "სისტემა მუშაობს აკუმულატორის დენზე"
-
-#~ msgid "Battery charged (%d%%)"
-#~ msgstr "აკუმულატორი დატენილია (%d%%)"
-
-#~ msgid "Unknown time (%d%%) remaining"
-#~ msgstr "უცნობია რამდენი დროა (%d%%) დარჩენილი"
-
-#~ msgid "Unknown time (%d%%) until charged"
-#~ msgstr "ბოლომდე დამუხტვამდე დარჩენილი დრო (%d%%) უცნობია"
-
-#~ msgid "%d minute (%d%%) remaining"
-#~ msgid_plural "%d minutes (%d%%) remaining"
-#~ msgstr[0] "რჩება %d წუთი (%d%%)"
-
-#~ msgid "%d minute until charged (%d%%)"
-#~ msgid_plural "%d minutes until charged (%d%%)"
-#~ msgstr[0] "%d წუთი სანამ სრულად დაიტენებოდეს (%d%%)"
-
-#~ msgid "%d hour (%d%%) remaining"
-#~ msgid_plural "%d hours (%d%%) remaining"
-#~ msgstr[0] "(%d%%) რჩება %d საათი"
-
-#~ msgid "%d hour until charged (%d%%)"
-#~ msgid_plural "%d hours until charged (%d%%)"
-#~ msgstr[0] "%d საათი (%d%%) სრულ დატენვამდე"
-#~ msgstr[1] "საათი"
-
-#~ msgid "%d %s %d %s (%d%%) remaining"
-#~ msgstr "%d %s %d %s (%d%%) დარჩენილი"
-
-#~ msgid "hour"
-#~ msgid_plural "hours"
-#~ msgstr[0] "საათი"
-
-#~ msgid "minute"
-#~ msgid_plural "minutes"
-#~ msgstr[0] "წუთი"
-
-#~ msgid "%d %s %d %s until charged (%d%%)"
-#~ msgstr "%d %s %d %s სრულ დატენვამდე (%d%%)"
-
-#~ msgid "Battery Monitor"
-#~ msgstr "კვების ელემენტის ინდიკატორი"
-
-#~ msgid "Your battery is now fully recharged"
-#~ msgstr "თქვენი კვების ელემენტი სრულად დაიტენა"
-
-#~ msgid "Battery Notice"
-#~ msgstr "კვების ელემენტის შეტყობინება"
-
-#~ msgid ""
-#~ "You have %d minute of battery power remaining (%d%% of the total "
-#~ "capacity)."
-#~ msgid_plural ""
-#~ "You have %d minutes of battery power remaining (%d%% of the total "
-#~ "capacity)."
-#~ msgstr[0] ""
-#~ "თქვენ დაგრჩათ %d წუთი აკუმულატორული კვებისთვის (%d%% საერთო ტევადობიდან)"
-#~ msgstr[1] "თქვენ წუთი ის ის."
-
-#~ msgid ""
-#~ "To avoid losing your work:\n"
-#~ " • plug your laptop into external power, or\n"
-#~ " • save open documents and shut your laptop down."
-#~ msgstr ""
-#~ "ჩატარებული სამუშაოს დაკარგვის თავიდან ასაცილებლად:\n"
-#~ " • შეაერთედ თქვენი ლეპტოპი გარე კვების წყაროში, ან\n"
-#~ " • შეინახეთ გახსნილი დოკუმენტები და შემდგომ გამორთეთ ლეპტოპი."
-
-#~ msgid ""
-#~ "To avoid losing your work:\n"
-#~ " • suspend your laptop to save power,\n"
-#~ " • plug your laptop into external power, or\n"
-#~ " • save open documents and shut your laptop down."
-#~ msgstr ""
-#~ "ჩატარებული სამუშაოს დაკარგვის თავიდან ასაცილებლად:\n"
-#~ " • ლეპტოპის შეჩერება, ენერგიის დაზოგვის მიზნით,\n"
-#~ " • შეაერთედ თქვენი ლეპტოპი გარე კვების წყაროში, ან\n"
-#~ " • შეინახეთ გახსნილი დოკუმენტები და შემდგომ გამორთეთ ლეპტოპი."
-
-#~ msgid "Your battery is running low"
-#~ msgstr "კვების ელემენტის მუხტი დაბალია"
-
-#~ msgid "No battery present"
-#~ msgstr "არავითარი მიერთებული კვების ელემენტი"
-
-#~ msgid "Battery status unknown"
-#~ msgstr "ელემენტის სტატუსი უცნობია"
-
-#~ msgid "N/A"
-#~ msgstr "ა/მ"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "დახმარების გამოძახებისას დაიშვა შეცდომა: %s"
-
-#~ msgid "This utility shows the status of your laptop battery."
-#~ msgstr "მოცემული უტილიტი აჩვენებს თქვენი ლეპტოპის ელემენტის მდგომარეობას."
-
-#~ msgid "HAL backend enabled."
-#~ msgstr "ჩართულია HAL-ის დრაივერები."
-
-#~ msgid "Legacy (non-HAL) backend enabled."
-#~ msgstr "ჩართულია ძველი დრაივერი (არა-HAL)."
-
-#~ msgid "<b>Appearance</b>"
-#~ msgstr "<b>იერსახე</b>"
-
-#~ msgid "<b>Notifications</b>"
-#~ msgstr "<b>შეტყობინებები</b>"
-
-#~ msgid "<small>(shows single image for status and charge)</small>"
-#~ msgstr ""
-#~ "<small>(აჩვენებს ერთ პიქტოგრამას მდგომარეობის და მუხტის აღსაღნიშნად)</"
-#~ "small>"
-
-#~ msgid "<small>(two images: one for status, one for charge)</small>"
-#~ msgstr ""
-#~ "<small>(ორი პიქტოგრამა:პირველი მდგომარეობის და მეორე მუხტის აღსაღნიშნად)</"
-#~ "small>"
-
-#~ msgid "Battery Charge Monitor Preferences"
-#~ msgstr "კვების ელემენტის მუხტის ინდიკატორის პარამეტრები"
-
-#~ msgid "Show _percentage remaining"
-#~ msgstr "ანახე _პროცენტის სახით დარჩენილი"
-
-#~ msgid "Show _time remaining"
-#~ msgstr "ანახე _დროის სახით დარჩენილი"
-
-#~ msgid "_Compact view"
-#~ msgstr "_კომპაქტური ხედი"
-
-#~ msgid "_Expanded view"
-#~ msgstr "_გაფართოებული ხედი"
-
-#~ msgid "_Notify when battery is fully recharged"
-#~ msgstr "მაც_ნობე როდესაც ელემენტი ბოლომდე დაიმუხტება"
-
-#~ msgid "_Show time/percentage:"
-#~ msgstr "_ანახე დარჩენილი დრო/პროცენტი:"
-
-#~ msgid "_Warn when battery charge drops to:"
-#~ msgstr "_მაცნობე ელემენტის მუხტის დაცლის შესახებ:"
-
-#~ msgid "Percent"
-#~ msgstr "პროცენტი"
-
-#~ msgid "Minutes Remaining"
-#~ msgstr "დარჩენილი წუთები"
-
-#~ msgid "Battery Status Utility"
-#~ msgstr "ელემენტის მდგომარეობის ინდიკატორი"
-
-#~ msgid "Battery fully re-charged"
-#~ msgstr "ელემენტი ბოლომდეა დამუხტული"
-
-#~ msgid "Battery power low"
-#~ msgstr "დაბალი ძაბვა"
-
-#~ msgid "Character Palette"
-#~ msgstr "სიმბოლოთა პალიტრა"
-
-#~ msgid "Charpicker Applet Factory"
-#~ msgstr "სიმბოლოთა ამორჩევის აპლეტის ფაბრიკა"
-
-#~ msgid "Insert characters"
-#~ msgstr "ასო-ნიშნების ჩასმის საშუალება"
-
-#~ msgid "Available palettes"
-#~ msgstr "ხელმისაწვდომი პალიტრა"
-
-#~ msgid "Insert \"%s\""
-#~ msgstr "ჩასვი \"%s\""
-
-#~ msgid "Insert special character"
-#~ msgstr "ჩასვი სპეკ ასო-ნიშანი"
-
-#~ msgid "insert special character %s"
-#~ msgstr "სპეც ასო ნიშნის ჩასმა %s"
-
-#~ msgid ""
-#~ "Mate Panel applet for selecting strange characters that are not on my "
-#~ "keyboard. Released under GNU General Public Licence."
-#~ msgstr ""
-#~ "გნომის პანელის აპლეტი რომელიც იძლევა უცხო, კლავიატურაზე არმყოფი ასო-"
-#~ "ნიშნების გამოყენების საშუალებას. გამოშვებულია GNU საერთო სახალხო "
-#~ "ლიცენზიის ქვეშ."
-
-#~ msgid "Characters shown on applet startup"
-#~ msgstr "ასოები რომლებიც პროგრამის გაშვებისთანავე უნდა გამოჩნდნენ"
-
-#~ msgid "DEPRECATED - Characters shown on applet startup"
-#~ msgstr ""
-#~ "არ არის სასურველი - სიმბოლოები რომლებიც აპლეტის ჩართვისთანავე ჩნდებიან"
-
-#~ msgid "List of available palettes"
-#~ msgstr "არსებული პალიტრების სია"
-
-#~ msgid "List of strings containing the available palettes"
-#~ msgstr "სტრიქონების სია, რომლებიც მოიცავენ ასებულ პალიტრებს"
-
-#~ msgid ""
-#~ "The string that the user had selected when the applet was last used. This "
-#~ "string will be displayed when the user starts the applet."
-#~ msgstr ""
-#~ "აპლეტის ბოლოს გამოყენების დროს შერჩეული სტრიქონი. გამოჩნდება როდესაც "
-#~ "მომხმარებელი ჩართავს აპლეტს."
-
-#~ msgid "_Edit"
-#~ msgstr "რ_ედაქტირება"
-
-#~ msgid "_Palette:"
-#~ msgstr "_შაბლონი:"
-
-#~ msgid "Palette entry"
-#~ msgstr "შაბლონის ელემენტი"
-
-#~ msgid "Modify a palette by adding or removing characters"
-#~ msgstr "შაბლონის შეცვლა, სიმბოლოების წაშლა/დამატებით"
-
-#~ msgid "Add Palette"
-#~ msgstr "შაბლონის დამატება"
-
-#~ msgid "Edit Palette"
-#~ msgstr "შაბლონის რედაქტირება"
-
-#~ msgid "Palettes list"
-#~ msgstr "შაბლონების სია"
-
-#~ msgid "_Palettes:"
-#~ msgstr "_შაბლონები:"
-
-#~ msgid "Add button"
-#~ msgstr "ღილაკის დამატება"
-
-#~ msgid "Click to add a new palette"
-#~ msgstr "ღილაკის მეშვეობით ახალი შაბლონის დამატება"
-
-#~ msgid "Edit button"
-#~ msgstr "რედაქტირების ღილაკი"
-
-#~ msgid "Click to edit the selected palette"
-#~ msgstr "მონიშნული შაბლონის რედაქტირებისთვის დაუწკაპუნეთ ღილაკს"
-
-#~ msgid "Delete button"
-#~ msgstr "ღილაკის წაშლა"
-
-#~ msgid "Click to delete the selected palette"
-#~ msgstr "მონიშნული შაბლონის წასაშლელად დაუწკაპუნეთ ღილაკს"
-
-#~ msgid "Character Palette Preferences"
-#~ msgstr "სიმბოლოთა შაბლონის პარამეტრები"
-
-#~ msgid "CPU Frequency Scaling Monitor"
-#~ msgstr "CPU სიხშირის ცვლილების მონიტორი"
-
-#~ msgid "Monitor the CPU Frequency Scaling"
-#~ msgstr "თვალყურს ადევენებს CPU-ს სიხშირეს"
-
-#~ msgid ""
-#~ "A 0 value means to show cpu frequency, 1 to show frequency and units, and "
-#~ "2 to show percentage instead of frequency."
-#~ msgstr ""
-#~ "0 - პროცესორის სიხშირის ჩვენება, 1 - სიხშირის და ერთეულის ჩვენება, 2- "
-#~ "სიხშირის მაგივრად პროცენტების ჩვენება."
-
-#~ msgid ""
-#~ "A 0 value means to show the applet in graphic mode (pixmap only), 1 to "
-#~ "show the applet in text mode (not to show the pixmap) and 2 to show the "
-#~ "applet in graphic and text mode."
-#~ msgstr ""
-#~ "0 - აჩვენებს აპლეტს გრაფიკულ რეჟიმში (მხოლოდ გამოსახულებას), 1 - ტექსტური "
-#~ "რეჟიმი (არავითარი გამოსახულება), 2 - აჩვენებს გამოსახულებასა და ტექსტს "
-#~ "ერთდროულად."
-
-#~ msgid "CPU to Monitor"
-#~ msgstr "CPU მონიტორი"
-
-#~ msgid "Mode to show cpu usage"
-#~ msgstr "გადატვირთული CPU ნახვის რეჟიმი"
-
-#~ msgid "Mode to show the frequency selector drop down menu"
-#~ msgstr "სიხშირის ამორჩევის მენუს ჩვენების რეჟიმი"
-
-#~ msgid ""
-#~ "Set the CPU to monitor. In a single processor system you don't have to "
-#~ "change it."
-#~ msgstr ""
-#~ "აჯგუფებს პროცესორს მონიტორთან, მონო პროცესორის შემთხვევაში არ საჭიროებს "
-#~ "შეცვლას."
-
-#~ msgid "The type of text to display (if the text is enabled)."
-#~ msgstr "საჩვენებელი ტექსტის ტიპი (თუ ტექსტი ჩართულია)."
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "<b>Display Settings</b>"
-#~ msgstr "<b>პარამეტრების ჩვენება</b>"
-
-#~ msgid "<b>Frequency Selector</b>"
-#~ msgstr "<b>სიხშირის ამორჩევა</b>"
-
-#~ msgid "<b>Monitor Settings</b>"
-#~ msgstr "<b>მონიტორის პარამეტრები</b>"
-
-#~ msgid "CPU Frequency Monitor Preferences"
-#~ msgstr "ცენტრალური პროცესორის სიხშირის მონიტორის პარამეტრები"
-
-#~ msgid "Show CPU frequency as _frequency"
-#~ msgstr "ანახე CPU-ს სიხშირე როგორც _სიხშირე"
-
-#~ msgid "Show CPU frequency as _percentage"
-#~ msgstr "ანახე CPU-ს სიხშირე _პროცენტის სახით"
-
-#~ msgid "Show frequency _units"
-#~ msgstr "სიხშირის ერთეულების ნახვა"
-
-#~ msgid "Show m_enu:"
-#~ msgstr "მენუს ჩვენება:"
-
-#~ msgid "_Appearance:"
-#~ msgstr "_იერსახე:"
-
-#~ msgid "_Monitored CPU:"
-#~ msgstr "_კონტროლირებული CPU:"
-
-#~ msgid "Could not open help document"
-#~ msgstr "შეუძლებელია დახმარების სახელმძღვანელოს გახსნა"
-
-#~ msgid "This utility shows the current CPU Frequency Scaling."
-#~ msgstr "CPU-ს მიმდინარე სიხშირის მაჩვენებელი."
-
-#~ msgid "This utility shows the current CPU Frequency"
-#~ msgstr "მოცემული უტილიტი CPU-ს სიხშირეს აჩვენებს"
-
-#~ msgid "Graphic"
-#~ msgstr "გრაფიკა"
-
-#~ msgid "Text"
-#~ msgstr "ტექსტი"
-
-#~ msgid "Graphic and Text"
-#~ msgstr "გრაფიკა და ტექსტი"
-
-#~ msgid "Frequencies"
-#~ msgstr "სიხშირეები"
-
-#~ msgid "Governors"
-#~ msgstr "რეგულატორები"
-
-#~ msgid "Frequencies and Governors"
-#~ msgstr "სიხშირეები და რეგულატორები"
-
-#~ msgid "Frequency Scaling Unsupported"
-#~ msgstr "სიხშირის მართვა არ არის მხარდაჭერილი"
-
-#~ msgid "CPU frequency scaling unsupported"
-#~ msgstr "CPU-ს სიხშირის შეცვლა შეუძლებელია"
-
-#~ msgid ""
-#~ "You will not be able to modify the frequency of your machine.  Your "
-#~ "machine may be misconfigured or not have hardware support for CPU "
-#~ "frequency scaling."
-#~ msgstr ""
-#~ "თქვენ ვერ შეძლებთ თქვენი კომპიუტერის სიხშირის შეცვლას.  შესაძლებელია რომ "
-#~ "კომპიუტერი არასწორედაა რეგულირებული ან უბრალოდ თქვენს CPU-ს არ აქვს "
-#~ "ცვლადობადობის შესაძლებლობა."
-
-#~ msgid "_Frequencies"
-#~ msgstr "_სიხშირეები"
-
-#~ msgid "_Governors"
-#~ msgstr "_რეგულატორები"
-
-#~ msgid "Disk Mounter"
-#~ msgstr "დისკის მონტაჟი"
-
-#~ msgid "Drive Mount Applet Factory"
-#~ msgstr "წამყვანის მონტაჟის აპლეტი"
-
-#~ msgid "Factory for drive mount applet"
-#~ msgstr "წამყვანის მონტაჟირების აპლეტის ქარხანა"
-
-#~ msgid "Mount local disks and devices"
-#~ msgstr "ლოკალური დისკების მონტაჟი"
-
-#~ msgid "(mounted)"
-#~ msgstr "(მონტაჟი განხორციელებულია)"
-
-#~ msgid "(not mounted)"
-#~ msgstr "(არავითარი მონტაჟი)"
-
-#~ msgid "(not connected)"
-#~ msgstr "(არ არის მიერთებული)"
-
-#~ msgid "Cannot execute '%s'"
-#~ msgstr "ვერ ვრთავ '%s'"
-
-#~ msgid "Mount Error"
-#~ msgstr "მონტაჟის შეცდომა"
-
-#~ msgid "Unmount Error"
-#~ msgstr "შეცდომა"
-
-#~ msgid "Eject Error"
-#~ msgstr "გამოღების შეცდომა"
-
-#~ msgid "Error"
-#~ msgstr "შეცდომა"
-
-#~ msgid "_Play DVD"
-#~ msgstr "DVD-ს _დაკვრა"
-
-#~ msgid "_Play CD"
-#~ msgstr "CD-ს _დაკვრა"
-
-#~ msgid "_Open %s"
-#~ msgstr "_გახსენი %s"
-
-#~ msgid "_Mount %s"
-#~ msgstr "_ვამონტაჟებ %s"
-
-#~ msgid "Un_mount %s"
-#~ msgstr "დე_მონტაჟი %s"
-
-#~ msgid "_Eject %s"
-#~ msgstr "_გამოღება %s"
-
-#~ msgid "Applet for mounting and unmounting block volumes."
-#~ msgstr "გარე წამყვანების ჩამრთველი და გამომრთველი აპლეტი."
-
-#~ msgid "Interval timeout to check mount point status"
-#~ msgstr "დამონტაჟის წერტილის მდგომარეობის შემოწმების დროის ინტერვალი"
-
-#~ msgid "Time in seconds between status updates"
-#~ msgstr "მდგომარეობის განსაზღვრის დრო წამებში"
-
-#~ msgid "A set of eyeballs for your panel"
-#~ msgstr "ეს აპლეტი აყენებს \"თვალებს\" თქვენს პანელზე"
-
-#~ msgid "Geyes"
-#~ msgstr "თვალუკები"
-
-#~ msgid "Geyes Applet Factory"
-#~ msgstr "აპლეტის ფაბრიკა \"თვალები\""
-
-#~ msgid "A goofy little xeyes clone for the MATE panel."
-#~ msgstr "პროგრამა xeyes-ის სულელური კლონი, გნომ გარემოსთვის"
-
-#~ msgid "The eyes look in the direction of the mouse pointer"
-#~ msgstr "თვალუკები თვალს აყოლებენ თაგუნას ისარს"
-
-#~ msgid "Directory in which the theme is located"
-#~ msgstr "საქაღალდე, სადაც გაფორმების თემები ინახება"
-
-#~ msgid "Can not launch the eyes applet."
-#~ msgstr "ვერ ვრთავ თვალების აპლეტს."
-
-#~ msgid "There was a fatal error while trying to load the theme."
-#~ msgstr "დაიშვა ფატალური შეცდომა თემის ჩატვირთვის დროს."
-
-#~ msgid "Geyes Preferences"
-#~ msgstr "თვალუკების პარამეტრები"
-
-#~ msgid "Themes"
-#~ msgstr "თემები"
-
-#~ msgid "_Select a theme:"
-#~ msgstr "_თემის შერჩევა:"
-
-#~ msgid "Alt+Control changes layout."
-#~ msgstr "Alt+Control ცვლის განლაგებას."
-
-#~ msgid "Alt+Shift changes layout."
-#~ msgstr "Alt+Shift ცვლის განლაგებას."
-
-#~ msgid "Arabic keymap"
-#~ msgstr "არაბული განლაგება"
-
-#~ msgid "Armenian"
-#~ msgstr "სომხური"
-
-#~ msgid "Basque"
-#~ msgstr "ბასკური"
-
-#~ msgid "Belgian"
-#~ msgstr "ბელგიური"
-
-#~ msgid "Both Alt keys together change layout."
-#~ msgstr "ორივე Alt ღილაკი ცვლის განლაგებას."
-
-#~ msgid "Both Ctrl keys together change layout."
-#~ msgstr "ორივე Ctrl ღილაკი ცვლის განლაგებას."
-
-#~ msgid "Both Shift keys together change layout."
-#~ msgstr "ორივე Shift ღილაკი ცვლის განლაგებას."
-
-#~ msgid "Brazil Portuguese keymap"
-#~ msgstr "ბრაზილია პორტუგალიური განლაგება"
-
-#~ msgid "Bulgarian Cyrillic"
-#~ msgstr "ბულგარული კირილიცა"
-
-#~ msgid "Bulgarian keymap"
-#~ msgstr "კლავიშების ბულგარული  რუკა"
-
-#~ msgid "CapsLock key changes layout."
-#~ msgstr "CapsLock კლავიში ცვლის განლაგებას."
-
-#~ msgid "Control+Shift changes layout."
-#~ msgstr "Control+Shift ცვლის განლაგებას."
-
-#~ msgid "Czech keymap"
-#~ msgstr "კლავიშების ჩეხური რუკა"
-
-#~ msgid "Danish keymap"
-#~ msgstr "კლავიშების დანიური რუკა"
-
-#~ msgid "Dutch keymap"
-#~ msgstr "კლავიშების ჰოლანდიური რუკა"
-
-#~ msgid "English keymap"
-#~ msgstr "კლავიშების ინგლისური რუკა"
-
-#~ msgid "Estonian keymap"
-#~ msgstr "კლავიშების ესტონური  რუკა"
-
-#~ msgid "Finnish keymap"
-#~ msgstr "კლავიშების ფინური რუკა"
-
-#~ msgid "French Swiss"
-#~ msgstr "ფრანგული შვეიცარიული"
-
-#~ msgid "French Swiss keymap"
-#~ msgstr "ფრანგული შვეიცარიის კლავიშების რუკა"
-
-#~ msgid "French keymap"
-#~ msgstr "კლავიშების ფრანგული რუკა"
-
-#~ msgid "French-Canadian 105-key"
-#~ msgstr "ფრანგული-კანადური 105-კლავიშიანი"
-
-#~ msgid "GB 102-key"
-#~ msgstr "GB 102-ღილაკი"
-
-#~ msgid "GB 105-key"
-#~ msgstr "GB 105-ღილაკი"
-
-#~ msgid "Generic Keyboard"
-#~ msgstr "სტანდარტული კლავიატურა"
-
-#~ msgid "Georgian Latin"
-#~ msgstr "ქართული ლათინური"
-
-#~ msgid "Georgian Russian layout"
-#~ msgstr "ქართული რუსული განლაგება"
-
-#~ msgid "Georgian keymap"
-#~ msgstr "კლავიატურის ქართული რუკა"
-
-#~ msgid "German"
-#~ msgstr "გერმანული"
-
-#~ msgid "German Swiss with Euro"
-#~ msgstr "გერმანული შვეიცარიული ევროს ნიშნით"
-
-#~ msgid "German keymap"
-#~ msgstr "კლავიშების გერმანული რუკა"
-
-#~ msgid "Greek keymap"
-#~ msgstr "კლავიშების ბერძნული რუკარუკა"
-
-#~ msgid "Hebrew keymap"
-#~ msgstr "კლავიშების ებრაული რუკა"
-
-#~ msgid "Hungarian 101-key latin 1"
-#~ msgstr "უნგრული 101-კლავიშიანი latin 1"
-
-#~ msgid "Hungarian 101-key latin 2"
-#~ msgstr "უნგრული 101-კლავიშიანი latin 2"
-
-#~ msgid "Hungarian 105-key latin 1"
-#~ msgstr "უნგრული 105-კლავიშიანი latin 1"
-
-#~ msgid "Hungarian 105-key latin 2"
-#~ msgstr "უნგრული 105-კლავიშიანი latin 2"
-
-#~ msgid "Hungarian PC/AT 101 keyboard"
-#~ msgstr "უნგრული PC/AT 101 კლავიატურა"
-
-#~ msgid "Hungarian latin1"
-#~ msgstr "უნგრული latin 1"
-
-#~ msgid "Icelandic keymap"
-#~ msgstr "კლავიშების ისლანდიური რუკა"
-
-#~ msgid "Italian keymap"
-#~ msgstr "კლავიშების იტალიური რუკა"
-
-#~ msgid "Japanese keymap"
-#~ msgstr "იაპონური კლავიშების რუკა"
-
-#~ msgid "Lao keymap"
-#~ msgstr "კლავიშების ლაო რუკა"
-
-#~ msgid "Layout shift behavior"
-#~ msgstr "განლაგების გადამრთველის ყოფაქცევა"
-
-#~ msgid "Left Alt key changes layout."
-#~ msgstr "მარცხენა Alt ღილაკი ცვლის განლაგებას"
-
-#~ msgid "Left Ctrl key changes group."
-#~ msgstr "მარცხენა Alt ღილაკი ცვლის ჯგუფს."
-
-#~ msgid "Left Shift key changes group."
-#~ msgstr "მარცხენა Shift ღილაკი ცვლის განლაგებას"
-
-#~ msgid "Left Win-key changes layout."
-#~ msgstr "მარცხენა Win-ღილაკი ცვლის განლაგებას."
-
-#~ msgid "Lithuanian keymap"
-#~ msgstr "კლავიშების ლიტვური რუკა"
-
-#~ msgid "Macedonian"
-#~ msgstr "კლავიშების  მაკედონიური რუკა"
-
-#~ msgid "Menu key changes layout."
-#~ msgstr "მენიუს ღილაკი ცვლის განლაგებას."
-
-#~ msgid "Mongolian alt keymap"
-#~ msgstr "მონღოლური (ალტერნატიული) კლავიშების რუკა"
-
-#~ msgid "Mongolian keymap"
-#~ msgstr "მონღოლური კლავიშების რუკა"
-
-#~ msgid "Mongolian phonetic keymap"
-#~ msgstr "კლავიშების მონღოლური ფონეტიკური რუკა"
-
-#~ msgid "Norwegian"
-#~ msgstr "ნორვეგიული"
-
-#~ msgid "Plain Russian keymap"
-#~ msgstr "უბრალო რუსული კლავიშების რუკა"
-
-#~ msgid "Polish"
-#~ msgstr "პოლონური"
-
-#~ msgid "Polish deadkeys"
-#~ msgstr "პოლონური ძველი სიმბოლოებით"
-
-#~ msgid "Portugal"
-#~ msgstr "პორტუგალია"
-
-#~ msgid "Portugal Deadkeys"
-#~ msgstr "პორტუგალია ძველი სიმბოლოებით"
-
-#~ msgid "Portuguese keymap"
-#~ msgstr "კლავიშების პორტუგალიური რუკა"
-
-#~ msgid "Right Alt key changes layout."
-#~ msgstr "მარჯვენა Alt ღილაკი ცვლის განლაგებას"
-
-#~ msgid "Right Ctrl key changes group."
-#~ msgstr "მარჯვენა Ctrl ღილაკი ცვლის ჯგუფს"
-
-#~ msgid "Right Shift key changes group."
-#~ msgstr "მარჯვენა Shift ღილაკი ცვლის ჯგუფს."
-
-#~ msgid "Right Win-key changes layout."
-#~ msgstr "მარჯვენა Win-ღილაკი ცვლის განლაგებას"
-
-#~ msgid "Russian Cyrillic"
-#~ msgstr "რუსული კირილიცა"
-
-#~ msgid "Russian keymap"
-#~ msgstr "კლავიშების რუსული რუკა"
-
-#~ msgid "Serbian keymap"
-#~ msgstr "კლავიშების სერბული რუკა"
-
-#~ msgid "Shift+CapsLock changes layout."
-#~ msgstr "Shift + CapsLock ცვლის განლაგებას."
-
-#~ msgid "Slovak keymap"
-#~ msgstr "კლავიშების სლოვაკური რუკა"
-
-#~ msgid "Slovenian"
-#~ msgstr "სლოვენური"
-
-#~ msgid "Slovenian keymap"
-#~ msgstr "კლავიშების სლოვენური რუკა"
-
-#~ msgid "Spanish keymap"
-#~ msgstr "კლავიშების ესპანური რუკა"
-
-#~ msgid "Sun (!not PC!) type5 Hungarian latin 2"
-#~ msgstr "უნგრული (!not PC!) type5 Hungarian latin 2"
-
-#~ msgid "Swedish"
-#~ msgstr "შვედური"
-
-#~ msgid "Swedish keymap"
-#~ msgstr "კლავიშების შვედური რუკა"
-
-#~ msgid "Swiss keymap"
-#~ msgstr "კლავიშების შვეიცარიული რუკა"
-
-#~ msgid "Thai"
-#~ msgstr "ტაილანდური"
-
-#~ msgid "Thai Kedmanee"
-#~ msgstr "ტაილანდური კიდმანიური"
-
-#~ msgid "Thai keymap"
-#~ msgstr "ტაილანდური კლავიშების რუკა"
-
-#~ msgid "Turkish \"F\" keyboard"
-#~ msgstr "თურქული \"F\" კლავიატურა"
-
-#~ msgid "Turkish \"Q\" keyboard"
-#~ msgstr "თურქული \"Q\" კლავიატურა"
-
-#~ msgid "Turkish keymap"
-#~ msgstr "თურქული კლავიშების რუკა"
-
-#~ msgid "UK 105-key"
-#~ msgstr "დიდი ბრიტანეთი 105-კლავიშიანი"
-
-#~ msgid "UK PC/AT keyboard"
-#~ msgstr "დიდი ბრიტანეთი PC/AT კლავიატურა"
-
-#~ msgid "US 101-key keyboard"
-#~ msgstr "აშშ 101-კლავიშიანი კლავიატურა"
-
-#~ msgid "US 105-key keyboard (with windows keys)"
-#~ msgstr "აშშ 105-კლავიშიანი კლავიატურა (win კლავიშებით)"
-
-#~ msgid "US 84-key"
-#~ msgstr "აშშ 84-კლავიშით"
-
-#~ msgid "US DEC 450"
-#~ msgstr "აშშ DEC 450"
-
-#~ msgid "US IBM RS/6000"
-#~ msgstr "აშშ IBM RS/6000"
-
-#~ msgid "US International"
-#~ msgstr "აშშ ინტერნაციონალური"
-
-#~ msgid "US Macintosh"
-#~ msgstr "აშშ მეკინტოში"
-
-#~ msgid "US PC/AT 101 keyboard"
-#~ msgstr "აშშ PC/AT 101 კლავიატურა"
-
-#~ msgid "US Silicon Graphics 101-key"
-#~ msgstr "აშშ Silicon Graphics 101-კლავიშიანი"
-
-#~ msgid "US Sun type5"
-#~ msgstr "აშშ Sun type5"
-
-#~ msgid "Armenian Sun keymap"
-#~ msgstr "სომხური Sun განთავსება"
-
-#~ msgid "Azerbaijani Turkish Sun keymap"
-#~ msgstr "აზერბაიჯანული თურქული Sun კლავიშების რუკა"
-
-#~ msgid "Belarusian Sun keymap"
-#~ msgstr "ბელარუსული Sun კლავიშების რუკა"
-
-#~ msgid "Brazil Portuguese Sun USB keymap"
-#~ msgstr "კლავიშების ბრაზილია პორტუგალიური Sun USB რუკა"
-
-#~ msgid "Brazil Portuguese Sun keymap"
-#~ msgstr "კლავიშების ბრაზილია პორტუგალიური Sun რუკა"
-
-#~ msgid "British Sun Type-4 keymap"
-#~ msgstr "კლავიშების ბრიტანული Sun Type-4 რუკა"
-
-#~ msgid "British Sun USB keymap"
-#~ msgstr "ბრიტანული Sun USB კლავიშების რუკა"
-
-#~ msgid "British Sun keymap"
-#~ msgstr "ბრიტანული Sun კლავიშების რუკა"
-
-#~ msgid "Bulgarian Sun keymap"
-#~ msgstr "კლავიშების ბულგარული Sun რუკა"
-
-#~ msgid "Canadian Sun keymap"
-#~ msgstr "კლავიშების კანადური Sun რუკა"
-
-#~ msgid "Czech Sun keymap"
-#~ msgstr "კლავიშების ჩეხური Sun რუკა"
-
-#~ msgid "Danish Sun Type-4 keymap"
-#~ msgstr "კლავიშების დანიური Sun Type-4 რუკა"
-
-#~ msgid "Danish Sun USB keymap"
-#~ msgstr "კლავიშების დანიური Sun USB რუკა"
-
-#~ msgid "Danish Sun keymap"
-#~ msgstr "კლავიშების დანიური Sun რუკა"
-
-#~ msgid "Dutch Sun keymap"
-#~ msgstr "კლავიშების ჰოლანდიური Sun რუკა"
-
-#~ msgid "Estonian Sun keymap"
-#~ msgstr "კლავიშების ესტონური Sun რუკა"
-
-#~ msgid "Finnish Sun keymap"
-#~ msgstr "კლავიშების ფინური Sun რუკა"
-
-#~ msgid "French Sun USB keymap"
-#~ msgstr "კლავიშების ფრანგული Sun USB რუკა"
-
-#~ msgid "French Sun keymap"
-#~ msgstr "კლავიშების ფრანგული Sun რუკა"
-
-#~ msgid "German Sun Type-4 keymap"
-#~ msgstr "კლავიშების გერმანული Sun·Type-4 რუკა"
-
-#~ msgid "German Sun USB keymap"
-#~ msgstr "კლავიშების გერმანული Sun USB რუკა"
-
-#~ msgid "German Sun keymap"
-#~ msgstr "კლავიშების გერმანული Sun რუკა"
-
-#~ msgid "Hebrew Sun keymap"
-#~ msgstr "ებრაული Sun კლავიშების რუკა"
-
-#~ msgid "Hungarian latin2 Sun keymap"
-#~ msgstr "კლავიშების უნგრული latin2 Sun რუკა"
-
-#~ msgid "Hungarian type5 latin 1 keymap"
-#~ msgstr "კლავიშების უნგრული type5 latin 1 რუკა"
-
-#~ msgid "Icelandic Sun keymap"
-#~ msgstr "კლავიშების ისლანდიური Sun რუკა"
-
-#~ msgid "Italian Sun Type-4 keymap"
-#~ msgstr "იტალიური Sun Type-4 კლავიშების რუკა"
-
-#~ msgid "Italian Sun USB keymap"
-#~ msgstr "კლავიშების იტალიური Sun USB რუკა"
-
-#~ msgid "Italian Sun keymap"
-#~ msgstr "კლავიშების იტალიური Sun რუკა"
-
-#~ msgid "Japanese Sun Type-4 keymap"
-#~ msgstr "კლავიშების იაპონური Sun Type-4 რუკა"
-
-#~ msgid "Japanese Sun keymap"
-#~ msgstr "კლავიშების იაპონური Sun რუკა"
-
-#~ msgid "Latvian Sun keymap"
-#~ msgstr "კლავიშების ლატვიური Sun რუკა"
-
-#~ msgid "Lithuanian Sun keymap"
-#~ msgstr "კლავიშების ლიტვური Sun რუკა"
-
-#~ msgid "Macedonian Sun keymap"
-#~ msgstr "კლავიშების მაკედონიური Sun რუკა"
-
-#~ msgid "Norwegian Sun keymap"
-#~ msgstr "კლავიშების ნორვეგიული Sun რუკა"
-
-#~ msgid "Polish Sun keymap"
-#~ msgstr "კლავიშების პოლონური Sun რუკა"
-
-#~ msgid "Portuguese Sun Type-4 keymap"
-#~ msgstr "კლავიშების პორტუგალიური Sun Type-4 რუკა"
-
-#~ msgid "Portuguese Sun keymap"
-#~ msgstr "კლავიშების პორტუგალიური Sun რუკა"
-
-#~ msgid "Romanian Sun keymap"
-#~ msgstr "კლავიშების რუმინული Sun რუკა"
-
-#~ msgid "Russian Sun keymap"
-#~ msgstr "კლავიშების რუსული Sun რუკა"
-
-#~ msgid "Serbian Sun standard keymap"
-#~ msgstr "კლავიშების სერბული Sun სტანდარტული რუკა"
-
-#~ msgid "Slovak Sun keymap"
-#~ msgstr "კლავიშების სლოვაკური Sun რუკა"
-
-#~ msgid "Slovenian Sun keymap"
-#~ msgstr "კლავიშების სლოვენური Sun რუკა"
-
-#~ msgid "Spanish Sun Type-4 keymap"
-#~ msgstr "კლავიშების ესპანური Sun Type-4 რუკა"
-
-#~ msgid "Spanish Sun USB keymap"
-#~ msgstr "კლავიშების ესპანური Sun USB რუკა"
-
-#~ msgid "Spanish Sun keymap"
-#~ msgstr "კლავიშების ესპანური Sun რუკა"
-
-#~ msgid "Swedish Sun Type-4 keymap"
-#~ msgstr "კლავიშების შვედური Sun Type-4 რუკა"
-
-#~ msgid "Swedish Sun USB keymap"
-#~ msgstr "კლავიშების შვედური Sun USB რუკა"
-
-#~ msgid "Swedish Sun keymap"
-#~ msgstr "კლავიშების შვედური Sun რუკა"
-
-#~ msgid "Swiss German Sun keymap"
-#~ msgstr "კლავიშების გერმანული Sun რუკა"
-
-#~ msgid "Thai Sun keymap"
-#~ msgstr "კლავიშების ტაილანდური Sun რუკა"
-
-#~ msgid "Turkish Sun keymap"
-#~ msgstr "კლავიშების თურქული Sun რუკა"
-
-#~ msgid "US Sun Type-4 keymap"
-#~ msgstr "კლავიშების აშშ Sun Type-4 რუკა"
-
-#~ msgid "US Sun USB keymap"
-#~ msgstr "კლავიშების აშშ Sun USB რუკა"
-
-#~ msgid "US Sun type5 keymap"
-#~ msgstr "კლავიშების აშშ Sun type 5 რუკა"
-
-#~ msgid "Ukrainian Sun keymap"
-#~ msgstr "კლავიშების უკრაინული Sun რუკა"
-
-#~ msgid "Vietnamese Sun keymap"
-#~ msgstr "კლავიშების ვიეტნამური Sun რუკა"
-
-#~ msgid "Keyboard _Preferences"
-#~ msgstr "კლავიატურის პარამეტრები"
-
-#~ msgid "Show Current _Layout"
-#~ msgstr "მიმდინარე გან_ლაგების ჩვენება"
-
-#~ msgid "_Groups"
-#~ msgstr "_ჯგუფები"
-
-#~ msgid "Keyboard Indicator"
-#~ msgstr "კლავიატურის ინდიკატორი"
-
-#~ msgid "Keyboard applet factory"
-#~ msgstr "კლავიატურის აპლეტების ფაბრიკა"
-
-#~ msgid "Keyboard layout indicator"
-#~ msgstr "კლავიატურის განლაგების ინდიკატორი"
-
-#~ msgid "Keyboard Layout \"%s\""
-#~ msgstr "კლავიატურა განლაგება \"%s\""
-
-#~ msgid "Copyright (c) Sergey V. Udaltsov 1999-2004"
-#~ msgstr "საავტორო უფლებები (c) სერგეი ვ. უდალცოვი 1999-2004"
-
-#~ msgid "Keyboard layout indicator applet for MATE"
-#~ msgstr "გნომის კლავიატურის განლაგების ინდიკატორის აპლეტი"
-
-#~ msgid "Keyboard Indicator (%s)"
-#~ msgstr "კლავიატურის ინდიკატორი (%s)"
-
-#~ msgid "No description."
-#~ msgstr "არავითარი აღწერილობა."
-
-#~ msgid "Failed to init MateConf: %s\n"
-#~ msgstr "ვერ შევასრულე MateConf-ის ინიციალიზაცია: %s\n"
-
-#~ msgid "Activate more plugins"
-#~ msgstr "სხვა პლაგინების გააქტიურება"
-
-#~ msgid "Active _plugins:"
-#~ msgstr "აქტიური _პლაგინები:"
-
-#~ msgid "Add Plugin"
-#~ msgstr "პლაგინების დამატება"
-
-#~ msgid "Close the dialog"
-#~ msgstr "დიალოგის დახურვა"
-
-#~ msgid "Configure the selected plugin"
-#~ msgstr "მონიშნული პლაგინის კონფიგურირება"
-
-#~ msgid "Deactivate selected plugin"
-#~ msgstr "მონიშნული პლაგინის ამორთვა"
-
-#~ msgid "Decrease the plugin priority"
-#~ msgstr "პლაგინის პრიორიტეტის შემცირება"
-
-#~ msgid "Increase the plugin priority"
-#~ msgstr "პლაგინის პრიორიტეტის გაზრდა"
-
-#~ msgid "Keyboard Indicator Plugins"
-#~ msgstr "კლავიატურის ინდიკატორის პლაგინები"
-
-#~ msgid "The list of active plugins"
-#~ msgstr "აქტიური პლაგინების სია"
-
-#~ msgid "_Available plugins:"
-#~ msgstr "ხელმისაწვდომი _პლაგინები :"
-
-#~ msgid "Keyboard Indicator Test (%s)"
-#~ msgstr "კლავიატურის ინდიკატორის ტესტი (%s)"
-
-#~ msgid "Indicator:"
-#~ msgstr "ინდიკატორი:"
-
-#~ msgid "layout \"%s\""
-#~ msgid_plural "layouts \"%s\""
-#~ msgstr[0] "განლაგება \"%s\""
-#~ msgstr[1] "s"
-
-#~ msgid "option \"%s\""
-#~ msgid_plural "options \"%s\""
-#~ msgstr[0] "ოფცია \"%s\""
-#~ msgstr[1] "s"
-
-#~ msgid "model \"%s\", %s and %s"
-#~ msgstr "მოდელი \"%s\", %s და %s"
-
-#~ msgid "no layout"
-#~ msgstr "არავითარი განლაგება"
-
-#~ msgid "no options"
-#~ msgstr "არავითარი პარამეტრები"
-
-#~ msgid "Enable/disable installed plugins"
-#~ msgstr "ჩართვა/გამორთვა ჩადგმული პლაგინების"
-
-#~ msgid "Keyboard Indicator plugins"
-#~ msgstr "კლავიატურის ინდიკატორის პლაგინები"
-
-#~ msgid "Keyboard Layout"
-#~ msgstr "კლავიატურის განლაგება"
-
-#~ msgid "Secondary groups"
-#~ msgstr "მეორადი ჯგუფები"
-
-#~ msgid "Show flags in the applet"
-#~ msgstr "ანახე დროშები აპლეტში"
-
-#~ msgid "Show flags in the applet to indicate the current layout"
-#~ msgstr "დროშების აპლეტში გამოჩენა, მიმდინარე განლაგების აღსაღნიშნად"
-
-#~ msgid "The list of enabled Keyboard Indicator plugins"
-#~ msgstr "კლავიატურის ინდიკატორში ჩართული პლაგეინების სია"
-
-#~ msgid "_Details"
-#~ msgstr "_ცნობები"
-
-#~ msgid "_Update"
-#~ msgstr "_განახლება"
-
-#~ msgid "Factory for creating the weather applet."
-#~ msgstr "\"ამინდი\" აპლეტის შესაქმნელი აპლეტი."
-
-#~ msgid "Gweather Applet Factory"
-#~ msgstr "\"ამინდი\" აპლეტის ქარხანა"
-
-#~ msgid "Monitor the current weather conditions, and forecasts"
-#~ msgstr "აპლეტი აჩვენებს მიმდინარე და მომავალი ამინდის პროგნოზებს"
-
-#~ msgid "Weather Report"
-#~ msgstr "ამინდის შესახებ"
-
-#~ msgid "© 1999-2005 by S. Papadimitriou and others"
-#~ msgstr "©·1999-2006·S. Papadimitriou და სხვები"
-
-#~ msgid "A panel application for monitoring local weather conditions."
-#~ msgstr "პანელური აპლეტი რომელიც აჩვენებს მიმდინარე ამინდის პროგნოზს."
-
-#~ msgid "MATE Weather"
-#~ msgstr "MATE ამინდი"
-
-#~ msgid "Weather Forecast"
-#~ msgstr "ამინდის პროგნოზი"
-
-#~ msgid ""
-#~ "City: %s\n"
-#~ "Sky: %s\n"
-#~ "Temperature: %s"
-#~ msgstr ""
-#~ "ქალაქი: %s\n"
-#~ "ცა: %s\n"
-#~ "ტემპერატურა: %s"
-
-#~ msgid "Updating..."
-#~ msgstr "მიმდინარეობს განახლება..."
-
-#~ msgid "Details"
-#~ msgstr "ცნობები"
-
-#~ msgid "City:"
-#~ msgstr "ქალაქი:"
-
-#~ msgid "Last update:"
-#~ msgstr "ბოლო განახლება:"
-
-#~ msgid "Conditions:"
-#~ msgstr "პირობები:"
-
-#~ msgid "Sky:"
-#~ msgstr "ცა:"
-
-#~ msgid "Temperature:"
-#~ msgstr "ტემპერატურა:"
-
-#~ msgid "Feels like:"
-#~ msgstr "იგრძნობა როგორც:"
-
-#~ msgid "Dew point:"
-#~ msgstr "კონდენსაციის წერტილი:"
-
-#~ msgid "Relative humidity:"
-#~ msgstr "ფარდობითი ნესტიანობა:"
-
-#~ msgid "Wind:"
-#~ msgstr "ქარი:"
-
-#~ msgid "Pressure:"
-#~ msgstr "წნევა:"
-
-#~ msgid "Visibility:"
-#~ msgstr "ხილვადობა:"
-
-#~ msgid "Sunrise:"
-#~ msgstr "მზის ამოსვლა:"
-
-#~ msgid "Sunset:"
-#~ msgstr "მზის ჩასვლა:"
-
-#~ msgid "Current Conditions"
-#~ msgstr "მიმდინარე პირობები"
-
-#~ msgid "Forecast Report"
-#~ msgstr "ამინდის პროგნოზი"
-
-#~ msgid "See the ForeCast Details"
-#~ msgstr "ამინდის დეტალური პროგნოზი"
-
-#~ msgid "Forecast"
-#~ msgstr "პროგნოზი"
-
-#~ msgid "Radar Map"
-#~ msgstr "რადარული რუქა"
-
-#~ msgid "_Visit Weather.com"
-#~ msgstr "მ_ოინახულეთ Weather.com"
-
-#~ msgid "Visit Weather.com"
-#~ msgstr "მოინახულეთ Weather.com"
-
-#~ msgid "Click to Enter Weather.com"
-#~ msgstr "დაუწკაპუნეთ Weather.com-ის მოსანახულებლად"
-
-#~ msgid "Forecast not currently available for this location."
-#~ msgstr "შეუძლებელია მიმდინარე ტერიტორიისთვის პროგნოზის მიღება."
-
-#~ msgid "Location view"
-#~ msgstr "ადგილმდებარეობის ხედი"
-
-#~ msgid "Select Location from the list"
-#~ msgstr "ადგილმდებარეობის სიიდან ამორჩევა"
-
-#~ msgid "Update spin button"
-#~ msgstr "განახლების ღილაკი"
-
-#~ msgid "Spinbutton for updating"
-#~ msgstr "განახლების ღილაკი"
-
-#~ msgid "Address Entry"
-#~ msgstr "მისამართი"
-
-#~ msgid "Enter the URL"
-#~ msgstr "შეყვანეთ მისამართი URL"
-
-#~ msgid ""
-#~ "Failed to load the Locations XML database.  Please report this as a bug."
-#~ msgstr ""
-#~ "შეუძლებელია ადგილმდებარეობების XML მონაცემთა ბაზის ჩატვირთვა. გთხოვთ "
-#~ "გვაცნობოთ ამ შეცდომის შესახებ."
-
-#~ msgid "Weather Preferences"
-#~ msgstr "ამინდის პარამეტრები"
-
-#~ msgid "_Automatically update every:"
-#~ msgstr "_ავრომატურად განახლება ყოველ:"
-
-#~ msgid "_Temperature unit:"
-#~ msgstr "_ტემპერატურის ერთეული:"
-
-#~ msgid "Kelvin"
-#~ msgstr "კელვინი"
-
-#~ msgid "Celsius"
-#~ msgstr "ცელსიუსი"
-
-#~ msgid "Fahrenheit"
-#~ msgstr "ფარენგეიტი"
-
-#~ msgid "_Wind speed unit:"
-#~ msgstr "ქარ_ის სიჩქარის ერთეული:"
-
-#~ msgid "_Pressure unit:"
-#~ msgstr "წნევის ე_რთეული:"
-
-#~ msgid "_Visibility unit:"
-#~ msgstr "_ხილვადობის ერთეული:"
-
-#~ msgid "meters"
-#~ msgstr "მეტრი"
-
-#~ msgid "miles"
-#~ msgstr "მილი"
-
-#~ msgid "Enable _radar map"
-#~ msgstr "_რადარის რუქის ჩართვა"
-
-#~ msgid "Use _custom address for radar map"
-#~ msgstr "_საკუთარი რადარის რუქის გამოყენება"
-
-#~ msgid "A_ddress:"
-#~ msgstr "მის_ამართი:"
-
-#~ msgid "Update"
-#~ msgstr "განახლება"
-
-#~ msgid "minutes"
-#~ msgstr "წუთებში"
-
-#~ msgid "Display"
-#~ msgstr "დისპლეი"
-
-#~ msgid "General"
-#~ msgstr "საერთო"
-
-#~ msgid "_Select a location:"
-#~ msgstr "მდებარეობის ამორჩევა:"
-
-#~ msgid "_Find:"
-#~ msgstr "_ძიება:"
-
-#~ msgid "Find _Next"
-#~ msgstr "შე_მდეგის ძიება"
-
-#~ msgid "Location"
-#~ msgstr "მდებარეობა"
-
-#~ msgid "Invest"
-#~ msgstr "ინვესტირება"
-
-#~ msgid "Track your invested money."
-#~ msgstr "ინვესტირებული თანხის კონტროლი."
-
-#~ msgid "_Refresh"
-#~ msgstr "_განახლება"
-
-#~ msgid "10"
-#~ msgstr "10"
-
-#~ msgid "100"
-#~ msgstr "100"
-
-#~ msgid ""
-#~ "1d\n"
-#~ "5d\n"
-#~ "3m\n"
-#~ "6m\n"
-#~ "1y\n"
-#~ "3y"
-#~ msgstr ""
-#~ "1d\n"
-#~ "5d\n"
-#~ "3m\n"
-#~ "6m\n"
-#~ "1y\n"
-#~ "3y"
-
-#~ msgid "20"
-#~ msgstr "20"
-
-#~ msgid "200"
-#~ msgstr "200"
-
-#~ msgid "5"
-#~ msgstr "5"
-
-#~ msgid "50"
-#~ msgstr "50"
-
-#~ msgid "Auto _refresh"
-#~ msgstr "ავტო _განახლება"
-
-#~ msgid "Bollinger"
-#~ msgstr "Bollinger"
-
-#~ msgid "Downloading chart from <b>Yahoo!</b>"
-#~ msgstr "მიმდინარეობს <b>Yahoo!</b> დიაგრამის ჩამოქაჩვა"
-
-#~ msgid "Exponential moving average: "
-#~ msgstr "ექსპონენტური საშუალო მოძრაობა: "
-
-#~ msgid "Fast stoch"
-#~ msgstr "სწრაფი stoch"
-
-#~ msgid "Financial Chart"
-#~ msgstr "ფინანსური გრაფიკი"
-
-#~ msgid "Indicators: "
-#~ msgstr "ინდიკატორები: "
-
-#~ msgid "MACD"
-#~ msgstr "MACD"
-
-#~ msgid "MFI"
-#~ msgstr "MFI"
-
-#~ msgid "Moving average: "
-#~ msgstr "საშუალო მოძრაობა: "
-
-#~ msgid "Overlays: "
-#~ msgstr "დაფარული:"
-
-#~ msgid "ROC"
-#~ msgstr "ROC"
-
-#~ msgid "RSI"
-#~ msgstr "RSI"
-
-#~ msgid "SAR"
-#~ msgstr "SAR"
-
-#~ msgid "Slow stoch"
-#~ msgstr "ნელი stoch"
-
-#~ msgid "Splits"
-#~ msgstr "გაყოფები"
-
-#~ msgid "Vol"
-#~ msgstr "Vol"
-
-#~ msgid "Vol+MA"
-#~ msgstr "Vol+MA"
-
-#~ msgid "Volumes"
-#~ msgstr "ხმის მარეგულირებელVol+MAი აპლეტი"
-
-#~ msgid "W%R"
-#~ msgstr "W%R"
-
-#~ msgid "_Graph style: "
-#~ msgstr "_დიაგრამის სტილი: "
-
-#~ msgid "_Options"
-#~ msgstr "_ოფციები"
-
-#~ msgid "_Ticker symbol: "
-#~ msgstr "_ტიკერის სიმბოლო: "
-
-#~ msgid ""
-#~ "l\n"
-#~ "b\n"
-#~ "c"
-#~ msgstr ""
-#~ "l\n"
-#~ "b\n"
-#~ "c"
-
-#~ msgid "Display yahoo charts"
-#~ msgstr "Yahoo-ს გრაფიკების ჩვენება"
-
-#~ msgid "Invest Chart"
-#~ msgstr "ინვესტირებულის გრაფიკი"
-
-#~ msgid "<b>Stocks</b>"
-#~ msgstr "<b>აქციები</b>"
-
-#~ msgid ""
-#~ "<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
-#~ "<b>Source: </b> Yahoo!</small></i>"
-#~ msgstr ""
-#~ "<i><small><b>ინდექსების ფასები იგვიანებენ 15 წუთით</b>\n"
-#~ "<b>წყარო: </b> Yahoo!</small></i>"
-
-#~ msgid "Invest Preferences"
-#~ msgstr "ინვესტირების პარამეტრები"
-
-#~ msgid "Invest Website"
-#~ msgstr "ინვესტ ვებ გვერდი"
-
-#~ msgid "Financial Chart - %s"
-#~ msgstr "ფინანსური გრაფიკი - %s"
-
-#~ msgid "Opening Chart"
-#~ msgstr "ვხსნი გრაფიკს"
-
-#~ msgid "Downloading Chart"
-#~ msgstr "მიმდინარეობს გრაფიკის ჩამოქაჩვა"
-
-#~ msgid "Reading Chart chunk"
-#~ msgstr "მიმდინარეობს გრაფიკის ნაწილის წაკითხვა"
-
-#~ msgid "Invest Applet"
-#~ msgstr "ინვესტირების აპლეტი"
-
-#~ msgid "Symbol"
-#~ msgstr "სიმბოლო"
-
-#~ msgid "Amount"
-#~ msgstr "რაოდენობა"
-
-#~ msgid "Price"
-#~ msgstr "ფასი"
-
-#~ msgid "Commission"
-#~ msgstr "Commission"
-
-#~ msgid "%.1f °F"
-#~ msgstr "%.1f °F"
-
-#~ msgid "%d °F"
-#~ msgstr "%d °F"
-
-#~ msgid "%.1f °C"
-#~ msgstr "%.1f °C"
-
-#~ msgid "%d °C"
-#~ msgstr "%d °C"
-
-#~ msgid "Deskbar (ne Mini-Commander)"
-#~ msgstr "Deskbar (ne Mini-Commander)"
-
-#~ msgid "Deskbar (transparent upgrade from Mini-Commander)"
-#~ msgstr "Deskbar (გამწვირვალე განახლება Mini-Commander)"
-
-#~ msgid "Command Line"
-#~ msgstr "ბრძანებათა ხაზი"
-
-#~ msgid "Mini-Commander"
-#~ msgstr "Mini-Commander"
-
-#~ msgid "MiniCommander Applet Factory"
-#~ msgstr "აპლეტის ფაბრიკა \"ბრძანებათა ხაზი\""
-
-#~ msgid ""
-#~ "This MATE applet adds a command line to the panel. It features command "
-#~ "completion, command history, and changeable macros."
-#~ msgstr "მოცემული MATE აპლეტი პანელზე ბრძანებათა ხაზს ამატებს."
-
-#~ msgid "No items in history"
-#~ msgstr "არავითარი ელემენტი ისტორიაში"
-
-#~ msgid "Start program"
-#~ msgstr "პროგრამის გაშვება"
-
-#~ msgid "Command line"
-#~ msgstr "ბრძანების ველი:"
-
-#~ msgid "Type a command here and Mate will execute it for you"
-#~ msgstr "შეიყვანეთ ბრძანება და გნომი გაუშვებს მას თქვენთვის "
-
-#~ msgid "Cannot get schema for %s: %s"
-#~ msgstr "შეუძლებელია სქემის მიღება %s: %s"
-
-#~ msgid "Cannot set schema for %s: %s"
-#~ msgstr "შეუძლებელია სქემის მიღება %s: %s"
-
-#~ msgid "Set default list value for %s\n"
-#~ msgstr "სიის მნიშვნელობის %s-თვის ნაგულისხმევად დაყენება\n"
-
-#~ msgid ""
-#~ "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-#~ msgstr ""
-#~ "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-
-#~ msgid "Must set the MATECONF_CONFIG_SOURCE environment variable\n"
-#~ msgstr "საჭიროა MATECONF_CONFIG_SOURCE-ისთვის გარემოს ცვლადის მინიჭება\n"
-
-#~ msgid "Failed to access configuration source(s): %s\n"
-#~ msgstr "ვერ განხორციელდა კონფიგურაციის წყაროსთან(ებთან) დაკავშირება: %s\n"
-
-#~ msgid "Error syncing config data: %s"
-#~ msgstr "დაიშვა შეცდომა კონფიგურაციის მონაცემთა სინქრონიზაციის დროს: %s"
-
-#~ msgid ""
-#~ "List of MateConfValue entries containing strings for the macro commands."
-#~ msgstr ""
-#~ "MateConfValue მნიშვნელობების სია, რომლებიც შეიცავენ მაკრო ბრძანებების "
-#~ "შემცველ სტრიქონებს."
-
-#~ msgid ""
-#~ "List of MateConfValue entries containing strings for the macro patterns."
-#~ msgstr ""
-#~ "MateConfValue მნიშვნელობების სია, რომლებიც შეიცავენ მაკრო ბრძანებების "
-#~ "შემცველ შაბლონებს."
-
-#~ msgid "Macro command list"
-#~ msgstr "მაკრო ბრძანბების სია"
-
-#~ msgid "Macro pattern list"
-#~ msgstr "მაკრო შაბლონების სია"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "<b>Auto Completion</b>"
-#~ msgstr "<b>ავტო დასრულება</b>"
-
-#~ msgid "<b>Colors</b>"
-#~ msgstr "<b>ფერები</b>"
-
-#~ msgid "<b>Size</b>"
-#~ msgstr "<b> ზომა</b>"
-
-#~ msgid "Add New Macro"
-#~ msgstr "ახალი მაკროს დამატება"
-
-#~ msgid "Co_mmand:"
-#~ msgstr "ბრძა_ნება:"
-
-#~ msgid "Command Line Preferences"
-#~ msgstr "ბრძანების ველის პარამეტრები"
-
-#~ msgid "Command line _background:"
-#~ msgstr "_ბრძანების ველის ფონი:"
-
-#~ msgid "Command line _foreground:"
-#~ msgstr "ბრძანების ვ_ელის ფერი:"
-
-#~ msgid "E_nable history-based auto completion"
-#~ msgstr "ისტორიაზე დაფუძნებული სიტყვების ავტოშესრულების ჩართვა"
-
-#~ msgid "Macros"
-#~ msgstr "მაკროსები"
-
-#~ msgid "Pick a color"
-#~ msgstr "ფერის ამორჩევა"
-
-#~ msgid "_Add Macro..."
-#~ msgstr "დ_ამატება მაკრო..."
-
-#~ msgid "_Delete Macro"
-#~ msgstr "მაკროს წ_აშლა"
-
-#~ msgid "_Macros:"
-#~ msgstr "_მაკროსები:"
-
-#~ msgid "_Pattern:"
-#~ msgstr "_შაბლონი:"
-
-#~ msgid "_Use default theme colors"
-#~ msgstr "ნაგ_ულისხმევი ფერების სქემის გამოყენება"
-
-#~ msgid "_Width:"
-#~ msgstr "_სიგანე:"
-
-#~ msgid "pixels"
-#~ msgstr "პიქსელი"
-
-#~ msgid ""
-#~ "Attempt to autocomplete a command from the history of commands entered."
-#~ msgstr "ბრძანებების ავტოშესრულება ბრძანების ხაზის ისტორიის გამოყენებით. "
-
-#~ msgid "Background color, blue component"
-#~ msgstr "ფონის ფერი, ცისფერი კომპონენტი"
-
-#~ msgid "Background color, green component"
-#~ msgstr "ფონის ფერი, მწვანე კომპონენტი"
-
-#~ msgid "Background color, red component"
-#~ msgstr "ფონის ფერი, წითელი კომპონენტი"
-
-#~ msgid "Foreground color, blue component"
-#~ msgstr "ზედაპირის ფერი, ცისფერი კომპონენტი"
-
-#~ msgid "Foreground color, green component"
-#~ msgstr "ზედაპირის ფერი, მწვანე კომპონენტი"
-
-#~ msgid "Foreground color, red component"
-#~ msgstr "ზედაპირის ფერი, წითელი კომპონენტი"
-
-#~ msgid "History list"
-#~ msgstr "ისტორიის სია"
-
-#~ msgid "List of MateConfValue entries containing strings for history entries."
-#~ msgstr ""
-#~ "MateConfValue-ის ელემენტების სია, რომლებიც ისტორიის ჩანაწერების სტრიქონებს "
-#~ "შეცავენ."
-
-#~ msgid "Perform history autocompletion"
-#~ msgstr "ავტოშესრულება ბრძანებათა ისტორიის მიხედვით"
-
-#~ msgid "Show a frame surrounding the applet."
-#~ msgstr "აპლეტის გარშემო ჩარჩოს ჩვენება."
-
-#~ msgid "Show a handle so the applet can be detached from the panel."
-#~ msgstr "სახელურის ჩვენება ისე რომ აპლეტის პანელიდან მოშორება შეიძლებოდეს."
-
-#~ msgid "Show frame"
-#~ msgstr "ჩარჩოს ჩვენება"
-
-#~ msgid "Show handle"
-#~ msgstr "სახელურის ჩვენება"
-
-#~ msgid "The blue component of the background color."
-#~ msgstr "ფონის ფერის ცისფერი კომპონენტი."
-
-#~ msgid "The blue component of the foreground color."
-#~ msgstr "ზედაპირის ფერის ცისფერი კომპონენტი."
-
-#~ msgid "The green component of the background color."
-#~ msgstr "ფონის ფერის მწვანე კომპონენტი."
-
-#~ msgid "The green component of the foreground color."
-#~ msgstr "ზედაპირის ფერის მწვანე კომპონენტი."
-
-#~ msgid "The red component of the background color."
-#~ msgstr "ფონის ფერის წითელი კომპონენტი."
-
-#~ msgid "The red component of the foreground color."
-#~ msgstr "ზედაპირის ფერის წითელი კომპონენტი."
-
-#~ msgid ""
-#~ "This per-applet key is deprecated in favour of the global key, /schemas/"
-#~ "apps/mini-commander-global/macro_patterns."
-#~ msgstr ""
-#~ "მოცემული ინდივიდუალური გასაღები მოძველდა, მის მაგივრად გამოიყენება "
-#~ "გლობალური გასაღები /schemas/apps/mini-commander-global/macro_pattern"
-
-#~ msgid "Use the default theme colors"
-#~ msgstr "ნაგულისხმევი გაფორმების ფერების გამოყენება"
-
-#~ msgid "Use theme colors instead of custom ones."
-#~ msgstr "საკუთარი ფერების მაგივრად გამოიყენე გაფორმების თემის ფერები."
-
-#~ msgid "Width"
-#~ msgstr "სიგანე"
-
-#~ msgid "Width of the applet"
-#~ msgstr "აპლეტის სიგანე"
-
-#~ msgid "Browser"
-#~ msgstr "ბროუზერი"
-
-#~ msgid "Click this button to start the browser"
-#~ msgstr "აქ დააწკაპეთ ბროუზერის გაშვებისთვის"
-
-#~ msgid "History"
-#~ msgstr "ისტორია"
-
-#~ msgid "Click this button for the list of previous commands"
-#~ msgstr "აქ დააწკაპეთ ადრე გაშვებული ბრძანებების სიის მისაღებად"
-
-#~ msgid "Command line has been disabled by your system administrator"
-#~ msgstr "ბრძანების ველი გათიშულია თქვენი სისტემის ადმინისტრატორის მიერ"
-
-#~ msgid "Mini-Commander applet"
-#~ msgstr "აპლეტი \"ბრძანების ველი\""
-
-#~ msgid "This applet adds a command line to the panel"
-#~ msgstr "მოცემული აპლეტი ამატებს პანელზე ბრძანების ველს"
-
-#~ msgid "You must specify a pattern"
-#~ msgstr "საჭიროა შაბლონის მითითება"
-
-#~ msgid "You must specify a pattern and a command"
-#~ msgstr "საჭიროა შაბლონის და ბრძანების მითითება"
-
-#~ msgid "You must specify a command"
-#~ msgstr "საჭიროა ბრძანების მითითება"
-
-#~ msgid "You may not specify duplicate patterns"
-#~ msgstr "შეუძლებელია ორი იგივე სახელის მქონე შაბლონის მითითება"
-
-#~ msgid "Pattern"
-#~ msgstr "შაბლონი"
-
-#~ msgid "Command"
-#~ msgstr "ბრძანება"
-
-#~ msgid "Adjust the sound volume"
-#~ msgstr "ხმის მარეგულირებელი აპლეტი"
-
-#~ msgid "Volume Control"
-#~ msgstr "ხმის კონტროლი"
-
-#~ msgid "Mu_te"
-#~ msgstr "ხმის გათიშვა"
-
-#~ msgid "_Open Volume Control"
-#~ msgstr "ხმის კ_ონტროლის გახსნა"
-
-#~ msgid ""
-#~ "The volume control did not find any elements and/or devices to control. "
-#~ "This means either that you don't have the right GStreamer plugins "
-#~ "installed, or that you don't have a sound card configured."
-#~ msgstr ""
-#~ "ხმის კონტროლმა ვერ შეძლო ხმის მოწყობილობების პოვნა. ეს აგრეთვე ნიშნავს "
-#~ "რომ თქვენ არასწორი GStreamer-ის მოდული გიყენიათ, ან თქვენი ხმის ბარათი "
-#~ "გაუმართავია."
-
-#~ msgid ""
-#~ "You can remove the volume control from the panel by right-clicking the "
-#~ "speaker icon on the panel and selecting \"Remove From Panel\" from the "
-#~ "menu."
-#~ msgstr ""
-#~ "თქვენ შეგიძლიათ ხმის კონტროლის პანელიდან მოშორება, მარჯვენა წკაპით, "
-#~ "ამოირჩიეთ \"პანელიდან მოშორება\" მენიუდან."
-
-#~ msgid "Failed to start Volume Control: %s"
-#~ msgstr "ვერ განხორციელდა ხმის კონტროლის გაშვება: %s"
-
-#~ msgid "%s: muted"
-#~ msgstr "%s: გაჩუმებულია"
-
-#~ msgid "%s: %d%%"
-#~ msgstr "%s: %d%%"
-
-#~ msgid "Failed to display help: %s"
-#~ msgstr "ვერ განხორციელდა დახმარების გვერდის გამოჩენა: %s"
-
-#~ msgid "Volume control for your MATE Panel."
-#~ msgstr "ხმის მარეგულირებელი თქვენი MATE პანელისთვის."
-
-#~ msgid "Using GStreamer 0.10."
-#~ msgstr "ვიყენებ GStreamer 0.10."
-
-#~ msgid "Using GStreamer 0.8."
-#~ msgstr "ვიყენებ GStreamer 0.8."
-
-#~ msgid "Volume Applet"
-#~ msgstr "ხმის მარეგულირებელი აპლეტი"
-
-#~ msgid "+"
-#~ msgstr "+"
-
-#~ msgid "-"
-#~ msgstr "-"
-
-#~ msgid "Unknown Volume Control %d"
-#~ msgstr "უცნობი ხმის მარეგულირებელი %d"
-
-#~ msgid "Channel controlled by applet. Only for OSS setups"
-#~ msgstr "აპლეტის მიერ კონტროლირებადი არხი. მხოლოდ OSS რეგულაციისთვის"
-
-#~ msgid "Saved mute state"
-#~ msgstr "გამოთიშული ხმის მდგომარეობა"
-
-#~ msgid "Saved volume to restore on startup"
-#~ msgstr "ხმის პარამეტრების შენახვა მომავალი ჩართვისთვის"
-
-#~ msgid "Volume Control Preferences"
-#~ msgstr "ხმის მარეგულირებელის პარამეტრები"
-
-#~ msgid "Select the device and track to control."
-#~ msgstr "ამოირჩიეთ მოწყობილობა და არხი რეგულირებისთვის."
-
-#~ msgid "Activate and monitor a dial-up network connection"
-#~ msgstr "რთავს dial-up კავშირის მონიტორს"
-
-#~ msgid "Modem Monitor"
-#~ msgstr "მოდემის მონიტორი"
-
-#~ msgid "_Activate"
-#~ msgstr "გააქ_ტიურება"
-
-#~ msgid "_Deactivate"
-#~ msgstr "_დეაქტივაცია"
-
-#~ msgid "_Properties"
-#~ msgstr "_პარამეტრები"
-
-#~ msgid "Connection active, but could not get connection time"
-#~ msgstr ""
-#~ "კავშირი დამყარებულია, ამის და მიუხედავად შეუძლებელია ჩართვის დროის "
-#~ "განსაზღვრა."
-
-#~ msgid "Time connected: %.1d:%.2d"
-#~ msgstr "დაკავშირების ხანგრძლივობა: %.1d:%.2d"
-
-#~ msgid "Not connected"
-#~ msgstr "დაკავშირებული არ არის"
-
-#~ msgid ""
-#~ "To connect to your Internet service provider, you need administrator "
-#~ "privileges"
-#~ msgstr ""
-#~ "ინტერნეტ სერვისის პროვაიდერთან დაკავშირებისთვის საჭიროა ადმინისტრატორის "
-#~ "უფლებების ქონა"
-
-#~ msgid ""
-#~ "To disconnect from your Internet service provider, you need administrator "
-#~ "privileges"
-#~ msgstr ""
-#~ "ინტერნეტ სერვისის პროვაიდერთან კავშირის გაწყვეტისთვის საჭიროა "
-#~ "ადმინისტრატორის უფლებების ქონა"
-
-#~ msgid "The entered password is invalid"
-#~ msgstr "შეყვანილი პაროლი მცდარია"
-
-#~ msgid ""
-#~ "Check that you have typed it correctly and that you haven't activated the "
-#~ "\"caps lock\" key"
-#~ msgstr ""
-#~ "დარწმუნდით რომ პაროლი სწორედ იქნა შეყვანილი და \"caps lock\" ღილაკი "
-#~ "გამოთიშულია"
-
-#~ msgid "Do you want to connect?"
-#~ msgstr "გნებავთ დაკავშირება?"
-
-#~ msgid "Do you want to disconnect?"
-#~ msgstr "გნებავთ კავშირის გაწყვეტა?"
-
-#~ msgid "C_onnect"
-#~ msgstr "და_კავშირება"
-
-#~ msgid "_Disconnect"
-#~ msgstr "_გათიშვა"
-
-#~ msgid "Could not launch network configuration tool"
-#~ msgstr "შეუძლებელია ქსელის კონფიგურაციის ხელსაწყოს გაშვება"
-
-#~ msgid ""
-#~ "Check that it's installed in the correct path and that it has the correct "
-#~ "permissions"
-#~ msgstr "დარწმუნდით რომ ის ჩადგმულია და სწორი უფლებები გააჩნია"
-
-#~ msgid "Applet for activating and monitoring a dial-up network connection."
-#~ msgstr "აპლეტი რომელიც რთავს და თვალყურს ადევნებს dial-up კავშირს."
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Connecting with Internet Service "
-#~ "Provider</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\"> მიმდინარეობს ინტერნეტ პროვაიდერთან "
-#~ "დაკავშირება</span>"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Root password required</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">საჭიროა root-ის პაროლი</span>"
-
-#~ msgid "Enter password"
-#~ msgstr "შეიყვანეთ პაროლი"
-
-#~ msgid "Password:"
-#~ msgstr "პაროლი:"
-
-#~ msgid "A system load indicator"
-#~ msgstr "სისტემის ჩატვირთვის ინდიკატორი"
-
-#~ msgid "System Monitor"
-#~ msgstr "სისტემის მონიტორი"
-
-#~ msgid "_Open System Monitor"
-#~ msgstr "სისტემის მ_ონიტორის ჩართვა"
-
-#~ msgid ""
-#~ "A system load monitor capable of displaying graphs for CPU, ram, and swap "
-#~ "space use, plus network traffic."
-#~ msgstr ""
-#~ "სისტემის დატვირთვის მაჩვენებელი, რომელსაც შეუძლია გრაფიკის სახით "
-#~ "გამოსახოს პროცესორის ან ქსელის ტრაფიკის დატვირთვა და ამასთანავე ram და "
-#~ "swap მეხსიერებების ტევადობა."
-
-#~ msgid "There was an error executing '%s': %s"
-#~ msgstr "გაშვებისას დაიშვა შეცდომა '%s': %s"
-
-#~ msgid "Processor"
-#~ msgstr "პროცესორი"
-
-#~ msgid "Memory"
-#~ msgstr "მეხსიერება"
-
-#~ msgid "Network"
-#~ msgstr "ქსელი"
-
-#~ msgid "Swap Space"
-#~ msgstr "Swap სივრცე"
-
-#~ msgid "Load Average"
-#~ msgstr "საშუალო დატვირთვა"
-
-#~ msgid "Disk"
-#~ msgstr "დისკი"
-
-#~ msgid ""
-#~ "%s:\n"
-#~ "%u%% in use by programs\n"
-#~ "%u%% in use as cache"
-#~ msgstr ""
-#~ "%s:\n"
-#~ "%u%% იყენებენ პროგრამები\n"
-#~ "%u%% გამოიყენება კეშის სახით"
-
-#~ msgid "The system load average is %0.02f"
-#~ msgstr "სისტემის საშუალო დატვირთულობა %0.02f-ის ტოლია"
-
-#~ msgid ""
-#~ "%s:\n"
-#~ "%u%% in use"
-#~ msgid_plural ""
-#~ "%s:\n"
-#~ "%u%% in use"
-#~ msgstr[0] ""
-#~ "%s:\n"
-#~ "%u%% გამოყენებაშია"
-#~ msgstr[1] "s n u დუ"
-
-#~ msgid "CPU Load"
-#~ msgstr "CPU დატვირთვა"
-
-#~ msgid "Memory Load"
-#~ msgstr "მეხსიერების დატვირთვა"
-
-#~ msgid "Net Load"
-#~ msgstr "ნეტის ჩატვირთვა"
-
-#~ msgid "Swap Load"
-#~ msgstr "Swap დატვრთვა"
-
-#~ msgid "Disk Load"
-#~ msgstr "დისკის დატვირთვა"
-
-#~ msgid "Applet refresh rate in milliseconds"
-#~ msgstr "აპლეტი განახლების სიხშირე მილიწამებში"
-
-#~ msgid "Background color for disk load graph"
-#~ msgstr "დისკის დატვირთვის მაჩვენებელი გრაფიკის ფონის ფერი"
-
-#~ msgid "CPU graph background color"
-#~ msgstr "პროცესორის დატვირთვის მაჩვენებელი გრაფიკის ფონის ფერი"
-
-#~ msgid "Enable CPU load graph"
-#~ msgstr "პროცესორის დატვირთვის გრაფიკის ჩართვა"
-
-#~ msgid "Enable disk load graph"
-#~ msgstr "დისკის დატვირთვის გრაფიკის ჩართვა"
-
-#~ msgid "Enable load average graph"
-#~ msgstr "საერთო დატვირთვის გრაფიკის ჩართვა"
-
-#~ msgid "Enable memory load graph"
-#~ msgstr "მეხსიერების დატვირთვის გრაფიკის ჩართვა"
-
-#~ msgid "Enable network load graph"
-#~ msgstr "ქსელის დატვირთვის გრაფიკის ჩართვა"
-
-#~ msgid "Enable swap load graph"
-#~ msgstr "Swap მეხსიერების დატვირთვის ჩართვა"
-
-#~ msgid ""
-#~ "For horizontal panels, the width of the graphs in pixels. For vertical "
-#~ "panels, this is the height of the graphs."
-#~ msgstr ""
-#~ "ჰორიზონტალური პანელისთვის - გრაფიკის სიგანე პიქსელებში. ვერტიკალური "
-#~ "პანელებისთვის ეს არის გრაფიკის სიმაღლე."
-
-#~ msgid "Graph color for Ethernet network activity"
-#~ msgstr "Ethernet ქსელის აქტივობის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for PLIP network activity"
-#~ msgstr "PLIP ქსელის აქტივობის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for SLIP network activity"
-#~ msgstr "SLIP ქსელის აქტივობის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for buffer memory"
-#~ msgstr "ბუფერული მეხსიერების მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for cached memory"
-#~ msgstr "ქეშირებული მეხსიერების მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for disk read"
-#~ msgstr "დისკის კითხვის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for disk write"
-#~ msgstr "დისკზე ჩაწერის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for iowait related CPU activity"
-#~ msgstr ""
-#~ "iowait-ის გათვალისწინებით პროცესორის აქტივობის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for load average"
-#~ msgstr "საერთო დატვირთვის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for nice-related CPU activity"
-#~ msgstr ""
-#~ "პრიორიტეტის გათვალისწინებით პროცესორის დატვირთვის მაჩვენებელი გრაფიკის "
-#~ "ფერი"
-
-#~ msgid "Graph color for other network usage"
-#~ msgstr "ქსელის სხვაგვარი დატვირთვის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for shared memory"
-#~ msgstr "საზიარო მეხსიერების მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for system-related CPU activity"
-#~ msgstr "პროცესორის სისტემური დატვირთვის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for user-related CPU activity"
-#~ msgstr "მომხმარებლის მიერ პროცესორის დატვირთვის მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for user-related memory usage"
-#~ msgstr "მომხმარებლის მიერ მეხსიერების დაკავების მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph color for user-related swap usage"
-#~ msgstr ""
-#~ "მომხმარებლის მიერ swap მეხსიერების დაკავების მაჩვენებელი გრაფიკის ფერი"
-
-#~ msgid "Graph size"
-#~ msgstr "გრაფიკის ზომა"
-
-#~ msgid "Load graph background color"
-#~ msgstr "სისტემის დატვირთვის მაჩვენებელი გრაფიკის ფონის ფერი"
-
-#~ msgid "Memory graph background color"
-#~ msgstr "მეხსიერების დაკავებულობის მაჩვენებელი გრაფიკის ფონის ფერი"
-
-#~ msgid "Network graph background color"
-#~ msgstr "ქსელის დატვირთვის მაჩვენებელი გრაფიკის ფონის ფერი"
-
-#~ msgid "Swap graph background color"
-#~ msgstr "swap მეხსიერების დაკავებულობის მაჩვენებელი გრაფიკის ფონის ფერი"
-
-#~ msgid "Monitored Resources"
-#~ msgstr "კონტროლირებული რესურსები"
-
-#~ msgid "_Processor"
-#~ msgstr "_პროცესორი"
-
-#~ msgid "_Memory"
-#~ msgstr "მეხსიე_რება"
-
-#~ msgid "_Network"
-#~ msgstr "_ქსელი"
-
-#~ msgid "S_wap Space"
-#~ msgstr "swap ტევადობა"
-
-#~ msgid "_Load"
-#~ msgstr "_ჩატვირთვა"
-
-#~ msgid "_Harddisk"
-#~ msgstr "_მყარი დისკი"
-
-#~ msgid "Options"
-#~ msgstr "პარამეტრები"
-
-#~ msgid "System m_onitor width: "
-#~ msgstr "ს_ისტემის მონიტორის სიგანე"
-
-#~ msgid "System m_onitor height: "
-#~ msgstr "სისტ_ემის მონიტორის სიმაღლე"
-
-#~ msgid "Sys_tem monitor update interval: "
-#~ msgstr "სისტემის მონიტორის განახლების ინტერვალი: "
-
-#~ msgid "milliseconds"
-#~ msgstr "მილიწამები"
-
-#~ msgid "Colors"
-#~ msgstr "ფერები"
-
-#~ msgid "_User"
-#~ msgstr "_მომხმარებელი"
-
-#~ msgid "S_ystem"
-#~ msgstr "ს_ისტემა"
-
-#~ msgid "N_ice"
-#~ msgstr "პრ_იორიტეტი"
-
-#~ msgid "I_OWait"
-#~ msgstr "I_OWait"
-
-#~ msgid "I_dle"
-#~ msgstr "უმოქმედო"
-
-#~ msgid "Sh_ared"
-#~ msgstr "გ_აზიარებული"
-
-#~ msgid "_Buffers"
-#~ msgstr "_ბუფერები"
-
-#~ msgid "Cach_ed"
-#~ msgstr "კ_ეშირებული"
-
-#~ msgid "F_ree"
-#~ msgstr "თავის_უფალი"
-
-#~ msgid "_SLIP"
-#~ msgstr "_SLIP"
-
-#~ msgid "PL_IP"
-#~ msgstr "PL_IP"
-
-#~ msgid "_Ethernet"
-#~ msgstr "_Ethernet"
-
-#~ msgid "Othe_r"
-#~ msgstr "სხვ_ა"
-
-#~ msgid "_Background"
-#~ msgstr "_ფონი"
-
-#~ msgid "_Used"
-#~ msgstr "_გამოყენებულია"
-
-#~ msgid "_Free"
-#~ msgstr "_თავისუფალი"
-
-#~ msgid "Load"
-#~ msgstr "ჩატვირთვა"
-
-#~ msgid "_Average"
-#~ msgstr "ს_აშუალო"
-
-#~ msgid "Harddisk"
-#~ msgstr "მყარი დისკი"
-
-#~ msgid "_Read"
-#~ msgstr "_კითხვა"
-
-#~ msgid "_Write"
-#~ msgstr "_ჩაწერა"
-
-#~ msgid "System Monitor Preferences"
-#~ msgstr "სისტემის მონიტორის პარამეტრები"
-
-#~ msgid "CD Player (Deprecated)"
-#~ msgstr "CD გამშვები (მოძველებული)"
-
-#~ msgid "Panel applet for playing audio CDs"
-#~ msgstr "აუდიო დისკების დამკვრელი პანელ აპლეტი"
-
-#~ msgid "Alert you when new mail arrives"
-#~ msgstr "გაფრთხილება ახალი ფოსტის მიღების შემთხვევაში"
-
-#~ msgid "Inbox Monitor (Deprecated)"
-#~ msgstr "შემავალი ფოსტის მონიტორი (მოძველებული)"
-
-#~ msgid "Factory for deprecating applets"
-#~ msgstr "მოძველებული აპლეტების ფაბრიკა"
-
-#~ msgid "Null Applet Factory"
-#~ msgstr "ნულოვანი აპლეტის ფაბრიკა"
-
-#~ msgid "Monitor the quality of a wireless network link"
-#~ msgstr "უკაბელო ქსელის ხარისხის მონიტორი"
-
-#~ msgid "Wireless Link Monitor"
-#~ msgstr "უკაბელო კავშირის მონიტორი"
-
-#~ msgid "Some panel items are no longer available"
-#~ msgstr "ზოგიერთი პანელური აპლეტი აღარ არის ხელმისაწვდომი"
-
-#~ msgid ""
-#~ "One or more panel items (also referred to as applets) are no longer "
-#~ "available in the MATE desktop."
-#~ msgstr ""
-#~ "ზოგიერთი პანელური აპლეტი აღარ არის ხელმისაწვდომი MATE სამუშაო გარემოში."
-
-#~ msgid "These items will now be removed from your configuration:"
-#~ msgstr "მიმდინარე ელემენტი ამოიღება თქვენი კონფიგურაციიდან:"
-
-#~ msgid "You will not receive this message again."
-#~ msgstr "თქვენ აღარ იხილავთ ამ შეტყობინებას ხელახლა."
-
-#~ msgid "Tomboy (ne Stickynotes)"
-#~ msgstr "ტომბოი (წებოვანი შენიშვნების)"
-
-#~ msgid "Tomboy (transparent upgrade from stickynotes)"
-#~ msgstr "ტომბოი (stickynotes-ის გამჭვირვალე განახლება)"
-
-#~ msgid "Create, view, and manage sticky notes on the desktop"
-#~ msgstr "წებოვანი შენიშვნების შექმნა, მართვა თქვენი სამუშაო გარემოსთვის"
-
-#~ msgid "Sticky Notes"
-#~ msgstr "წებოვანი შენიშვნები"
-
-#~ msgid "Sticky Notes Applet Factory"
-#~ msgstr "მისამაგრებელი შენიშვნების აპლეტის ქარხანა"
-
-#~ msgid "Hi_de Notes"
-#~ msgstr "შენ_იშვნების დამალვა"
-
-#~ msgid "_Delete Notes"
-#~ msgstr "შ_ენიშვნები წაშლა"
-
-#~ msgid "_Lock Notes"
-#~ msgstr "შენიშვნების დაბ_ლოკვა"
-
-#~ msgid "_New Note"
-#~ msgstr "_ახალი შენიშვნა"
-
-#~ msgid "This note is locked."
-#~ msgstr "მოცემული შენიშვნა დაბლოკილია."
-
-#~ msgid "This note is unlocked."
-#~ msgstr "მოცემული შენიშვნა გახსნილია."
-
-#~ msgid "    Font C_olor:"
-#~ msgstr "    შრიფტის ფერი:"
-
-#~ msgid "    Font Co_lor:"
-#~ msgstr "    შრიფტის ფ_ერი:"
-
-#~ msgid "    Note C_olor:"
-#~ msgstr "    შენიშვნის ფ_ერი:"
-
-#~ msgid "    Note _Color:"
-#~ msgstr "    შენიშვნის ფერ_ი:"
-
-#~ msgid "    _Font:"
-#~ msgstr "    _შრიფტი:"
-
-#~ msgid "<b>Behavior</b>"
-#~ msgstr "<b>ქცევა</b>"
-
-#~ msgid "<b>Default Note Properties</b>"
-#~ msgstr "<b>შენიშვნის ნაგულისხმევი პარამეტრები</b>"
-
-#~ msgid ""
-#~ "<b>Delete all sticky notes?</b>\n"
-#~ "\n"
-#~ "This cannot be undone."
-#~ msgstr ""
-#~ "<b>წავშალო ყველა წებოვანი შენიშვნა?</b>\n"
-#~ "\n"
-#~ "უკან დაბრუნება შეუძლებელი გახდება."
-
-#~ msgid ""
-#~ "<b>Delete this sticky note?</b>\n"
-#~ "\n"
-#~ "This cannot be undone."
-#~ msgstr ""
-#~ "<b>წავშალო მოცემული წებოვანი შენიშვნა?</b>\n"
-#~ "\n"
-#~ "უკან დაბრუნება შეუძლებელი გახდება."
-
-#~ msgid "<b>Properties</b>"
-#~ msgstr "<b>პარამეტრები</b>"
-
-#~ msgid "Choose a base color to use for all sticky notes"
-#~ msgstr "წებოვანი შენიშვნების ძირითადი საერთო ფერის ამორჩევა"
-
-#~ msgid "Choose a color for the note"
-#~ msgstr "შენიშვნისთვის ფერის ამორჩევა"
-
-#~ msgid "Choose a font for the note"
-#~ msgstr "შენიშვნისთვის შრიფტის ამორჩევა"
-
-#~ msgid "Choose a font to use for all sticky notes"
-#~ msgstr "ყველა შენიშვნისთვის გამოსაყენებელი შრიფტის ამორჩევა"
-
-#~ msgid "Choose if notes are visible on all workspaces"
-#~ msgstr "შენიშვნების ჩვენება ყველა სამუშაო მაგიდაზე"
-
-#~ msgid "Choose if the default style is forced on all notes"
-#~ msgstr "ნაგულისხმევი სტილის გამოყენება ყველა შენიშვნისთვის"
-
-#~ msgid "Close note"
-#~ msgstr "შენიშვნის დახურვა"
-
-#~ msgid "Force _default color and font on notes"
-#~ msgstr "ნაგულისხმევი შრიფტის და ფერის გამოყენების ძალ_დატანება"
-
-#~ msgid "H_eight:"
-#~ msgstr "სიმაღლ_ე:"
-
-#~ msgid "Lock/Unlock note"
-#~ msgstr "ბლოკის მოხსნა/დადება"
-
-#~ msgid "Pick a color for the sticky note"
-#~ msgstr "შენიშვნისთვის ფერის ამორჩევა"
-
-#~ msgid "Pick a default sticky note color"
-#~ msgstr "შენიშვნისთვის საწყისი ფერის ამორჩევა"
-
-#~ msgid "Pick a default sticky note font"
-#~ msgstr "შენიშვნისთვის საწყისი შრიფტის ამორჩევა"
-
-#~ msgid "Pick a font for the sticky note"
-#~ msgstr "შენიშვნის შრიფტის ამორჩევა"
-
-#~ msgid "Resize note"
-#~ msgstr "შენიშვნის ფურცლის ზომის შეცვლა"
-
-#~ msgid "Specify a title for the note"
-#~ msgstr "შენიშვნის სათაურის მითითება"
-
-#~ msgid "Specify the default height (in pixels) of new notes"
-#~ msgstr "შენიშვნისთვის ნაგულისხმევი სიმაღლის (პიქსელებში) მითება"
-
-#~ msgid "Specify the default width (in pixels) of new notes"
-#~ msgstr "შენიშვნისთვის ნაგულისხმევი სიგანის (პიქსელებში) მითება"
-
-#~ msgid "Sticky Note"
-#~ msgstr "წებოვანი შენიშვნა"
-
-#~ msgid "Sticky Note Properties"
-#~ msgstr "წებოვანი შენიშვნის პარამეტრები"
-
-#~ msgid "Sticky Notes Preferences"
-#~ msgstr "წებოვანი შენიშვნების პარამეტრები"
-
-#~ msgid "Use co_lor from the system theme"
-#~ msgstr "სისტემის გაფ_ორმების თემის ფერების გამოყენება"
-
-#~ msgid "Use default co_lor"
-#~ msgstr "გამ_ოყენება ნაგულისხმევი ფერი"
-
-#~ msgid "Use default fo_nt"
-#~ msgstr "_ნაგულისხმევი შრიფტის გამოყენება"
-
-#~ msgid "Use fo_nt from the system theme"
-#~ msgstr "სისტემის გაფორმების თემიდან შრიფ_ტის გამოყენება"
-
-#~ msgid "_Delete All"
-#~ msgstr "_ყველას წაშლა"
-
-#~ msgid "_Delete Note..."
-#~ msgstr "_შენიშვნის წაშლა..."
-
-#~ msgid "_Lock Note"
-#~ msgstr "შენიშვნის დაბ_ლოკვა"
-
-#~ msgid "_Put notes on all workspaces"
-#~ msgstr "შენიშვნე_ბის ყველა სამუშაო მაგიდაზე მიწებება"
-
-#~ msgid "_Title:"
-#~ msgstr "_სათაური:"
-
-#~ msgid "Autosave timeout in minutes"
-#~ msgstr "დაყოვნების დროის ავტოშენახვა წუთებში"
-
-#~ msgid ""
-#~ "By default, sticky notes are given the current date as the title when "
-#~ "they are created. This format is used; anything that can be parsed by "
-#~ "strftime() is valid."
-#~ msgstr ""
-#~ "ნაგულისხმევია ის რომ, შენიშვნები მათი შექმნისთანავე თარიღდებიან და "
-#~ "გამოიყენება strftime() ფუნქცია."
-
-#~ msgid "Date format of note's title"
-#~ msgstr "შენიშვნების სათაურში თარიღის ფორმატი"
-
-#~ msgid "Default color for font"
-#~ msgstr "ნაგულისხმევი ფერი შრიფტისათვის"
-
-#~ msgid "Default color for new notes"
-#~ msgstr "ნაგულისხმევი ფერი ახალი შენიშვნებისათვის"
-
-#~ msgid ""
-#~ "Default color for new sticky notes. This should be in html hex "
-#~ "specification, for example \"#30FF50\"."
-#~ msgstr ""
-#~ "ნაგულისხმევი ფერი ახალი შენიშვნებისათვის. ფერი უნდა შეესაბამებოდეს html-"
-#~ "ის თექვსმეტობით სპეციფიკაციას, მაგალითად \"#30FF50\"."
-
-#~ msgid ""
-#~ "Default font color for new sticky notes. This should be in html hex "
-#~ "specification, for example \"#000000\"."
-#~ msgstr ""
-#~ "ნაგულისხმევი ფერი ახალი შენიშვნებისათვის. ფერი უნდა შეესაბამებოდეს html-"
-#~ "ის თექვსმეტობით სპეციფიკაციას, მაგალითად \"#000000\"."
-
-#~ msgid "Default font for new notes"
-#~ msgstr "ნაგულისხმევი შრიფტი ახალი შენიშვნებებისთვის"
-
-#~ msgid ""
-#~ "Default font for new sticky notes. This should be a Pango Font Name, for "
-#~ "example \"Sans Italic 10\""
-#~ msgstr ""
-#~ "ნაგულისხმევი შრიფტი ახალი შენიშვნებისთვის. შრიფტის დასახელება უნდა იყოს "
-#~ "Pango ფორმატში, მაგალითად \"Sans Italic 10\""
-
-#~ msgid "Default height for new notes"
-#~ msgstr "ნაგულისხმევი სიმაღლე ახალი შენიშვნებებისთვის"
-
-#~ msgid "Default height for new sticky notes in pixels."
-#~ msgstr "ნაგულისხმევი სიმაღლე ახალი წებოვანი შენიშვნებებისთვის პიქსელებში."
-
-#~ msgid "Default width for new notes"
-#~ msgstr "ნაგულისხმევი სიგანე ახალი შენიშვნებებისთვის"
-
-#~ msgid "Default width for new sticky notes in pixels."
-#~ msgstr "ნაგულისხმევი სიგანე ახალი წებოვანი შენიშვნებებისთვის პიქსელებში."
-
-#~ msgid "Empty notes are always deleted without confirmation"
-#~ msgstr "ცარიელი შენიშვნა წაიშლება ყოველგვარი გაფრთხილების გარეშე"
-
-#~ msgid ""
-#~ "Every time the specified number of minutes pass, the sticky notes are "
-#~ "automatically saved."
-#~ msgstr ""
-#~ "წებოვანი შენიშვნები ავტომატურად შეინახებიან მიცემული დროის ინტერვალის "
-#~ "შემთხვევაში(წუთებში)."
-
-#~ msgid ""
-#~ "If this option is disabled, a custom color can be used as the default "
-#~ "color for all sticky notes."
-#~ msgstr ""
-#~ "თუ მოცემული გასაღები ამორთულია, მომხმარებლის მიერ შეყვანილი ფერი შეიძლება "
-#~ "იქნას გამოყენებული ყველა წებოვანი შენიშვნებისთვის."
-
-#~ msgid ""
-#~ "If this option is disabled, a custom font can be used as the default font "
-#~ "for all sticky notes."
-#~ msgstr ""
-#~ "თუ მოცემული გასაღები ამორთულია, მომხმარებლის მიერ ამორჩეული შრიფტი "
-#~ "შეიძლება იქნას გამოყენებული ყველა წებოვანი შენიშვნებისთვის."
-
-#~ msgid ""
-#~ "If this option is enabled, the custom colors and fonts that have been "
-#~ "assigned to individual notes will be ignored."
-#~ msgstr ""
-#~ "თუ მოცემული გასაღები ჩართულია, მომხმარებლის მიერ ამორჩეული ფერი და შრიფტი "
-#~ "დაიგნორირდებიან და არ იქნებიან გამოყენებული."
-
-#~ msgid "Specifies whether the sticky notes are locked (non-editable) or not."
-#~ msgstr ""
-#~ "მიუთითებს თუ სად იქნება მიმაგრებული (არ არის რედაქტირებადი) წებოვანი "
-#~ "შენიშვნა."
-
-#~ msgid ""
-#~ "Specifies whether the sticky notes are visible on ALL workspaces on the "
-#~ "desktop, or not."
-#~ msgstr ""
-#~ "მიუთითებს,იყონ თუ არა ხილულ მდგომარეობაში წებოვანი შენიშვნები ყველა "
-#~ "სამუშაო გარემოში."
-
-#~ msgid "Sticky notes' locked state"
-#~ msgstr "მიმაგრებული წებოვანი შენიშვნების მდგომარეობა"
-
-#~ msgid "Sticky notes' workspace stickyness"
-#~ msgstr "შენიშვნების სამუშაო გარემოებებში წებოვანება"
-
-#~ msgid "Whether to ask for confirmation when deleting a note"
-#~ msgstr "კითხვის დასმა შენიშვნის წაშლის სურვილის შემთხვევაში"
-
-#~ msgid "Whether to force the default color and font on all notes"
-#~ msgstr "ნაგულისხმევი ფერის და შრიფტის გამოყენება ყველა შენიშვნებისთვის"
-
-#~ msgid "Whether to use the default system color"
-#~ msgstr "ნაგულისხმევი სისტემის ფერის გამოყენება"
-
-#~ msgid "Whether to use the default system font"
-#~ msgstr "ნაგულისხმევი სისტემური შრიფტის გამოყენება"
-
-#~ msgid "%d note"
-#~ msgid_plural "%d notes"
-#~ msgstr[0] "%d შენიშვნა"
-#~ msgstr[1] "შენიშვნა"
-
-#~ msgid "Show sticky notes"
-#~ msgstr "წებოვანი შენიშვნების ჩვენება"
-
-#~ msgid "Sticky Notes for the MATE Desktop Environment"
-#~ msgstr "MATE სამუშაო გარსის წებოვანი მისამაგრებელი შენიშვნები"
-
-#~ msgid "Go to Trash"
-#~ msgstr "სანაგვე ყუთისკენ გადასვლა"
-
-#~ msgid "Trash"
-#~ msgstr "სანაგვე ყუთი"
-
-#~ msgid "_Empty Trash"
-#~ msgstr "_სანაგვე ყუთის დაცარიელება"
-
-#~ msgid "_Open"
-#~ msgstr "_გახსნა"
-
-#~ msgid "Unable to find the Trash directory: %s"
-#~ msgstr "ვერ ვპოულობ სანაგვე ყუთის დასტას: %s"
-
-#~ msgid "No Items in Trash"
-#~ msgstr "სანაგვე ყუთი ცარიელია"
-
-#~ msgid "%d Item in Trash"
-#~ msgid_plural "%d Items in Trash"
-#~ msgstr[0] "%d ელემენტი სანაგვე ყუთში"
-
-#~ msgid "Removing item %s of %s"
-#~ msgstr "ვაშორებ %s ელემენტს %s-დან"
-
-#~ msgid "<i>Removing: %s</i>"
-#~ msgstr "<i>ვშლი: %s</i>"
-
-#~ msgid "Empty all of the items from the trash?"
-#~ msgstr "მოვაშორო ყველა ობიექტი სანაგვე ყუთიდან?"
-
-#~ msgid ""
-#~ "If you choose to empty the trash, all items in it will be permanently "
-#~ "lost. Please note that you can also delete them separately."
-#~ msgstr ""
-#~ "მონაცემების სანაგვე ყუთიდან მოშორების შემთხვევაში, თქვენ მათ სამუდამოდ "
-#~ "დაკარგავთ. ამის გარდა შესაძლებელია მათი სათითაოდ წაშლა."
-
-#~ msgid ""
-#~ "Error while spawning Caja:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "დაიშვა შეცდომა ნაუტილუსის გაშვებისას:\n"
-#~ "%s"
-
-#~ msgid "Trash Applet"
-#~ msgstr "ნაგვის ყუთი აპლეტი"
-
-#~ msgid ""
-#~ "A MATE trash bin that lives in your panel. You can use it to view the "
-#~ "trash or drag and drop items into the trash."
-#~ msgstr ""
-#~ "MATE გარსის სანაგვე ყუთი რომელიც არსებობს თქვენს პანელზე. თქვენ "
-#~ "შეგიძლიათ მისი დათვალიერება ან მასში რაიმე ელემენტების გადაგდება."
-
-#~ msgid "Delete Immediately?"
-#~ msgstr "მყისვე წავშალო?"
-
-#~ msgid "Cannot move items to trash, do you want to delete them immediately?"
-#~ msgstr ""
-#~ "შეუძლებელია ელემენტების სანაგვე ყუთში გადატანა, გნებავთ მათი სამუდამოდ "
-#~ "წაშლა?"
-
-#~ msgid ""
-#~ "Cannot move some items to trash, do you want to delete these immediately?"
-#~ msgstr ""
-#~ "შეუძლებელია ზოგიერთი ელემენტის სანაგვე ყუთში გადატანა, გნებავთ მათი "
-#~ "საბოლოო წაშლა?"
-
-#~ msgid ""
-#~ "Unable to move to trash:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "შეუძლებელია სანაგვე ყუთში გადატანა:\n"
-#~ "%s"
-
-#~ msgid "<b>From:</b>"
-#~ msgstr "<b>ვისგან:</b>"
-
-#~ msgid "<big><b>Emptying the Trash</b></big>"
-#~ msgstr "<big><b>მიმდინარეობს სანაგვე ყუთის დაცარიელება</b></big>"
-
-#~ msgid "Emptying the Trash"
-#~ msgstr "ვასუფთავებ სანაგვე ყუთს"

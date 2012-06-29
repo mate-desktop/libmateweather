@@ -1,23 +1,26 @@
-# Swedish messages for mate-applets.
-# Copyright (C) 1998-2009 Free Software Foundation, Inc.
-# Martin Wahlen <mva@sbbs.se>, 1998.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Andreas Hyden <a.hyden@cyberpoint.se>, 2000.
 # Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
-# Martin Norbäck <d95mback@dtek.chalmers.se>, 2000, 2001.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
-#
+# Martin Norbäck <d95mback@dtek.chalmers.se>, 2000, 2001.
+# Martin Wahlen <mva@sbbs.se>, 1998.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-09 17:33+0100\n"
-"PO-Revision-Date: 2009-08-13 09:57+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:19+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -29,14 +32,13 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "Stockholm (Arlanda)"
 
-# ESSA = Stockholm (Arlanda)
-#
 #. TRANSLATOR: Change this to the code of your default location that
 #. * corresponds to the DEFAULT_LOCATION name you put above. This is
 #. * normally a four-letter (ICAO) code and can be found in
@@ -47,14 +49,13 @@ msgstr "Stockholm (Arlanda)"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "ESSA"
 
-# Arlanda har ingen zon i Locations, så jag låter detta vara tomt.
-#
 #. TRANSLATOR: Change this to the zone of your default location that
 #. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
 #. * Normally, US and Canada locations have zones while the rest do not.
@@ -65,14 +66,13 @@ msgstr "ESSA"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr " "
 
-# Arlanda har ingen radar i Locations, så jag låter detta vara tomt.
-#
 #. TRANSLATOR: Change this to the radar of your default location that
 #. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
 #. * Normally, US and Canada locations have radar names while the rest do
@@ -84,14 +84,13 @@ msgstr " "
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr " "
 
-# 59-39N 017-57E = Stockholm (Arlanda)
-#
 #. TRANSLATOR: Change this to the coordinates of your default location
 #. * that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
 #. * above. Check
@@ -103,14 +102,17 @@ msgstr " "
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "59-39N 017-57E"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "Standard"
 
@@ -149,8 +151,6 @@ msgstr "engelska mil/h"
 msgid "knots"
 msgstr "knop"
 
-# http://sv.wikipedia.org/Beauforts_skala
-#
 #. translators: wind speed
 #: ../libmateweather/mateweather-prefs.c:55
 msgid "Beaufort scale"
@@ -203,36 +203,32 @@ msgstr "mi"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "m/s"
 
-# http://www.smhi.se/sgn0102/n0202/lufttryc.htm
-# SMHI använder hPa.
-#
 #. TRANSLATOR: This is the default unit to use for atmospheric pressure.
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "hPa"
 
-# http://www.smhi.se/kund_t/sikt.htm
-# Knepigt -- km verkar användas för goda siktförhållanden, medan m för
-# dåliga siktförhållanden. Jag använder dock km som verkar användas i
-# tabeller: http://www.smhi.se/weather/kustobs/kustobstabell.htm
-#
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "km"
 
@@ -244,25 +240,19 @@ msgstr "Greenwich Mean Time"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"En tre-siffrig kod för hämtning av radarkartor från weather.com. Koden kan "
-"hittas i http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "En tre-siffrig kod för hämtning av radarkartor från weather.com. Koden kan hittas i http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"En unik zon för staden som kan hittas i http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "En unik zon för staden som kan hittas i http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr ""
-"Avgör huruvida panelprogrammet automatiskt uppdaterar sin väderstatistik "
-"eller inte."
+msgstr "Avgör huruvida panelprogrammet automatiskt uppdaterar sin väderstatistik eller inte."
 
 #: ../libmateweather/mateweather.schemas.in.h:9
 msgid "Display radar map"
@@ -278,18 +268,15 @@ msgstr "Hämta en radarkarta vid varje uppdatering."
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"Om denna nyckel är sann hämtas en radarkarta från den plats som anges av "
-"nyckeln \"radar\"."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "Om denna nyckel är sann hämtas en radarkarta från den plats som anges av nyckeln \"radar\"."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"Latitud och longitud för platsen uttryckt i DD-MM-SS[NS] DD-MM-SS [ÖV]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "Latitud och longitud för platsen uttryckt i DD-MM-SS[NS] DD-MM-SS [ÖV]."
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -301,11 +288,9 @@ msgstr "Närliggande stad"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"Närliggande större zon, såsom en huvudstad, som kan hittas i http://git."
-"gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -796,7 +781,7 @@ msgstr "Dammvirvlar i närheten"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
+#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a %d %b / %H.%M"
@@ -815,25 +800,29 @@ msgstr "Okänd observationstid"
 msgid "Unknown"
 msgstr "Okänd"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
@@ -883,7 +872,7 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
+#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
@@ -960,38 +949,3 @@ msgstr "%H.%M"
 #: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "Mottagning misslyckades"
-
-#~ msgid "%.1f ℉"
-#~ msgstr "%.1f ℉"
-
-#~ msgid "%d ℉"
-#~ msgstr "%d ℉"
-
-#~ msgid "%.1f ℃"
-#~ msgstr "%.1f ℃"
-
-#~ msgid "%d ℃"
-#~ msgstr "%d ℃"
-
-#~ msgid "_About"
-#~ msgstr "_Om"
-
-#~ msgid "_Help"
-#~ msgstr "_Hjälp"
-
-#~ msgid "_Keyboard Accessibility Preferences"
-#~ msgstr "Inställningar för _tangentbordstillgänglighet"
-
-#~ msgid "AccessX Status Applet Factory"
-#~ msgstr "Fabrik för AccessX-statuspanelprogrammet"
-
-#~ msgid "Keyboard Accessibility Status"
-#~ msgstr "Status för tangentbordstillgänglighet"
-
-#~ msgid "Keyboard Accessibility Status Applet Factory"
-#~ msgstr ""
-#~ "Fabrik för tillverkning av statuspanelprogram för "
-#~ "tangentbordstillgänglighet"
-
-#~ msgid "Shows the status of keyboard accessibility features"
-#~ msgstr "Visar statusen för funktionerna för tangentbordstillgänglighet"

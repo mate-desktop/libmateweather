@@ -1,28 +1,27 @@
-# translation of bn_IN.po to Bengali INDIA
-# Bengali India translation of mate-applets
-# This file is distributed under the same license as the mate-applets package.
-# Copyright (C) 2003, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
-#
-# Sayamindu Dasgupta <unmadindu@Softhome.net>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Mahay Alam Khan <makl10n@yahoo.com>, 2005.
-# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
-# Runa Bhattacharjee <runabh@gmail.com>, 2006, 2007.
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+# Runa Bhattacharjee <runabh@gmail.com>, 2006, 2007.
 # Runa Bhattacharjee <runab@redhat.com>, 2008, 2009.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Sayamindu Dasgupta <unmadindu@Softhome.net>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: bn_IN\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-applets&component=mateweather\n"
-"POT-Creation-Date: 2009-08-12 09:02+0000\n"
-"PO-Revision-Date: 2009-08-26 17:57+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:17+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: bn_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -34,14 +33,13 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "কলকাতা"
 
-# Source: http://www.world-airport-codes.com/bangladesh/zia-international-1906.html (the world airport code for Dhaka) - mak
-# sam: I thought it was ZIA :?
 #. TRANSLATOR: Change this to the code of your default location that
 #. * corresponds to the DEFAULT_LOCATION name you put above. This is
 #. * normally a four-letter (ICAO) code and can be found in
@@ -52,8 +50,9 @@ msgstr "কলকাতা"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "VECC"
@@ -68,8 +67,9 @@ msgstr "VECC"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "DEFAULT_ZONE"
@@ -85,8 +85,9 @@ msgstr "DEFAULT_ZONE"
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr "DEFAULT_RADAR"
@@ -102,16 +103,17 @@ msgstr "DEFAULT_RADAR"
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "22°33′N 88°20′E "
 
-# msgstr "এখানে ডিভাইস পথ ঠিক করুন"
-# msgstr "এখানে ডিভাইস পথ নির্ধারণ করুন"
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "ডিফল্ট"
 
@@ -145,13 +147,11 @@ msgstr "কিলোমিটার/ঘন্টা"
 msgid "mph"
 msgstr "mph"
 
-# msgstr "দেশের নাম ডাউনলোড করা হচ্ছে..."
 #. translators: knots (speed unit)
 #: ../libmateweather/mateweather-prefs.c:53
 msgid "knots"
 msgstr "নট"
 
-# Scale of wind speed ranging from 0 (calm) to 12 (hurricane). [Sir F. Beaufort, name of an admiral] I don't know the Beaufort pronounciation in Bangla - mak
 #. translators: wind speed
 #: ../libmateweather/mateweather-prefs.c:55
 msgid "Beaufort scale"
@@ -204,14 +204,16 @@ msgstr "মাইল"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "km/h"
 
@@ -219,13 +221,15 @@ msgstr "km/h"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "mmHg"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "m"
 
@@ -234,35 +238,22 @@ msgid "Greenwich Mean Time"
 msgstr "গ্রিনউইচ মিন সময়"
 
 #: ../libmateweather/mateweather.schemas.in.h:1
-#| msgid ""
-#| "A three-digit-long code for retrieving radar maps from weather.com, found "
-#| "from http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"weather.com থেকে রেডার ম্যাপ প্রাপ্ত করার জন্য ব্যবহৃত তিন-অক্ষর-বিশিষ্ট কোড।  "
-"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in থেকে "
-"প্রাপ্ত"
+msgstr "weather.com থেকে রেডার ম্যাপ প্রাপ্ত করার জন্য ব্যবহৃত তিন-অক্ষর-বিশিষ্ট কোড।  http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in থেকে প্রাপ্ত"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
-#| msgid ""
-#| "A unique zone for the city, as found from http://svn.gnome.org/viewvc/"
-#| "libmateweather/trunk/data/Locations.xml.in"
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"শহরের অঞ্চল চিহ্নকারী জোন, http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in থেকে প্রাপ্ত"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "শহরের অঞ্চল চিহ্নকারী জোন, http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in থেকে প্রাপ্ত"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr ""
-"অ্যাপ্লেট দ্বারা স্বয়ংক্রিয়রূপে আবহাওয়া সংক্রান্ত পরিসংখ্যান আপডেট করা হবে কিনা "
-"নির্ধারণ করতে ব্যবহৃত।"
+msgstr "অ্যাপ্লেট দ্বারা স্বয়ংক্রিয়রূপে আবহাওয়া সংক্রান্ত পরিসংখ্যান আপডেট করা হবে কিনা নির্ধারণ করতে ব্যবহৃত।"
 
 #: ../libmateweather/mateweather.schemas.in.h:9
 msgid "Display radar map"
@@ -278,17 +269,14 @@ msgstr "প্রতিটি আপডেটের সময় রেডার �
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"মান true (সত্য) হলে \"radar\"-কি দ্বারা চিহ্নিত অবস্থান থেকে রেডার ম্যাপ প্রাপ্ত "
-"করা হবে।"
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "মান true (সত্য) হলে \"radar\"-কি দ্বারা চিহ্নিত অবস্থান থেকে রেডার ম্যাপ প্রাপ্ত করা হবে।"
 
-# is it needed to translate DD-MM-SS[NS] DD-MM-SS[EW] into ডিগ্রী-মিনিট-সেকেন্ড[উত্তর-দক্ষিন] ডিগ্রী-মিনিট-সেকেন্ড[পূর্ব-পশ্চিম] - mak
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
 msgstr "DD-MM-SS[NS] DD-MM-SS[EW]'এ উল্লিখিত আপনার অবস্থানের অক্ষাংশ ও দ্রাঘিমা।"
 
 #: ../libmateweather/mateweather.schemas.in.h:14
@@ -300,15 +288,10 @@ msgid "Nearby city"
 msgstr "পার্শ্ববর্তী সহর"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
-#| msgid ""
-#| "Nearby major zone, such as a capital city, as found from http://svn.mate."
-#| "org/viewvc/libmateweather/trunk/data/Locations.xml.in"
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"পার্শ্ববর্তী গুরুত্বপূর্ণ অঞ্চল, উদাহরণস্বরূপ: রাজধানী শহর http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in থেকে প্রাপ্ত"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -413,99 +396,96 @@ msgstr "METAR তথ্য প্রাপ্ত করতে ব্যর্থ
 msgid "WeatherInfo missing location"
 msgstr "WeatherInfo-র অবস্থান অনুপস্থিত"
 
-#: ../libmateweather/weather.c:230
+#: ../libmateweather/weather.c:232
 msgid "Variable"
 msgstr "পরিবর্তনশীল"
 
-# msgstr "চলমান রাশি"
-# msgstr "পরিবর্তনশিল রাশি"
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North"
 msgstr "উত্তর"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
 msgstr "উত্তর - উত্তরপূর্ব"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "Northeast"
 msgstr "উত্তরপূর্ব"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
 msgstr "পূর্ব - উত্তরপূর্ব"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East"
 msgstr "পূর্ব"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East - Southeast"
 msgstr "পূর্ব - দক্ষিণপূর্ব"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "Southeast"
 msgstr "দক্ষিণপূর্ব"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "South - Southeast"
 msgstr "দক্ষিণ - দক্ষিণপূর্ব"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South"
 msgstr "দক্ষিণ"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South - Southwest"
 msgstr "দক্ষিণ - দক্ষিণপশ্চিম"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "Southwest"
 msgstr "দক্ষিণপশ্চিম"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "West - Southwest"
 msgstr "পশ্চিম - দক্ষিণপশ্চিম"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West"
 msgstr "পশ্চিম"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West - Northwest"
 msgstr "পশ্চিম - উত্তরপশ্চিম"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "Northwest"
 msgstr "উত্তরপশ্চিম"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "উত্তর - উত্তরপশ্চিম"
 
-#: ../libmateweather/weather.c:241 ../libmateweather/weather.c:258
-#: ../libmateweather/weather.c:330
+#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:332
 msgid "Invalid"
 msgstr "অবৈধ"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:249
 msgid "Clear Sky"
 msgstr "মেঘমুক্ত আকাশ"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:250
 msgid "Broken clouds"
 msgstr "বিচ্ছিন্ন মেঘ"
 
-# msgstr "ছঁেড়াখোড়া মেঘ"
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
 msgstr "বিচ্ছিন্ন মেঘ"
 
-#: ../libmateweather/weather.c:250
+#: ../libmateweather/weather.c:252
 msgid "Few clouds"
 msgstr "অল্প মেঘ"
 
-#: ../libmateweather/weather.c:251
+#: ../libmateweather/weather.c:253
 msgid "Overcast"
 msgstr "মেঘলা"
 
@@ -513,459 +493,460 @@ msgstr "মেঘলা"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:290 ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
 msgstr "বজ্রবিদ্যুতসহ ঝোড়ো বৃষ্টি"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Drizzle"
 msgstr "হালকা বৃষ্টি"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Light drizzle"
 msgstr "হালকা বৃষ্টিপাত"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
 msgstr "মাঝারি বৃষ্টিপাত"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
 msgstr "ভারি বৃষ্টিপাত"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
 msgstr "হিমশীতল হালকা বৃষ্টিপাত"
 
 #. RAIN
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain"
 msgstr "বৃষ্টি"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Light rain"
 msgstr "হালকা বৃষ্টি"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Moderate rain"
 msgstr "মাঝারি বৃষ্টি"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Heavy rain"
 msgstr "ভারি বৃষ্টিপাত"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain showers"
 msgstr "বৃষ্টিপাত"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Freezing rain"
 msgstr "হিমশীতল বৃষ্টিপাত"
 
 #. SNOW
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow"
 msgstr "তুষারপাত"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Light snow"
 msgstr "হালকা তুষারপাত"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Moderate snow"
 msgstr "মাঝারি তুষার"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Heavy snow"
 msgstr "ভারি তুষারপাত"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snowstorm"
 msgstr "তুষারঝড়"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
 msgstr "প্রবাহিত তুষার"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow showers"
 msgstr "তুষারযুক্ত বৃষ্টিপাত"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Drifting snow"
 msgstr "প্রবাহিত তুষার"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Snow grains"
 msgstr "বরফের দানা"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Light snow grains"
 msgstr "হালকা বরফের দানা"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
 msgstr "মাঝারি বরফের দানা"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
 msgstr "ভারি বরফের দানা"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:295
+#: ../libmateweather/weather.c:297
 msgid "Ice crystals"
 msgstr "বরফকুচি"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellets"
 msgstr "বরফের ছিটে"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
 msgstr "বরফের স্বল্প ছিটে"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
 msgstr "বরফের মাঝারি ছিটে"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
 msgstr "বরফের ভারি ছিটে"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
 msgstr "বরফের ছিটের ঝড়"
 
-# #মারা পড়ব !!
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
 msgstr "বরফের ছিটের বর্ষা"
 
 #. HAIL
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail"
 msgstr "শিল"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hailstorm"
 msgstr "শিলাবৃষ্টি"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail showers"
 msgstr "শিলাবৃষ্টি"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hail"
 msgstr "ছোট শিল"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
 msgstr "হালকা শিলাবৃষ্টি"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
 msgstr "হালকা শিলাবৃষ্টি"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:299
+#: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
 msgstr "অজানা বৃষ্টিপাত"
 
 #. MIST
-#: ../libmateweather/weather.c:300
+#: ../libmateweather/weather.c:302
 msgid "Mist"
 msgstr "কুয়াশা"
 
 #. FOG
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog"
 msgstr "কুয়াশা"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
 msgstr "কাছাকাছি কুয়াশা"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Shallow fog"
 msgstr "হালকা কুয়াশা"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Patches of fog"
 msgstr "বিচ্ছিন্ন কুয়াশা"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Partial fog"
 msgstr "আংশিক কুয়াশা"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Freezing fog"
 msgstr "ঠান্ডা কুয়াশা"
 
 #. SMOKE
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:304
 msgid "Smoke"
 msgstr "ধোঁয়া"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
 msgstr "আগ্নেয় ছাই"
 
 #. SAND
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Sand"
 msgstr "বালি"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Blowing sand"
 msgstr "প্রবাহিত বালুরাশি"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Drifting sand"
 msgstr "ভাসমান বালুরাশি"
 
 #. HAZE
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:307
 msgid "Haze"
 msgstr "হালকা কুয়াশা"
 
 #. SPRAY
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
 msgstr "প্রবাহিত জলের ছিটে"
 
 #. DUST
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Dust"
 msgstr "ধুলো"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Blowing dust"
 msgstr "প্রবাহিত ধুলো"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Drifting dust"
 msgstr "ভাসমান ধুলো"
 
 #. SQUALL
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:310
 msgid "Squall"
 msgstr "দমকা ঝড়"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm"
 msgstr "মরুঝড়"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
 msgstr "পার্শ্ববর্তী অঞ্চলে ধুলিঝড়"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
 msgstr "ভারি মরুঝড়"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm"
 msgstr "ধুলিঝড়"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
 msgstr "পার্শবর্তী অঞ্চলে ধুলিঝড়"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
 msgstr "ভারি ধুলিঝড়"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
 msgstr "ফানেল আকারের মেঘ"
 
 #. TORNADO
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:314
 msgid "Tornado"
 msgstr "টোর্নাডো"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls"
 msgstr "ধুলোর ঘূর্ণি"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
 msgstr "পার্শ্ববর্তী অঞ্চলে চক্রাকার ধুলো"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
-#: ../libmateweather/weather.c:703
+#. 
+#: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
 
-#: ../libmateweather/weather.c:718
+#: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
 msgstr "তথ্য প্রাপ্তির সময় অজানা"
 
-#: ../libmateweather/weather.c:732 ../libmateweather/weather.c:783
-#: ../libmateweather/weather.c:797 ../libmateweather/weather.c:810
-#: ../libmateweather/weather.c:823 ../libmateweather/weather.c:836
-#: ../libmateweather/weather.c:854 ../libmateweather/weather.c:872
-#: ../libmateweather/weather.c:910 ../libmateweather/weather.c:926
-#: ../libmateweather/weather.c:949 ../libmateweather/weather.c:981
-#: ../libmateweather/weather.c:997 ../libmateweather/weather.c:1017
+#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
+#: ../libmateweather/weather.c:830 ../libmateweather/weather.c:843
+#: ../libmateweather/weather.c:861 ../libmateweather/weather.c:879
+#: ../libmateweather/weather.c:917 ../libmateweather/weather.c:933
+#: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
+#: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
 msgid "Unknown"
 msgstr "অজানা"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:754
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:757
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:763
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:766
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
 msgstr "%d °C"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:772
+#: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:775
+#: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:857
+#: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
-# msgstr "দেশের নাম ডাউনলোড করা হচ্ছে..."
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:885
+#: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f knots"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:889
+#: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f mph"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:893
+#: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f km/h"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:897
+#: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
-#: ../libmateweather/weather.c:903
+#. 
+#: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "Beaufort force %.1f"
 
-#: ../libmateweather/weather.c:928
+#: ../libmateweather/weather.c:935
 msgid "Calm"
 msgstr "শান্ত"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:932
+#: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:954
+#: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f inHg"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:958
+#: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f mmHg"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:962
+#: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f kPa"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:966
+#: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f hPa"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:970
+#: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f mb"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:974
+#: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f atm"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:1002
+#: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f miles"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:1006
+#: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f km"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:1010
+#: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
 msgstr "%.0fm"
 
-#: ../libmateweather/weather.c:1039 ../libmateweather/weather.c:1060
+#: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: ../libmateweather/weather.c:1119
+#: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "তথ্য প্রাপ্ত করতে ব্যর্থ"
-

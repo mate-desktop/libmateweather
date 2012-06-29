@@ -1,28 +1,24 @@
-# translation of libmateweather.master.or.po to Oriya
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
+# 
+# Translators:
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009, 2010.
 # Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006.
 # Subhransu Behera <sbehera@redhat.com>, 2006.
-# Manoj Kumar Giri <mgiri@redhat.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather.master.or\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-applets&component=mateweather\n"
-"POT-Creation-Date: 2010-03-26 14:23+0000\n"
-"PO-Revision-Date: 2010-05-11 20:56+0530\n"
-"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
-"Language-Team: Oriya <Translation-team-or@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:20+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: or\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -34,8 +30,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "DEFAULT_LOCATION"
@@ -50,8 +47,9 @@ msgstr "DEFAULT_LOCATION"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "DEFAULT_CODE"
@@ -66,8 +64,9 @@ msgstr "DEFAULT_CODE"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "DEFAULT_ZONE"
@@ -83,8 +82,9 @@ msgstr "DEFAULT_ZONE"
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr "DEFAULT_RADAR"
@@ -100,14 +100,17 @@ msgstr "DEFAULT_RADAR"
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "DEFAULT_COORDINATES"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ"
 
@@ -198,14 +201,16 @@ msgstr "mi"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "DEFAULT_TEMP_UNIT"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "DEFAULT_SPEED_UNIT"
 
@@ -213,13 +218,15 @@ msgstr "DEFAULT_SPEED_UNIT"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "DEFAULT_PRESSURE_UNIT"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "DEFAULT_DISTANCE_UNIT"
 
@@ -231,17 +238,13 @@ msgstr "ଗ୍ରୀନିଚ ମଧ୍ଯମ ସମୟ"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"ରାଡାର କାଢ଼ିବା ପାଇଁ ଗୋଟିଏ ତିନି ଅଙ୍କ ବିଶିଷ୍ଟ ସଂକେତ weather.com ରୁ ମ୍ୟାପ କରିଯାଇଥାଏ, http://"
-"git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ରୁ ମିଳିଥାଏ"
+msgstr "ରାଡାର କାଢ଼ିବା ପାଇଁ ଗୋଟିଏ ତିନି ଅଙ୍କ ବିଶିଷ୍ଟ ସଂକେତ weather.com ରୁ ମ୍ୟାପ କରିଯାଇଥାଏ, http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ରୁ ମିଳିଥାଏ"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ରୁ ମିଳିଥିବା "
-"ପରି, ସେହି ସହର ପାଇଁ ଗୋଟିଏ ଅନନ୍ୟ ଅଞ୍ଚଳ"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ରୁ ମିଳିଥିବା ପରି, ସେହି ସହର ପାଇଁ ଗୋଟିଏ ଅନନ୍ୟ ଅଞ୍ଚଳ"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
@@ -263,16 +266,14 @@ msgstr "ପ୍ରତି ଅଦ୍ଯତନରେ ଗୋଟିଏ ରାଡାର
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"ୟଦି ସତ୍ଯ ହୁଏ, ତେବେ \"ରଡାର\" କି ଦ୍ବାରା ନିଦ୍ଦିଷ୍ଟ ହୋଇଥିବା ଗୋଟିଏ ଅବସ୍ଥାନରୁ ଏକ ରଡାର ମ୍ଯାପକୁ "
-"ଉଦ୍ଧାର କର।"
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "ୟଦି ସତ୍ଯ ହୁଏ, ତେବେ \"ରଡାର\" କି ଦ୍ବାରା ନିଦ୍ଦିଷ୍ଟ ହୋଇଥିବା ଗୋଟିଏ ଅବସ୍ଥାନରୁ ଏକ ରଡାର ମ୍ଯାପକୁ ଉଦ୍ଧାର କର।"
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
 msgstr "ଆପଣଙ୍କର ଅବସ୍ଥାର ଅକ୍ଷାଂଶ ଏବଂ ଦ୍ରାଘିମା DD-MM-SS[NS] DD-MM-SS[EW] ରେ ପ୍ରକାଶିତ କରାୟାଏ।"
 
 #: ../libmateweather/mateweather.schemas.in.h:14
@@ -285,11 +286,9 @@ msgstr "ନିକଟବର୍ତ୍ତୀ ସହର"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ରୁ ମିଳିଥିବା ପରି,"
-"ନିକଟବର୍ତ୍ତୀ ମୂଖ୍ୟ ଅଞ୍ଚଳ, ଯେପରିକି ମୂକ୍ୟ ସହର"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -780,7 +779,7 @@ msgstr "ଆଖପାଖ ଅଞ୍ଚଳରେ ଖଣ୍ଡିଆଭୂତ"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
+#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
@@ -799,25 +798,29 @@ msgstr "ଅଜଣା ପର୍ଯ୍ଯବେକ୍ଷଣ ସମୟ"
 msgid "Unknown"
 msgstr "ଅଜଣା"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
@@ -867,7 +870,7 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
+#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
@@ -944,4 +947,3 @@ msgstr "%H:%M"
 #: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "ପୁନଃପ୍ରାପ୍ତି କରିବା ବିଫଳ ହେଲା"
-

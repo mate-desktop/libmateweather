@@ -1,33 +1,31 @@
-# Czech translation of libmateweather.
-# Copyright (C) 1999, 2003, 2006, 2007, 2008, 2009 the author(s) of libmateweather.
-# Copyright (C) 2003, 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
-# Copyright (C) 2008 Pavel Šefránek <ps@pjoul.cz>.
-# This file is distributed under the same license as the libmateweather package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # David Sauer <davids@penguin.cz> (David Šauer), 1999.
-# GIS <gis@academy.cas.cz>, 1999.
 # George Lebl <jirka@5z.com>, 2000, 2001.
-# Stanislav Brabec <utx@penguin.cz>, 2000, 2001.
+# GIS <gis@academy.cas.cz>, 1999.
+# Jakub Friedl <jfriedl@suse.cz>, 2006, 2007.
 # Michal Bukovjan <bukm@centrum.cz>, 2002, 2003.
 # Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005, 2006.
-# Petr Tomeš <ptomes@gmail.com>, 2006.
-# Jakub Friedl <jfriedl@suse.cz>, 2006, 2007.
 # Pavel Šefránek <ps@pjoul.cz>, 2008, 2009.
 # Petr Kovar <pknbe@volny.cz>, 2008, 2009.
-#
+# Petr Tomeš <ptomes@gmail.com>, 2006.
+# Stanislav Brabec <utx@penguin.cz>, 2000, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"applets&component=mateweather\n"
-"POT-Creation-Date: 2009-08-29 07:38+0000\n"
-"PO-Revision-Date: 2009-08-30 14:16+0100\n"
-"Last-Translator: Pavel Šefránek <pavel.sefranek@gmail.com>\n"
-"Language-Team: Czech <mate-cs-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:14+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/MATE/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -39,8 +37,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "Praha"
@@ -55,8 +54,9 @@ msgstr "Praha"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "LKPR"
@@ -71,8 +71,9 @@ msgstr "LKPR"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "------"
@@ -88,14 +89,13 @@ msgstr "------"
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr "---"
 
-# Hradčanské náměstí v Praze,
-# per http://astro.mff.cuni.cz/mira/sh/sh.php?rec=54326
 #. TRANSLATOR: Change this to the coordinates of your default location
 #. * that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
 #. * above. Check
@@ -107,14 +107,17 @@ msgstr "---"
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "50-05-20N 14-23-48E"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "Výchozí"
 
@@ -205,14 +208,16 @@ msgstr "mi"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "m/s"
 
@@ -220,13 +225,15 @@ msgstr "m/s"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "hPa"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "km"
 
@@ -238,17 +245,13 @@ msgstr "Greenwichský střední čas"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"Trojciferný kód satelitních snímků z weather.com, který můžete najít na "
-"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "Trojciferný kód satelitních snímků z weather.com, který můžete najít na http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"Unikátní kód pásma města, který můžete najít na http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "Unikátní kód pásma města, který můžete najít na http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
@@ -270,18 +273,15 @@ msgstr "Stáhnout radarovou mapu při každé aktualizaci."
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"Je-li \"true\", získat radarovou mapu z polohy určené klíčem \"radar\"."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "Je-li \"true\", získat radarovou mapu z polohy určené klíčem \"radar\"."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"Zeměpisná šířka a délka vaší polohy vyjádřená jako DD-MM-SS[NS] DD-MM-SS"
-"[EW], tj. stupeň-minuta-vteřina[sever-jih], resp. [východ-západ]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "Zeměpisná šířka a délka vaší polohy vyjádřená jako DD-MM-SS[NS] DD-MM-SS[EW], tj. stupeň-minuta-vteřina[sever-jih], resp. [východ-západ]."
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -293,11 +293,9 @@ msgstr "Blízké město"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"Kód pásma nejbližšího hlavního města, který můžete najít na http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -402,96 +400,96 @@ msgstr "Nelze získat data METAR: %d %s.\n"
 msgid "WeatherInfo missing location"
 msgstr "Chybí poloha WeatherInfo"
 
-#: ../libmateweather/weather.c:230
+#: ../libmateweather/weather.c:232
 msgid "Variable"
 msgstr "Proměnlivě"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North"
 msgstr "Sever"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
 msgstr "Sever - severovýchod"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "Northeast"
 msgstr "Severovýchod"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
 msgstr "Východ - severovýchod"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East"
 msgstr "Východ"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East - Southeast"
 msgstr "Východ - jihovýchod"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "Southeast"
 msgstr "Jihovýchod"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "South - Southeast"
 msgstr "Jih - jihovýchod"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South"
 msgstr "Jih"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South - Southwest"
 msgstr "Jih - jihozápad"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "Southwest"
 msgstr "Jihozápad"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "West - Southwest"
 msgstr "Západ - jihozápad"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West"
 msgstr "Západ"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West - Northwest"
 msgstr "Západ - severozápad"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "Northwest"
 msgstr "Severozápad"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "Sever - severozápad"
 
-#: ../libmateweather/weather.c:241 ../libmateweather/weather.c:258
-#: ../libmateweather/weather.c:330
+#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:332
 msgid "Invalid"
 msgstr "Neplatné"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:249
 msgid "Clear Sky"
 msgstr "Jasno"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:250
 msgid "Broken clouds"
 msgstr "Oblačno"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
 msgstr "Rozptýlená oblačnost"
 
-#: ../libmateweather/weather.c:250
+#: ../libmateweather/weather.c:252
 msgid "Few clouds"
 msgstr "Malá oblačnost"
 
-#: ../libmateweather/weather.c:251
+#: ../libmateweather/weather.c:253
 msgid "Overcast"
 msgstr "Zataženo"
 
@@ -499,469 +497,460 @@ msgstr "Zataženo"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:290 ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
 msgstr "Bouřka"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Drizzle"
 msgstr "Mrholení"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Light drizzle"
 msgstr "Lehké mrholení"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
 msgstr "Střední mrholení"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
 msgstr "Silné mrholení"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
 msgstr "Mrznoucí mrholení"
 
 #. RAIN
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain"
 msgstr "Déšť"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Light rain"
 msgstr "Mírný déšť"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Moderate rain"
 msgstr "Střední déšť"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Heavy rain"
 msgstr "Vydatný déšť"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain showers"
 msgstr "Přepršky"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Freezing rain"
 msgstr "Mrznoucí déšť"
 
 #. SNOW
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow"
 msgstr "Sníh"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Light snow"
 msgstr "Mírný sníh"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Moderate snow"
 msgstr "Střední sníh"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Heavy snow"
 msgstr "Vydatný sníh"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snowstorm"
 msgstr "Sněhová bouře"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
 msgstr "Sněhová bouře s větrem"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow showers"
 msgstr "Sněhové přeháňky"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Drifting snow"
 msgstr "Ustupující sníh"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Snow grains"
 msgstr "Sněhové vločky"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Light snow grains"
 msgstr "Mírné sněhové vločky"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
 msgstr "Střední sněhové vločky"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
 msgstr "Silné sněhové vločky"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:295
+#: ../libmateweather/weather.c:297
 msgid "Ice crystals"
 msgstr "Ledové krystaly"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellets"
 msgstr "Kroupy"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
 msgstr "Řídké kroupy"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
 msgstr "Mírné kroupy"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
 msgstr "Husté kroupy"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
 msgstr "Krupová bouře"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
 msgstr "Krupové přeháňky"
 
 #. HAIL
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail"
 msgstr "Krupobití"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hailstorm"
 msgstr "Krupobití"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail showers"
 msgstr "Přepršky krupobití"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hail"
 msgstr "Malé kroupy"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
 msgstr "Malé krupobití"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
 msgstr "Přepršky malých krup"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:299
+#: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
 msgstr "Neznámé srážky"
 
 #. MIST
-#: ../libmateweather/weather.c:300
+#: ../libmateweather/weather.c:302
 msgid "Mist"
 msgstr "Opar"
 
 #. FOG
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog"
 msgstr "Mlha"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
 msgstr "Mlha v blízkosti"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Shallow fog"
 msgstr "Slabá mlha"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Patches of fog"
 msgstr "Místy mlha"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Partial fog"
 msgstr "Částečná mlha"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Freezing fog"
 msgstr "Mrznoucí mlha"
 
 #. SMOKE
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:304
 msgid "Smoke"
 msgstr "Kouř"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
 msgstr "Vulkanický popel"
 
 #. SAND
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Sand"
 msgstr "Písek"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Blowing sand"
 msgstr "Písek s větrem"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Drifting sand"
 msgstr "Ustupující písek"
 
 #. HAZE
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:307
 msgid "Haze"
 msgstr "Opar"
 
 #. SPRAY
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
 msgstr "Spršky s větrem"
 
 #. DUST
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Dust"
 msgstr "Prach"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Blowing dust"
 msgstr "Prach s větrem"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Drifting dust"
 msgstr "Ustupující prach"
 
 #. SQUALL
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:310
 msgid "Squall"
 msgstr "Hromobití"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm"
 msgstr "Písečná bouře"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
 msgstr "Písečná bouře v blízkosti"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
 msgstr "Silná písečná bouře"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm"
 msgstr "Prachová bouře"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
 msgstr "Prachová bouře v blízkosti"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
 msgstr "Silná prachová bouře"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
 msgstr "Nálevkovitý mrak"
 
 #. TORNADO
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:314
 msgid "Tornado"
 msgstr "Tornádo"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls"
 msgstr "Prachová smršť"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
 msgstr "Prachová smršť v blízkosti"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
-#: ../libmateweather/weather.c:703
+#. 
+#: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %d. %B, %H:%M"
 
-#: ../libmateweather/weather.c:718
+#: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
 msgstr "Neznámý čas pozorování"
 
-#: ../libmateweather/weather.c:732 ../libmateweather/weather.c:783
-#: ../libmateweather/weather.c:797 ../libmateweather/weather.c:810
-#: ../libmateweather/weather.c:823 ../libmateweather/weather.c:836
-#: ../libmateweather/weather.c:854 ../libmateweather/weather.c:872
-#: ../libmateweather/weather.c:910 ../libmateweather/weather.c:926
-#: ../libmateweather/weather.c:949 ../libmateweather/weather.c:981
-#: ../libmateweather/weather.c:997 ../libmateweather/weather.c:1017
+#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
+#: ../libmateweather/weather.c:830 ../libmateweather/weather.c:843
+#: ../libmateweather/weather.c:861 ../libmateweather/weather.c:879
+#: ../libmateweather/weather.c:917 ../libmateweather/weather.c:933
+#: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
+#: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
 msgid "Unknown"
 msgstr "Neznámé"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:754
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:757
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:763
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:766
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
 msgstr "%d °C"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:772
+#: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:775
+#: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:857
+#: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:885
+#: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f uzlů"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:889
+#: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f mph"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:893
+#: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f km/h"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:897
+#: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
-#: ../libmateweather/weather.c:903
+#. 
+#: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "Beaufortova síla %.1f"
 
-#: ../libmateweather/weather.c:928
+#: ../libmateweather/weather.c:935
 msgid "Calm"
 msgstr "Bezvětří"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:932
+#: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:954
+#: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f inHg"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:958
+#: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f mmHg"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:962
+#: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f kPa"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:966
+#: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f hPa"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:970
+#: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f mb"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:974
+#: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f atm"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:1002
+#: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f mil"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:1006
+#: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f km"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:1010
+#: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
 msgstr "%.0f m"
 
-#: ../libmateweather/weather.c:1039 ../libmateweather/weather.c:1060
+#: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: ../libmateweather/weather.c:1119
+#: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "Stahování selhalo"
-
-#~ msgid "%.1f ℉"
-#~ msgstr "%.1f ℉"
-
-#~ msgid "%d ℉"
-#~ msgstr "%d ℉"
-
-#~ msgid "%.1f ℃"
-#~ msgstr "%.1f ℃"
-
-#~ msgid "%d ℃"
-#~ msgstr "%d ℃"
-

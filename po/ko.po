@@ -1,22 +1,25 @@
-# ko.po -- Korean messages for libmateweather
-#
-# update by Young-Ho, Cha <ganadist@chollian.net>, 2001
-# update by ChiDeok, Hwang <hwang@mizi.co.kr>, 2001
-# GwanSun Back <backiss@kornet.net>, 2001
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Changwoo Ryu <cwryu@debian.org>, 1998, 2002-2006, 2007, 2008, 2009.
-#
+# GwanSun Back <backiss@kornet.net>, 2001.
+# update by ChiDeok, Hwang <hwang@mizi.co.kr>, 2001.
+# update by Young-Ho, Cha <ganadist@chollian.net>, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-20 09:30+0900\n"
-"PO-Revision-Date: 2009-09-20 09:31+0900\n"
-"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
-"Language-Team: MATE Korea <mate-kr-hackers@lists.kldp.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:19+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -28,8 +31,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "Seoul"
@@ -44,8 +48,9 @@ msgstr "Seoul"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "RKSL"
@@ -60,8 +65,9 @@ msgstr "RKSL"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "DEFAULT_ZONE"
@@ -77,8 +83,9 @@ msgstr "DEFAULT_ZONE"
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr "DEFAULT_RADAR"
@@ -94,14 +101,17 @@ msgstr "DEFAULT_RADAR"
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "37-34N 126-58E"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "기본값"
 
@@ -192,14 +202,16 @@ msgstr "마일"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "m/s"
 
@@ -207,13 +219,15 @@ msgstr "m/s"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "hPa"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "m"
 
@@ -229,8 +243,8 @@ msgstr "weather.com에서 레이더 지도를 가져올 3자리 숫자로 된 �
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr "도시의 구분되는 지역, http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in 안에 들어 있습니다"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
@@ -253,14 +267,14 @@ msgstr "업데이트할 때마다 레이더 지도 가져오기."
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
 msgstr "참이면, \"radar\" 키에서 시정한 위치에서 레이더 지도를 가져옵니다."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
 msgstr "위치의 위도와 경도는 DD-MM-SS[NS] DD-MM-SS[EW] 형태로 씁니다."
 
 #: ../libmateweather/mateweather.schemas.in.h:14
@@ -273,9 +287,9 @@ msgstr "가까운 도시"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr "가까이 있는 주요 지역 (예를 들어 수도), http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in 안에 들어 있습니다"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr ""
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -380,96 +394,96 @@ msgstr "METAR 데이터를 받는데 실패했습니다: %d %s.\n"
 msgid "WeatherInfo missing location"
 msgstr "WeatherInfo 위치가 없습니다"
 
-#: ../libmateweather/weather.c:230
+#: ../libmateweather/weather.c:232
 msgid "Variable"
 msgstr "가변"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North"
 msgstr "북"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
 msgstr "북북동"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "Northeast"
 msgstr "남동"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
 msgstr "동남동"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East"
 msgstr "동"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East - Southeast"
 msgstr "동남동"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "Southeast"
 msgstr "남동"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "South - Southeast"
 msgstr "남남동"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South"
 msgstr "남"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South - Southwest"
 msgstr "남남서"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "Southwest"
 msgstr "남서"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "West - Southwest"
 msgstr "서남서"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West"
 msgstr "서"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West - Northwest"
 msgstr "서북서"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "Northwest"
 msgstr "북서"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "북북서"
 
-#: ../libmateweather/weather.c:241 ../libmateweather/weather.c:258
-#: ../libmateweather/weather.c:330
+#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:332
 msgid "Invalid"
 msgstr "잘못됨"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:249
 msgid "Clear Sky"
 msgstr "구름 한 점 없는 맑은 하늘"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:250
 msgid "Broken clouds"
 msgstr "구름이 거의 없는 하늘"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
 msgstr "드문드문 구름이 낀 하늘"
 
-#: ../libmateweather/weather.c:250
+#: ../libmateweather/weather.c:252
 msgid "Few clouds"
 msgstr "약간의 구름이 낀 하늘"
 
-#: ../libmateweather/weather.c:251
+#: ../libmateweather/weather.c:253
 msgid "Overcast"
 msgstr "구름으로 뒤덮인 흐린 하늘"
 
@@ -477,468 +491,460 @@ msgstr "구름으로 뒤덮인 흐린 하늘"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:290 ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
 msgstr "벼락치는 폭풍"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Drizzle"
 msgstr "이슬비"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Light drizzle"
 msgstr "이슬비 약간"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
 msgstr "이슬비 보통"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
 msgstr "이슬비 많이"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
 msgstr "얼어붙는 이슬비"
 
 #. RAIN
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain"
 msgstr "비"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Light rain"
 msgstr "비 약간"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Moderate rain"
 msgstr "비 보통"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Heavy rain"
 msgstr "폭우"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain showers"
 msgstr "소나기"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Freezing rain"
 msgstr "얼어붙는 비"
 
 #. SNOW
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow"
 msgstr "눈"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Light snow"
 msgstr "눈 약간"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Moderate snow"
 msgstr "눈 보통"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Heavy snow"
 msgstr "폭설"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snowstorm"
 msgstr "눈보라"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
 msgstr "눈 날림"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow showers"
 msgstr "눈 소나기"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Drifting snow"
 msgstr "눈 떠 다님"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Snow grains"
 msgstr "눈 알갱이"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Light snow grains"
 msgstr "눈 알갱이 약간"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
 msgstr "눈 알갱이 보통"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
 msgstr "심한 눈 알갱이"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:295
+#: ../libmateweather/weather.c:297
 msgid "Ice crystals"
 msgstr "눈 결정"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellets"
 msgstr "눈덩이"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
 msgstr "눈덩이 약간"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
 msgstr "눈덩이 보통"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
 msgstr "눈덩이 많이"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
 msgstr "눈덩이 폭풍"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
 msgstr "눈덩이 소나기"
 
 #. HAIL
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail"
 msgstr "우박"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hailstorm"
 msgstr "우박 폭풍"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail showers"
 msgstr "우박 소나기"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hail"
 msgstr "작은 우박"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
 msgstr "작은 우박 폭풍"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
 msgstr "작은 우박 소나기"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:299
+#: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
 msgstr "강수(강설)량 알 수 없음"
 
 #. MIST
-#: ../libmateweather/weather.c:300
+#: ../libmateweather/weather.c:302
 msgid "Mist"
 msgstr "연무"
 
 #. FOG
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog"
 msgstr "안개"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
 msgstr "부근에 안개"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Shallow fog"
 msgstr "옅은 안개"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Patches of fog"
 msgstr "군데군데 안개"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Partial fog"
 msgstr "부분적인 안개"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Freezing fog"
 msgstr "얼어붙는 안개"
 
 #. SMOKE
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:304
 msgid "Smoke"
 msgstr "연기"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
 msgstr "화산재"
 
 #. SAND
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Sand"
 msgstr "모래"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Blowing sand"
 msgstr "모래 날림"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Drifting sand"
 msgstr "모래 떠 다님"
 
 #. HAZE
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:307
 msgid "Haze"
 msgstr "아지랑이"
 
 #. SPRAY
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
 msgstr "물안개 날림"
 
 #. DUST
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Dust"
 msgstr "먼지"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Blowing dust"
 msgstr "먼지 날림"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Drifting dust"
 msgstr "먼지 떠 다님"
 
 #. SQUALL
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:310
 msgid "Squall"
 msgstr "돌풍"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm"
 msgstr "모래 폭풍"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
 msgstr "부근에 모래 폭풍"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
 msgstr "심한 모래 폭풍"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm"
 msgstr "먼지 폭풍"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
 msgstr "부근에 먼지 폭풍"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
 msgstr "심한 먼지 폭풍"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
 msgstr "깔때기 구름"
 
 #. TORNADO
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:314
 msgid "Tornado"
 msgstr "토네이도"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls"
 msgstr "먼지 회오리"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
 msgstr "부근에 먼지 회오리"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
-#: ../libmateweather/weather.c:703
+#. 
+#: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%b %e일 (%a) / %H:%M"
 
-#: ../libmateweather/weather.c:718
+#: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
 msgstr "관측 시각 알 수 없음"
 
-#: ../libmateweather/weather.c:732 ../libmateweather/weather.c:783
-#: ../libmateweather/weather.c:797 ../libmateweather/weather.c:810
-#: ../libmateweather/weather.c:823 ../libmateweather/weather.c:836
-#: ../libmateweather/weather.c:854 ../libmateweather/weather.c:872
-#: ../libmateweather/weather.c:910 ../libmateweather/weather.c:926
-#: ../libmateweather/weather.c:949 ../libmateweather/weather.c:981
-#: ../libmateweather/weather.c:997 ../libmateweather/weather.c:1017
+#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
+#: ../libmateweather/weather.c:830 ../libmateweather/weather.c:843
+#: ../libmateweather/weather.c:861 ../libmateweather/weather.c:879
+#: ../libmateweather/weather.c:917 ../libmateweather/weather.c:933
+#: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
+#: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
 msgid "Unknown"
 msgstr "알 수 없음"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:754
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:757
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:763
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:766
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
 msgstr "%d °C"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:772
+#: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:775
+#: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:857
+#: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:885
+#: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f knots"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:889
+#: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f mph"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:893
+#: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f km/h"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:897
+#: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
-#: ../libmateweather/weather.c:903
+#. 
+#: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "뷰포트 등급 %.1f"
 
-#: ../libmateweather/weather.c:928
+#: ../libmateweather/weather.c:935
 msgid "Calm"
 msgstr "바람 없음"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:932
+#: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:954
+#: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f inHg"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:958
+#: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f mmHg"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:962
+#: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f kPa"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:966
+#: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f hPa"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:970
+#: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f mb"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:974
+#: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f기압"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:1002
+#: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f마일"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:1006
+#: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f km"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:1010
+#: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
 msgstr "%.0fm"
 
-#: ../libmateweather/weather.c:1039 ../libmateweather/weather.c:1060
+#: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: ../libmateweather/weather.c:1119
+#: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "가져오기 실패"
-
-#~ msgid "%.1f ℉"
-#~ msgstr "%.1f ℉"
-
-#~ msgid "%d ℉"
-#~ msgstr "%d ℉"
-
-#~ msgid "%.1f ℃"
-#~ msgstr "%.1f ℃"
-
-#~ msgid "%d ℃"
-#~ msgstr "%d ℃"

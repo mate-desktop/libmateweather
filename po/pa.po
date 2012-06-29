@@ -1,26 +1,24 @@
-# translation of mate-applets.HEAD.po to Punjabi
-# This file is distributed under the same license as the mate-applets.hi package.
-# Copyright (C) 2004 THE mate-applets'S COPYRIGHT HOLDER
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2008.
 # Amanpreet Singh Alam <amanliunx@netscapet.net>, 2004.
 # A S Alam <aalam@users.sf.net>, 2004, 2005, 2006, 2007, 2009.
-# Amanpreet Singh Alam <aalam@users.sf.net>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-applets.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=mate-applets&component=mateweather\n"
-"POT-Creation-Date: 2009-08-12 09:02+0000\n"
-"PO-Revision-Date: 2009-09-09 07:22+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:14+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
+"Language: pa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
@@ -32,8 +30,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "ਅੰਮ੍ਰਿਤਸਰ"
@@ -48,8 +47,9 @@ msgstr "ਅੰਮ੍ਰਿਤਸਰ"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "VIAR"
@@ -64,8 +64,9 @@ msgstr "VIAR"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr " "
@@ -81,8 +82,9 @@ msgstr " "
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr " "
@@ -98,14 +100,17 @@ msgstr " "
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "31-38N 074-52E"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "ਡਿਫਾਲਟ"
 
@@ -196,14 +201,16 @@ msgstr "mi"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "km/h"
 
@@ -211,13 +218,15 @@ msgstr "km/h"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "mmHg"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "km"
 
@@ -226,26 +235,16 @@ msgid "Greenwich Mean Time"
 msgstr "ਗਰੀਨਵਿਚ ਮੀਨ ਟਾਈਮ"
 
 #: ../libmateweather/mateweather.schemas.in.h:1
-#| msgid ""
-#| "A three-digit-long code for retrieving radar maps from weather.com, found "
-#| "from http://svn.gnome.org/viewvc/libmateweather/trunk/data/Locations.xml.in"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"weather.com ਤੋਂ ਰਾਡਾਰ ਨਕਸ਼ਾ ਲੈਣ ਲਈ ਤਿੰਨ-ਅੱਖਰਾਂ ਦਾ ਡਿਜ਼ੀਟਲ ਕੋਡ ਦਿਓ, ਜਿਸ ਨੂੰ http://git."
-"gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ਤੋਂ ਵੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+msgstr "weather.com ਤੋਂ ਰਾਡਾਰ ਨਕਸ਼ਾ ਲੈਣ ਲਈ ਤਿੰਨ-ਅੱਖਰਾਂ ਦਾ ਡਿਜ਼ੀਟਲ ਕੋਡ ਦਿਓ, ਜਿਸ ਨੂੰ http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ਤੋਂ ਵੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
-#| msgid ""
-#| "A unique zone for the city, as found from http://svn.gnome.org/viewvc/"
-#| "libmateweather/trunk/data/Locations.xml.in"
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"ਸ਼ਹਿਰ ਲਈ ਵਿਲੱਖਣ ਖੇਤਰ ਹੈ, ਜਿਸ ਨੂੰ http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in ਵਿੱਚ ਵੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "ਸ਼ਹਿਰ ਲਈ ਵਿਲੱਖਣ ਖੇਤਰ ਹੈ, ਜਿਸ ਨੂੰ http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in ਵਿੱਚ ਵੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
@@ -267,19 +266,15 @@ msgstr "ਹਰੇਕ ਅੱਪਡੇਟ ਲਈ ਰਾਡਾਰ-ਨਕਸ਼ਾ ਲ�
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"ਜੇਕਰ ਸੱਚ ਹੈ ਤਾਂ, ਰਾਡਾਰ-ਨਕਸ਼ਾ, ਉਥੋ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾਵੇਗਾ, ਜਿਥੋਂ ਕਿ \"ਰਾਡਾਰ\" ਕੁੰਜੀ ਦਿੱਤੀ "
-"ਜਾਵੇਗੀ।"
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "ਜੇਕਰ ਸੱਚ ਹੈ ਤਾਂ, ਰਾਡਾਰ-ਨਕਸ਼ਾ, ਉਥੋ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾਵੇਗਾ, ਜਿਥੋਂ ਕਿ \"ਰਾਡਾਰ\" ਕੁੰਜੀ ਦਿੱਤੀ ਜਾਵੇਗੀ।"
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਲਈ ਵਿਥਕਾਰ ਅਤੇ ਲੰਬਕਾਰ ਨੂੰ DD-MM-SS[NS] DD-MM-SS[EW] ਦੇ ਰੂਪ ਵਿੱਚ ਵੇਖਾਇਆ "
-"ਜਾਂਦਾ ਹੈ।"
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਲਈ ਵਿਥਕਾਰ ਅਤੇ ਲੰਬਕਾਰ ਨੂੰ DD-MM-SS[NS] DD-MM-SS[EW] ਦੇ ਰੂਪ ਵਿੱਚ ਵੇਖਾਇਆ ਜਾਂਦਾ ਹੈ।"
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -290,15 +285,10 @@ msgid "Nearby city"
 msgstr "ਨੇੜਲਾ ਸ਼ਹਿਰ"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
-#| msgid ""
-#| "Nearby major zone, such as a capital city, as found from http://svn.mate."
-#| "org/viewvc/libmateweather/trunk/data/Locations.xml.in"
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"ਨੇੜਲਾ ਵੱਡਾ ਖੇਤਰ, ਜਿਵੇਂ ਕਿ ਰਾਜਧਾਨੀ ਸ਼ਹਿਰ, http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in ਤੋਂ ਵੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -388,7 +378,6 @@ msgstr "ਮੌਸਮ ਟਿਕਾਣਾ ਜਾਣਕਾਰੀ ਹੈ।"
 msgid "Zone location"
 msgstr "ਖੇਤਰ ਟਿਕਾਣਾ"
 
-# mate-session/gsm-client-row.c:43
 #: ../libmateweather/timezone-menu.c:277
 msgctxt "timezone"
 msgid "Unknown"
@@ -404,96 +393,96 @@ msgstr "ਮੀਟਰ ਡਾਟਾ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿ�
 msgid "WeatherInfo missing location"
 msgstr "ਮੌਸਮ-ਜਾਣਕਾਰੀ ਟਿਕਾਣਾ ਉਪਲੱਬਧ ਨਹੀਂ"
 
-#: ../libmateweather/weather.c:230
+#: ../libmateweather/weather.c:232
 msgid "Variable"
 msgstr "ਮੁੱਲ"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North"
 msgstr "ਉੱਤਰ"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
 msgstr "ਉੱਤਰ - ਉੱਤਰ ਪੂਰਬ"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "Northeast"
 msgstr "ਉੱਤਰ ਪੂਰਬ"
 
-#: ../libmateweather/weather.c:231
+#: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
 msgstr "ਪੂਰਬ - ਉੱਤਰ ਪੂਰਬ"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East"
 msgstr "ਪੂਰਬ"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "East - Southeast"
 msgstr "ਪੂਰਬ - ਦੱਖਣ ਪੂਰਬ"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "Southeast"
 msgstr "ਦੱਖਣ ਪੂਰਬ"
 
-#: ../libmateweather/weather.c:232
+#: ../libmateweather/weather.c:234
 msgid "South - Southeast"
 msgstr "ਦੱਖਣ - ਦੱਖਣ ਪੂਰਬ"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South"
 msgstr "ਦੱਖਣ"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "South - Southwest"
 msgstr "ਦੱਖਣ - ਦੱਖਣ ਪੱਛਮ"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "Southwest"
 msgstr "ਦੱਖਣ ਪੱਛਮ"
 
-#: ../libmateweather/weather.c:233
+#: ../libmateweather/weather.c:235
 msgid "West - Southwest"
 msgstr "ਪੱਛਮ - ਦੱਖਣ ਪੱਛਮ"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West"
 msgstr "ਪੱਛਮ"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "West - Northwest"
 msgstr "ਪੱਛਮ - ਉੱਤਰ ਪੱਛਮ"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "Northwest"
 msgstr "ਉੱਤਰ ਪੱਛਮ"
 
-#: ../libmateweather/weather.c:234
+#: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "ਉੱਤਰ - ਉੱਤਰ ਪੱਛਮ"
 
-#: ../libmateweather/weather.c:241 ../libmateweather/weather.c:258
-#: ../libmateweather/weather.c:330
+#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:332
 msgid "Invalid"
 msgstr "ਗਲਤ"
 
-#: ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:249
 msgid "Clear Sky"
 msgstr "ਸਾਫ਼ ਆਸਮਾਨ"
 
-#: ../libmateweather/weather.c:248
+#: ../libmateweather/weather.c:250
 msgid "Broken clouds"
 msgstr "ਟੁਟਵੀਂ ਬੱਦਲਵਾਈ"
 
-#: ../libmateweather/weather.c:249
+#: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
 msgstr "ਖਿਲਰੇ ਬੱਦਲ"
 
-#: ../libmateweather/weather.c:250
+#: ../libmateweather/weather.c:252
 msgid "Few clouds"
 msgstr "ਹਲਕੀ ਬੱਦਲਵਾਈ"
 
-#: ../libmateweather/weather.c:251
+#: ../libmateweather/weather.c:253
 msgid "Overcast"
 msgstr "ਬੱਦਲਵਾਈ"
 
@@ -501,3040 +490,460 @@ msgstr "ਬੱਦਲਵਾਈ"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:290 ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
 msgstr "ਤੂਫਾਨ"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Drizzle"
 msgstr "ਬੂੰਦਾਬਾਂਦੀ"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Light drizzle"
 msgstr "ਹਲਕੀ ਬੂੰਦਾਬਾਂਦੀ"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
 msgstr "ਮੱਧਮ ਬੂੰਦਾਬਾਂਦੀ"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
 msgstr "ਭਾਰੀ ਬੂੰਦਾਬਾਂਦੀ"
 
-#: ../libmateweather/weather.c:291
+#: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
 msgstr "ਜਮਾਉ ਬੂੰਦਾਬਾਂਦੀ"
 
 #. RAIN
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain"
 msgstr "ਮੀਂਹ"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Light rain"
 msgstr "ਹਲਕਾ ਮੀਂਹ"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Moderate rain"
 msgstr "ਮੱਧਮ ਮੀਂਹ"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Heavy rain"
 msgstr "ਭਾਰੀ ਮੀਂਹ"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Rain showers"
 msgstr "ਫੁਹਾਰਾਂ (ਮੀਂਹ)"
 
-#: ../libmateweather/weather.c:292
+#: ../libmateweather/weather.c:294
 msgid "Freezing rain"
 msgstr "ਜਮਾਉ ਮੀਹ"
 
 #. SNOW
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow"
 msgstr "ਬਰਫ਼ਬਾਰੀ"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Light snow"
 msgstr "ਹਲਕੀ ਬਰਫ਼ਬਾਰੀ"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Moderate snow"
 msgstr "ਮੱਧਮ ਬਰਫ਼ਬਾਰੀ"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Heavy snow"
 msgstr "ਭਾਰੀ ਬਰਫ਼ਬਾਰੀ"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snowstorm"
 msgstr "ਬਰਫੀਲਾ ਤੂਫਾਨ"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
 msgstr "ਬਹੁਤ ਭਾਰੀ ਬਰਫ਼ਬਾਰੀ"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Snow showers"
 msgstr "ਫੁਹਾਰ (ਬਰਫ਼)"
 
-#: ../libmateweather/weather.c:293
+#: ../libmateweather/weather.c:295
 msgid "Drifting snow"
 msgstr "ਬਰਫ਼ਬਾਰੀ"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Snow grains"
 msgstr "ਬਰਫ਼ ਗੜੇਮਾਰ"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Light snow grains"
 msgstr "ਹਲਕੀ ਗੜ੍ਹੇਮਾਰ"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
 msgstr "ਮੱਧਮ ਗੜ੍ਹੇਮਾਰ"
 
-#: ../libmateweather/weather.c:294
+#: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
 msgstr "ਭਾਰੀ ਗੜੇਮਾਰ"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:295
+#: ../libmateweather/weather.c:297
 msgid "Ice crystals"
 msgstr "ਬਰਫ ਰਵੇ"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellets"
 msgstr "ਬਰਫ਼ ਦਾਣੇ"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
 msgstr "ਕੁਝ ਬਰਫ਼ ਦਾਣੇ"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
 msgstr "ਮੱਧਮ ਬਰਫ਼ ਦਾਣੇ"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
 msgstr "ਭਾਰੀ ਬਰਫ਼ ਦਾਣੇ"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
 msgstr "ਬਰਫ਼ ਤੂਫਾਨ"
 
-#: ../libmateweather/weather.c:296
+#: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
 msgstr "ਬਰਫ਼ ਫੁਹਾਰ"
 
 #. HAIL
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail"
 msgstr "ਗੜ੍ਹੇ"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hailstorm"
 msgstr "ਗੜਿਆਂ ਦਾ ਤੂਫ਼ਾਨ"
 
-#: ../libmateweather/weather.c:297
+#: ../libmateweather/weather.c:299
 msgid "Hail showers"
 msgstr "ਫੁਹਾਰ (ਗੜ੍ਹੇ)"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hail"
 msgstr "ਛੋਟੇ ਗੜ੍ਹੇ"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
 msgstr "ਛੋਟੇ ਗੜ੍ਹੇ (ਤੂਫਾਨ)"
 
-#: ../libmateweather/weather.c:298
+#: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
 msgstr "ਛੋਟੇ ਗੜ੍ਹੇ ਦੀ ਫੁਹਾਰ"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:299
+#: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
 msgstr "ਬੇਉਮੀਦ ਮੀਹ"
 
 #. MIST
-#: ../libmateweather/weather.c:300
+#: ../libmateweather/weather.c:302
 msgid "Mist"
 msgstr "ਕੋਹਰਾ"
 
 #. FOG
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog"
 msgstr "ਧੁੰਦ"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
 msgstr "ਦਿੱਖ ਵਿੱਚ ਧੁੰਦ"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Shallow fog"
 msgstr "ਹਲਕੀ ਧੁੰਦ"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Patches of fog"
 msgstr "ਧੁੰਦ ਦੇ ਸਮੂਹ"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Partial fog"
 msgstr "ਥੋੜੀ ਧੁੰਦ"
 
-#: ../libmateweather/weather.c:301
+#: ../libmateweather/weather.c:303
 msgid "Freezing fog"
 msgstr "ਬਹੁਤ ਧੁੰਦ"
 
 #. SMOKE
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:304
 msgid "Smoke"
 msgstr "ਧੁੰਦ"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
 msgstr "ਅੱਗ ਸੁਆਹ"
 
 #. SAND
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Sand"
 msgstr "ਮਿੱਟੀ"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Blowing sand"
 msgstr "ਵਗਦੀ ਮਿੱਟੀ"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:306
 msgid "Drifting sand"
 msgstr "ਭਾਰੀ ਮਿੱਟੀ"
 
 #. HAZE
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:307
 msgid "Haze"
 msgstr "ਘੱਟਾ"
 
 #. SPRAY
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
 msgstr "ਵਹਿਦੀ ਫੁਹਾਰ"
 
 #. DUST
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Dust"
 msgstr "ਘੱਟਾ"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Blowing dust"
 msgstr "ਵਗਦਾ ਘੱਟਾ"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:309
 msgid "Drifting dust"
 msgstr "ਭਾਰੀ ਘੱਟਾ"
 
 #. SQUALL
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:310
 msgid "Squall"
 msgstr "ਝੱਖੜ"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm"
 msgstr "ਮਿੱਟੀ ਦਾ ਤੂਫਾਨ"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
 msgstr "ਦਿੱਖ ਵਿੱਚ ਮਿੱਟੀ ਦਾ ਤੂਫਾਨ"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
 msgstr "ਭਾਰੀ ਮਿੱਟੀ ਦਾ ਤੂਫਾਨ"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm"
 msgstr "ਘੱਟਾ ਤੂਫਾਨ"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
 msgstr "ਦਿੱਖ ਵਿੱਚ ਘੱਟੇ ਦਾ ਤੂਫਾਨ"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
 msgstr "ਭਾਰੀ ਘੱਟੇ ਦਾ ਤੂਫਾਨ"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
 msgstr "ਧੂੰਆਂ ਬੱਦਲ"
 
 #. TORNADO
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:314
 msgid "Tornado"
 msgstr "ਝੱਖੜ"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls"
 msgstr "ਘੱਟੇ ਦੇ ਵਾਵਰੋਲੇ"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
 msgstr "ਦਿੱਖ ਵਿੱਚ ਘੱਟੇ ਦੇ ਵਾਵਰੋਲੇ"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
-#: ../libmateweather/weather.c:703
+#. 
+#: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %d %b / %H:%M"
 
-#: ../libmateweather/weather.c:718
+#: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
 msgstr "ਅਣਜਾਣ ਜਾਣਕਾਰੀ ਟਾਈਮ"
 
-# mate-session/gsm-client-row.c:43
-#: ../libmateweather/weather.c:732 ../libmateweather/weather.c:783
-#: ../libmateweather/weather.c:797 ../libmateweather/weather.c:810
-#: ../libmateweather/weather.c:823 ../libmateweather/weather.c:836
-#: ../libmateweather/weather.c:854 ../libmateweather/weather.c:872
-#: ../libmateweather/weather.c:910 ../libmateweather/weather.c:926
-#: ../libmateweather/weather.c:949 ../libmateweather/weather.c:981
-#: ../libmateweather/weather.c:997 ../libmateweather/weather.c:1017
+#: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
+#: ../libmateweather/weather.c:830 ../libmateweather/weather.c:843
+#: ../libmateweather/weather.c:861 ../libmateweather/weather.c:879
+#: ../libmateweather/weather.c:917 ../libmateweather/weather.c:933
+#: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
+#: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
 msgid "Unknown"
 msgstr "ਅਣਜਾਣ"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:754
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:757
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
+#: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:763
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:766
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
+#: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
 msgstr "%d °C"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:772
+#: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:775
+#: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:857
+#: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:885
+#: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f ਨਾਟ"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:889
+#: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f mph"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:893
+#: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f km/h"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:897
+#: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
-#: ../libmateweather/weather.c:903
+#. 
+#: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "Beaufort ਬਲ %.1f"
 
-#: ../libmateweather/weather.c:928
+#: ../libmateweather/weather.c:935
 msgid "Calm"
 msgstr "ਕੈਲਮ"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:932
+#: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:954
+#: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f inHg"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:958
+#: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f mmHg"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:962
+#: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f kPa"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:966
+#: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f hPa"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:970
+#: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f mb"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:974
+#: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f atm"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:1002
+#: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f ਮੀਲ"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:1006
+#: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f km"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:1010
+#: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
 msgstr "%.0fm"
 
-#: ../libmateweather/weather.c:1039 ../libmateweather/weather.c:1060
+#: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: ../libmateweather/weather.c:1119
+#: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
 msgstr "ਮੁੜ-ਪ੍ਰਾਪਤੀ ਫੇਲ੍ਹ"
-
-#~ msgid "%.1f ℉"
-#~ msgstr "%.1f ℉"
-
-#~ msgid "%d ℉"
-#~ msgstr "%d ℉"
-
-#~ msgid "%.1f ℃"
-#~ msgstr "%.1f ℃"
-
-#~ msgid "%d ℃"
-#~ msgstr "%d ℃"
-
-#~ msgid "_About"
-#~ msgstr "ਇਸ ਬਾਰੇ(_A)"
-
-# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# gtk/gtkstock.c:298
-# #-#-#-#-#  libmateui.HEAD.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# libmateui/mate-app-helper.c:96 libmateui/mate-app-helper.h:531
-# test-mate/testmate.xml.h:6
-#~ msgid "_Help"
-#~ msgstr "ਸਹਾਇਤਾ(_H)"
-
-#~ msgid "_Keyboard Accessibility Preferences"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਸੁਲੱਭਤਾ ਪਸੰਦ(_K)"
-
-#~ msgid "AccessX Status Applet Factory"
-#~ msgstr "AccessX ਹਾਲਤ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "Keyboard Accessibility Status"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਸੁਲੱਭਤਾ ਹਾਲਤ"
-
-#~ msgid "Keyboard Accessibility Status Applet Factory"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਸੁਲੱਭਤਾ ਹਾਲਤ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "Shows the status of keyboard accessibility features"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਸੁਲੱਭਤਾ ਫੀਚਰ ਦੀ ਹਾਲਤ ਵੇਖਾਓ"
-
-#~ msgid "AccessX Status"
-#~ msgstr "AccessX ਹਾਲਤ"
-
-#~ msgid "Shows the state of AccessX features such as latched modifiers"
-#~ msgstr "AccessX ਫੀਚਰ ਜਿਵੇਂ ਕਿ ਸੋਧਕ ਦੀ ਹਾਲਤ ਵੇਖਾਓ"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮਵਾਲਾ\n"
-#~ "ਪੰਜਾਬ ਓਪਨ ਸੋਰਸ ਟੀਮ (POST)\n"
-#~ "http://www.satluj.org"
-
-#~ msgid "There was an error launching the help viewer: %s"
-#~ msgstr "ਸਹਾਇਤਾ ਦਰਸ਼ਕ ਚਾਲੂ ਕਰਨ ਵਿੱਚ ਗਲਤੀ: %s"
-
-#~ msgid "There was an error launching the keyboard preferences dialog: %s"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਪਸੰਦ ਵਾਰਤਾਲਾਪ ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ: %s"
-
-#~ msgid "a"
-#~ msgstr "a"
-
-#~ msgid "Shows keyboard status when accessibility features are used."
-#~ msgstr "ਕੀ-ਬੋਰਡ ਦੀ ਹਾਲਤ, ਜਦੋ ਕਿ ਉਲੱਭਤਾ ਫੀਚਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੋਵੇ।"
-
-#~ msgid "XKB Extension is not enabled"
-#~ msgstr "XKB ਐਕਸ਼ਟੇਸ਼ਨ ਯੋਗ ਨਹੀਂ ਹੈ"
-
-#~ msgid "Unknown error"
-#~ msgstr "ਅਣਜਾਣੀ ਗਲਤੀ"
-
-#~ msgid "Error: %s"
-#~ msgstr "ਗਲਤੀ: %s"
-
-#~ msgid "Displays current state of keyboard accessibility features"
-#~ msgstr "ਮੌਜੂਦਾ ਕੀ-ਬੋਰਡ ਦੀ ਸੁਲੱਭਤਾ ਫੀਚਰ ਵੇਖਾਓ"
-
-#~ msgid "Battery Charge Monitor"
-#~ msgstr "ਬੈਟਰੀ ਚਾਰਜ ਨਿਗਰਾਨ"
-
-#~ msgid "Battstat Factory"
-#~ msgstr "Battstat ਫੈਕਟਰੀ"
-
-#~ msgid "Monitor a laptop's remaining power"
-#~ msgstr "ਲੈਪਟਾਪ ਦੀ ਬਾਕੀ ਊਰਜਾ ਦੀ ਨਿਗਰਾਨੀ"
-
-#~ msgid "_Preferences"
-#~ msgstr "ਮੇਰੀ ਪਸੰਦ(_P)"
-
-#~ msgid "0 for no label, 1 for percentage and 2 for time remaining"
-#~ msgstr "0 ਕੋਈ ਲੇਬਲ ਤੋਂ ਬਿਨਾਂ, 1 ਫ਼ੀ-ਸਦੀ ਲਈ ਅਤੇ 2 ਬਾਕੀ ਰਹਿੰਦੇ ਸਮੇਂ ਲਈ"
-
-#~ msgid "Beep for warnings"
-#~ msgstr "ਚੇਤਾਵਨੀ ਲਈ ਅਵਾਜ਼"
-
-#~ msgid "Beep when displaying a warning"
-#~ msgstr "ਚੇਤਾਵਨੀ ਦੇਣ ਸਮੇਂ ਅਵਾਜ਼ ਚਲਾਓ"
-
-#~ msgid "Drain from top"
-#~ msgstr "ਉੱਪਰ ਤੋਂ ਵਹਾ"
-
-#~ msgid "Full Battery Notification"
-#~ msgstr "ਪੂਰੀ ਬੈਟਰੀ ਸੂਚਨਾ"
-
-#~ msgid "Low Battery Notification"
-#~ msgstr "ਘੱਟ ਬੈਟਰੀ ਸੂਚਨਾ"
-
-#~ msgid "Notify user when the battery is full"
-#~ msgstr "ਬੈਟਰੀ ਪੂਰੀ ਤਰਾਂ ਚਾਰਜ ਹੋਣ 'ਤੇ ਵਿੱਚ ਸੂਚਨਾ ਦਿਓ"
-
-#~ msgid "Notify user when the battery is low"
-#~ msgstr "ਬੈਟਰੀ ਘੱਟ ਹੋਣ ਦੀ ਹਾਲਤ 'ਚ ਸੂਚਨਾ ਦਿਓ"
-
-#~ msgid "Red value level"
-#~ msgstr "ਲਾਲ ਮੁੱਲ ਪੱਧਰ"
-
-#~ msgid ""
-#~ "Show the battery meter draining from the top of the battery. Only "
-#~ "implemented for traditional battery view."
-#~ msgstr ""
-#~ "ਬੈਟਰੀ ਮੀਟਰ ਦਾ ਵਹਾ ਬੈਟਰੀ ਦੇ ਉੱਪਰੋਂ ਵੇਖਾਓ। ਸਿਰਫ਼ ਪੁਰਾਣੀ ਬੈਟਰੀ ਝਲਕ ਲਈ ਹੀ ਸਥਾਪਤ ਕੀਤਾ "
-#~ "ਗਿਆ ਹੈ।"
-
-#~ msgid "Show the horizontal battery"
-#~ msgstr "ਲੇਟਵੀ ਬੈਟਰੀ ਵੇਖਾਓ"
-
-#~ msgid "Show the time/percent label"
-#~ msgstr "ਸਮਾਂ/ਫੀ-ਸਦੀ ਜਾਣਕਾਰੀ ਵੇਖਾਓ"
-
-#~ msgid "Show the traditional, horizontal battery on the panel"
-#~ msgstr "ਪੈਨਲ ਉੱਤੇ ਪੁਰਾਣੀ ਲੇਟਵੀਂ ਬੈਟਰੀ ਵੇਖਾਓ"
-
-#~ msgid "Show the upright, smaller battery on the panel"
-#~ msgstr "ਪੈਨਲ ਉੱਤੇ ਲੰਬਕਾਰੀ, ਛੋਟੀ ਬੈਟਰੀ ਵੇਖਾਓ"
-
-#~ msgid ""
-#~ "The battery level below which the battery is displayed as red. Also the "
-#~ "value at which the low battery warning is displayed."
-#~ msgstr ""
-#~ "ਬੈਟਰੀ ਪੱਧਰ, ਜਿਸ ਤੋਂ ਹੇਠਾਂ ਬੈਟਰੀ ਸੰਤਰੀ ਰੰਗ ਦੀ ਵੇਖਾਈ ਦੇਵੇਗੀ। ਮੁੱਲ, ਜਿਸ ਲਈ ਬੈਟਰੀ ਘੱਟ ਹੋਣ ਦੀ "
-#~ "ਚੇਤਾਵਨੀ ਵਿਖਾਈ ਜਾਵੇਗੀ।"
-
-#~ msgid "Upright (small) battery"
-#~ msgstr "ਲੰਬਕਾਰੀ (ਸਿੱਧੀ) ਬੈਟਰੀ"
-
-#~ msgid ""
-#~ "Use the value defined in red_value as a time remaining to show the "
-#~ "warning dialog rather than a percentage"
-#~ msgstr ""
-#~ "ਦਿੱਤੇ ਲਾਲ ਰੰਗ ਨੂੰ ਫ਼ੀ-ਸਦੀ ਦੀ ਬਜਾਏ ਬਾਕੀ ਰਹਿੰਦੇ ਸਮੇਂ ਦੇ ਅਧਾਰ 'ਤੇ ਚੇਤਾਵਨੀ ਵਿਖਾਉਣ ਲਈ ਵਰਤੋਂ"
-#~ "(_v)"
-
-#~ msgid "Warn on low time rather than low percentage"
-#~ msgstr "ਘੱਟ ਫ਼ੀ-ਸਦੀ ਦੀ ਬਜਾਏ ਘੱਟ ਸਮੇਂ ਬਾਰੇ ਚੇਤਾਵਨੀ ਦਿਓ"
-
-#~ msgid "System is running on AC power"
-#~ msgstr "ਸਿਸਟਮ AC ਊਰਜਾ 'ਤੇ ਚੱਲ ਰਿਹਾ ਹੈ"
-
-#~ msgid "System is running on battery power"
-#~ msgstr "ਸਿਸਟਮ ਬੈਟਰੀ ਊਰਜਾ 'ਤੇ ਚੱਲ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Battery charged (%d%%)"
-#~ msgstr "ਬੈਟਰੀ ਚਾਰਜ ਹੋ ਚੁੱਕੀ ਹੈ (%d%%)"
-
-#~ msgid "Unknown time (%d%%) remaining"
-#~ msgstr "ਅਣਜਾਣ ਸਮਾਂ (%d%%) ਬਾਕੀ ਹੈ"
-
-#~ msgid "Unknown time (%d%%) until charged"
-#~ msgstr "ਚਾਰਜ ਹੋਣ ਲਈ ਅਣਜਾਣ ਸਮਾਂ (%d%%)"
-
-#~ msgid "%d minute (%d%%) remaining"
-#~ msgid_plural "%d minutes (%d%%) remaining"
-#~ msgstr[0] "%d ਮਿੰਟ (%d%%) ਬਾਕੀ"
-#~ msgstr[1] "%d ਮਿੰਟ (%d%%) ਬਾਕੀ"
-
-#~ msgid "%d minute until charged (%d%%)"
-#~ msgid_plural "%d minutes until charged (%d%%)"
-#~ msgstr[0] "%d ਮਿੰਟ (%d%%) ਤੱਕ ਚਾਰਜ ਹੋਣ ਲਈ ਲੱਗੇਗਾ"
-#~ msgstr[1] "%d ਮਿੰਟ (%d%%) ਤੱਕ ਚਾਰਜ ਹੋਣ ਲਈ ਲੱਗਣਗੇ"
-
-#~ msgid "%d hour (%d%%) remaining"
-#~ msgid_plural "%d hours (%d%%) remaining"
-#~ msgstr[0] "%d ਘੰਟਾ (%d%%) ਬਾਕੀ"
-#~ msgstr[1] "%d ਘੰਟੇ (%d%%) ਬਾਕੀ"
-
-#~ msgid "%d hour until charged (%d%%)"
-#~ msgid_plural "%d hours until charged (%d%%)"
-#~ msgstr[0] "%d ਘੰਟਾ (%d%%) ਤੱਕ ਚਾਰਜ ਹੋਣ ਲਈ ਲੱਗੇਗਾ"
-#~ msgstr[1] "%d ਘੰਟੇ (%d%%) ਤੱਕ ਚਾਰਜ ਹੋਣ ਲਈ ਲੱਗਣਗੇ"
-
-#~ msgid "%d %s %d %s (%d%%) remaining"
-#~ msgstr "%d %s %d %s (%d%%) ਬਾਕੀ ਹੈ"
-
-#~ msgid "hour"
-#~ msgid_plural "hours"
-#~ msgstr[0] "ਘੰਟਾ"
-#~ msgstr[1] "ਘੰਟੇ"
-
-#~ msgid "minute"
-#~ msgid_plural "minutes"
-#~ msgstr[0] "ਮਿੰਟ"
-#~ msgstr[1] "ਮਿੰਟ"
-
-#~ msgid "%d %s %d %s until charged (%d%%)"
-#~ msgstr "%d %s %d %s, ਜਦੋਂ ਤੱਕ (%d%%) ਤੱਕ ਚਾਰਜ ਨਹੀਂ ਹੁੰਦੀ"
-
-#~ msgid "Battery Monitor"
-#~ msgstr "ਬੈਟਰੀ ਨਿਗਰਾਨ"
-
-#~ msgid "Your battery is now fully recharged"
-#~ msgstr "ਤੁਹਾਡੀ ਬੈਟਰੀ ਹੁਣ ਪੂਰੀ ਤਰਾਂ ਚਾਰਜ ਹੋ ਚੁੱਕੀ ਹੈ"
-
-#~ msgid "Battery Notice"
-#~ msgstr "ਬੈਟਰੀ ਜਾਣਕਾਰੀ"
-
-#~ msgid "You have %d%% of your total battery capacity remaining."
-#~ msgstr "ਤੁਹਾਡੇ ਕੋਲ ਤੁਹਾਡੀ ਕੁੱਲ ਬੈਟਰੀ ਸਮੱਰਥਾ ਵਿੱਚੋਂ %d%% ਬਾਕੀ ਹੈ।"
-
-#~ msgid ""
-#~ "You have %d minute of battery power remaining (%d%% of the total "
-#~ "capacity)."
-#~ msgid_plural ""
-#~ "You have %d minutes of battery power remaining (%d%% of the total "
-#~ "capacity)."
-#~ msgstr[0] "ਤੁਹਾਡੇ ਕੋਲ %d ਮਿੰਟ ਦੀ ਬੈਟਰੀ ਊਰਜਾ ਬਾਕੀ ਹੈ (ਕੁੱਲ ਸਮਰੱਥਾ ਦਾ %d%% )।"
-#~ msgstr[1] "ਤੁਹਾਡੇ ਕੋਲ %d ਮਿੰਟ ਦੀ ਬੈਟਰੀ ਊਰਜਾ ਬਾਕੀ ਹੈ (ਕੁੱਲ ਸਮਰੱਥਾ ਦਾ %d%% )।"
-
-#~ msgid ""
-#~ "To avoid losing your work:\n"
-#~ " • plug your laptop into external power, or\n"
-#~ " • save open documents and shut your laptop down."
-#~ msgstr ""
-#~ "ਆਪਣੇ ਕੰਮ ਨੂੰ ਗੁਆਉਣ ਤੋਂ ਬਚਣ ਲਈ:\n"
-#~ " • ਆਪਣੇ ਲੈਪਟਾਪ ਨੂੰ ਬਾਹਰੀ ਊਰਜਾ ਲਈ ਪਲੱਗ ਲਗਾਓ, ਜਾਂ\n"
-#~ " • ਖੁੱਲੇ ਦਸਤਾਵੇਜ਼ਾਂ ਨੂੰ ਸੰਭਾਲੋ ਅਤੇ ਆਪਣੇ ਲੈਪਟਾਪ ਨੂੰ ਬੰਦ ਕਰ ਦਿਓ।"
-
-#~ msgid ""
-#~ "To avoid losing your work:\n"
-#~ " • suspend your laptop to save power,\n"
-#~ " • plug your laptop into external power, or\n"
-#~ " • save open documents and shut your laptop down."
-#~ msgstr ""
-#~ "ਆਪਣੇ ਕੰਮ ਨੂੰ ਗੁਆਉਣ ਤੋਂ ਬਚਣ ਲਈ:\n"
-#~ " • ਊਰਜਾ ਬਚਾਉਣ ਲਈ ਆਪਣੇ ਲੈਪਟਾਪ ਨੂੰ ਮੁਅੱਤਲ ਕਰ ਦਿਓ,\n"
-#~ " • ਆਪਣੇ ਲੈਪਟਾਪ ਨੂੰ ਬਾਹਰੀ ਊਰਜਾ ਲਈ ਪਲੱਗ ਲਗਾਓ, ਜਾਂ\n"
-#~ " • ਖੁੱਲੇ ਦਸਤਾਵੇਜ਼ਾਂ ਨੂੰ ਸੰਭਾਲੋ ਅਤੇ ਆਪਣੇ ਲੈਪਟਾਪ ਨੂੰ ਬੰਦ ਕਰ ਦਿਓ।"
-
-#~ msgid "Your battery is running low"
-#~ msgstr "ਬੈਟਰੀ ਊਰਜਾ ਘੱਟ ਰਹੀ ਹੈ"
-
-#~ msgid "No battery present"
-#~ msgstr "ਕੋਈ ਬੈਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
-
-#~ msgid "Battery status unknown"
-#~ msgstr "ਬੈਟਰੀ ਹਾਲਤ ਅਣਜਾਣੀ ਹੈ"
-
-#~ msgid "N/A"
-#~ msgstr "N/A"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "ਸਹਾਇਤਾ ਚਾਲੂ ਕਰਨ ਵਿੱਚ ਗਲਤੀ: %s"
-
-#~ msgid "This utility shows the status of your laptop battery."
-#~ msgstr "ਤੁਹਾਡੇ ਲੈਪਟਾਪ ਦੀ ਬੈਟਰੀ ਦੀ ਹਾਲਤ ਵੇਖਾਉਣ ਲਈ ਸਹੂਲਤ ਹੈ।"
-
-#~ msgid "HAL backend enabled."
-#~ msgstr "HAL ਬੈਕਐਂਡ ਯੋਗ ਕੀਤਾ ਹੈ।"
-
-#~ msgid "Legacy (non-HAL) backend enabled."
-#~ msgstr "ਪੁਰਾਤਨ (HAL ਤੋਂ ਬਿਨਾਂ) ਬੈਕਐਂਡ ਯੋਗ ਕੀਤਾ।"
-
-#~ msgid "<b>Appearance</b>"
-#~ msgstr "<b>ਦਿੱਖ</b>"
-
-#~ msgid "<b>Notifications</b>"
-#~ msgstr "<b>ਸੂਚਨਾਵਾਂ</b>"
-
-#~ msgid "<small>(shows single image for status and charge)</small>"
-#~ msgstr "<small>(ਹਾਲਤ ਅਤੇ ਚਾਰਜ ਬਾਰੇ ਇੱਕ ਇੱਕਲਾ ਚਿੱਤਰ ਵੇਖਾਉਦਾ ਹੈ)</small>"
-
-#~ msgid "<small>(two images: one for status, one for charge)</small>"
-#~ msgstr "<small>(ਦੋ ਚਿੱਤਰ, ਹਾਲਤ ਲਈ ਇੱਕ, ਚਾਰਜ ਲਈ ਇੱਕ)</small>"
-
-#~ msgid "Battery Charge Monitor Preferences"
-#~ msgstr "ਬੈਟਰੀ ਚਾਰਜ ਨਿਗਰਾਨ ਪਸੰਦ"
-
-#~ msgid "Show _percentage remaining"
-#~ msgstr "ਫ਼ੀ-ਸਦੀ ਬਾਕੀ ਵੇਖਾਓ(_p)"
-
-#~ msgid "Show _time remaining"
-#~ msgstr "ਬਾਕੀ ਰਹਿੰਦਾ ਸਮਾਂ ਵੇਖਾਓ(_t)"
-
-#~ msgid "_Compact view"
-#~ msgstr "ਸੰਖੇਪ ਝਲਕ(_C)"
-
-#~ msgid "_Expanded view"
-#~ msgstr "ਫੈਲੀ ਝਲਕ(_E)"
-
-#~ msgid "_Notify when battery is fully recharged"
-#~ msgstr "ਬੈਟਰੀ ਪੂਰੀ ਮੁੜ-ਚਾਰਜ ਹੋਣ 'ਤੇ ਸੂਚਨਾ ਦਿਓ(_N)"
-
-#~ msgid "_Show time/percentage:"
-#~ msgstr "ਸਮਾਂ/ਫੀ-ਸਦੀ ਵੇਖਾਓ(_S)"
-
-#~ msgid "_Warn when battery charge drops to:"
-#~ msgstr "ਬੈਟਰੀ ਚਾਰਜ ਇਸ ਤੋਂ ਘੱਟ ਹੋਣ 'ਤੇ ਸੂਚਨਾ ਦਿਓ(_W)"
-
-#~ msgid "Percent"
-#~ msgstr "ਫ਼ੀ-ਸਦੀ"
-
-#~ msgid "Minutes Remaining"
-#~ msgstr "ਬਾਕੀ ਰਹਿੰਦੇ ਮਿੰਟ"
-
-#~ msgid "Battery Status Utility"
-#~ msgstr "ਬੈਟਰੀ ਹਾਲਤ ਸਹੂਲਤ"
-
-#~ msgid "Battery fully re-charged"
-#~ msgstr "ਬੈਟਰੀ ਪੂਰੀ ਮੁੜ-ਚਾਰਜ ਹੋ ਗਈ ਹੈ"
-
-#~ msgid "Battery power low"
-#~ msgstr "ਬੈਟਰੀ ਊਰਜਾ ਘੱਟ ਹੈ"
-
-#~ msgid "Character Palette"
-#~ msgstr "ਅੱਖਰ ਰੰਗ-ਪੱਟੀ"
-
-#~ msgid "Charpicker Applet Factory"
-#~ msgstr "ਅੱਖਰ-ਚੋਣਕਾਰ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "Insert characters"
-#~ msgstr "ਅੱਖਰ ਸ਼ਾਮਿਲ"
-
-#~ msgid "Available palettes"
-#~ msgstr "ਉਪਲੱਬਧ ਰੰਗ-ਪੱਟੀ"
-
-#~ msgid "Insert \"%s\""
-#~ msgstr "\"%s\" ਸ਼ਾਮਿਲ"
-
-#~ msgid "Insert special character"
-#~ msgstr "ਖਾਸ ਅੱਖਰ ਸ਼ਾਮਿਲ"
-
-#~ msgid "insert special character %s"
-#~ msgstr "ਖਾਸ ਅੱਖਰ %s ਸ਼ਾਮਿਲ"
-
-#~ msgid ""
-#~ "Mate Panel applet for selecting strange characters that are not on my "
-#~ "keyboard. Released under GNU General Public Licence."
-#~ msgstr ""
-#~ "ਵਿਲੱਖਣ ਅੱਖਰ ਚੁਣਨ ਲਈ ਗਨੋਮ ਪੈਨਲ ਐਪਲਿਟ, ਜੋ ਕਿ ਮੇਰੇ ਕੀ-ਬੋਰਡ ਵਿੱਚ ਨਹੀਂ ਹਨ। ਇਹ ਜਰਨਲ ਪਬਲਿਕ "
-#~ "ਲਾਈਸੈਂਸ ਅਧੀਨ ਜਾਰੀ ਹੈ।"
-
-#~ msgid "Characters shown on applet startup"
-#~ msgstr "ਐਪਲਿਟ ਦੀ ਸ਼ੁਰੂਆਤ ਸਮੇਂ ਅੱਖਰ ਵੇਖਾਓ"
-
-#~ msgid "DEPRECATED - Characters shown on applet startup"
-#~ msgstr "ਬਰਤਰਫ਼ - ਐਪਲਿਟ ਦੀ ਸ਼ੁਰੂਆਤ ਸਮੇਂ ਅੱਖਰ ਵੇਖਾਉਣੇ"
-
-#~ msgid "List of available palettes"
-#~ msgstr "ਉਪਲੱਬਧ ਰੰਗ-ਪੱਟੀ ਦੀ ਸੂਚੀ"
-
-#~ msgid "List of strings containing the available palettes"
-#~ msgstr "ਸਤਰਾਂ ਦੀ ਲਿਸਟ, ਜੋ ਕਿ ਉਪਲੱਬਧ ਰੰਗ-ਪੱਟੀ ਰੱਖਦੀ ਹੈ"
-
-#~ msgid ""
-#~ "The string that the user had selected when the applet was last used. This "
-#~ "string will be displayed when the user starts the applet."
-#~ msgstr ""
-#~ "ਸਤਰ, ਜੋ ਕਿ ਉਪਭੋਗੀ ਨੇ ਚੁਣੀ ਸੀ, ਜਦੋ ਕਿ ਐਪਲਿਟ ਆਖਰੀ ਵਾਰ ਵਰਤਿਆ ਗਿਆ ਸੀ। ਇਹ ਸਤਰ ਵੇਖਾਈ "
-#~ "ਜਾਵੇਗੀ, ਜਦੋ ਕਿ ਉਪਭੋਗੀ ਐਪਲਿਟ ਨੂੰ ਸ਼ੁਰੂ ਕਰੇਗਾ।"
-
-#~ msgid "_Edit"
-#~ msgstr "ਸੋਧ(_E)"
-
-#~ msgid "_Palette:"
-#~ msgstr "ਰੰਗ-ਪੱਟੀ(_P):"
-
-#~ msgid "Palette entry"
-#~ msgstr "ਰੰਗ-ਪੱਟੀ ਇੰਦਰਾਜ਼"
-
-#~ msgid "Modify a palette by adding or removing characters"
-#~ msgstr "ਅੱਖਰ ਜੋੜਕੇ ਜਾਂ ਹਟਾ ਕੇ ਰੰਗ-ਪੱਟੀ ਨੂੰ ਸੋਧ"
-
-#~ msgid "Add Palette"
-#~ msgstr "ਰੰਗ-ਪੱਟੀ ਸ਼ਾਮਲ"
-
-#~ msgid "Edit Palette"
-#~ msgstr "ਰੰਗ-ਪੱਟੀ ਸੋਧ"
-
-#~ msgid "Palettes list"
-#~ msgstr "ਰੰਗ-ਪੱਟੀ ਲਿਸਟ"
-
-#~ msgid "_Palettes:"
-#~ msgstr "ਰੰਗ-ਪੱਟੀ(_P):"
-
-#~ msgid "Add button"
-#~ msgstr "ਬਟਨ ਸ਼ਾਮਲ"
-
-#~ msgid "Click to add a new palette"
-#~ msgstr "ਨਵੀਂ ਰੰਗ-ਪੱਟੀ ਜੋੜਨ ਲਈ ਦਬਾਓ"
-
-#~ msgid "Edit button"
-#~ msgstr "ਬਟਨ ਸੋਧ"
-
-#~ msgid "Click to edit the selected palette"
-#~ msgstr "ਚੁਣੀ ਰੰਗ-ਪੱਟੀ ਨੂੰ ਸੋਧਣ ਲਈ ਦਬਾਓ"
-
-#~ msgid "Delete button"
-#~ msgstr "ਬਟਨ ਹਟਾਓ"
-
-#~ msgid "Click to delete the selected palette"
-#~ msgstr "ਚੁਣੀ ਰੰਗ-ਪੱਟੀ ਨੂੰ ਹਟਾਉਣ ਲਈ ਦਬਾਓ"
-
-#~ msgid "Character Palette Preferences"
-#~ msgstr "ਅੱਖਰ ਰੰਗ-ਪੱਟੀ ਪਸੰਦ"
-
-#~ msgid "CPU Frequency Scaling Monitor"
-#~ msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਨਿਗਰਾਨ"
-
-#~ msgid "Monitor the CPU Frequency Scaling"
-#~ msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਲਈ ਨਿਗਰਾਨ"
-
-#~ msgid ""
-#~ "A 0 value means to show cpu frequency, 1 to show frequency and units, and "
-#~ "2 to show percentage instead of frequency."
-#~ msgstr ""
-#~ "0 ਮੁੱਲ ਦਾ ਅਰਥ ਹੈ ਕਿ CPU ਫਰੀਕਿਊਂਸੀ ਵੇਖਾਈ ਜਾਵੇਗੀ, 1 ਨਾਲ ਫਰੀਕਿਊਂਸੀ ਅਤੇ ਇਕਾਈ ਵੇਖਾਈ "
-#~ "ਜਾਵੇਗੀ ਅਤੇ 2 ਦਾ ਅਰਥ ਹੈ ਕਿ ਫਰੀਕਿਊਂਸੀ ਦੀ ਬਜਾਏ ਫ਼ੀ-ਸਦੀ ਵੇਖਾਈ ਜਾਵੇਗੀ।"
-
-#~ msgid ""
-#~ "A 0 value means to show the applet in graphic mode (pixmap only), 1 to "
-#~ "show the applet in text mode (not to show the pixmap) and 2 to show the "
-#~ "applet in graphic and text mode."
-#~ msgstr ""
-#~ "0 ਮੁੱਲ ਦਾ ਅਰਥ ਹੈ ਕਿ ਐਪਲਿਟ ਗਰਾਫਿਕਸ ਢੰਗ (ਪਿਕਸਮੈਪ ਹੀ) ਵੇਖਾਇਆ ਜਾਵੇਗਾ, 1 ਨਾਲ ਐਪਲਿਟ "
-#~ "ਪਾਠ ਢੰਗ ਨਾਲ ਵੇਖਾਇਆ ਜਾਵੇਗਾ (ਪਿਕਸਮੈਪ ਨਹੀ ਵੇਖਾਇਆ ਜਾਵੇਗਾ) ਅਤੇ 2 ਨਾਲ ਐਪਲਿਟ ਗਰਾਫਿਕਸ ਅਤੇ "
-#~ "ਪਾਠ ਢੰਗ ਨਾਲ ਵੇਖਾਇਆ ਜਾਵੇਗਾ।"
-
-#~ msgid "CPU to Monitor"
-#~ msgstr "CPU ਲਈ ਨਿਗਰਾਨ"
-
-#~ msgid "Mode to show cpu usage"
-#~ msgstr "cpu ਵਰਤੋਂ ਵੇਖਾਉਣ ਲਈ ਢੰਗ"
-
-#~ msgid ""
-#~ "Set the CPU to monitor. In a single processor system you don't have to "
-#~ "change it."
-#~ msgstr ""
-#~ "CPU ਲਈ ਨਿਗਰਾਨ ਬਣਾਓ। ਇੱਕ ਇੱਕਲੇ ਪਰੋਸੈਸਰ ਸਿਸਟਮ ਵਿੱਚ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਤਬਦੀਲ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ "
-#~ "ਹੈ।"
-
-#~ msgid "The type of text to display (if the text is enabled)."
-#~ msgstr "ਵੇਖਾਉਣ ਲਈ ਪਾਠ ਦੀ ਕਿਸਮ (ਜੇਕਰ ਪਾਠ ਯੋਗ ਹੋਵੇ)"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "<b>Display Settings</b>"
-#~ msgstr "<b>ਡਿਸਪਲੇਅ ਸੈਟਿੰਗ</b>"
-
-#~ msgid "<b>Monitor Settings</b>"
-#~ msgstr "<b>ਨਿਗਰਾਨੀ ਸੈਟਿੰਗ</b>"
-
-#~ msgid "CPU Frequency Monitor Preferences"
-#~ msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਨਿਗਰਾਨੀ ਪਸੰਦ"
-
-#~ msgid "Show CPU frequency as _frequency"
-#~ msgstr "CPU ਫਰੀਊਂਸੀ ਫਰੀਕਿਊਂਸੀ ਵਾਂਗ ਵੇਖਾਓ(_f)"
-
-#~ msgid "Show CPU frequency as _percentage"
-#~ msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਨੂੰ ਫ਼ੀ-ਸਦੀ ਵਾਂਗ ਵੇਖਾਓ(_p)"
-
-#~ msgid "Show frequency _units"
-#~ msgstr "ਫਰੀਕਿਊਂਸੀ ਇਕਾਈ ਵੇਖਾਓ(_u)"
-
-#~ msgid "_Appearance:"
-#~ msgstr "ਸਰੂਪ(_A):"
-
-#~ msgid "_Monitored CPU:"
-#~ msgstr "ਨਿਗਰਾਨੀ ਅਧੀਨ CPU(_M):"
-
-#~ msgid "Could not open help document"
-#~ msgstr "ਸਹਾਇਤਾ ਦਸਤਾਵੇਜ਼ ਵੇਖਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
-
-#~ msgid "This utility shows the current CPU Frequency Scaling."
-#~ msgstr "ਇਹ ਸਹੂਲਤ ਮੌਜੂਦਾ CPU ਫ੍ਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਵੇਖਾ ਰਹੀ ਹੈ।"
-
-#~ msgid "This utility shows the current CPU Frequency"
-#~ msgstr "ਇਹ ਸਹੂਲਤ ਮੌਜੂਦਾ CPU ਫ੍ਰੀਕਿਊਂਸੀ ਵੇਖਾ ਰਹੀ ਹੈ"
-
-#~ msgid "Graphic"
-#~ msgstr "ਗਰਾਫ਼"
-
-# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# gtk/gtkcellrenderertext.c:174 gtk/gtkentry.c:523 gtk/gtkprogressbar.c:207
-# #-#-#-#-#  libmatecanvas.mate-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# libmatecanvas/mate-canvas-text.c:203
-# #-#-#-#-#  libmatecanvas.HEAD.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# libmatecanvas/mate-canvas-text.c:203
-# #-#-#-#-#  libmateui.HEAD.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# libmateui/mate-href.c:126
-#~ msgid "Text"
-#~ msgstr "ਪਾਠ"
-
-#~ msgid "Graphic and Text"
-#~ msgstr "ਗਰਾਫਿਕਸ ਅਤੇ ਪਾਠ"
-
-#~ msgid "Frequency Scaling Unsupported"
-#~ msgstr "ਫਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਨਾ-ਸਹਾਇਕ"
-
-#~ msgid "CPU frequency scaling unsupported"
-#~ msgstr "CPU ਫਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਨਾ-ਸਹਾਇਕ"
-
-#~ msgid ""
-#~ "You will not be able to modify the frequency of your machine.  Your "
-#~ "machine may be misconfigured or not have hardware support for CPU "
-#~ "frequency scaling."
-#~ msgstr ""
-#~ "ਤੁਸੀਂ ਆਪਣੀ ਮਸ਼ੀਨ ਦੀ ਫਰੀਕਿਊਸੀ ਨੂੰ ਤਬਦੀਲ ਨਹੀਂ ਕਰ ਸਕੋਗੇ। ਤੁਹਾਡੀ ਮਸ਼ੀਨ ਦੀ ਸੰਰਚਨਾ ਗਲਤ ਹੈ "
-#~ "ਜਾਂ ਤੁਹਾਡਾ ਜੰਤਰ CPU ਫਰੀਕਿਊਸੀ ਸਕੇਲਿੰਗ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।"
-
-#~ msgid "Disk Mounter"
-#~ msgstr "ਡਿਸਕ ਮਾਊਟਰ"
-
-#~ msgid "Drive Mount Applet Factory"
-#~ msgstr "ਡਰਾਇਵ ਮਾਊਟ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "Factory for drive mount applet"
-#~ msgstr "ਡਰਾਇਵ ਮਾਊਟ ਐਪਲਿਟ ਲਈ ਫੈਕਟਰੀ"
-
-#~ msgid "Mount local disks and devices"
-#~ msgstr "ਲੋਕਲ ਡਿਸਕਾਂ ਅਤੇ ਜੰਤਰਾਂ ਮਾਊਟ"
-
-#~ msgid "(mounted)"
-#~ msgstr "(ਮਾਊਂਟ)"
-
-#~ msgid "(not mounted)"
-#~ msgstr "(ਮਾਊਂਟ ਨਹੀਂ)"
-
-#~ msgid "(not connected)"
-#~ msgstr "(ਜੁੜਿਆ ਨਹੀਂ)"
-
-#~ msgid "Cannot execute '%s'"
-#~ msgstr "'%s' ਨੂੰ ਚਲਾਇਆ ਜਾ ਸਕਦਾ ਹੈ"
-
-#~ msgid "Mount Error"
-#~ msgstr "ਮਾਊਟ ਗਲਤੀ"
-
-#~ msgid "Unmount Error"
-#~ msgstr "ਅਣ-ਮਾਊਟ ਗਲਤੀ"
-
-#~ msgid "Eject Error"
-#~ msgstr "ਬਾਹਰ ਕੱਢਣ ਗਲਤੀ"
-
-#~ msgid "Error"
-#~ msgstr "ਗਲਤੀ"
-
-#~ msgid "_Play DVD"
-#~ msgstr "DVD ਚਲਾਓ(_P)"
-
-#~ msgid "_Play CD"
-#~ msgstr "CD ਚਲਾਓ(_P)"
-
-#~ msgid "_Open %s"
-#~ msgstr "%s ਖੋਲ੍ਹੋ(_O)"
-
-#~ msgid "_Mount %s"
-#~ msgstr "%s ਮਾਊਂਟ(_M)"
-
-#~ msgid "Un_mount %s"
-#~ msgstr "%s ਅਣ-ਮਾਊਂਟ(_M)"
-
-#~ msgid "_Eject %s"
-#~ msgstr "%s ਬਾਹਰ ਕੱਢੋ(_E)"
-
-#~ msgid "Applet for mounting and unmounting block volumes."
-#~ msgstr "ਬਲਾਕ ਵਾਲੀਅਮ ਨੂੰ ਮਾਊਟ ਅਤੇ ਅਣ-ਮਾਊਟ ਕਰਨ ਲਈ ਐਪਲਿਟ ਹੈ।"
-
-#~ msgid "Interval timeout to check mount point status"
-#~ msgstr "ਮਾਊਟ ਪੁਆਇੰਟ ਹਾਲਤ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਅੰਤਰਾਲ ਪੂਰਾ ਹੋ ਗਿਆ ਹੈ"
-
-#~ msgid "Time in seconds between status updates"
-#~ msgstr "ਹਾਲਤ ਅੱਪਡੇਟ ਦਾ ਸਮਾਂ ਸਕਿੰਟਾਂ ਵਿੱਚ"
-
-#~ msgid "A set of eyeballs for your panel"
-#~ msgstr "ਤੁਹਾਡੇ ਪੈਨਲ ਲਈ ਅੱਖਾਂ ਦਾ ਜੋੜਾ ਹੈ"
-
-#~ msgid "Geyes"
-#~ msgstr "ਜੀ-ਅੱਖ"
-
-#~ msgid "Geyes Applet Factory"
-#~ msgstr "ਜੀ-ਅੱਖ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "A goofy little xeyes clone for the MATE panel."
-#~ msgstr "ਗਨੋਮ ਪੈਨਲ ਲਈ ਇੱਕ ਛੋਟਾ ਐਕਸ-ਆਈ ਕਲੋਨ ਹੈ।"
-
-#~ msgid "The eyes look in the direction of the mouse pointer"
-#~ msgstr "ਅੱਖ ਮਾਊਸ ਸੂਚਕ ਦੀ ਦਿਸ਼ਾ ਵਿੱਚ ਘੁੰਮਦੀਆਂ ਹਨ"
-
-#~ msgid "Directory in which the theme is located"
-#~ msgstr "ਡਾਇਰੈਕਟਰੀ,ਜਿਸ ਵਿੱਚ ਸਰੂਪ ਮੌਜੂਦ ਹੈ"
-
-#~ msgid "Can not launch the eyes applet."
-#~ msgstr "ਅੱਖ ਐਪਲਿਟ ਨੂੰ ਸ਼ੁਰੂ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਿਆ ਹੈ।"
-
-#~ msgid "There was a fatal error while trying to load the theme."
-#~ msgstr "ਸਰੂਪ ਲੋਡ ਕਰਨ ਸਮੇਂ ਘਾਤਕ ਗਲਤੀ ਹੈ।"
-
-#~ msgid "Geyes Preferences"
-#~ msgstr "ਜੀ-ਅੱਖ ਪਸੰਦ"
-
-#~ msgid "Themes"
-#~ msgstr "ਸਰੂਪ"
-
-#~ msgid "_Select a theme:"
-#~ msgstr "ਇੱਕ ਸਰੂਪ ਚੁਣੋ(_S):"
-
-#~ msgid "Alt+Control changes layout."
-#~ msgstr "Alt+Control ਸਵਿੱਚਾਂ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀਆਂ ਹਨ।"
-
-#~ msgid "Alt+Shift changes layout."
-#~ msgstr "Alt+Shift ਖਾਕਾ ਤਬਦੀਲ ਕਰਦੀਆਂ ਹਨ।"
-
-#~ msgid "Arabic keymap"
-#~ msgstr "ਅਰਬੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Armenian"
-#~ msgstr "ਆਰਮਾਨੀਆਈ"
-
-#~ msgid "Basque"
-#~ msgstr "ਬਾਸਕਿਊ"
-
-#~ msgid "Belgian"
-#~ msgstr "ਬੈਲਜੀਅਮ"
-
-#~ msgid "Both Alt keys together change layout."
-#~ msgstr "ਦੋਵੇਂ Alt ਸਵਿੱਚਾਂ ਇੱਕਠੀਆਂ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀਆਂ ਹਨ।"
-
-#~ msgid "Both Ctrl keys together change layout."
-#~ msgstr "ਦੋਵੇਂ Ctrl ਸਵਿੱਚਾਂ ਇੱਕਠੀਆਂ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀਆਂ ਹਨ।"
-
-#~ msgid "Both Shift keys together change layout."
-#~ msgstr "ਦੋਵੇਂ Shift ਸਵਿੱਚਾਂ ਇੱਕਠੀਆਂ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀਆਂ ਹਨ।"
-
-#~ msgid "Brazil Portuguese keymap"
-#~ msgstr "ਬਰਾਜ਼ੀਲ ਪੁਰਤਗਾਲੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Bulgarian Cyrillic"
-#~ msgstr "ਬੁਲਗਾਰੀਆਈ ਸਿਰਲਿਕ"
-
-#~ msgid "Bulgarian keymap"
-#~ msgstr "ਬੁਲਗਾਰੀਆਈ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "CapsLock key changes layout."
-#~ msgstr "CapsLock ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Control+Shift changes layout."
-#~ msgstr "Control+Shift ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Czech keymap"
-#~ msgstr "ਚੈੱਕ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Danish keymap"
-#~ msgstr "ਡੈਨਿਸ਼ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Dutch keymap"
-#~ msgstr "ਡੱਚ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "English keymap"
-#~ msgstr "ਅੰਗਰੇਜ਼ੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Estonian keymap"
-#~ msgstr "ਇਸਟੋਨੀਆਈ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Finnish keymap"
-#~ msgstr "ਫੈਨਿਸ਼ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "French Swiss"
-#~ msgstr "ਫਰੈਂਚ ਸਵਿਸ"
-
-#~ msgid "French Swiss keymap"
-#~ msgstr "ਫਰੈਂਚ ਸਵਿਸ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "French keymap"
-#~ msgstr "ਫਰੈਂਚ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "French-Canadian 105-key"
-#~ msgstr "French-Canadian 105-ਸਵਿੱਚ"
-
-#~ msgid "GB 102-key"
-#~ msgstr "GB 102-ਸਵਿੱਚ"
-
-#~ msgid "GB 105-key"
-#~ msgstr "GB 105-ਸਵਿੱਚ"
-
-#~ msgid "Generic Keyboard"
-#~ msgstr "ਆਮ ਕੀ-ਬੋਰਡ"
-
-#~ msgid "Georgian Latin"
-#~ msgstr "ਜਾਰਜੀਆਈ ਲੈਟਿਨ"
-
-#~ msgid "Georgian Russian layout"
-#~ msgstr "ਜਾਰਜੀਆਈ ਰੂਸੀ ਖਾਕਾ"
-
-#~ msgid "Georgian keymap"
-#~ msgstr "ਜਾਰਜੀਆਈ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "German"
-#~ msgstr "ਜਰਮਨ"
-
-#~ msgid "German Swiss with Euro"
-#~ msgstr "ਜਰਮਨ ਸਵਿਸ ਯੂਰੋ ਨਾਲ"
-
-#~ msgid "German keymap"
-#~ msgstr "ਜਰਮਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Greek keymap"
-#~ msgstr "ਗਰੀਕ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Hebrew keymap"
-#~ msgstr "ਹੈਬਰਿਊ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Hungarian 101-key latin 1"
-#~ msgstr "ਹੰਗਰੀਆਈ 101-ਕੀ ਲੈਟਿਨ 1"
-
-#~ msgid "Hungarian 101-key latin 2"
-#~ msgstr "ਹੰਗਰੀਆਈ 101-ਕੀ ਲੈਟਿਨ 2"
-
-#~ msgid "Hungarian 105-key latin 1"
-#~ msgstr "ਹੰਗਰੀਆਈ 105-ਕੀ ਲੈਟਿਨ 1"
-
-#~ msgid "Hungarian 105-key latin 2"
-#~ msgstr "ਹੰਗਰੀਆਈ 105-ਕੀ ਲੈਟਿਨ 2"
-
-#~ msgid "Hungarian PC/AT 101 keyboard"
-#~ msgstr "ਹੰਗਰੀਆਈ PC/AT 101 ਕੀ-ਬੋਰਡ"
-
-#~ msgid "Hungarian latin1"
-#~ msgstr "ਹੰਗਰੀਆਈ ਲੈਟਿਨ1"
-
-#~ msgid "Icelandic keymap"
-#~ msgstr "ਆਈਲੈਡਿਕ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Italian keymap"
-#~ msgstr "ਇਤਾਲਵੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Japanese keymap"
-#~ msgstr "ਜਪਾਨੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Lao keymap"
-#~ msgstr "ਲਓ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Layout shift behavior"
-#~ msgstr "ਖਾਕਾ ਤਬਦੀਲ ਰਵੱਈਆ"
-
-#~ msgid "Left Alt key changes layout."
-#~ msgstr "ਖੱਬੀ Alt ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Left Ctrl key changes group."
-#~ msgstr "ਖੱਬੀ Ctrl ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Left Shift key changes group."
-#~ msgstr "ਖੱਬੀ Shif ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Left Win-key changes layout."
-#~ msgstr "ਖੱਬੀ Win-ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Lithuanian keymap"
-#~ msgstr "ਲੀਥੂਨੀਆਈ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Macedonian"
-#~ msgstr "ਮੈਕਡੋਨਿਆਈ"
-
-#~ msgid "Menu key changes layout."
-#~ msgstr "ਮੇਨੂ ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Mongolian alt keymap"
-#~ msgstr "ਮੰਗੋਲੀਆਈ alt ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Mongolian keymap"
-#~ msgstr "ਮੰਗੋਲੀਆਈ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Mongolian phonetic keymap"
-#~ msgstr "ਮੰਗੋਲੀਆਈ ਫਨੋਟਿਕ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Norwegian"
-#~ msgstr "ਨਾਰਵੇਗੇਆਈ"
-
-#~ msgid "Plain Russian keymap"
-#~ msgstr "ਸਧਾਰਨ ਰੂਸੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Polish"
-#~ msgstr "ਪੋਲੈਂਡੀ"
-
-#~ msgid "Polish deadkeys"
-#~ msgstr "ਪੋਲੈਂਡੀ ਡੈਡ-ਸਵਿੱਚਾਂ"
-
-#~ msgid "Portugal"
-#~ msgstr "ਪੁਰਤਗਾਲੀ"
-
-#~ msgid "Portugal Deadkeys"
-#~ msgstr "ਪੁਰਤਗਾਲੀ ਡੈਡ-ਸਵਿੱਚਾਂ"
-
-#~ msgid "Portuguese keymap"
-#~ msgstr "ਪੁਰਤਗਾਲੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Right Alt key changes layout."
-#~ msgstr "ਸੱਜੀ Alt ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Right Ctrl key changes group."
-#~ msgstr "ਸੱਜੀ Ctrl ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Right Shift key changes group."
-#~ msgstr "ਸੱਜੀ Shift ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Right Win-key changes layout."
-#~ msgstr "ਸੱਜੀ Win-ਸਵਿੱਚ ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰਦੀ ਹੈ।"
-
-#~ msgid "Russian Cyrillic"
-#~ msgstr "ਰੂਸੀ ਸਿਰਲਿਕ"
-
-#~ msgid "Russian keymap"
-#~ msgstr "ਰੂਸੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Serbian keymap"
-#~ msgstr "ਸਰਬੀਆਈ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Shift+CapsLock changes layout."
-#~ msgstr "Shift+CapsLock ਖਾਕੇ ਨੂੰ ਤਬਦੀਲ ਕਰੇਗਾ।"
-
-#~ msgid "Slovak keymap"
-#~ msgstr "ਸਲੋਵਕੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Slovenian"
-#~ msgstr "ਸਲੋਵਨੀਆਈ"
-
-#~ msgid "Slovenian keymap"
-#~ msgstr "ਸੋਲਵਾਕੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Spanish keymap"
-#~ msgstr "ਸਪੇਨੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Sun (!not PC!) type5 Hungarian latin 2"
-#~ msgstr "ਸਨ (! PC ਨਹੀਂ) ਟਾਇਪ5 ਹੰਗਰੀਆਨ ਲੈਟਿਨ 2"
-
-#~ msgid "Swedish"
-#~ msgstr "ਸਵੀਡਸ"
-
-#~ msgid "Swedish keymap"
-#~ msgstr "ਸਵੀਡਸ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Swiss keymap"
-#~ msgstr "ਸਵਿਸ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Thai"
-#~ msgstr "ਥਾਈ"
-
-#~ msgid "Thai Kedmanee"
-#~ msgstr "ਥਾਈ ਕੇਡਮਾਨੀ"
-
-#~ msgid "Thai keymap"
-#~ msgstr "ਥਾਈ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Turkish \"F\" keyboard"
-#~ msgstr "ਤੁਰਕੀ \"F\" ਕੀ-ਬੋਰਡ"
-
-#~ msgid "Turkish \"Q\" keyboard"
-#~ msgstr "ਤੁਰਕੀ \"Q\" ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Turkish keymap"
-#~ msgstr "ਤੁਰਕੀ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "UK 105-key"
-#~ msgstr "UK 105-ਸਵਿੱਚਾਂ"
-
-#~ msgid "UK PC/AT keyboard"
-#~ msgstr "UK PC/AT ਕੀ-ਬੋਰਡ"
-
-#~ msgid "US 101-key keyboard"
-#~ msgstr "US 101-ਸਵਿੱਚ ਕੀ-ਬੋਰਡ"
-
-#~ msgid "US 105-key keyboard (with windows keys)"
-#~ msgstr "US 105-ਸਵਿੱਚ ਕੀ-ਬੋਰਡ (windows ਸਵਿੱਚ ਨਾਲ)"
-
-#~ msgid "US 84-key"
-#~ msgstr "US 84-ਸਵਿੱਚ"
-
-#~ msgid "US DEC 450"
-#~ msgstr "US DEC 450"
-
-#~ msgid "US IBM RS/6000"
-#~ msgstr "US IBM RS/6000"
-
-#~ msgid "US International"
-#~ msgstr "US ਅੰਤਰਰਾਸ਼ਟਰੀ"
-
-#~ msgid "US Macintosh"
-#~ msgstr "US ਮੈਕਾਨਾਟੋਸ਼"
-
-#~ msgid "US PC/AT 101 keyboard"
-#~ msgstr "US PC/AT 101 ਕੀ-ਬੋਰਡ"
-
-#~ msgid "US Silicon Graphics 101-key"
-#~ msgstr "US ਸਿਲੀਕਾਨ ਗਰਾਫਿਕਸ਼ 101-ਸਵਿੱਚਾਂ"
-
-#~ msgid "US Sun type5"
-#~ msgstr "US ਸਨ ਟਾਇਪ5"
-
-#~ msgid "Armenian Sun keymap"
-#~ msgstr "ਆਰਮੀਨਾ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Azerbaijani Turkish Sun keymap"
-#~ msgstr "ਅਜ਼ਰਬਾਈਜਾਨੀ ਤਰੁਕ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Belarusian Sun keymap"
-#~ msgstr "ਬੇਲਾਰੂਸੀ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Brazil Portuguese Sun USB keymap"
-#~ msgstr "ਬਰਾਜ਼ੀਲ ਪੁਰਤਗਾਲੀ ਸਨ USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Brazil Portuguese Sun keymap"
-#~ msgstr "ਬਰਾਜ਼ੀਲ ਪੁਰਤਗਾਲੀ Sun ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "British Sun Type-4 keymap"
-#~ msgstr "British Sun Type-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "British Sun USB keymap"
-#~ msgstr "British Sun USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "British Sun keymap"
-#~ msgstr "British Sun ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Bulgarian Sun keymap"
-#~ msgstr "ਬੁਲਗਾਰੀਆਈ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Canadian Sun keymap"
-#~ msgstr "ਕੈਨੇਡੀਆਈ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Czech Sun keymap"
-#~ msgstr "ਚੈੱਕ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Danish Sun Type-4 keymap"
-#~ msgstr "ਡੈਨਿਸ਼ ਸਨ ਟਾਇਪ-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Danish Sun USB keymap"
-#~ msgstr "ਡੈਨਿਸ਼ ਸਨ USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Danish Sun keymap"
-#~ msgstr "ਡੈਨਿਸ਼ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Dutch Sun keymap"
-#~ msgstr "ਡੱਚ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Estonian Sun keymap"
-#~ msgstr "ਈਸਟੋਨੀਆਈ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Finnish Sun keymap"
-#~ msgstr "ਫੈਨਿਸ਼ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "French Sun USB keymap"
-#~ msgstr "ਫਰੈਂਚ ਸਨ USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "French Sun keymap"
-#~ msgstr "ਫਰੈਂਚ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "German Sun Type-4 keymap"
-#~ msgstr "ਜਰਮਨ ਸਨ ਟਾਇਪ-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "German Sun USB keymap"
-#~ msgstr "ਜਰਮਨ ਸਨ USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "German Sun keymap"
-#~ msgstr "ਜਰਮਨ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Hebrew Sun keymap"
-#~ msgstr "ਹੇਬਰਿਊ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Hungarian latin2 Sun keymap"
-#~ msgstr "ਹੰਗਰੀਆਈ ਲੈਟਿਨ2 ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Hungarian type5 latin 1 keymap"
-#~ msgstr "ਹੰਗਰੀਆਈ ਟਾਇਪ5 ਲੈਟਿਨ 1 ਕੀ-ਮੈਪ"
-
-#~ msgid "Icelandic Sun keymap"
-#~ msgstr "ਆਈਸਲੈਡਿਕ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Italian Sun Type-4 keymap"
-#~ msgstr "ਇਤਾਲਵੀ ਸਨ ਟਾਇਪ-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Italian Sun USB keymap"
-#~ msgstr "ਇਤਾਲਵੀ ਸਨ USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Italian Sun keymap"
-#~ msgstr "ਇਤਾਲਵੀ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Japanese Sun Type-4 keymap"
-#~ msgstr "ਜਪਾਨੀ ਸਨ ਟਾਇਪ-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Japanese Sun keymap"
-#~ msgstr "ਜਪਾਨੀ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Latvian Sun keymap"
-#~ msgstr "ਲਾਟਵੀਆਈ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Lithuanian Sun keymap"
-#~ msgstr "ਲਿਥੂਆਨਆਈ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Macedonian Sun keymap"
-#~ msgstr "ਮੈਕਡੋਨਿਆਈ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Norwegian Sun keymap"
-#~ msgstr "ਨਾਰਵੇਗੇਆਈ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Polish Sun keymap"
-#~ msgstr "ਪੋਲੈਂਡੀ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Portuguese Sun Type-4 keymap"
-#~ msgstr "ਪੁਰਤਗਾਲੀ ਸਨ ਟਾਇਪ-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Portuguese Sun keymap"
-#~ msgstr "ਪੁਰਤਗਾਲੀ ਸਨ ਕੀ-ਮੈਪ"
-
-#~ msgid "Romanian Sun keymap"
-#~ msgstr "ਰੋਮਾਨੀਆਨ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Russian Sun keymap"
-#~ msgstr "ਰੂਸੀ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Serbian Sun standard keymap"
-#~ msgstr "ਸਰਬੀਆਈ ਸਨ ਸਟੈਂਡਰਡ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Slovak Sun keymap"
-#~ msgstr "ਸਲੋਵਕ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Slovenian Sun keymap"
-#~ msgstr "ਸਲੋਵਨੀਆ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Spanish Sun Type-4 keymap"
-#~ msgstr "ਸਪੇਨੀ ਸਨ ਟਾਇਪ-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Spanish Sun USB keymap"
-#~ msgstr "ਸਪੇਨੀ ਸਨ USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Spanish Sun keymap"
-#~ msgstr "ਸਪੇਨੀ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Swedish Sun Type-4 keymap"
-#~ msgstr "ਸਵੀਡਸ ਸਨ ਟਾਇਪ-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Swedish Sun USB keymap"
-#~ msgstr "ਸਵੀਡਸ ਸਨ USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Swedish Sun keymap"
-#~ msgstr "ਸਵੀਡਸ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Swiss German Sun keymap"
-#~ msgstr "ਸਵਿਸ ਜਰਮਨ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Thai Sun keymap"
-#~ msgstr "ਥਾਈ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Turkish Sun keymap"
-#~ msgstr "ਤੁਰਕਸ਼ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "US Sun Type-4 keymap"
-#~ msgstr "US Sun Type-4 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "US Sun USB keymap"
-#~ msgstr "US Sun USB ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "US Sun type5 keymap"
-#~ msgstr "US Sun type5 ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Ukrainian Sun keymap"
-#~ msgstr "ਯੂਕਰੇਨੀ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Vietnamese Sun keymap"
-#~ msgstr "ਵੀਆਤਨਾਮੀ ਸਨ ਸਵਿੱਚ-ਖਾਕਾ"
-
-#~ msgid "Keyboard _Preferences"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਪਸੰਦ ਖੋਲ੍ਹੋ(_P)"
-
-#~ msgid "Show Current _Layout"
-#~ msgstr "ਮੌਜੂਦਾ ਖਾਕਾ ਵੇਖਾਓ(_L)"
-
-#~ msgid "_Groups"
-#~ msgstr "ਗਰੁੱਪ(_G)"
-
-#~ msgid "Keyboard Indicator"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਸੂਚਕ"
-
-#~ msgid "Keyboard applet factory"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "Keyboard layout indicator"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਖਾਕਾ ਸੂਚਕ"
-
-#~ msgid "Keyboard Layout \"%s\""
-#~ msgstr "ਕੀ-ਬੋਰਡ ਸੂਚਕ \"%s\""
-
-#~ msgid "Copyright (c) Sergey V. Udaltsov 1999-2004"
-#~ msgstr "ਹੱਕ ਰਾਖਵੇ ਹਨ (c) ਸੇਰਗੇਈ ਵੀ ਊਡੈਲਟੋਵ ੧੯੯੯-੨੦੦੪"
-
-#~ msgid "Keyboard layout indicator applet for MATE"
-#~ msgstr "ਗਨੋਮ ਲਈ ਕੀ-ਬੋਰਡ ਖਾਕਾ ਸੰਕੇਤਕ ਐਪਲਿਟ"
-
-#~ msgid "Keyboard Indicator (%s)"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਸੂਚਕ (%s)"
-
-#~ msgid "Keyboard Layout"
-#~ msgstr "ਕੀ-ਬੋਰਡ ਖਾਕਾ"
-
-#~ msgid "Secondary groups"
-#~ msgstr "ਸੈਕੰਡਰੀ ਗਰੁੱਪ"
-
-#~ msgid "Show flags in the applet"
-#~ msgstr "ਐਪਲਿਟ ਵਿੱਚ ਝੰਡਾ ਵੇਖਾਓ"
-
-#~ msgid "Show flags in the applet to indicate the current layout"
-#~ msgstr "ਮੌਜੂਦਾ ਖਾਕਾ ਵੇਖਾਉਣ ਲਈ ਐਪਲਿਟ ਵਿੱਚ ਝੰਡਾ ਵੇਖਾਓ"
-
-#~ msgid "The list of enabled Keyboard Indicator plugins"
-#~ msgstr "ਯੋਗ ਕੀ-ਬੋਰਡ ਵੇਖਾਉਣ ਪਲੱਗਇਨ ਦੀ ਲਿਸਟ"
-
-#~ msgid "_Details"
-#~ msgstr "ਵੇਰਵਾ(_D)"
-
-#~ msgid "_Update"
-#~ msgstr "ਅੱਪਡੇਟ(_U)"
-
-#~ msgid "Factory for creating the weather applet."
-#~ msgstr "ਮੌਸਮ ਐਪਲਿਟ ਬਣਾਉਣ ਲਈ ਫੈਕਟਰੀ ਹੈ।"
-
-#~ msgid "Gweather Applet Factory"
-#~ msgstr "ਜੀ-ਮੌਸਮ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "Monitor the current weather conditions, and forecasts"
-#~ msgstr "ਮੌਜੂਦਾ ਮੌਸਮ ਹਾਲਾਤ ਵੇਖੋ ਅਤੇ ਭਵਿੱਖਬਾਣੀ ਲਵੋ"
-
-#~ msgid "Weather Report"
-#~ msgstr "ਮੌਸਮ ਰਿਪੋਰਟ"
-
-#~ msgid "© 1999-2005 by S. Papadimitriou and others"
-#~ msgstr "© 1999-2005 ਲਈ ਐਸ. ਪੱਪਾਡੀਮੀਟਰੀਉ ਅਤੇ ਹੋਰ"
-
-#~ msgid "A panel application for monitoring local weather conditions."
-#~ msgstr "ਲੋਕਲ ਮੌਸਮ ਹਾਲਤਾਂ ਦੀ ਨਿਗਰਾਨੀ ਕਰਨ ਲਈ ਪੈਨਲ ਐਪਲਿਟ ਹੈ।"
-
-#~ msgid "MATE Weather"
-#~ msgstr "ਗਨੋਮ ਮੌਸਮ"
-
-#~ msgid "Weather Forecast"
-#~ msgstr "ਮੌਸਮ ਭਵਿੱਖਬਾਣੀ"
-
-#~ msgid ""
-#~ "City: %s\n"
-#~ "Sky: %s\n"
-#~ "Temperature: %s"
-#~ msgstr ""
-#~ "ਸ਼ਹਿਰ: %s\n"
-#~ "ਅਸਮਾਨ: %s\n"
-#~ "ਤਾਪਮਾਨ: %s"
-
-#~ msgid "Updating..."
-#~ msgstr "ਅੱਪਡੇਟ ਜਾਰੀ..."
-
-#~ msgid "Details"
-#~ msgstr "ਵੇਰਵਾ"
-
-#~ msgid "City:"
-#~ msgstr "ਸ਼ਹਿਰ:"
-
-#~ msgid "Last update:"
-#~ msgstr "ਆਖਰੀ ਅੱਪਡੇਟ:"
-
-#~ msgid "Conditions:"
-#~ msgstr "ਹਾਲਤ:"
-
-#~ msgid "Sky:"
-#~ msgstr "ਅਸਮਾਨ:"
-
-#~ msgid "Temperature:"
-#~ msgstr "ਤਾਪਮਾਨ:"
-
-#~ msgid "Feels like:"
-#~ msgstr "ਮਹਿਸੂਸ:"
-
-#~ msgid "Dew point:"
-#~ msgstr "ਤਰੇਲ ਦਰਜਾ:"
-
-#~ msgid "Relative humidity:"
-#~ msgstr "ਅਨੁਸਾਰੀ ਨਮੀਂ:"
-
-#~ msgid "Wind:"
-#~ msgstr "ਹਵਾ:"
-
-#~ msgid "Pressure:"
-#~ msgstr "ਦਬਾਉ:"
-
-#~ msgid "Visibility:"
-#~ msgstr "ਦਿੱਖ:"
-
-#~ msgid "Sunrise:"
-#~ msgstr "ਸੂਰਜ ਚੜ੍ਹੇਗਾ:"
-
-#~ msgid "Sunset:"
-#~ msgstr "ਸੂਰਜ ਡੁੱਬੇਗਾ:"
-
-#~ msgid "Current Conditions"
-#~ msgstr "ਮੌਜੂਦਾ ਹਾਲਾਤ"
-
-#~ msgid "Forecast Report"
-#~ msgstr "ਭਵਿੱਖਬਾਣੀ ਰਿਪੋਰਟ"
-
-#~ msgid "See the ForeCast Details"
-#~ msgstr "ਭਵਿੱਖਬਾਣੀ ਵੇਰਵਾ ਵੇਖੋ"
-
-#~ msgid "Forecast"
-#~ msgstr "ਭਵਿੱਖਬਾਣੀ"
-
-#~ msgid "Radar Map"
-#~ msgstr "ਰਾਡਾਰ ਨਕਸ਼ਾ"
-
-#~ msgid "_Visit Weather.com"
-#~ msgstr "Weather.com 'ਤੇ ਜਾਓ(_V)"
-
-#~ msgid "Visit Weather.com"
-#~ msgstr "Weather.com 'ਤੇ ਜਾਓ"
-
-#~ msgid "Click to Enter Weather.com"
-#~ msgstr "Weather.com 'ਤੇ ਜਾਣ ਲਈ ਦਬਾਓ"
-
-#~ msgid "Forecast not currently available for this location."
-#~ msgstr "ਇਸ ਟਿਕਾਣਾ ਲਈ ਪਹਿਲਾਂ ਅਨੁਮਾਨ ਸੰਭਵ ਨਹੀਂ ਹੈ।"
-
-#~ msgid "Location view"
-#~ msgstr "ਟਿਕਾਣਾ ਝਲਕ"
-
-#~ msgid "Select Location from the list"
-#~ msgstr "ਲਿਸਟ ਵਿੱਚੋਂ ਟਿਕਾਣਾ ਚੁਣੋ"
-
-#~ msgid "Update spin button"
-#~ msgstr "ਸਪਿੰਨ ਬਟਨ ਅੱਪਡੇਟ"
-
-#~ msgid "Spinbutton for updating"
-#~ msgstr "ਅੱਪਡੇਟ ਲਈ ਸਪਿੰਨ ਬਟਨ"
-
-#~ msgid "Address Entry"
-#~ msgstr "ਸਿਰਨਾਵਾਂ ਇੰਦਰਾਜ਼"
-
-#~ msgid "Enter the URL"
-#~ msgstr "URL ਦਿਓ"
-
-#~ msgid ""
-#~ "Failed to load the Locations XML database.  Please report this as a bug."
-#~ msgstr "ਟਿਕਾਣਾ XML ਡਾਟਾਬੇਸ ਲੋਡ ਕਰਨ ਲਈ ਫੇਲ ਹੈ। ਇੱਕ ਬੱਗ ਜਾਣਕਾਰੀ ਦਿਓ ਜੀ।"
-
-#~ msgid "Weather Preferences"
-#~ msgstr "ਮੌਸਮ ਪਸੰਦ"
-
-#~ msgid "_Automatically update every:"
-#~ msgstr "ਆਟੋਮੈਟਿਕ ਅੱਪਡੇਟ ਹਰੇਕ(_A):"
-
-#~ msgid "_Temperature unit:"
-#~ msgstr "ਤਾਪਮਾਨ ਇਕਾਈ(_T):"
-
-#~ msgid "Kelvin"
-#~ msgstr "ਕੈਲਵਿਨ"
-
-#~ msgid "Celsius"
-#~ msgstr "ਸੈਲਸੀਅਸ"
-
-#~ msgid "Fahrenheit"
-#~ msgstr "ਫਾਰਨਹੀਟ"
-
-#~ msgid "_Wind speed unit:"
-#~ msgstr "ਹਵਾ ਗਤੀ ਇਕਾਈ(_W):"
-
-#~ msgid "_Pressure unit:"
-#~ msgstr "ਦਬਾਓ ਇਕਾਈ(_P):"
-
-#~ msgid "_Visibility unit:"
-#~ msgstr "ਦਿੱਖ ਇਕਾਈ(_V):"
-
-#~ msgid "meters"
-#~ msgstr "ਮੀਟਰ"
-
-#~ msgid "miles"
-#~ msgstr "ਮੀਲ"
-
-#~ msgid "Enable _radar map"
-#~ msgstr "ਰਾਡਾਰ ਨਕਸ਼ਾ ਯੋਗ(_r)"
-
-#~ msgid "Use _custom address for radar map"
-#~ msgstr "ਰਾਡਾਰ ਨਕਸ਼ੇ ਲਈ ਸੋਧਿਆ ਸਿਰਨਾਵਾਂ ਵਰਤੋਂ(_c)"
-
-#~ msgid "A_ddress:"
-#~ msgstr "ਸਿਰਨਾਵਾਂ(_d):"
-
-#~ msgid "Update"
-#~ msgstr "ਅੱਪਡੇਟ"
-
-#~ msgid "minutes"
-#~ msgstr "ਮਿੰਟ"
-
-#~ msgid "Display"
-#~ msgstr "ਵੇਖਾਓ"
-
-#~ msgid "General"
-#~ msgstr "ਆਮ"
-
-#~ msgid "_Select a location:"
-#~ msgstr "ਇੱਕ ਟਿਕਾਣਾ ਚੁਣੋ(_S):"
-
-#~ msgid "_Find:"
-#~ msgstr "ਖੋਜ(_F):"
-
-#~ msgid "Find _Next"
-#~ msgstr "ਅੱਗੇ ਖੋਜ(_N)"
-
-#~ msgid "Location"
-#~ msgstr "ਟਿਕਾਣਾ"
-
-#~ msgid "Invest"
-#~ msgstr "ਨਿਵੇਸ਼"
-
-#~ msgid "Track your invested money."
-#~ msgstr "ਆਪਣੇ ਨਿਵੇਸ਼ ਪੈਸੇ ਬਾਰੇ ਜਾਣੋ।"
-
-#~ msgid "_Refresh"
-#~ msgstr "ਤਾਜ਼ਾ(_R)"
-
-#~ msgid "10"
-#~ msgstr "10"
-
-#~ msgid "100"
-#~ msgstr "100"
-
-#~ msgid ""
-#~ "1d\n"
-#~ "5d\n"
-#~ "3m\n"
-#~ "6m\n"
-#~ "1y\n"
-#~ "3y"
-#~ msgstr ""
-#~ "1d\n"
-#~ "5d\n"
-#~ "3m\n"
-#~ "6m\n"
-#~ "1y\n"
-#~ "3y"
-
-#~ msgid "20"
-#~ msgstr "20"
-
-#~ msgid "200"
-#~ msgstr "200"
-
-#~ msgid "5"
-#~ msgstr "5"
-
-#~ msgid "50"
-#~ msgstr "50"
-
-#~ msgid "Auto _refresh"
-#~ msgstr "ਆਟੋ-ਤਾਜ਼ਾ(_r)"
-
-#~ msgid "Bollinger"
-#~ msgstr "ਬੋਲਿੱਗੀਰ"
-
-#~ msgid "Downloading chart from <b>Yahoo!</b>"
-#~ msgstr "<b>Yahoo!</b> ਤੋਂ ਚਾਰਟ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Exponential moving average: "
-#~ msgstr "ਐਕਪੋਨੇਸ਼ਨਲ ਗਤੀ ਔਸਤ:"
-
-#~ msgid "Fast stoch"
-#~ msgstr "ਤੇਜ਼ ਸਟੋਚ"
-
-#~ msgid "Financial Chart"
-#~ msgstr "ਵਿੱਤੀ ਚਾਰਟ"
-
-#~ msgid "Indicators: "
-#~ msgstr "ਐਂਡੀਕੇਟਰ:"
-
-#~ msgid "MACD"
-#~ msgstr "MACD"
-
-#~ msgid "MFI"
-#~ msgstr "MFI"
-
-#~ msgid "Moving average: "
-#~ msgstr "ਗਤੀ ਔਸਤ:"
-
-#~ msgid "Overlays: "
-#~ msgstr "ਢਾਂਚੇ:"
-
-#~ msgid "ROC"
-#~ msgstr "ROC"
-
-#~ msgid "RSI"
-#~ msgstr "RSI"
-
-#~ msgid "SAR"
-#~ msgstr "SAR"
-
-#~ msgid "Slow stoch"
-#~ msgstr "ਹੌਲੀ ਸਟੋਚ"
-
-#~ msgid "Splits"
-#~ msgstr "ਵੰਡੋ"
-
-#~ msgid "Vol"
-#~ msgstr "ਆਵਾਜ਼"
-
-#~ msgid "Vol+MA"
-#~ msgstr "ਆਵਾਜ਼+MA"
-
-#~ msgid "Volumes"
-#~ msgstr "ਵਾਲੀਅਮ"
-
-#~ msgid "W%R"
-#~ msgstr "W%R"
-
-#~ msgid "_Graph style: "
-#~ msgstr "ਗਰਾਫ਼ ਸ਼ੈਲੀ(_G): "
-
-# mate-session/session-properties-capplet.c:217
-#~ msgid "_Options"
-#~ msgstr "ਚੋਣਾਂ(_O)"
-
-#~ msgid "_Ticker symbol: "
-#~ msgstr "ਖੋਜੀ ਨਿਸ਼ਾਨ(_T):"
-
-#~ msgid ""
-#~ "l\n"
-#~ "b\n"
-#~ "c"
-#~ msgstr ""
-#~ "l\n"
-#~ "b\n"
-#~ "c"
-
-#~ msgid "Display yahoo charts"
-#~ msgstr "ਯਾਹੂ ਚਾਰਟ ਵੇਖਾਓ"
-
-#~ msgid "Invest Chart"
-#~ msgstr "ਨਿਵੇਸ਼ ਚਾਰਟ"
-
-#~ msgid "<b>Stocks</b>"
-#~ msgstr "<b>ਸਟਾਕ</b>"
-
-#~ msgid ""
-#~ "<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
-#~ "<b>Source: </b> Yahoo!</small></i>"
-#~ msgstr ""
-#~ "<i><small><b>ਸੂਚਨਾ:</b> ਹਵਾਲੇ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 15 ਮਿੰਟ ਦੀ ਦੇਰੀ ਹੁੰਦੀ ਹੈ।\n"
-#~ "<b>ਸਰੋਤ: </b> Yahoo!</small></i>"
-
-#~ msgid "Invest Preferences"
-#~ msgstr "ਨਿਵੇਸ਼ ਪਸੰਦ"
-
-#~ msgid "Invest Website"
-#~ msgstr "ਨਿਵੇਸ਼ ਵੈੱਬਸਾਇਟ"
-
-#~ msgid "Financial Chart - %s"
-#~ msgstr "ਵਿੱਤੀ ਚਾਰਟ - %s"
-
-#~ msgid "Opening Chart"
-#~ msgstr "ਚਾਰਟ ਖੋਲ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Downloading Chart"
-#~ msgstr "ਚਾਰਟ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Reading Chart chunk"
-#~ msgstr "ਚਾਰਟ ਡਾਟਾ ਪੜ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Invest Applet"
-#~ msgstr "ਨਿਵੇਸ਼ ਐਪਲਿਟ"
-
-#~ msgid "Symbol"
-#~ msgstr "ਨਿਸ਼ਾਨ"
-
-#~ msgid "Amount"
-#~ msgstr "ਮਾਤਰਾ"
-
-#~ msgid "Price"
-#~ msgstr "ਕੀਮਤ"
-
-#~ msgid "Commission"
-#~ msgstr "ਦਲਾਲੀ"
-
-#~ msgid "Deskbar (formerly Mini-Commander)"
-#~ msgstr "ਡੈਸਕਬਾਰ (ਪੁਰਾਣਾ ਮਿੰਨੀ-ਕਮਾਂਡਰ)"
-
-#~ msgid "Deskbar (transparent upgrade from Mini-Commander)"
-#~ msgstr "ਡੈਸਕਬਾਰ (ਮਿੰਨੀ-ਕਮਾਂਡਰ ਤੋਂ ਪਾਰਦਰਸ਼ੀ ਅੱਪਗਰੇਡ)"
-
-#~ msgid "Command Line"
-#~ msgstr "ਕਮਾਂਡ ਲਾਈਨ"
-
-#~ msgid "Mini-Commander"
-#~ msgstr "ਮਿੰਨੀ-ਕਮਾਂਡਰ"
-
-#~ msgid "MiniCommander Applet Factory"
-#~ msgstr "ਮਿੰਨੀ-ਕਮਾਂਡਰ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid ""
-#~ "This MATE applet adds a command line to the panel. It features command "
-#~ "completion, command history, and changeable macros."
-#~ msgstr ""
-#~ "ਇਹ ਗਨੋਮ ਐਪਲਿਟ ਤੁਹਾਡੇ ਪੈਨਲ ਵਿੱਚ ਕਮਾਂਡ ਸ਼ਾਮਲ ਕਰੇਗਾ। ਇਸ ਵਿੱਚ ਕਮਾਂਡ ਮੁਕੰਮਲ, ਕਮਾਂਡ ਅਤੀਤ, ਅਤੇ "
-#~ "ਤਬਦੀਲਯੋਗ ਮਾਈਕਰੋ ਸ਼ਾਮਲ ਹਨ।"
-
-#~ msgid "No items in history"
-#~ msgstr "ਅਤੀਤ ਵਿੱਚ ਕੁਝ ਨਹੀਂ"
-
-#~ msgid "Start program"
-#~ msgstr "ਪਰੋਗਰਾਮ ਸ਼ੁਰੂ"
-
-#~ msgid "Command line"
-#~ msgstr "ਕਮਾਂਡ ਲਾਈਨ"
-
-#~ msgid "Type a command here and Mate will execute it for you"
-#~ msgstr "ਕਮਾਂਡ ਇੱਥੇ ਟਾਇਪ ਕਰੋ ਅਤੇ ਗਨੋਮ ਤੁਹਾਡੇ ਲਈ ਇਸ ਨੂੰ ਚਲਾਏਗਾ"
-
-#~ msgid "Cannot get schema for %s: %s"
-#~ msgstr "%s ਲਈ ਸਕੀਮ ਪਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ: %s"
-
-#~ msgid "Cannot set schema for %s: %s"
-#~ msgstr "%s ਲਈ ਸਕੀਮ ਦਿੱਤੀ ਨਹੀਂ ਜਾ ਸਕੀ: %s"
-
-#~ msgid "Set default list value for %s\n"
-#~ msgstr "%s ਲਈ ਮੂਲ ਲਿਸਟ ਮੁੱਲ ਦਿਓ\n"
-
-#~ msgid ""
-#~ "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
-#~ msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL ਸੈਟ ਹੈ, ਪਰ ਸਕੀਮਾਂ ਇੰਸਟਾਲ ਨਹੀ ਹੈ\n"
-
-#~ msgid "Must set the MATECONF_CONFIG_SOURCE environment variable\n"
-#~ msgstr "ਇੰਵਾਇਰਨਮੈਟਲ ਵੇਰੀਬਲ MATECONF_CONFIG_SOURCE ਦੇਣਾ ਜ਼ਰੂਰੀ ਹੈ\n"
-
-#~ msgid "Failed to access configuration source(s): %s\n"
-#~ msgstr "ਸੰਰਚਨਾ ਸਰੋਤਾਂ ਨੂੰ ਖੋਲ੍ਹਣ ਵਿੱਚ ਅਸਫਲ: %s\n"
-
-#~ msgid "Error syncing config data: %s"
-#~ msgstr "ਗਲਤੀ ਸੰਰਚਨਾ ਡਾਟਾ ਨਾਲ ਸਮਕਾਲੀ: %s"
-
-#~ msgid ""
-#~ "List of MateConfValue entries containing strings for the macro commands."
-#~ msgstr "MateConfValue ਇੰਦਰਾਜ਼ਾਂ ਦੀ ਸੂਚੀ, ਜੋ ਕਿ ਮਾਈਕਰੋ ਕਮਾਂਡ ਲਈ ਸਤਰਾਂ ਨੂੰ ਰੱਖਦਾ ਹੈ।"
-
-#~ msgid ""
-#~ "List of MateConfValue entries containing strings for the macro patterns."
-#~ msgstr "MateConfValue ਇੰਦਰਾਜ਼ਾਂ ਦੀ ਸੂਚੀ, ਜੋ ਕਿ ਮਾਈਕਰੋ ਪੈਟਰਨ ਲਈ ਸਤਰਾਂ ਨੂੰ ਰੱਖਦਾ ਹੈ।"
-
-#~ msgid "Macro command list"
-#~ msgstr "ਮਾਈਕਰੋ ਕਮਾਂਡ ਲਿਸਟ"
-
-#~ msgid "Macro pattern list"
-#~ msgstr "ਮਾਈਕਰੋ ਪੈਟਰਨ ਲਿਸਟ"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "<b>Auto Completion</b>"
-#~ msgstr "<b>ਆਟੋ ਪੂਰਨ</b>"
-
-#~ msgid "<b>Colors</b>"
-#~ msgstr "<b>ਰੰਗ</b>"
-
-#~ msgid "<b>Size</b>"
-#~ msgstr "<b>ਅਕਾਰ</b>"
-
-#~ msgid "Add New Macro"
-#~ msgstr "ਨਵਾਂ ਮਾਈਕਰੋ ਜੋੜ੍ਹੋ"
-
-#~ msgid "Co_mmand:"
-#~ msgstr "ਕਮਾਂਡ(_m):"
-
-#~ msgid "Command Line Preferences"
-#~ msgstr "ਕਮਾਂਡ ਲਾਈਨ ਪਸੰਦ"
-
-#~ msgid "Command line _background:"
-#~ msgstr "ਕਮਾਂਡ ਲਾਈਨ ਬੈਕਗਰਾਊਂਡ(_b):"
-
-#~ msgid "Command line _foreground:"
-#~ msgstr "ਕਮਾਂਡ ਲਾਈਨ ਫਾਰਗਰਾਊਂਡ(_f):"
-
-#~ msgid "E_nable history-based auto completion"
-#~ msgstr "ਅਤੀਤ 'ਤੇ ਆਧਾਰਿਤ ਆਟੋ-ਪੂਰਨ ਨੂੰ ਯੋਗ ਕਰੋ(_n)"
-
-#~ msgid "Macros"
-#~ msgstr "ਮਾਈਕਰੋ"
-
-#~ msgid "Pick a color"
-#~ msgstr "ਇੱਕ ਰੰਗ ਚੁਣੋ"
-
-#~ msgid "_Add Macro..."
-#~ msgstr "ਮਾਈਕਰੋ ਜੋੜੋ(_A)..."
-
-# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# gtk/gtkstock.c:285
-#~ msgid "_Delete Macro"
-#~ msgstr "ਮਾਈਕਰੋ ਹਟਾਓ(_D)"
-
-#~ msgid "_Macros:"
-#~ msgstr "ਮਾਈਕਰੋ(_M):"
-
-#~ msgid "_Pattern:"
-#~ msgstr "ਪੈਟਰਨ(_P):"
-
-#~ msgid "_Use default theme colors"
-#~ msgstr "ਮੂਲ ਸਰੂਪ ਰੰਗ ਵਰਤੋਂ(_U)"
-
-#~ msgid "_Width:"
-#~ msgstr "ਚੌੜਾਈ(_W):"
-
-#~ msgid "pixels"
-#~ msgstr "ਪਿਕਸਲ"
-
-#~ msgid ""
-#~ "Attempt to autocomplete a command from the history of commands entered."
-#~ msgstr "ਦਿੱਤੀਆ ਗਈਆਂ ਕਮਾਡਾਂ ਦੇ ਅਤੀਤ ਵਿੱਚੋਂ ਕਮਾਂਡ ਆਟੋ-ਪੂਰੀ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ ਕਰੋ।"
-
-#~ msgid "Background color, blue component"
-#~ msgstr "ਬੈਕਗਰਾਊਂਡ ਰੰਗ, ਨੀਲਾ ਹਿੱਸਾ"
-
-#~ msgid "Background color, green component"
-#~ msgstr "ਬੈਕਗਰਾਊਂਡ ਰੰਗ, ਹਰਾ ਹਿੱਸਾ"
-
-#~ msgid "Background color, red component"
-#~ msgstr "ਬੈਕਗਰਾਊਂਡ ਰੰਗ, ਲਾਲ ਹਿੱਸਾ"
-
-#~ msgid "Foreground color, blue component"
-#~ msgstr "ਫਾਰਗਰਾਊਂਡ ਰੰਗ, ਨੀਲਾ ਹਿੱਸਾ"
-
-#~ msgid "Foreground color, green component"
-#~ msgstr "ਫਾਰਗਰਾਊਂਡ ਰੰਗ, ਹਰਾ ਹਿੱਸਾ"
-
-#~ msgid "Foreground color, red component"
-#~ msgstr "ਫਾਰਗਰਾਊਂਡ ਰੰਗ, ਲਾਲ ਹਿੱਸਾ"
-
-#~ msgid "History list"
-#~ msgstr "ਅਤੀਤ ਲਿਸਟ"
-
-#~ msgid "List of MateConfValue entries containing strings for history entries."
-#~ msgstr "MateConfValue ਇੰਦਰਾਜ਼ਾਂ ਦੀ ਲਿਸਟ, ਜੋ ਕਿ ਅਤੀਤ ਇੰਦਰਾਜ਼ ਲਈ ਸਤਰਾਂ ਨੂੰ ਰੱਖਦਾ ਹੈ।"
-
-#~ msgid "Perform history autocompletion"
-#~ msgstr "ਅਤੀਤ ਆਟੋ-ਪੂਰਨ ਕਾਰਵਾਈ ਕਰੋ"
-
-#~ msgid "Show a frame surrounding the applet."
-#~ msgstr "ਐਪਲਿਟ ਨੂੰ ਘੇਰਨ ਵਾਲਾ ਫਰੇਮ ਵੇਖਾਓ।"
-
-#~ msgid "Show a handle so the applet can be detached from the panel."
-#~ msgstr "ਹੈਡਲ ਵੇਖਾਉ ਤਾਂ ਕਿ ਐਪਲਿਟ ਨੂੰ ਪੈਨਲ ਨਾਲੋਂ ਵੱਖਰਾ ਕੀਤਾ ਜਾ ਸਕੇ।"
-
-#~ msgid "Show frame"
-#~ msgstr "ਫਰੇਮ ਵੇਖਾਓ"
-
-#~ msgid "Show handle"
-#~ msgstr "ਹੈਂਡਲ ਵੇਖਾਓ"
-
-#~ msgid "The blue component of the background color."
-#~ msgstr "ਬੈਕਗਰਾਊਂਡ ਰੰਗ ਦਾ ਨੀਲਾ ਹਿੱਸਾ।"
-
-#~ msgid "The blue component of the foreground color."
-#~ msgstr "ਫਾਰਗਰਾਊਂਡ ਰੰਗ ਦਾ ਨੀਲਾ ਹਿੱਸਾ।"
-
-#~ msgid "The green component of the background color."
-#~ msgstr "ਬੈਕਗਰਾਊਂਡ ਰੰਗ ਦਾ ਹਰਾ ਹਿੱਸਾ।"
-
-#~ msgid "The green component of the foreground color."
-#~ msgstr "ਫਾਰਗਰਾਊਂਡ ਰੰਗ ਦਾ ਹਰਾ ਹਿੱਸਾ।"
-
-#~ msgid "The red component of the background color."
-#~ msgstr "ਬੈਕਗਰਾਊਂਡ ਰੰਗ ਦਾ ਲਾਲ ਹਿੱਸਾ।"
-
-#~ msgid "The red component of the foreground color."
-#~ msgstr "ਫਾਰਗਰਾਊਂਡ ਰੰਗ ਦਾ ਲਾਲ ਹਿੱਸਾ।"
-
-#~ msgid ""
-#~ "This per-applet key is deprecated in favour of the global key, /schemas/"
-#~ "apps/mini-commander-global/macro_patterns."
-#~ msgstr ""
-#~ "per-applet ਕੁੰਜੀ ਨੂੰ ਵਿਆਪਕ ਕੁੰਜੀ /schemas/apps/mini-commander-global/"
-#~ "macro_patterns ਦੇ ਮੁਕਾਬਲੇ ਬਰਤਰਫ਼ ਕੀਤਾ ਗਿਆ ਹੈ।"
-
-#~ msgid "Use the default theme colors"
-#~ msgstr "ਮੂਲ ਸਰੂਪ ਰੰਗ ਵਰਤੋਂ।"
-
-#~ msgid "Use theme colors instead of custom ones."
-#~ msgstr "ਚੋਣਵੇ ਰੰਗਾਂ ਦੀ ਬਜਾਏ ਸਰੂਪ ਦੇ ਰੰਗ ਵਰਤੋਂ।"
-
-#~ msgid "Width"
-#~ msgstr "ਚੌੜਾਈ"
-
-#~ msgid "Width of the applet"
-#~ msgstr "ਐਪਲਿਟ ਦੀ ਚੌੜਾਈ"
-
-#~ msgid "Browser"
-#~ msgstr "ਝਲਕਾਰਾ"
-
-#~ msgid "Click this button to start the browser"
-#~ msgstr "ਝਲਕਾਰਾ ਖੋਲਣ ਲਈ ਇਸ ਬਟਨ ਨੂੰ ਦਬਾਓ"
-
-#~ msgid "History"
-#~ msgstr "ਅਤੀਤ"
-
-#~ msgid "Click this button for the list of previous commands"
-#~ msgstr "ਪੁਰਾਣੀ ਕਮਾਂਡ ਦੀ ਸੂਚੀ ਲਈ ਇਹ ਬਟਨ ਦਬਾਓ"
-
-#~ msgid "Command line has been disabled by your system administrator"
-#~ msgstr "ਕਮਾਂਡ ਲਾਈਨ ਤੁਹਾਡੇ ਸਿਸਟਮ ਪਰਸ਼ਾਸ਼ਕ ਨੇ ਆਯੋਗ ਕੀਤੀ ਹੋਈ ਹੈ।"
-
-#~ msgid "Mini-Commander applet"
-#~ msgstr "ਮਿੰਨੀ-ਕਮਾਂਡਰ ਐਪਲਿਟ"
-
-#~ msgid "This applet adds a command line to the panel"
-#~ msgstr "ਇਹ ਐਪਲਿਟ ਪੈਨਲ ਵਿੱਚ ਕਮਾਂਡ ਜੋੜ ਦੇਵੇਗਾ"
-
-#~ msgid "You must specify a pattern"
-#~ msgstr "ਤੁਹਾਨੂੰ ਪੈਟਰਨ ਦੇਣਾ ਹੀ ਪਵੇਗਾ"
-
-#~ msgid "You must specify a pattern and a command"
-#~ msgstr "ਤੁਹਾਨੂੰ ਪੈਟਰਨ ਅਤੇ ਕਮਾਂਡ ਦੇਣ ਹੀ ਪਵੇਗੀ"
-
-#~ msgid "You must specify a command"
-#~ msgstr "ਤੁਹਾਨੂੰ ਕਮਾਂਡ ਦੇਣੀ ਹੀ ਪਵੇਗੀ"
-
-#~ msgid "You may not specify duplicate patterns"
-#~ msgstr "ਤੁਸੀਂ ਦੁਹਰਾ ਪੈਟਰਨ ਨੂੰ ਦੇ ਨਹੀ ਕਰ ਸਕਦੇ ਹੋ"
-
-#~ msgid "Pattern"
-#~ msgstr "ਪੈਟਰਨ"
-
-#~ msgid "Command"
-#~ msgstr "ਕਮਾਂਡ"
-
-#~ msgid "Adjust the sound volume"
-#~ msgstr "ਸਾਊਂਡ ਅਵਾਜ਼ ਅਨੁਕੂਲ"
-
-#~ msgid "Volume Control"
-#~ msgstr "ਅਵਾਜ਼ ਕੰਟਰੋਲ"
-
-#~ msgid "Mu_te"
-#~ msgstr "ਚੁੱਪ(_t)"
-
-#~ msgid "_Open Volume Control"
-#~ msgstr "ਅਵਾਜ਼ ਕੰਟਰੋਲ ਖੋਲ੍ਹੋ(_O)"
-
-#~ msgid ""
-#~ "The volume control did not find any elements and/or devices to control. "
-#~ "This means either that you don't have the right GStreamer plugins "
-#~ "installed, or that you don't have a sound card configured."
-#~ msgstr ""
-#~ "ਅਵਾਜ਼ ਕੰਟਰੋਲ ਨੂੰ ਕੰਟਰੋਲ ਲਈ ਕੋਈ ਇਕਾਈ ਅਤੇ/ਜਾਂ ਜੰਤਰ ਨਹੀਂ ਮਿਲਿਆ ਹੈ। ਇਸ ਦਾ ਅਰਥ ਹੈ ਕਿ ਤੁਹਾਡੀ "
-#~ "ਜੀ-ਸਟੀਮਰ ਪਲੱਗਇਨ ਠੀਕ ਤਰਾਂ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ, ਜਾਂ ਤੁਹਾਡਾ ਸਾਊਂਡ-ਕਾਰਡ ਠੀਕ ਤਰਾਂ ਸੰਰਚਿਤ ਨਹੀਂ "
-#~ "ਹੈ।"
-
-#~ msgid ""
-#~ "You can remove the volume control from the panel by right-clicking the "
-#~ "speaker icon on the panel and selecting \"Remove From Panel\" from the "
-#~ "menu."
-#~ msgstr ""
-#~ "ਤੁਸੀਂ ਪੈਨਲ 'ਚੋਂ ਅਵਾਜ਼ ਕੰਟਰੋਲ ਨੂੰ ਹਟਾਉਣ ਲਈ ਸਪੀਕਰ ਆਈਕਾਨ ਉੱਤੇ ਸੱਜਾ ਬਟਨ ਦਬਾਉਣ ਉਪਰੰਤ, ਮੇਨੂ 'ਚੋਂ "
-#~ "\"ਪੈਨਲ 'ਚੋਂ ਹਟਾਓ\" ਨੂੰ ਦਬਾਓ।"
-
-#~ msgid "Failed to start Volume Control: %s"
-#~ msgstr "ਅਵਾਜ਼ ਕੰਟੋਰਲ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਅਸਫ਼ਲ: %s"
-
-#~ msgid "%s: muted"
-#~ msgstr "%s: ਚੁੱਪ"
-
-#~ msgid "%s: %d%%"
-#~ msgstr "%s: %d%%"
-
-#~ msgid "Failed to display help: %s"
-#~ msgstr "ਸਹਾਇਤਾ ਵੇਖਾਉਣ ਲਈ ਅਸਫਲ: %s"
-
-#~ msgid "Volume control for your MATE Panel."
-#~ msgstr "ਤੁਹਾਡੇ ਗਨੋਮ ਪੈਨਲ ਲਈ ਵਾਲੀਅਮ ਕੰਟਰੋਲ ਹੈ।"
-
-#~ msgid "Using GStreamer 0.10."
-#~ msgstr "GStreamer 0.10 ਦੀ ਵਰਤੋਂ"
-
-#~ msgid "Using GStreamer 0.8."
-#~ msgstr "GStreamer 0.8 ਦੀ ਵਰਤੋਂ"
-
-#~ msgid "Volume Applet"
-#~ msgstr "ਆਵਾਜ਼ ਐਪਲਿਟ"
-
-#~ msgid "+"
-#~ msgstr "+"
-
-#~ msgid "-"
-#~ msgstr "-"
-
-#~ msgid "Unknown Volume Control %d"
-#~ msgstr "ਅਣਜਾਣ ਆਵਾਜ਼ ਕੰਟਰੋਲ %d"
-
-#~ msgid "Channel controlled by applet. Only for OSS setups"
-#~ msgstr "ਐਪਲਿਟ ਰਾਹੀਂ ਕੰਟਰੋਲ ਚੈਨਲ। ਸਿਰਫ OSS ਸੈੱਟਅੱਪ ਲਈ"
-
-#~ msgid "Saved mute state"
-#~ msgstr "ਸੰਭਾਲੀ ਚੁੱਪ ਹਾਲਤ"
-
-#~ msgid "Saved volume to restore on startup"
-#~ msgstr "ਸ਼ੁਰੂ ਵੇਲੇ ਸੰਭਾਲੀ ਆਵਾਜ਼ ਨੂੰ ਮੁੜ ਖੋਲ੍ਹੋ।"
-
-#~ msgid "Volume Control Preferences"
-#~ msgstr "ਆਵਾਜ਼ ਕੰਟਰੋਲ ਪਸੰਦ"
-
-#~ msgid "Select the device and track to control."
-#~ msgstr "ਜੰਤਰ ਚੁਣੋ ਅਤੇ ਕੰਟਰੋਲ ਲਈ ਪੜਤਾਲ ਕਰੋ।"
-
-#~ msgid "Activate and monitor a dial-up network connection"
-#~ msgstr "ਡਾਇਲਅੱਪ ਨੈਟਵਰਕ ਕੁਨੈਕਸ਼ਨ ਸਰਗਰਮ 'ਤੇ ਨਿਗਰਾਨੀ"
-
-#~ msgid "Modem Monitor"
-#~ msgstr "ਮਾਡਮ ਨਿਗਰਾਨ"
-
-#~ msgid "_Activate"
-#~ msgstr "ਸਰਗਰਮ(_A)"
-
-#~ msgid "_Deactivate"
-#~ msgstr "ਨਾ-ਸਰਗਰਮ(_D)"
-
-#~ msgid "_Properties"
-#~ msgstr "ਵਿਸ਼ੇਸ਼ਤਾ(_P)"
-
-#~ msgid "Connection active, but could not get connection time"
-#~ msgstr "ਕੁਨੈਕਸ਼ਨ ਸਰਗਰਮ ਹੈ, ਪਰ ਜੁੜਨ ਸਮਾਂ ਪਰਾਪਤ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਿਆ"
-
-#~ msgid "Time connected: %.1d:%.2d"
-#~ msgstr "ਜੁੜਨ ਸਮਾਂ: %.1d:%.2d"
-
-#~ msgid "Not connected"
-#~ msgstr "ਜੁੜਿਆ ਨਹੀਂ"
-
-#~ msgid ""
-#~ "To connect to your Internet service provider, you need administrator "
-#~ "privileges"
-#~ msgstr ""
-#~ "ਆਪਣੇ ਇੰਟਰਨੈੱਟ ਸੇਵਾ ਦੇਣ ਵਾਲੇ ਨਾਲੋਂ ਕੁਨੈਕਸ਼ਨ ਚਾਲੂ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਪਰਸ਼ਾਸ਼ਕੀ ਅਧਿਕਾਰ ਚਾਹੀਦੇ ਹਨ"
-
-#~ msgid ""
-#~ "To disconnect from your Internet service provider, you need administrator "
-#~ "privileges"
-#~ msgstr ""
-#~ "ਆਪਣੇ ਇੰਟਰਨੈੱਟ ਸੇਵਾ ਦੇਣ ਵਾਲੇ ਨਾਲੋਂ ਕੁਨੈਕਸ਼ਨ ਬੰਦ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਪਰਸ਼ਾਸ਼ਕੀ ਅਧਿਕਾਰ ਚਾਹੀਦੇ ਹਨ"
-
-#~ msgid "The entered password is invalid"
-#~ msgstr "ਗਲਤ ਗੁਪਤ-ਕੋਡ ਦਿੱਤਾ ਗਿਆ ਹੈ"
-
-#~ msgid ""
-#~ "Check that you have typed it correctly and that you haven't activated the "
-#~ "\"caps lock\" key"
-#~ msgstr ""
-#~ "ਤੁਸੀਂ ਇਹ ਪੜਤਾਲ ਕਰੋ ਕਿ ਤੁਸੀਂ ਇਸ ਨੂੰ ਠੀਕ ਲਿਖਿਆ ਹੈ ਅਤੇ ਤੁਹਾਡਾ \"ਕੈਪਸ ਲਾੱਕ\" ਚਾਲੂ ਤਾਂ ਨਹੀਂ ਹੈ"
-
-#~ msgid "Do you want to connect?"
-#~ msgstr "ਕੀ ਤੁਸੀ ਜੁੜਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#~ msgid "Do you want to disconnect?"
-#~ msgstr "ਕੀ ਤੁਸੀਂ ਕੁਨੈਕਸ਼ਨ ਬੰਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#~ msgid "C_onnect"
-#~ msgstr "ਕੁਨੈਕਸ਼ਨ ਜੋੜੋ(_o)"
-
-#~ msgid "_Disconnect"
-#~ msgstr "ਕੁਨੈਕਸ਼ਨ ਬੰਦ(_D)"
-
-#~ msgid "Could not launch network configuration tool"
-#~ msgstr "ਨੈੱਟਵਰਕ ਸੰਰਚਨਾ ਸੰਦ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ ਹੈ"
-
-#~ msgid ""
-#~ "Check that it's installed in the correct path and that it has the correct "
-#~ "permissions"
-#~ msgstr "ਇਹ ਜਾਂਚ ਕਰੋ ਕਿ ਇਹ ਠੀਕ ਮਾਰਗ ਵਿੱਚ ਜੁੜਿਆ ਹੈ ਅਤੇ ਇਸ ਲਈ ਅਧਿਕਾਰ ਠੀਕ ਹਨ"
-
-#~ msgid "Applet for activating and monitoring a dial-up network connection."
-#~ msgstr "ਡਾਇਲਅੱਪ ਕੁਨੈਕਸ਼ਨ ਨੂੰ ਸਰਗਰਮ ਕਰਨ ਅਤੇ ਧਿਆਨ ਰੱਖਣ ਵਾਲਾ ਐਪਲਿਟ ਹੈ।"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Connecting with Internet Service "
-#~ "Provider</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">ਇੰਟਰਨੈੱਟ ਸੇਵਾ ਦੇਣ ਵਾਲੇ ਨਾਲ ਜੁੜਿਆ ਜਾਦਾ ਹੈ</"
-#~ "span>"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Root password required</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">ਪਰਬੰਧਕ (root) ਗੁਪਤ-ਕੋਡ ਲੋੜੀਦਾ ਹੈ</span>"
-
-#~ msgid "Enter password"
-#~ msgstr "ਗੁਪਤ-ਕੋਡ ਦਿਓ"
-
-#~ msgid "Password:"
-#~ msgstr "ਗੁਪਤ-ਕੋਡ:"
-
-#~ msgid "A system load indicator"
-#~ msgstr "ਇੱਕ ਸਿਸਟਮ ਲੋਡ ਸੂਚਕ"
-
-#~ msgid "System Monitor"
-#~ msgstr "ਸਿਸਟਮ ਨਿਗਰਾਨ"
-
-#~ msgid "_Open System Monitor"
-#~ msgstr "ਸਿਸਟਮ ਨਿਗਰਾਨ ਖੋਲ੍ਹੋ(_O)"
-
-#~ msgid ""
-#~ "A system load monitor capable of displaying graphs for CPU, ram, and swap "
-#~ "space use, plus network traffic."
-#~ msgstr ""
-#~ "CPU (ਪਰੋਸੈਸਰ), RAM ਵਰਤੋਂ, ਸਵੈਪ ਵਰਤੋਂ, ਨੈਟਵਰਕ ਟਰੈਫਿਕ ਗਰਾਫ਼ ਵੇਖਾਉਣ ਵਾਲਾ ਸਿਸਟਮ ਲੋਡ "
-#~ "ਨਿਗਰਾਨ ਹੈ।"
-
-#~ msgid "There was an error executing '%s': %s"
-#~ msgstr "'%s' ਨੂੰ ਚਾਲੂ ਕਰਨ ਵਿੱਚ ਗਲਤੀ: %s"
-
-#~ msgid "Processor"
-#~ msgstr "ਪਰੋਸੈਸਰ"
-
-#~ msgid "Memory"
-#~ msgstr "ਮੈਮੋਰੀ"
-
-#~ msgid "Network"
-#~ msgstr "ਨੈੱਟਵਰਕ"
-
-#~ msgid "Swap Space"
-#~ msgstr "ਸਵੈਪ ਥਾਂ"
-
-#~ msgid "Load Average"
-#~ msgstr "ਔਸਤ ਲੋਡ"
-
-#~ msgid "Disk"
-#~ msgstr "ਡਿਸਕ"
-
-#~ msgid ""
-#~ "%s:\n"
-#~ "%u%% in use by programs\n"
-#~ "%u%% in use as cache"
-#~ msgstr ""
-#~ "%s:\n"
-#~ "%u%% ਪਰੋਗਰਾਮਾਂ ਵਲੋਂ ਵਰਤੋਂ 'ਚ\n"
-#~ "%u%% ਕੈਂਚੇ ਵਜੋਂ ਵਰਤੋਂ 'ਚ"
-
-#~ msgid "The system load average is %0.02f"
-#~ msgstr "ਸਿਸਟਮ ਔਸਤ ਲੋਡ %0.02f ਹੈ"
-
-#~ msgid ""
-#~ "%s:\n"
-#~ "%u%% in use"
-#~ msgid_plural ""
-#~ "%s:\n"
-#~ "%u%% in use"
-#~ msgstr[0] ""
-#~ "%s:\n"
-#~ "%u%% ਵਰਤੋਂ ਅਧੀਨ ਹੈ"
-#~ msgstr[1] ""
-#~ "%s:\n"
-#~ "%u%% ਵਰਤੋਂ ਅਧੀਨ ਹੈ"
-
-#~ msgid "CPU Load"
-#~ msgstr "CPU ਲੋਡ"
-
-#~ msgid "Memory Load"
-#~ msgstr "ਮੈਮੋਰੀ ਲੋਡ"
-
-#~ msgid "Net Load"
-#~ msgstr "ਸ਼ੁੱਧ ਲੋਡ"
-
-#~ msgid "Swap Load"
-#~ msgstr "ਸਵੈਪ ਲੋਡ"
-
-#~ msgid "Disk Load"
-#~ msgstr "ਡਿਸਕ ਲੋਡ"
-
-#~ msgid "Applet refresh rate in milliseconds"
-#~ msgstr "ਐਪਲਿਟ ਤਾਜ਼ਾ ਦਰ ਮੁੱਲ (ਮਿਲੀਸਕਿੰਟ ਵਿੱਚ)"
-
-#~ msgid "Background color for disk load graph"
-#~ msgstr "ਡਿਸਕ ਲੋਡ ਗਰਾਫ਼ ਲਈ ਬੈਕਗਰਾਊਂਡ ਰੰਗ"
-
-#~ msgid "CPU graph background color"
-#~ msgstr "ਪਰੋਸੈਸਰ ਗਰਾਫ਼ ਬੈਕਗਰਾਊਂਡ ਰੰਗ"
-
-#~ msgid "Enable CPU load graph"
-#~ msgstr "ਪਰੋਸੈਸਰ ਲੋਡ ਗਰਾਫ ਯੋਗ"
-
-#~ msgid "Enable disk load graph"
-#~ msgstr "ਡਿਸਕ ਲੋਡ ਗਰਾਫ਼ ਯੋਗ"
-
-#~ msgid "Enable load average graph"
-#~ msgstr "ਲੋਡ ਔਸਤ ਗਰਾਫ ਯੋਗ"
-
-#~ msgid "Enable memory load graph"
-#~ msgstr "ਮੈਮੋਰੀ ਲੋਡ ਗਰਾਫ ਯੋਗ"
-
-#~ msgid "Enable network load graph"
-#~ msgstr "ਨੈੱਟਵਰਕ ਲੋਡ ਗਰਾਫ ਯੋਗ"
-
-#~ msgid "Enable swap load graph"
-#~ msgstr "ਸਵੈਪ ਲੋਡ ਗਰਾਫ ਯੋਗ"
-
-#~ msgid ""
-#~ "For horizontal panels, the width of the graphs in pixels. For vertical "
-#~ "panels, this is the height of the graphs."
-#~ msgstr ""
-#~ "ਖਿਤਿਜੀ ਪੈਨਲ ਲਈ, ਗਰਾਫ਼ ਦੀ ਚੋੜਾਈ (ਪਿਕਸਲਾਂ ਵਿੱਚ)। ਲੰਬਕਾਰੀ ਪੈਨਲ ਲਈ, ਇਹ ਗਰਾਫ਼ ਦੀ ਉਚਾਈ "
-#~ "ਹੋਵੇਗੀ।"
-
-#~ msgid "Graph color for Ethernet network activity"
-#~ msgstr "ਈਥਰਨੈੱਟ ਨੈੱਟਵਰਕ ਸਰਗਰਮੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for PLIP network activity"
-#~ msgstr "PLIP ਨੈੱਟਵਰਕ ਸਰਗਰਮੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for SLIP network activity"
-#~ msgstr "SLIP ਨੈੱਟਵਰਕ ਸਰਗਰਮੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for buffer memory"
-#~ msgstr "ਬਫ਼ਰ ਮੈਮੋਰੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for cached memory"
-#~ msgstr "ਕੈਂਚੇ ਮੈਮੋਰੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for disk read"
-#~ msgstr "ਡਿਸਕ ਪੜ੍ਹਨ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for disk write"
-#~ msgstr "ਡਿਸਕ ਲਿਖਣ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for iowait related CPU activity"
-#~ msgstr "iowait ਸਬੰਧਤ CPU ਸਰਗਰਮੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for load average"
-#~ msgstr "ਲੋਡ ਔਸਤ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for nice-related CPU activity"
-#~ msgstr "ਨਾਇਸ ਸਬੰਧਤ CPU ਸਰਗਰਮੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for other network usage"
-#~ msgstr "ਨੈੱਟਵਰਕ ਵਰਤੋਂ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for shared memory"
-#~ msgstr "ਸਾਂਝੀ ਮੈਮੋਰੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for system-related CPU activity"
-#~ msgstr "ਸਿਸਟਮ-ਸਬੰਧਤ CPU ਸਰਗਰਮੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for user-related CPU activity"
-#~ msgstr "ਉਪਭੋਗੀ-ਸਬੰਧਤ CPU ਸਰਗਰਮੀ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for user-related memory usage"
-#~ msgstr "ਉਪਭੋਗੀ-ਸਬੰਧਤ ਮੈਮੋਰੀ ਵਰਤੋਂ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph color for user-related swap usage"
-#~ msgstr "ਉਪਭੋਗੀ-ਸਬੰਧਤ ਸਵੈਪ ਵਰਤੋਂ ਲਈ ਗਰਾਫ਼ ਰੰਗ"
-
-#~ msgid "Graph size"
-#~ msgstr "ਗਰਾਫ਼ ਅਕਾਰ"
-
-#~ msgid "Load graph background color"
-#~ msgstr "ਲੋਡ ਗਰਾਫ ਬੈਕਗਰਾਊਂਡ ਰੰਗ"
-
-#~ msgid "Memory graph background color"
-#~ msgstr "ਮੈਮੋਰੀ ਗਰਾਫ ਬੈਕਗਰਾਊਂਡ ਰੰਗ"
-
-#~ msgid "Network graph background color"
-#~ msgstr "ਨੈੱਟਵਰਕ ਗਰਾਫ ਬੈਕਗਰਾਊਂਡ ਰੰਗ"
-
-#~ msgid "Swap graph background color"
-#~ msgstr "ਸਵੈਪ ਗਰਾਫ ਪਰਦੇ ਦਾ ਰੰਗ"
-
-#~ msgid "Monitored Resources"
-#~ msgstr "ਸਰੋਤ ਨਿਗਰਾਨੀ"
-
-#~ msgid "_Processor"
-#~ msgstr "ਪਰੋਸੈਸਰ(_P)"
-
-#~ msgid "_Memory"
-#~ msgstr "ਮੈਮੋਰੀ(_M)"
-
-#~ msgid "_Network"
-#~ msgstr "ਨੈੱਟਵਰਕ(_N)"
-
-#~ msgid "S_wap Space"
-#~ msgstr "ਸਵੈਪ ਥਾਂ(_w)"
-
-#~ msgid "_Load"
-#~ msgstr "ਲੋਡ(_L)"
-
-#~ msgid "_Harddisk"
-#~ msgstr "ਹਾਰਡ ਡਿਸਕ(_H)"
-
-# mate-session/session-properties-capplet.c:217
-#~ msgid "Options"
-#~ msgstr "ਚੋਣ"
-
-#~ msgid "System m_onitor width: "
-#~ msgstr "ਸਿਸਟਮ ਨਿਗਰਾਨ ਚੌੜਾਈ(_o): "
-
-#~ msgid "System m_onitor height: "
-#~ msgstr "ਸਿਸਟਮ ਨਿਗਰਾਨ ਉਚਾਈ(_o): "
-
-#~ msgid "Sys_tem monitor update interval: "
-#~ msgstr "ਸਿਸਟਮ ਨਿਗਰਾਨ ਅੱਪਡੇਟ ਅੰਤਰਾਲ(_t): "
-
-#~ msgid "milliseconds"
-#~ msgstr "ਮਿਲੀਸਕਿੰਟ"
-
-#~ msgid "Colors"
-#~ msgstr "ਰੰਗ"
-
-#~ msgid "_User"
-#~ msgstr "ਉਪਭੋਗੀ(_U)"
-
-#~ msgid "S_ystem"
-#~ msgstr "ਸਿਸਟਮ(_y)"
-
-#~ msgid "N_ice"
-#~ msgstr "ਨਾਈਸ(_i)"
-
-#~ msgid "I_OWait"
-#~ msgstr "I_O ਉਡੀਕ"
-
-#~ msgid "I_dle"
-#~ msgstr "ਵੇਹਲ(_d)"
-
-#~ msgid "Sh_ared"
-#~ msgstr "ਸਾਂਝੀ(_a)"
-
-#~ msgid "_Buffers"
-#~ msgstr "ਬਫ਼ਰ(_B)"
-
-#~ msgid "Cach_ed"
-#~ msgstr "ਕੈਂਚੇ(_e)"
-
-#~ msgid "F_ree"
-#~ msgstr "ਖਾਲੀ(_r)"
-
-#~ msgid "_SLIP"
-#~ msgstr "_SLIP"
-
-#~ msgid "PL_IP"
-#~ msgstr "PL_IP"
-
-# desktop-links/Internet.directory.in.h:1
-#~ msgid "_Ethernet"
-#~ msgstr "ਈਥਰਨੈੱਟ(_E)"
-
-#~ msgid "Othe_r"
-#~ msgstr "ਹੋਰ(_r)"
-
-#~ msgid "_Background"
-#~ msgstr "ਬੈਕਗਰਾਊਂਡ(_B)"
-
-#~ msgid "_Used"
-#~ msgstr "ਵਰਤੀ(_U)"
-
-#~ msgid "_Free"
-#~ msgstr "ਖਾਲੀ(_F)"
-
-#~ msgid "Load"
-#~ msgstr "ਲੋਡ"
-
-#~ msgid "_Average"
-#~ msgstr "ਔਸਤ(_A)"
-
-#~ msgid "Harddisk"
-#~ msgstr "ਹਾਰਡ-ਡਿਸਕ"
-
-#~ msgid "_Read"
-#~ msgstr "ਪੜ੍ਹਨ(_R)"
-
-#~ msgid "_Write"
-#~ msgstr "ਲਿਖਣ(_W)"
-
-#~ msgid "System Monitor Preferences"
-#~ msgstr "ਸਿਸਟਮ ਨਿਗਰਾਨ ਪਸੰਦ"
-
-#~ msgid "CD Player (Deprecated)"
-#~ msgstr "CD ਪਲੇਅਰ (ਬਰਤਰਫ਼)"
-
-#~ msgid "Panel applet for playing audio CDs"
-#~ msgstr "ਸੰਗੀਤ CD ਚੱਲਣ ਲਈ ਪੈਨਲ ਐਪਲਿਟ"
-
-#~ msgid "Alert you when new mail arrives"
-#~ msgstr "ਨਵਾਂ ਪੱਤਰ ਆਉਣ ਸਮੇਂ ਚੇਤਾਵਨੀ"
-
-#~ msgid "Inbox Monitor (Deprecated)"
-#~ msgstr "ਆਉਣਬਕਸਾ ਨਿਗਰਾਮ (ਬਰਤਰਫ਼)"
-
-#~ msgid "Factory for deprecating applets"
-#~ msgstr "ਬਰਤਰਫ਼ ਐਪਲਿਟਾਂ ਲਈ ਫੈਕਟਰੀ"
-
-#~ msgid "Null Applet Factory"
-#~ msgstr "Null ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "Monitor the quality of a wireless network link"
-#~ msgstr "ਬੇ-ਤਾਰ ਨੈੱਟਵਰਕ ਸਬੰਧ ਕੁਆਲਟੀ ਦੀ ਨਿਗਰਾਨੀ"
-
-#~ msgid "Wireless Link Monitor"
-#~ msgstr "ਬੇ-ਤਾਰ ਲਿੰਕ ਨਿਗਰਾਨ"
-
-#~ msgid "Some panel items are no longer available"
-#~ msgstr "ਕੁਝ ਪੈਨਲ ਇਕਾਈਆਂ ਹੁਣ ਉਪਲੱਬਧ ਨਹੀਂ ਹੋ ਸਕਣਗੀਆਂ"
-
-#~ msgid ""
-#~ "One or more panel items (also referred to as applets) are no longer "
-#~ "available in the MATE desktop."
-#~ msgstr ""
-#~ "ਗਨੋਮ ਡੈਸਕਟਾਪ (ਵੇਹੜੇ) ਵਿੱਚ ਇੱਕ ਜਾਂ ਵਧੇਰੇ ਇਕਾਈਆਂ (ਜਿਨਾਂ ਨੂੰ ਐਪਲਿਟ ਕਹਿੰਦੇ ਹਨ) ਉਪਲੱਬਧ ਨਹੀਂ ਹੋ "
-#~ "ਸਕਣਗੀਆਂ।"
-
-#~ msgid "These items will now be removed from your configuration:"
-#~ msgstr "ਇਹਨਾਂ ਇਕਾਈਆਂ ਨੂੰ ਤੁਹਾਡੀ ਸੰਰਚਨਾ ਵਿੱਚੋਂ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ:"
-
-#~ msgid "You will not receive this message again."
-#~ msgstr "ਤੁਸੀਂ ਇਹ ਸੁਨੇਹਾ ਮੁੜ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰੋਗੇ।"
-
-#~ msgid "Tomboy (ne Stickynotes)"
-#~ msgstr "ਟੋਮਬਾਏ (ਸਟਿੱਕੀ-ਨੋਟਿਸ)"
-
-#~ msgid "Tomboy (transparent upgrade from stickynotes)"
-#~ msgstr "ਟੋਮਬਾਏ (ਸਟਿੱਕੀ-ਨੋਟਿਸਾਂ ਤੋਂ ਪਾਰਦਰਸ਼ੀ ਅੱਪਗਰੇਡ)"
-
-#~ msgid "Create, view, and manage sticky notes on the desktop"
-#~ msgstr "ਡੈਸਕਟਾਪ (ਵੇਹੜੇ) ਵਿੱਚ ਸਟਿੱਕੀ ਨੋਟਿਸ ਬਣਾਓ, ਵੇਖੋ ਅਤੇ ਸੰਭਾਲੋ"
-
-#~ msgid "Sticky Notes"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟਿਸ"
-
-#~ msgid "Sticky Notes Applet Factory"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟਿਸ ਐਪਲਿਟ ਫੈਕਟਰੀ"
-
-#~ msgid "Hi_de Notes"
-#~ msgstr "ਨੋਟਿਸ ਓਹਲੇ(_d)"
-
-# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# gtk/gtkstock.c:285
-#~ msgid "_Delete Notes"
-#~ msgstr "ਨੋਟਿਸ ਹਟਾਓ(_D)"
-
-#~ msgid "_Lock Notes"
-#~ msgstr "ਨੋਟਿਸ ਤਾਲਾਬੰਦ(_L)"
-
-#~ msgid "_New Note"
-#~ msgstr "ਨਵਾਂ ਨੋਟ(_N)"
-
-#~ msgid "This note is locked."
-#~ msgstr "ਇਸ ਨੋਟਿਸ ਤਾਲਾਬੰਦ ਹੈ।"
-
-#~ msgid "This note is unlocked."
-#~ msgstr "ਇਹ ਨੋਟ ਨਾ-ਤਾਲਾਬੰਦ ਹੈ।"
-
-#~ msgid "    Font C_olor:"
-#~ msgstr "    ਫੋਂਟ ਰੰਗ(_o):"
-
-#~ msgid "    Font Co_lor:"
-#~ msgstr "    ਫੋਂਟ ਰੰਗ(_l):"
-
-#~ msgid "    Note C_olor:"
-#~ msgstr "    ਨੋਟਿਸ ਰੰਗ(_o):"
-
-#~ msgid "    Note _Color:"
-#~ msgstr "    ਨੋਟਿਸ ਰੰਗ(_C):"
-
-#~ msgid "    _Font:"
-#~ msgstr "    ਫੋਂਟ(_F):"
-
-#~ msgid "<b>Behavior</b>"
-#~ msgstr "<b>ਰਵੱਈਆ</b>"
-
-#~ msgid "<b>Default Note Properties</b>"
-#~ msgstr "<b>ਮੂਲ ਨੋਟਿਸ ਵਿਸ਼ੇਸ਼ਤਾ</b>"
-
-#~ msgid ""
-#~ "<b>Delete all sticky notes?</b>\n"
-#~ "\n"
-#~ "This cannot be undone."
-#~ msgstr ""
-#~ "<b>ਕੀ ਸਭ ਨੋਟਿਸਾਂ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?</b>\n"
-#~ "\n"
-#~ "ਇਹਨਾਂ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"
-
-#~ msgid ""
-#~ "<b>Delete this sticky note?</b>\n"
-#~ "\n"
-#~ "This cannot be undone."
-#~ msgstr ""
-#~ "<b>ਕੀ ਇਸ ਨੋਟਿਸ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?</b>\n"
-#~ "\n"
-#~ "ਇਸ ਨੂੰ ਵਾਪਸ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"
-
-#~ msgid "<b>Properties</b>"
-#~ msgstr "<b>ਵਿਸ਼ੇਸ਼ਤਾ</b>"
-
-#~ msgid "Choose a base color to use for all sticky notes"
-#~ msgstr "ਸਭ ਸਟਿੱਕੀ ਨੋਟਿਸਾਂ ਵਾਸਤੇ ਵਰਤਣ ਲਈ ਮੁੱਢਲਾ ਰੰਗ ਚੁਣੋ"
-
-#~ msgid "Choose a color for the note"
-#~ msgstr "ਨੋਟ ਲਈ ਰੰਗ ਚੁਣੋ"
-
-#~ msgid "Choose a font for the note"
-#~ msgstr "ਨੋਟ ਲਈ ਫੋਂਟ ਚੁਣੋ"
-
-#~ msgid "Choose a font to use for all sticky notes"
-#~ msgstr "ਸਭ ਸਟਿੱਕੀ ਨੋਟਿਸਾਂ ਵਾਸਤੇ ਵਰਤਣ ਲਈ ਫੋਂਟ ਚੁਣੋ"
-
-#~ msgid "Choose if notes are visible on all workspaces"
-#~ msgstr "ਸਭ ਵਰਕਸਪੇਸ਼ 'ਤੇ ਨੋਟਿਸ ਉਪਲੱਬਧ ਕਰਵਾਉਣ ਲਈ ਚੁਣੋ"
-
-#~ msgid "Choose if the default style is forced on all notes"
-#~ msgstr "ਚੁਣੋ ਕਿ ਮੂਲ ਸ਼ੈਲੀ ਸਭ ਨੋਟਿਸਾਂ ਲਈ ਜ਼ਰੂਰੀ ਕਰੋ"
-
-#~ msgid "Close note"
-#~ msgstr "ਨੋਟਿਸ ਬੰਦ ਕਰੋ"
-
-#~ msgid "Force _default color and font on notes"
-#~ msgstr "ਨੋਟ ਲਈ ਮੂਲ ਰੰਗ ਅਤੇ ਫੋਂਟ ਜ਼ਰੂਰੀ ਕਰੋ(_d)"
-
-#~ msgid "H_eight:"
-#~ msgstr "ਉਚਾਈ(_e):"
-
-#~ msgid "Lock/Unlock note"
-#~ msgstr "ਨੋਟਿਸ ਤਾਲਾਬੰਦ/ਖੋਲ੍ਹੋ"
-
-#~ msgid "Pick a color for the sticky note"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟਿਸ ਲਈ ਰੰਗ ਚੁਣੋ"
-
-#~ msgid "Pick a default sticky note color"
-#~ msgstr "ਮੂਲ ਸਟਿਕੀ ਨੋਟਿਸ ਰੰਗ ਚੁਣੋ"
-
-#~ msgid "Pick a default sticky note font"
-#~ msgstr "ਮੂਲ ਸਟਿਕੀ ਨੋਟਿਸ ਫੋਂਟ ਚੁਣੋ"
-
-#~ msgid "Pick a font for the sticky note"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟਿਸ ਲਈ ਫੋਂਟ ਚੁਣੋ"
-
-#~ msgid "Resize note"
-#~ msgstr "ਨੋਟ ਮੁੜ-ਆਕਾਰ"
-
-#~ msgid "Specify a title for the note"
-#~ msgstr "ਨੋਟ ਲਈ ਇੱਕ ਨਾਂ ਦਿਓ"
-
-#~ msgid "Specify the default height (in pixels) of new notes"
-#~ msgstr "ਨਵੇਂ ਨੋਟ ਦੀ ਮੂਲ ਉਚਾਈ (ਪਿਕਸਲ ਵਿੱਚ)"
-
-#~ msgid "Specify the default width (in pixels) of new notes"
-#~ msgstr "ਨਵੇਂ ਨੋਟ ਦੀ ਮੂਲ ਚੌੜਾਈ (ਪਿਕਸਲ ਵਿੱਚ)"
-
-#~ msgid "Sticky Note"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟ"
-
-#~ msgid "Sticky Note Properties"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟ ਵਿਸ਼ੇਸ਼ਤਾ"
-
-#~ msgid "Sticky Notes Preferences"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟ ਪਸੰਦ"
-
-#~ msgid "Use co_lor from the system theme"
-#~ msgstr "ਸਿਸਟਮ ਸਰੂਪ ਵਿੱਚੋਂ ਰੰਗ ਵਰਤੋਂ(_l)"
-
-#~ msgid "Use default co_lor"
-#~ msgstr "ਮੂਲ ਰੰਗ ਵਰਤੋਂ(_l)"
-
-#~ msgid "Use default fo_nt"
-#~ msgstr "ਮੂਲ ਫੋਂਟ ਵਰਤੋਂ(_n)"
-
-#~ msgid "Use fo_nt from the system theme"
-#~ msgstr "ਸਿਸਟਮ ਸਰੂਪ ਵਿੱਚੋਂ ਫੋਂਟ ਵਰਤੋਂ(_n)"
-
-# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# gtk/gtkstock.c:285
-#~ msgid "_Delete All"
-#~ msgstr "ਸਭ ਹਟਾਓ(_D)"
-
-# #-#-#-#-#  gtk+.gtk-2-0.hi.po (PACKAGE VERSION)  #-#-#-#-#
-# gtk/gtkstock.c:285
-#~ msgid "_Delete Note..."
-#~ msgstr "ਨੋਟ ਹਟਾਓ(_D)..."
-
-#~ msgid "_Lock Note"
-#~ msgstr "ਨੋਟ ਤਾਲਾਬੰਦ(_L)"
-
-#~ msgid "_Put notes on all workspaces"
-#~ msgstr "ਸਭ ਵਰਕਸਪੇਸਾਂ ਵਿੱਚ ਨੋਟਿਸ ਭੇਜੋ(_P)"
-
-# src/mateconf-key-editor.c:154
-#~ msgid "_Title:"
-#~ msgstr "ਸਿਰਲੇਖ(_T):"
-
-#~ msgid ""
-#~ "By default, sticky notes are given the current date as the title when "
-#~ "they are created. This format is used; anything that can be parsed by "
-#~ "strftime() is valid."
-#~ msgstr ""
-#~ "ਮੂਲ ਤੌਰ ਤੇ, ਜ਼ਰੂਰੀ ਨੋਟਿਸ ਦਾ ਸਿਰਲੇਖ, ਜਦੋਂ ਕਿ ਉਹਨਾਂ ਨੂੰ ਬਣਾਇਆ ਜਾਵੇਗਾ, ਮੌਜੂਦਾ ਮਿਤੀ ਹੋਵੇਗਾ। ਇਹ "
-#~ "ਫਾਰਮੈਟ ਵਰਤਿਆ ਜਾਵੇਗਾ; ਕੋਈ ਵੀ ਜੋ ਕਿ strftime() ਪਾਰਸ ਕਰ ਸਕੇ।"
-
-#~ msgid "Date format of note's title"
-#~ msgstr "ਨੋਟਿਸ ਦੇ ਸਿਰਲੇਖ ਲਈ ਮਿਤੀ ਫਾਰਮੈਟ"
-
-#~ msgid "Default color for font"
-#~ msgstr "ਫੋਂਟ ਲਈ ਮੂਲ ਰੰਗ"
-
-#~ msgid "Default color for new notes"
-#~ msgstr "ਨਵੇਂ ਨੋਟਿਸਾਂ ਲਈ ਮੂਲ ਰੰਗ"
-
-#~ msgid ""
-#~ "Default color for new sticky notes. This should be in html hex "
-#~ "specification, for example \"#30FF50\"."
-#~ msgstr ""
-#~ "ਨਵੇਂ ਜ਼ਰੂਰੀ ਨੋਟਿਸਾਂ ਲਈ ਮੂਲ ਰੰਗ ਹੈ। ਇਹ html hex ਨਿਰਧਾਰਨ ਅਨੁਸਾਰ ਹੋਵੇ , ਜਿਵੇਂ ਕਿ \"#30FF50"
-#~ "\"।"
-
-#~ msgid ""
-#~ "Default font color for new sticky notes. This should be in html hex "
-#~ "specification, for example \"#000000\"."
-#~ msgstr ""
-#~ "ਨਵੇਂ ਜ਼ਰੂਰੀ ਨੋਟਿਸਾਂ ਲਈ ਮੂਲ ਫੋਂਟ ਰੰਗ ਹੈ। ਇਹ html hex ਹਦਾਇਤਾਂ ਅਨੁਸਾਰ ਹੋਵੇ , ਜਿਵੇਂ ਕਿ "
-#~ "\"#30FF50\"।"
-
-#~ msgid "Default font for new notes"
-#~ msgstr "ਨਵੇਂ ਨੋਟਿਸਾਂ ਲਈ ਮੂਲ ਫੋਂਟ"
-
-#~ msgid ""
-#~ "Default font for new sticky notes. This should be a Pango Font Name, for "
-#~ "example \"Sans Italic 10\""
-#~ msgstr ""
-#~ "ਨਵੇਂ ਜ਼ਰੂਰੀ ਨੋਟਿਸਾਂ ਲਈ ਮੂਲ ਫੋਂਟ ਹੈ। ਇਸ ਦਾ ਨਾਂ ਪੈਂਗੋ ਫੋਂਟ ਨਾਂ ਹੋਵੇ, ਜਿਵੇ ਕਿ \"Sans Italic 10\""
-
-#~ msgid "Default height for new notes"
-#~ msgstr "ਨਵੇਂ ਨੋਟਿਸਾਂ ਦੀ ਮੂਲ਼ ਉਚਾਈ"
-
-#~ msgid "Default height for new sticky notes in pixels."
-#~ msgstr "ਨਵੇਂ ਸਟਿੱਕੀ ਨੋਟਿਸਾਂ ਦੀ ਮੂਲ਼ ਉਚਾਈ ਪਿਕਸਲ ਵਿੱਚ।"
-
-#~ msgid "Default width for new notes"
-#~ msgstr "ਨਵੇਂ ਨੋਟਿਸਾਂ ਦੀ ਮੂਲ਼ ਚੌੜਾਈ"
-
-#~ msgid "Default width for new sticky notes in pixels."
-#~ msgstr "ਨਵੇਂ ਸਟਿੱਕੀ ਨੋਟਿਸ ਦੀ ਮੂਲ਼ ਚੋੜਾਈ ਪਿਕਸਲ ਵਿੱਚ"
-
-#~ msgid "Empty notes are always deleted without confirmation"
-#~ msgstr "ਖਾਲੀ ਨੋਟਿਸ ਆਪਣੇ-ਆਪ ਬਿਨ-ਪੁੱਛੇ ਹੀ ਹਟਾ ਦਿੱਤੇ ਜਾਂਦੇ ਹਨ।"
-
-#~ msgid ""
-#~ "If this option is disabled, a custom color can be used as the default "
-#~ "color for all sticky notes."
-#~ msgstr "ਜੇਕਰ ਇਹ ਚੋਣ ਨੂੰ ਯੋਗ ਕਰ ਦਿੱਤਾ ਤਾਂ, ਸੋਧ ਰੰਗ ਜੋ ਕਿ ਸਾਰੇ ਜ਼ਰੂਰੀ ਨੋਟਿਸਾਂ ਲਈ ਮੂਲ ਰੰਗ ਹੋਵੇਗਾ।"
-
-#~ msgid ""
-#~ "If this option is disabled, a custom font can be used as the default font "
-#~ "for all sticky notes."
-#~ msgstr "ਜੇਕਰ ਇਹ ਚੋਣ ਨੂੰ ਯੋਗ ਕਰ ਦਿੱਤਾ ਤਾਂ, ਸੋਧ ਫੋਂਟ, ਜੋ ਕਿ ਸਾਰੇ ਜ਼ਰੂਰੀ ਨੋਟਿਸਾਂ ਲਈ ਮੂਲ ਫੋਂਟ ਹੋਣਗੇ।"
-
-#~ msgid ""
-#~ "If this option is enabled, the custom colors and fonts that have been "
-#~ "assigned to individual notes will be ignored."
-#~ msgstr ""
-#~ "ਜੇਕਰ ਇਹ ਚੋਣ ਨੂੰ ਯੋਗ ਕਰ ਦਿੱਤਾ ਤਾਂ, ਸੋਧ ਰੰਗ ਤੇ ਫੋਂਟ, ਜੋ ਕਿ ਇੱਕਲੀ-ਇੱਕਲੀ ਨੋਟਿਸ ਨੂੰ ਦਿੱਤਾ ਸੀ, ਨੂੰ "
-#~ "ਰੱਦ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।"
-
-#~ msgid "Specifies whether the sticky notes are locked (non-editable) or not."
-#~ msgstr "ਦੱਸੋ ਕਿ ਜ਼ਰੂਰੀ ਨੋਟਿਸਾਂ ਨੂੰ ਤਾਲਾਬੰਦ (ਨਾ-ਸੋਧਯੋਗ) ਕੀਤਾ ਜਾਵੇ ਜਾਂ ਨਾ।"
-
-#~ msgid ""
-#~ "Specifies whether the sticky notes are visible on ALL workspaces on the "
-#~ "desktop, or not."
-#~ msgstr "ਦੱਸ ਕਿ ਜ਼ਰੂਰੀ ਨੋਟਿਸ ਡੈਸਕਟਾਪ (ਵੇਹੜੇ) ਦੇ ਸਾਰੇ ਵਰਕਸਪੇਸਾਂ 'ਤੇ ਉਪਲੱਬਧ ਹੋਣ ਜਾਂ ਨਾ।"
-
-#~ msgid "Sticky notes' locked state"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟਿਸਾਂ ਦੀ ਤਾਲਾਬੰਦੀ ਹਾਲਤ"
-
-#~ msgid "Sticky notes' workspace stickyness"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟਿਸਾਂ ਦੀ ਵਰਕਸਪੇਸ ਸਟਿੱਕੀ ਹਾਲਤ"
-
-#~ msgid "Whether to ask for confirmation when deleting a note"
-#~ msgstr "ਕੀ ਨੋਟਿਸ ਨੂੰ ਹਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਹਟਾਉਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰਵਾਈ ਜਾਵੇ"
-
-#~ msgid "Whether to force the default color and font on all notes"
-#~ msgstr "ਕੀ ਸਭ ਨੋਟਿਸਾਂ ਲਈ ਮੂਲ ਰੰਗ ਤੇ ਫੋਂਟ ਵਰਤਣੇ ਜਰੂਰੀ ਹਨ"
-
-#~ msgid "Whether to use the default system color"
-#~ msgstr "ਕੀ ਮੂਲ ਸਿਸਟਮ ਰੰਗ ਵਰਤਣੇ ਹਨ"
-
-#~ msgid "Whether to use the default system font"
-#~ msgstr "ਕੀ ਮੂਲ ਸਿਸਟਮ ਫੋਂਟ ਵਰਤਣੇ ਹਨ"
-
-#~ msgid "%d note"
-#~ msgid_plural "%d notes"
-#~ msgstr[0] "%d ਨੋਟ"
-#~ msgstr[1] "%d ਨੋਟਿਸ"
-
-#~ msgid "Show sticky notes"
-#~ msgstr "ਸਟਿੱਕੀ ਨੋਟਿਸ ਵੇਖਾਓ"
-
-#~ msgid "Sticky Notes for the MATE Desktop Environment"
-#~ msgstr "ਗਨੋਮ ਡੈਸਕਟਾਪ (ਵੇਹੜਾ) ਵਾਤਾਵਰਣ ਲਈ ਸਟਿੱਕੀ ਨੋਟਿਸ"
-
-#~ msgid "Go to Trash"
-#~ msgstr "ਰੱਦੀ 'ਤੇ ਜਾਓ"
-
-#~ msgid "Trash"
-#~ msgstr "ਰੱਦੀ"
-
-#~ msgid "_Empty Trash"
-#~ msgstr "ਰੱਦੀ ਖਾਲੀ ਕਰੋ(_E)"
-
-#~ msgid "_Open"
-#~ msgstr "ਖੋਲ੍ਹੋ(_O)"
-
-#~ msgid "Unable to find the Trash directory: %s"
-#~ msgstr "ਰੱਦੀ ਡਾਇਰੈਕਟਰੀ ਲੱਭਣ ਵਿੱਚ ਅਸਫਲ: %s"
-
-#~ msgid "No Items in Trash"
-#~ msgstr "ਰੱਦੀ ਵਿੱਚ ਕੁਝ ਨਹੀਂ ਹੈ"
-
-#~ msgid "%d Item in Trash"
-#~ msgid_plural "%d Items in Trash"
-#~ msgstr[0] "ਰੱਦੀ ਵਿੱਚ %d ਇਕਾਈ ਹੈ"
-#~ msgstr[1] "ਰੱਦੀ ਵਿੱਚ %d ਇਕਾਈਆਂ ਹਨ"
-
-#~ msgid "Removing item %d of %d"
-#~ msgstr "%2$d ਵਿੱਚੋਂ %1$d ਇਕਾਈ ਨੂੰ ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"
-
-#~ msgid "Removing:"
-#~ msgstr "ਹਟਾਇਆ ਜਾਂਦਾ ਹੈ:"
-
-#~ msgid "Empty all of the items from the trash?"
-#~ msgstr "ਕੀ ਰੱਦੀ ਵਿੱਚੋਂ ਸਭ ਇਕਾਈਆਂ ਨੂੰ ਹਟਾਉਣਾ ਹੈ?"
-
-#~ msgid ""
-#~ "If you choose to empty the trash, all items in it will be permanently "
-#~ "lost. Please note that you can also delete them separately."
-#~ msgstr ""
-#~ "ਜੇਕਰ ਤੁਸੀਂ ਰੱਦੀ ਨੂੰ ਖਾਲੀ ਕਰਨਾ ਚੁਣਿਆ ਤਾਂ, ਸਭ ਇਕਾਈਆਂ ਸਦਾ ਲਈ ਹਟਾ ਦਿੱਤੀਆਂ ਜਾਣਗੀਆਂ। ਕਿਰਪਾ "
-#~ "ਕਰਕੇ ਤੁਸੀਂ ਇਹਨਾਂ ਨੂੰ ਬਾਅਦ ਵਿੱਚ ਵੀ ਹਟਾ ਸਕਦੇ ਹੋ।"
-
-#~ msgid ""
-#~ "Error while spawning Caja:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "ਨਟੀਲਸ ਖੋਲ੍ਹਣ ਦੌਰਾਨ ਗਲਤੀ ਹੈ:\n"
-#~ "%s"
-
-#~ msgid "Trash Applet"
-#~ msgstr "ਰੱਦੀ ਐਪਲਿਟ"
-
-#~ msgid ""
-#~ "A MATE trash bin that lives in your panel. You can use it to view the "
-#~ "trash or drag and drop items into the trash."
-#~ msgstr ""
-#~ "ਗਨੋਮ ਰੱਦੀ, ਤੁਹਾਡੇ ਪੈਨਲ 'ਤੇ ਮੌਜੂਦ ਹੈ। ਤੁਸੀਂ ਇਸ ਨੂੰ ਰੱਦੀ ਦੇ ਤੌਰ ਤੇ ਵੇਖ ਸਕਦੇ ਹੋ ਜਾਂ ਰੱਦੀ ਵਿੱਚ ਇਕਾਈ "
-#~ "ਚੁੱਕ ਅਤੇ ਸੁੱਟ ਸਕਦੇ ਹੋ।"
-
-#~ msgid "Delete Immediately?"
-#~ msgstr "ਕੀ ਹੁਣੇ ਹਟਾਉਣਾ ਹੈ?"
-
-#~ msgid "Cannot move items to trash, do you want to delete them immediately?"
-#~ msgstr "ਇਕਾਈਆਂ ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਭੇਜਣ ਲਈ ਅਸਫਲ ਹੈ, ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਲਈ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#~ msgid ""
-#~ "Cannot move some items to trash, do you want to delete these immediately?"
-#~ msgstr ""
-#~ "ਕੁਝ ਇਕਾਈਆਂ ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਭੇਜਣ ਲਈ ਅਸਫਲ ਹੈ, ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹਮੇਸ਼ਾ ਲਈ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
-
-#~ msgid ""
-#~ "Unable to move to trash:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "ਰੱਦੀ ਵਿੱਚ ਭੇਜਣ ਲਈ ਅਸਫਲ:\n"
-#~ "%s"
-
-#~ msgid "<b>From:</b>"
-#~ msgstr "<b>ਇੱਥੋਂ:</b>"
-
-#~ msgid "<big><b>Emptying the Trash</b></big>"
-#~ msgstr "<big><b>ਰੱਦੀ ਖਾਲੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ</b></big>"
-
-#~ msgid "Emptying the Trash"
-#~ msgstr "ਰੱਦੀ ਖਾਲੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"

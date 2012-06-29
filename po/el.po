@@ -1,62 +1,31 @@
-# translation of libmateweather.HEAD.po to Greek
-# Greek translation for mate-applets
-# Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
-#
-# Half of translation by Spiros, Simos/Sarantis other half.
-# Revision by Sarantis/Simos.
-# Simos added about 160, totaling to 868 messages.
-#  -->
-#      load=φορτίο ή φόρτος; (2)
-#
-# kostas: 25May2003, one more update.
-# kostas:06Jul2003, one more update.
-# kostas: 27Jul2003, one more update.
-# Nikos:  13Feb2004 fixes
-# Nikos:  15Jul2004 minor fixes
-# Nikos:  30Jul2004 minor fixes
-#
-#
-# simos: 1016 messages, 18Feb2001.
-# simos: 1069 messages, 18Feb2001, with visual verification.
-# simos: 1074 messages, 27Feb2001.
-# simos: 1074 messages, 26Mar2001, unfuzzied 1 (beargsgppl).
-# simos: 1077 messages, 4Jun2001, (micumple).
-# simos: 1092 messages, 2Aug2001, (conbea).
-# simos: 487 messages, 14May2002, (MATE2 update, UTF-8 encoding.).
-# kostas: 818 messages, 25Oct2002, completed translation.
-# simos: 818 messages, 25Oct2002, review of translation.
-# kostas:740 messages, 06Jan2003, updated translation.
-# kostas: 23May2003, 179 new, unfuzzy 172, update for 2.4xx.
-# kostas: 914messages,10Aug2003, one more update.
-# kostas: 1201messages,15Aug2003, one more update.
-# kostas: 1202messages,05Sep2003, one more update.
-# kostas: 1204messages,12Nov2003, updates and fixes.
-# kostas: 1258messages,26Jan2004.
-# kostas: 1260messages,03Feb2004.
-# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 1999.
-# Simos Xenitellis <simos@hellug.gr>, 1999, 2000, 2001, 2002.
-# Sarantis Paskalis <paskalis@di.uoa.gr>, 2000.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Fotis Tsamis <ftsamis@gmail.com>, 2009.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
 # Kostas Papadimas <pkst@gnome.org>,  2002,2003, 2004, 2005, 2006.
 # Nikos Charonitakis <charosn@her.forthnet.gr>, 2004.
+# Sarantis Paskalis <paskalis@di.uoa.gr>, 2000.
 # Simos Xenitellis <simos@gnome.org>, 2005, 2008.
-# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
-# Fotis Tsamis <ftsamis@gmail.com>, 2009.
+# Simos Xenitellis <simos@hellug.gr>, 1999, 2000, 2001, 2002.
 # Simos Xenitellis <simos.lists@googlemail.com>, 2010.
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 1999.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-26 23:39+0200\n"
-"PO-Revision-Date: 2010-03-26 23:40+0200\n"
-"Last-Translator: Simos Xenitellis <simos.lists@googlemail.com>\n"
-"Language-Team: Greek <team@lists.mate.gr>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 10:11+0100\n"
+"PO-Revision-Date: 2012-02-23 09:16+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-# Another version: msgstr "ATHENS"
 #. TRANSLATOR: Change this to the default location name,
 #. * used when you first start the Weather Applet. This is
 #. * the common localised name that corresponds to
@@ -67,8 +36,9 @@ msgstr ""
 #. *
 #. * If you do not require a DEFAULT_LOCATION, set this to
 #. * "DEFAULT_LOCATION".
-#.
-#: ../libmateweather/mateweather-mateconf.c:212 ../libmateweather/mateweather-mateconf.c:213
+#. 
+#: ../libmateweather/mateweather-mateconf.c:212
+#: ../libmateweather/mateweather-mateconf.c:213
 #: ../libmateweather/mateweather.schemas.in.h:5
 msgid "DEFAULT_LOCATION"
 msgstr "Αθήνα"
@@ -83,8 +53,9 @@ msgstr "Αθήνα"
 #. * the capital city, Athens.
 #. *
 #. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:232 ../libmateweather/mateweather-mateconf.c:233
+#. 
+#: ../libmateweather/mateweather-mateconf.c:232
+#: ../libmateweather/mateweather-mateconf.c:233
 #: ../libmateweather/mateweather.schemas.in.h:3
 msgid "DEFAULT_CODE"
 msgstr "LGAV"
@@ -99,8 +70,9 @@ msgstr "LGAV"
 #. *
 #. * If your default location does not have a zone, set this to
 #. * "DEFAULT_ZONE".
-#.
-#: ../libmateweather/mateweather-mateconf.c:252 ../libmateweather/mateweather-mateconf.c:253
+#. 
+#: ../libmateweather/mateweather-mateconf.c:252
+#: ../libmateweather/mateweather-mateconf.c:253
 #: ../libmateweather/mateweather.schemas.in.h:7
 msgid "DEFAULT_ZONE"
 msgstr "DEFAULT_ZONE"
@@ -116,8 +88,9 @@ msgstr "DEFAULT_ZONE"
 #. * If your default location does not have a radar, set this to " "
 #. * (or space).
 #. * If you do not have a default location, set this to DEFAULT_RADAR.
-#.
-#: ../libmateweather/mateweather-mateconf.c:273 ../libmateweather/mateweather-mateconf.c:274
+#. 
+#: ../libmateweather/mateweather-mateconf.c:273
+#: ../libmateweather/mateweather-mateconf.c:274
 #: ../libmateweather/mateweather.schemas.in.h:6
 msgid "DEFAULT_RADAR"
 msgstr " "
@@ -133,14 +106,17 @@ msgstr " "
 #. * to " " (or space).
 #. * If you do not have a default location, set this to
 #. * DEFAULT_COORDINATES.
-#.
-#: ../libmateweather/mateweather-mateconf.c:294 ../libmateweather/mateweather-mateconf.c:295
+#. 
+#: ../libmateweather/mateweather-mateconf.c:294
+#: ../libmateweather/mateweather-mateconf.c:295
 #: ../libmateweather/mateweather.schemas.in.h:4
 msgid "DEFAULT_COORDINATES"
 msgstr "37-56N 023-56E"
 
-#: ../libmateweather/mateweather-prefs.c:34 ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60 ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:34
+#: ../libmateweather/mateweather-prefs.c:45
+#: ../libmateweather/mateweather-prefs.c:60
+#: ../libmateweather/mateweather-prefs.c:77
 msgid "Default"
 msgstr "Προεπιλογή"
 
@@ -231,14 +207,16 @@ msgstr "mi"
 
 #. TRANSLATOR: This is the default unit to use for temperature measurements.
 #. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103 ../libmateweather/mateweather-prefs.c:111
+#: ../libmateweather/mateweather-prefs.c:103
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "DEFAULT_TEMP_UNIT"
 msgstr "C"
 
 #. TRANSLATOR: This is the default unit to use for wind speed.
 #. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
 #. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141 ../libmateweather/mateweather-prefs.c:151
+#: ../libmateweather/mateweather-prefs.c:141
+#: ../libmateweather/mateweather-prefs.c:151
 msgid "DEFAULT_SPEED_UNIT"
 msgstr "km/h"
 
@@ -246,13 +224,15 @@ msgstr "km/h"
 #. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
 #. "mb" (millibars), "mmHg" (millimeters of mercury),
 #. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183 ../libmateweather/mateweather-prefs.c:194
+#: ../libmateweather/mateweather-prefs.c:183
+#: ../libmateweather/mateweather-prefs.c:194
 msgid "DEFAULT_PRESSURE_UNIT"
 msgstr "mmHg"
 
 #. TRANSLATOR: This is the default unit to use for visibility distance.
 #. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224 ../libmateweather/mateweather-prefs.c:233
+#: ../libmateweather/mateweather-prefs.c:224
+#: ../libmateweather/mateweather-prefs.c:233
 msgid "DEFAULT_DISTANCE_UNIT"
 msgstr "km"
 
@@ -264,18 +244,13 @@ msgstr "Μέση ώρα γκρίνουιτς"
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"Ένας τριψήφιος κωδικός για τη λήψη μετεορολογικών χαρτών από το weather.com. "
-"Βρίσκονται στο http://git.gnome.org/cgit/libmateweather/plain/data/Locations."
-"xml.in"
+msgstr "Ένας τριψήφιος κωδικός για τη λήψη μετεορολογικών χαρτών από το weather.com. Βρίσκονται στο http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:2
 msgid ""
-"A unique zone for the city, as found from http://git.gnome.org/cgit/"
-"libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-"Μια μοναδική ζώνη για την πόλη, όπως εμφανίζεται στο http://git.gnome.org/"
-"cgit/libmateweather/plain/data/Locations.xml.in"
+"A unique zone for the city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
+msgstr "Μια μοναδική ζώνη για την πόλη, όπως εμφανίζεται στο http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:8
 msgid ""
@@ -297,18 +272,15 @@ msgstr "Λήψη χάρτη ραντάρ σε κάθε ενημέρωση."
 
 #: ../libmateweather/mateweather.schemas.in.h:12
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
-msgstr ""
-"Αν αληθές , τότε να γίνει λήψη χάρτη ραντάρ από την τοποθεσία που "
-"καθορίζεται από το κλειδί  \"ραντάρ\"."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "Αν αληθές , τότε να γίνει λήψη χάρτη ραντάρ από την τοποθεσία που καθορίζεται από το κλειδί  \"ραντάρ\"."
 
 #: ../libmateweather/mateweather.schemas.in.h:13
 msgid ""
-"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS"
-"[EW]."
-msgstr ""
-"Γεωγραφικό μήκος και πλάτος της τοποθεσίας σας σε DD-MM-SS[NS] DD-MM-SS[EW]."
+"Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
+"SS[EW]."
+msgstr "Γεωγραφικό μήκος και πλάτος της τοποθεσίας σας σε DD-MM-SS[NS] DD-MM-SS[EW]."
 
 #: ../libmateweather/mateweather.schemas.in.h:14
 msgid "Location coordinates"
@@ -320,11 +292,9 @@ msgstr "Κοντινή πόλη"
 
 #: ../libmateweather/mateweather.schemas.in.h:16
 msgid ""
-"Nearby major zone, such as a capital city, as found from http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
+"Nearby major zone, such as a capital city, as found from "
+"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
 msgstr ""
-"Κοντινή γνωστή ζώνη, π.χ. πρωτεύουσα, όπως εμφανίζεται στο http://git.mate."
-"org/cgit/libmateweather/plain/data/Locations.xml.in"
 
 #: ../libmateweather/mateweather.schemas.in.h:17
 msgid "Not used anymore"
@@ -815,7 +785,7 @@ msgstr "Στρόβιλοι σκόνης στην περιοχή"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#.
+#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
@@ -834,25 +804,29 @@ msgstr "Άγνωστη ώρα καταγραφής"
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
+#. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
-#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
+#. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
+#. DEGREE SIGN)
 #: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
@@ -902,7 +876,7 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#.
+#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
