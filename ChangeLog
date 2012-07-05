@@ -1,3 +1,138 @@
+commit 2f41b7bdf5cea621fdae5cbde78bdfbcad5ac9ea
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Jun 29 14:10:05 2012 +0200
+
+    sync translations with transifex
+
+ po/af.po          |  116 +-
+ po/am.po          | 1714 +----
+ po/ar.po          |  133 +-
+ po/as.po          |  387 +-
+ po/ast.po         |  107 +-
+ po/az.po          | 4376 +----------
+ po/be.po          | 3241 +-------
+ po/bg.po          |  124 +-
+ po/bn.po          | 2761 +------
+ po/bn_IN.po       |  397 +-
+ po/br.po          |  337 +-
+ po/bs.po          | 4358 +----------
+ po/ca.po          |  396 +-
+ po/ca@valencia.po |  145 +-
+ po/crh.po         |  254 +-
+ po/cs.po          |  391 +-
+ po/cy.po          |  384 +-
+ po/da.po          | 3857 +---------
+ po/de.po          |  398 +-
+ po/dz.po          | 3543 +--------
+ po/el.po          |  160 +-
+ po/en_CA.po       |  459 +-
+ po/en_GB.po       | 3448 +--------
+ po/eo.po          |   98 +-
+ po/es.po          |  392 +-
+ po/es_AR.po       | 3222 +-------
+ po/es_CL.po       | 3237 +-------
+ po/es_CO.po       | 3222 +-------
+ po/es_CR.po       | 3222 +-------
+ po/es_DO.po       | 3222 +-------
+ po/es_EC.po       | 3222 +-------
+ po/es_ES.po       |  406 +-
+ po/es_MX.po       | 3222 +-------
+ po/es_NI.po       | 3222 +-------
+ po/es_PA.po       | 3222 +-------
+ po/es_PE.po       | 3222 +-------
+ po/es_PR.po       | 3222 +-------
+ po/es_SV.po       | 3222 +-------
+ po/es_UY.po       | 3222 +-------
+ po/es_VE.po       | 3222 +-------
+ po/et.po          |  305 +-
+ po/eu.po          |  373 +-
+ po/fa.po          | 3558 +--------
+ po/fi.po          | 3078 +-------
+ po/fr.po          |  382 +-
+ po/ga.po          |  355 +-
+ po/gl.po          |  143 +-
+ po/gu.po          |  388 +-
+ po/he.po          | 4228 +----------
+ po/hi.po          |  383 +-
+ po/hr.po          |  428 +-
+ po/hu.po          |  376 +-
+ po/hy.po          | 3245 +-------
+ po/id.po          | 3743 +---------
+ po/is.po          |21543 +++--------------------------------------------------
+ po/it.po          |  381 +-
+ po/ja.po          |  376 +-
+ po/ka.po          | 3149 +-------
+ po/kn.po          |  119 +-
+ po/ko.po          |  366 +-
+ po/ku.po          | 3186 +-------
+ po/lt.po          | 2713 +------
+ po/lv.po          | 3059 +-------
+ po/mai.po         |  345 +-
+ po/mg.po          | 3208 +-------
+ po/mk.po          |  456 +-
+ po/ml.po          |  373 +-
+ po/mn.po          | 5002 +------------
+ po/mr.po          |  362 +-
+ po/ms.po          | 4567 +-----------
+ po/nb.po          |  121 +-
+ po/ne.po          | 3163 +-------
+ po/nl.po          | 5318 +------------
+ po/nn.po          | 3065 +-------
+ po/oc.po          | 2759 +------
+ po/or.po          |  120 +-
+ po/pa.po          | 2965 +-------
+ po/pl.po          |  122 +-
+ po/pt_BR.po       |  156 +-
+ po/ro.po          |16200 +---------------------------------------
+ po/ru.po          |  127 +-
+ po/si.po          | 1970 +----
+ po/sk.po          |  123 +-
+ po/sl.po          |  352 +-
+ po/sq.po          |  413 +-
+ po/sr.po          | 5725 +-------------
+ po/sr@latin.po    | 5725 +-------------
+ po/sv.po          |  176 +-
+ po/ta.po          |  132 +-
+ po/te.po          |  375 +-
+ po/th.po          |  391 +-
+ po/tr.po          |  388 +-
+ po/uk.po          |  120 +-
+ po/vi.po          |  380 +-
+ po/wa.po          | 2409 +-----
+ po/xh.po          | 3233 +-------
+ po/zh_CN.po       | 2877 +------
+ po/zh_HK.po       | 1678 +----
+ po/zh_TW.po       | 1678 +----
+ 99 files changed, 18152 insertions(+), 191804 deletions(-)
+
+commit 58f54368b91640a5e81a84fc74246a715c44a5fe
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Jun 29 14:03:38 2012 +0200
+
+    add po gnome copyrights file
+
+ po/gnome-copyrights.txt | 1535 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1535 insertions(+)
+
+commit 8ab79681d7977ea1f80ee74cc0d904dc0a622630
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue May 29 13:44:49 2012 -0400
+
+    Changed version to 1.3.0
+
+ configure.in |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 144e24868444c0638c400143323a056314aeba29
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue May 29 12:26:27 2012 -0400
+
+    Preparing for 1.2.1 release.
+
+ ChangeLog    |   37 +++++++++++++++++++++++++++++++++++++
+ configure.in |    2 +-
+ 2 files changed, 38 insertions(+), 1 deletion(-)
+
 commit 0a4385c777571efa9784dcdc3da67e030222d736
 Author: Steve Zesch <stevezesch2@gmail.com>
 Date:   Tue May 29 12:20:44 2012 -0400
@@ -9,7 +144,7 @@ Date:   Tue May 29 12:20:44 2012 -0400
  distro/ubuntu/postrm   |    6 ------
  distro/ubuntu/preinst  |    8 --------
  distro/ubuntu/prerm    |   11 -----------
- 5 files changed, 0 insertions(+), 70 deletions(-)
+ 5 files changed, 70 deletions(-)
 
 commit 44ec5aed7c1c7130caee72d56cf3a234603ef0d0
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -42,7 +177,7 @@ Date:   Thu Jan 26 10:58:09 2012 -0300
     changing pkgbuild source method
 
  distro/archlinux/PKGBUILD |   10 +++++-----
- 1 files changed, 5 insertions(+), 5 deletions(-)
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 commit 6a9b4bbef833dda9b578d8e9aa265ec9c5a010fa
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -51,7 +186,7 @@ Date:   Mon Jan 9 21:37:06 2012 -0500
     Changed mate.gr.jp to gnome.gr.jp as requested in Issue #86
 
  po/ja.po |   10 +++++-----
- 1 files changed, 5 insertions(+), 5 deletions(-)
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 commit 4308cb5b8e5e12048dfead700f34bb9a4ca8af05
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -98,7 +233,7 @@ Date:   Thu Dec 8 13:29:43 2011 -0300
  po-locations/Makefile.in   |  444 --
  po/Makefile.in.in          |  217 -
  python/Makefile.in         |  652 --
- 27 files changed, 0 insertions(+), 49323 deletions(-)
+ 27 files changed, 49323 deletions(-)
 
 commit 83048677903b20557f28ebc4a35aedcd50225bea
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -903,4 +1038,4 @@ Date:   Thu Dec 1 21:42:39 2011 -0300
  python/mateweather.defs                            |  326 +
  python/mateweather.override                        |  104 +
  python/mateweathermodule.c                         |   45 +
- 786 files changed, 2538710 insertions(+), 0 deletions(-)
+ 786 files changed, 2538710 insertions(+)
