@@ -26,24 +26,6 @@
 #include "weather.h"
 #include "weather-priv.h"
 
-static gchar *
-bom_parse (const gchar *meto)
-{
-    gchar *p, *rp;
-
-    g_return_val_if_fail (meto != NULL, NULL);
-
-    p = strstr (meto, "<pre>");
-    g_return_val_if_fail (p != NULL, NULL);
-
-    rp = strstr (p, "</pre>");
-    g_return_val_if_fail (rp !=NULL, NULL);
-
-    p += 5; /* skip the <pre> */
-
-    return g_strndup (p, rp-p);
-}
-
 static void
 bom_finish (SoupSession *session, SoupMessage *msg, gpointer data)
 {
@@ -58,7 +40,7 @@ bom_finish (SoupSession *session, SoupMessage *msg, gpointer data)
 	return;
     }
 
-    info->forecast = bom_parse (msg->response_body->data);
+    info->forecast = g_strdup (msg->response_body->data);
     request_done (info, TRUE);
 }
 
@@ -71,7 +53,7 @@ bom_start_open (WeatherInfo *info)
 
     loc = info->location;
 
-    url = g_strdup_printf ("http://www.bom.gov.au/cgi-bin/wrap_fwo.pl?%s.txt",
+    url = g_strdup_printf ("http://www.bom.gov.au/fwo/%s.txt",
 			   loc->zone + 1);
 
     msg = soup_message_new ("GET", url);
