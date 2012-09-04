@@ -1,0 +1,121 @@
+<schemalist gettext-domain="FIXME">
+  <enum id="org.mate.weather.TemperatureUnit">
+    <value nick="Invalid" value="0"/>
+    <value nick="Default" value="1"/>
+    <value nick="Kelvin" value="2"/>
+    <value nick="Centigrade" value="3"/>
+    <value nick="Fahrenheit" value="4"/>
+  </enum>
+  <enum id="org.mate.weather.SpeedUnit">
+    <value nick="Invalid" value="0"/>
+    <value nick="Default" value="1"/>
+    <value nick="m/s" value="2"/>
+    <value nick="km/h" value="3"/>
+    <value nick="mph" value="4"/>
+    <value nick="knots" value="5"/>
+    <value nick="Beaufort scale" value="6"/>
+  </enum>
+  <enum id="org.mate.weather.PressureUnit">
+    <value nick="Invalid" value="0"/>
+    <value nick="Default" value="1"/>
+    <value nick="kPa" value="2"/>
+    <value nick="hPa" value="3"/>
+    <value nick="mb" value="4"/>
+    <value nick="mmHg" value="5"/>
+    <value nick="inHg" value="6"/>
+    <value nick="atm" value="7"/>
+  </enum>
+  <enum id="org.mate.weather.DistanceUnit">
+    <value nick="Invalid" value="0"/>
+    <value nick="Default" value="1"/>
+    <value nick="meters" value="2"/>
+    <value nick="km" value="3"/>
+    <value nick="miles" value="4"/>
+  </enum>
+  <schema id="org.mate.weather">
+    <key name="auto-update" type="b">
+      <default>true</default>
+      <summary>Update the data automatically</summary>
+      <description>Determines whether the applet automatically updates its weather statistics or not.</description>
+    </key>
+    <key name="auto-update-interval" type="i">
+      <default>1800</default>
+      <summary>Update interval</summary>
+      <description>The interval, in seconds, between automatic updates.</description>
+    </key>
+    <key name="enable-metric" type="b">
+      <default>false</default>
+      <summary>Use metric units</summary>
+      <description>Use metric units instead of english units.</description>
+    </key>
+    <key name="distance-unit" enum="org.mate.weather.DistanceUnit">
+      <default>'Default'</default>
+      <summary>Distance unit</summary>
+      <description>The unit to use for visibility.</description>
+    </key>
+    <key name="pressure-unit" enum="org.mate.weather.PressureUnit">
+      <default>'Default'</default>
+      <summary>Pressure unit</summary>
+      <description>The unit to use for pressure.</description>
+    </key>
+    <key name="speed-unit" enum="org.mate.weather.SpeedUnit">
+      <default>'Default'</default>
+      <summary>Speed unit</summary>
+      <description>The unit to use for wind speed.</description>
+    </key>
+    <key name="temperature-unit" enum="org.mate.weather.TemperatureUnit">
+      <default>'Default'</default>
+      <summary>Temperature unit</summary>
+      <description>The unit to use for temperature.</description>
+    </key>
+    <key name="enable-detailed-forecast" type="b">
+      <default>false</default>
+      <summary>Not used anymore</summary>
+    </key>
+    <key name="enable-radar-map" type="b">
+      <default>false</default>
+      <summary>Display radar map</summary>
+      <description>Fetch a radar map on each update.</description>
+    </key>
+    <key name="location0" type="s">
+      <default l10n="messages" context="location0">'DEFAULT_LOCATION'</default>
+      <summary>Weather location information</summary>
+      <description>Weather location information.</description>
+    </key>
+    <key name="location1" type="s">
+      <default l10n="messages" context="location1">'DEFAULT_CODE'</default>
+      <summary>Nearby city</summary>
+      <description>Nearby major zone, such as a capital city, as found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</description>
+    </key>
+    <key name="location2" type="s">
+      <default l10n="messages" context="location2">'DEFAULT_ZONE'</default>
+      <summary>Zone location</summary>
+      <description>A unique zone for the city, as found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</description>
+    </key>
+    <key name="location3" type="s">
+      <default l10n="messages" context="location3">'DEFAULT_RADAR'</default>
+      <summary>Radar location</summary>
+      <description>A three-digit-long code for retrieving radar maps from weather.com, found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</description>
+    </key>
+    <key name="location4" type="s">
+      <default l10n="messages" context="location4">'DEFAULT_LOCATION'</default>
+      <summary>Weather for a city</summary>
+      <description>The city that mateweather displays information for.</description>
+    </key>
+    <key name="coordinates" type="s">
+      <default l10n="messages" context="coordinates">'DEFAULT_COORDINATES'</default>
+      <summary>Location coordinates</summary>
+      <description>Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS[EW].</description>
+    </key>
+    <key name="use-custom-radar-url" type="b">
+      <default>false</default>
+      <summary>Use custom url for the radar map</summary>
+      <description>If true, then retrieve a radar map from a location specified by the "radar" key.</description>
+    </key>
+    <key name="radar" type="s">
+      <default>''</default>
+      <summary>Url for the radar map</summary>
+      <description>The custom url from where to retrieve a radar map.</description>
+    </key>
+  </schema>
+</schemalist>

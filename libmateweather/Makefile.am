@@ -2,7 +2,7 @@ lib_LTLIBRARIES = libmateweather.la
 
 libmateweatherincdir = $(includedir)/libmateweather
 mateweather_old_headers = \
-	weather.h mateweather-mateconf.h mateweather-prefs.h mateweather-xml.h
+	weather.h mateweather-prefs.h mateweather-xml.h
 mateweather_new_headers = \
 	mateweather-location.h location-entry.h \
 	mateweather-timezone.h timezone-menu.h
@@ -21,7 +21,6 @@ libmateweather_la_SOURCES = \
 	weather-sun.c weather-moon.c \
 	mateweather-enum-types.c \
 	mateweather-prefs.c mateweather-prefs.h \
-	mateweather-mateconf.c mateweather-mateconf.h \
 	mateweather-xml.c mateweather-xml.h \
 	mateweather-location.c mateweather-location.h \
 	mateweather-timezone.c mateweather-timezone.h \
@@ -43,7 +42,7 @@ libmateweather_la_CFLAGS = \
 	$(GTK_CFLAGS)			\
 	$(LIBXML_CFLAGS)		\
 	$(LIBSOUP_CFLAGS)		\
-	$(MATECONF_CFLAGS)			\
+	$(GIO_CFLAGS)			\
 	-DG_LOG_DOMAIN=\"MateWeather\"	\
 	-DMATELOCALEDIR=\""$(datadir)/locale"\" \
 	-DMATEWEATHER_XML_LOCATION_DIR=\""$(pkgdatadir)"\"
@@ -53,7 +52,7 @@ libmateweather_la_LIBADD = \
 	$(GTK_LIBS)	\
 	$(LIBXML_LIBS)	\
 	$(LIBSOUP_LIBS)	\
-	$(MATECONF_LIBS) \
+	$(GIO_LIBS) \
 	$(REGEX_LIBS)
 
 libmateweather_la_LDFLAGS = \
@@ -123,26 +122,10 @@ test_sun_moon_LDADD = \
 noinst_HEADERS = weather-priv.h mateweather-win32.h
 noinst_PROGRAMS = test_metar test_locations test_sun_moon
 
-schemadir   = @MATECONF_SCHEMA_FILE_DIR@
-schema_in_files = mateweather.schemas.in
-schema_DATA = $(schema_in_files:.schemas.in=.schemas)
+gsettings_SCHEMAS = org.mate.weather.gschema.xml
+@GSETTINGS_RULES@
 
-@INTLTOOL_SCHEMAS_RULE@
-
-if MATECONF_SCHEMAS_INSTALL
-install-data-local:
-	if test -z "$(DESTDIR)" ; then \
-		for p in $(schema_DATA) ; do \
-			MATECONF_CONFIG_SOURCE=$(MATECONF_SCHEMA_CONFIG_SOURCE) $(MATECONFTOOL) --makefile-install-rule $$p ; \
-		done \
-	fi
-uninstall-local:
-	for p in $(schema_DATA) ; do \
-		MATECONF_CONFIG_SOURCE=$(MATECONF_SCHEMA_CONFIG_SOURCE) $(MATECONFTOOL) --makefile-uninstall-rule $$p ; \
-	done
-endif
-
-EXTRA_DIST = mateweather.pc.in mateweather-uninstalled.pc.in $(schema_in_files)
+EXTRA_DIST = mateweather.pc.in mateweather-uninstalled.pc.in $(gsettings_SCHEMAS)
 
 EXTRA_PROGRAMS = test_metar test_sun_moon
 

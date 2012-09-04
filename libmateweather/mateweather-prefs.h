@@ -26,13 +26,13 @@
 
 
 #include <libmateweather/weather.h>
-#include <libmateweather/mateweather-mateconf.h>
+#include <gio/gio.h>
 
-/* mateconf keys */
-#define MATECONF_TEMP_UNIT     "temperature_unit"
-#define MATECONF_SPEED_UNIT    "speed_unit"
-#define MATECONF_PRESSURE_UNIT "pressure_unit"
-#define MATECONF_DISTANCE_UNIT "distance_unit"
+/* gsettings keys */
+#define GSETTINGS_TEMP_UNIT     "temperature-unit"
+#define GSETTINGS_SPEED_UNIT    "speed-unit"
+#define GSETTINGS_PRESSURE_UNIT "pressure-unit"
+#define GSETTINGS_DISTANCE_UNIT "distance-unit"
 
 typedef struct _MateWeatherPrefs MateWeatherPrefs;
 
@@ -46,31 +46,13 @@ struct _MateWeatherPrefs {
     gchar *radar;
 
     TempUnit     temperature_unit;
-    gboolean     use_temperature_default;
     SpeedUnit    speed_unit;
-    gboolean     use_speed_default;
     PressureUnit pressure_unit;
-    gboolean     use_pressure_default;
     DistanceUnit distance_unit;
-    gboolean     use_distance_default;
 };
 
 void		mateweather_prefs_load			(MateWeatherPrefs *prefs,
-							 MateWeatherMateConf *ctx);
+                                             GSettings *settings);
 
-const char *	mateweather_prefs_temp_enum_to_string	(TempUnit temp);
-const char *	mateweather_prefs_speed_enum_to_string	(SpeedUnit speed);
-const char *	mateweather_prefs_pressure_enum_to_string	(PressureUnit pressure);
-const char *	mateweather_prefs_distance_enum_to_string	(DistanceUnit distance);
-
-TempUnit        mateweather_prefs_parse_temperature        (const char *str,
-                                                         gboolean   *is_default);
-SpeedUnit       mateweather_prefs_parse_speed              (const char *str,
-                                                         gboolean   *is_default);
-
-const char *	mateweather_prefs_get_temp_display_name		(TempUnit temp);
-const char *	mateweather_prefs_get_speed_display_name		(SpeedUnit speed);
-const char *	mateweather_prefs_get_pressure_display_name	(PressureUnit pressure);
-const char *	mateweather_prefs_get_distance_display_name	(DistanceUnit distance);
 
 #endif /* __MATEWEATHER_PREFS_H_ */
