@@ -54,5 +54,9 @@ struct _MateWeatherPrefs {
 void		mateweather_prefs_load			(MateWeatherPrefs *prefs,
                                              GSettings *settings);
 
+const char *  mateweather_prefs_get_temp_display_name    (TempUnit temp);
+const char *  mateweather_prefs_get_speed_display_name    (SpeedUnit speed);
+const char *  mateweather_prefs_get_pressure_display_name  (PressureUnit pressure);
+const char *  mateweather_prefs_get_distance_display_name  (DistanceUnit distance);
 
 #endif /* __MATEWEATHER_PREFS_H_ */

@@ -77,3 +77,90 @@ mateweather_prefs_load (MateWeatherPrefs *prefs, GSettings *settings)
 
     return;
 }
+
+const char *
+mateweather_prefs_get_temp_display_name (TempUnit temp)
+{
+    switch (temp) {
+        case TEMP_UNIT_DEFAULT:
+            return N_("Default");
+        case TEMP_UNIT_KELVIN:
+             /* translators: Kelvin */
+            return N_("K");
+        case TEMP_UNIT_CENTIGRADE:
+            /* translators: Celsius */
+            return N_("C");
+        case TEMP_UNIT_FAHRENHEIT:
+            /* translators: Fahrenheit */
+            return N_("F");
+    }
+}
+
+const char *
+mateweather_prefs_get_speed_display_name (SpeedUnit speed)
+{
+    switch (speed) {
+        case SPEED_UNIT_DEFAULT:
+            return N_("Default");
+        case SPEED_UNIT_MS:
+            /* translators: meters per second */
+            return N_("m/s");
+        case SPEED_UNIT_KPH:
+            /* translators: kilometers per hour */
+            return N_("km/h");
+        case SPEED_UNIT_MPH:
+            /* translators: miles per hour */
+            return N_("mph");
+        case SPEED_UNIT_KNOTS:
+            /* translators: knots (speed unit) */
+            return N_("knots");
+        case SPEED_UNIT_BFT:
+            /* translators: wind speed */
+            return N_("Beaufort scale");
+    }
+}
+
+const char *
+mateweather_prefs_get_pressure_display_name (PressureUnit pressure)
+{
+    switch (pressure) {
+        case PRESSURE_UNIT_DEFAULT:
+            return N_("Default");
+        case PRESSURE_UNIT_KPA:
+            /* translators: kilopascals */
+            return N_("kPa");
+        case PRESSURE_UNIT_HPA:
+            /* translators: hectopascals */
+            return N_("hPa");
+        case PRESSURE_UNIT_MB:
+            /* translators: millibars */
+            return N_("mb");
+        case PRESSURE_UNIT_MM_HG:
+            /* translators: millimeters of mercury */
+            return N_("mmHg");
+        case PRESSURE_UNIT_INCH_HG:
+            /* translators: inches of mercury */
+            return N_("inHg");
+        case PRESSURE_UNIT_ATM:
+            /* translators: atmosphere */
+            return N_("atm");
+    }
+}
+
+const char *
+mateweather_prefs_get_distance_display_name (DistanceUnit distance)
+{
+    switch (distance) {
+        case DISTANCE_UNIT_DEFAULT:
+            return N_("Default");
+        case DISTANCE_UNIT_METERS:
+            /* translators: meters */
+            return N_("m");
+        case DISTANCE_UNIT_KM:
+            /* translators: kilometers */
+            return N_("km");
+        case DISTANCE_UNIT_MILES:
+            /* translators: miles */
+            return N_("mi");
+    }
+}
