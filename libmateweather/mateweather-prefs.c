@@ -94,6 +94,7 @@ mateweather_prefs_get_temp_display_name (TempUnit temp)
             /* translators: Fahrenheit */
             return N_("F");
     }
+    return N_("Invalid");
 }
 
 const char *
@@ -118,6 +119,7 @@ mateweather_prefs_get_speed_display_name (SpeedUnit speed)
             /* translators: wind speed */
             return N_("Beaufort scale");
     }
+    return N_("Invalid");
 }
 
 const char *
@@ -145,6 +147,7 @@ mateweather_prefs_get_pressure_display_name (PressureUnit pressure)
             /* translators: atmosphere */
             return N_("atm");
     }
+    return N_("Invalid");
 }
 
 const char *
@@ -163,4 +166,5 @@ mateweather_prefs_get_distance_display_name (DistanceUnit distance)
             /* translators: miles */
             return N_("mi");
     }
+    return N_("Invalid");
 }
