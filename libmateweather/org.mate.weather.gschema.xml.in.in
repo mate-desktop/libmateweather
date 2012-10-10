@@ -1,0 +1,161 @@
+<schemalist gettext-domain="@GETTEXT_PACKAGE@">
+  <enum id="org.mate.weather.TemperatureUnit">
+    <value nick="Invalid" value="0"/>
+    <value nick="Default" value="1"/>
+    <value nick="Kelvin" value="2"/>
+    <value nick="Centigrade" value="3"/>
+    <value nick="Fahrenheit" value="4"/>
+  </enum>
+  <enum id="org.mate.weather.SpeedUnit">
+    <value nick="Invalid" value="0"/>
+    <value nick="Default" value="1"/>
+    <value nick="m/s" value="2"/>
+    <value nick="km/h" value="3"/>
+    <value nick="mph" value="4"/>
+    <value nick="knots" value="5"/>
+    <value nick="Beaufort scale" value="6"/>
+  </enum>
+  <enum id="org.mate.weather.PressureUnit">
+    <value nick="Invalid" value="0"/>
+    <value nick="Default" value="1"/>
+    <value nick="kPa" value="2"/>
+    <value nick="hPa" value="3"/>
+    <value nick="mb" value="4"/>
+    <value nick="mmHg" value="5"/>
+    <value nick="inHg" value="6"/>
+    <value nick="atm" value="7"/>
+  </enum>
+  <enum id="org.mate.weather.DistanceUnit">
+    <value nick="Invalid" value="0"/>
+    <value nick="Default" value="1"/>
+    <value nick="meters" value="2"/>
+    <value nick="km" value="3"/>
+    <value nick="miles" value="4"/>
+  </enum>
+  <schema id="org.mate.weather">
+    <key name="auto-update" type="b">
+      <default>true</default>
+      <_summary>Update the data automatically</_summary>
+      <_description>Determines whether the applet automatically updates its weather statistics or not.</_description>
+    </key>
+    <key name="auto-update-interval" type="i">
+      <default>1800</default>
+      <_summary>Update interval</_summary>
+      <_description>The interval, in seconds, between automatic updates.</_description>
+    </key>
+    <key name="enable-metric" type="b">
+      <default>false</default>
+      <_summary>Use metric units</_summary>
+      <_description>Use metric units instead of english units.</_description>
+    </key>
+    <key name="distance-unit" enum="org.mate.weather.DistanceUnit">
+      <default>'Default'</default>
+      <_summary>Distance unit</_summary>
+      <_description>The unit to use for visibility.</_description>
+    </key>
+    <key name="pressure-unit" enum="org.mate.weather.PressureUnit">
+      <default>'Default'</default>
+      <_summary>Pressure unit</_summary>
+      <_description>The unit to use for pressure.</_description>
+    </key>
+    <key name="speed-unit" enum="org.mate.weather.SpeedUnit">
+      <default>'Default'</default>
+      <_summary>Speed unit</_summary>
+      <_description>The unit to use for wind speed.</_description>
+    </key>
+    <key name="temperature-unit" enum="org.mate.weather.TemperatureUnit">
+      <default>'Default'</default>
+      <_summary>Temperature unit</_summary>
+      <_description>The unit to use for temperature.</_description>
+    </key>
+    <key name="enable-detailed-forecast" type="b">
+      <default>false</default>
+      <_summary>Not used anymore</_summary>
+    </key>
+    <key name="enable-radar-map" type="b">
+      <default>false</default>
+      <_summary>Display radar map</_summary>
+      <_description>Fetch a radar map on each update.</_description>
+    </key>
+    <key name="location0" type="s">
+      <!-- TRANSLATORS: Change this to the default location name, used
+      when you first start the Weather Applet. This is the common
+      localised name that corresponds to the location code
+      (DEFAULT_CODE) you will put on the next message. For example, for
+      the Greek locale, we set this to "Athens", the capital city and we
+      write it in Greek. It's important to translate this name. If you
+      do not require a DEFAULT_LOCATION, set this to
+      "DEFAULT_LOCATION". -->
+      <_default l10n="messages">'DEFAULT_LOCATION'</_default>
+      <_summary>Weather location information</_summary>
+      <_description>Weather location information.</_description>
+    </key>
+    <key name="location1" type="s">
+      <!-- TRANSLATORS: Change this to the code of your default location
+      that corresponds to the DEFAULT_LOCATION name you put above. This
+      is normally a four-letter (ICAO) code and can be found in https://github.com/mate-desktop/libmateweather/blob/master/data/Locations.xml.in.
+      NB. The web page is over 1.7MB in size. Pick a default location
+      like a capital city so that it would be ok for more of your users.
+      For example, for Greek, we use "LGAV" for the capital city, Athens.
+      If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE". -->
+      <_default l10n="messages">'DEFAULT_CODE'</_default>
+      <_summary>Nearby city</_summary>
+      <_description>Nearby major zone, such as a capital city, as found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</_description>
+    </key>
+    <key name="location2" type="s">
+      <!-- TRANSLATORS: Change this to the zone of your default location
+      that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+      above. Normally, US and Canada locations have zones while the rest
+      do not. Check
+      https://github.com/mate-desktop/libmateweather/blob/master/data/Locations.xml.in
+      as any zone you put here must also be present in the Locations.xml
+      file. If your default location does not have a zone, set this to
+      "DEFAULT_ZONE". -->
+      <_default l10n="messages">'DEFAULT_ZONE'</_default>
+      <_summary>Zone location</_summary>
+      <_description>A unique zone for the city, as found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</_description>
+    </key>
+    <key name="location3" type="s">
+      <!-- TRANSLATORS: Change this to the radar of your default location
+      that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+      above. Normally, US and Canada locations have radar names while the
+      rest do not. Check
+      https://github.com/mate-desktop/libmateweather/blob/master/data/Locations.xml.in
+      as any radar you put here must also be present in the Locations.xml
+      file. If your default location does not have a radar, set this to
+      " " (or space).
+      If you do not have a default location, set this to DEFAULT_RADAR. -->
+      <_default l10n="messages">'DEFAULT_RADAR'</_default>
+      <_summary>Radar location</_summary>
+      <_description>A three-digit-long code for retrieving radar maps from weather.com, found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</_description>
+    </key>
+    <key name="location4" type="s">
+      <_default l10n="messages">'DEFAULT_LOCATION'</_default>
+      <_summary>Weather for a city</_summary>
+      <_description>The city that mateweather displays information for.</_description>
+    </key>
+    <key name="coordinates" type="s">
+      <!-- TRANSLATORS: Change this to the coordinates of your default
+      location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
+      you put above. Check
+      https://github.com/mate-desktop/libmateweather/blob/master/data/Locations.xml.in
+      as any coordinates you put here must also be present in the
+      Locations.xml file. If your default location does not have known
+      coordinates, set this to " " (or space). If you do not have a
+      default location, set this to DEFAULT_COORDINATES. -->
+      <_default l10n="messages">'DEFAULT_COORDINATES'</_default>
+      <_summary>Location coordinates</_summary>
+      <_description>Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS[EW].</_description>
+    </key>
+    <key name="use-custom-radar-url" type="b">
+      <default>false</default>
+      <_summary>Use custom url for the radar map</_summary>
+      <_description>If true, then retrieve a radar map from a location specified by the "radar" key.</_description>
+    </key>
+    <key name="radar" type="s">
+      <default>''</default>
+      <_summary>Url for the radar map</_summary>
+      <_description>The custom url from where to retrieve a radar map.</_description>
+    </key>
+  </schema>
+</schemalist>

@@ -4,10 +4,9 @@
 [encoding: UTF-8]
 libmateweather/mateweather-prefs.c
 libmateweather/mateweather-timezone.c
-libmateweather/mateweather.schemas.in
+libmateweather/org.mate.weather.gschema.xml.in.in
 libmateweather/timezone-menu.c
 libmateweather/weather-iwin.c
 libmateweather/weather-metar.c
 libmateweather/weather-wx.c
 libmateweather/weather.c
-
