@@ -36,7 +36,9 @@ initmateweather(void)
     PyObject *m, *d;
 
     init_pygobject ();
+#if !GLIB_CHECK_VERSION (2, 32, 0)
     g_thread_init (NULL);
+#endif
 
     m = Py_InitModule ("mateweather", pymateweather_functions);
     d = PyModule_GetDict (m);
