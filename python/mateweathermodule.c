@@ -36,9 +36,7 @@ initmateweather(void)
     PyObject *m, *d;
 
     init_pygobject ();
-#if GLIB_CHECK_VERSION (2, 32, 0)
-    /* g_thread_init (NULL); */
-#else
+#if !GLIB_CHECK_VERSION (2, 32, 0)
     g_thread_init (NULL);
 #endif
 
