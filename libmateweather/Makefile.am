@@ -129,7 +129,14 @@ gsettings_SCHEMAS = org.mate.weather.gschema.xml
 %.gschema.xml.in: %.gschema.xml.in.in Makefile
 	$(AM_V_GEN) $(SED) -e 's^\@GETTEXT_PACKAGE\@^$(GETTEXT_PACKAGE)^g' < $< > $@
 
-EXTRA_DIST = mateweather.pc.in mateweather-uninstalled.pc.in $(gsettings_schemas_in_in)
+convertdir = $(datadir)/MateConf/gsettings
+convert_DATA = mateweather.convert
+
+EXTRA_DIST = \
+	mateweather.pc.in		\
+	mateweather-uninstalled.pc.in	\
+	$(gsettings_schemas_in_in)	\
+	$(convert_DATA)
 
 EXTRA_PROGRAMS = test_metar test_sun_moon
 

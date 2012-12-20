@@ -1,0 +1,18 @@
+[org.mate.weather]
+auto-update = /apps/mateweather/prefs/auto_update
+auto-update-interval = /apps/mateweather/prefs/auto_update_interval
+enable-metric = /apps/mateweather/prefs/enable_metric
+distance-unit = /apps/mateweather/prefs/distance_unit
+pressure-unit = /apps/mateweather/prefs/pressure_unit
+speed-unit = /apps/mateweather/prefs/speed_unit
+temperature-unit = /apps/mateweather/prefs/temperature_unit
+enable-detailed-forecast = /apps/mateweather/prefs/enable_detailed_forecast
+enable-radar-map = /apps/mateweather/prefs/enable_radar_map
+location0 = /apps/mateweather/prefs/location0
+location1 = /apps/mateweather/prefs/location1
+location2 = /apps/mateweather/prefs/location2
+location3 = /apps/mateweather/prefs/location3
+location4 = /apps/mateweather/prefs/location4
+coordinates = /apps/mateweather/prefs/coordinates
+use-custom-radar-url = /apps/mateweather/prefs/use_custom_radar_url
+radar = /apps/mateweather/prefs/radar
