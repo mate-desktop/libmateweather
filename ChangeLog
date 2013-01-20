@@ -1,3 +1,163 @@
+commit f60726faba65f34cd259fab4f640bebce13bfcfb
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Jan 20 19:15:36 2013 +0100
+
+    Fix unit defaults in schema, making them transatable
+
+ libmateweather/org.mate.weather.gschema.xml.in.in |   27 ++++++++++++++-------
+ 1 file changed, 18 insertions(+), 9 deletions(-)
+
+commit 498d56cf5daebfa415a05d920e86f782a810b20b
+Author: Elan Ruusamäe <glen@delfi.ee>
+Date:   Tue Jan 15 18:41:14 2013 +0200
+
+    rename configure.in to configure.ac to be liked by autoconf 1.12
+    
+    aclocal-1.12: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+
+ autogen.sh   |    2 +-
+ configure.ac |  282 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ configure.in |  282 ----------------------------------------------------------
+ 3 files changed, 283 insertions(+), 283 deletions(-)
+
+commit ea58853d82d90357a36832ca1c62cefbfadc6154
+Merge: 07ff679 0323772
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Dec 14 11:48:48 2012 -0800
+
+    Merge pull request #4 from sbalneav/master
+    
+    Fix deprecations
+
+commit 032377291f83cba3d0ab0eed7665cb2f5df0d2bd
+Author: Scott Balneaves <sbalneav@alburg.net>
+Date:   Fri Dec 14 13:46:57 2012 -0600
+
+    Stylistic update
+
+ python/mateweathermodule.c |    4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit 18ef300a07d7741c6503775b183f857858924b18
+Author: Scott Balneaves <sbalneav@alburg.net>
+Date:   Fri Dec 14 10:54:36 2012 -0600
+
+    Fix deprecations
+
+ python/mateweathermodule.c |    4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 07ff67922a68f69f64e89c8997add9976ed419d2
+Merge: 4caec59 27b41f2
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Nov 4 03:00:22 2012 -0800
+
+    Merge pull request #3 from NiceandGently/master
+    
+    fix incorrect fsf adress in COPYING
+
+commit 27b41f23f77e95af1e1631e897c3b8968d8eb815
+Author: raveit <chat-to-me@raveit.de>
+Date:   Sun Nov 4 02:57:40 2012 +0100
+
+    add new licences
+
+ COPYING     |  502 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ COPYING.GPL |  339 ++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 841 insertions(+)
+
+commit 210c4ad8d8950db6c05d8d64d9d0b2031a1b2f44
+Author: raveit <chat-to-me@raveit.de>
+Date:   Sun Nov 4 02:54:41 2012 +0100
+
+    remove COPYING with incorrect fsf address
+
+ COPYING |  340 ---------------------------------------------------------------
+ 1 file changed, 340 deletions(-)
+
+commit 4caec59b8b8ad937e5976f5f5338e1265a89aa6c
+Merge: 6fc7fa8 30fe555
+Author: Nelson Marques <nmo.marques@gmail.com>
+Date:   Wed Oct 10 07:39:09 2012 -0700
+
+    Merge pull request #2 from ketheriel/master
+    
+    fix no return in non-void function
+
+commit 30fe55545b4fe19a7f4bd04cd25ebf46ef35b570
+Author: Nelson Marques <nmo.marques@gmail.com>
+Date:   Wed Oct 10 16:32:55 2012 +0200
+
+    fix no return in nonvoid function
+
+ libmateweather/mateweather-prefs.c |    4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 6fc7fa8f772083bda5cb4b4956150db5d155e060
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Oct 10 13:39:28 2012 +0200
+
+    add gettext to gschema
+
+ libmateweather/Makefile.am                        |    8 +-
+ libmateweather/org.mate.weather.gschema.xml       |  121 ----------------
+ libmateweather/org.mate.weather.gschema.xml.in.in |  161 +++++++++++++++++++++
+ po/POTFILES.in                                    |    3 +-
+ 4 files changed, 168 insertions(+), 125 deletions(-)
+
+commit 47a9ffc53ceba87023e443a6ab362c52ac799635
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sat Sep 29 11:48:30 2012 +0200
+
+    re-add deleted functions
+
+ libmateweather/mateweather-prefs.c |   87 ++++++++++++++++++++++++++++++++++++
+ libmateweather/mateweather-prefs.h |    4 ++
+ 2 files changed, 91 insertions(+)
+
+commit 44b85ff8d08023f49be431f1a8514240b9b4b276
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Sep 4 16:57:10 2012 +0200
+
+    migrate to gsettings
+
+ configure.in                                      |   19 +-
+ doc/html/libmateweather-mateweather-mateconf.html |  405 ---------------------
+ doc/tmpl/mateweather-mateconf.sgml                |  136 -------
+ libmateweather/Makefile.am                        |   29 +-
+ libmateweather/mateweather-mateconf.c             |  310 ----------------
+ libmateweather/mateweather-mateconf.h             |   84 -----
+ libmateweather/mateweather-prefs.c                |  370 ++-----------------
+ libmateweather/mateweather-prefs.h                |   32 +-
+ libmateweather/mateweather-uninstalled.pc.in      |    2 +-
+ libmateweather/mateweather.pc.in                  |    2 +-
+ libmateweather/mateweather.schemas.in             |  173 ---------
+ libmateweather/org.mate.weather.gschema.xml       |  121 ++++++
+ po/POTFILES.in                                    |    1 -
+ 13 files changed, 172 insertions(+), 1512 deletions(-)
+
+commit 9f6a41dc0563e92cb59609aa3dcc8b9d42d1d40b
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Sep 4 12:25:08 2012 +0200
+
+    fix fetching forecast from bom.gov.au
+    https://github.com/mate-desktop/libmateweather/issues/1
+    https://bugzilla.gnome.org/show_bug.cgi?id=628750
+    http://git.gnome.org/browse/libgweather/commit/?id=a80552f51c641754ef8410eebea6debc23a25561
+
+ libmateweather/weather-bom.c |   22 ++--------------------
+ 1 file changed, 2 insertions(+), 20 deletions(-)
+
+commit 859434d111af89e4ce2a0d4e6199b6f21305fa33
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Thu Jul 5 13:46:34 2012 -0400
+
+    Preparing for 1.4 release.
+
+ ChangeLog    |  145 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ configure.in |    2 +-
+ 2 files changed, 141 insertions(+), 6 deletions(-)
+
 commit 2f41b7bdf5cea621fdae5cbde78bdfbcad5ac9ea
 Author: Stefano Karapetsas <stefano@karapetsas.com>
 Date:   Fri Jun 29 14:10:05 2012 +0200
