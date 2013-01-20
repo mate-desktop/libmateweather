@@ -49,24 +49,32 @@
       <_description>Use metric units instead of english units.</_description>
     </key>
     <key name="distance-unit" enum="org.mate.weather.DistanceUnit">
-      <default>'Default'</default>
+      <!-- TRANSLATORS: pick a default distance unit for your locale, see key description
+      for valid values; values must be quoted -->
+      <_default l10n="messages">'miles'</_default>
       <_summary>Distance unit</_summary>
-      <_description>The unit to use for visibility.</_description>
+      <_description>The unit to use for visibility. Values: 'meters', 'km' ,'miles'.</_description>
     </key>
     <key name="pressure-unit" enum="org.mate.weather.PressureUnit">
-      <default>'Default'</default>
+      <!-- TRANSLATORS: pick a default pressure unit for your locale, see key description
+      for valid values; values must be quoted -->
+      <_default l10n="messages">'inHg'</_default>
       <_summary>Pressure unit</_summary>
-      <_description>The unit to use for pressure.</_description>
+      <_description>The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'.</_description>
     </key>
     <key name="speed-unit" enum="org.mate.weather.SpeedUnit">
-      <default>'Default'</default>
+      <!-- TRANSLATORS: pick a default speed unit for your locale, see key description
+      for valid values; values must be quoted -->
+      <_default l10n="messages">'knots'</_default>
       <_summary>Speed unit</_summary>
-      <_description>The unit to use for wind speed.</_description>
+      <_description>The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots, 'Beaufort scale'.</_description>
     </key>
     <key name="temperature-unit" enum="org.mate.weather.TemperatureUnit">
-      <default>'Default'</default>
+      <!-- TRANSLATORS: pick a temperature unit that should be used by default in your
+      locale, see key description for valid values; values must be quoted -->
+      <_default l10n="messages">'Fahrenheit'</_default>
       <_summary>Temperature unit</_summary>
-      <_description>The unit to use for temperature.</_description>
+      <_description>The unit to use for temperature. Values: 'Kelvin', 'Centigrade', 'Fahrenheit'.</_description>
     </key>
     <key name="enable-detailed-forecast" type="b">
       <default>false</default>
@@ -93,7 +101,8 @@
     <key name="location1" type="s">
       <!-- TRANSLATORS: Change this to the code of your default location
       that corresponds to the DEFAULT_LOCATION name you put above. This
-      is normally a four-letter (ICAO) code and can be found in https://github.com/mate-desktop/libmateweather/blob/master/data/Locations.xml.in.
+      is normally a four-letter (ICAO) code and can be found in 
+      https://github.com/mate-desktop/libmateweather/blob/master/data/Locations.xml.in.
       NB. The web page is over 1.7MB in size. Pick a default location
       like a capital city so that it would be ok for more of your users.
       For example, for Greek, we use "LGAV" for the capital city, Athens.
