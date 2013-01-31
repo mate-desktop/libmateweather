@@ -1,7 +1,7 @@
 AC_INIT([libmateweather], [1.5.1], [http://www.mate-desktop.org])
 AC_PREREQ(2.59)
 
-AM_CONFIG_HEADER(config.h)
+AC_CONFIG_HEADERS(config.h)
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-bzip2])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 AC_CONFIG_MACRO_DIR([m4])
