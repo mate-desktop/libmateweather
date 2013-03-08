@@ -67,7 +67,7 @@
       for valid values; values must be quoted -->
       <_default l10n="messages">'knots'</_default>
       <_summary>Speed unit</_summary>
-      <_description>The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots, 'Beaufort scale'.</_description>
+      <_description>The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', 'Beaufort scale'.</_description>
     </key>
     <key name="temperature-unit" enum="org.mate.weather.TemperatureUnit">
       <!-- TRANSLATORS: pick a temperature unit that should be used by default in your
