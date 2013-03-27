@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+ 
+[MATE.libmateweather]
+file_filter = po/<lang>.po
+source_file = po/libmateweather.pot
+source_lang = en
