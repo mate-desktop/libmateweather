@@ -13,373 +13,362 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-02-23 10:11+0100\n"
-"PO-Revision-Date: 2012-02-23 09:18+0000\n"
+"POT-Creation-Date: 2013-03-08 14:18+0100\n"
+"PO-Revision-Date: 2013-03-08 13:20+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: bn\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANSLATOR: Change this to the default location name,
-#. * used when you first start the Weather Applet. This is
-#. * the common localised name that corresponds to
-#. * the location code (DEFAULT_CODE) you will put on the next message
-#. * For example, for the Greek locale, we set this to "Athens", the
-#. * capital city and we write it in Greek. It's important to translate
-#. * this name.
-#. *
-#. * If you do not require a DEFAULT_LOCATION, set this to
-#. * "DEFAULT_LOCATION".
-#. 
-#: ../libmateweather/mateweather-mateconf.c:212
-#: ../libmateweather/mateweather-mateconf.c:213
-#: ../libmateweather/mateweather.schemas.in.h:5
-msgid "DEFAULT_LOCATION"
-msgstr "বাংলাদেশ"
-
-#. TRANSLATOR: Change this to the code of your default location that
-#. * corresponds to the DEFAULT_LOCATION name you put above. This is
-#. * normally a four-letter (ICAO) code and can be found in
-#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
-#. * NB. The web page is over 1.7MB in size.
-#. * Pick a default location like a capital city so that it would be ok
-#. * for more of your users. For example, for Greek, we use "LGAV" for
-#. * the capital city, Athens.
-#. *
-#. * If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
-#. 
-#: ../libmateweather/mateweather-mateconf.c:232
-#: ../libmateweather/mateweather-mateconf.c:233
-#: ../libmateweather/mateweather.schemas.in.h:3
-msgid "DEFAULT_CODE"
-msgstr "VECC"
-
-#. TRANSLATOR: Change this to the zone of your default location that
-#. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
-#. * Normally, US and Canada locations have zones while the rest do not.
-#. * Check
-#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
-#. * as any zone you put here must also be present in the Locations.xml
-#. * file.
-#. *
-#. * If your default location does not have a zone, set this to
-#. * "DEFAULT_ZONE".
-#. 
-#: ../libmateweather/mateweather-mateconf.c:252
-#: ../libmateweather/mateweather-mateconf.c:253
-#: ../libmateweather/mateweather.schemas.in.h:7
-msgid "DEFAULT_ZONE"
-msgstr "DEFAULT_ZONE"
-
-#. TRANSLATOR: Change this to the radar of your default location that
-#. * corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put above.
-#. * Normally, US and Canada locations have radar names while the rest do
-#. * not. Check
-#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
-#. * as any radar you put here must also be present in the Locations.xml
-#. * file.
-#. *
-#. * If your default location does not have a radar, set this to " "
-#. * (or space).
-#. * If you do not have a default location, set this to DEFAULT_RADAR.
-#. 
-#: ../libmateweather/mateweather-mateconf.c:273
-#: ../libmateweather/mateweather-mateconf.c:274
-#: ../libmateweather/mateweather.schemas.in.h:6
-msgid "DEFAULT_RADAR"
-msgstr "DEFAULT_RADAR"
-
-#. TRANSLATOR: Change this to the coordinates of your default location
-#. * that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
-#. * above. Check
-#. * http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in
-#. * as any coordinates you put here must also be present in the
-#. * Locations.xml file.
-#. *
-#. * If your default location does not have known coordinates, set this
-#. * to " " (or space).
-#. * If you do not have a default location, set this to
-#. * DEFAULT_COORDINATES.
-#. 
-#: ../libmateweather/mateweather-mateconf.c:294
-#: ../libmateweather/mateweather-mateconf.c:295
-#: ../libmateweather/mateweather.schemas.in.h:4
-msgid "DEFAULT_COORDINATES"
-msgstr "22°33′N 88°20′E "
-
-#: ../libmateweather/mateweather-prefs.c:34
-#: ../libmateweather/mateweather-prefs.c:45
-#: ../libmateweather/mateweather-prefs.c:60
-#: ../libmateweather/mateweather-prefs.c:77
+#: ../libmateweather/mateweather-prefs.c:86
+#: ../libmateweather/mateweather-prefs.c:105
+#: ../libmateweather/mateweather-prefs.c:130
+#: ../libmateweather/mateweather-prefs.c:158
 msgid "Default"
 msgstr "ডিফল্ট"
 
 #. translators: Kelvin
-#: ../libmateweather/mateweather-prefs.c:36
+#: ../libmateweather/mateweather-prefs.c:89
 msgid "K"
 msgstr "K"
 
 #. translators: Celsius
-#: ../libmateweather/mateweather-prefs.c:38
+#: ../libmateweather/mateweather-prefs.c:92
 msgid "C"
 msgstr "C"
 
 #. translators: Fahrenheit
-#: ../libmateweather/mateweather-prefs.c:40
+#: ../libmateweather/mateweather-prefs.c:95
 msgid "F"
 msgstr "F"
 
+#: ../libmateweather/mateweather-prefs.c:97
+#: ../libmateweather/mateweather-prefs.c:122
+#: ../libmateweather/mateweather-prefs.c:150
+#: ../libmateweather/mateweather-prefs.c:169 ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:260 ../libmateweather/weather.c:332
+msgid "Invalid"
+msgstr "অবৈধ"
+
 #. translators: meters per second
-#: ../libmateweather/mateweather-prefs.c:47
+#: ../libmateweather/mateweather-prefs.c:108
 msgid "m/s"
 msgstr "মিটার/সেকেন্ড"
 
 #. translators: kilometers per hour
-#: ../libmateweather/mateweather-prefs.c:49
+#: ../libmateweather/mateweather-prefs.c:111
 msgid "km/h"
 msgstr "কিলোমিটার/ঘন্টা"
 
 #. translators: miles per hour
-#: ../libmateweather/mateweather-prefs.c:51
+#: ../libmateweather/mateweather-prefs.c:114
 msgid "mph"
 msgstr "mph"
 
 #. translators: knots (speed unit)
-#: ../libmateweather/mateweather-prefs.c:53
+#: ../libmateweather/mateweather-prefs.c:117
 msgid "knots"
 msgstr "নট"
 
 #. translators: wind speed
-#: ../libmateweather/mateweather-prefs.c:55
+#: ../libmateweather/mateweather-prefs.c:120
 msgid "Beaufort scale"
 msgstr "Beaufort scale"
 
 #. translators: kilopascals
-#: ../libmateweather/mateweather-prefs.c:62
+#: ../libmateweather/mateweather-prefs.c:133
 msgid "kPa"
 msgstr "kPa"
 
 #. translators: hectopascals
-#: ../libmateweather/mateweather-prefs.c:64
+#: ../libmateweather/mateweather-prefs.c:136
 msgid "hPa"
 msgstr "hPa"
 
 #. translators: millibars
-#: ../libmateweather/mateweather-prefs.c:66
+#: ../libmateweather/mateweather-prefs.c:139
 msgid "mb"
 msgstr "mb"
 
 #. translators: millimeters of mercury
-#: ../libmateweather/mateweather-prefs.c:68
+#: ../libmateweather/mateweather-prefs.c:142
 msgid "mmHg"
 msgstr "mmHg"
 
 #. translators: inches of mercury
-#: ../libmateweather/mateweather-prefs.c:70
+#: ../libmateweather/mateweather-prefs.c:145
 msgid "inHg"
 msgstr "inHg"
 
 #. translators: atmosphere
-#: ../libmateweather/mateweather-prefs.c:72
+#: ../libmateweather/mateweather-prefs.c:148
 msgid "atm"
 msgstr "atm"
 
 #. translators: meters
-#: ../libmateweather/mateweather-prefs.c:79
+#: ../libmateweather/mateweather-prefs.c:161
 msgid "m"
 msgstr "মি"
 
 #. translators: kilometers
-#: ../libmateweather/mateweather-prefs.c:81
+#: ../libmateweather/mateweather-prefs.c:164
 msgid "km"
 msgstr "কিলোমিটার"
 
 #. translators: miles
-#: ../libmateweather/mateweather-prefs.c:83
+#: ../libmateweather/mateweather-prefs.c:167
 msgid "mi"
 msgstr "মিলিমিটার"
-
-#. TRANSLATOR: This is the default unit to use for temperature measurements.
-#. Valid values are: "K" (Kelvin), "C" (Celsius) and "F" (Fahrenheit)
-#: ../libmateweather/mateweather-prefs.c:103
-#: ../libmateweather/mateweather-prefs.c:111
-msgid "DEFAULT_TEMP_UNIT"
-msgstr "DEFAULT_TEMP_UNIT"
-
-#. TRANSLATOR: This is the default unit to use for wind speed.
-#. Valid values are: "m/s" (meters per second), "km/h" (kilometers per hour),
-#. "mph" (miles per hour) and "knots"
-#: ../libmateweather/mateweather-prefs.c:141
-#: ../libmateweather/mateweather-prefs.c:151
-msgid "DEFAULT_SPEED_UNIT"
-msgstr "DEFAULT_SPEED_UNIT"
-
-#. TRANSLATOR: This is the default unit to use for atmospheric pressure.
-#. Valid values are: "kPa" (kiloPascals), "hPa" (hectoPascals),
-#. "mb" (millibars), "mmHg" (millimeters of mercury),
-#. "inHg" (inches of mercury) and "atm" (atmosphere)
-#: ../libmateweather/mateweather-prefs.c:183
-#: ../libmateweather/mateweather-prefs.c:194
-msgid "DEFAULT_PRESSURE_UNIT"
-msgstr "DEFAULT_PRESSURE_UNIT"
-
-#. TRANSLATOR: This is the default unit to use for visibility distance.
-#. Valid values are: "m" (meters), "km" (kilometers) and "mi" (miles)
-#: ../libmateweather/mateweather-prefs.c:224
-#: ../libmateweather/mateweather-prefs.c:233
-msgid "DEFAULT_DISTANCE_UNIT"
-msgstr "DEFAULT_DISTANCE_UNIT"
 
 #: ../libmateweather/mateweather-timezone.c:314
 msgid "Greenwich Mean Time"
 msgstr "গ্রীণউইচ মধ্যমান"
 
-#: ../libmateweather/mateweather.schemas.in.h:1
-msgid ""
-"A three-digit-long code for retrieving radar maps from weather.com, found "
-"from http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr "weather.com থেকে রেডার ম্যাপ প্রাপ্ত করার জন্য ব্যবহৃত তিন-অক্ষর-বিশিষ্ট কোড। http://cvs.gnome.org/viewcvs/*checkout*/mate-applets/mateweather/Locations.xml.in থেকে প্রাপ্ত"
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:1
+msgid "Update the data automatically"
+msgstr "স্বয়ংক্রিয়রূপে তথ্য আপডেট করা হবে"
 
-#: ../libmateweather/mateweather.schemas.in.h:2
-msgid ""
-"A unique zone for the city, as found from "
-"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr "শহরের অঞ্চল চিহ্নকারী জোন, http://cvs.gnome.org/viewcvs/*checkout*/mate-applets/mateweather/Locations.xml.in থেকে প্রাপ্ত"
-
-#: ../libmateweather/mateweather.schemas.in.h:8
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:2
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
 msgstr "অ্যাপ্লেট দ্বারা স্বয়ংক্রিয়রূপে আবহাওয়া সংক্রান্ত পরিসংখ্যান আপডেট করা হবে কিনা নির্ধারণ করতে ব্যবহৃত।"
 
-#: ../libmateweather/mateweather.schemas.in.h:9
-msgid "Display radar map"
-msgstr "রেডার ম্যাপ প্রদর্শন করা হবে"
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:3
+msgid "Update interval"
+msgstr "আপডেটের মধ্যে বিরতী"
 
-#: ../libmateweather/mateweather.schemas.in.h:10
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:4
+msgid "The interval, in seconds, between automatic updates."
+msgstr "স্বয়ংক্রিয় আপডেটের মধ্যবর্তী বিরতি, সেকেন্ডে।"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:5
+msgid "Use metric units"
+msgstr "মেট্রিক একক ব্যবহৃত হবে"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:6
+msgid "Use metric units instead of english units."
+msgstr "ইংরেজ এককের পরিবর্তে মেট্রিক একক ব্যবহৃত হবে"
+
+#. TRANSLATORS: pick a default distance unit for your locale, see key
+#. description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:9
+msgid "'miles'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
 msgstr "দূরত্ব মাপার একক"
 
-#: ../libmateweather/mateweather.schemas.in.h:11
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:11
+msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
+msgstr ""
+
+#. TRANSLATORS: pick a default pressure unit for your locale, see key
+#. description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:14
+msgid "'inHg'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:15
+msgid "Pressure unit"
+msgstr "বায়ুচাপের একক"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:16
+msgid ""
+"The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
+"'atm'."
+msgstr ""
+
+#. TRANSLATORS: pick a default speed unit for your locale, see key description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:19
+msgid "'knots'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:20
+msgid "Speed unit"
+msgstr "গতির একক"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:21
+msgid ""
+"The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
+"'Beaufort scale'."
+msgstr ""
+
+#. TRANSLATORS: pick a temperature unit that should be used by default in your
+#. locale, see key description for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:24
+msgid "'Fahrenheit'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
+msgid "Temperature unit"
+msgstr "তাপমাত্রার একক"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:26
+msgid ""
+"The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
+"'Fahrenheit'."
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:27
+msgid "Not used anymore"
+msgstr "বর্তমানে অব্যবহৃত"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:28
+msgid "Display radar map"
+msgstr "রেডার ম্যাপ প্রদর্শন করা হবে"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:29
 msgid "Fetch a radar map on each update."
 msgstr "প্রতিটি আপডেটের সময় রেডার ম্যাপ প্রাপ্ত করা হবে।"
 
-#: ../libmateweather/mateweather.schemas.in.h:12
-msgid ""
-"If true, then retrieve a radar map from a location specified by the "
-"\"radar\" key."
-msgstr "মান true (সত্য) হলে \"radar\"-কি দ্বারা চিহ্নিত অবস্থান থেকে রেডার ম্যাপ প্রাপ্ত করা হবে।"
+#. TRANSLATORS: Change this to the default location name, used
+#. when you first start the Weather Applet. This is the common
+#. localised name that corresponds to the location code
+#. (DEFAULT_CODE) you will put on the next message. For example, for
+#. the Greek locale, we set this to "Athens", the capital city and we
+#. write it in Greek. It's important to translate this name. If you
+#. do not require a DEFAULT_LOCATION, set this to
+#. "DEFAULT_LOCATION".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
+msgid "'DEFAULT_LOCATION'"
+msgstr ""
 
-#: ../libmateweather/mateweather.schemas.in.h:13
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
+msgid "Weather location information"
+msgstr "অবস্থানের আবহওয়া সংক্রান্ত তথ্য"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:40
+msgid "Weather location information."
+msgstr "অবস্থানের আবহওয়া সংক্রান্ত তথ্য।"
+
+#. TRANSLATORS: Change this to the code of your default location
+#. that corresponds to the DEFAULT_LOCATION name you put above. This
+#. is normally a four-letter (ICAO) code and can be found in
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in.
+#. NB. The web page is over 1.7MB in size. Pick a default location
+#. like a capital city so that it would be ok for more of your users.
+#. For example, for Greek, we use "LGAV" for the capital city, Athens.
+#. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
+msgid "'DEFAULT_CODE'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
+msgid "Nearby city"
+msgstr "পার্শ্ববর্তী সহর"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:51
+msgid ""
+"Nearby major zone, such as a capital city, as found from "
+"https://raw.github.com/mate-"
+"desktop/libmateweather/master/data/Locations.xml.in"
+msgstr ""
+
+#. TRANSLATORS: Change this to the zone of your default location
+#. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+#. above. Normally, US and Canada locations have zones while the rest
+#. do not. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any zone you put here must also be present in the Locations.xml
+#. file. If your default location does not have a zone, set this to
+#. "DEFAULT_ZONE".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
+msgid "'DEFAULT_ZONE'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
+msgid "Zone location"
+msgstr "অঞ্চলের অবস্থান"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:62
+msgid ""
+"A unique zone for the city, as found from https://raw.github.com/mate-"
+"desktop/libmateweather/master/data/Locations.xml.in"
+msgstr ""
+
+#. TRANSLATORS: Change this to the radar of your default location
+#. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+#. above. Normally, US and Canada locations have radar names while the
+#. rest do not. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any radar you put here must also be present in the Locations.xml
+#. file. If your default location does not have a radar, set this to
+#. " " (or space).
+#. If you do not have a default location, set this to DEFAULT_RADAR.
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
+msgid "'DEFAULT_RADAR'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
+msgid "Radar location"
+msgstr "রেডারের অবস্থান"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:74
+msgid ""
+"A three-digit-long code for retrieving radar maps from weather.com, found "
+"from https://raw.github.com/mate-"
+"desktop/libmateweather/master/data/Locations.xml.in"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:75
+msgid "Weather for a city"
+msgstr "শহরের আবহাওয়া"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:76
+msgid "The city that mateweather displays information for."
+msgstr "mateweather দ্বারা যে শহরের তথ্যে প্রদর্শিত হয়।"
+
+#. TRANSLATORS: Change this to the coordinates of your default
+#. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
+#. you put above. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any coordinates you put here must also be present in the
+#. Locations.xml file. If your default location does not have known
+#. coordinates, set this to " " (or space). If you do not have a
+#. default location, set this to DEFAULT_COORDINATES.
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
+msgid "'DEFAULT_COORDINATES'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
+msgid "Location coordinates"
+msgstr "অবস্থানের স্থানাঙ্ক"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:87
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
 msgstr "DD-MM-SS[NS] DD-MM-SS[EW]'এ উল্লিখিত আপনার অবস্থানের অক্ষাংশ ও দ্রাঘিমা।"
 
-#: ../libmateweather/mateweather.schemas.in.h:14
-msgid "Location coordinates"
-msgstr "অবস্থানের স্থানাঙ্ক"
-
-#: ../libmateweather/mateweather.schemas.in.h:15
-msgid "Nearby city"
-msgstr "পার্শ্ববর্তী সহর"
-
-#: ../libmateweather/mateweather.schemas.in.h:16
-msgid ""
-"Nearby major zone, such as a capital city, as found from "
-"http://git.gnome.org/cgit/libmateweather/plain/data/Locations.xml.in"
-msgstr ""
-
-#: ../libmateweather/mateweather.schemas.in.h:17
-msgid "Not used anymore"
-msgstr "বর্তমানে অব্যবহৃত"
-
-#: ../libmateweather/mateweather.schemas.in.h:18
-msgid "Pressure unit"
-msgstr "বায়ুচাপের একক"
-
-#: ../libmateweather/mateweather.schemas.in.h:19
-msgid "Radar location"
-msgstr "রেডারের অবস্থান"
-
-#: ../libmateweather/mateweather.schemas.in.h:20
-msgid "Speed unit"
-msgstr "গতির একক"
-
-#: ../libmateweather/mateweather.schemas.in.h:21
-msgid "Temperature unit"
-msgstr "তাপমাত্রার একক"
-
-#: ../libmateweather/mateweather.schemas.in.h:22
-msgid "The city that mateweather displays information for."
-msgstr "mateweather দ্বারা যে শহরের তথ্যে প্রদর্শিত হয়।"
-
-#: ../libmateweather/mateweather.schemas.in.h:23
-msgid "The custom url from where to retrieve a radar map."
-msgstr "রেডার ম্যাপ প্রাপ্তির উদ্দেশ্যে ব্যবহৃত স্বনির্বাচিত url।"
-
-#: ../libmateweather/mateweather.schemas.in.h:24
-msgid "The interval, in seconds, between automatic updates."
-msgstr "স্বয়ংক্রিয় আপডেটের মধ্যবর্তী বিরতি, সেকেন্ডে।"
-
-#: ../libmateweather/mateweather.schemas.in.h:25
-msgid "The unit to use for pressure."
-msgstr "চাপ মাপার একক।"
-
-#: ../libmateweather/mateweather.schemas.in.h:26
-msgid "The unit to use for temperature."
-msgstr "তাপমাত্রা মাপার একক।"
-
-#: ../libmateweather/mateweather.schemas.in.h:27
-msgid "The unit to use for visibility."
-msgstr "দৃষ্টিসীমা মাপার জন্য ব্যবহৃত একক।"
-
-#: ../libmateweather/mateweather.schemas.in.h:28
-msgid "The unit to use for wind speed."
-msgstr "বায়ুর গতি মাপার একক।"
-
-#: ../libmateweather/mateweather.schemas.in.h:29
-msgid "Update interval"
-msgstr "আপডেটের মধ্যে বিরতী"
-
-#: ../libmateweather/mateweather.schemas.in.h:30
-msgid "Update the data automatically"
-msgstr "স্বয়ংক্রিয়রূপে তথ্য আপডেট করা হবে"
-
-#: ../libmateweather/mateweather.schemas.in.h:31
-msgid "Url for the radar map"
-msgstr "রেডার ম্যাপের Url"
-
-#: ../libmateweather/mateweather.schemas.in.h:32
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:88
 msgid "Use custom url for the radar map"
 msgstr "রেডার ম্যাপের জন্য স্বনির্বাচিত url ব্যবহৃত হবে"
 
-#: ../libmateweather/mateweather.schemas.in.h:33
-msgid "Use metric units"
-msgstr "মেট্রিক একক ব্যবহৃত হবে"
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:89
+msgid ""
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
+msgstr "মান true (সত্য) হলে \"radar\"-কি দ্বারা চিহ্নিত অবস্থান থেকে রেডার ম্যাপ প্রাপ্ত করা হবে।"
 
-#: ../libmateweather/mateweather.schemas.in.h:34
-msgid "Use metric units instead of english units."
-msgstr "ইংরেজ এককের পরিবর্তে মেট্রিক একক ব্যবহৃত হবে"
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:90
+msgid "Url for the radar map"
+msgstr "রেডার ম্যাপের Url"
 
-#: ../libmateweather/mateweather.schemas.in.h:35
-msgid "Weather for a city"
-msgstr "শহরের আবহাওয়া"
-
-#: ../libmateweather/mateweather.schemas.in.h:36
-msgid "Weather location information"
-msgstr "অবস্থানের আবহওয়া সংক্রান্ত তথ্য"
-
-#: ../libmateweather/mateweather.schemas.in.h:37
-msgid "Weather location information."
-msgstr "অবস্থানের আবহওয়া সংক্রান্ত তথ্য।"
-
-#: ../libmateweather/mateweather.schemas.in.h:38
-msgid "Zone location"
-msgstr "অঞ্চলের অবস্থান"
+#: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:91
+msgid "The custom url from where to retrieve a radar map."
+msgstr "রেডার ম্যাপ প্রাপ্তির উদ্দেশ্যে ব্যবহৃত স্বনির্বাচিত url।"
 
 #: ../libmateweather/timezone-menu.c:277
 msgctxt "timezone"
@@ -463,11 +452,6 @@ msgstr "উত্তরপশ্চিম"
 #: ../libmateweather/weather.c:236
 msgid "North - Northwest"
 msgstr "উত্তর - উত্তরপশ্চিম"
-
-#: ../libmateweather/weather.c:243 ../libmateweather/weather.c:260
-#: ../libmateweather/weather.c:332
-msgid "Invalid"
-msgstr "অবৈধ"
 
 #: ../libmateweather/weather.c:249
 msgid "Clear Sky"
