@@ -117,6 +117,7 @@ test_sun_moon_CFLAGS = \
 test_sun_moon_LDADD = \
 	$(GTK_LIBS)	\
 	$(LIBSOUP_LIBS)	\
+	-lm	\
 	libmateweather.la
 
 noinst_HEADERS = weather-priv.h mateweather-win32.h
