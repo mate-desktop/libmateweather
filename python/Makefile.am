@@ -1,5 +1,5 @@
 if BUILD_PYTHON
-INCLUDES =			\
+AM_CPPFLAGS =			\
 	-I$(top_srcdir)		\
 	$(PYTHON_INCLUDES)	\
 	$(PYGOBJECT_CFLAGS)	\
