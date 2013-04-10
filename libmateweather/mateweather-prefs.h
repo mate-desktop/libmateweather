@@ -38,6 +38,7 @@ typedef struct _MateWeatherPrefs MateWeatherPrefs;
 
 struct _MateWeatherPrefs {
     WeatherLocation *location;
+    gboolean show_notifications;
     gint update_interval;  /* in seconds */
     gboolean update_enabled;
     gboolean detailed;
