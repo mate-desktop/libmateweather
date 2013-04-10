@@ -33,6 +33,11 @@
     <value nick="miles" value="4"/>
   </enum>
   <schema id="org.mate.weather">
+    <key name="show-notifications" type="b">
+      <default>false</default>
+      <_summary>Show notifications</_summary>
+      <_description>Determines whether the applet shows a notification on each update.</_description>
+    </key>
     <key name="auto-update" type="b">
       <default>true</default>
       <_summary>Update the data automatically</_summary>
