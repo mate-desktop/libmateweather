@@ -52,6 +52,8 @@ mateweather_prefs_load (MateWeatherPrefs *prefs, GSettings *settings)
     g_free (radar);
     g_free (coordinates);
 
+    prefs->show_notifications =
+    	g_settings_get_boolean (settings, "show-notifications");
     prefs->update_interval =
     	g_settings_get_int (settings, "auto-update-interval");
     prefs->update_interval = MAX (prefs->update_interval, 60);
