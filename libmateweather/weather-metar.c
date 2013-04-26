@@ -550,7 +550,7 @@ metar_start_open (WeatherInfo *info)
     }
 
     msg = soup_form_request_new (
-	"GET", "http://weather.noaa.gov/cgi-bin/mgetmetar.pl",
+	"GET", "http://weather.noaa.gov/mgetmetar.php",
 	"cccc", loc->code,
 	NULL);
     soup_session_queue_message (info->session, msg, metar_finish, info);
