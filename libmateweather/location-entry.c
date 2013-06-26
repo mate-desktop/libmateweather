@@ -466,6 +466,7 @@ mateweather_location_entry_build_model (MateWeatherLocationEntry *entry,
 {
     GtkTreeStore *store = NULL;
 
+    g_return_if_fail (MATEWEATHER_IS_LOCATION_ENTRY (entry));
     entry->top = mateweather_location_ref (top);
 
     store = gtk_tree_store_new (4, G_TYPE_STRING, G_TYPE_POINTER, G_TYPE_STRING, G_TYPE_STRING);
