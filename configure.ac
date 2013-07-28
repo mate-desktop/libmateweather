@@ -30,7 +30,25 @@ esac
 AC_MSG_RESULT([$mateweather_native_win32])
 AM_CONDITIONAL(OS_WIN32, [test "$mateweather_native_win32" = "yes"])
 
-GTK_REQUIRED=2.11.0
+AC_MSG_CHECKING([which gtk+ version to compile against])
+AC_ARG_WITH([gtk],
+  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
+  [case "$with_gtk" in
+     2.0|3.0) ;;
+     *) AC_MSG_ERROR([invalid gtk version specified]) ;;
+   esac],
+  [with_gtk=2.0])
+AC_MSG_RESULT([$with_gtk])
+
+case "$with_gtk" in
+  2.0) GTK_API_VERSION=2.0
+       GTK_REQUIRED=2.11.0
+       ;;
+  3.0) GTK_API_VERSION=3.0
+       GTK_REQUIRED=3.0.0
+       ;;
+esac
+
 GLIB_REQUIRED=2.13.0
 LIBSOUP_REQUIRED=2.4.0
 LIBSOUP_GNOME_REQUIRED=1.1.0
@@ -114,8 +132,8 @@ if test "x$enable_maintainer_mode" = "xyes"; then
 	CFLAGS="$CFLAGS $DISABLE_DEPRECATED"
 fi
 
-dnl -- Check for GTK+ 2.0 (required) ------------------------------------------
-PKG_CHECK_MODULES(GTK, gtk+-2.0 >= $GTK_REQUIRED)
+dnl -- Check for GTK+ (required) ------------------------------------------
+PKG_CHECK_MODULES(GTK, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED)
 GTK_CFLAGS="$GTK_CFLAGS -DGTK_DISABLE_SINGLE_INCLUDES"
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)
@@ -279,4 +297,5 @@ libmateweather-$VERSION configure summary:
 	Python bindings:		${enable_python}
 	Locations.xml translations:	${LOCATIONS_XML_TRANSLATIONS}
 	Locations.xml compression:	${enable_locations_compression}
+	Gtk+ version:			${GTK_API_VERSION}
 " >&2
