@@ -215,7 +215,7 @@ dnl ***************************************************************************
 AC_ARG_ENABLE(python,
         [AC_HELP_STRING([--enable-python],
                         [Build libmateweather python bindings])],
-        [enable_python=yes],
+        [enable_python=$enableval],
         [enable_python=no])
 if test "$enable_python" = "yes"; then
    AM_PATH_PYTHON()
