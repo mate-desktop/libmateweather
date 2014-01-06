@@ -1,6 +1,6 @@
 SUBDIRS = po po-locations libmateweather doc data python icons
 
-ACLOCAL_AMFLAGS = -I m4
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
 
