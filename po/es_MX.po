@@ -375,7 +375,7 @@ msgstr "Desconocido"
 #: ../libmateweather/weather-metar.c:504
 #, c-format
 msgid "Failed to get METAR data: %d %s.\n"
-msgstr "Falló al obtener datos METAR: %d %s.\\n"
+msgstr "Falló al obtener datos METAR: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
