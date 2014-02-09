@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Michael Steenbeek <m.o.steenbeek@gmail.com>, 2012-2013.
-# Tino Meinen <a.t.meinen@chello.nl>, 2003, 2004, 2006, 2007.
-# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003.
+# Michael Steenbeek <m.o.steenbeek@gmail.com>, 2012-2013
+# Tino Meinen <a.t.meinen@chello.nl>, 2003-2004,2006-2007
+# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-09 16:47+0000\n"
+"PO-Revision-Date: 2013-04-05 20:57+0000\n"
 "Last-Translator: Michael Steenbeek <m.o.steenbeek@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/MATE/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +73,7 @@ msgstr "knopen"
 #. translators: wind speed
 #: ../libmateweather/mateweather-prefs.c:120
 msgid "Beaufort scale"
-msgstr "Beaufort schaal"
+msgstr "Beaufort"
 
 #. translators: kilopascals
 #: ../libmateweather/mateweather-prefs.c:133
@@ -159,7 +159,7 @@ msgstr "'meters'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
-msgstr "Afstands eenheid"
+msgstr "Afstandseenheid"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:11
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
@@ -174,7 +174,7 @@ msgstr "'hPa'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:15
 msgid "Pressure unit"
-msgstr "Luchtdruk eenheid"
+msgstr "Luchtdrukeenheid"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:16
 msgid ""
@@ -190,7 +190,7 @@ msgstr "'Beaufort scale'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:20
 msgid "Speed unit"
-msgstr "Snelheids eenheid"
+msgstr "Snelheidseenheid"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:21
 msgid ""
@@ -206,7 +206,7 @@ msgstr "'Centigrade'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
-msgstr "Temperatuur eenheid"
+msgstr "Temperatuureenheid"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:26
 msgid ""
@@ -285,7 +285,7 @@ msgstr "'DEFAULT_ZONE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
-msgstr "Zone locatie"
+msgstr "Zonelocatie"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:62
 msgid ""
@@ -341,7 +341,7 @@ msgstr "'51-26-00N 4-55-00E'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
-msgstr "Locatie coördinaten"
+msgstr "Locatiecoördinaten"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:87
 msgid ""
@@ -357,7 +357,7 @@ msgstr "Aangepaste URL gebruiken voor de radarkaart"
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr "Indien ingeschakeld, een radarkaart ophalen van de locatie gespecificeerd in d sleutel \"radar\"."
+msgstr "Indien ingeschakeld, een radarkaart ophalen van de locatie gespecificeerd in de sleutel \"radar\"."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:90
 msgid "Url for the radar map"
@@ -763,7 +763,6 @@ msgstr "Stofstorm dichtbij"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%A, %d %b om %H:%M uur"
@@ -854,11 +853,10 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
-msgstr "Beaufort kracht %.1f"
+msgstr "Beaufortkracht %.1f"
 
 #: ../libmateweather/weather.c:935
 msgid "Calm"

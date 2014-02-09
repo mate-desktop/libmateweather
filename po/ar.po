@@ -3,20 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-# Arafat Medini <lumina@silverpen.de>, 2003.
-# Ayman Hourieh <aymanh@gmail.com>, 2004.
-# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009.
-#   <noureddin@barid.com>, 2012.
-# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004
+# Arafat Medini <lumina@silverpen.de>, 2003
+# Ayman Hourieh <aymanh@gmail.com>, 2004
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002
+# Khaled Hosny <khaledhosny@eglug.org>, 2006-2009
+# moceap <moceap@hotmail.com>, 2013
+# noureddin <noureddin@barid.com>, 2012
+# noureddin <noureddin@barid.com>, 2012
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-08 13:19+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-10-05 14:58+0000\n"
+"Last-Translator: mauron\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,17 +36,17 @@ msgstr "المبدئي"
 #. translators: Kelvin
 #: ../libmateweather/mateweather-prefs.c:89
 msgid "K"
-msgstr "ك"
+msgstr "كلفن"
 
 #. translators: Celsius
 #: ../libmateweather/mateweather-prefs.c:92
 msgid "C"
-msgstr "م"
+msgstr "مئوية"
 
 #. translators: Fahrenheit
 #: ../libmateweather/mateweather-prefs.c:95
 msgid "F"
-msgstr "ف"
+msgstr "فهرنهايت"
 
 #: ../libmateweather/mateweather-prefs.c:97
 #: ../libmateweather/mateweather-prefs.c:122
@@ -57,22 +59,22 @@ msgstr "غير صحيح"
 #. translators: meters per second
 #: ../libmateweather/mateweather-prefs.c:108
 msgid "m/s"
-msgstr "م/ث"
+msgstr "م/ثا"
 
 #. translators: kilometers per hour
 #: ../libmateweather/mateweather-prefs.c:111
 msgid "km/h"
-msgstr "كم/ث"
+msgstr "كم/سا"
 
 #. translators: miles per hour
 #: ../libmateweather/mateweather-prefs.c:114
 msgid "mph"
-msgstr "ميل/س"
+msgstr "ميل/سا"
 
 #. translators: knots (speed unit)
 #: ../libmateweather/mateweather-prefs.c:117
 msgid "knots"
-msgstr "عقدة"
+msgstr "عُقد"
 
 #. translators: wind speed
 #: ../libmateweather/mateweather-prefs.c:120
@@ -97,7 +99,7 @@ msgstr "ميلي بار"
 #. translators: millimeters of mercury
 #: ../libmateweather/mateweather-prefs.c:142
 msgid "mmHg"
-msgstr "مم زئبق"
+msgstr "مم زئبقي"
 
 #. translators: inches of mercury
 #: ../libmateweather/mateweather-prefs.c:145
@@ -107,7 +109,7 @@ msgstr "بوصة زئبق"
 #. translators: atmosphere
 #: ../libmateweather/mateweather-prefs.c:148
 msgid "atm"
-msgstr "ض.ج."
+msgstr "جو"
 
 #. translators: meters
 #: ../libmateweather/mateweather-prefs.c:161
@@ -130,7 +132,7 @@ msgstr "وقت جرينتش"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:1
 msgid "Update the data automatically"
-msgstr "حدّث البيانات آليا"
+msgstr "حدّث البيانات آليًا"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:2
 msgid ""
@@ -159,7 +161,7 @@ msgstr "ا_ستخدم وحدات النظام المتري بدل النظام �
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:9
 msgid "'miles'"
-msgstr ""
+msgstr "'أميال'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
@@ -167,14 +169,14 @@ msgstr "وحدة المسافة"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:11
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr ""
+msgstr "الوحدة المستخدمة لقياس البروزات. القيم: 'أمتار' ، 'كيلومترات' ، 'أميال'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:14
 msgid "'inHg'"
-msgstr ""
+msgstr "بوصة زئبق"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:15
 msgid "Pressure unit"
@@ -184,13 +186,13 @@ msgstr "وحدة الضغط"
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
 "'atm'."
-msgstr ""
+msgstr "الوحدة المستخدمة لقياس الضغوط. القيم: 'ك.باسكال' ، 'ه.باسكال' ، 'م.بار' ، 'مم.زئبقي' ، 'إنش زئبقي' ، 'جو'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:19
 msgid "'knots'"
-msgstr ""
+msgstr "'عقد'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:20
 msgid "Speed unit"
@@ -200,13 +202,13 @@ msgstr "وحدة السرعة"
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr ""
+msgstr "الوحدة المستخدمة لقياس سرعة الرّياح. القيم: 'م/ثا' ، 'كم/سا' ، 'ميل/سا' ، 'عُقد' ، 'مقياس بيوفور'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:24
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'فهرنهايت'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
@@ -216,11 +218,11 @@ msgstr "وحدة الحرارة"
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr ""
+msgstr "الوحدة المستخدمة لقياس الحرارة. القيم: 'كلفن' ، 'مئوية' ، 'فهرنهايت'."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:27
 msgid "Not used anymore"
-msgstr "لم يعد مستخدما"
+msgstr "لم يعد مستخدمًا"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:28
 msgid "Display radar map"
@@ -240,7 +242,7 @@ msgstr "احصل على خريطة رادار مع كل تحديث."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "DEFAULT_LOCATION"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -261,7 +263,7 @@ msgstr "معلومات موقع الطقس."
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "DEFAULT_CODE"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
@@ -272,7 +274,7 @@ msgid ""
 "Nearby major zone, such as a capital city, as found from "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "منطقة قريبة كبيرة ، كالعاصمة مثلًا ، كما هي موجود في\nhttps://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #. TRANSLATORS: Change this to the zone of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -285,7 +287,7 @@ msgstr ""
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "DEFAULT_ZONE"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
@@ -295,7 +297,7 @@ msgstr "موقع المنطقة"
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "منطقة فريدة للمدينة، كما هي موجودة في \nhttps://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #. TRANSLATORS: Change this to the radar of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -309,7 +311,7 @@ msgstr ""
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr "DEFAULT_RADAR"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
 msgid "Radar location"
@@ -320,7 +322,7 @@ msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "رمز من ثلاثة أحرف لجلب خرائط رادار من weather.com، موجودة في https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:75
 msgid "Weather for a city"
@@ -341,7 +343,7 @@ msgstr "المدينة التي يعرض بريمج الطقس معلومات ع
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "DEFAULT_COORDINATES"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
@@ -767,7 +769,6 @@ msgstr "دوامات غبار بالجوار"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%A، %Od %B / %OI:%OM"
@@ -858,7 +859,6 @@ msgstr "%I.1f م/ث"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

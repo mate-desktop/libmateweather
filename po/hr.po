@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#  <imilatic@gmail.com>, 2013.
+# blacx <imilatic@gmail.com>, 2013
+# Ivica  Kolić <ikoli@yahoo.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-08 13:20+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-12-08 16:22+0000\n"
+"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:158
 msgid "Default"
-msgstr ""
+msgstr "Uobičajeno"
 
 #. translators: Kelvin
 #: ../libmateweather/mateweather-prefs.c:89
@@ -33,12 +34,12 @@ msgstr "K"
 #. translators: Celsius
 #: ../libmateweather/mateweather-prefs.c:92
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. translators: Fahrenheit
 #: ../libmateweather/mateweather-prefs.c:95
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: ../libmateweather/mateweather-prefs.c:97
 #: ../libmateweather/mateweather-prefs.c:122
@@ -61,7 +62,7 @@ msgstr "km/h"
 #. translators: miles per hour
 #: ../libmateweather/mateweather-prefs.c:114
 msgid "mph"
-msgstr ""
+msgstr "mph"
 
 #. translators: knots (speed unit)
 #: ../libmateweather/mateweather-prefs.c:117
@@ -76,7 +77,7 @@ msgstr "Boforova ljestvica"
 #. translators: kilopascals
 #: ../libmateweather/mateweather-prefs.c:133
 msgid "kPa"
-msgstr ""
+msgstr "kPa"
 
 #. translators: hectopascals
 #: ../libmateweather/mateweather-prefs.c:136
@@ -153,7 +154,7 @@ msgstr "Koristi metrički sustav jedinica umjesto engleskog sistema."
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:9
 msgid "'miles'"
-msgstr ""
+msgstr "'miles'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
@@ -161,7 +162,7 @@ msgstr "Jedinica za udaljenost"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:11
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr ""
+msgstr "Jedinica za mjerenje vidljivosti. Vrijednosti 'meteri', 'km' ,'milje'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
@@ -178,13 +179,13 @@ msgstr "Jedinica za tlak"
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
 "'atm'."
-msgstr ""
+msgstr "Jedinicakoja se koristi za tlak. Vrijednosti: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:19
 msgid "'knots'"
-msgstr ""
+msgstr "'čvorovi'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:20
 msgid "Speed unit"
@@ -194,13 +195,13 @@ msgstr "Jedinica za brzinu"
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr ""
+msgstr "Jedinica koja se koristi za brzinu vjetra. Vrijednosti: 'm/s', 'km/h, 'mph', 'čvorovi', 'Beaufort-ova skala'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:24
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'Fahrenheit'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
@@ -234,7 +235,7 @@ msgstr "Preuzmi radarsku mapu pri svakom ažuriranju."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "'UOBIČAJENA_LOKACIJA'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -259,7 +260,7 @@ msgstr ""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
-msgstr ""
+msgstr "Obližnji grad"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:51
 msgid ""
@@ -303,7 +304,7 @@ msgstr ""
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr "'UOBIČAJENI_RADAR'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
 msgid "Radar location"
@@ -335,7 +336,7 @@ msgstr "Grad o kojem mateweather prikazuje informacije."
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "'UOBIČAJENE_KOORDINATE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
@@ -368,7 +369,7 @@ msgstr "Adresa odakle se dohvaća radarska mapa."
 #: ../libmateweather/timezone-menu.c:277
 msgctxt "timezone"
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #. Translators: %d is an error code, and %s the error string
 #: ../libmateweather/weather-metar.c:504
@@ -761,7 +762,6 @@ msgstr "Kovitlaci prašine u blizini"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
@@ -785,74 +785,73 @@ msgstr "Nepoznato"
 #: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
-msgstr ""
+msgstr "%.1f °F"
 
 #. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
-msgstr ""
+msgstr "%d °F"
 
 #. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
 #: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
-msgstr ""
+msgstr "%.1f °C"
 
 #. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
 #: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
-msgstr ""
+msgstr "%d °C"
 
 #. TRANSLATOR: This is the temperature in kelvin
 #: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
-msgstr ""
+msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
 #: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
-msgstr ""
+msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
 #: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
-msgstr ""
+msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
 #: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
-msgstr ""
+msgstr "%0.1f čvorova"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
 #: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
-msgstr ""
+msgstr "%.1f mph"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
 #: ../libmateweather/weather.c:900
 #, c-format
 msgid "%.1f km/h"
-msgstr ""
+msgstr "%.1f km/h"
 
 #. TRANSLATOR: This is the wind speed in meters per second
 #: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
-msgstr ""
+msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
@@ -866,7 +865,7 @@ msgstr "Mirno"
 #: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
 #: ../libmateweather/weather.c:961
@@ -878,49 +877,49 @@ msgstr ""
 #: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
-msgstr ""
+msgstr "%.1f mmHg"
 
 #. TRANSLATOR: This is pressure in kiloPascals
 #: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
-msgstr ""
+msgstr "%.2f kPa"
 
 #. TRANSLATOR: This is pressure in hectoPascals
 #: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
-msgstr ""
+msgstr "%.2f hPa"
 
 #. TRANSLATOR: This is pressure in millibars
 #: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
-msgstr ""
+msgstr "%.2f mb"
 
 #. TRANSLATOR: This is pressure in atmospheres
 #: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
-msgstr ""
+msgstr "%.3f atm"
 
 #. TRANSLATOR: This is the visibility in miles
 #: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
-msgstr ""
+msgstr "%.1f milja"
 
 #. TRANSLATOR: This is the visibility in kilometers
 #: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
-msgstr ""
+msgstr "%.1f km"
 
 #. TRANSLATOR: This is the visibility in meters
 #: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
-msgstr ""
+msgstr "%.0fm"
 
 #: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"

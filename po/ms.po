@@ -3,16 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2003.
-#   <mohd.nawawi@gmail.com>, 2012.
-#   <terjemah.puretech@gmail.com>, 2012.
+# abuyop <abuyop@gmail.com>, 2013
+# Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2003
+# nawawi <mohd.nawawi@gmail.com>, 2012
+# Puretech <terjemah.puretech@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-08 13:20+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-08-13 02:51+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/MATE/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgstr ""
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:158
 msgid "Default"
-msgstr "Default"
+msgstr "Lalai"
 
 #. translators: Kelvin
 #: ../libmateweather/mateweather-prefs.c:89
@@ -48,7 +49,7 @@ msgstr "F"
 #: ../libmateweather/mateweather-prefs.c:169 ../libmateweather/weather.c:243
 #: ../libmateweather/weather.c:260 ../libmateweather/weather.c:332
 msgid "Invalid"
-msgstr "Tak sah"
+msgstr "Tidak sah"
 
 #. translators: meters per second
 #: ../libmateweather/mateweather-prefs.c:108
@@ -73,7 +74,7 @@ msgstr "knot"
 #. translators: wind speed
 #: ../libmateweather/mateweather-prefs.c:120
 msgid "Beaufort scale"
-msgstr "Skala "
+msgstr "Skala  Beaufort"
 
 #. translators: kilopascals
 #: ../libmateweather/mateweather-prefs.c:133
@@ -122,7 +123,7 @@ msgstr "mi"
 
 #: ../libmateweather/mateweather-timezone.c:314
 msgid "Greenwich Mean Time"
-msgstr "Greenwich Mean Time"
+msgstr "Waktu Min Greenwich"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:1
 msgid "Update the data automatically"
@@ -132,30 +133,30 @@ msgstr "Kemaskini data secara automatik"
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr "Menentukan samada aplet mengemaskini automatini statistik cuacanya atau tidak."
+msgstr "Tentukan sama ada aplet mengemaskini secara automatik statistik cuacanya atau tidak."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:3
 msgid "Update interval"
-msgstr "Selang masa kemaskini"
+msgstr "Sela kemaskini"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:4
 msgid "The interval, in seconds, between automatic updates."
-msgstr "Sela sama, dalam saat, antara pengemaskinian automatik."
+msgstr "Sela, dalam saat, antara kemaskini automatik."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:5
 msgid "Use metric units"
-msgstr "Guna sistem unit metrik"
+msgstr "Guna unit metrik"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:6
 msgid "Use metric units instead of english units."
-msgstr "Guna sistem unit metrik sebalik unit inggeris."
+msgstr "Guna unit metrik selain unit inggeris."
 
 #. TRANSLATORS: pick a default distance unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:9
 msgid "'miles'"
-msgstr ""
+msgstr "'batu'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
@@ -163,14 +164,14 @@ msgstr "Unit jarak"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:11
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr ""
+msgstr "Unit yang digunakan untuk ketampakan. Nilai: 'meter', 'km', 'batu'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:14
 msgid "'inHg'"
-msgstr ""
+msgstr "'inHg'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:15
 msgid "Pressure unit"
@@ -180,13 +181,13 @@ msgstr "Unit tekanan"
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
 "'atm'."
-msgstr ""
+msgstr "Unit yang digunakan untuk tekanan. Nilai: "
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:19
 msgid "'knots'"
-msgstr ""
+msgstr "'knot'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:20
 msgid "Speed unit"
@@ -196,13 +197,13 @@ msgstr "Unit kelajuan"
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr ""
+msgstr "Unit yang digunakan untuk kelajuan angin. Nilai:  'm/s', 'km/h, 'mph', 'knot', 'skala Beaufort'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:24
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'Fahrenhait'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
@@ -212,11 +213,11 @@ msgstr "Unit suhu"
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr ""
+msgstr "Unit yang digunakan untuk suhu. Nilai: 'Kelvin', 'Selsius', 'Fahrenhait'."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:27
 msgid "Not used anymore"
-msgstr "Tak digunakan lagi"
+msgstr "Tidak digunakan lagi"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:28
 msgid "Display radar map"
@@ -224,7 +225,7 @@ msgstr "Papar peta radar"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:29
 msgid "Fetch a radar map on each update."
-msgstr "Ambil peta radar pada setiap kemaskini."
+msgstr "Dapatkan peta radar pada setiap kemaskini."
 
 #. TRANSLATORS: Change this to the default location name, used
 #. when you first start the Weather Applet. This is the common
@@ -236,15 +237,15 @@ msgstr "Ambil peta radar pada setiap kemaskini."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "Kuala Lumpur"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
-msgstr "Informasi lokasi cuaca"
+msgstr "Maklumat lokasi cuaca"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:40
 msgid "Weather location information."
-msgstr "Informasi lokasi cuaca."
+msgstr "Maklumat lokasi cuaca."
 
 #. TRANSLATORS: Change this to the code of your default location
 #. that corresponds to the DEFAULT_LOCATION name you put above. This
@@ -257,18 +258,18 @@ msgstr "Informasi lokasi cuaca."
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "WMKK"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
-msgstr "Bandar berdekatan"
+msgstr "Bandar berhampiran"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:51
 msgid ""
 "Nearby major zone, such as a capital city, as found from "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Zon utama berdekatan, seperti ibu kota, seperti yang ditemui dari https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #. TRANSLATORS: Change this to the zone of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -281,17 +282,17 @@ msgstr ""
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "----"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
-msgstr "Lokasi zone"
+msgstr "Lokasi zon"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:62
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Zon unik untuk bandar, seperti yang dijumpai dari https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #. TRANSLATORS: Change this to the radar of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -305,7 +306,7 @@ msgstr ""
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr "----"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
 msgid "Radar location"
@@ -316,7 +317,7 @@ msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Kod tiga digit untuk mendapatkan peta radar dari weather.com, dijumpai di https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:75
 msgid "Weather for a city"
@@ -324,7 +325,7 @@ msgstr "Cuaca untuk bandar"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:76
 msgid "The city that mateweather displays information for."
-msgstr "Bandar yang mateweather paparkan informasinya."
+msgstr "Bandar yang mateweather paparkan maklumatnya."
 
 #. TRANSLATORS: Change this to the coordinates of your default
 #. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
@@ -337,7 +338,7 @@ msgstr "Bandar yang mateweather paparkan informasinya."
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "2-44N 101-42E"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
@@ -351,13 +352,13 @@ msgstr "Latitud dan longtitud lokasi anda dinyatakan dalam DD-MM-SS[NS] DD-MM-SS
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:88
 msgid "Use custom url for the radar map"
-msgstr "Guna url tersendiri bagi peta radar"
+msgstr "Guna url suai bagi peta radar"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:89
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr "Jika benar, akan mendapatkan peta radar dari lokasi yang dinyatakan dengan kekunci \"radar\"."
+msgstr "Jika benar, maka dapatkan peta radar dari lokasi yang dinyatakan dengan kunci \"radar\"."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:90
 msgid "Url for the radar map"
@@ -365,7 +366,7 @@ msgstr "Url bagi peta radar"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:91
 msgid "The custom url from where to retrieve a radar map."
-msgstr "Guna url tersendiri bagi peta radar."
+msgstr "Url suai yang mana untuk dapatkan peta radar."
 
 #: ../libmateweather/timezone-menu.c:277
 msgctxt "timezone"
@@ -376,7 +377,7 @@ msgstr "Tidak diketahui"
 #: ../libmateweather/weather-metar.c:504
 #, c-format
 msgid "Failed to get METAR data: %d %s.\n"
-msgstr "Gagal mendapatkan data METAR:%d %s.\n"
+msgstr "Gagal mendapatkan data METAR: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
@@ -384,7 +385,7 @@ msgstr "WeatherInfo kehilangan lokasi"
 
 #: ../libmateweather/weather.c:232
 msgid "Variable"
-msgstr "Berubah-ubah"
+msgstr "Pembolehubah"
 
 #: ../libmateweather/weather.c:233
 msgid "North"
@@ -396,7 +397,7 @@ msgstr "Utara - Timur Laut"
 
 #: ../libmateweather/weather.c:233
 msgid "Northeast"
-msgstr "Timur laut"
+msgstr "Timur Laut"
 
 #: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
@@ -428,7 +429,7 @@ msgstr "Selatan - Barat Daya"
 
 #: ../libmateweather/weather.c:235
 msgid "Southwest"
-msgstr "Barat daya"
+msgstr "Barat Daya"
 
 #: ../libmateweather/weather.c:235
 msgid "West - Southwest"
@@ -444,7 +445,7 @@ msgstr "Barat - Barat Laut"
 
 #: ../libmateweather/weather.c:236
 msgid "Northwest"
-msgstr "Barat laut"
+msgstr "Barat Laut"
 
 #: ../libmateweather/weather.c:236
 msgid "North - Northwest"
@@ -452,7 +453,7 @@ msgstr "Utara - Barat Laut"
 
 #: ../libmateweather/weather.c:249
 msgid "Clear Sky"
-msgstr "Langit Cerah"
+msgstr "Langit cerah"
 
 #: ../libmateweather/weather.c:250
 msgid "Broken clouds"
@@ -476,12 +477,12 @@ msgstr "Mendung"
 #. NONE
 #: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
-msgstr "Ribut Petir"
+msgstr "Ribut petir"
 
 #. DRIZZLE
 #: ../libmateweather/weather.c:293
 msgid "Drizzle"
-msgstr "Hujan renyai-renyai"
+msgstr "Hujan renyai"
 
 #: ../libmateweather/weather.c:293
 msgid "Light drizzle"
@@ -489,7 +490,7 @@ msgstr "Hujan rintik"
 
 #: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
-msgstr "Hujan renyai-renyai sederhana"
+msgstr "Hujan renyai sederhana"
 
 #: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
@@ -497,7 +498,7 @@ msgstr "Hujan lebat"
 
 #: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
-msgstr "Renyai-renyai beku"
+msgstr "Renyai sejuk beku"
 
 #. RAIN
 #: ../libmateweather/weather.c:294
@@ -510,7 +511,7 @@ msgstr "Hujan"
 
 #: ../libmateweather/weather.c:294
 msgid "Moderate rain"
-msgstr ""
+msgstr "Hujan sederhana"
 
 #: ../libmateweather/weather.c:294
 msgid "Heavy rain"
@@ -518,7 +519,7 @@ msgstr "Hujan lebat"
 
 #: ../libmateweather/weather.c:294
 msgid "Rain showers"
-msgstr "Pancuran hujan"
+msgstr "Hujan panas"
 
 #: ../libmateweather/weather.c:294
 msgid "Freezing rain"
@@ -531,11 +532,11 @@ msgstr "Salji"
 
 #: ../libmateweather/weather.c:295
 msgid "Light snow"
-msgstr ""
+msgstr "Salji renyai"
 
 #: ../libmateweather/weather.c:295
 msgid "Moderate snow"
-msgstr ""
+msgstr "Salji sederhana"
 
 #: ../libmateweather/weather.c:295
 msgid "Heavy snow"
@@ -547,7 +548,7 @@ msgstr "Ribut salji"
 
 #: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
-msgstr ""
+msgstr "Curahan salji terbang"
 
 #: ../libmateweather/weather.c:295
 msgid "Snow showers"
@@ -555,29 +556,29 @@ msgstr "Pancuran salji"
 
 #: ../libmateweather/weather.c:295
 msgid "Drifting snow"
-msgstr ""
+msgstr "Salji hanyut"
 
 #. SNOW_GRAINS
 #: ../libmateweather/weather.c:296
 msgid "Snow grains"
-msgstr ""
+msgstr "Bijian salji"
 
 #: ../libmateweather/weather.c:296
 msgid "Light snow grains"
-msgstr ""
+msgstr "Bijian salji halus"
 
 #: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
-msgstr ""
+msgstr "Bijian salji sederhana"
 
 #: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
-msgstr ""
+msgstr "Bijian salji berat"
 
 #. ICE_CRYSTALS
 #: ../libmateweather/weather.c:297
 msgid "Ice crystals"
-msgstr "Kristal ais"
+msgstr "Hablur ais"
 
 #. ICE_PELLETS
 #: ../libmateweather/weather.c:298
@@ -598,11 +599,11 @@ msgstr "Pelet ais lebat"
 
 #: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
-msgstr ""
+msgstr "Ribut pelet ais"
 
 #: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
-msgstr "Pancutan pelet ais"
+msgstr "Pancuran pelet ais"
 
 #. HAIL
 #: ../libmateweather/weather.c:299
@@ -611,7 +612,7 @@ msgstr "Hujan batu"
 
 #: ../libmateweather/weather.c:299
 msgid "Hailstorm"
-msgstr ""
+msgstr "Ribut batu"
 
 #: ../libmateweather/weather.c:299
 msgid "Hail showers"
@@ -633,7 +634,7 @@ msgstr "Pancuran hujan batu kecil"
 #. PRECIPITATION
 #: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
-msgstr "Mendakan tak diketahui"
+msgstr "Kerpasan tidak diketahui"
 
 #. MIST
 #: ../libmateweather/weather.c:302
@@ -647,11 +648,11 @@ msgstr "Kabus"
 
 #: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
-msgstr "Kabus di kawasan sekitar"
+msgstr "Kabus disekitar"
 
 #: ../libmateweather/weather.c:303
 msgid "Shallow fog"
-msgstr "Kabus tidak tebal"
+msgstr "Kabus tipis"
 
 #: ../libmateweather/weather.c:303
 msgid "Patches of fog"
@@ -682,34 +683,34 @@ msgstr "Pasir"
 
 #: ../libmateweather/weather.c:306
 msgid "Blowing sand"
-msgstr "Pasir ditiup angin"
+msgstr "Pasir terbang"
 
 #: ../libmateweather/weather.c:306
 msgid "Drifting sand"
-msgstr "Hanyutan pasir"
+msgstr "Pasir hanyut"
 
 #. HAZE
 #: ../libmateweather/weather.c:307
 msgid "Haze"
-msgstr "Berjerebu"
+msgstr "Jerebu"
 
 #. SPRAY
 #: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
-msgstr ""
+msgstr "Semburan terbang"
 
 #. DUST
 #: ../libmateweather/weather.c:309
 msgid "Dust"
-msgstr "Berdebu"
+msgstr "Debu"
 
 #: ../libmateweather/weather.c:309
 msgid "Blowing dust"
-msgstr "Debu ditiup angin"
+msgstr "Debu terbang"
 
 #: ../libmateweather/weather.c:309
 msgid "Drifting dust"
-msgstr "Hanyutan debu"
+msgstr "Debu hanyut"
 
 #. SQUALL
 #: ../libmateweather/weather.c:310
@@ -723,11 +724,11 @@ msgstr "Ribut pasir"
 
 #: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
-msgstr "Ribut pasir di kawasan sekitar"
+msgstr "Ribut pasir disekitar"
 
 #: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
-msgstr "Ribut pasir kuat"
+msgstr "Ribut pasir lebat"
 
 #. DUSTSTORM
 #: ../libmateweather/weather.c:312
@@ -736,21 +737,21 @@ msgstr "Ribut debu"
 
 #: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
-msgstr "Ribut debu di kawasan sekitar"
+msgstr "Ribut debu disekitar"
 
 #: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
-msgstr "Ribut debu yang kuat"
+msgstr "Ribut debu lebat"
 
 #. FUNNEL_CLOUD
 #: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
-msgstr ""
+msgstr "Awan corong"
 
 #. TORNADO
 #: ../libmateweather/weather.c:314
 msgid "Tornado"
-msgstr "Tornado"
+msgstr "Puting Beliung"
 
 #. DUST_WHIRLS
 #: ../libmateweather/weather.c:315
@@ -759,18 +760,17 @@ msgstr "Pusaran debu"
 
 #: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
-msgstr "Pusaran debu di kawasan sekitar"
+msgstr "Pusaran debu disekitar"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
 
 #: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
-msgstr "Masa pencerapan tak diketahui"
+msgstr "Masa pencerapan tidak diketahui"
 
 #: ../libmateweather/weather.c:739 ../libmateweather/weather.c:790
 #: ../libmateweather/weather.c:804 ../libmateweather/weather.c:817
@@ -780,7 +780,7 @@ msgstr "Masa pencerapan tak diketahui"
 #: ../libmateweather/weather.c:956 ../libmateweather/weather.c:988
 #: ../libmateweather/weather.c:1004 ../libmateweather/weather.c:1024
 msgid "Unknown"
-msgstr "Entah"
+msgstr "Tidak diketahui"
 
 #. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
@@ -854,11 +854,10 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
-msgstr "Beaufort force %.1f"
+msgstr "Daya Beaufort %.1f"
 
 #: ../libmateweather/weather.c:935
 msgid "Calm"

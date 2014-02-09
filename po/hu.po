@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andras Timar <timar dot mate dot hu>, 2001, 2002, 2003.
-# Emese Kovacs <emese dot mate dot hu>, 2000, 2001, 2002.
-# Gabor Kelemen <kelemeng at mate dot hu>, 2004, 2005, 2006, 2007, 2008, 2009.
-# Gabor Sari <saga dot mate dot hu>, 2003.
-# Laszlo Dvornik <dvornik dot mate dot hu>, 2004.
-# Mate ORY <orymate at gmail d0t com>, 2006.
-# Rezső Páder <rezso@rezso.net>, 2013.
-# Szabolcs Ban <shooby dot mate dot hu>, 1999, 2000, 2001, 2002, 2003.
+# Andras Timar <timar dot mate dot hu>, 2001-2003
+# Emese Kovacs <emese dot mate dot hu>, 2000-2002
+# Gabor Kelemen <kelemeng at mate dot hu>, 2004-2009
+# Gabor Sari <saga dot mate dot hu>, 2003
+# Laszlo Dvornik <dvornik dot mate dot hu>, 2004
+# Mate ORY <orymate at gmail d0t com>, 2006
+# Rezső Páder <rezso@rezso.net>, 2013
+# Szabolcs Ban <shooby dot mate dot hu>, 1999-2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-22 13:24+0000\n"
+"PO-Revision-Date: 2013-07-12 08:47+0000\n"
 "Last-Translator: Rezső Páder <rezso@rezso.net>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -241,7 +241,7 @@ msgstr "Radarkép lehívása minden frissítéskor."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "Hungary"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -262,7 +262,7 @@ msgstr "Időjárási helyinformációk."
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "LHBP"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
@@ -286,7 +286,7 @@ msgstr "Közeli nagyobb zóna, pl. megyeszékhely, lásd: https://raw.github.com
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "Europe/Budapest"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
@@ -310,7 +310,7 @@ msgstr "A város egyedi zónája, lásd: https://raw.github.com/mate-desktop/lib
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr "'DEFAULT_RADAR'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
 msgid "Radar location"
@@ -342,7 +342,7 @@ msgstr "A város, amely információit a mateweather megjeleníti."
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "47.500000 19.083333"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
@@ -768,7 +768,6 @@ msgstr "Poros forgószél a közelben"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%b. %e., %a. / %H.%M"
@@ -859,7 +858,6 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

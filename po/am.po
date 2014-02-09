@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
-# samson <sambelet@yahoo.com>, 2013.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002
+# samson <sambelet@yahoo.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-19 20:48+0000\n"
+"PO-Revision-Date: 2013-10-21 00:49+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "ነባር "
 #. translators: Kelvin
 #: ../libmateweather/mateweather-prefs.c:89
 msgid "K"
-msgstr ""
+msgstr "ኬ "
 
 #. translators: Celsius
 #: ../libmateweather/mateweather-prefs.c:92
@@ -62,12 +62,12 @@ msgstr "ኪሜ/ሰ "
 #. translators: miles per hour
 #: ../libmateweather/mateweather-prefs.c:114
 msgid "mph"
-msgstr "ሚበሰ "
+msgstr "ሚ/ሰ "
 
 #. translators: knots (speed unit)
 #: ../libmateweather/mateweather-prefs.c:117
 msgid "knots"
-msgstr ""
+msgstr "ኖትስ"
 
 #. translators: wind speed
 #: ../libmateweather/mateweather-prefs.c:120
@@ -143,11 +143,11 @@ msgstr ""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:5
 msgid "Use metric units"
-msgstr ""
+msgstr "የሜትሪክ መለኪያ መጠቀሚያ"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:6
 msgid "Use metric units instead of english units."
-msgstr ""
+msgstr "የሜትሪክ መለኪያ መጠቀሚያ ከኢንግሊሽ መለኪያ ይልቅ"
 
 #. TRANSLATORS: pick a default distance unit for your locale, see key
 #. description
@@ -201,7 +201,7 @@ msgstr ""
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:24
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'ፋራናይት'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
@@ -235,7 +235,7 @@ msgstr "በሚያሻሽል ጊዜ የራዳር ካርታ ፈልጎ ማግኛ "
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "'ነባር_አካባቢ'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -280,7 +280,7 @@ msgstr ""
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "'ነባር_ክልል'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
@@ -304,7 +304,7 @@ msgstr ""
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr "'ነባር_ራዳር'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
 msgid "Radar location"
@@ -375,11 +375,11 @@ msgstr "ያልታወቀ "
 #: ../libmateweather/weather-metar.c:504
 #, c-format
 msgid "Failed to get METAR data: %d %s.\n"
-msgstr ""
+msgstr "ማግኘት አልተቻለም METAR data: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
-msgstr ""
+msgstr "የአየር ንብረት አካባቢ ማግኘት አልተቻለም"
 
 #: ../libmateweather/weather.c:232
 msgid "Variable"
@@ -387,67 +387,67 @@ msgstr "ተለዋዋጭ "
 
 #: ../libmateweather/weather.c:233
 msgid "North"
-msgstr "ሰሜን"
+msgstr "ከ ሰሜን"
 
 #: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
-msgstr "ከሰሜን - ወደ ሰሜን ምስራቅ "
+msgstr "ከ ሰሜን - ሰሜን ምስራቅ "
 
 #: ../libmateweather/weather.c:233
 msgid "Northeast"
-msgstr "ሰሜን ምስራቅ "
+msgstr "ከ ሰሜን ምስራቅ "
 
 #: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
-msgstr "ከምስራቅ - ወደ ሰሜን ምስራቅ  "
+msgstr "ከ ምስራቅ - ሰሜን ምስራቅ  "
 
 #: ../libmateweather/weather.c:234
 msgid "East"
-msgstr "ምሥራቅ"
+msgstr "ከ ምስራቅ"
 
 #: ../libmateweather/weather.c:234
 msgid "East - Southeast"
-msgstr "ከምስራቅ - ወደ ደቡብ ምስራቅ  "
+msgstr "ከ ምስራቅ - ደቡብ ምስራቅ  "
 
 #: ../libmateweather/weather.c:234
 msgid "Southeast"
-msgstr "ደቡብ ምስራቅ  "
+msgstr "ከ ደቡብ ምስራቅ  "
 
 #: ../libmateweather/weather.c:234
 msgid "South - Southeast"
-msgstr "ደቡብ  - ከደቡብ ምስራቅ "
+msgstr "ከ ደቡብ  - ደቡብ ምስራቅ "
 
 #: ../libmateweather/weather.c:235
 msgid "South"
-msgstr "ደቡብ"
+msgstr "ከ ደቡብ"
 
 #: ../libmateweather/weather.c:235
 msgid "South - Southwest"
-msgstr "ደቡብ - ወደ ደቡብ ምዕራብ "
+msgstr "ከ ደቡብ - ደቡብ ምዕራብ "
 
 #: ../libmateweather/weather.c:235
 msgid "Southwest"
-msgstr "ደቡብ ምዕራብ "
+msgstr "ከ ደቡብ ምዕራብ "
 
 #: ../libmateweather/weather.c:235
 msgid "West - Southwest"
-msgstr "ምዕራብ - ወደ ደቡብ ምዕራብ "
+msgstr "ከ ምዕራብ - ደቡብ ምዕራብ "
 
 #: ../libmateweather/weather.c:236
 msgid "West"
-msgstr "ምዕራብ"
+msgstr "ከ ምዕራብ"
 
 #: ../libmateweather/weather.c:236
 msgid "West - Northwest"
-msgstr "ምዕራብ - ሰሜን ምዕራብ "
+msgstr "ከ ምዕራብ - ሰሜን ምዕራብ "
 
 #: ../libmateweather/weather.c:236
 msgid "Northwest"
-msgstr "ሰሜን ምዕራብ"
+msgstr "ከ ሰሜን ምዕራብ"
 
 #: ../libmateweather/weather.c:236
 msgid "North - Northwest"
-msgstr "ሰሜን - ወደ ሰሜን ምዕራብ"
+msgstr "ከ ሰሜን - ሰሜን ምዕራብ"
 
 #: ../libmateweather/weather.c:249
 msgid "Clear Sky"
@@ -467,7 +467,7 @@ msgstr "ጥቂት ደመናዎች"
 
 #: ../libmateweather/weather.c:253
 msgid "Overcast"
-msgstr ""
+msgstr "ዳመናማ "
 
 #. TRANSLATOR: If you want to know what "blowing" "shallow" "partial"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
@@ -475,28 +475,28 @@ msgstr ""
 #. NONE
 #: ../libmateweather/weather.c:292 ../libmateweather/weather.c:294
 msgid "Thunderstorm"
-msgstr ""
+msgstr "ነጎድጓዳማ "
 
 #. DRIZZLE
 #: ../libmateweather/weather.c:293
 msgid "Drizzle"
-msgstr ""
+msgstr "ካፊያ"
 
 #: ../libmateweather/weather.c:293
 msgid "Light drizzle"
-msgstr ""
+msgstr "ቀላል ካፊያ"
 
 #: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
-msgstr ""
+msgstr "መካከለኛ ካፊያ"
 
 #: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
-msgstr ""
+msgstr "ከባድ ካፊያ"
 
 #: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
-msgstr ""
+msgstr "ቀዝቃዛ ካፊያ"
 
 #. RAIN
 #: ../libmateweather/weather.c:294
@@ -517,40 +517,40 @@ msgstr "ከባድ ዝናብ "
 
 #: ../libmateweather/weather.c:294
 msgid "Rain showers"
-msgstr ""
+msgstr "ካፊያ"
 
 #: ../libmateweather/weather.c:294
 msgid "Freezing rain"
-msgstr ""
+msgstr "ቀዝቃዛ ዝናብ"
 
 #. SNOW
 #: ../libmateweather/weather.c:295
 msgid "Snow"
-msgstr ""
+msgstr "በረዶ "
 
 #: ../libmateweather/weather.c:295
 msgid "Light snow"
-msgstr ""
+msgstr "ቀላል በረዶ"
 
 #: ../libmateweather/weather.c:295
 msgid "Moderate snow"
-msgstr ""
+msgstr "መካከለኛ በረዶ"
 
 #: ../libmateweather/weather.c:295
 msgid "Heavy snow"
-msgstr ""
+msgstr "ከባድ በረዶ"
 
 #: ../libmateweather/weather.c:295
 msgid "Snowstorm"
-msgstr ""
+msgstr "የበረዶ ማእበል"
 
 #: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
-msgstr ""
+msgstr "ነፋሳማ በረዶ "
 
 #: ../libmateweather/weather.c:295
 msgid "Snow showers"
-msgstr ""
+msgstr "የበረዶ ካፊያ "
 
 #: ../libmateweather/weather.c:295
 msgid "Drifting snow"
@@ -606,7 +606,7 @@ msgstr ""
 #. HAIL
 #: ../libmateweather/weather.c:299
 msgid "Hail"
-msgstr ""
+msgstr "ዶፍ"
 
 #: ../libmateweather/weather.c:299
 msgid "Hailstorm"
@@ -632,7 +632,7 @@ msgstr ""
 #. PRECIPITATION
 #: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
-msgstr ""
+msgstr "ያልታወቀ እርጥበት "
 
 #. MIST
 #: ../libmateweather/weather.c:302
@@ -646,33 +646,33 @@ msgstr "ጭጋግ "
 
 #: ../libmateweather/weather.c:303
 msgid "Fog in the vicinity"
-msgstr ""
+msgstr "ጭጋግ በጣም በቅርብ "
 
 #: ../libmateweather/weather.c:303
 msgid "Shallow fog"
-msgstr ""
+msgstr "ቀላል ጭጋግ "
 
 #: ../libmateweather/weather.c:303
 msgid "Patches of fog"
-msgstr ""
+msgstr "አነስተኛ ጭጋግ "
 
 #: ../libmateweather/weather.c:303
 msgid "Partial fog"
-msgstr "በከፊል ጭጋጋማ "
+msgstr "በ ከፊል ጭጋጋማ "
 
 #: ../libmateweather/weather.c:303
 msgid "Freezing fog"
-msgstr ""
+msgstr "ቀዝቃዛም ጭጋግ "
 
 #. SMOKE
 #: ../libmateweather/weather.c:304
 msgid "Smoke"
-msgstr ""
+msgstr "ጪስ "
 
 #. VOLCANIC_ASH
 #: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
-msgstr ""
+msgstr "የ እሳተ ጎመራ አመድ"
 
 #. SAND
 #: ../libmateweather/weather.c:306
@@ -690,7 +690,7 @@ msgstr ""
 #. HAZE
 #: ../libmateweather/weather.c:307
 msgid "Haze"
-msgstr ""
+msgstr "ጭጋግ "
 
 #. SPRAY
 #: ../libmateweather/weather.c:308
@@ -718,28 +718,28 @@ msgstr ""
 #. SANDSTORM
 #: ../libmateweather/weather.c:311
 msgid "Sandstorm"
-msgstr ""
+msgstr "የ አሸዋ ንፋስ "
 
 #: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
-msgstr ""
+msgstr "የ አሸዋ ንፋስ በቅርብ"
 
 #: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
-msgstr ""
+msgstr "ከባድ የ አሸዋ ንፋስ "
 
 #. DUSTSTORM
 #: ../libmateweather/weather.c:312
 msgid "Duststorm"
-msgstr ""
+msgstr "የ አቧራ ንፋስ"
 
 #: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
-msgstr ""
+msgstr "የ አቧራ ንፋስ በቅርብ"
 
 #: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
-msgstr ""
+msgstr "ከባድ የ አቧራ ንፋስ"
 
 #. FUNNEL_CLOUD
 #: ../libmateweather/weather.c:313
@@ -749,7 +749,7 @@ msgstr ""
 #. TORNADO
 #: ../libmateweather/weather.c:314
 msgid "Tornado"
-msgstr ""
+msgstr "አውሎ ነፋስ"
 
 #. DUST_WHIRLS
 #: ../libmateweather/weather.c:315
@@ -762,7 +762,6 @@ msgstr ""
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
@@ -853,7 +852,6 @@ msgstr "%.1f ሚ/ሰ "
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
@@ -861,7 +859,7 @@ msgstr ""
 
 #: ../libmateweather/weather.c:935
 msgid "Calm"
-msgstr ""
+msgstr "የተረጋጋ "
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
 #: ../libmateweather/weather.c:939
@@ -873,7 +871,7 @@ msgstr "%s / %s"
 #: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
-msgstr ""
+msgstr "%.2f inHg"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
 #: ../libmateweather/weather.c:965
@@ -929,4 +927,4 @@ msgstr "%H:%M"
 
 #: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
-msgstr ""
+msgstr "ፋልጎ ማግኘት አልተቻለም"

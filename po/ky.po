@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Timur Jamakeev <ztimur@gmail.com>, 2005.
-#  <translatorky@lavabit.com>, 2013.
+# chingis, 2013
+# Timur Jamakeev <ztimur@gmail.com>, 2005
+# chingis, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-28 02:45+0000\n"
-"Last-Translator: chingis <translatorky@lavabit.com>\n"
+"PO-Revision-Date: 2013-04-19 04:29+0000\n"
+"Last-Translator: chingis\n"
 "Language-Team: Kirgyz (http://www.transifex.com/projects/p/MATE/language/ky/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:158
 msgid "Default"
-msgstr ""
+msgstr "Жарыяланбас"
 
 #. translators: Kelvin
 #: ../libmateweather/mateweather-prefs.c:89
@@ -67,12 +68,12 @@ msgstr "миля/с"
 #. translators: knots (speed unit)
 #: ../libmateweather/mateweather-prefs.c:117
 msgid "knots"
-msgstr ""
+msgstr "узел"
 
 #. translators: wind speed
 #: ../libmateweather/mateweather-prefs.c:120
 msgid "Beaufort scale"
-msgstr ""
+msgstr "Бофорт шкаласы"
 
 #. translators: kilopascals
 #: ../libmateweather/mateweather-prefs.c:133
@@ -87,7 +88,7 @@ msgstr "миллибар"
 #. translators: millibars
 #: ../libmateweather/mateweather-prefs.c:139
 msgid "mb"
-msgstr ""
+msgstr "миллибар"
 
 #. translators: millimeters of mercury
 #: ../libmateweather/mateweather-prefs.c:142
@@ -121,7 +122,7 @@ msgstr "миля"
 
 #: ../libmateweather/mateweather-timezone.c:314
 msgid "Greenwich Mean Time"
-msgstr ""
+msgstr "Гринвич боюнча"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:1
 msgid "Update the data automatically"
@@ -154,7 +155,7 @@ msgstr ""
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:9
 msgid "'miles'"
-msgstr ""
+msgstr "'km'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
@@ -169,23 +170,23 @@ msgstr ""
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:14
 msgid "'inHg'"
-msgstr ""
+msgstr "'kPa'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:15
 msgid "Pressure unit"
-msgstr ""
+msgstr "Басуу бирдиги"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:16
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
 "'atm'."
-msgstr ""
+msgstr "Басыш бирдиктери. Маанилери: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:19
 msgid "'knots'"
-msgstr ""
+msgstr "'km/h'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:20
 msgid "Speed unit"
@@ -195,13 +196,13 @@ msgstr "Ылдамдык бирдиги"
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr ""
+msgstr "Шамал ылдамдыгынын бирдиги. Маанилери: 'м/с', 'км/с, 'mph', 'knots', 'Beaufort scale'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:24
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'Centigrade'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
@@ -219,7 +220,7 @@ msgstr ""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:28
 msgid "Display radar map"
-msgstr ""
+msgstr "Радар картасын көрсөтүү"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:29
 msgid "Fetch a radar map on each update."
@@ -235,7 +236,7 @@ msgstr ""
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "Бишкек"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -319,7 +320,7 @@ msgstr ""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:75
 msgid "Weather for a city"
-msgstr ""
+msgstr "Шаардын аба ырайы"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:76
 msgid "The city that mateweather displays information for."
@@ -336,11 +337,11 @@ msgstr ""
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "42,849998 74,583336"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
-msgstr ""
+msgstr "Жайгашкан жердин координаталары"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:87
 msgid ""
@@ -360,7 +361,7 @@ msgstr ""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:90
 msgid "Url for the radar map"
-msgstr ""
+msgstr "Радар картасынын дареги"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:91
 msgid "The custom url from where to retrieve a radar map."
@@ -521,7 +522,7 @@ msgstr "Нөшөр жаан"
 
 #: ../libmateweather/weather.c:294
 msgid "Freezing rain"
-msgstr ""
+msgstr "Мөндүрлүү жаан"
 
 #. SNOW
 #: ../libmateweather/weather.c:295
@@ -581,7 +582,7 @@ msgstr ""
 #. ICE_PELLETS
 #: ../libmateweather/weather.c:298
 msgid "Ice pellets"
-msgstr ""
+msgstr "Мөндүр"
 
 #: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
@@ -589,15 +590,15 @@ msgstr ""
 
 #: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
-msgstr ""
+msgstr "Орточо мөндүр"
 
 #: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
-msgstr ""
+msgstr "Күчтүү мөндүр"
 
 #: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
-msgstr ""
+msgstr "Мөндүрлүү бороон"
 
 #: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
@@ -619,7 +620,7 @@ msgstr ""
 #. SMALL_HAIL
 #: ../libmateweather/weather.c:300
 msgid "Small hail"
-msgstr ""
+msgstr "Майда мөндүр"
 
 #: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
@@ -672,12 +673,12 @@ msgstr "Түтүн"
 #. VOLCANIC_ASH
 #: ../libmateweather/weather.c:305
 msgid "Volcanic ash"
-msgstr ""
+msgstr "Вулкан күлү"
 
 #. SAND
 #: ../libmateweather/weather.c:306
 msgid "Sand"
-msgstr ""
+msgstr "Кумдуу бороон"
 
 #: ../libmateweather/weather.c:306
 msgid "Blowing sand"
@@ -700,25 +701,25 @@ msgstr ""
 #. DUST
 #: ../libmateweather/weather.c:309
 msgid "Dust"
-msgstr ""
+msgstr "Чаң"
 
 #: ../libmateweather/weather.c:309
 msgid "Blowing dust"
-msgstr ""
+msgstr "Чаңдуу бороон"
 
 #: ../libmateweather/weather.c:309
 msgid "Drifting dust"
-msgstr ""
+msgstr "Чаңдуу бороон"
 
 #. SQUALL
 #: ../libmateweather/weather.c:310
 msgid "Squall"
-msgstr ""
+msgstr "Шквал"
 
 #. SANDSTORM
 #: ../libmateweather/weather.c:311
 msgid "Sandstorm"
-msgstr ""
+msgstr "Кумдуу бороон"
 
 #: ../libmateweather/weather.c:311
 msgid "Sandstorm in the vicinity"
@@ -731,7 +732,7 @@ msgstr ""
 #. DUSTSTORM
 #: ../libmateweather/weather.c:312
 msgid "Duststorm"
-msgstr ""
+msgstr "Чаңдуу бороон"
 
 #: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
@@ -744,17 +745,17 @@ msgstr ""
 #. FUNNEL_CLOUD
 #: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
-msgstr ""
+msgstr "Куюн"
 
 #. TORNADO
 #: ../libmateweather/weather.c:314
 msgid "Tornado"
-msgstr ""
+msgstr "Торнадо"
 
 #. DUST_WHIRLS
 #: ../libmateweather/weather.c:315
 msgid "Dust whirls"
-msgstr ""
+msgstr "Чаңдуу куюндар"
 
 #: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"
@@ -762,10 +763,9 @@ msgstr ""
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
-msgstr ""
+msgstr "%a, %b %d / %H:%M"
 
 #: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
@@ -786,58 +786,58 @@ msgstr "Белгисиз"
 #: ../libmateweather/weather.c:761
 #, c-format
 msgid "%.1f °F"
-msgstr ""
+msgstr "%.1f °F"
 
 #. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
 #: ../libmateweather/weather.c:764
 #, c-format
 msgid "%d °F"
-msgstr ""
+msgstr "%d °F"
 
 #. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
 #: ../libmateweather/weather.c:770
 #, c-format
 msgid "%.1f °C"
-msgstr ""
+msgstr "%.1f °C"
 
 #. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
 #: ../libmateweather/weather.c:773
 #, c-format
 msgid "%d °C"
-msgstr ""
+msgstr "%d °C"
 
 #. TRANSLATOR: This is the temperature in kelvin
 #: ../libmateweather/weather.c:779
 #, c-format
 msgid "%.1f K"
-msgstr ""
+msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
 #: ../libmateweather/weather.c:782
 #, c-format
 msgid "%d K"
-msgstr ""
+msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
 #: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
-msgstr ""
+msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
 #: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
-msgstr ""
+msgstr "%0.1f узел"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
 #: ../libmateweather/weather.c:896
 #, c-format
 msgid "%.1f mph"
-msgstr ""
+msgstr "%.1f миля/с"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
 #: ../libmateweather/weather.c:900
@@ -849,11 +849,10 @@ msgstr "%.1f км/с"
 #: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f m/s"
-msgstr ""
+msgstr "%.1f м/с"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
@@ -861,13 +860,13 @@ msgstr ""
 
 #: ../libmateweather/weather.c:935
 msgid "Calm"
-msgstr ""
+msgstr "Штиль"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
 #: ../libmateweather/weather.c:939
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s/%s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
 #: ../libmateweather/weather.c:961
@@ -885,47 +884,47 @@ msgstr ""
 #: ../libmateweather/weather.c:969
 #, c-format
 msgid "%.2f kPa"
-msgstr ""
+msgstr "%.2f кПа"
 
 #. TRANSLATOR: This is pressure in hectoPascals
 #: ../libmateweather/weather.c:973
 #, c-format
 msgid "%.2f hPa"
-msgstr ""
+msgstr "%.2f гПа"
 
 #. TRANSLATOR: This is pressure in millibars
 #: ../libmateweather/weather.c:977
 #, c-format
 msgid "%.2f mb"
-msgstr ""
+msgstr "%.2f мбар"
 
 #. TRANSLATOR: This is pressure in atmospheres
 #: ../libmateweather/weather.c:981
 #, c-format
 msgid "%.3f atm"
-msgstr ""
+msgstr "%.3f атм"
 
 #. TRANSLATOR: This is the visibility in miles
 #: ../libmateweather/weather.c:1009
 #, c-format
 msgid "%.1f miles"
-msgstr ""
+msgstr "%.1f миля"
 
 #. TRANSLATOR: This is the visibility in kilometers
 #: ../libmateweather/weather.c:1013
 #, c-format
 msgid "%.1f km"
-msgstr ""
+msgstr "%.1f км"
 
 #. TRANSLATOR: This is the visibility in meters
 #: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.0fm"
-msgstr ""
+msgstr "%.0f м"
 
 #: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M"
 
 #: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
