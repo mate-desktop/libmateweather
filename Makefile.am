@@ -5,8 +5,7 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
 
 EXTRA_DIST = \
-	autogen.sh \
-	MAINTAINERS
+	autogen.sh
 
 MAINTAINERCLEANFILES = \
 	$(srcdir)/INSTALL \
