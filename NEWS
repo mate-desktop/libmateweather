@@ -1,0 +1,4 @@
+1.7.1
+
+  * Drop libsoup-gnome dependency
+  * Add GTK3 support
