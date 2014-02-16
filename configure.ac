@@ -163,6 +163,13 @@ AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext Package])
 AM_GLIB_GNU_GETTEXT
 
+dnl icon cache
+AC_ARG_ENABLE(icon-update, AC_HELP_STRING([--disable-icon-update],
+[Disable icon cache update]))
+if (test "$enable_icon_update" != no); then
+AC_PATH_PROG(UPDATE_ICON_CACHE, [gtk-update-icon-cache])
+fi
+AM_CONDITIONAL([ICON_UPDATE], [test -n "$UPDATE_ICON_CACHE"])
 
 dnl ***************************************************************************
 dnl ***  REGEX                                                              ***

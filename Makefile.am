@@ -2,7 +2,7 @@ SUBDIRS = po po-locations libmateweather doc data python icons
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
+DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc --disable-icon-update
 
 EXTRA_DIST = \
 	autogen.sh

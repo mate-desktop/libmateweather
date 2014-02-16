@@ -483,9 +483,9 @@ uninstall-icons:
 	done
 
 update-icon-cache:
-	@-if test -z "$(DESTDIR)"; then \
+	@-if test -z "$(DESTDIR)" && ICON_UPDATE; then \
 		echo "Updating Gtk icon cache."; \
-		$(gtk_update_icon_cache) $(DESTDIR)$(datadir)/$(subdir)/mate; \
+		$(UPDATE_ICON_CACHE) $(DESTDIR)$(datadir)/$(subdir)/mate; \
 	else \
 		echo "*** Icon cache not updated.  After (un)install, run this:"; \
 		echo "***   $(gtk_update_icon_cache) $(DESTDIR)$(datadir)/$(subdir)/mate"; \
