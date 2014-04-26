@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Ge'ez Frontier Foundation <locales@geez.org>, 2002
-# samson <sambelet@yahoo.com>, 2013
+# samson <sambelet@yahoo.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-10-21 00:49+0000\n"
+"PO-Revision-Date: 2014-03-29 18:26+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr ""
 #. translators: kilopascals
 #: ../libmateweather/mateweather-prefs.c:133
 msgid "kPa"
-msgstr ""
+msgstr "ኪሎ ፓስካል"
 
 #. translators: hectopascals
 #: ../libmateweather/mateweather-prefs.c:136
@@ -92,7 +92,7 @@ msgstr ""
 #. translators: millimeters of mercury
 #: ../libmateweather/mateweather-prefs.c:142
 msgid "mmHg"
-msgstr ""
+msgstr "ሚሊ ሚትር ሜርኩሪ"
 
 #. translators: inches of mercury
 #: ../libmateweather/mateweather-prefs.c:145
@@ -610,24 +610,24 @@ msgstr "ዶፍ"
 
 #: ../libmateweather/weather.c:299
 msgid "Hailstorm"
-msgstr ""
+msgstr "የ በረዶ ማዕበል "
 
 #: ../libmateweather/weather.c:299
 msgid "Hail showers"
-msgstr ""
+msgstr "የ በረዶ ካፊያ "
 
 #. SMALL_HAIL
 #: ../libmateweather/weather.c:300
 msgid "Small hail"
-msgstr ""
+msgstr "አነስተኛ የ በረዶ ማዕበል "
 
 #: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
-msgstr ""
+msgstr "አነስተኛ የ በረዶ ማዕበል "
 
 #: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
-msgstr ""
+msgstr "ካፊያ ወይንም አነስተኛ የ በረዶ ማዕበል "
 
 #. PRECIPITATION
 #: ../libmateweather/weather.c:301
@@ -754,7 +754,7 @@ msgstr "አውሎ ነፋስ"
 #. DUST_WHIRLS
 #: ../libmateweather/weather.c:315
 msgid "Dust whirls"
-msgstr ""
+msgstr "አውሎ ነፋስ"
 
 #: ../libmateweather/weather.c:315
 msgid "Dust whirls in the vicinity"

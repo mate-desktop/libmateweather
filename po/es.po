@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2014
 # Jorge González <jorgegonz@svn.gnome.org>, 2007-2009
 # Lluís Tusquellas <lutusq@gmail.com>, 2013
 #   <lutusq@lutusq.jazztel.es>, 2012
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-05-06 09:46+0000\n"
-"Last-Translator: Lluís Tusquellas <lutusq@gmail.com>\n"
+"PO-Revision-Date: 2014-03-06 01:27+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@ubuntu.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +50,7 @@ msgstr "F"
 #: ../libmateweather/mateweather-prefs.c:169 ../libmateweather/weather.c:243
 #: ../libmateweather/weather.c:260 ../libmateweather/weather.c:332
 msgid "Invalid"
-msgstr "Inválido"
+msgstr "No válido"
 
 #. translators: meters per second
 #: ../libmateweather/mateweather-prefs.c:108
@@ -149,7 +150,7 @@ msgstr "Usar unidades métricas"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:6
 msgid "Use metric units instead of english units."
-msgstr "Usa unidades métricas en vez de las unidades inglesas."
+msgstr "Usar unidades métricas en vez de las imperiales."
 
 #. TRANSLATORS: pick a default distance unit for your locale, see key
 #. description
@@ -213,7 +214,7 @@ msgstr "Unidad de temperatura"
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr "La unidad a usar para temperatura. Valores: 'Kelvin', 'Centígrados', 'Fahrenheit'."
+msgstr "La unidad a usar para la temperatura. Valores: «Kelvin», «Centígrados», «Fahrenheit»."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:27
 msgid "Not used anymore"
@@ -237,7 +238,7 @@ msgstr "Obtener un mapa de radar con cada actualización."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr "'UBICACION_POR_DEFECTO'"
+msgstr "'DEFAULT_LOCATION'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -258,7 +259,7 @@ msgstr "Información meteorológica de una zona."
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
 msgid "'DEFAULT_CODE'"
-msgstr "'CÓDIGO_POR_DEFECTO'"
+msgstr "'DEFAULT_CODE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
@@ -282,7 +283,7 @@ msgstr "Zona principal cercana, como la ciudad capital, según se encuentra en h
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
 msgid "'DEFAULT_ZONE'"
-msgstr "'ZONA_POR_DEFECTO'"
+msgstr "'DEFAULT_ZONE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
@@ -321,7 +322,7 @@ msgstr "Un código de tres dígitos para obtener los mapas de radar desde weathe
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:75
 msgid "Weather for a city"
-msgstr "Meteorología para una ciudad"
+msgstr "Pronóstico para una ciudad"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:76
 msgid "The city that mateweather displays information for."
@@ -826,7 +827,7 @@ msgstr "%d K"
 #: ../libmateweather/weather.c:864
 #, c-format
 msgid "%.f%%"
-msgstr "%.f%%"
+msgstr "%.f %%"
 
 #. TRANSLATOR: This is the wind speed in knots
 #: ../libmateweather/weather.c:892
