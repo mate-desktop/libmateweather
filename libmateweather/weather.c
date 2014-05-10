@@ -44,7 +44,7 @@
 #define MOON_PHASES 36
 
 /* g_memmove is removed in glib 2.40 */
-#if GLIB_CHECK_VERSION (2, 39, 0)
+#if GLIB_CHECK_VERSION (2, 39, 0) && !defined(g_memmove)
 #define g_memmove memmove
 #endif
 
