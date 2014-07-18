@@ -5,10 +5,11 @@
 <!ENTITY % name '(_name|name+)' >
 
 <!ELEMENT region (%name;, country+) >
-<!ELEMENT country (%name;, iso-code, fips-code+, pref-lang?, timezones, tz-hint?, (location|state|city)*) >
+<!ELEMENT country (%name;, iso-code, fips-code+, pref-lang?, timezones, tz-hint?, (location|state|province|city)*) >
 <!ELEMENT state (%name;, fips-code+, tz-hint?, (location|city)*) >
-<!ELEMENT city (%name;, coordinates?, zone?, radar?, location+) >
-<!ELEMENT location (%name;, code, tz-hint?, zone?, radar?, coordinates?) >
+<!ELEMENT province (%name;, (location|city)*) >
+<!ELEMENT city (%name;, coordinates?, tz-hint?, location+) >
+<!ELEMENT location (%name;, code, tz-hint?, zone?, yahoo-woeid?, radar?, coordinates?) >
 
 <!ELEMENT timezones (timezone+) >
 <!ELEMENT timezone (_name?, name*, obsoletes*) >
@@ -31,3 +32,4 @@
 <!ELEMENT zone (#PCDATA) >
 <!ELEMENT radar (#PCDATA) >
 <!ELEMENT coordinates (#PCDATA) >
+<!ELEMENT yahoo-woeid (#PCDATA) >

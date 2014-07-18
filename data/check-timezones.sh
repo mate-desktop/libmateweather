@@ -16,7 +16,7 @@ used=`mktemp`
 correct=`mktemp`
 
 sed -ne 's/.*<tz-hint>\(.*\)<.*/\1/p' $locations | sort -u > $used
-awk '{print $3;}' $tzdb  | sort -u > $correct
+grep -v '#' $tzdb | awk '{print $3;}' | sort -u > $correct
 bad=`comm -13 $correct $used`
 rm $correct $used
 

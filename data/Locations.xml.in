@@ -780,10 +780,10 @@
         <!-- The capital of the Democratic Republic of the Congo -->
         <_name>Kinshasa</_name>
         <coordinates>-4.329722 15.315000</coordinates>
+        <tz-hint>Africa/Kinshasa</tz-hint>
         <location>
           <name>N'Djili Airport</name>
           <code>FZAA</code>
-          <tz-hint>Africa/Kinshasa</tz-hint>
           <coordinates>-4.383333 15.433333</coordinates>
         </location>
       </city>
@@ -3397,6 +3397,17 @@
         <_name>Shandong</_name>
         <fips-code>CH25</fips-code>
         <city>
+          <!-- A city in Shandong in China.
+               The name is also written "济南" -->
+          <_name>Jinan</_name>
+          <coordinates>36.633333 117.016666</coordinates>
+          <location>
+            <name>Jinan</name>
+            <code>ZSTN</code>
+            <coordinates>36.683333 116.983333</coordinates>
+          </location>
+        </city>
+        <city>
           <!-- A city in Shandong in China -->
           <_name>Qingdao</_name>
           <coordinates>36.098611 120.371944</coordinates>
@@ -3962,7 +3973,7 @@
       <city>
       <!-- A city in India -->
         <_name>Pune</_name>
-        <coordinates>-18.53 73.85</coordinates>
+        <coordinates>18.53 73.85</coordinates>
         <location>
           <name>Pune International Airport</name>
 	  <code>VAPO</code>
@@ -5689,6 +5700,7 @@
         <location>
           <name>Kimp'o International Airport</name>
           <code>RKSS</code>
+          <yahoo-woeid>1132599</yahoo-woeid>
           <coordinates>37.550000 126.800000</coordinates>
         </location>
       </city>
@@ -6586,7 +6598,7 @@
     </country>
   </region>
   <region>
-    <_name>Australasia &amp; Oceania</_name>
+    <_name>Australasia and Oceania</_name>
     <country>
       <!-- AS - American Samoa, a territory of the United States in the
            South Pacific, not to be confused with the separate nation
@@ -7142,16 +7154,22 @@
     <country>
       <!-- FJ - Fiji -->
       <_name>Fiji</_name>
-      <!-- Could not find weather stations for the following major
-           cities:
-           Suva
-        -->
       <iso-code>FJ</iso-code>
       <fips-code>FJ</fips-code>
       <timezones>
         <timezone id="Pacific/Fiji" />
       </timezones>
       <tz-hint>Pacific/Fiji</tz-hint>
+      <city>
+        <!-- The capital of Fiji -->
+        <_name>Suva</_name>
+        <coordinates>-18.1416 178.4419</coordinates>
+        <location>
+          <name>Nausori International Airport</name>
+          <code>NFNA</code>
+          <coordinates>-18.05 178.57</coordinates>
+        </location>
+      </city>
     </country>
     <country>
       <!-- PF - French Polynesia, a French territory in the South
@@ -7402,7 +7420,7 @@
       <fips-code>FM</fips-code>
       <fips-code>US64</fips-code>
       <timezones>
-        <timezone id="Pacific/Ponape">
+        <timezone id="Pacific/Pohnpei">
           <!-- One of two time zones in the Federated States of
                Micronesia, including the islands of Pohnpei and Kosrae.
                The string is only used in places where "Micronesia" is
@@ -7410,24 +7428,26 @@
             -->
           <_name>Pohnpei / Kosrae</_name>
           <obsoletes>Pacific/Kosrae</obsoletes>
+          <obsoletes>Pacific/Ponape</obsoletes>
         </timezone>
-        <timezone id="Pacific/Truk">
+        <timezone id="Pacific/Chuuk">
           <!-- One of two time zones in the Federated States of
                Micronesia, including the islands of Yap and Chuuk. The
                string is only used in places where "Micronesia" is
                already clear from context.
             -->
           <_name>Yap / Chuuk</_name>
+          <obsoletes>Pacific/Truk</obsoletes>
         </timezone>
       </timezones>
       <city>
         <!-- The capital of the Federated States of Micronesia -->
         <_name>Palikir</_name>
         <coordinates>6.916667 158.150000</coordinates>
+        <tz-hint>Pacific/Pohnpei</tz-hint>
         <location>
           <name>Pohnpei</name>
           <code>PTTP</code>
-          <tz-hint>Pacific/Pohnpei</tz-hint>
           <coordinates>6.966667 158.216667</coordinates>
         </location>
       </city>
@@ -8982,6 +9002,17 @@
         </city>
         <city>
           <!-- A city in Mato Grosso do Sul in Brazil -->
+          <_name>Dourados</_name>
+          <coordinates>-22.221111 -54.805555</coordinates>
+          <location>
+            <name>Dourados</name>
+            <code>SBDO</code>
+            <tz-hint>America/Campo_Grande</tz-hint>
+            <coordinates>-22.221111 -54.805555</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Mato Grosso do Sul in Brazil -->
           <_name>Ponta Porã</_name>
           <coordinates>-22.533333 -55.716667</coordinates>
           <location>
@@ -9590,6 +9621,16 @@
             <code>SBRP</code>
             <tz-hint>America/Sao_Paulo</tz-hint>
             <coordinates>-21.133333 -47.783333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in São Paulo in Brazil -->
+          <_name>Piracicaba</_name>
+          <coordinates>-22.7252800 -47.6491700</coordinates>
+          <location>
+            <name>Campinas, Viracopos Airport</name>
+            <code>SBKP</code>
+            <coordinates>-23.007401 -47.134499</coordinates>
           </location>
         </city>
         <city>
@@ -12085,14 +12126,14 @@
         <_name>Minsk</_name>
         <coordinates>53.900000 27.566667</coordinates>
         <location>
-          <name>Loshitsa / Minsk International</name>
+          <name>Minsk</name>
           <code>UMMM</code>
           <coordinates>53.865000 27.541667</coordinates>
         </location>
         <location>
-          <name>Minsk</name>
+          <name>Minsk National Airport</name>
           <code>UMMS</code>
-          <coordinates>53.933333 27.633333</coordinates>
+          <coordinates>53.882500 28.032500</coordinates>
         </location>
       </city>
       <city>
@@ -13731,7 +13772,8 @@
           <coordinates>45.716667 4.950000</coordinates>
         </location>
         <location>
-          <name>Lyon-Satolas Airport</name>
+          <!-- Previously Lyon-Satolas Airport -->
+          <name>Lyon-Saint-Exupéry Airport</name>
           <code>LFLL</code>
           <coordinates>45.733333 5.083333</coordinates>
         </location>
@@ -14871,10 +14913,10 @@
         <fips-code>GM09</fips-code>
         <city>
           <!-- A city in Saarland in Germany -->
-          <_name>Ensheim</_name>
-          <coordinates>49.200000 7.100000</coordinates>
+          <_name>Saarbrücken</_name>
+          <coordinates>49.233333 7.000000</coordinates>
           <location>
-            <name>Saarbruecken / Ensheim</name>
+            <name>Saarbrücken-Ensheim</name>
             <code>EDDR</code>
             <coordinates>49.216667 7.116667</coordinates>
           </location>
@@ -15411,7 +15453,6 @@
         <location>
           <name>Guernsey Airport</name>
           <code>EGJB</code>
-          <zone>:centralsouthern</zone>
           <coordinates>49.433333 -2.600000</coordinates>
         </location>
       </city>
@@ -15422,7 +15463,6 @@
         <location>
           <name>Guernsey Airport</name>
           <code>EGJB</code>
-          <zone>:centralsouthern</zone>
           <coordinates>49.433333 -2.600000</coordinates>
         </location>
       </city>
@@ -15576,11 +15616,71 @@
       </timezones>
       <tz-hint>Europe/Dublin</tz-hint>
       <city>
-        <!-- A city in Ireland.
-             The local name in Irish is "Corcaigh".
-          -->
+        <_name>Athlone</_name>
+        <coordinates>53.422778 -7.937222</coordinates>
+        <location>
+          <name>Galway Airport</name>
+          <code>EICM</code>
+          <coordinates>53.300278 -8.941111</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Bray</_name>
+        <coordinates>53.2027778 -6.0983333</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Carlow</_name>
+        <coordinates>52.6666667 -6.8333333</coordinates>
+        <location>
+          <name>Waterford Airport</name>
+          <code>EIWF</code>
+          <coordinates>52.187222 -7.086944</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Carrick on Shannon</_name>
+        <coordinates>53.946944 -8.09</coordinates>
+        <location>
+          <name>Connaught Airport</name>
+          <code>EIKN</code>
+          <coordinates>53.910278 -8.818056</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Castlebar</_name>
+        <coordinates>53.85 -9.3</coordinates>
+        <location>
+          <name>Connaught Airport</name>
+          <code>EIKN</code>
+          <coordinates>53.910278 -8.818056</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Cavan</_name>
+        <coordinates>53.9166667 -7.25</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Clonmel</_name>
+        <coordinates>52.355 -7.703889</coordinates>
+        <location>
+          <name>Waterford Airport</name>
+          <code>EIWF</code>
+          <coordinates>52.187222 -7.086944</coordinates>
+        </location>
+      </city>
+      <city>
         <_name>Cork</_name>
-        <coordinates>51.898611 -8.495833</coordinates>
+        <coordinates>51.897969291839466 -8.470609188079834</coordinates>
         <location>
           <name>Cork Airport</name>
           <code>EICK</code>
@@ -15588,10 +15688,16 @@
         </location>
       </city>
       <city>
-        <!-- The capital of Ireland.
-             The local name in Irish is "Baile Átha Cliath".
-          -->
-        <_name msgctxt="City in Ireland">Dublin</_name>
+        <_name>Drogheda</_name>
+        <coordinates>53.7188889 -6.3477778</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Dublin</_name>
         <coordinates>53.333056 -6.248889</coordinates>
         <location>
           <name>Dublin Airport</name>
@@ -15600,11 +15706,8 @@
         </location>
       </city>
       <city>
-        <!-- A city in Ireland.
-             The local name in Irish is "Dún Laoghaire".
-          -->
-        <_name>Dunleary</_name>
-        <coordinates>53.292500 -6.128611</coordinates>
+        <_name>Dundalk</_name>
+        <coordinates>54.0 -6.416667</coordinates>
         <location>
           <name>Dublin Airport</name>
           <code>EIDW</code>
@@ -15612,25 +15715,210 @@
         </location>
       </city>
       <city>
-        <!-- A city in Ireland -->
-        <_name>Glentavraun</_name>
-        <coordinates>53.883333 -8.800000</coordinates>
+        <_name>Ennis</_name>
+        <coordinates>52.8436111 -8.9863889</coordinates>
         <location>
-          <name>Connaught</name>
+          <name>Shannon Airport</name>
+          <code>EINN</code>
+          <coordinates>52.701944 -8.924722</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Galway</_name>
+        <coordinates>53.271944 -9.048889</coordinates>
+        <location>
+          <name>Shannon Airport</name>
+          <code>EINN</code>
+          <coordinates>52.701944 -8.924722</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Kilkenny</_name>
+        <coordinates>52.6541667 -7.2522222</coordinates>
+        <location>
+          <name>Waterford Airport</name>
+          <code>EIWF</code>
+          <coordinates>52.187222 -7.086944</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Lifford</_name>
+        <coordinates>54.831944 -7.483611</coordinates>
+        <location>
+          <name>Derry Airport</name>
+          <code>EGAE</code>
+          <coordinates>55.042778 -7.161944</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Limerick</_name>
+        <coordinates>52.664722 -8.623056</coordinates>
+        <location>
+          <name>Shannon Airport</name>
+          <code>EINN</code>
+          <coordinates>52.701944 -8.924722</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Longford</_name>
+        <coordinates>53.725357436377756 -7.7982330322265625</coordinates>
+        <location>
+          <name>Connaught Airport</name>
           <code>EIKN</code>
           <coordinates>53.910278 -8.818056</coordinates>
         </location>
       </city>
       <city>
-        <!-- A city in Ireland.
-             The local name in Irish is "Sionainn".
-          -->
-        <_name>Shannon</_name>
-        <coordinates>52.703889 -8.864167</coordinates>
+        <_name>Monaghan</_name>
+        <coordinates>54.25 -6.966667</coordinates>
+        <location>
+          <name>Enniskillen/St Angelo Airport</name>
+          <code>EGAB</code>
+          <coordinates>54.398611 -7.651944</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Mullingar</_name>
+        <coordinates>53.533333 -7.35</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Naas</_name>
+        <coordinates>53.215833 -6.666944</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Navan</_name>
+        <coordinates>53.6527778 -6.6813889</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Nenagh</_name>
+        <coordinates>52.861944 -8.196667</coordinates>
         <location>
           <name>Shannon Airport</name>
           <code>EINN</code>
+          <coordinates>52.701944 -8.924722</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Newbridge</_name>
+        <coordinates>53.1819444 -6.7966667</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Portlaoise</_name>
+        <coordinates>53.0344135619404 -7.29979276657104</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Roscommon</_name>
+        <coordinates>53.75 -8.25</coordinates>
+        <location>
+          <name>Connaught Airport</name>
+          <code>EIKN</code>
+          <coordinates>53.910278 -8.818056</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Sligo</_name>
+        <coordinates>54.2696914981217 -8.46942901611328</coordinates>
+        <location>
+          <name>Sligo Airport</name>
+          <code>EISG</code>
+          <coordinates>54.280278 -8.599167</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Swords</_name>
+        <coordinates>53.459722 -6.218056</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Tallaght</_name>
+        <coordinates>53.2858964761177 -6.37344360351562</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Tralee</_name>
+        <coordinates>52.27041591364147 -9.702644348144531</coordinates>
+        <location>
+          <name>Kerry Airport</name>
+          <code>EIKY</code>
           <coordinates>52.700000 -8.916667</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Trim</_name>
+        <coordinates>53.555 -6.791667</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Tullamore</_name>
+        <coordinates>53.273889 -7.488889</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Waterford</_name>
+        <coordinates>52.258333 -7.111944</coordinates>
+        <location>
+          <name>Waterford Airport</name>
+          <code>EIWF</code>
+          <coordinates>52.187222 -7.086944</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Wexford</_name>
+        <coordinates>52.334167 -6.4575</coordinates>
+        <location>
+          <name>Waterford Airport</name>
+          <code>EIWF</code>
+          <coordinates>52.187222 -7.086944</coordinates>
+        </location>
+      </city>
+      <city>
+        <_name>Wicklow</_name>
+        <coordinates>53.2027778 -6.0983333</coordinates>
+        <location>
+          <name>Dublin Airport</name>
+          <code>EIDW</code>
+          <coordinates>53.433333 -6.250000</coordinates>
         </location>
       </city>
     </country>
@@ -15652,7 +15940,7 @@
         <location>
           <name>Isle of Man, Ronaldsway Airport</name>
           <code>EGNS</code>
-          <zone>:northwest</zone>
+          <zone>:nw</zone>
           <coordinates>54.083333 -4.633333</coordinates>
         </location>
       </city>
@@ -15663,7 +15951,7 @@
         <location>
           <name>Isle of Man, Ronaldsway Airport</name>
           <code>EGNS</code>
-          <zone>:northwest</zone>
+          <zone>:nw</zone>
           <coordinates>54.083333 -4.633333</coordinates>
         </location>
       </city>
@@ -15677,772 +15965,875 @@
         <timezone id="Europe/Rome" />
       </timezones>
       <tz-hint>Europe/Rome</tz-hint>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Albenga</_name>
-        <coordinates>44.050000 8.216667</coordinates>
-        <location>
-          <name>Albenga</name>
-          <code>LIMG</code>
-          <coordinates>44.050000 8.116667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Alghero</_name>
-        <coordinates>40.558889 8.318056</coordinates>
-        <location>
-          <name>Alghero</name>
-          <code>LIEA</code>
-          <coordinates>40.633333 8.283333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Aviano</_name>
-        <coordinates>46.070556 12.594722</coordinates>
-        <location>
-          <name>Aviano</name>
-          <code>LIPA</code>
-          <coordinates>46.033333 12.600000</coordinates>
-        </location>
-        <location>
-          <name>Aviano US Air Force Base</name>
-          <code>LIYW</code>
-          <coordinates>46.033333 12.616667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Bari</_name>
-        <coordinates>41.133333 16.850000</coordinates>
-        <location>
-          <name>Palese Macchie Airport</name>
-          <code>LIBD</code>
-          <coordinates>41.133333 16.783333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Bergamo</_name>
-        <coordinates>45.683333 9.716667</coordinates>
-        <location>
-          <name>Orio Al Serio Airport</name>
-          <code>LIME</code>
-          <coordinates>45.666667 9.700000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Bologna</_name>
-        <coordinates>44.483333 11.333333</coordinates>
-        <location>
-          <name>Borgo Panigale Airport</name>
-          <code>LIPE</code>
-          <coordinates>44.533333 11.300000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Bolzano</_name>
-        <coordinates>46.516667 11.366667</coordinates>
-        <location>
-          <name>Bolzano</name>
-          <code>LIPB</code>
-          <coordinates>46.466667 11.333333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Brescia</_name>
-        <coordinates>45.550000 10.250000</coordinates>
-        <location>
-          <name>Ghedi Airport</name>
-          <code>LIPL</code>
-          <coordinates>45.416667 10.283333</coordinates>
-        </location>
-        <location>
-          <name>Montichiara Airport</name>
-          <code>LIPO</code>
-          <coordinates>45.400556 10.316389</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Breuil-Cervinia</_name>
-        <coordinates>45.933333 7.633333</coordinates>
-        <location>
-          <name>Pian Rosa</name>
-          <code>LIMH</code>
-          <coordinates>45.933333 7.700000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Brindisi</_name>
-        <coordinates>40.633333 17.933333</coordinates>
-        <location>
-          <name>Brindisi</name>
-          <code>LIBR</code>
-          <coordinates>40.650000 17.950000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Cagliari</_name>
-        <coordinates>39.216667 9.116667</coordinates>
-        <location>
-          <name>Elmas Airport</name>
-          <code>LIEE</code>
-          <coordinates>39.250000 9.066667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Capri</_name>
-        <coordinates>40.550000 14.233333</coordinates>
-        <location>
-          <name>Capri</name>
-          <code>LIQC</code>
-          <coordinates>40.550000 14.200000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Case Arfel</_name>
-        <coordinates>44.250000 7.783333</coordinates>
-        <location>
-          <name>Monte Malanotte</name>
-          <code>LIMY</code>
-          <coordinates>44.250000 7.800000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Catania</_name>
-        <coordinates>37.500000 15.100000</coordinates>
-        <location>
-          <name>Fontanarossa Airport</name>
-          <code>LICC</code>
-          <coordinates>37.466667 15.050000</coordinates>
-        </location>
-        <location>
-          <name>Sigonella Airport</name>
-          <code>LICZ</code>
-          <coordinates>37.400000 14.916667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Cervia</_name>
-        <coordinates>44.261667 12.358889</coordinates>
-        <location>
-          <name>Cervia</name>
-          <code>LIPC</code>
-          <coordinates>44.216667 12.300000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Crotone</_name>
-        <coordinates>39.083333 17.133333</coordinates>
-        <location>
-          <name>Crotone</name>
-          <code>LIBC</code>
-          <coordinates>39.000000 17.066667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Cuneo</_name>
-        <coordinates>44.383333 7.533333</coordinates>
-        <location>
-          <name>Levaldigi Airport</name>
-          <code>LIMZ</code>
-          <coordinates>44.546389 7.622222</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Decimomannu</_name>
-        <coordinates>39.312500 8.969444</coordinates>
-        <location>
-          <name>Decimomannu</name>
-          <code>LIED</code>
-          <coordinates>39.350000 8.966667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Dobbiaco</_name>
-        <coordinates>46.742500 12.231389</coordinates>
-        <location>
-          <name>Dobbiaco</name>
-          <code>LIVD</code>
-          <coordinates>46.733333 12.216667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Ferrara</_name>
-        <coordinates>44.833333 11.583333</coordinates>
-        <location>
-          <name>Ferrara</name>
-          <code>LIPF</code>
-          <coordinates>44.833333 11.616667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy.
-             "Florence" is the traditional English name.
-             The local name in Italian is "Firenze".
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Liguria</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Albenga</_name>
+          <coordinates>44.050000 8.216667</coordinates>
+          <location>
+            <name>Albenga</name>
+            <code>LIMG</code>
+            <coordinates>44.050000 8.116667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy.
+               "Genoa" is the traditional English name.
+               The local name in Italian is "Genova".
           -->
-        <_name msgctxt="City in Italy">Florence</_name>
-        <coordinates>43.766667 11.250000</coordinates>
-        <location>
-          <name>Peretola Airport</name>
-          <code>LIRQ</code>
-          <coordinates>43.800000 11.200000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Forlì</_name>
-        <coordinates>44.223611 12.052778</coordinates>
-        <location>
-          <name>Forlì</name>
-          <code>LIPK</code>
-          <coordinates>44.200000 12.066667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Frosinone</_name>
-        <coordinates>41.633333 13.316667</coordinates>
-        <location>
-          <name>Frosinone</name>
-          <code>LIRH</code>
-          <coordinates>41.633333 13.300000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy.
-             "Genoa" is the traditional English name.
-             The local name in Italian is "Genova".
-          -->
-        <_name>Genoa</_name>
-        <coordinates>44.416667 8.950000</coordinates>
-        <location>
-          <name>Sestri Airport</name>
-          <code>LIMJ</code>
-          <coordinates>44.416667 8.850000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Ginosa Marina</_name>
-        <coordinates>40.433333 16.883333</coordinates>
-        <location>
-          <name>Ginosa Marina</name>
-          <code>LIBH</code>
+          <_name>Genoa</_name>
+          <coordinates>44.416667 8.950000</coordinates>
+          <location>
+            <name>Sestri Airport</name>
+            <code>LIMJ</code>
+            <coordinates>44.416667 8.850000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Isola del Cantone</_name>
+          <coordinates>44.650000 8.950000</coordinates>
+          <location>
+            <name>Passo Dei Giovi</name>
+            <code>LIMV</code>
+            <coordinates>44.633333 8.933333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Laigueglia</_name>
+          <coordinates>43.966667 8.150000</coordinates>
+          <location>
+            <name>Capo Mele</name>
+            <code>LIMU</code>
+            <coordinates>43.950000 8.166667</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Sardinia</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Alghero</_name>
+          <coordinates>40.558889 8.318056</coordinates>
+          <location>
+            <name>Alghero</name>
+            <code>LIEA</code>
+            <coordinates>40.633333 8.283333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Cagliari</_name>
+          <coordinates>39.216667 9.116667</coordinates>
+          <location>
+            <name>Elmas Airport</name>
+            <code>LIEE</code>
+            <coordinates>39.250000 9.066667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Decimomannu</_name>
+          <coordinates>39.312500 8.969444</coordinates>
+          <location>
+            <name>Decimomannu</name>
+            <code>LIED</code>
+            <coordinates>39.350000 8.966667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Olbia</_name>
+          <coordinates>40.916667 9.516667</coordinates>
+          <location>
+            <name>Costa Smeralda Airport</name>
+            <code>LIEO</code>
+            <coordinates>40.900000 9.516667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>San Stèfano</_name>
+          <coordinates>39.107500 9.506111</coordinates>
+          <location>
+            <name>Capo Carbonara</name>
+            <code>LIEC</code>
+            <coordinates>39.100000 9.516667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Àrbatax</_name>
+          <coordinates>39.934444 9.705556</coordinates>
+          <location>
+            <name>Capo Bellavista</name>
+            <code>LIEB</code>
+            <coordinates>39.933333 9.716667</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Friuli-Venezia Giulia</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Aviano</_name>
+          <coordinates>46.070556 12.594722</coordinates>
+          <location>
+            <name>Aviano</name>
+            <code>LIPA</code>
+            <coordinates>46.033333 12.600000</coordinates>
+          </location>
+          <location>
+            <name>Aviano US Air Force Base</name>
+            <code>LIYW</code>
+            <coordinates>46.033333 12.616667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Ronchi dei Legionari</_name>
+          <coordinates>45.823611 13.509722</coordinates>
+          <location>
+            <name>Ronchi dei Legionari</name>
+            <code>LIPQ</code>
+            <coordinates>45.816667 13.483333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Tarvisio</_name>
+          <coordinates>46.510833 13.594167</coordinates>
+          <location>
+            <name>Tarvisio</name>
+            <code>LIVO</code>
+            <coordinates>46.500000 13.583333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Trieste</_name>
+          <coordinates>45.648611 13.780000</coordinates>
+          <location>
+            <name>Trieste</name>
+            <code>LIVT</code>
+            <coordinates>45.650000 13.750000</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Puglia</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Bari</_name>
+          <coordinates>41.133333 16.850000</coordinates>
+          <location>
+            <name>Palese Macchie Airport</name>
+            <code>LIBD</code>
+            <coordinates>41.133333 16.783333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Brindisi</_name>
+          <coordinates>40.633333 17.933333</coordinates>
+          <location>
+            <name>Brindisi</name>
+            <code>LIBR</code>
+            <coordinates>40.650000 17.950000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Ginosa Marina</_name>
           <coordinates>40.433333 16.883333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Gioia del Colle</_name>
-        <coordinates>40.800000 16.916667</coordinates>
-        <location>
-          <name>Gioia del Colle</name>
-          <code>LIBV</code>
-          <coordinates>40.766667 16.933333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Grazzanise</_name>
-        <coordinates>41.083333 14.100000</coordinates>
-        <location>
-          <name>Grazzanise</name>
-          <code>LIRM</code>
-          <coordinates>41.050000 14.066667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Grosseto</_name>
-        <coordinates>42.766667 11.133333</coordinates>
-        <location>
-          <name>Grosseto</name>
-          <code>LIRS</code>
-          <coordinates>42.750000 11.066667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Grottaglie</_name>
-        <coordinates>40.533333 17.433333</coordinates>
-        <location>
-          <name>Grottaglie</name>
-          <code>LIBG</code>
-          <coordinates>40.516667 17.400000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Isola del Cantone</_name>
-        <coordinates>44.650000 8.950000</coordinates>
-        <location>
-          <name>Passo Dei Giovi</name>
-          <code>LIMV</code>
-          <coordinates>44.633333 8.933333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Laigueglia</_name>
-        <coordinates>43.966667 8.150000</coordinates>
-        <location>
-          <name>Capo Mele</name>
-          <code>LIMU</code>
-          <coordinates>43.950000 8.166667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Lampedusa</_name>
-        <coordinates>35.500000 12.600000</coordinates>
-        <location>
-          <name>Lampedusa</name>
-          <code>LICD</code>
+          <location>
+            <name>Ginosa Marina</name>
+            <code>LIBH</code>
+            <coordinates>40.433333 16.883333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Gioia del Colle</_name>
+          <coordinates>40.800000 16.916667</coordinates>
+          <location>
+            <name>Gioia del Colle</name>
+            <code>LIBV</code>
+            <coordinates>40.766667 16.933333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Grottaglie</_name>
+          <coordinates>40.533333 17.433333</coordinates>
+          <location>
+            <name>Grottaglie</name>
+            <code>LIBG</code>
+            <coordinates>40.516667 17.400000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Lecce</_name>
+          <coordinates>40.383333 18.183333</coordinates>
+          <location>
+            <name>Lecce</name>
+            <code>LIBN</code>
+            <coordinates>40.233333 18.150000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Tamaricciola</_name>
+          <coordinates>41.416667 15.733333</coordinates>
+          <location>
+            <name>Amendola</name>
+            <code>LIBA</code>
+            <coordinates>41.533333 15.716667</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Lombardy</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Bergamo</_name>
+          <coordinates>45.683333 9.716667</coordinates>
+          <location>
+            <name>Orio Al Serio Airport</name>
+            <code>LIME</code>
+            <coordinates>45.666667 9.700000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Brescia</_name>
+          <coordinates>45.550000 10.250000</coordinates>
+          <location>
+            <name>Ghedi Airport</name>
+            <code>LIPL</code>
+            <coordinates>45.416667 10.283333</coordinates>
+          </location>
+          <location>
+            <name>Montichiari Airport</name>
+            <code>LIPO</code>
+            <coordinates>45.400556 10.316389</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy.
+               "Milan" is the traditional English name.
+               The local name in Italian is "Milano".
+          -->
+          <_name>Milan</_name>
+          <coordinates>45.466667 9.200000</coordinates>
+          <location>
+            <name>Linate Airport</name>
+            <code>LIML</code>
+	    <yahoo-woeid>718345</yahoo-woeid>
+            <coordinates>45.433333 9.283333</coordinates>
+          </location>
+          <location>
+            <name>Malpensa Airport</name>
+            <code>LIMC</code>
+            <coordinates>45.616667 8.733333</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Emilia-Romagna</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Bologna</_name>
+          <coordinates>44.493850 11.342400</coordinates>
+          <location>
+            <name>Borgo Panigale Airport</name>
+            <code>LIPE</code>
+            <coordinates>44.527800 11.294370</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Cervia</_name>
+          <coordinates>44.261667 12.358889</coordinates>
+          <location>
+            <name>Cervia</name>
+            <code>LIPC</code>
+            <coordinates>44.216667 12.300000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Ferrara</_name>
+          <coordinates>44.833333 11.583333</coordinates>
+          <location>
+            <name>Ferrara</name>
+            <code>LIPF</code>
+            <coordinates>44.833333 11.616667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Forlì</_name>
+          <coordinates>44.223611 12.052778</coordinates>
+          <location>
+            <name>Forlì</name>
+            <code>LIPK</code>
+            <coordinates>44.200000 12.066667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Parma</_name>
+          <coordinates>44.800000 10.333333</coordinates>
+          <location>
+            <name>Parma</name>
+            <code>LIMP</code>
+            <coordinates>44.821389 10.294722</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Piacenza</_name>
+          <coordinates>45.016667 9.666667</coordinates>
+          <location>
+            <name>Piacenza</name>
+            <code>LIMS</code>
+            <coordinates>44.916667 9.733333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Rimini</_name>
+          <coordinates>44.063333 12.580833</coordinates>
+          <location>
+            <name>Rimini</name>
+            <code>LIPR</code>
+            <coordinates>44.033333 12.616667</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Trentino-Alto Adige</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Bolzano</_name>
+          <coordinates>46.516667 11.366667</coordinates>
+          <location>
+            <name>Bolzano</name>
+            <code>LIPB</code>
+            <coordinates>46.466667 11.333333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Dobbiaco</_name>
+          <coordinates>46.742500 12.231389</coordinates>
+          <location>
+            <name>Dobbiaco</name>
+            <code>LIVD</code>
+            <coordinates>46.733333 12.216667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Paneveggio</_name>
+          <coordinates>46.300000 11.733333</coordinates>
+          <location>
+            <name>Passo Rolle</name>
+            <code>LIVR</code>
+            <coordinates>46.300000 11.783333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Resia</_name>
+          <coordinates>46.833333 10.516667</coordinates>
+          <location>
+            <name>Resia Pass</name>
+            <code>LIVE</code>
+            <coordinates>46.833333 10.500000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Sporminore</_name>
+          <coordinates>46.166667 11.033333</coordinates>
+          <location>
+            <name>Paganella</name>
+            <code>LIVP</code>
+            <coordinates>46.150000 11.033333</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Val d'Aosta</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Breuil-Cervinia</_name>
+          <coordinates>45.933333 7.633333</coordinates>
+          <location>
+            <name>Pian Rosa</name>
+            <code>LIMH</code>
+            <coordinates>45.933333 7.700000</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Campania</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Capri</_name>
+          <coordinates>40.550000 14.233333</coordinates>
+          <location>
+            <name>Capri</name>
+            <code>LIQC</code>
+            <coordinates>40.550000 14.200000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Grazzanise</_name>
+          <coordinates>41.083333 14.100000</coordinates>
+          <location>
+            <name>Grazzanise</name>
+            <code>LIRM</code>
+            <coordinates>41.050000 14.066667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy.
+               "Naples" is the traditional English name.
+               The local name in Italian is "Napoli".
+          -->
+          <_name msgctxt="City in Italy">Naples</_name>
+          <coordinates>40.833333 14.250000</coordinates>
+          <location>
+            <name>Capodichino Airport</name>
+            <code>LIRN</code>
+            <coordinates>40.850000 14.300000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Pontecagnano</_name>
+          <coordinates>40.633333 14.883333</coordinates>
+          <location>
+            <name>Pontecagnano Air Force Base</name>
+            <code>LIRI</code>
+            <coordinates>40.616667 14.916667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Trevico</_name>
+          <coordinates>41.050000 15.216667</coordinates>
+          <location>
+            <name>Trevico</name>
+            <code>LIRT</code>
+            <coordinates>41.050000 15.233333</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Piedmont</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Case Arfel</_name>
+          <coordinates>44.250000 7.783333</coordinates>
+          <location>
+            <name>Monte Malanotte</name>
+            <code>LIMY</code>
+            <coordinates>44.250000 7.800000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Cuneo</_name>
+          <coordinates>44.383333 7.533333</coordinates>
+          <location>
+            <name>Levaldigi Airport</name>
+            <code>LIMZ</code>
+            <coordinates>44.546389 7.622222</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy.
+               "Turin" is the traditional English name.
+               The local name is "Torino".
+          -->
+          <_name>Turin</_name>
+          <coordinates>45.050000 7.666667</coordinates>
+          <location>
+            <name>Caselle Airport</name>
+            <code>LIMF</code>
+            <coordinates>45.216667 7.650000</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Sicily</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Catania</_name>
+          <coordinates>37.500000 15.100000</coordinates>
+          <location>
+            <name>Fontanarossa Airport</name>
+            <code>LICC</code>
+            <coordinates>37.466667 15.050000</coordinates>
+          </location>
+          <location>
+            <name>Sigonella Airport</name>
+            <code>LICZ</code>
+            <coordinates>37.400000 14.916667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Lampedusa</_name>
           <coordinates>35.500000 12.600000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Latina</_name>
-        <coordinates>41.466667 12.866667</coordinates>
-        <location>
-          <name>Latina</name>
-          <code>LIRL</code>
-          <coordinates>41.550000 12.900000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Lecce</_name>
-        <coordinates>40.383333 18.183333</coordinates>
-        <location>
-          <name>Lecce</name>
-          <code>LIBN</code>
-          <coordinates>40.233333 18.150000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Messina</_name>
-        <coordinates>38.183333 15.566667</coordinates>
-        <location>
-          <name>Messina</name>
-          <code>LICF</code>
-          <coordinates>38.200000 15.550000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy.
-             "Milan" is the traditional English name.
-             The local name in Italian is "Milano".
+          <location>
+            <name>Lampedusa</name>
+            <code>LICD</code>
+            <coordinates>35.500000 12.600000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Messina</_name>
+          <coordinates>38.183333 15.566667</coordinates>
+          <location>
+            <name>Messina</name>
+            <code>LICF</code>
+            <coordinates>38.200000 15.550000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Palermo</_name>
+          <coordinates>38.116667 13.366667</coordinates>
+          <location>
+            <name>Punta Raisi Airport</name>
+            <code>LICJ</code>
+            <coordinates>38.183333 13.100000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Pantelleria</_name>
+          <coordinates>36.833333 11.950000</coordinates>
+          <location>
+            <name>Pantelleria</name>
+            <code>LICG</code>
+            <coordinates>36.816667 11.966667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Trapani</_name>
+          <coordinates>38.016667 12.483333</coordinates>
+          <location>
+            <name>Birgi Airport</name>
+            <code>LICT</code>
+            <coordinates>37.916667 12.500000</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Calabria</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Crotone</_name>
+          <coordinates>39.083333 17.133333</coordinates>
+          <location>
+            <name>Crotone</name>
+            <code>LIBC</code>
+            <coordinates>39.000000 17.066667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Reggio di Calabria</_name>
+          <coordinates>38.100000 15.650000</coordinates>
+          <location>
+            <name>Reggio di Calabria</name>
+            <code>LICR</code>
+            <coordinates>38.066667 15.650000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Sant'Eufemia Lamezia</_name>
+          <coordinates>38.916667 16.250000</coordinates>
+          <location>
+            <name>Lamezia Terme</name>
+            <code>LICA</code>
+            <coordinates>38.900000 16.250000</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Tuscany</_name>
+        <city>
+          <!-- A city in Italy.
+               "Florence" is the traditional English name.
+               The local name in Italian is "Firenze".
           -->
-        <_name>Milan</_name>
-        <coordinates>45.466667 9.200000</coordinates>
-        <location>
-          <name>Linate Airport</name>
-          <code>LIML</code>
-          <coordinates>45.433333 9.283333</coordinates>
-        </location>
-        <location>
-          <name>Malpensa Airport</name>
-          <code>LIMC</code>
-          <coordinates>45.616667 8.733333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Molino di Ancona</_name>
-        <coordinates>43.616667 13.366667</coordinates>
-        <location>
-          <name>Falconara</name>
-          <code>LIPY</code>
-          <coordinates>43.616667 13.366667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy.
-             "Naples" is the traditional English name.
-             The local name in Italian is "Napoli".
+          <_name msgctxt="City in Italy">Florence</_name>
+          <coordinates>43.766667 11.250000</coordinates>
+          <location>
+            <name>Peretola Airport</name>
+            <code>LIRQ</code>
+            <coordinates>43.800000 11.200000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Grosseto</_name>
+          <coordinates>42.766667 11.133333</coordinates>
+          <location>
+            <name>Grosseto</name>
+            <code>LIRS</code>
+            <coordinates>42.750000 11.066667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Lucca</_name>
+          <coordinates>43.825555 10.579156</coordinates>
+          <location>
+            <name>Lucca</name>
+            <code>LIQL</code>
+            <coordinates>43.825555 10.579156</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Palazzo</_name>
+          <coordinates>42.716667 10.383333</coordinates>
+          <location>
+            <name>M. Calamita</name>
+            <code>LIRX</code>
+            <coordinates>42.733333 10.400000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Pisa</_name>
+          <coordinates>43.716667 10.383333</coordinates>
+          <location>
+            <name>S. Giusto Airport</name>
+            <code>LIRP</code>
+            <coordinates>43.683333 10.383333</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Lazio</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Frosinone</_name>
+          <coordinates>41.633333 13.316667</coordinates>
+          <location>
+            <name>Frosinone</name>
+            <code>LIRH</code>
+            <coordinates>41.633333 13.300000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Latina</_name>
+          <coordinates>41.466667 12.866667</coordinates>
+          <location>
+            <name>Latina</name>
+            <code>LIRL</code>
+            <coordinates>41.550000 12.900000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Pratica di Mare</_name>
+          <coordinates>41.666667 12.483333</coordinates>
+          <location>
+            <name>Pratica di Mare</name>
+            <code>LIRE</code>
+            <coordinates>41.650000 12.450000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Rieti</_name>
+          <coordinates>42.400000 12.850000</coordinates>
+          <location>
+            <name>Rieti</name>
+            <code>LIQN</code>
+            <coordinates>42.416667 12.850000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- The capital of Italy.
+               "Rome" is the traditional English name.
+               The local name in Italian is "Roma".
           -->
-        <_name msgctxt="City in Italy">Naples</_name>
-        <coordinates>40.833333 14.250000</coordinates>
-        <location>
-          <name>Capodichino Airport</name>
-          <code>LIRN</code>
-          <coordinates>40.850000 14.300000</coordinates>
-        </location>
-      </city>
-      <city>
+          <_name msgctxt="City in Italy">Rome</_name>
+          <coordinates>41.900000 12.483333</coordinates>
+          <location>
+            <name>Urbe Airport</name>
+            <code>LIRU</code>
+            <coordinates>41.950000 12.500000</coordinates>
+          </location>
+          <location>
+            <name>Ciampino Airport</name>
+            <code>LIRA</code>
+            <coordinates>41.783333 12.583333</coordinates>
+          </location>
+          <location>
+            <name>Roma Fiumicino</name>
+            <code>LIRF</code>
+            <coordinates>41.800000 12.233333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Viterbo</_name>
+          <coordinates>42.416667 12.100000</coordinates>
+          <location>
+            <name>Viterbo</name>
+            <code>LIRV</code>
+            <coordinates>42.433333 12.050000</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Marche</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Ancona</_name>
+          <coordinates>43.616530 13.518780</coordinates>
+          <location>
+            <name>Falconara Airport</name>
+            <code>LIPY</code>
+            <coordinates>43.605950 13.354360</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Umbria</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Perugia</_name>
+          <coordinates>43.133333 12.366667</coordinates>
+          <location>
+            <name>Perugia</name>
+            <code>LIRZ</code>
+            <coordinates>43.083333 12.500000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Salignano</_name>
+          <coordinates>39.833333 18.350000</coordinates>
+          <location>
+            <name>S. Maria di Leuca</name>
+            <code>LIBY</code>
+            <coordinates>39.816667 18.350000</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Abruzzo</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Pescara</_name>
+          <coordinates>42.466667 14.216667</coordinates>
+          <location>
+            <name>Abruzzo International Airport</name>
+            <code>LIBP</code>
+            <coordinates>42.433333 14.200000</coordinates>
+          </location>
+        </city>
+        <city>
         <!-- A city in Italy -->
-        <_name>Olbia</_name>
-        <coordinates>40.916667 9.516667</coordinates>
-        <location>
-          <name>Costa Smeralda Airport</name>
-          <code>LIEO</code>
-          <coordinates>40.900000 9.516667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Palazzo</_name>
-        <coordinates>42.716667 10.383333</coordinates>
-        <location>
-          <name>M. Calamita</name>
-          <code>LIRX</code>
-          <coordinates>42.733333 10.400000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Palermo</_name>
-        <coordinates>38.116667 13.366667</coordinates>
-        <location>
-          <name>Punta Raisi Airport</name>
-          <code>LICJ</code>
-          <coordinates>38.183333 13.100000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Paneveggio</_name>
-        <coordinates>46.300000 11.733333</coordinates>
-        <location>
-          <name>Passo Rolle</name>
-          <code>LIVR</code>
-          <coordinates>46.300000 11.783333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Pantelleria</_name>
-        <coordinates>36.833333 11.950000</coordinates>
-        <location>
-          <name>Pantelleria</name>
-          <code>LICG</code>
-          <coordinates>36.816667 11.966667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Parma</_name>
-        <coordinates>44.800000 10.333333</coordinates>
-        <location>
-          <name>Parma</name>
-          <code>LIMP</code>
-          <coordinates>44.821389 10.294722</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Perugia</_name>
-        <coordinates>43.133333 12.366667</coordinates>
-        <location>
-          <name>Perugia</name>
-          <code>LIRZ</code>
-          <coordinates>43.083333 12.500000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Pescara</_name>
-        <coordinates>42.466667 14.216667</coordinates>
-        <location>
-          <name>Pescara</name>
-          <code>LIBP</code>
-          <coordinates>42.433333 14.200000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Piacenza</_name>
-        <coordinates>45.016667 9.666667</coordinates>
-        <location>
-          <name>Piacenza</name>
-          <code>LIMS</code>
-          <coordinates>44.916667 9.733333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Pisa</_name>
-        <coordinates>43.716667 10.383333</coordinates>
-        <location>
-          <name>S. Giusto Airport</name>
-          <code>LIRP</code>
-          <coordinates>43.683333 10.383333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Pontecagnano</_name>
-        <coordinates>40.633333 14.883333</coordinates>
-        <location>
-          <name>Pontecagnano Air Force Base</name>
-          <code>LIRI</code>
-          <coordinates>40.616667 14.916667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Pratica di Mare</_name>
-        <coordinates>41.666667 12.483333</coordinates>
-        <location>
-          <name>Pratica di Mare</name>
-          <code>LIRE</code>
-          <coordinates>41.650000 12.450000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Reggio di Calabria</_name>
-        <coordinates>38.100000 15.650000</coordinates>
-        <location>
-          <name>Reggio di Calabria</name>
-          <code>LICR</code>
-          <coordinates>38.066667 15.650000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Resia</_name>
-        <coordinates>46.833333 10.516667</coordinates>
-        <location>
-          <name>Resia Pass</name>
-          <code>LIVE</code>
-          <coordinates>46.833333 10.500000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Rieti</_name>
-        <coordinates>42.400000 12.850000</coordinates>
-        <location>
-          <name>Rieti</name>
-          <code>LIQN</code>
-          <coordinates>42.416667 12.850000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Rimini</_name>
-        <coordinates>44.063333 12.580833</coordinates>
-        <location>
-          <name>Rimini</name>
-          <code>LIPR</code>
-          <coordinates>44.033333 12.616667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- The capital of Italy.
-             "Rome" is the traditional English name.
-             The local name in Italian is "Roma".
+          <_name>L'Aquila</_name>
+          <coordinates>42.349838 13.399456</coordinates>
+          <location>
+            <name>Preturo Airport</name>
+            <code>LIAP</code>
+            <coordinates>42.377695 13.311006</coordinates>
+          </location>
+        </city>
+      </province>
+      <province>
+        <!-- An administrative division of Italy -->
+        <_name>Veneto</_name>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Treviso</_name>
+          <coordinates>45.666667 12.245000</coordinates>
+          <location>
+            <name>S. Angelo Airport</name>
+            <code>LIPH</code>
+            <coordinates>45.650000 12.183333</coordinates>
+          </location>
+          <location>
+            <name>Istrana Airport</name>
+            <code>LIPS</code>
+            <coordinates>45.683333 12.100000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy.
+               "Venice" is the traditional English name.
+               The local name in Italian is "Venezia".
           -->
-        <_name msgctxt="City in Italy">Rome</_name>
-        <coordinates>41.900000 12.483333</coordinates>
-        <location>
-          <name>Urbe Airport</name>
-          <code>LIRU</code>
-          <coordinates>41.950000 12.500000</coordinates>
-        </location>
-        <location>
-          <name>Ciampino Airport</name>
-          <code>LIRA</code>
-          <coordinates>41.783333 12.583333</coordinates>
-        </location>
-        <location>
-          <name>Roma Fiumicino</name>
-          <code>LIRF</code>
-          <coordinates>41.800000 12.233333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Ronchi dei Legionari</_name>
-        <coordinates>45.823611 13.509722</coordinates>
-        <location>
-          <name>Ronchi dei Legionari</name>
-          <code>LIPQ</code>
-          <coordinates>45.816667 13.483333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Salignano</_name>
-        <coordinates>39.833333 18.350000</coordinates>
-        <location>
-          <name>S. Maria di Leuca</name>
-          <code>LIBY</code>
-          <coordinates>39.816667 18.350000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>San Stèfano</_name>
-        <coordinates>39.107500 9.506111</coordinates>
-        <location>
-          <name>Capo Carbonara</name>
-          <code>LIEC</code>
-          <coordinates>39.100000 9.516667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Sant'Eufemia Lamezia</_name>
-        <coordinates>38.916667 16.250000</coordinates>
-        <location>
-          <name>Lamezia Terme</name>
-          <code>LICA</code>
-          <coordinates>38.900000 16.250000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Sporminore</_name>
-        <coordinates>46.166667 11.033333</coordinates>
-        <location>
-          <name>Paganella</name>
-          <code>LIVP</code>
-          <coordinates>46.150000 11.033333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Tamaricciola</_name>
-        <coordinates>41.416667 15.733333</coordinates>
-        <location>
-          <name>Amendola</name>
-          <code>LIBA</code>
-          <coordinates>41.533333 15.716667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Tarvisio</_name>
-        <coordinates>46.510833 13.594167</coordinates>
-        <location>
-          <name>Tarvisio</name>
-          <code>LIVO</code>
-          <coordinates>46.500000 13.583333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Trapani</_name>
-        <coordinates>38.016667 12.483333</coordinates>
-        <location>
-          <name>Birgi Airport</name>
-          <code>LICT</code>
-          <coordinates>37.916667 12.500000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Trevico</_name>
-        <coordinates>41.050000 15.216667</coordinates>
-        <location>
-          <name>Trevico</name>
-          <code>LIRT</code>
-          <coordinates>41.050000 15.233333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Treviso</_name>
-        <coordinates>45.666667 12.245000</coordinates>
-        <location>
-          <name>S. Angelo Airport</name>
-          <code>LIPH</code>
-          <coordinates>45.650000 12.183333</coordinates>
-        </location>
-        <location>
-          <name>Istrana Airport</name>
-          <code>LIPS</code>
-          <coordinates>45.683333 12.100000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Trieste</_name>
-        <coordinates>45.648611 13.780000</coordinates>
-        <location>
-          <name>Trieste</name>
-          <code>LIVT</code>
-          <coordinates>45.650000 13.750000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy.
-             "Turin" is the traditional English name.
-             The local name is "Torino".
-          -->
-        <_name>Turin</_name>
-        <coordinates>45.050000 7.666667</coordinates>
-        <location>
-          <name>Caselle Airport</name>
-          <code>LIMF</code>
-          <coordinates>45.216667 7.650000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy.
-             "Venice" is the traditional English name.
-             The local name in Italian is "Venezia".
-          -->
-        <_name>Venice</_name>
-        <coordinates>45.438611 12.326667</coordinates>
-        <location>
-          <name>Tessera Airport</name>
-          <code>LIPZ</code>
-          <coordinates>45.500000 12.333333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Verona</_name>
-        <coordinates>45.450000 11.000000</coordinates>
-        <location>
-          <name>Villafranca Airport</name>
-          <code>LIPX</code>
-          <coordinates>45.383333 10.866667</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Viterbo</_name>
-        <coordinates>42.416667 12.100000</coordinates>
-        <location>
-          <name>Viterbo</name>
-          <code>LIRV</code>
-          <coordinates>42.433333 12.050000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Italy -->
-        <_name>Àrbatax</_name>
-        <coordinates>39.934444 9.705556</coordinates>
-        <location>
-          <name>Capo Bellavista</name>
-          <code>LIEB</code>
-          <coordinates>39.933333 9.716667</coordinates>
-        </location>
-      </city>
+          <_name>Venice</_name>
+          <coordinates>45.438611 12.326667</coordinates>
+          <location>
+            <name>Tessera Airport</name>
+            <code>LIPZ</code>
+            <coordinates>45.500000 12.333333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Verona</_name>
+          <coordinates>45.450000 11.000000</coordinates>
+          <location>
+            <name>Villafranca Airport</name>
+            <code>LIPX</code>
+            <coordinates>45.383333 10.866667</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Italy -->
+          <_name>Vicenza</_name>
+          <coordinates>45.54765 11.54537</coordinates>
+          <location>
+             <name>Dal Molin Military Airport</name>
+             <code>LIPT</code>
+             <coordinates>45.566667 11.516667</coordinates>
+          </location>
+        </city>
+      </province>
     </country>
     <country>
       <!-- JE - The Bailiwick of Jersey, a British Crown dependency -->
@@ -16462,7 +16853,6 @@
         <location>
           <name>Jersey Airport</name>
           <code>EGJJ</code>
-          <zone>:centralsouthern</zone>
           <coordinates>49.216667 -2.200000</coordinates>
         </location>
       </city>
@@ -16473,7 +16863,6 @@
         <location>
           <name>Jersey Airport</name>
           <code>EGJJ</code>
-          <zone>:centralsouthern</zone>
           <coordinates>49.216667 -2.200000</coordinates>
         </location>
       </city>
@@ -17896,7 +18285,7 @@
         -->
       <!-- Could not find weather stations for the following major
            cities:
-           Balakovo, Izhevsk, Komsomol'sk, Sarapul, Serpukhov, Tambov,
+           Balakovo, Komsomol'sk, Sarapul, Serpukhov, Tambov,
            Tomsk, Tula, Tver', Yoshkar-Ola
         -->
       <iso-code>RU</iso-code>
@@ -18003,10 +18392,10 @@
           -->
         <_name>Abakan</_name>
         <coordinates>53.715556 91.429167</coordinates>
+        <tz-hint>Asia/Krasnoyarsk</tz-hint>
         <location>
           <name>Abakan</name>
           <code>UNAA</code>
-          <tz-hint>Asia/Krasnoyarsk</tz-hint>
           <coordinates>53.750000 91.400000</coordinates>
         </location>
       </city>
@@ -18016,10 +18405,10 @@
           -->
         <_name>Adler</_name>
         <coordinates>43.431111 39.923611</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Adler</name>
           <code>URSS</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>43.433333 39.900000</coordinates>
         </location>
       </city>
@@ -18029,10 +18418,10 @@
           -->
         <_name>Anadyr'</_name>
         <coordinates>64.750000 177.483333</coordinates>
+        <tz-hint>Asia/Kamchatka</tz-hint>
         <location>
           <name>Anadyr'</name>
           <code>UHMA</code>
-          <tz-hint>Asia/Kamchatka</tz-hint>
           <coordinates>64.783333 177.566667</coordinates>
         </location>
       </city>
@@ -18042,10 +18431,10 @@
           -->
         <_name>Anapa</_name>
         <coordinates>44.894444 37.321667</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Anapa / Vitiazevo</name>
           <code>URKA</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>44.900000 37.316667</coordinates>
         </location>
       </city>
@@ -18055,10 +18444,10 @@
           -->
         <_name>Arkhangel'sk</_name>
         <coordinates>64.547222 40.548611</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Arhangel'sk</name>
           <code>ULAA</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>64.500000 40.733333</coordinates>
         </location>
       </city>
@@ -18068,10 +18457,10 @@
           -->
         <_name>Astrakhan'</_name>
         <coordinates>46.349444 48.049167</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Astrakhan'</name>
           <code>URWA</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>46.283333 48.006389</coordinates>
         </location>
       </city>
@@ -18081,10 +18470,10 @@
           -->
         <_name>Barnaul</_name>
         <coordinates>53.360556 83.763611</coordinates>
+        <tz-hint>Asia/Omsk</tz-hint>
         <location>
           <name>Barnaul</name>
           <code>UNBB</code>
-          <tz-hint>Asia/Omsk</tz-hint>
           <coordinates>53.433333 83.516667</coordinates>
         </location>
       </city>
@@ -18094,10 +18483,10 @@
           -->
         <_name>Bratsk</_name>
         <coordinates>56.350000 101.916667</coordinates>
+        <tz-hint>Asia/Irkutsk</tz-hint>
         <location>
           <name>Bratsk / Irkutsk</name>
           <code>UIBB</code>
-          <tz-hint>Asia/Irkutsk</tz-hint>
           <coordinates>56.370833 101.698611</coordinates>
         </location>
       </city>
@@ -18107,10 +18496,10 @@
           -->
         <_name>Bryansk</_name>
         <coordinates>53.287500 34.380556</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Bryansk</name>
           <code>UUBP</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>53.250000 34.316667</coordinates>
         </location>
       </city>
@@ -18120,10 +18509,10 @@
           -->
         <_name>Chelyabinsk</_name>
         <coordinates>55.154444 61.429722</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Chelyabinsk-Balandino</name>
           <code>USCC</code>
-          <tz-hint>Asia/Yekaterinburg</tz-hint>
           <coordinates>55.166667 61.400000</coordinates>
         </location>
       </city>
@@ -18133,10 +18522,10 @@
           -->
         <_name>Chita</_name>
         <coordinates>52.031712 113.500867</coordinates>
+        <tz-hint>Asia/Yakutsk</tz-hint>
         <location>
           <name>Chita</name>
           <code>UIAA</code>
-          <tz-hint>Asia/Yakutsk</tz-hint>
           <coordinates>52.083333 113.483333</coordinates>
         </location>
       </city>
@@ -18146,10 +18535,10 @@
           -->
         <_name>Chul'man</_name>
         <coordinates>56.846944 124.906111</coordinates>
+        <tz-hint>Asia/Yakutsk</tz-hint>
         <location>
           <name>Cul'man</name>
           <code>UELL</code>
-          <tz-hint>Asia/Yakutsk</tz-hint>
           <coordinates>56.833333 124.866667</coordinates>
         </location>
       </city>
@@ -18159,10 +18548,10 @@
           -->
         <_name>Engel's</_name>
         <coordinates>51.483889 46.105278</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Saratov, Tsentralny Airport</name>
           <code>UWSS</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>51.570000 46.070000</coordinates>
         </location>
       </city>
@@ -18172,11 +18561,24 @@
           -->
         <_name>Irkutsk</_name>
         <coordinates>52.297778 104.296389</coordinates>
+        <tz-hint>Asia/Irkutsk</tz-hint>
         <location>
           <name>Irkutsk</name>
           <code>UIII</code>
-          <tz-hint>Asia/Irkutsk</tz-hint>
           <coordinates>52.266667 104.316667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Russia.
+             The local name in Russian is "Иже́вск".
+          -->
+        <_name>Izhevsk</_name>
+        <coordinates>56.833333 53.183333</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
+        <location>
+          <name>Izhevsk</name>
+          <code>USII</code>
+          <coordinates>56.833333 53.183333</coordinates>
         </location>
       </city>
       <city>
@@ -18185,10 +18587,10 @@
           -->
         <_name>Kaliningrad</_name>
         <coordinates>54.710000 20.500000</coordinates>
+        <tz-hint>Europe/Kaliningrad</tz-hint>
         <location>
           <name>Khrabrovo Airport</name>
           <code>UMKK</code>
-          <tz-hint>Europe/Kaliningrad</tz-hint>
           <coordinates>54.720000 20.500000</coordinates>
         </location>
       </city>
@@ -18198,10 +18600,10 @@
           -->
         <_name>Kazan'</_name>
         <coordinates>55.750000 49.133333</coordinates>
+        <tz-hint>Europe/Samara</tz-hint>
         <location>
           <name>Kazan'</name>
           <code>UWKD</code>
-          <tz-hint>Europe/Samara</tz-hint>
           <coordinates>55.783333 49.200000</coordinates>
         </location>
       </city>
@@ -18211,10 +18613,10 @@
           -->
         <_name>Kemerovo</_name>
         <coordinates>55.333333 86.083333</coordinates>
+        <tz-hint>Asia/Krasnoyarsk</tz-hint>
         <location>
           <name>Kemerovo</name>
           <code>UNEE</code>
-          <tz-hint>Asia/Krasnoyarsk</tz-hint>
           <coordinates>55.330000 86.080000</coordinates>
         </location>
       </city>
@@ -18224,10 +18626,10 @@
           -->
         <_name>Khabarovsk</_name>
         <coordinates>48.480833 135.092778</coordinates>
+        <tz-hint>Asia/Vladivostok</tz-hint>
         <location>
           <name>Habarovsk</name>
           <code>UHHH</code>
-          <tz-hint>Asia/Vladivostok</tz-hint>
           <coordinates>48.516667 135.166667</coordinates>
         </location>
       </city>
@@ -18237,6 +18639,7 @@
           -->
         <_name>Khanty-Mansiysk</_name>
         <coordinates>61.004167 69.001944</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Hanty-Mansijsk</name>
           <code>USHH</code>
@@ -18249,10 +18652,10 @@
           -->
         <_name>Krasnodar</_name>
         <coordinates>45.032778 38.976944</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Krasnodar</name>
           <code>URKK</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>45.033333 39.150000</coordinates>
         </location>
       </city>
@@ -18262,10 +18665,10 @@
 	 -->
         <_name>Krasnoyarsk</_name>
         <coordinates>56.016667 93.066667</coordinates>
+        <tz-hint>Asia/Krasnoyarsk</tz-hint>
         <location>
           <name>Krasnoyarsk</name>
           <code>UNKL</code>
-          <tz-hint>Asia/Krasnoyarsk</tz-hint>
           <coordinates>56.016667 93.066667</coordinates>
         </location>
       </city>
@@ -18275,10 +18678,10 @@
           -->
         <_name>Magadan</_name>
         <coordinates>59.566667 150.800000</coordinates>
+        <tz-hint>Asia/Magadan</tz-hint>
         <location>
           <name>Magadan</name>
           <code>UHMM</code>
-          <tz-hint>Asia/Magadan</tz-hint>
           <coordinates>59.550000 150.783333</coordinates>
         </location>
       </city>
@@ -18288,10 +18691,10 @@
           -->
         <_name>Mineral'nyye Vody</_name>
         <coordinates>44.210278 43.135278</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Mineral'nye Vody</name>
           <code>URMM</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>44.233333 43.066667</coordinates>
         </location>
       </city>
@@ -18301,10 +18704,10 @@
           -->
         <_name>Mirnyy</_name>
         <coordinates>62.535278 113.961111</coordinates>
+        <tz-hint>Asia/Yakutsk</tz-hint>
         <location>
           <name>Mirny</name>
           <code>UERR</code>
-          <tz-hint>Asia/Yakutsk</tz-hint>
           <coordinates>62.530000 114.030000</coordinates>
         </location>
       </city>
@@ -18315,22 +18718,20 @@
           -->
         <_name msgctxt="City in Russia">Moscow</_name>
         <coordinates>55.752222 37.615556</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Vnukovo Airport</name>
           <code>UUWW</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>55.650000 37.266667</coordinates>
         </location>
         <location>
           <name>Sheremet'ye Airport</name>
           <code>UUEE</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>55.983333 37.500000</coordinates>
         </location>
         <location>
           <name>Domodedovo Airport</name>
           <code>UUDD</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>55.400000 37.900000</coordinates>
         </location>
       </city>
@@ -18340,10 +18741,10 @@
           -->
         <_name>Murmansk</_name>
         <coordinates>68.971667 33.081944</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Murmansk</name>
           <code>ULMM</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>68.966667 33.050000</coordinates>
         </location>
       </city>
@@ -18353,10 +18754,10 @@
           -->
         <_name>Nal'chik</_name>
         <coordinates>43.498056 43.618889</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Nal'chik</name>
           <code>URMN</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>43.512778 43.636667</coordinates>
         </location>
       </city>
@@ -18366,10 +18767,10 @@
           -->
         <_name>Nizhnevartovsk</_name>
         <coordinates>60.933333 76.566667</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Nizhnevartovsk</name>
           <code>USNN</code>
-          <tz-hint>Asia/Yekaterinburg</tz-hint>
           <coordinates>60.933333 76.483333</coordinates>
         </location>
       </city>
@@ -18379,10 +18780,10 @@
           -->
         <_name>Novokuznetsk</_name>
         <coordinates>53.750000 87.100000</coordinates>
+        <tz-hint>Asia/Krasnoyarsk</tz-hint>
         <location>
           <name>Novokuznetsk</name>
           <code>UNWW</code>
-          <tz-hint>Asia/Krasnoyarsk</tz-hint>
           <coordinates>53.733333 87.183333</coordinates>
         </location>
       </city>
@@ -18392,10 +18793,10 @@
           -->
         <_name>Novosibirsk</_name>
         <coordinates>55.041111 82.934444</coordinates>
+        <tz-hint>Asia/Omsk</tz-hint>
         <location>
           <name>Novosibirsk</name>
           <code>UNNT</code>
-          <tz-hint>Asia/Omsk</tz-hint>
           <coordinates>55.083333 82.900000</coordinates>
         </location>
       </city>
@@ -18405,10 +18806,10 @@
           -->
         <_name>Omsk</_name>
         <coordinates>55.000000 73.400000</coordinates>
+        <tz-hint>Asia/Omsk</tz-hint>
         <location>
           <name>Omsk</name>
           <code>UNOO</code>
-          <tz-hint>Asia/Omsk</tz-hint>
           <coordinates>54.966667 73.300000</coordinates>
         </location>
       </city>
@@ -18418,10 +18819,10 @@
           -->
         <_name>Orenburg</_name>
         <coordinates>51.784722 55.098611</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Tsentralny Airport</name>
           <code>UWOO</code>
-          <tz-hint>Asia/Yekaterinburg</tz-hint>
           <coordinates>51.780000 55.120000</coordinates>
         </location>
       </city>
@@ -18431,10 +18832,10 @@
           -->
         <_name>Penza</_name>
         <coordinates>53.195833 45.000000</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Penza</name>
           <code>UWPP</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>53.116667 45.016667</coordinates>
         </location>
       </city>
@@ -18444,10 +18845,10 @@
           -->
         <_name>Perm'</_name>
         <coordinates>58.000000 56.250000</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Bolshoe Savino Airport</name>
           <code>USPP</code>
-          <tz-hint>Asia/Yekaterinburg</tz-hint>
           <coordinates>58.000000 56.250000</coordinates>
         </location>
       </city>
@@ -18457,10 +18858,10 @@
           -->
         <_name>Petropavlovsk</_name>
         <coordinates>53.016667 158.650000</coordinates>
+        <tz-hint>Asia/Kamchatka</tz-hint>
         <location>
           <name>Petropavlovsk-Kamchatskij</name>
           <code>UHPP</code>
-          <tz-hint>Asia/Kamchatka</tz-hint>
           <coordinates>53.083333 158.583333</coordinates>
         </location>
       </city>
@@ -18470,11 +18871,22 @@
           -->
         <_name>Rostov</_name>
         <coordinates>47.236389 39.713889</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Rostov</name>
           <code>URRR</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>47.266667 39.816667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Russia -->
+        <_name>Rybinsk</_name>
+        <coordinates>58.050000 38.833333</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
+        <location>
+          <name>Staroselye</name>
+          <code>UUBK</code>
+          <coordinates>58.101667 38.925000</coordinates>
         </location>
       </city>
       <city>
@@ -18485,10 +18897,10 @@
           -->
         <_name>Saint Petersburg</_name>
         <coordinates>59.894444 30.264167</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>St. Peterburg</name>
           <code>ULLI</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>59.966667 30.300000</coordinates>
         </location>
       </city>
@@ -18498,10 +18910,10 @@
           -->
         <_name>Samara</_name>
         <coordinates>53.200000 50.150000</coordinates>
+        <tz-hint>Europe/Samara</tz-hint>
         <location>
           <name>Samara</name>
           <code>UWWW</code>
-          <tz-hint>Europe/Samara</tz-hint>
           <coordinates>53.200000 50.150000</coordinates>
         </location>
       </city>
@@ -18509,10 +18921,10 @@
         <!-- A city in Russia -->
         <_name>Saratov</_name>
         <coordinates>51.540556 46.008611</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Tsentralny Airport</name>
           <code>UWSS</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>51.570000 46.070000</coordinates>
         </location>
       </city>
@@ -18522,10 +18934,10 @@
           -->
         <_name>Stavropol'</_name>
         <coordinates>45.042778 41.973333</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Stavropol' / Mikhaylovsk</name>
           <code>URMT</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>45.333333 42.000000</coordinates>
         </location>
       </city>
@@ -18535,10 +18947,10 @@
           -->
         <_name>Strigino</_name>
         <coordinates>56.202778 43.798611</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Nizhny Novgorod, Strigino Airport</name>
           <code>UWGG</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>56.330000 44.000000</coordinates>
         </location>
       </city>
@@ -18548,10 +18960,10 @@
           -->
         <_name>Surgut</_name>
         <coordinates>61.250000 73.416667</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Surgut</name>
           <code>USRR</code>
-          <tz-hint>Asia/Yekaterinburg</tz-hint>
           <coordinates>61.250000 73.500000</coordinates>
         </location>
       </city>
@@ -18559,10 +18971,10 @@
         <!-- A city in Russia -->
         <_name>Syktyvkar</_name>
         <coordinates>61.666667 50.812222</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Syktyvkar</name>
           <code>UUYY</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>61.716667 50.833333</coordinates>
         </location>
       </city>
@@ -18570,21 +18982,32 @@
         <!-- A city in Russia -->
         <_name>Tiksi</_name>
         <coordinates>71.687222 128.869444</coordinates>
+        <tz-hint>Asia/Yakutsk</tz-hint>
         <location>
           <name>Tiksi</name>
           <code>UEST</code>
-          <tz-hint>Asia/Yakutsk</tz-hint>
           <coordinates>71.700000 128.900000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Russia -->
+        <_name>Tomsk</_name>
+        <coordinates>56.5 84.9667</coordinates>
+        <location>
+          <name>Tomsk</name>
+          <code>UNTT</code>
+          <tz-hint>Asia/Omsk</tz-hint>
+          <coordinates>56.5 84.9667</coordinates>
         </location>
       </city>
       <city>
         <!-- A city in Russia -->
         <_name>Tyumen</_name>
         <coordinates>57.15 65.533333</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Tyumen</name>
           <code>USTR</code>
-          <tz-hint>Asia/Yekaterinburg</tz-hint>
           <coordinates>57.181828 65.35024</coordinates>
         </location>
       </city>
@@ -18592,10 +19015,10 @@
         <!-- A city in Russia -->
         <_name>Udachnyy</_name>
         <coordinates>66.416667 112.400000</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Polyarny</name>
           <code>UERP</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>66.400556 112.030278</coordinates>
         </location>
       </city>
@@ -18603,10 +19026,10 @@
         <!-- A city in Russia -->
         <_name>Ufa</_name>
         <coordinates>54.775000 56.037500</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Ufa</name>
           <code>UWUU</code>
-          <tz-hint>Asia/Yekaterinburg</tz-hint>
           <coordinates>54.730000 55.930000</coordinates>
         </location>
       </city>
@@ -18614,6 +19037,7 @@
         <!-- A city in Russia -->
         <_name>Ul'yanovsk</_name>
         <coordinates>54.316944 48.366111</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Ul'yanovsk</name>
           <code>UWLW</code>
@@ -18624,10 +19048,10 @@
         <!-- A city in Russia -->
         <_name>Ulan-Ude</_name>
         <coordinates>51.826053 107.609794</coordinates>
+        <tz-hint>Asia/Irkutsk</tz-hint>
         <location>
           <name>Ulan-Ude</name>
           <code>UIUU</code>
-          <tz-hint>Asia/Irkutsk</tz-hint>
           <coordinates>51.833333 107.600000</coordinates>
         </location>
       </city>
@@ -18635,10 +19059,10 @@
         <!-- A city in Russia -->
         <_name>Velikiye Luki</_name>
         <coordinates>56.340000 30.534722</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Velikiye Luki</name>
           <code>ULOL</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>56.350000 30.616667</coordinates>
         </location>
       </city>
@@ -18646,10 +19070,10 @@
         <!-- A city in Russia -->
         <_name>Vladivostok</_name>
         <coordinates>43.128056 131.901111</coordinates>
+        <tz-hint>Asia/Vladivostok</tz-hint>
         <location>
           <name>Vladivostok</name>
           <code>UHWW</code>
-          <tz-hint>Asia/Vladivostok</tz-hint>
           <coordinates>43.116667 131.933333</coordinates>
         </location>
       </city>
@@ -18657,10 +19081,10 @@
         <!-- A city in Russia -->
         <_name>Volgograd</_name>
         <coordinates>48.804722 44.585833</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Volgograd</name>
           <code>URWW</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>48.783333 44.366667</coordinates>
         </location>
       </city>
@@ -18668,10 +19092,10 @@
         <!-- A city in Russia -->
         <_name>Voronezh</_name>
         <coordinates>51.669905 39.192267</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
         <location>
           <name>Voronez</name>
           <code>UUOO</code>
-          <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>51.650000 39.250000</coordinates>
         </location>
       </city>
@@ -18679,21 +19103,32 @@
         <!-- A city in Russia -->
         <_name>Yakutsk</_name>
         <coordinates>62.033889 129.733056</coordinates>
+        <tz-hint>Asia/Yakutsk</tz-hint>
         <location>
           <name>Jakutsk</name>
           <code>UEEE</code>
-          <tz-hint>Asia/Yakutsk</tz-hint>
           <coordinates>62.016667 129.716667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Russia -->
+        <_name>Yaroslavl</_name>
+        <coordinates>57.616667 39.850000</coordinates>
+        <tz-hint>Europe/Moscow</tz-hint>
+        <location>
+          <name>Tunonsha</name>
+          <code>UUDL</code>
+          <coordinates>57.560556 40.157222</coordinates>
         </location>
       </city>
       <city>
         <!-- A city in Russia -->
         <_name>Yekaterinburg</_name>
         <coordinates>56.857500 60.612500</coordinates>
+        <tz-hint>Asia/Yekaterinburg</tz-hint>
         <location>
           <name>Yekaterinburg</name>
           <code>USSS</code>
-          <tz-hint>Asia/Yekaterinburg</tz-hint>
           <coordinates>56.833333 60.633333</coordinates>
         </location>
       </city>
@@ -18701,10 +19136,10 @@
         <!-- A city in Russia -->
         <_name>Yuzhno-Sakhalinsk</_name>
         <coordinates>46.958116 142.733665</coordinates>
+        <tz-hint>Asia/Vladivostok</tz-hint>
         <location>
           <name>Yuzhno-Sakhalinsk</name>
           <code>UHSS</code>
-          <tz-hint>Asia/Vladivostok</tz-hint>
           <coordinates>46.950000 142.716667</coordinates>
         </location>
       </city>
@@ -18817,6 +19252,16 @@
       </city>
       <city>
         <!-- A city in Slovakia -->
+        <_name>Dubnica nad Váhom</_name>
+        <coordinates>48.996944 18.1922222</coordinates>
+        <location>
+          <name>Dubnica nad Váhom</name>
+          <code>LZDB</code>
+          <coordinates>48.996944 18.1922222</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
         <_name>Kamenica nad Cirochou</_name>
         <coordinates>48.933333 22.000000</coordinates>
         <location>
@@ -18847,12 +19292,42 @@
       </city>
       <city>
         <!-- A city in Slovakia -->
+        <_name>Martin</_name>
+        <coordinates>49.065277 18.950833</coordinates>
+        <location>
+          <name>Martin</name>
+          <code>LZMA</code>
+          <coordinates>49.065277 18.950833</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
         <_name>Nitra</_name>
         <coordinates>48.316667 18.083333</coordinates>
         <location>
           <name>Nitra</name>
           <code>LZNI</code>
           <coordinates>48.279444 18.132778</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
+        <_name>Nové Zámky</_name>
+        <coordinates>47.960833 18.186111</coordinates>
+        <location>
+          <name>Nové Zámky</name>
+          <code>LZNZ</code>
+          <coordinates>47.960833 18.186111</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
+        <_name>Partizánske</_name>
+        <coordinates>48.620278 18.333333</coordinates>
+        <location>
+          <name>Partizánske</name>
+          <code>LZPT</code>
+          <coordinates>48.620278 18.333333</coordinates>
         </location>
       </city>
       <city>
@@ -18877,6 +19352,16 @@
       </city>
       <city>
         <!-- A city in Slovakia -->
+        <_name>Prešov</_name>
+        <coordinates>49.026944 21.310833</coordinates>
+        <location>
+          <name>Prešov</name>
+          <code>LZPW</code>
+          <coordinates>49.026944 21.310833</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
         <_name>Prievidza</_name>
         <coordinates>48.766667 18.633333</coordinates>
         <location>
@@ -18887,12 +19372,62 @@
       </city>
       <city>
         <!-- A city in Slovakia -->
+        <_name>Ružomberok</_name>
+        <coordinates>49.085833 19.370278</coordinates>
+        <location>
+          <name>Ružomberok</name>
+          <code>LZRU</code>
+          <coordinates>49.085833 19.370278</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
         <_name>Sliač</_name>
         <coordinates>48.616667 19.183333</coordinates>
         <location>
           <name>Sliač</name>
           <code>LZSL</code>
           <coordinates>48.638056 19.134167</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
+        <_name>Spišská Nová Ves</_name>
+        <coordinates>48.940833 20.533889</coordinates>
+        <location>
+          <name>Spišská Nová Ves</name>
+          <code>LZSV</code>
+          <coordinates>48.940833 20.533889</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
+        <_name>Svidník</_name>
+        <coordinates>49.334167 21.570278</coordinates>
+        <location>
+          <name>Svidník</name>
+          <code>LZSK</code>
+          <coordinates>49.334167 21.570278</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
+        <_name>Trenčín</_name>
+        <coordinates>48.865000 17.9922222</coordinates>
+        <location>
+          <name>Trenčín</name>
+          <code>LZTN</code>
+          <coordinates>48.865000 17.9922222</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Slovakia -->
+        <_name>Žilina</_name>
+        <coordinates>49.233333 18.613611</coordinates>
+        <location>
+          <name>Žilina</name>
+          <code>LZZI</code>
+          <coordinates>49.233333 18.613611</coordinates>
         </location>
       </city>
     </country>
@@ -19000,6 +19535,16 @@
           <name>Murcia Airport</name>
           <code>LERI</code>
           <coordinates>37.950000 -1.233333</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Spain -->
+        <_name>Alcorcón</_name>
+        <coordinates>40.347198 -3.828406</coordinates>
+        <location>
+          <name>Madrid Airport</name>
+          <code>LECU</code>
+          <coordinates>40.347198 -3.828406</coordinates>
         </location>
       </city>
       <city>
@@ -19137,6 +19682,16 @@
       </city>
       <city>
         <!-- A city in Spain -->
+        <_name>Fuenlabrada</_name>
+        <coordinates>40.290133 -3.803258</coordinates>
+        <location>
+          <name>Getafe Airport</name>
+          <code>LEGT</code>
+          <coordinates>40.290133 -3.803258</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Spain -->
         <_name>Fuenterrabía</_name>
         <coordinates>43.366667 -1.783333</coordinates>
         <location>
@@ -19219,6 +19774,16 @@
       </city>
       <city>
         <!-- A city in Spain -->
+        <_name>Leganés</_name>
+        <coordinates>40.331628 -3.768682</coordinates>
+        <location>
+          <name>Getafe Airport</name>
+          <code>LEGT</code>
+          <coordinates>40.331628 -3.768682</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Spain -->
         <_name msgctxt="City in Spain">León</_name>
         <coordinates>42.600000 -5.566667</coordinates>
         <location>
@@ -19286,6 +19851,16 @@
           <name>Morón</name>
           <code>LEMO</code>
           <coordinates>37.150000 -5.616667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Spain -->
+        <_name>Móstoles</_name>
+        <coordinates>40.322729 -3.86447</coordinates>
+        <location>
+          <name>Madrid Airport</name>
+          <code>LECU</code>
+          <coordinates>40.322729 -3.86447</coordinates>
         </location>
       </city>
       <city>
@@ -19446,6 +20021,7 @@
         <location>
           <name>Vigo Airport, Peinador</name>
           <code>LEVX</code>
+          <yahoo-woeid>777341</yahoo-woeid>
           <coordinates>42.216667 -8.633333</coordinates>
         </location>
       </city>
@@ -20473,7 +21049,7 @@
           <location>
             <name>Benson</name>
             <code>EGUB</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.616667 -1.083333</coordinates>
           </location>
         </city>
@@ -20486,7 +21062,7 @@
           <location>
             <name>Biggin Hill</name>
             <code>EGKB</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.316667 0.033333</coordinates>
           </location>
         </city>
@@ -20499,7 +21075,7 @@
           <location>
             <name>Brize Norton</name>
             <code>EGVN</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.750000 -1.583333</coordinates>
           </location>
         </city>
@@ -20512,7 +21088,7 @@
           <location>
             <name>Cambridge</name>
             <code>EGSC</code>
-            <zone>:eastern</zone>
+            <zone>:ee</zone>
             <coordinates>52.200000 0.183333</coordinates>
           </location>
         </city>
@@ -20547,19 +21123,19 @@
           <location>
             <name>Heathrow Airport</name>
             <code>EGLL</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.483333 -0.450000</coordinates>
           </location>
           <location>
             <name>London City Airport</name>
             <code>EGLC</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.500000 -0.500000</coordinates>
           </location>
           <location>
             <name>Gatwick Airport</name>
             <code>EGKK</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.150000 -0.183333</coordinates>
           </location>
         </city>
@@ -20572,7 +21148,7 @@
           <location>
             <name>Luton Airport</name>
             <code>EGGW</code>
-            <zone>:southeast</zone>
+            <zone>:ee</zone>
             <coordinates>51.866667 -0.366667</coordinates>
           </location>
         </city>
@@ -20645,7 +21221,7 @@
           <location>
             <name>Norwich Weather Centre</name>
             <code>EGSH</code>
-            <zone>:eastern</zone>
+            <zone>:ee</zone>
             <coordinates>52.633333 1.300000</coordinates>
           </location>
         </city>
@@ -20670,7 +21246,7 @@
           <location>
             <name>Shoreham-by-Sea Airport</name>
             <code>EGKA</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>50.833333 -0.283333</coordinates>
           </location>
         </city>
@@ -20683,7 +21259,7 @@
           <location>
             <name>Southampton / Weather Centre</name>
             <code>EGHI</code>
-            <zone>:centralsouthern</zone>
+            <zone>:se</zone>
             <coordinates>50.900000 -1.400000</coordinates>
           </location>
         </city>
@@ -20696,7 +21272,7 @@
           <location>
             <name>Southend</name>
             <code>EGMC</code>
-            <zone>:southeast</zone>
+            <zone>:ee</zone>
             <coordinates>51.566667 0.700000</coordinates>
           </location>
         </city>
@@ -20709,7 +21285,7 @@
           <location>
             <name>Stansted Mountfitchet Airport</name>
             <code>EGSS</code>
-            <zone>:southeast</zone>
+            <zone>:ee</zone>
             <coordinates>51.883333 0.233333</coordinates>
           </location>
         </city>
@@ -20729,12 +21305,12 @@
           <!-- A city in East and South East England in the United
                Kingdom
             -->
-          <_name>Wattisham</_name>
-          <coordinates>52.116667 0.950000</coordinates>
+          <_name>Ipswich</_name>
+          <coordinates>52.0700 1.1400</coordinates>
           <location>
             <name>Wattisham</name>
             <code>EGUW</code>
-            <zone>:eastern</zone>
+            <zone>:ee</zone>
             <coordinates>52.116667 0.966667</coordinates>
           </location>
         </city>
@@ -20773,7 +21349,7 @@
           <location>
             <name>Birmingham Airport</name>
             <code>EGBB</code>
-            <zone>:midlands</zone>
+            <zone>:wm</zone>
             <coordinates>52.450000 -1.733333</coordinates>
           </location>
         </city>
@@ -20784,7 +21360,7 @@
           <location>
             <name>East Midlands</name>
             <code>EGNX</code>
-            <zone>:midlands</zone>
+            <zone>:em</zone>
             <coordinates>52.833333 -1.333333</coordinates>
           </location>
         </city>
@@ -20815,7 +21391,7 @@
           <location>
             <name>Cranfield</name>
             <code>EGTC</code>
-            <zone>:eastern</zone>
+            <zone>:ee</zone>
             <coordinates>52.066667 -0.616667</coordinates>
           </location>
         </city>
@@ -20861,7 +21437,7 @@
           <location>
             <name>Newcastle</name>
             <code>EGNT</code>
-            <zone>:northern</zone>
+            <zone>:ne</zone>
             <coordinates>55.033333 -1.700000</coordinates>
           </location>
         </city>
@@ -20872,7 +21448,6 @@
           <location>
             <name>Tees-Side</name>
             <code>EGNV</code>
-            <zone>:northern</zone>
             <coordinates>54.516667 -1.416667</coordinates>
           </location>
         </city>
@@ -20909,7 +21484,7 @@
           <location>
             <name>Blackpool Airport</name>
             <code>EGNH</code>
-            <zone>:northwest</zone>
+            <zone>:nw</zone>
             <coordinates>53.766667 -3.033333</coordinates>
           </location>
         </city>
@@ -20920,12 +21495,13 @@
           <location>
             <name>Carlisle</name>
             <code>EGNC</code>
-            <zone>:northwest</zone>
+            <zone>:nw</zone>
             <coordinates>54.933333 -2.950000</coordinates>
           </location>
           <location>
             <name>Spadeadam</name>
             <code>EGOM</code>
+            <zone>:nw</zone>
             <coordinates>55.050000 -2.550000</coordinates>
           </location>
         </city>
@@ -20946,7 +21522,6 @@
           <location>
             <name>Humberside</name>
             <code>EGNJ</code>
-            <zone>:northern</zone>
             <coordinates>53.583333 -0.350000</coordinates>
           </location>
         </city>
@@ -20957,7 +21532,7 @@
           <location>
             <name>Leeds And Bradford</name>
             <code>EGNM</code>
-            <zone>:RYPMS</zone>
+            <zone>:yh</zone>
             <coordinates>53.866667 -1.650000</coordinates>
           </location>
         </city>
@@ -20988,7 +21563,7 @@
           <location>
             <name>Liverpool Airport</name>
             <code>EGGP</code>
-            <zone>:northwest</zone>
+            <zone>:nw</zone>
             <coordinates>53.333333 -2.850000</coordinates>
           </location>
         </city>
@@ -20999,7 +21574,8 @@
           <location>
             <name>Manchester Airport</name>
             <code>EGCC</code>
-            <zone>:northwest</zone>
+            <zone>:nw</zone>
+            <yahoo-woeid>28218</yahoo-woeid>
             <coordinates>53.350000 -2.283333</coordinates>
           </location>
         </city>
@@ -21010,7 +21586,7 @@
           <location>
             <name>Shawbury</name>
             <code>EGOS</code>
-            <zone>:midlands</zone>
+            <zone>:wm</zone>
             <coordinates>52.800000 -2.666667</coordinates>
           </location>
         </city>
@@ -21026,13 +21602,13 @@
           <location>
             <name>Belfast / Harbour</name>
             <code>EGAC</code>
-            <zone>:nireland</zone>
+            <zone>:ni</zone>
             <coordinates>54.600000 -5.883333</coordinates>
           </location>
           <location>
             <name>Aldergrove Airport</name>
             <code>EGAA</code>
-            <zone>:nireland</zone>
+            <zone>:ni</zone>
             <coordinates>54.650000 -6.216667</coordinates>
           </location>
         </city>
@@ -21041,9 +21617,9 @@
           <_name>Eglinton</_name>
           <coordinates>55.016667 -7.183333</coordinates>
           <location>
-            <name>Eglinton / Londonderr</name>
+            <name>Eglinton / Londonderry</name>
             <code>EGAE</code>
-            <zone>:nireland</zone>
+            <zone>:ni</zone>
             <coordinates>55.050000 -7.150000</coordinates>
           </location>
         </city>
@@ -21059,7 +21635,7 @@
           <location>
             <name>Aberdeen / Dyce</name>
             <code>EGPD</code>
-            <zone>:nescotland</zone>
+            <zone>:gr</zone>
             <coordinates>57.200000 -2.216667</coordinates>
           </location>
         </city>
@@ -21080,7 +21656,7 @@
           <location>
             <name>Dundee / Riverside</name>
             <code>EGPN</code>
-            <zone>:sescotland</zone>
+            <zone>:ta</zone>
             <coordinates>56.450000 -3.016667</coordinates>
           </location>
         </city>
@@ -21091,7 +21667,7 @@
           <location>
             <name>Edinburgh Airport</name>
             <code>EGPH</code>
-            <zone>:sescotland</zone>
+            <zone>:dg</zone>
             <coordinates>55.950000 -3.350000</coordinates>
           </location>
         </city>
@@ -21102,7 +21678,7 @@
           <location>
             <name>Glasgow Airport</name>
             <code>EGPF</code>
-            <zone>:swscotland</zone>
+            <zone>:st</zone>
             <coordinates>55.866667 -4.433333</coordinates>
           </location>
         </city>
@@ -21113,7 +21689,6 @@
           <location>
             <name>Benbecula</name>
             <code>EGPL</code>
-            <zone>:sescotland</zone>
             <coordinates>57.466667 -7.366667</coordinates>
           </location>
         </city>
@@ -21124,7 +21699,7 @@
           <location>
             <name>Inverness / Dalcross</name>
             <code>EGPE</code>
-            <zone>:nescotland</zone>
+            <zone>:he</zone>
             <coordinates>57.533333 -4.050000</coordinates>
           </location>
         </city>
@@ -21135,7 +21710,7 @@
           <location>
             <name>Tiree</name>
             <code>EGPU</code>
-            <zone>:nwscotland</zone>
+            <zone>:st</zone>
             <coordinates>56.500000 -6.883333</coordinates>
           </location>
         </city>
@@ -21146,7 +21721,7 @@
           <location>
             <name>Kinloss</name>
             <code>EGQK</code>
-            <zone>:nescotland</zone>
+            <zone>:gr</zone>
             <coordinates>57.650000 -3.566667</coordinates>
           </location>
         </city>
@@ -21167,7 +21742,7 @@
           <location>
             <name>Kirkwall Airport</name>
             <code>EGPA</code>
-            <zone>:nwscotland</zone>
+            <zone>:os</zone>
             <coordinates>58.950000 -2.900000</coordinates>
           </location>
         </city>
@@ -21178,7 +21753,6 @@
           <location>
             <name>Leuchars</name>
             <code>EGQL</code>
-            <zone>:RQPMS</zone>
             <coordinates>56.383333 -2.866667</coordinates>
           </location>
         </city>
@@ -21189,7 +21763,7 @@
           <location>
             <name>Lossiemouth</name>
             <code>EGQS</code>
-            <zone>:RQPMS</zone>
+            <zone>:gr</zone>
             <coordinates>57.716667 -3.316667</coordinates>
           </location>
         </city>
@@ -21200,7 +21774,7 @@
           <location>
             <name>Scatsa / Shetland Island</name>
             <code>EGPM</code>
-            <zone>:RQPMS</zone>
+            <zone>:os</zone>
             <coordinates>60.433333 -1.300000</coordinates>
           </location>
         </city>
@@ -21211,7 +21785,6 @@
           <location>
             <name>Prestwick Airport</name>
             <code>EGPK</code>
-            <zone>:sescotland</zone>
             <coordinates>55.500000 -4.583333</coordinates>
           </location>
         </city>
@@ -21222,7 +21795,7 @@
           <location>
             <name>Stornoway</name>
             <code>EGPO</code>
-            <zone>:nwscotland</zone>
+            <zone>:he</zone>
             <coordinates>58.216667 -6.316667</coordinates>
           </location>
         </city>
@@ -21233,7 +21806,6 @@
           <location>
             <name>Sumburgh Cape</name>
             <code>EGPB</code>
-            <zone>:RQPMS</zone>
             <coordinates>59.883333 -1.300000</coordinates>
           </location>
         </city>
@@ -21261,7 +21833,7 @@
           <location>
             <name>Boscombe Down</name>
             <code>EGDM</code>
-            <zone>:westcountry</zone>
+            <zone>:sw</zone>
             <coordinates>51.166667 -1.750000</coordinates>
           </location>
         </city>
@@ -21274,7 +21846,7 @@
           <location>
             <name>Bournemouth Airport</name>
             <code>EGHH</code>
-            <zone>:RIPMS</zone>
+            <zone>:sw</zone>
             <coordinates>50.783333 -1.833333</coordinates>
           </location>
         </city>
@@ -21287,7 +21859,7 @@
           <location>
             <name>Bristol / Lulsgate</name>
             <code>EGGD</code>
-            <zone>:westcountry</zone>
+            <zone>:sw</zone>
             <coordinates>51.383333 -2.716667</coordinates>
           </location>
         </city>
@@ -21312,7 +21884,7 @@
           <location>
             <name>Exeter Airport</name>
             <code>EGTE</code>
-            <zone>:devoncornwall</zone>
+            <zone>:sw</zone>
             <coordinates>50.733333 -3.416667</coordinates>
           </location>
         </city>
@@ -21337,7 +21909,6 @@
           <location>
             <name>Culdrose</name>
             <code>EGDR</code>
-            <zone>:devoncornwall</zone>
             <coordinates>50.083333 -5.250000</coordinates>
           </location>
         </city>
@@ -21350,7 +21921,7 @@
           <location>
             <name>Scilly, Saint Mary's</name>
             <code>EGHE</code>
-            <zone>:devoncornwall</zone>
+            <zone>:sw</zone>
             <coordinates>49.916667 -6.300000</coordinates>
           </location>
         </city>
@@ -21363,7 +21934,6 @@
           <location>
             <name>Lyneham</name>
             <code>EGDL</code>
-            <zone>:midlands</zone>
             <coordinates>51.500000 -1.983333</coordinates>
           </location>
         </city>
@@ -21388,7 +21958,7 @@
           <location>
             <name>Plymouth / Roborough</name>
             <code>EGHD</code>
-            <zone>:devoncornwall</zone>
+            <zone>:sw</zone>
             <coordinates>50.416667 -4.116667</coordinates>
           </location>
         </city>
@@ -21401,7 +21971,6 @@
           <location>
             <name>Staverton Private</name>
             <code>EGBJ</code>
-            <zone>:westcountry</zone>
             <coordinates>51.900000 -2.166667</coordinates>
           </location>
         </city>
@@ -21414,7 +21983,7 @@
           <location>
             <name>Yeovilton</name>
             <code>EGDY</code>
-            <zone>:westcountry</zone>
+            <zone>:sw</zone>
             <coordinates>51.000000 -2.633333</coordinates>
           </location>
         </city>
@@ -21432,7 +22001,7 @@
           <location>
             <name>Cardiff-Wales Airport</name>
             <code>EGFF</code>
-            <zone>:wales</zone>
+            <zone>:wl</zone>
             <coordinates>51.400000 -3.350000</coordinates>
           </location>
         </city>
@@ -21453,7 +22022,7 @@
           <location>
             <name>Pembrey Sands</name>
             <code>EGOP</code>
-            <zone>:wales</zone>
+            <zone>:wl</zone>
             <coordinates>51.716667 -4.366667</coordinates>
           </location>
         </city>
@@ -21464,7 +22033,7 @@
           <location>
             <name>St Athan Royal Air Force Base</name>
             <code>EGDX</code>
-            <zone>:wales</zone>
+            <zone>:wl</zone>
             <coordinates>51.400000 -3.433333</coordinates>
           </location>
         </city>
@@ -21475,7 +22044,7 @@
           <location>
             <name>Valley</name>
             <code>EGOV</code>
-            <zone>:wales</zone>
+            <zone>:wl</zone>
             <coordinates>53.250000 -4.533333</coordinates>
           </location>
         </city>
