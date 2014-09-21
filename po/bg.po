@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alexander Shopov <ash@contact.bg>, 2002, 2004, 2005, 2007, 2008, 2009.
-# Peter Slavov <pslavov@i-space.org>, 2004.
-# Rostislav "zbrox" Raykov <zbrox@i-space.org>, 2004, 2005, 2006.
-# Vladimir Petkov <vpetkov@i-space.org>, 2004, 2005.
-# Yanko Kaneti <yaneti@declera.com>, 2003.
-# Yasen Pramatarov <yasen@lindeas.com>, 2012.
-# Yavor Doganov <yavor@gnu.org>, 2008.
+# Alexander Shopov <ash@contact.bg>, 2002,2004-2005,2007-2009
+# Peter Slavov <pslavov@i-space.org>, 2004
+# Rostislav "zbrox" Raykov <zbrox@i-space.org>, 2004-2006
+# sahwar <ve4ernik@gmail.com>, 2014
+# Vladimir Petkov <vpetkov@i-space.org>, 2004-2005
+# Yanko Kaneti <yaneti@declera.com>, 2003
+# Yasen Pramatarov <yasen@lindeas.com>, 2012
+# Yavor Doganov <yavor@gnu.org>, 2008
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-08 13:19+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Bulgarian <dict@ludost.net>\n"
+"PO-Revision-Date: 2014-09-19 11:14+0000\n"
+"Last-Translator: sahwar <ve4ernik@gmail.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/projects/p/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -159,7 +160,7 @@ msgstr "Използване на метричната система вмест
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:9
 msgid "'miles'"
-msgstr ""
+msgstr "'мили'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
@@ -206,7 +207,7 @@ msgstr ""
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:24
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'Фаренхайт'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
@@ -216,7 +217,7 @@ msgstr "Единици за температура"
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr ""
+msgstr "Мерната единица за температура. Възможни стойности: 'Келвин', 'Целзий', 'Фаренхайт'."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:27
 msgid "Not used anymore"
@@ -767,7 +768,6 @@ msgstr "Прашни завихряния в околността"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %d %b — %H:%M"
@@ -858,7 +858,6 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

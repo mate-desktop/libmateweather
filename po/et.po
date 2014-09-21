@@ -3,17 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ilmar Kerm <ikerm@hot.ee>, 2001, 2002.
-# Lauris Kaplinski <lauris@ariman.ee>, 1999.
-# Tõivo Leedjärv <toivo@linux.ee>, 2002.
-#   <xpander0@gmail.com>, 2012.
+# Ilmar Kerm <ikerm@hot.ee>, 2001-2002
+# Ivar Smolin <okul@linux.ee>, 2014
+# Lauris Kaplinski <lauris@ariman.ee>, 1999
+# Tõivo Leedjärv <toivo@linux.ee>, 2002
+# xpander0 <xpander0@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-08 13:19+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-08-03 08:25+0000\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -137,19 +138,19 @@ msgstr "Selle abil määratakse, kas rakend uuendab ilmastatistikat automaatselt
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:3
 msgid "Update interval"
-msgstr "Uuendamise intervall:"
+msgstr "Uuendamise vahemik:"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:4
 msgid "The interval, in seconds, between automatic updates."
-msgstr "Vahemik sekundites automaatsete uuenduste vahel."
+msgstr "Automaatsete uuenduste vahemik sekundites."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:5
 msgid "Use metric units"
-msgstr "Kasuta meetermõõdustikku"
+msgstr "Meetermõõdustiku kasutamine"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:6
 msgid "Use metric units instead of english units."
-msgstr "Kasuta meetermõõdustikku inglise mõõdustiku asemel"
+msgstr "Meetermõõdustiku kasutamine inglise mõõdustiku asemel."
 
 #. TRANSLATORS: pick a default distance unit for your locale, see key
 #. description
@@ -221,7 +222,7 @@ msgstr "Enam ei kasutata"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:28
 msgid "Display radar map"
-msgstr "Näita _radarikaarti"
+msgstr "Näita radarikaarti"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:29
 msgid "Fetch a radar map on each update."
@@ -237,7 +238,7 @@ msgstr "Radarikaardi hankimine iga uuenduse korral."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "Tallinn"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -258,7 +259,7 @@ msgstr "Ilmaasukoha andmed."
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "EETN"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
@@ -352,7 +353,7 @@ msgstr "Sinu asukoha laius- ja pikkuskraad väljendatuna DD-MM-SS[NS] DD-MM-SS[E
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:88
 msgid "Use custom url for the radar map"
-msgstr "Kasuta radarikaardi jaoks oma aadressi"
+msgstr "Radarikaardi jaoks oma aadressi kasutamine"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:89
 msgid ""
@@ -362,7 +363,7 @@ msgstr "Kui märgitud, siis võetakse radarikaart \"radar\" võtmega määratud 
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:90
 msgid "Url for the radar map"
-msgstr "Radarikaardi url"
+msgstr "Radarikaardi URL"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:91
 msgid "The custom url from where to retrieve a radar map."
@@ -457,7 +458,7 @@ msgstr "Selge taevas"
 
 #: ../libmateweather/weather.c:250
 msgid "Broken clouds"
-msgstr "Pilvitus selginemistega"
+msgstr "Tihe pilvisus"
 
 #: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
@@ -507,7 +508,7 @@ msgstr "Vihm"
 
 #: ../libmateweather/weather.c:294
 msgid "Light rain"
-msgstr "Pisut vihma"
+msgstr "Kerge vihm"
 
 #: ../libmateweather/weather.c:294
 msgid "Moderate rain"
@@ -532,7 +533,7 @@ msgstr "Lumi"
 
 #: ../libmateweather/weather.c:295
 msgid "Light snow"
-msgstr "Nõrk lumesadu"
+msgstr "Kerge lumesadu"
 
 #: ../libmateweather/weather.c:295
 msgid "Moderate snow"
@@ -764,7 +765,6 @@ msgstr "Tolmupöörised läheduses"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%A. %e %B / %H:%M"
@@ -855,7 +855,6 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
@@ -931,4 +930,4 @@ msgstr "%H:%M"
 
 #: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
-msgstr "Tõrge uuendamisel"
+msgstr "Tõrge andmete uuendamisel"

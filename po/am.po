@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2014-06-28 18:19+0000\n"
+"PO-Revision-Date: 2014-07-13 23:02+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:27
 msgid "Not used anymore"
-msgstr ""
+msgstr "ማንም አይጠቀመውም"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:28
 msgid "Display radar map"
@@ -559,19 +559,19 @@ msgstr ""
 #. SNOW_GRAINS
 #: ../libmateweather/weather.c:296
 msgid "Snow grains"
-msgstr ""
+msgstr "የ በረዶ ካፊያ "
 
 #: ../libmateweather/weather.c:296
 msgid "Light snow grains"
-msgstr ""
+msgstr "ቀላል የ በረዶ ካፊያ"
 
 #: ../libmateweather/weather.c:296
 msgid "Moderate snow grains"
-msgstr ""
+msgstr "መካከለኛ የ በረዶ ካፊያ "
 
 #: ../libmateweather/weather.c:296
 msgid "Heavy snow grains"
-msgstr ""
+msgstr "ከባድ የ በረዶ ካፊያ "
 
 #. ICE_CRYSTALS
 #: ../libmateweather/weather.c:297
@@ -877,7 +877,7 @@ msgstr "%.2f inHg"
 #: ../libmateweather/weather.c:965
 #, c-format
 msgid "%.1f mmHg"
-msgstr ""
+msgstr "%.1f ሚሚ ሜርኩሪ"
 
 #. TRANSLATOR: This is pressure in kiloPascals
 #: ../libmateweather/weather.c:969
