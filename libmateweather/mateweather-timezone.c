@@ -30,7 +30,8 @@
 #include "weather-priv.h"
 
 /**
- * MateWeatherTimezone:
+ * SECTION:mateweather-timezone
+ * @Title: MateWeatherTimezone
  *
  * A timezone.
  *
@@ -38,7 +39,7 @@
  * be created by calling mateweather_location_new_world() to parse
  * Locations.xml, and then calling various #MateWeatherLocation methods
  * to extract relevant timezones from the location hierarchy.
- **/
+ */
 struct _MateWeatherTimezone {
     char *id, *name;
     int offset, dst_offset;

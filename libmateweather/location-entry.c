@@ -28,11 +28,12 @@
 #include <string.h>
 
 /**
- * MateWeatherLocationEntry:
+ * SECTION:location-entry
+ * @Title: MateWeatherLocationEntry
  *
  * A subclass of #GtkEntry that provides autocompletion on
  * #MateWeatherLocation<!-- -->s
- **/
+ */
 
 G_DEFINE_TYPE (MateWeatherLocationEntry, mateweather_location_entry, GTK_TYPE_ENTRY)
 

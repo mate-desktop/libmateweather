@@ -32,6 +32,11 @@
 #include "mateweather-xml.h"
 #include "weather-priv.h"
 
+/**
+ * SECTION:mateweather-xml
+ * @Title: mateweather-xml
+ */
+
 static gboolean
 mateweather_xml_parse_node (MateWeatherLocation *gloc,
 			 GtkTreeStore *store, GtkTreeIter *parent)

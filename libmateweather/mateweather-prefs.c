@@ -28,6 +28,11 @@
 #include "mateweather-prefs.h"
 #include "weather-priv.h"
 
+/**
+ * SECTION:mateweather-prefs
+ * @Title: mateweather-prefs
+ */
+
 void
 mateweather_prefs_load (MateWeatherPrefs *prefs, GSettings *settings)
 {

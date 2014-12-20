@@ -220,7 +220,7 @@ AC_SUBST(GLADEDIR)
 ##################################################
 # Checks for gtk-doc and docbook-tools
 ##################################################
-GTK_DOC_CHECK([1.9])
+GTK_DOC_CHECK([1.11], [--flavour no-tmpl])
 
 dnl ***************************************************************************
 dnl *** Output Makefiles et al                                              ***

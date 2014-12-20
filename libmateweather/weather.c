@@ -48,6 +48,11 @@
 #define g_memmove memmove
 #endif
 
+/**
+ * SECTION:weather
+ * @Title: weather
+ */
+
 static void _weather_internal_check (void);
 
 

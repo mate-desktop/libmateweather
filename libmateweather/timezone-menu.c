@@ -29,10 +29,11 @@
 #include <string.h>
 
 /**
- * MateWeatherTimezoneMenu:
+ * SECTION:timezone-menu
+ * @Title: MateWeatherTimezoneMenu
  *
  * A #GtkComboBox subclass for choosing a #MateWeatherTimezone
- **/
+ */
 
 G_DEFINE_TYPE (MateWeatherTimezoneMenu, mateweather_timezone_menu, GTK_TYPE_COMBO_BOX)
 

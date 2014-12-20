@@ -35,13 +35,14 @@
 #include "weather-priv.h"
 
 /**
- * MateWeatherLocation:
+ * SECTION:mateweather-location
+ * @Title: MateWeatherLocation
  *
  * A #MateWeatherLocation represents a "location" of some type known to
  * libmateweather; anything from a single weather station to the entire
  * world. See #MateWeatherLocationLevel for information about how the
  * hierarchy of locations works. 
- **/
+ */
 
 struct _MateWeatherLocation {
     char *name, *sort_name;
