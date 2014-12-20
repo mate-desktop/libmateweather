@@ -1,10 +1,12 @@
 AC_INIT([libmateweather], [1.10.0], [http://www.mate-desktop.org])
 AC_PREREQ(2.59)
 
-AC_CONFIG_HEADERS(config.h)
+AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_AUX_DIR([build-aux])
+
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
-AC_CONFIG_MACRO_DIR([m4])
 
 # Before making a release, the LT_VERSION string should be modified.
 # The string is of the form C:R:A.
@@ -67,14 +69,14 @@ AC_PROG_CC
 GLIB_GSETTINGS
 
 AC_ARG_ENABLE(all-translations-in-one-xml,
-        [AC_HELP_STRING([--enable-all-translations-in-one-xml],
+        [AS_HELP_STRING([--enable-all-translations-in-one-xml],
                         [Put all translations in a big Locations.xml file (slow to parse)])],
         [enable_big_xml=yes],
         [enable_big_xml=no])
 AM_CONDITIONAL(USE_ONE_BIG_XML, test "x$enable_big_xml" = "xyes")
 
 AC_ARG_ENABLE(locations-compression,
-        [AC_HELP_STRING([--enable-locations-compression],
+        [AS_HELP_STRING([--enable-locations-compression],
                         [Compress Locations.xml files])],
         [enable_locations_compression=yes],
         [enable_locations_compression=no])
@@ -87,20 +89,11 @@ AC_SUBST(COMPRESS_EXT)
 
 MATE_COMPILE_WARNINGS([maximum])
 
-if test "x$enable_maintainer_mode" = "xyes"; then
-	CFLAGS="$CFLAGS $DISABLE_DEPRECATED"
-fi
-
 dnl -- Check for GTK+ (required) ------------------------------------------
 PKG_CHECK_MODULES(GTK, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED)
-GTK_CFLAGS="$GTK_CFLAGS -DGTK_DISABLE_SINGLE_INCLUDES"
-AC_SUBST(GTK_CFLAGS)
-AC_SUBST(GTK_LIBS)
 
 dnl -- Check for libxml (required) ------------------------------------------
 PKG_CHECK_MODULES(LIBXML, libxml-2.0 >= $LIBXML_REQUIRED)
-AC_SUBST(LIBXML_CFLAGS)
-AC_SUBST(LIBXML_LIBS)
 
 dnl -- check for libsoup (required) -----------------------------------------
 PKG_CHECK_MODULES(LIBSOUP, [libsoup-2.4 >= $LIBSOUP_REQUIRED])
@@ -109,11 +102,9 @@ dnl -- check for gio (required) -----------------------------------------
 PKG_CHECK_MODULES(GIO,
 		  [gio-2.0 >= GIO_REQUIRED])
 AC_SUBST(GIO_CFLAGS)
-AC_SUBST(GIO_LIBS)
 
 dnl -- check for glib; redundant at this point, but sets $GLIB_MKENUMS
 AM_PATH_GLIB_2_0($GLIB_REQUIRED)
-CFLAGS="$CFLAGS -DG_DISABLE_SINGLE_INCLUDES"
 
 dnl gettext
 
@@ -158,11 +149,10 @@ esac
 dnl ***************************************************************************
 dnl *** _NL_MEASUREMENT_MEASUREMENT is an enum and not a define             ***
 dnl ***************************************************************************
-AC_MSG_CHECKING([for _NL_MEASUREMENT_MEASUREMENT])
-AC_TRY_LINK([#include <langinfo.h>], [
+AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <langinfo.h>]], [[
 char c;
 c = *((unsigned char *)  nl_langinfo(_NL_MEASUREMENT_MEASUREMENT));
-], gtk_ok=yes, gtk_ok=no)
+]])],[gtk_ok=yes],[gtk_ok=no])
 AC_MSG_RESULT($gtk_ok)
 if test "$gtk_ok" = "yes"; then
   AC_DEFINE([HAVE__NL_MEASUREMENT_MEASUREMENT], [1],
@@ -225,7 +215,7 @@ GTK_DOC_CHECK([1.11], [--flavour no-tmpl])
 dnl ***************************************************************************
 dnl *** Output Makefiles et al                                              ***
 dnl ***************************************************************************
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 doc/Makefile
 po/Makefile.in
@@ -237,7 +227,7 @@ data/Makefile
 python/Makefile
 icons/Makefile
 ])
-
+AC_OUTPUT
 if test "x$enable_big_xml" = "xyes"; then
 	LOCATIONS_XML_TRANSLATIONS="one big file"
 else
