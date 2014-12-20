@@ -1,18 +1,26 @@
 lib_LTLIBRARIES = libmateweather.la
 
-libmateweatherincdir = $(includedir)/libmateweather
+noinst_PROGRAMS = test_metar test_locations test_sun_moon
+
+AM_CPPFLAGS = 			\
+	$(GTK_CFLAGS)		\
+	-I$(top_srcdir)		\
+	-I$(srcdir)
+
+AM_CFLAGS = $(WARN_CFLAGS)
+
 mateweather_old_headers = \
 	weather.h mateweather-prefs.h mateweather-xml.h
 mateweather_new_headers = \
 	mateweather-location.h location-entry.h \
 	mateweather-timezone.h timezone-menu.h
+libmateweatherincdir = $(includedir)/libmateweather
 libmateweatherinc_HEADERS = \
 	$(mateweather_old_headers)		\
 	$(mateweather_new_headers)		\
 	mateweather-enum-types.h
 
-pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = mateweather.pc
+noinst_HEADERS = weather-priv.h mateweather-win32.h
 
 libmateweather_la_SOURCES = \
 	weather.c weather.h weather-priv.h \
@@ -35,11 +43,8 @@ else
 EXTRA_libmateweather_la_SOURCES = mateweather-win32.c
 endif
 
-libmateweather_la_CFLAGS = \
-	-I$(top_srcdir)			\
-	-I$(srcdir)			\
-	$(WARN_CFLAGS)			\
-	$(GTK_CFLAGS)			\
+libmateweather_la_CPPFLAGS = \
+	$(AM_CPPFLAGS)			\
 	$(LIBXML_CFLAGS)		\
 	$(LIBSOUP_CFLAGS)		\
 	$(GIO_CFLAGS)			\
@@ -58,70 +63,34 @@ libmateweather_la_LIBADD = \
 libmateweather_la_LDFLAGS = \
 	-version-info $(LT_VERSION) -no-undefined
 
-# something is wrong with glib-mkenums, please research the issue
-MKENUMS_GENERATED = mateweather-enum-types.c mateweather-enum-types.h
-
-mateweather-enum-types.h: $(mateweather_new_headers)
-#	$(AM_V_GEN)( cd $(srcdir) && $(GLIB_MKENUMS) --template mateweather-enum-types.h.tmpl \
-#		$(mateweather_new_headers) ) > mateweather-enum-types.h.tmp \
-#	&& mv mateweather-enum-types.h.tmp mateweather-enum-types.h \
-#	|| rm -f mateweather-enum-type.h.tmp
-
-mateweather-enum-types.c: $(libmateweatherinclude_HEADERS)
-#	$(AM_V_GEN)( cd $(srcdir) && $(GLIB_MKENUMS) --template mateweather-enum-types.c.tmpl \
-#		$(mateweather_new_headers) ) > mateweather-enum-types.c.tmp \
-#	&& mv mateweather-enum-types.c.tmp mateweather-enum-types.c \
-#	|| rm -f mateweather-enum-type.c.tmp
-
-BUILT_SOURCES = $(MKENUMS_GENERATED)
-
 test_metar_SOURCES = test_metar.c
-
-test_metar_CFLAGS = \
-	-I$(top_srcdir)			\
-	-I$(srcdir)			\
-	$(WARN_CFLAGS)			\
-	$(GTK_CFLAGS)			\
-	$(LIBSOUP_CFLAGS)		\
-	-DG_LOG_DOMAIN=\"MateWeather\"
-
-test_metar_LDADD = \
-	$(GTK_LIBS) \
-	$(LIBSOUP_LIBS)	\
-	$(REGEX_LIBS) \
-	libmateweather.la
+test_metar_CPPFLAGS = $(AM_CPPFLAGS) $(LIBSOUP_CFLAGS)
+test_metar_LDADD = libmateweather.la
 
 test_locations_SOURCES = test_locations.c
+test_locations_LDADD = libmateweather.la
 
-test_locations_CFLAGS = \
-	-I$(top_srcdir)			\
-	-I$(srcdir)			\
-	$(WARN_CFLAGS)			\
-	$(GTK_CFLAGS)			\
-	$(MATE_VFS_APPLETS_CFLAGS)	\
-	-DG_LOG_DOMAIN=\"MateWeather\"
+test_sun_moon_SOURCES = test_sun_moon.c
+test_sun_moon_CPPFLAGS = $(AM_CPPFLAGS) $(LIBSOUP_CFLAGS)
+test_sun_moon_LDADD = libmateweather.la
 
-test_locations_LDADD = libmateweather.la $(GTK_LIBS)
+mateweather-enum-types.h: $(mateweather_new_headers)
+	$(AM_V_GEN)( cd $(srcdir) && $(GLIB_MKENUMS) --template mateweather-enum-types.h.tmpl \
+		$(mateweather_new_headers) ) > mateweather-enum-types.h.tmp \
+	&& mv mateweather-enum-types.h.tmp mateweather-enum-types.h \
+	|| rm -f mateweather-enum-type.h.tmp
 
-test_sun_moon_SOURCES = \
-	test_sun_moon.c
+mateweather-enum-types.c: $(libmateweatherinclude_HEADERS)
+	$(AM_V_GEN)( cd $(srcdir) && $(GLIB_MKENUMS) --template mateweather-enum-types.c.tmpl \
+		$(mateweather_new_headers) ) > mateweather-enum-types.c.tmp \
+	&& mv mateweather-enum-types.c.tmp mateweather-enum-types.c \
+	|| rm -f mateweather-enum-type.c.tmp
 
-test_sun_moon_CFLAGS = \
-	-I$(top_srcdir)			\
-	-I$(srcdir)			\
-	$(WARN_CFLAGS)			\
-	$(GTK_CFLAGS)			\
-	$(LIBSOUP_CFLAGS)		\
-	-DG_LOG_DOMAIN=\"MateWeather\"
 
-test_sun_moon_LDADD = \
-	$(GTK_LIBS)	\
-	$(LIBSOUP_LIBS)	\
-	-lm	\
-	libmateweather.la
+BUILT_SOURCES = mateweather-enum-types.c mateweather-enum-types.h
 
-noinst_HEADERS = weather-priv.h mateweather-win32.h
-noinst_PROGRAMS = test_metar test_locations test_sun_moon
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = mateweather.pc
 
 @INTLTOOL_XML_NOMERGE_RULE@
 gsettings_SCHEMAS = org.mate.weather.gschema.xml
@@ -132,9 +101,6 @@ gsettings_SCHEMAS = org.mate.weather.gschema.xml
 
 EXTRA_DIST = mateweather.pc.in mateweather-uninstalled.pc.in $(gsettings_SCHEMAS).in.in
 
-EXTRA_PROGRAMS = test_metar test_sun_moon
-
-CLEANFILES = $(EXTRA_PROGRAMS) $(gsettings_SCHEMAS).in $(gsettings_SCHEMAS) *.gschema.valid
-#$(MKENUMS_GENERATED)
+CLEANFILES = $(noinst_PROGRAMS) $(BUILT_SOURCES) $(gsettings_SCHEMAS).in $(gsettings_SCHEMAS) *.gschema.valid
 
 -include $(top_srcdir)/git.mk

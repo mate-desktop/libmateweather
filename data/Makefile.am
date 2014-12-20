@@ -53,16 +53,16 @@ $(LOCATIONS_STAMP): $(libmateweatherlocations_in_files) $(PO_LOCATIONS) Makefile
 
 endif # USE_ONE_BIG_XML
 
-check:
-	xmllint --valid --noout $(top_srcdir)/data/Locations.xml.in
-	$(srcdir)/check-timezones.sh $(srcdir)/Locations.xml.in
-
 ### Locations.xml.in rebuild
 rebuild-locations: locationdb.sqlite update-locations.py
 	$(AM_V_GEN)($(srcdir)/update-locations.py > Locations.xml.in.new && mv Locations.xml.in.new Locations.xml.in) || rm -f Locations.xml.in.new
 
 locationdb.sqlite: build-locationdb.pl major-cities.txt sources/nsd_cccc.txt sources/POP_PLACES.txt sources/US_CONCISE.txt sources/geonames_dd_dms_date_*.txt city-fixups.pl station-fixups.pl
 	$(AM_V_GEN)$(srcdir)/build-locationdb.pl
+
+check:
+	xmllint --valid --noout $(top_srcdir)/data/Locations.xml.in
+	$(srcdir)/check-timezones.sh $(srcdir)/Locations.xml.in
 
 EXTRA_DIST =	\
 	$(libmateweatherlocations_in_files)	\
