@@ -5,14 +5,15 @@
   <bookinfo>
     <title>libmateweather Reference Manual</title>
     <releaseinfo>
-      for libmateweather [VERSION]
-      The latest version of this documentation can be found on-line at
-      <ulink role="online-location" url="http://[SERVER]/libmateweather/index.html">http://[SERVER]/libmateweather/</ulink>.
+      for libmateweather]
+      <!-- MATE has no online gtkdocs! uncomment and update below when it does-->
+      <!--The latest version of this documentation can be found on-line at
+      <ulink role="online-location" url="http://[SERVER]/libmateweather/index.html">http://[SERVER]/libmateweather/</ulink>.-->
     </releaseinfo>
   </bookinfo>
 
   <chapter>
-    <title>[Insert title here]</title>
+    <title>libmateweather Reference Manual</title>
     <xi:include href="xml/mateweather-location.xml"/>
     <xi:include href="xml/location-entry.xml"/>
     <xi:include href="xml/mateweather-timezone.xml"/>
