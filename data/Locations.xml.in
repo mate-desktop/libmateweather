@@ -7402,7 +7402,7 @@
       <fips-code>FM</fips-code>
       <fips-code>US64</fips-code>
       <timezones>
-        <timezone id="Pacific/Ponape">
+        <timezone id="Pacific/Pohnpei">
           <!-- One of two time zones in the Federated States of
                Micronesia, including the islands of Pohnpei and Kosrae.
                The string is only used in places where "Micronesia" is
@@ -7410,14 +7410,16 @@
             -->
           <_name>Pohnpei / Kosrae</_name>
           <obsoletes>Pacific/Kosrae</obsoletes>
+          <obsoletes>Pacific/Ponape</obsoletes>
         </timezone>
-        <timezone id="Pacific/Truk">
+        <timezone id="Pacific/Chuuk">
           <!-- One of two time zones in the Federated States of
                Micronesia, including the islands of Yap and Chuuk. The
                string is only used in places where "Micronesia" is
                already clear from context.
             -->
           <_name>Yap / Chuuk</_name>
+          <obsoletes>Pacific/Truk</obsoletes>
         </timezone>
       </timezones>
       <city>
