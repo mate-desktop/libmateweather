@@ -2,7 +2,7 @@ AC_INIT([libmateweather], [1.10.0], [http://www.mate-desktop.org])
 AC_PREREQ(2.59)
 
 AC_CONFIG_HEADERS(config.h)
-AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz check-news])
+AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 AC_CONFIG_MACRO_DIR([m4])
 
@@ -55,17 +55,14 @@ LIBSOUP_REQUIRED=2.34.0
 GIO_REQUIRED=2.25.0
 LIBXML_REQUIRED=2.6.0
 
-AM_MAINTAINER_MODE
-MATE_MAINTAINER_MODE_DEFINES
+LT_PREREQ([2.2.6])
+LT_INIT([dlopen win32-dll disable-static])
 
-IT_PROG_INTLTOOL([0.40.3])
+IT_PROG_INTLTOOL([0.40.6])
+
 PKG_PROG_PKG_CONFIG([0.19])
 
 AC_PROG_CC
-AM_PROG_CC_C_O
-AC_ISC_POSIX
-AC_STDC_HEADERS
-AM_PROG_LIBTOOL
 
 GLIB_GSETTINGS
 
@@ -88,45 +85,7 @@ else
 fi
 AC_SUBST(COMPRESS_EXT)
 
-MATE_COMPILE_WARNINGS
-
-dnl ***************************************************************************
-dnl *** --enable-more-warnings turns on more compiler warnings              ***
-dnl ***************************************************************************
-AC_ARG_ENABLE(more-warnings,
-[  --enable-more-warnings  Maximum compiler warnings],
-set_more_warnings="$enableval",[
-    set_more_warnings=no
-])
-AC_MSG_CHECKING(for more warnings, including -Werror)
-if test "$GCC" = "yes" -a "$set_more_warnings" != "no"; then
-    AC_MSG_RESULT(yes)
-    CFLAGS="\
-    -Wall \
-    -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes \
-    -Wnested-externs -Wpointer-arith \
-    -Wcast-align -Wsign-compare \
-    -std=gnu89 \
-    $CFLAGS"
-
-    for option in -Wno-strict-aliasing -Wno-sign-compare; do
-        SAVE_CFLAGS="$CFLAGS"
-        CFLAGS="$CFLAGS $option"
-        AC_MSG_CHECKING([whether gcc understands $option])
-        AC_TRY_COMPILE([], [],
-            has_option=yes,
-            has_option=no,)
-        if test $has_option = no; then
-            CFLAGS="$SAVE_CFLAGS"
-        fi
-        AC_MSG_RESULT($has_option)
-        unset has_option
-        unset SAVE_CFLAGS
-    done
-    unset option
-else
-    AC_MSG_RESULT(no)
-fi
+MATE_COMPILE_WARNINGS([maximum])
 
 if test "x$enable_maintainer_mode" = "xyes"; then
 	CFLAGS="$CFLAGS $DISABLE_DEPRECATED"
