@@ -1,5 +1,6 @@
 
 #define MATEWEATHER_I_KNOW_THIS_IS_UNSTABLE
+#include <gtk/gtk.h>
 #include "location-entry.h"
 #include "timezone-menu.h"
 
@@ -42,7 +43,11 @@ main (int argc, char **argv)
     g_signal_connect (window, "delete-event",
 		      G_CALLBACK (deleted), NULL);
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 8);
+#else
     vbox = gtk_vbox_new (FALSE, 8);
+#endif
     gtk_container_add (GTK_CONTAINER (window), vbox);
 
     loc = mateweather_location_new_world (FALSE);
