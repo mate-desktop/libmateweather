@@ -15413,7 +15413,6 @@
         <location>
           <name>Guernsey Airport</name>
           <code>EGJB</code>
-          <zone>:centralsouthern</zone>
           <coordinates>49.433333 -2.600000</coordinates>
         </location>
       </city>
@@ -15424,7 +15423,6 @@
         <location>
           <name>Guernsey Airport</name>
           <code>EGJB</code>
-          <zone>:centralsouthern</zone>
           <coordinates>49.433333 -2.600000</coordinates>
         </location>
       </city>
