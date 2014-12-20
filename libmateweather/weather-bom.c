@@ -29,6 +29,7 @@
 static void
 bom_finish (SoupSession *session, SoupMessage *msg, gpointer data)
 {
+    char *p, *rp;
     WeatherInfo *info = (WeatherInfo *)data;
 
     g_return_if_fail (info != NULL);
@@ -40,7 +41,19 @@ bom_finish (SoupSession *session, SoupMessage *msg, gpointer data)
 	return;
     }
 
-    info->forecast = g_strdup (msg->response_body->data);
+    p = strstr (msg->response_body->data, "Forecast for the rest");
+    if (p != NULL) {
+        rp = strstr (p, "The next routine forecast will be issued");
+        if (rp == NULL)
+            info->forecast = g_strdup (p);
+        else
+            info->forecast = g_strndup (p, rp - p);
+    }
+
+    if (info->forecast == NULL)
+        info->forecast = g_strdup (msg->response_body->data);
+
+    g_print ("%s\n",  info->forecast);
     request_done (info, TRUE);
 }
 
