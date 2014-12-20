@@ -72,7 +72,7 @@ test_locations_LDADD = libmateweather.la $(GTK_LIBS)
 
 test_sun_moon_SOURCES = test_sun_moon.c
 test_sun_moon_CPPFLAGS = $(AM_CPPFLAGS) $(LIBSOUP_CFLAGS)
-test_sun_moon_LDADD = libmateweather.la $(GTK_LIBS)
+test_sun_moon_LDADD = libmateweather.la $(GTK_LIBS) $(LIBM)
 
 mateweather-enum-types.h: $(mateweather_new_headers)
 	$(AM_V_GEN)( cd $(srcdir) && $(GLIB_MKENUMS) --template mateweather-enum-types.h.tmpl \
