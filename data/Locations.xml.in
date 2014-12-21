@@ -15652,7 +15652,7 @@
         <location>
           <name>Isle of Man, Ronaldsway Airport</name>
           <code>EGNS</code>
-          <zone>:northwest</zone>
+          <zone>:nw</zone>
           <coordinates>54.083333 -4.633333</coordinates>
         </location>
       </city>
@@ -15663,7 +15663,7 @@
         <location>
           <name>Isle of Man, Ronaldsway Airport</name>
           <code>EGNS</code>
-          <zone>:northwest</zone>
+          <zone>:nw</zone>
           <coordinates>54.083333 -4.633333</coordinates>
         </location>
       </city>
@@ -15735,11 +15735,11 @@
       <city>
         <!-- A city in Italy -->
         <_name>Bologna</_name>
-        <coordinates>44.483333 11.333333</coordinates>
+        <coordinates>44.493850 11.342400</coordinates>
         <location>
           <name>Borgo Panigale Airport</name>
           <code>LIPE</code>
-          <coordinates>44.533333 11.300000</coordinates>
+          <coordinates>44.527800 11.294370</coordinates>
         </location>
       </city>
       <city>
@@ -16068,12 +16068,12 @@
       </city>
       <city>
         <!-- A city in Italy -->
-        <_name>Molino di Ancona</_name>
-        <coordinates>43.616667 13.366667</coordinates>
+        <_name>Ancona</_name>
+        <coordinates>43.616530 13.518780</coordinates>
         <location>
-          <name>Falconara</name>
+          <name>Falconara Airport</name>
           <code>LIPY</code>
-          <coordinates>43.616667 13.366667</coordinates>
+          <coordinates>43.605950 13.354360</coordinates>
         </location>
       </city>
       <city>
@@ -16462,7 +16462,6 @@
         <location>
           <name>Jersey Airport</name>
           <code>EGJJ</code>
-          <zone>:centralsouthern</zone>
           <coordinates>49.216667 -2.200000</coordinates>
         </location>
       </city>
@@ -16473,7 +16472,6 @@
         <location>
           <name>Jersey Airport</name>
           <code>EGJJ</code>
-          <zone>:centralsouthern</zone>
           <coordinates>49.216667 -2.200000</coordinates>
         </location>
       </city>
@@ -20473,7 +20471,7 @@
           <location>
             <name>Benson</name>
             <code>EGUB</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.616667 -1.083333</coordinates>
           </location>
         </city>
@@ -20486,7 +20484,7 @@
           <location>
             <name>Biggin Hill</name>
             <code>EGKB</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.316667 0.033333</coordinates>
           </location>
         </city>
@@ -20499,7 +20497,7 @@
           <location>
             <name>Brize Norton</name>
             <code>EGVN</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.750000 -1.583333</coordinates>
           </location>
         </city>
@@ -20512,7 +20510,7 @@
           <location>
             <name>Cambridge</name>
             <code>EGSC</code>
-            <zone>:eastern</zone>
+            <zone>:ee</zone>
             <coordinates>52.200000 0.183333</coordinates>
           </location>
         </city>
@@ -20547,19 +20545,19 @@
           <location>
             <name>Heathrow Airport</name>
             <code>EGLL</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.483333 -0.450000</coordinates>
           </location>
           <location>
             <name>London City Airport</name>
             <code>EGLC</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.500000 -0.500000</coordinates>
           </location>
           <location>
             <name>Gatwick Airport</name>
             <code>EGKK</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>51.150000 -0.183333</coordinates>
           </location>
         </city>
@@ -20572,7 +20570,7 @@
           <location>
             <name>Luton Airport</name>
             <code>EGGW</code>
-            <zone>:southeast</zone>
+            <zone>:ee</zone>
             <coordinates>51.866667 -0.366667</coordinates>
           </location>
         </city>
@@ -20645,7 +20643,7 @@
           <location>
             <name>Norwich Weather Centre</name>
             <code>EGSH</code>
-            <zone>:eastern</zone>
+            <zone>:ee</zone>
             <coordinates>52.633333 1.300000</coordinates>
           </location>
         </city>
@@ -20670,7 +20668,7 @@
           <location>
             <name>Shoreham-by-Sea Airport</name>
             <code>EGKA</code>
-            <zone>:southeast</zone>
+            <zone>:se</zone>
             <coordinates>50.833333 -0.283333</coordinates>
           </location>
         </city>
@@ -20683,7 +20681,7 @@
           <location>
             <name>Southampton / Weather Centre</name>
             <code>EGHI</code>
-            <zone>:centralsouthern</zone>
+            <zone>:se</zone>
             <coordinates>50.900000 -1.400000</coordinates>
           </location>
         </city>
@@ -20696,7 +20694,7 @@
           <location>
             <name>Southend</name>
             <code>EGMC</code>
-            <zone>:southeast</zone>
+            <zone>:ee</zone>
             <coordinates>51.566667 0.700000</coordinates>
           </location>
         </city>
@@ -20709,7 +20707,7 @@
           <location>
             <name>Stansted Mountfitchet Airport</name>
             <code>EGSS</code>
-            <zone>:southeast</zone>
+            <zone>:ee</zone>
             <coordinates>51.883333 0.233333</coordinates>
           </location>
         </city>
@@ -20734,7 +20732,7 @@
           <location>
             <name>Wattisham</name>
             <code>EGUW</code>
-            <zone>:eastern</zone>
+            <zone>:ee</zone>
             <coordinates>52.116667 0.966667</coordinates>
           </location>
         </city>
@@ -20773,7 +20771,7 @@
           <location>
             <name>Birmingham Airport</name>
             <code>EGBB</code>
-            <zone>:midlands</zone>
+            <zone>:wm</zone>
             <coordinates>52.450000 -1.733333</coordinates>
           </location>
         </city>
@@ -20784,7 +20782,7 @@
           <location>
             <name>East Midlands</name>
             <code>EGNX</code>
-            <zone>:midlands</zone>
+            <zone>:em</zone>
             <coordinates>52.833333 -1.333333</coordinates>
           </location>
         </city>
@@ -20815,7 +20813,7 @@
           <location>
             <name>Cranfield</name>
             <code>EGTC</code>
-            <zone>:eastern</zone>
+            <zone>:ee</zone>
             <coordinates>52.066667 -0.616667</coordinates>
           </location>
         </city>
@@ -20861,7 +20859,7 @@
           <location>
             <name>Newcastle</name>
             <code>EGNT</code>
-            <zone>:northern</zone>
+            <zone>:ne</zone>
             <coordinates>55.033333 -1.700000</coordinates>
           </location>
         </city>
@@ -20872,7 +20870,6 @@
           <location>
             <name>Tees-Side</name>
             <code>EGNV</code>
-            <zone>:northern</zone>
             <coordinates>54.516667 -1.416667</coordinates>
           </location>
         </city>
@@ -20909,7 +20906,7 @@
           <location>
             <name>Blackpool Airport</name>
             <code>EGNH</code>
-            <zone>:northwest</zone>
+            <zone>:nw</zone>
             <coordinates>53.766667 -3.033333</coordinates>
           </location>
         </city>
@@ -20920,12 +20917,13 @@
           <location>
             <name>Carlisle</name>
             <code>EGNC</code>
-            <zone>:northwest</zone>
+            <zone>:nw</zone>
             <coordinates>54.933333 -2.950000</coordinates>
           </location>
           <location>
             <name>Spadeadam</name>
             <code>EGOM</code>
+            <zone>:nw</zone>
             <coordinates>55.050000 -2.550000</coordinates>
           </location>
         </city>
@@ -20946,7 +20944,6 @@
           <location>
             <name>Humberside</name>
             <code>EGNJ</code>
-            <zone>:northern</zone>
             <coordinates>53.583333 -0.350000</coordinates>
           </location>
         </city>
@@ -20957,7 +20954,7 @@
           <location>
             <name>Leeds And Bradford</name>
             <code>EGNM</code>
-            <zone>:RYPMS</zone>
+            <zone>:yh</zone>
             <coordinates>53.866667 -1.650000</coordinates>
           </location>
         </city>
@@ -20988,7 +20985,7 @@
           <location>
             <name>Liverpool Airport</name>
             <code>EGGP</code>
-            <zone>:northwest</zone>
+            <zone>:nw</zone>
             <coordinates>53.333333 -2.850000</coordinates>
           </location>
         </city>
@@ -20999,7 +20996,7 @@
           <location>
             <name>Manchester Airport</name>
             <code>EGCC</code>
-            <zone>:northwest</zone>
+            <zone>:nw</zone>
             <coordinates>53.350000 -2.283333</coordinates>
           </location>
         </city>
@@ -21010,7 +21007,7 @@
           <location>
             <name>Shawbury</name>
             <code>EGOS</code>
-            <zone>:midlands</zone>
+            <zone>:wm</zone>
             <coordinates>52.800000 -2.666667</coordinates>
           </location>
         </city>
@@ -21026,13 +21023,13 @@
           <location>
             <name>Belfast / Harbour</name>
             <code>EGAC</code>
-            <zone>:nireland</zone>
+            <zone>:ni</zone>
             <coordinates>54.600000 -5.883333</coordinates>
           </location>
           <location>
             <name>Aldergrove Airport</name>
             <code>EGAA</code>
-            <zone>:nireland</zone>
+            <zone>:ni</zone>
             <coordinates>54.650000 -6.216667</coordinates>
           </location>
         </city>
@@ -21041,9 +21038,9 @@
           <_name>Eglinton</_name>
           <coordinates>55.016667 -7.183333</coordinates>
           <location>
-            <name>Eglinton / Londonderr</name>
+            <name>Eglinton / Londonderry</name>
             <code>EGAE</code>
-            <zone>:nireland</zone>
+            <zone>:ni</zone>
             <coordinates>55.050000 -7.150000</coordinates>
           </location>
         </city>
@@ -21059,7 +21056,7 @@
           <location>
             <name>Aberdeen / Dyce</name>
             <code>EGPD</code>
-            <zone>:nescotland</zone>
+            <zone>:gr</zone>
             <coordinates>57.200000 -2.216667</coordinates>
           </location>
         </city>
@@ -21080,7 +21077,7 @@
           <location>
             <name>Dundee / Riverside</name>
             <code>EGPN</code>
-            <zone>:sescotland</zone>
+            <zone>:ta</zone>
             <coordinates>56.450000 -3.016667</coordinates>
           </location>
         </city>
@@ -21091,7 +21088,7 @@
           <location>
             <name>Edinburgh Airport</name>
             <code>EGPH</code>
-            <zone>:sescotland</zone>
+            <zone>:dg</zone>
             <coordinates>55.950000 -3.350000</coordinates>
           </location>
         </city>
@@ -21102,7 +21099,7 @@
           <location>
             <name>Glasgow Airport</name>
             <code>EGPF</code>
-            <zone>:swscotland</zone>
+            <zone>:st</zone>
             <coordinates>55.866667 -4.433333</coordinates>
           </location>
         </city>
@@ -21113,7 +21110,6 @@
           <location>
             <name>Benbecula</name>
             <code>EGPL</code>
-            <zone>:sescotland</zone>
             <coordinates>57.466667 -7.366667</coordinates>
           </location>
         </city>
@@ -21124,7 +21120,7 @@
           <location>
             <name>Inverness / Dalcross</name>
             <code>EGPE</code>
-            <zone>:nescotland</zone>
+            <zone>:he</zone>
             <coordinates>57.533333 -4.050000</coordinates>
           </location>
         </city>
@@ -21135,7 +21131,7 @@
           <location>
             <name>Tiree</name>
             <code>EGPU</code>
-            <zone>:nwscotland</zone>
+            <zone>:st</zone>
             <coordinates>56.500000 -6.883333</coordinates>
           </location>
         </city>
@@ -21146,7 +21142,7 @@
           <location>
             <name>Kinloss</name>
             <code>EGQK</code>
-            <zone>:nescotland</zone>
+            <zone>:gr</zone>
             <coordinates>57.650000 -3.566667</coordinates>
           </location>
         </city>
@@ -21167,7 +21163,7 @@
           <location>
             <name>Kirkwall Airport</name>
             <code>EGPA</code>
-            <zone>:nwscotland</zone>
+            <zone>:os</zone>
             <coordinates>58.950000 -2.900000</coordinates>
           </location>
         </city>
@@ -21178,7 +21174,6 @@
           <location>
             <name>Leuchars</name>
             <code>EGQL</code>
-            <zone>:RQPMS</zone>
             <coordinates>56.383333 -2.866667</coordinates>
           </location>
         </city>
@@ -21189,7 +21184,7 @@
           <location>
             <name>Lossiemouth</name>
             <code>EGQS</code>
-            <zone>:RQPMS</zone>
+            <zone>:gr</zone>
             <coordinates>57.716667 -3.316667</coordinates>
           </location>
         </city>
@@ -21200,7 +21195,7 @@
           <location>
             <name>Scatsa / Shetland Island</name>
             <code>EGPM</code>
-            <zone>:RQPMS</zone>
+            <zone>:os</zone>
             <coordinates>60.433333 -1.300000</coordinates>
           </location>
         </city>
@@ -21211,7 +21206,6 @@
           <location>
             <name>Prestwick Airport</name>
             <code>EGPK</code>
-            <zone>:sescotland</zone>
             <coordinates>55.500000 -4.583333</coordinates>
           </location>
         </city>
@@ -21222,7 +21216,7 @@
           <location>
             <name>Stornoway</name>
             <code>EGPO</code>
-            <zone>:nwscotland</zone>
+            <zone>:he</zone>
             <coordinates>58.216667 -6.316667</coordinates>
           </location>
         </city>
@@ -21233,7 +21227,6 @@
           <location>
             <name>Sumburgh Cape</name>
             <code>EGPB</code>
-            <zone>:RQPMS</zone>
             <coordinates>59.883333 -1.300000</coordinates>
           </location>
         </city>
@@ -21261,7 +21254,7 @@
           <location>
             <name>Boscombe Down</name>
             <code>EGDM</code>
-            <zone>:westcountry</zone>
+            <zone>:sw</zone>
             <coordinates>51.166667 -1.750000</coordinates>
           </location>
         </city>
@@ -21274,7 +21267,7 @@
           <location>
             <name>Bournemouth Airport</name>
             <code>EGHH</code>
-            <zone>:RIPMS</zone>
+            <zone>:sw</zone>
             <coordinates>50.783333 -1.833333</coordinates>
           </location>
         </city>
@@ -21287,7 +21280,7 @@
           <location>
             <name>Bristol / Lulsgate</name>
             <code>EGGD</code>
-            <zone>:westcountry</zone>
+            <zone>:sw</zone>
             <coordinates>51.383333 -2.716667</coordinates>
           </location>
         </city>
@@ -21312,7 +21305,7 @@
           <location>
             <name>Exeter Airport</name>
             <code>EGTE</code>
-            <zone>:devoncornwall</zone>
+            <zone>:sw</zone>
             <coordinates>50.733333 -3.416667</coordinates>
           </location>
         </city>
@@ -21337,7 +21330,6 @@
           <location>
             <name>Culdrose</name>
             <code>EGDR</code>
-            <zone>:devoncornwall</zone>
             <coordinates>50.083333 -5.250000</coordinates>
           </location>
         </city>
@@ -21350,7 +21342,7 @@
           <location>
             <name>Scilly, Saint Mary's</name>
             <code>EGHE</code>
-            <zone>:devoncornwall</zone>
+            <zone>:sw</zone>
             <coordinates>49.916667 -6.300000</coordinates>
           </location>
         </city>
@@ -21363,7 +21355,6 @@
           <location>
             <name>Lyneham</name>
             <code>EGDL</code>
-            <zone>:midlands</zone>
             <coordinates>51.500000 -1.983333</coordinates>
           </location>
         </city>
@@ -21388,7 +21379,7 @@
           <location>
             <name>Plymouth / Roborough</name>
             <code>EGHD</code>
-            <zone>:devoncornwall</zone>
+            <zone>:sw</zone>
             <coordinates>50.416667 -4.116667</coordinates>
           </location>
         </city>
@@ -21401,7 +21392,6 @@
           <location>
             <name>Staverton Private</name>
             <code>EGBJ</code>
-            <zone>:westcountry</zone>
             <coordinates>51.900000 -2.166667</coordinates>
           </location>
         </city>
@@ -21414,7 +21404,7 @@
           <location>
             <name>Yeovilton</name>
             <code>EGDY</code>
-            <zone>:westcountry</zone>
+            <zone>:sw</zone>
             <coordinates>51.000000 -2.633333</coordinates>
           </location>
         </city>
@@ -21432,7 +21422,7 @@
           <location>
             <name>Cardiff-Wales Airport</name>
             <code>EGFF</code>
-            <zone>:wales</zone>
+            <zone>:wl</zone>
             <coordinates>51.400000 -3.350000</coordinates>
           </location>
         </city>
@@ -21453,7 +21443,7 @@
           <location>
             <name>Pembrey Sands</name>
             <code>EGOP</code>
-            <zone>:wales</zone>
+            <zone>:wl</zone>
             <coordinates>51.716667 -4.366667</coordinates>
           </location>
         </city>
@@ -21464,7 +21454,7 @@
           <location>
             <name>St Athan Royal Air Force Base</name>
             <code>EGDX</code>
-            <zone>:wales</zone>
+            <zone>:wl</zone>
             <coordinates>51.400000 -3.433333</coordinates>
           </location>
         </city>
@@ -21475,7 +21465,7 @@
           <location>
             <name>Valley</name>
             <code>EGOV</code>
-            <zone>:wales</zone>
+            <zone>:wl</zone>
             <coordinates>53.250000 -4.533333</coordinates>
           </location>
         </city>
