@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# ABE Tsunehiko <hallconnen2+transifex@gmail.com>, 2013.
-# Akira TAGOH <tagoh@gnome.gr.jp>, 2001.
-# Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999.
-# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
-# Satoru SATOH <ss@gnome.gr.jp>, 2006.
-# Shingo Akagaki <dora@kondara.org>, 2000.
-# Sun G11n <mate_int_l10n@ireland.sun.com>, 2002.
-# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000-2002, 2009.
-# Yasuyuki Furukawa <yasu@on.cs.keio.ac.jp>, 1999.
-# Yukihiro Nakai <Nakai@abricot.co.jp>, 1998, 2000.
-# Yuusuke Tahara <tahara@gnome.gr.jp>, 2000.
+# ABE Tsunehiko, 2013-2014
+# Akira TAGOH <tagoh@gnome.gr.jp>, 2001
+# Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
+# Satoru SATOH <ss@gnome.gr.jp>, 2006
+# Shingo Akagaki <dora@kondara.org>, 2000
+# Sun G11n <mate_int_l10n@ireland.sun.com>, 2002
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2009
+# Yasuyuki Furukawa <yasu@on.cs.keio.ac.jp>, 1999
+# Yukihiro Nakai <Nakai@abricot.co.jp>, 1998,2000
+# Yuusuke Tahara <tahara@gnome.gr.jp>, 2000
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-15 02:08+0000\n"
-"Last-Translator: 読み専(先行量産型) <hallconnen2+transifex@gmail.com>\n"
+"PO-Revision-Date: 2014-10-03 05:33+0000\n"
+"Last-Translator: ABE Tsunehiko\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/MATE/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -244,7 +244,7 @@ msgstr "更新時にレーダー・マップを同期します。"
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "新東京国際空港 (成田)"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -265,7 +265,7 @@ msgstr "場所に関連する情報です。"
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "RJAA"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
@@ -289,7 +289,7 @@ msgstr "首都などの、近くの有名なゾーンです。詳細は https://
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "JAXX0085"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
@@ -313,7 +313,7 @@ msgstr "都市を一意に識別するためゾーンです。詳細はhttps://r
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr "\"\""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
 msgid "Radar location"
@@ -345,7 +345,7 @@ msgstr "お天気 MATE で情報を表示する都市です。"
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "DEFAULT_COORDINATES"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
@@ -771,7 +771,6 @@ msgstr "近隣が塵旋風 (じんせんぷう)"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%B%e日 (%a) / %k:%M"
@@ -862,7 +861,6 @@ msgstr "%.1f メートル/秒"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

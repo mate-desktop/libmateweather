@@ -4,6 +4,7 @@
 # 
 # Translators:
 # blacx <imilatic@gmail.com>, 2013
+# blacx <imilatic@gmail.com>, 2013
 # Ivica  Kolić <ikoli@yahoo.com>, 2013
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2014
 msgid ""
@@ -11,8 +12,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2014-09-17 17:11+0000\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"PO-Revision-Date: 2014-11-14 20:29+0000\n"
+"Last-Translator: Mislav E. Lukšić <meluksic@yahoo.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgstr ""
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:158
 msgid "Default"
-msgstr "Uobičajeno"
+msgstr "Zadano"
 
 #. translators: Kelvin
 #: ../libmateweather/mateweather-prefs.c:89
@@ -73,7 +74,7 @@ msgstr "čvorova"
 #. translators: wind speed
 #: ../libmateweather/mateweather-prefs.c:120
 msgid "Beaufort scale"
-msgstr "Boforova ljestvica"
+msgstr "Beaufortova ljestvica"
 
 #. translators: kilopascals
 #: ../libmateweather/mateweather-prefs.c:133
@@ -118,69 +119,69 @@ msgstr "km"
 #. translators: miles
 #: ../libmateweather/mateweather-prefs.c:167
 msgid "mi"
-msgstr "milja"
+msgstr "mi"
 
 #: ../libmateweather/mateweather-timezone.c:314
 msgid "Greenwich Mean Time"
-msgstr ""
+msgstr "Srednje vrijeme po Greenwichu"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:1
 msgid "Update the data automatically"
-msgstr "Automatski ažuriraj podatke"
+msgstr "Obnovi podatke samostalno"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:2
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr "Određuje da li applet automatski ažurira prognozu ili ne."
+msgstr "Određuje obnavlja li programčić vremenske podatke samostalno ili ne."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:3
 msgid "Update interval"
-msgstr "Vrijeme obnavljanja"
+msgstr "Razmak između obnavljanja"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:4
 msgid "The interval, in seconds, between automatic updates."
-msgstr "Razmak, u sekundama, između dva osvježavanja."
+msgstr "Razmak, u sekundama, između samostalnih obnavljanja."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:5
 msgid "Use metric units"
-msgstr "Koristiti metrički sustav jedinica"
+msgstr "Koristi metarske jedinice"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:6
 msgid "Use metric units instead of english units."
-msgstr "Koristi metrički sustav jedinica umjesto engleskog sistema."
+msgstr "Koristi metarske jedinice umjesto engleskih jedinica."
 
 #. TRANSLATORS: pick a default distance unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:9
 msgid "'miles'"
-msgstr "'miles'"
+msgstr "'milje'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
-msgstr "Jedinica za udaljenost"
+msgstr "Jedinica udaljenosti"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:11
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr "Jedinica za mjerenje vidljivosti. Vrijednosti 'meteri', 'km' ,'milje'."
+msgstr "Jedinica koja se koristi za vidljivost. Zadanosti: 'metri', 'km' ,'milje'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:14
 msgid "'inHg'"
-msgstr ""
+msgstr "'inHg'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:15
 msgid "Pressure unit"
-msgstr "Jedinica za tlak"
+msgstr "Jedinica tlaka"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:16
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
 "'atm'."
-msgstr "Jedinicakoja se koristi za tlak. Vrijednosti: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'."
+msgstr "Jedinica koja se koristi za tlak. Zadanosti: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', 'atm'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
@@ -190,13 +191,13 @@ msgstr "'čvorovi'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:20
 msgid "Speed unit"
-msgstr "Jedinica za brzinu"
+msgstr "Jedinica brzine"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:21
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr "Jedinica koja se koristi za brzinu vjetra. Vrijednosti: 'm/s', 'km/h, 'mph', 'čvorovi', 'Beaufort-ova skala'."
+msgstr "Jedinica koja se koristi za brzinu vjetra. Zadanosti: 'm/s', 'km/h', 'mph', 'čvorovi', 'Beaufortova ljestvica'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
@@ -206,13 +207,13 @@ msgstr "'Fahrenheit'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
-msgstr "Jedinica za temperaturu"
+msgstr "Jedinica temperature"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:26
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr ""
+msgstr "Jedinica koja se koristi za temperaturu. Zadanosti: 'Kelvin', 'Celzij', 'Fahrenheit'."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:27
 msgid "Not used anymore"
@@ -220,11 +221,11 @@ msgstr "Više se ne koristi"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:28
 msgid "Display radar map"
-msgstr "Prikaži radarsku mapu"
+msgstr "Prikaži radarsku kartu"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:29
 msgid "Fetch a radar map on each update."
-msgstr "Preuzmi radarsku mapu pri svakom ažuriranju."
+msgstr "Preuzmi radarsku kartu pri svakom obnavljanju."
 
 #. TRANSLATORS: Change this to the default location name, used
 #. when you first start the Weather Applet. This is the common
@@ -236,15 +237,15 @@ msgstr "Preuzmi radarsku mapu pri svakom ažuriranju."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr "'UOBIČAJENA_LOKACIJA'"
+msgstr "'ZADANI_POLOŽAJ'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
-msgstr ""
+msgstr "Obavijest o vremenskom položaju"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:40
 msgid "Weather location information."
-msgstr ""
+msgstr "Obavijest o vremenskom položaju."
 
 #. TRANSLATORS: Change this to the code of your default location
 #. that corresponds to the DEFAULT_LOCATION name you put above. This
@@ -257,7 +258,7 @@ msgstr ""
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "'ZADANI_KOD'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
@@ -268,7 +269,7 @@ msgid ""
 "Nearby major zone, such as a capital city, as found from "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Obližnje veće područje, poput glavnoga grada, kako se nalazi na https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #. TRANSLATORS: Change this to the zone of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -281,17 +282,17 @@ msgstr ""
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "'ZADANO_PODRUČJE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
-msgstr ""
+msgstr "Područni položaj"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:62
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Jedinstveno područje za grad, kako se nalazi na https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #. TRANSLATORS: Change this to the radar of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -305,26 +306,26 @@ msgstr ""
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
 msgid "'DEFAULT_RADAR'"
-msgstr "'UOBIČAJENI_RADAR'"
+msgstr "'ZADANI_RADAR'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
 msgid "Radar location"
-msgstr "Položaj radara"
+msgstr "Radarski položaj"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:74
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Troznamenkasti kod za preuzimanje radarskih karata iz weather.com, kako se nalazi na https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:75
 msgid "Weather for a city"
-msgstr ""
+msgstr "Vrijeme za grad"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:76
 msgid "The city that mateweather displays information for."
-msgstr "Grad o kojem mateweather prikazuje informacije."
+msgstr "Grad za koji mateweather prikazuje obavijesti."
 
 #. TRANSLATORS: Change this to the coordinates of your default
 #. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
@@ -337,35 +338,35 @@ msgstr "Grad o kojem mateweather prikazuje informacije."
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
 msgid "'DEFAULT_COORDINATES'"
-msgstr "'UOBIČAJENE_KOORDINATE'"
+msgstr "'ZADANE_KOORDINATE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
-msgstr "Koordinate lokacijie"
+msgstr "Položajne koordinate"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:87
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
-msgstr ""
+msgstr "Širina i dužina tvog položaja izražena u DD-MM-SS[NS] DD-MM-SS[EW]."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:88
 msgid "Use custom url for the radar map"
-msgstr "Koristi odabranu adresu za radarsku mapu"
+msgstr "Koristi prilagođenu URL adresu za radarsku kartu"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:89
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr ""
+msgstr "Ako je istinito, tada preuzmi radarsku kartu koju je označio \"radar\" ključ."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:90
 msgid "Url for the radar map"
-msgstr "Adresa za radarsku mapu"
+msgstr "URL adresa za radarsku kartu"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:91
 msgid "The custom url from where to retrieve a radar map."
-msgstr "Adresa odakle se dohvaća radarska mapa."
+msgstr "Prilagođena URL adresa s koje se preuzima radarska karta."
 
 #: ../libmateweather/timezone-menu.c:277
 msgctxt "timezone"
@@ -376,15 +377,15 @@ msgstr "Nepoznato"
 #: ../libmateweather/weather-metar.c:504
 #, c-format
 msgid "Failed to get METAR data: %d %s.\n"
-msgstr ""
+msgstr "Neuspjelo pribavljanje METAR podataka: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
-msgstr "Nedostaje mjesto za podatke o vremenu"
+msgstr "Nedostaje položaj za vremenske podatke"
 
 #: ../libmateweather/weather.c:232
 msgid "Variable"
-msgstr "Varijabla"
+msgstr "Promjenjivo"
 
 #: ../libmateweather/weather.c:233
 msgid "North"
@@ -392,15 +393,15 @@ msgstr "Sjever"
 
 #: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
-msgstr "Sjever - sjeveroistok"
+msgstr "Sjever-sjeveroistok"
 
 #: ../libmateweather/weather.c:233
 msgid "Northeast"
-msgstr "Sjeveroistočni"
+msgstr "Sjeveroistok"
 
 #: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
-msgstr "Istočni - sjeveroistočni"
+msgstr "Istok-sjeveroistok"
 
 #: ../libmateweather/weather.c:234
 msgid "East"
@@ -408,15 +409,15 @@ msgstr "Istok"
 
 #: ../libmateweather/weather.c:234
 msgid "East - Southeast"
-msgstr "Istočni - jugoistočni"
+msgstr "Istok-jugoistok"
 
 #: ../libmateweather/weather.c:234
 msgid "Southeast"
-msgstr "Jugoistočni"
+msgstr "Jugoistok"
 
 #: ../libmateweather/weather.c:234
 msgid "South - Southeast"
-msgstr "Jugo - Jugoistočni"
+msgstr "Jug-jugoistok"
 
 #: ../libmateweather/weather.c:235
 msgid "South"
@@ -424,31 +425,31 @@ msgstr "Jug"
 
 #: ../libmateweather/weather.c:235
 msgid "South - Southwest"
-msgstr "Jugo - Jugozapadni"
+msgstr "Jug-jugozapad"
 
 #: ../libmateweather/weather.c:235
 msgid "Southwest"
-msgstr "Jugozapadni"
+msgstr "Jugozapad"
 
 #: ../libmateweather/weather.c:235
 msgid "West - Southwest"
-msgstr "Zapadno - južnozapadni"
+msgstr "Zapad-jugozapad"
 
 #: ../libmateweather/weather.c:236
 msgid "West"
-msgstr "Zap."
+msgstr "Zapad"
 
 #: ../libmateweather/weather.c:236
 msgid "West - Northwest"
-msgstr "Zapadni - sjeverozapadni"
+msgstr "Zapad-sjeverozapad"
 
 #: ../libmateweather/weather.c:236
 msgid "Northwest"
-msgstr "Sjeverozapadni"
+msgstr "Sjeverozapad"
 
 #: ../libmateweather/weather.c:236
 msgid "North - Northwest"
-msgstr "Sjever - sjeverozapad"
+msgstr "Sjever-sjeverozapad"
 
 #: ../libmateweather/weather.c:249
 msgid "Clear Sky"
@@ -460,15 +461,15 @@ msgstr "Razbijeni oblaci"
 
 #: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
-msgstr "Raspršeni oblaci"
+msgstr "Mjestimice oblačno"
 
 #: ../libmateweather/weather.c:252
 msgid "Few clouds"
-msgstr "Mjestimično oblačno"
+msgstr "Slaba naoblaka"
 
 #: ../libmateweather/weather.c:253
 msgid "Overcast"
-msgstr "Oblačno"
+msgstr "Naoblaka"
 
 #. TRANSLATOR: If you want to know what "blowing" "shallow" "partial"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
@@ -481,23 +482,23 @@ msgstr "Pljusak sa grmljavinom"
 #. DRIZZLE
 #: ../libmateweather/weather.c:293
 msgid "Drizzle"
-msgstr "Rominjanje"
+msgstr "Kišica"
 
 #: ../libmateweather/weather.c:293
 msgid "Light drizzle"
-msgstr "Slabo rominjanje"
+msgstr "Slaba kišica"
 
 #: ../libmateweather/weather.c:293
 msgid "Moderate drizzle"
-msgstr "Umjereno rominjanje"
+msgstr "Umjerena kišica"
 
 #: ../libmateweather/weather.c:293
 msgid "Heavy drizzle"
-msgstr "Jače rominjanje"
+msgstr "Jača kišica"
 
 #: ../libmateweather/weather.c:293
 msgid "Freezing drizzle"
-msgstr "Ledeno rominjanje"
+msgstr "Ledena kišica"
 
 #. RAIN
 #: ../libmateweather/weather.c:294
@@ -531,31 +532,31 @@ msgstr "Snijeg"
 
 #: ../libmateweather/weather.c:295
 msgid "Light snow"
-msgstr "Slab snijeg"
+msgstr "Slabi snijeg"
 
 #: ../libmateweather/weather.c:295
 msgid "Moderate snow"
-msgstr "Umjeren sneg"
+msgstr "Umjereni snijeg"
 
 #: ../libmateweather/weather.c:295
 msgid "Heavy snow"
-msgstr "Jak snijeg"
+msgstr "Jaki snijeg"
 
 #: ../libmateweather/weather.c:295
 msgid "Snowstorm"
-msgstr "Sniježna oluja"
+msgstr "Snježna oluja"
 
 #: ../libmateweather/weather.c:295
 msgid "Blowing snowfall"
-msgstr "Snijeg praćen vjetrom"
+msgstr "Snijeg s vjetrom"
 
 #: ../libmateweather/weather.c:295
 msgid "Snow showers"
-msgstr "Sniježni pljusak"
+msgstr "Snježni pljuskovi"
 
 #: ../libmateweather/weather.c:295
 msgid "Drifting snow"
-msgstr "Prolazni snijeg"
+msgstr "Mećava"
 
 #. SNOW_GRAINS
 #: ../libmateweather/weather.c:296
@@ -577,68 +578,68 @@ msgstr "Jaka susnježica"
 #. ICE_CRYSTALS
 #: ../libmateweather/weather.c:297
 msgid "Ice crystals"
-msgstr "Ledenice"
+msgstr "Kristali leda"
 
 #. ICE_PELLETS
 #: ../libmateweather/weather.c:298
 msgid "Ice pellets"
-msgstr "Ledene kuglice"
+msgstr "Zrnati led"
 
 #: ../libmateweather/weather.c:298
 msgid "Few ice pellets"
-msgstr "Ponešto ledenih kuglica"
+msgstr "Slabi zrnati led"
 
 #: ../libmateweather/weather.c:298
 msgid "Moderate ice pellets"
-msgstr "Umjereno ledene kuglice"
+msgstr "Umjereni zrnati led"
 
 #: ../libmateweather/weather.c:298
 msgid "Heavy ice pellets"
-msgstr "Mnogo ledenih kuglica"
+msgstr "Jaki zrnati led"
 
 #: ../libmateweather/weather.c:298
 msgid "Ice pellet storm"
-msgstr "Oluja ledenih kuglica"
+msgstr "Oluja zrnatog leda"
 
 #: ../libmateweather/weather.c:298
 msgid "Showers of ice pellets"
-msgstr "Pljusak ledenih kuglica"
+msgstr "Pljuskovi zrnatog leda"
 
 #. HAIL
 #: ../libmateweather/weather.c:299
 msgid "Hail"
-msgstr "Grad"
+msgstr "Tuča"
 
 #: ../libmateweather/weather.c:299
 msgid "Hailstorm"
-msgstr "Olujni grad"
+msgstr "Olujna tuča"
 
 #: ../libmateweather/weather.c:299
 msgid "Hail showers"
-msgstr "Pljusak grada"
+msgstr "Pljuskovi s tučom"
 
 #. SMALL_HAIL
 #: ../libmateweather/weather.c:300
 msgid "Small hail"
-msgstr "Slab grad"
+msgstr "Sitna tuča"
 
 #: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
-msgstr "Slaba oluja grada"
+msgstr "Sitna olujna tuča"
 
 #: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
-msgstr "Pljusak slabog grada"
+msgstr "Pljuskovi sitne tuče"
 
 #. PRECIPITATION
 #: ../libmateweather/weather.c:301
 msgid "Unknown precipitation"
-msgstr "Nepoznate padavine"
+msgstr "Nepoznata količina oborina"
 
 #. MIST
 #: ../libmateweather/weather.c:302
 msgid "Mist"
-msgstr "Mist"
+msgstr "Izmaglica"
 
 #. FOG
 #: ../libmateweather/weather.c:303
@@ -651,15 +652,15 @@ msgstr "Magla u blizini"
 
 #: ../libmateweather/weather.c:303
 msgid "Shallow fog"
-msgstr "Slabašna magla"
+msgstr "Plitka magla"
 
 #: ../libmateweather/weather.c:303
 msgid "Patches of fog"
-msgstr "Mjestimično maglovito"
+msgstr "Mjestimična magla"
 
 #: ../libmateweather/weather.c:303
 msgid "Partial fog"
-msgstr "Povremena magla"
+msgstr "Djelomična magla"
 
 #: ../libmateweather/weather.c:303
 msgid "Freezing fog"
@@ -682,11 +683,11 @@ msgstr "Pijesak"
 
 #: ../libmateweather/weather.c:306
 msgid "Blowing sand"
-msgstr "Pijesak praćen vjetrom"
+msgstr "Pijesak s vjetrom"
 
 #: ../libmateweather/weather.c:306
 msgid "Drifting sand"
-msgstr "Prolazni pijesak"
+msgstr "Pješčana mećava"
 
 #. HAZE
 #: ../libmateweather/weather.c:307
@@ -696,7 +697,7 @@ msgstr "Sumaglica"
 #. SPRAY
 #: ../libmateweather/weather.c:308
 msgid "Blowing sprays"
-msgstr "Razarajuće zaprašeno"
+msgstr "Škropac s vjetrom"
 
 #. DUST
 #: ../libmateweather/weather.c:309
@@ -709,12 +710,12 @@ msgstr "Prašina nošena vjetrom"
 
 #: ../libmateweather/weather.c:309
 msgid "Drifting dust"
-msgstr "Plutajuća prašina"
+msgstr "Prašnjava mećava"
 
 #. SQUALL
 #: ../libmateweather/weather.c:310
 msgid "Squall"
-msgstr "Udar vjetra"
+msgstr "Naleti vjetra"
 
 #. SANDSTORM
 #: ../libmateweather/weather.c:311
@@ -727,25 +728,25 @@ msgstr "Pješčana oluja u blizini"
 
 #: ../libmateweather/weather.c:311
 msgid "Heavy sandstorm"
-msgstr "Jaka piješčana oluja"
+msgstr "Jaka pješčana oluja"
 
 #. DUSTSTORM
 #: ../libmateweather/weather.c:312
 msgid "Duststorm"
-msgstr "Vrtlog od prašine"
+msgstr "Prašnjava oluja"
 
 #: ../libmateweather/weather.c:312
 msgid "Duststorm in the vicinity"
-msgstr "Vrtlog od prašine u blizini"
+msgstr "Prašnjava oluja u blizini"
 
 #: ../libmateweather/weather.c:312
 msgid "Heavy duststorm"
-msgstr "Jak vrtlog prašine"
+msgstr "Jaka prašnjava oluja"
 
 #. FUNNEL_CLOUD
 #: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
-msgstr "Dimni oblak"
+msgstr "Vrtložni oblak"
 
 #. TORNADO
 #: ../libmateweather/weather.c:314
@@ -856,11 +857,11 @@ msgstr "%.1f m/s"
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
-msgstr ""
+msgstr "Beaufortova jačina %.1f"
 
 #: ../libmateweather/weather.c:935
 msgid "Calm"
-msgstr "Mirno"
+msgstr "Utiha"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
 #: ../libmateweather/weather.c:939
@@ -872,7 +873,7 @@ msgstr "%s / %s"
 #: ../libmateweather/weather.c:961
 #, c-format
 msgid "%.2f inHg"
-msgstr ""
+msgstr "%.2f inHg"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
 #: ../libmateweather/weather.c:965
@@ -924,8 +925,8 @@ msgstr "%.0fm"
 
 #: ../libmateweather/weather.c:1046 ../libmateweather/weather.c:1067
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M"
 
 #: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
-msgstr "Neuspješan dohvat podataka"
+msgstr "Dohvat podataka nije uspio"

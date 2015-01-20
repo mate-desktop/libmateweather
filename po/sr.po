@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004-2006
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-08 13:20+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-12-06 22:17+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/projects/p/MATE/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,22 +24,22 @@ msgstr ""
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:158
 msgid "Default"
-msgstr "Подразумевано"
+msgstr "Основно"
 
 #. translators: Kelvin
 #: ../libmateweather/mateweather-prefs.c:89
 msgid "K"
-msgstr "Келвин"
+msgstr "Келвини"
 
 #. translators: Celsius
 #: ../libmateweather/mateweather-prefs.c:92
 msgid "C"
-msgstr "Целзијус"
+msgstr "Целзијуси"
 
 #. translators: Fahrenheit
 #: ../libmateweather/mateweather-prefs.c:95
 msgid "F"
-msgstr "Фаренхајт"
+msgstr "Фаренхајти"
 
 #: ../libmateweather/mateweather-prefs.c:97
 #: ../libmateweather/mateweather-prefs.c:122
@@ -124,13 +125,13 @@ msgstr "Гриничко средње време"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:1
 msgid "Update the data automatically"
-msgstr "Освежи податке аутоматски"
+msgstr "Освежава податке самостално"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:2
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr "Одређује да ли програмче аутоматски освежава прогнозу или не."
+msgstr "Одређује да ли програмче самостално освежава прогнозу или не."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:3
 msgid "Update interval"
@@ -138,79 +139,79 @@ msgstr "Време између допуна"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:4
 msgid "The interval, in seconds, between automatic updates."
-msgstr "Размак, у секундама, између два освежавања."
+msgstr "Време, у секундама, између два освежавања."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:5
 msgid "Use metric units"
-msgstr "Користити метрички систем јединица"
+msgstr "Користити јединице метричког система"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:6
 msgid "Use metric units instead of english units."
-msgstr "Користи метрички систем јединица уместо енглеског система."
+msgstr "Користи јединице метричког система уместо енглеског система."
 
 #. TRANSLATORS: pick a default distance unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:9
 msgid "'miles'"
-msgstr ""
+msgstr "'meters'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:10
 msgid "Distance unit"
-msgstr "Јединице растојања"
+msgstr "Јединица растојања"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:11
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr ""
+msgstr "Јединица која ће се користити за видљивост. Вредности су: 'meters' (метри), 'km' (километри), 'miles' (миље)."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:14
 msgid "'inHg'"
-msgstr ""
+msgstr "'mmHg'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:15
 msgid "Pressure unit"
-msgstr "Јединице притиска"
+msgstr "Јединица притиска"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:16
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
 "'atm'."
-msgstr ""
+msgstr "Јединица која ће се користити за притисак. Вредности су: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:19
 msgid "'knots'"
-msgstr ""
+msgstr "'ms'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:20
 msgid "Speed unit"
-msgstr "Јединице брзине"
+msgstr "Јединица брзине"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:21
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr ""
+msgstr "Јединица која ће се користити за брзину ветра. Вредности су: 'm/s', 'km/h, 'mph', 'knots', 'Beaufort scale'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:24
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'Centigrade'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:25
 msgid "Temperature unit"
-msgstr "Јединице температуре"
+msgstr "Јединица температуре"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:26
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr ""
+msgstr "Јединица која ће се користити за температуру. Вредности су: 'Kelvin', 'Centigrade', 'Fahrenheit'."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:27
 msgid "Not used anymore"
@@ -234,7 +235,7 @@ msgstr "Преузми радарску мапу при сваком освеж�
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:38
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "Београд"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:39
 msgid "Weather location information"
@@ -255,7 +256,7 @@ msgstr "Подаци о месту за прогнозу."
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:49
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "LYBE"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:50
 msgid "Nearby city"
@@ -266,7 +267,7 @@ msgid ""
 "Nearby major zone, such as a capital city, as found from "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Оближња највећа област, као што је главни град, као што се налази на „https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in“"
 
 #. TRANSLATORS: Change this to the zone of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -279,17 +280,17 @@ msgstr ""
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:60
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "'DEFAULT_ZONE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:61
 msgid "Zone location"
-msgstr "Место зоне"
+msgstr "Место области"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:62
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Јединствена област за град, као што се налази на „https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in“"
 
 #. TRANSLATORS: Change this to the radar of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -303,18 +304,18 @@ msgstr ""
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:72
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr " "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:73
 msgid "Radar location"
-msgstr "Положај радара"
+msgstr "Место радара"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:74
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Код од три цифре за довлачење радарских карти са„weather.com“-а, који се налази на „https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in“"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:75
 msgid "Weather for a city"
@@ -322,7 +323,7 @@ msgstr "Временске прилике за град"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:76
 msgid "The city that mateweather displays information for."
-msgstr "Град за који се приказују подаци."
+msgstr "Град за који се приказују обавештења."
 
 #. TRANSLATORS: Change this to the coordinates of your default
 #. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
@@ -335,7 +336,7 @@ msgstr "Град за који се приказују подаци."
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:85
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "44.818611 20.468056"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:86
 msgid "Location coordinates"
@@ -349,7 +350,7 @@ msgstr "Географска ширина и дужина вашег места 
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:88
 msgid "Use custom url for the radar map"
-msgstr "Користи адресу по избору за радарску мапу"
+msgstr "Произвољна адреса за радарску мапу"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:89
 msgid ""
@@ -363,7 +364,7 @@ msgstr "Адреса за радарску мапу"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:91
 msgid "The custom url from where to retrieve a radar map."
-msgstr "Адреса по избору одакле се довлачи радарска мапа."
+msgstr "Произвољна адреса са које се довлачи радарска мапа."
 
 #: ../libmateweather/timezone-menu.c:277
 msgctxt "timezone"
@@ -374,7 +375,7 @@ msgstr "Непознато"
 #: ../libmateweather/weather-metar.c:504
 #, c-format
 msgid "Failed to get METAR data: %d %s.\n"
-msgstr "Неуспешно добављање метеоролошких података: %d %s.\n"
+msgstr "Нисам успео да добавим метеоролошке податке: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
@@ -390,7 +391,7 @@ msgstr "Северни"
 
 #: ../libmateweather/weather.c:233
 msgid "North - NorthEast"
-msgstr "Северни-Североисточни"
+msgstr "Северни-североисточни"
 
 #: ../libmateweather/weather.c:233
 msgid "Northeast"
@@ -398,7 +399,7 @@ msgstr "Североисточни"
 
 #: ../libmateweather/weather.c:233
 msgid "East - NorthEast"
-msgstr "Источни-Североисточни"
+msgstr "Источни-североисточни"
 
 #: ../libmateweather/weather.c:234
 msgid "East"
@@ -406,7 +407,7 @@ msgstr "Источни"
 
 #: ../libmateweather/weather.c:234
 msgid "East - Southeast"
-msgstr "Источни-Југоисточни"
+msgstr "Источни-југоисточни"
 
 #: ../libmateweather/weather.c:234
 msgid "Southeast"
@@ -414,7 +415,7 @@ msgstr "Југоисточни"
 
 #: ../libmateweather/weather.c:234
 msgid "South - Southeast"
-msgstr "Југо-Југоисточни"
+msgstr "Југо-југоисточни"
 
 #: ../libmateweather/weather.c:235
 msgid "South"
@@ -422,7 +423,7 @@ msgstr "Јужни"
 
 #: ../libmateweather/weather.c:235
 msgid "South - Southwest"
-msgstr "Југо-Југозападни"
+msgstr "Југо-југозападни"
 
 #: ../libmateweather/weather.c:235
 msgid "Southwest"
@@ -430,7 +431,7 @@ msgstr "Југозападни"
 
 #: ../libmateweather/weather.c:235
 msgid "West - Southwest"
-msgstr "Западно-Јужнозападни"
+msgstr "Западно-југозападни"
 
 #: ../libmateweather/weather.c:236
 msgid "West"
@@ -438,7 +439,7 @@ msgstr "Западни"
 
 #: ../libmateweather/weather.c:236
 msgid "West - Northwest"
-msgstr "Западни-Северозападни"
+msgstr "Западни-северозападни"
 
 #: ../libmateweather/weather.c:236
 msgid "Northwest"
@@ -446,7 +447,7 @@ msgstr "Северозападни"
 
 #: ../libmateweather/weather.c:236
 msgid "North - Northwest"
-msgstr "Северно-Северозападни"
+msgstr "Северно-северозападни"
 
 #: ../libmateweather/weather.c:249
 msgid "Clear Sky"
@@ -605,28 +606,28 @@ msgstr "Пљусак ледених куглица"
 #. HAIL
 #: ../libmateweather/weather.c:299
 msgid "Hail"
-msgstr "Град"
+msgstr "Гра̏д"
 
 #: ../libmateweather/weather.c:299
 msgid "Hailstorm"
-msgstr "Олујни град"
+msgstr "Олујни гра̏д"
 
 #: ../libmateweather/weather.c:299
 msgid "Hail showers"
-msgstr "Пљусак града"
+msgstr "Пљусак гра̏да"
 
 #. SMALL_HAIL
 #: ../libmateweather/weather.c:300
 msgid "Small hail"
-msgstr "Мањи град"
+msgstr "Мањи гра̏д"
 
 #: ../libmateweather/weather.c:300
 msgid "Small hailstorm"
-msgstr "Мања олуја града"
+msgstr "Слабији олујни гра̏д"
 
 #: ../libmateweather/weather.c:300
 msgid "Showers of small hail"
-msgstr "Пљусак мањег града"
+msgstr "Пљускови слабијег гра̏да"
 
 #. PRECIPITATION
 #: ../libmateweather/weather.c:301
@@ -657,7 +658,7 @@ msgstr "Трагови магле"
 
 #: ../libmateweather/weather.c:303
 msgid "Partial fog"
-msgstr "Делимично магла"
+msgstr "Местимична магла"
 
 #: ../libmateweather/weather.c:303
 msgid "Freezing fog"
@@ -743,7 +744,7 @@ msgstr "Јак вртлог од прашине"
 #. FUNNEL_CLOUD
 #: ../libmateweather/weather.c:313
 msgid "Funnel cloud"
-msgstr "Облак ки димњак"
+msgstr "Левкасти облак"
 
 #. TORNADO
 #: ../libmateweather/weather.c:314
@@ -761,10 +762,9 @@ msgstr "Ковитлаци прашине у близини"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
-msgstr "%a, %b %d / %H:%M"
+msgstr "%A, %d. %B / %H:%M"
 
 #: ../libmateweather/weather.c:725
 msgid "Unknown observation time"
@@ -830,7 +830,7 @@ msgstr "%.f%%"
 #: ../libmateweather/weather.c:892
 #, c-format
 msgid "%0.1f knots"
-msgstr "%0.1f чворова"
+msgstr "%0.1f чвора"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
 #: ../libmateweather/weather.c:896
@@ -852,7 +852,6 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
@@ -928,4 +927,4 @@ msgstr "%H:%M"
 
 #: ../libmateweather/weather.c:1126
 msgid "Retrieval failed"
-msgstr "Неуспешно добављање података"
+msgstr "Није успело добављање података"

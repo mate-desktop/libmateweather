@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Dafydd Harries <daf@muse.19inch.net>, 2003, 2004.
-# Dafydd Tomos <l10n@da.fydd.org>, 2004.
-# Iestyn Pryce <dylunio@gmail.com, 2009.
-# Rhys Jones <rhys@sucs.org>, 2005.
-# www.gyfieithu.co.uk <kyfieithu@dotmon.com>, 2003.
+# ciaran, 2014
+# Dafydd Harries <daf@muse.19inch.net>, 2003-2004
+# Dafydd Tomos <l10n@da.fydd.org>, 2004
+# Iestyn Pryce <dylunio@gmail.com, 2009
+# Rhys Jones <rhys@sucs.org>, 2005
+# www.gyfieithu.co.uk <kyfieithu@dotmon.com>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2013-03-08 13:20+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-12-20 17:39+0000\n"
+"Last-Translator: ciaran\n"
+"Language-Team: Welsh (http://www.transifex.com/projects/p/MATE/language/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -124,7 +125,7 @@ msgstr "mi"
 
 #: ../libmateweather/mateweather-timezone.c:314
 msgid "Greenwich Mean Time"
-msgstr "Amser Cymedrig Greenwich"
+msgstr "Amser Safonol Greenwich"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:1
 msgid "Update the data automatically"
@@ -134,7 +135,7 @@ msgstr "Diweddaru'r data'n awtomatig"
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr "Penderfynu a ydy'r rhaglennig yn diweddaru ei ystadegau tywydd yn awtomatig ai peidio."
+msgstr "Penderfynu a ydy'r rhaglennig yn diweddaru ei hystadegau tywydd yn awtomatig ai peidio."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:3
 msgid "Update interval"
@@ -458,7 +459,7 @@ msgstr "Awyr Las"
 
 #: ../libmateweather/weather.c:250
 msgid "Broken clouds"
-msgstr "Cymylau dor"
+msgstr "Cymylau toredig"
 
 #: ../libmateweather/weather.c:251
 msgid "Scattered clouds"
@@ -765,7 +766,6 @@ msgstr "Chwyrliadau llwch yn y cyffiniau"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a. %b %d / %H:%M"
@@ -856,7 +856,6 @@ msgstr "%.1f m/e"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"
