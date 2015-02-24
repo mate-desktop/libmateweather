@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Arangel Angov <arangel@linux.net.mk>, 2007.
-# Arangel Angov <ufo@linux.net.mk>, 2006, 2007, 2008.
-# Dushan Vasilevski-DUVIX <dule_boki@mt.net.mk>, 2003.
-# Ivan Stojmirov <stojmir@linux.net.mk>, 2002.
-# Jovan Naumovski <jovan@lugola.net>, 2006, 2007.
-# Marko Ivanoski <marko@programmer.net>, 2003.
-# Арангел Ангов <ufo@linux.net.mk>, 2005.
-# Зоран Димовски <decata@mt.net.mk>, 2004.
+# Arangel Angov <arangel@linux.net.mk>, 2007
+# Arangel Angov <ufo@linux.net.mk>, 2006-2008
+# Dushan Vasilevski-DUVIX <dule_boki@mt.net.mk>, 2003
+# Ivan Stojmirov <stojmir@linux.net.mk>, 2002
+# Jovan Naumovski <jovan@lugola.net>, 2006-2007
+# Marko Ivanoski <marko@programmer.net>, 2003
+# Арангел Ангов <ufo@linux.net.mk>, 2005
+# Зоран Димовски <decata@mt.net.mk>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2013-03-08 13:20+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Macedonian (http://www.transifex.com/projects/p/MATE/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -768,7 +768,6 @@ msgstr "Dust whirls in the vicinity"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
@@ -859,7 +858,6 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jorge González <jorgegonz@svn.gnome.org>, 2007, 200, 2009.
-# Tatiana Gutiérrez Bunster <tgutierr@ubiobio.cl>, 2003.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 200, 2009
+# Tatiana Gutiérrez Bunster <tgutierr@ubiobio.cl>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2013-03-08 13:20+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/MATE/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -762,7 +762,6 @@ msgstr "Remolino de polvo en los alrededores"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a %d de %b / %H:%M"
@@ -853,7 +852,6 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

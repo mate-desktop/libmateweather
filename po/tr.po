@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2008-2009.
-# Emre Kadıoğlu <emrek@gawab.com>, 2005.
-#  <mauron@vmail.me>, 2013.
-#   <mauron@vmail.me>, 2012.
-# Sinan Imamoglu <sinan@myrealbox.com>, 2003.
+# Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2008-2009
+# Emre Kadıoğlu <emrek@gawab.com>, 2005
+# mauron, 2013
+# mauron, 2012
+# Sinan Imamoglu <sinan@myrealbox.com>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2013-03-28 10:52+0000\n"
-"Last-Translator: mauron <mauron@vmail.me>\n"
+"Last-Translator: mauron\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/MATE/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -765,7 +765,6 @@ msgstr "Çevrede toz kasırgaları var"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
@@ -856,7 +855,6 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

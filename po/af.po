@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# F Wolff <friedel@translate.org.za>, 2010.
-# Hermien Bos <hermienbos@gmail.com>, 2010.
-#   <nato323@gmail.com>, 2012.
+# F Wolff <friedel@translate.org.za>, 2010
+# Hermien Bos <hermienbos@gmail.com>, 2010
+# nato323 <nato323@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2013-03-08 13:20+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
@@ -763,7 +763,6 @@ msgstr "Stofwarrelwinde in die omgewing"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a %d %b / %H:%M"
@@ -854,7 +853,6 @@ msgstr "%.1f m/s"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

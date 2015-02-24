@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Aron Xu <happyaron.xu@gmail.com>, 2009
-# maxiaojun <damage3025@gmail.com>, 2012
+# Ma Xiaojun <damage3025@gmail.com>, 2012
 # Funda Wang <fundawang@linux.net.cn>, 2003
 # Liu Songhe <jackliu9999@263.net>, 2003
 # Ray Wang <wanglei1123@gmail.com>, 2009

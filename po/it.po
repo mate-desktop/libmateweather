@@ -5,8 +5,8 @@
 # Translators:
 # talorno <giovanni.talorno@gmail.com>, 2012
 # Luca Ferretti <elle.uca@libero.it>, 2008
-# Marco91, 2013
-# milo <milo@ubuntu.com>, 2009
+# Marco Mangiacavalli, 2013
+# Milo Casagrande <milo@ubuntu.com>, 2009
 # Stefano Karapetsas <stefano@karapetsas.com>, 2013-2014
 msgid ""
 msgstr ""

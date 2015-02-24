@@ -8,7 +8,7 @@
 # Ayman Hourieh <aymanh@gmail.com>, 2004
 # Isam Bayazidi <bayazidi@arabeyes.org>, 2002
 # Khaled Hosny <khaledhosny@eglug.org>, 2006-2009
-# moceap <moceap@hotmail.com>, 2013
+# Mosaab Alzoubi <moceap@hotmail.com>, 2013
 # noureddin <noureddin@barid.com>, 2012
 # noureddin <noureddin@barid.com>, 2012
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002

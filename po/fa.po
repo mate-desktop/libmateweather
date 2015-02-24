@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Elnaz Sarbar <elnaz@farsiweb.info>, 2005, 2006.
-# Farzaneh Sarafraz <farzaneh@farsiweb.info>, 2006.
-# Meelad Zakaria <meelad@farsiweb.info>, 2005.
-# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003, 2005, 2006.
+# Elnaz Sarbar <elnaz@farsiweb.info>, 2005-2006
+# Farzaneh Sarafraz <farzaneh@farsiweb.info>, 2006
+# Meelad Zakaria <meelad@farsiweb.info>, 2005
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003,2005-2006
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2013-03-08 13:20+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
@@ -764,7 +764,6 @@ msgstr ""
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%A %Od %B / %OH:%OM"
@@ -855,7 +854,6 @@ msgstr "%I.1f متر بر ساعت"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

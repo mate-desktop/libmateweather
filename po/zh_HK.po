@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Jing-Jong Shyue <shyue@sonoma.com.tw>, , 2000.
-# Yuan-Chung Cheng <platin@linux.org.tw>, 1999.
+# Jing-Jong Shyue <shyue@sonoma.com.tw>, , 2000
+# Jing-Jong Shyue <shyue@sonoma.com.tw>, , 2000
+# Yuan-Chung Cheng <platin@linux.org.tw>, 1999
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2013-03-08 13:20+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
@@ -762,7 +763,6 @@ msgstr "鄰近地區有塵旋風"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%b %d(%a)/ %H:%M"
@@ -853,7 +853,6 @@ msgstr "每秒 %.1f 米"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

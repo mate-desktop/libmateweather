@@ -3,17 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Anilkumar KV <anilankv@gmail.com>, 2009.
-# Ani Peter <apeter@redhat.com>, 2006.
-# Hari Vishnu <harivishnu@gmail.com>, 2007.
-# Jaisen Nedumpala <jaisuvyas@gmail.com>, 2009.
-# Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2009.
-# vps <mvpsuresh@yahoo.com>, 2003.
-# V. Sasi Kumar <sasi.fsf@gmail.com>, 2009.
+# Anil <anilankv@gmail.com>, 2009
+# Ani Peter <apeter@redhat.com>, 2006
+# Hari Vishnu <harivishnu@gmail.com>, 2007
+# Jaisen Nedumpala <jaisuvyas@gmail.com>, 2009
+# Praveen A <pravi.a@gmail.com>, 2009
+# vps <mvpsuresh@yahoo.com>, 2003
+# V. Sasi Kumar <sasi.fsf@gmail.com>, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2013-03-08 13:20+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
@@ -767,7 +767,6 @@ msgstr "സമീപ പ്രദേശത്തു് പൊടി ചുഴല
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#. 
 #: ../libmateweather/weather.c:710
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
@@ -858,7 +857,6 @@ msgstr "%.1f മീ/സെ"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#. 
 #: ../libmateweather/weather.c:910
 #, c-format
 msgid "Beaufort force %.1f"

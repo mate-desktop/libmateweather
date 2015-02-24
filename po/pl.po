@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Bogusław Bochyński <penknife1@gmail.com>, 2013
-# Matriks404 <marcink96@gmail.com>, 2013
+# Bogusław B. <penknife1@gmail.com>, 2013
+# Marcin Kralka <marcink96@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2013-11-29 13:28+0000\n"
-"Last-Translator: Matriks404 <marcink96@gmail.com>\n"
+"Last-Translator: Marcin Kralka <marcink96@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

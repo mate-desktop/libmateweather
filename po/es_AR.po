@@ -4,7 +4,7 @@
 # 
 # Translators:
 # mbarbero <bastayadefumar@gmail.com>, 2014
-# sapox <zapponi.juan.jose@gmail.com>, 2014
+# Juan José Zapponi <zapponi.juan.jose@gmail.com>, 2014
 # Tatiana Gutiérrez Bunster <tgutierr@ubiobio.cl>, 2003
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
 "PO-Revision-Date: 2014-02-19 21:06+0000\n"
-"Last-Translator: sapox <zapponi.juan.jose@gmail.com>\n"
+"Last-Translator: Juan José Zapponi <zapponi.juan.jose@gmail.com>\n"
 "Language-Team: Spanish (Argentina) (http://www.transifex.com/projects/p/MATE/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
