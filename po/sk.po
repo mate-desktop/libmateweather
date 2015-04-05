@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2014
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2015
 # Marcel Telka <marcel@telka.sk>, 2005,2009
 # Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2000-2004
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 14:18+0100\n"
-"PO-Revision-Date: 2014-02-20 23:14+0000\n"
+"PO-Revision-Date: 2015-03-19 16:15+0000\n"
 "Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -357,7 +357,7 @@ msgstr "Použiť vlastné url pre radarovú mapu"
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr "Ak je true, radarová mapa sa získa z umiestnenia zadaného v kľúči \"radar\"."
+msgstr "Ak je táto možnosť vybraná, radarová mapa sa získa z umiestnenia zadaného v kľúči \"radar\"."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.in.h:90
 msgid "Url for the radar map"
