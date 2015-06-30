@@ -13,7 +13,7 @@ libmateweatherlocations_DATA = $(libmateweatherlocations_in_files:.xml.in=.xml$(
 %.xml$(COMPRESS_EXT): %.xml.in $(wildcard $(top_srcdir)/po-locations/*.po)
 	$(AM_V_GEN)LC_ALL=C $(INTLTOOL_MERGE) -x -u -c $(top_builddir)/po-locations/.intltool-merge-cache $(top_srcdir)/po-locations $< `echo $@ | sed "s/.xml$(COMPRESS_EXT)/.xml/"` && \
 	if test "x$(COMPRESS_EXT)" = "x.gz"; then				\
-		gzip --force `echo $@ | sed "s/.xml$(COMPRESS_EXT)/.xml/"`;	\
+		gzip -n --force `echo $@ | sed "s/.xml$(COMPRESS_EXT)/.xml/"`;	\
 	fi
 
 else # USE_ONE_BIG_XML
@@ -40,14 +40,14 @@ $(LOCATIONS_STAMP): $(libmateweatherlocations_in_files) $(PO_LOCATIONS) Makefile
 		rm -f $$locale/$(libmateweatherlocations_data);		\
 		test -d $$locale && rmdir $$locale;			\
 		if test "x$(COMPRESS_EXT)" = "x.gz"; then		\
-			gzip --force Locations.$$locale.xml;		\
+			gzip -n --force Locations.$$locale.xml;		\
 		fi;							\
 	done &&								\
 	xmllint --noblanks -o Locations.xml C/$(libmateweatherlocations_data) && \
 	rm -f C/$(libmateweatherlocations_data) &&				\
 	test -d C && rmdir C &&						\
 	if test "x$(COMPRESS_EXT)" = "x.gz"; then			\
-		gzip --force Locations.xml;				\
+		gzip -n --force Locations.xml;				\
 	fi &&								\
 	touch $@
 
