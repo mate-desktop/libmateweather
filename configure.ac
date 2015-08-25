@@ -20,17 +20,6 @@ LT_VERSION=7:9:6
 AC_SUBST(LT_VERSION)
 
 AC_CANONICAL_HOST
-AC_MSG_CHECKING([for Win32])
-case "$host" in
-  *-*-mingw*)
-    mateweather_native_win32="yes"
-    ;;
-  *)
-    mateweather_native_win32="no"
-    ;;
-esac
-AC_MSG_RESULT([$mateweather_native_win32])
-AM_CONDITIONAL(OS_WIN32, [test "$mateweather_native_win32" = "yes"])
 
 AC_MSG_CHECKING([which gtk+ version to compile against])
 AC_ARG_WITH([gtk],
@@ -58,7 +47,7 @@ GIO_REQUIRED=2.25.0
 LIBXML_REQUIRED=2.6.0
 
 LT_PREREQ([2.2.6])
-LT_INIT([dlopen win32-dll disable-static])
+LT_INIT([dlopen disable-static])
 LT_LIB_M
 
 IT_PROG_INTLTOOL([0.40.6])
