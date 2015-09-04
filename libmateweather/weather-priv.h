@@ -29,10 +29,6 @@
 #include "weather.h"
 #include "mateweather-location.h"
 
-#ifdef _WIN32
-#include "mateweather-win32.h"
-#endif
-
 const char *mateweather_gettext (const char *str) G_GNUC_FORMAT (1);
 const char *mateweather_dpgettext (const char *context, const char *str) G_GNUC_FORMAT (2);
 #define _(str) (mateweather_gettext (str))

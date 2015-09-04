@@ -20,7 +20,7 @@ libmateweatherinc_HEADERS = \
 	$(mateweather_new_headers)		\
 	mateweather-enum-types.h
 
-noinst_HEADERS = weather-priv.h mateweather-win32.h
+noinst_HEADERS = weather-priv.h
 
 libmateweather_la_SOURCES = \
 	weather.c weather.h weather-priv.h \
@@ -32,16 +32,9 @@ libmateweather_la_SOURCES = \
 	mateweather-xml.c mateweather-xml.h \
 	mateweather-location.c mateweather-location.h \
 	mateweather-timezone.c mateweather-timezone.h \
-	mateweather-win32.h \
 	location-entry.c location-entry.h \
 	timezone-menu.c timezone-menu.h \
 	parser.c parser.h
-
-if OS_WIN32
-libmateweather_la_SOURCES += mateweather-win32.c
-else
-EXTRA_libmateweather_la_SOURCES = mateweather-win32.c
-endif
 
 libmateweather_la_CPPFLAGS = \
 	$(AM_CPPFLAGS)			\
