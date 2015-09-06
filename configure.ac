@@ -50,7 +50,7 @@ LT_PREREQ([2.2.6])
 LT_INIT([dlopen disable-static])
 LT_LIB_M
 
-IT_PROG_INTLTOOL([0.40.6])
+IT_PROG_INTLTOOL([0.50.1])
 
 PKG_PROG_PKG_CONFIG([0.19])
 

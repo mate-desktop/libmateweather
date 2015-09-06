@@ -4,7 +4,7 @@
 [encoding: UTF-8]
 libmateweather/mateweather-prefs.c
 libmateweather/mateweather-timezone.c
-libmateweather/org.mate.weather.gschema.xml.in.in
+[type: gettext/gsettings]libmateweather/org.mate.weather.gschema.xml.in
 libmateweather/timezone-menu.c
 libmateweather/weather-iwin.c
 libmateweather/weather-metar.c

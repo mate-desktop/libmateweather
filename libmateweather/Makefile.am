@@ -86,14 +86,12 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = mateweather.pc
 
 @INTLTOOL_XML_NOMERGE_RULE@
-gsettings_SCHEMAS = org.mate.weather.gschema.xml
+gsettingsschema_in_files = org.mate.weather.gschema.xml.in
+gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 @GSETTINGS_RULES@
 
-%.gschema.xml.in: %.gschema.xml.in.in Makefile
-	$(AM_V_GEN) $(SED) -e 's^\@GETTEXT_PACKAGE\@^$(GETTEXT_PACKAGE)^g' < $< > $@
+EXTRA_DIST = mateweather.pc.in mateweather-uninstalled.pc.in $(gsettingsschema_in_files)
 
-EXTRA_DIST = mateweather.pc.in mateweather-uninstalled.pc.in $(gsettings_SCHEMAS).in.in
-
-CLEANFILES = $(noinst_PROGRAMS) $(BUILT_SOURCES) $(gsettings_SCHEMAS).in $(gsettings_SCHEMAS) *.gschema.valid
+CLEANFILES = $(noinst_PROGRAMS) $(BUILT_SOURCES) $(gsettings_SCHEMAS) *.gschema.valid
 
 -include $(top_srcdir)/git.mk

@@ -35,60 +35,60 @@
   <schema id="org.mate.weather">
     <key name="show-notifications" type="b">
       <default>false</default>
-      <_summary>Show notifications</_summary>
-      <_description>Determines whether the applet shows a notification on each update.</_description>
+      <summary>Show notifications</summary>
+      <description>Determines whether the applet shows a notification on each update.</description>
     </key>
     <key name="auto-update" type="b">
       <default>true</default>
-      <_summary>Update the data automatically</_summary>
-      <_description>Determines whether the applet automatically updates its weather statistics or not.</_description>
+      <summary>Update the data automatically</summary>
+      <description>Determines whether the applet automatically updates its weather statistics or not.</description>
     </key>
     <key name="auto-update-interval" type="i">
       <default>1800</default>
-      <_summary>Update interval</_summary>
-      <_description>The interval, in seconds, between automatic updates.</_description>
+      <summary>Update interval</summary>
+      <description>The interval, in seconds, between automatic updates.</description>
     </key>
     <key name="enable-metric" type="b">
       <default>false</default>
-      <_summary>Use metric units</_summary>
-      <_description>Use metric units instead of english units.</_description>
+      <summary>Use metric units</summary>
+      <description>Use metric units instead of english units.</description>
     </key>
     <key name="distance-unit" enum="org.mate.weather.DistanceUnit">
       <!-- TRANSLATORS: pick a default distance unit for your locale, see key description
       for valid values; values must be quoted -->
       <_default l10n="messages">'miles'</_default>
-      <_summary>Distance unit</_summary>
-      <_description>The unit to use for visibility. Values: 'meters', 'km' ,'miles'.</_description>
+      <summary>Distance unit</summary>
+      <description>The unit to use for visibility. Values: 'meters', 'km' ,'miles'.</description>
     </key>
     <key name="pressure-unit" enum="org.mate.weather.PressureUnit">
       <!-- TRANSLATORS: pick a default pressure unit for your locale, see key description
       for valid values; values must be quoted -->
       <_default l10n="messages">'inHg'</_default>
-      <_summary>Pressure unit</_summary>
-      <_description>The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'.</_description>
+      <summary>Pressure unit</summary>
+      <description>The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'.</description>
     </key>
     <key name="speed-unit" enum="org.mate.weather.SpeedUnit">
       <!-- TRANSLATORS: pick a default speed unit for your locale, see key description
       for valid values; values must be quoted -->
       <_default l10n="messages">'knots'</_default>
-      <_summary>Speed unit</_summary>
-      <_description>The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', 'Beaufort scale'.</_description>
+      <summary>Speed unit</summary>
+      <description>The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', 'Beaufort scale'.</description>
     </key>
     <key name="temperature-unit" enum="org.mate.weather.TemperatureUnit">
       <!-- TRANSLATORS: pick a temperature unit that should be used by default in your
       locale, see key description for valid values; values must be quoted -->
       <_default l10n="messages">'Fahrenheit'</_default>
-      <_summary>Temperature unit</_summary>
-      <_description>The unit to use for temperature. Values: 'Kelvin', 'Centigrade', 'Fahrenheit'.</_description>
+      <summary>Temperature unit</summary>
+      <description>The unit to use for temperature. Values: 'Kelvin', 'Centigrade', 'Fahrenheit'.</description>
     </key>
     <key name="enable-detailed-forecast" type="b">
       <default>false</default>
-      <_summary>Not used anymore</_summary>
+      <summary>Not used anymore</summary>
     </key>
     <key name="enable-radar-map" type="b">
       <default>false</default>
-      <_summary>Display radar map</_summary>
-      <_description>Fetch a radar map on each update.</_description>
+      <summary>Display radar map</summary>
+      <description>Fetch a radar map on each update.</description>
     </key>
     <key name="location0" type="s">
       <!-- TRANSLATORS: Change this to the default location name, used
@@ -100,21 +100,21 @@
       do not require a DEFAULT_LOCATION, set this to
       "DEFAULT_LOCATION". -->
       <_default l10n="messages">'DEFAULT_LOCATION'</_default>
-      <_summary>Weather location information</_summary>
-      <_description>Weather location information.</_description>
+      <summary>Weather location information</summary>
+      <description>Weather location information.</description>
     </key>
     <key name="location1" type="s">
       <!-- TRANSLATORS: Change this to the code of your default location
       that corresponds to the DEFAULT_LOCATION name you put above. This
-      is normally a four-letter (ICAO) code and can be found in 
+      is normally a four-letter (ICAO) code and can be found in
       https://github.com/mate-desktop/libmateweather/blob/master/data/Locations.xml.in.
       NB. The web page is over 1.7MB in size. Pick a default location
       like a capital city so that it would be ok for more of your users.
       For example, for Greek, we use "LGAV" for the capital city, Athens.
       If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE". -->
       <_default l10n="messages">'DEFAULT_CODE'</_default>
-      <_summary>Nearby city</_summary>
-      <_description>Nearby major zone, such as a capital city, as found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</_description>
+      <summary>Nearby city</summary>
+      <description>Nearby major zone, such as a capital city, as found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</description>
     </key>
     <key name="location2" type="s">
       <!-- TRANSLATORS: Change this to the zone of your default location
@@ -126,8 +126,8 @@
       file. If your default location does not have a zone, set this to
       "DEFAULT_ZONE". -->
       <_default l10n="messages">'DEFAULT_ZONE'</_default>
-      <_summary>Zone location</_summary>
-      <_description>A unique zone for the city, as found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</_description>
+      <summary>Zone location</summary>
+      <description>A unique zone for the city, as found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</description>
     </key>
     <key name="location3" type="s">
       <!-- TRANSLATORS: Change this to the radar of your default location
@@ -140,13 +140,13 @@
       " " (or space).
       If you do not have a default location, set this to DEFAULT_RADAR. -->
       <_default l10n="messages">'DEFAULT_RADAR'</_default>
-      <_summary>Radar location</_summary>
-      <_description>A three-digit-long code for retrieving radar maps from weather.com, found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</_description>
+      <summary>Radar location</summary>
+      <description>A three-digit-long code for retrieving radar maps from weather.com, found from https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in</description>
     </key>
     <key name="location4" type="s">
       <_default l10n="messages">'DEFAULT_LOCATION'</_default>
-      <_summary>Weather for a city</_summary>
-      <_description>The city that mateweather displays information for.</_description>
+      <summary>Weather for a city</summary>
+      <description>The city that mateweather displays information for.</description>
     </key>
     <key name="coordinates" type="s">
       <!-- TRANSLATORS: Change this to the coordinates of your default
@@ -158,18 +158,18 @@
       coordinates, set this to " " (or space). If you do not have a
       default location, set this to DEFAULT_COORDINATES. -->
       <_default l10n="messages">'DEFAULT_COORDINATES'</_default>
-      <_summary>Location coordinates</_summary>
-      <_description>Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS[EW].</_description>
+      <summary>Location coordinates</summary>
+      <description>Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS[EW].</description>
     </key>
     <key name="use-custom-radar-url" type="b">
       <default>false</default>
-      <_summary>Use custom url for the radar map</_summary>
-      <_description>If true, then retrieve a radar map from a location specified by the "radar" key.</_description>
+      <summary>Use custom url for the radar map</summary>
+      <description>If true, then retrieve a radar map from a location specified by the "radar" key.</description>
     </key>
     <key name="radar" type="s">
       <default>''</default>
-      <_summary>Url for the radar map</_summary>
-      <_description>The custom url from where to retrieve a radar map.</_description>
+      <summary>Url for the radar map</summary>
+      <description>The custom url from where to retrieve a radar map.</description>
     </key>
   </schema>
 </schemalist>
