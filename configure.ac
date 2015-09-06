@@ -213,6 +213,7 @@ po-locations/Makefile
 libmateweather/Makefile
 libmateweather/mateweather.pc
 libmateweather/mateweather-uninstalled.pc
+libmateweather/org.mate.weather.gschema.xml
 data/Makefile
 python/Makefile
 icons/Makefile
