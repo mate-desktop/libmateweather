@@ -68,8 +68,8 @@ expand_content_files=
 # signals and properties.
 # e.g. GTKDOC_CFLAGS=-I$(top_srcdir) -I$(top_builddir) $(GTK_DEBUG_FLAGS)
 # e.g. GTKDOC_LIBS=$(top_builddir)/gtk/$(gtktargetlib)
-GTKDOC_CFLAGS = -I$(top_srcdir) $(GTK_CFLAGS) $(LIBXML_CFLAGS) $(LIBSOUP_CFLAGS) $(MATECONF_CFLAGS) -DMATEWEATHER_I_KNOW_THIS_IS_UNSTABLE
-GTKDOC_LIBS = $(top_builddir)/libmateweather/libmateweather.la $(GTK_LIBS) $(LIBXML_LIBS) $(LIBSOUP_LIBS) $(MATECONF_LIBS)
+GTKDOC_CFLAGS = -I$(top_srcdir) $(GTK_CFLAGS) $(LIBXML_CFLAGS) $(LIBSOUP_CFLAGS) -DMATEWEATHER_I_KNOW_THIS_IS_UNSTABLE
+GTKDOC_LIBS = $(top_builddir)/libmateweather/libmateweather.la $(GTK_LIBS) $(LIBXML_LIBS) $(LIBSOUP_LIBS)
 
 # This includes the standard gtk-doc make rules, copied by gtkdocize.
 include $(top_srcdir)/gtk-doc.make
