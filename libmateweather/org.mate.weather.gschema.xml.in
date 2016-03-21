@@ -65,7 +65,7 @@
       for valid values; values must be quoted -->
       <default l10n="messages">'inHg'</default>
       <summary>Pressure unit</summary>
-      <description>The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'.</description>
+      <description>The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', 'atm'.</description>
     </key>
     <key name="speed-unit" enum="org.mate.weather.SpeedUnit">
       <!-- TRANSLATORS: pick a default speed unit for your locale, see key description
