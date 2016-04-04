@@ -1,6 +1,7 @@
 1.13.0
 
-  * drop obsolete build flags
+  * Drop obsolete build flags
+  * Small fix in schema
 
 1.12.1
 
