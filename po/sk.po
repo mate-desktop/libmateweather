@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2015
+# Dušan Kazik <prescott66@gmail.com>, 2015
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2016
 # Marcel Telka <marcel@telka.sk>, 2005,2009
 # Pavol Šimo <palo.simo@gmail.com>, 2015
 # Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2000-2004
@@ -11,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-06 20:16+0200\n"
-"PO-Revision-Date: 2015-09-23 18:04+0000\n"
-"Last-Translator: Pavol Šimo <palo.simo@gmail.com>\n"
+"POT-Creation-Date: 2016-03-21 17:48+0300\n"
+"PO-Revision-Date: 2016-03-21 22:40+0000\n"
+"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/mate/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -127,11 +128,11 @@ msgstr "greenwichský stredný čas"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:1
 msgid "Show notifications"
-msgstr ""
+msgstr "Zobraziť oznámenia"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:2
 msgid "Determines whether the applet shows a notification on each update."
-msgstr ""
+msgstr "Určuje, či bude aplet zobrazovať oznámenia pri každej aktualizácii."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:3
 msgid "Update the data automatically"
@@ -159,129 +160,220 @@ msgstr "Použiť metrické jednotky"
 msgid "Use metric units instead of english units."
 msgstr "Použiť metrické jednotky namiesto anglických jednotiek."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:9
+#. TRANSLATORS: pick a default distance unit for your locale, see key
+#. description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
+msgid "'miles'"
+msgstr "'kilometre'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
 msgid "Distance unit"
 msgstr "Jednotka vzdialenosti"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:10
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr "Jednotka pre viditeľnosť. Hodnoty: 'metre', 'kilometre', 'míle'."
+msgstr "Jednotka pre viditeľnosť. Hodnoty: „metre“, „kilometre“, „míle“."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
+#. TRANSLATORS: pick a default pressure unit for your locale, see key
+#. description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
+msgid "'inHg'"
+msgstr "'kPa'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
 msgid "Pressure unit"
 msgstr "Jednotka tlaku"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:18
 msgid ""
-"The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
+"The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
-msgstr "Jednotka pre tlak. Hodnoty: 'kPa', 'hPa', 'mbar', 'mmHg', 'inHg, 'atm'."
+msgstr "Jednotka pre tlak. Hodnoty: „kPa“, „hPa“, „mbar“, „mmHg“, „inHg“, „atm“."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
+#. TRANSLATORS: pick a default speed unit for your locale, see key description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
+msgid "'knots'"
+msgstr "'km/h'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
 msgid "Speed unit"
 msgstr "Jednotka rýchlosti"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:14
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:23
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr "Jednotky pre rýchlosť vetra. Hodnoty: 'm/s', 'km/h, 'mph', 'kt' (námorné uzly), 'Beaufortova stupnica'."
+msgstr "Jednotky pre rýchlosť vetra. Hodnoty: „m/s“, „km/h“, „mph“, „kt“ (námorné uzly), „Beaufortova stupnica“."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:15
+#. TRANSLATORS: pick a temperature unit that should be used by default in your
+#. locale, see key description for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
+msgid "'Fahrenheit'"
+msgstr "'stupne'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
 msgid "Temperature unit"
 msgstr "Jednotka teploty"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:28
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr "Jednotka pre teplotu. Hodnota: 'Kelviny', 'stupne', 'stupne Fahrenheita'."
+msgstr "Jednotka pre teplotu. Hodnota: „Kelviny“, „stupne“, „stupne Fahrenheita“."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
 msgid "Not used anymore"
 msgstr "Už nepoužívané"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:18
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:30
 msgid "Display radar map"
 msgstr "Zobraziť radarovú mapu"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:19
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:31
 msgid "Fetch a radar map on each update."
 msgstr "Získať radarovú mapu pri každej aktualizácii."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:20
+#. TRANSLATORS: Change this to the default location name, used
+#. when you first start the Weather Applet. This is the common
+#. localised name that corresponds to the location code
+#. (DEFAULT_CODE) you will put on the next message. For example, for
+#. the Greek locale, we set this to "Athens", the capital city and we
+#. write it in Greek. It's important to translate this name. If you
+#. do not require a DEFAULT_LOCATION, set this to
+#. "DEFAULT_LOCATION".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:40
+msgid "'DEFAULT_LOCATION'"
+msgstr "Bratislava"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
 msgstr "Informácia o počasí pre miesto"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:42
 msgid "Weather location information."
 msgstr "Informácia o počasí pre miesto."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
+#. TRANSLATORS: Change this to the code of your default location
+#. that corresponds to the DEFAULT_LOCATION name you put above. This
+#. is normally a four-letter (ICAO) code and can be found in
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in.
+#. NB. The web page is over 1.7MB in size. Pick a default location
+#. like a capital city so that it would be ok for more of your users.
+#. For example, for Greek, we use "LGAV" for the capital city, Athens.
+#. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:51
+msgid "'DEFAULT_CODE'"
+msgstr "LZIB"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:52
 msgid "Nearby city"
 msgstr "Blízke mesto"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:23
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:53
 msgid ""
 "Nearby major zone, such as a capital city, as found from "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr "Blízka hlavná zóna, ako napríklad hlavné mesto, ako je uvedené na https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:24
+#. TRANSLATORS: Change this to the zone of your default location
+#. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+#. above. Normally, US and Canada locations have zones while the rest
+#. do not. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any zone you put here must also be present in the Locations.xml
+#. file. If your default location does not have a zone, set this to
+#. "DEFAULT_ZONE".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:62
+msgid "'DEFAULT_ZONE'"
+msgstr "DEFAULT_ZONE"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
 msgstr "Umiestnenie zóny"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:25
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:64
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr "Unikátna zóna pre toto mesto, ako je uvedená na https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
+#. TRANSLATORS: Change this to the radar of your default location
+#. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+#. above. Normally, US and Canada locations have radar names while the
+#. rest do not. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any radar you put here must also be present in the Locations.xml
+#. file. If your default location does not have a radar, set this to
+#. " " (or space).
+#. If you do not have a default location, set this to DEFAULT_RADAR.
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:74
+msgid "'DEFAULT_RADAR'"
+msgstr "DEFAULT_RADAR"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
 msgstr "Umiestnenie radaru"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:76
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr "Troj-číslicový kód pre získavanie radarových máp z weather.com, ako sa dá nájsť na https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:28
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:77
 msgid "Weather for a city"
 msgstr "Počasie pre mesto"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:78
 msgid "The city that mateweather displays information for."
 msgstr "Mesto, pre ktoré mateweather zobrazuje informácie."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:30
+#. TRANSLATORS: Change this to the coordinates of your default
+#. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
+#. you put above. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any coordinates you put here must also be present in the
+#. Locations.xml file. If your default location does not have known
+#. coordinates, set this to " " (or space). If you do not have a
+#. default location, set this to DEFAULT_COORDINATES.
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:87
+msgid "'DEFAULT_COORDINATES'"
+msgstr "48.150000 17.116667"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
 msgstr "Súradnice miesta"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:31
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:89
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
 msgstr "Zemepisná šírka a dĺžka vášho miesta vyjadrená v tvare DD-MM-SS[NS] DD-MM-SS[EW]."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:32
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:90
 msgid "Use custom url for the radar map"
 msgstr "Použiť vlastné url pre radarovú mapu"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:33
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:91
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr "Ak je táto možnosť vybraná, radarová mapa sa získa z umiestnenia zadaného v kľúči \"radar\"."
+msgstr "Ak je táto možnosť vybraná, radarová mapa sa získa z umiestnenia zadaného v kľúči „radar“."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:34
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:92
 msgid "Url for the radar map"
 msgstr "Url pre radarovú mapu"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:35
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:93
 msgid "The custom url from where to retrieve a radar map."
 msgstr "Vlastné url, z ktorého získať radarovú mapu."
 

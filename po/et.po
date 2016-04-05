@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-06 20:16+0200\n"
-"PO-Revision-Date: 2015-09-26 21:18+0000\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"POT-Creation-Date: 2016-03-21 17:48+0300\n"
+"PO-Revision-Date: 2016-03-21 15:03+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
 "Language-Team: Estonian (http://www.transifex.com/mate/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,129 +160,220 @@ msgstr "Meetermõõdustiku kasutamine"
 msgid "Use metric units instead of english units."
 msgstr "Meetermõõdustiku kasutamine inglise mõõdustiku asemel."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:9
+#. TRANSLATORS: pick a default distance unit for your locale, see key
+#. description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
+msgid "'miles'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
 msgid "Distance unit"
 msgstr "Kaugusühik"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:10
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
 msgstr "Nähtavuse jaoks kasutatav ühik. Väärtused: 'meters' (meetrid), 'km' (kilomeetrid) ,'miles' (miilid)."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
+#. TRANSLATORS: pick a default pressure unit for your locale, see key
+#. description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
+msgid "'inHg'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
 msgid "Pressure unit"
 msgstr "Rõhuühik"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:18
 msgid ""
-"The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
+"The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
-msgstr "Rõhu jaoks kasutatav ühik. Väärtused: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'."
+msgstr ""
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
+#. TRANSLATORS: pick a default speed unit for your locale, see key description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
+msgid "'knots'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
 msgid "Speed unit"
 msgstr "Kiirusühik"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:14
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:23
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
 msgstr "Tuule kiiruse jaoks kasutatav ühik. Väärtused: 'm/s', 'km/h, 'mph' (miilid), 'knots' (sõlmed), 'Beaufort scale' (Beauforti skaala)."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:15
+#. TRANSLATORS: pick a temperature unit that should be used by default in your
+#. locale, see key description for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
+msgid "'Fahrenheit'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
 msgid "Temperature unit"
 msgstr "Temperatuuriühik"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:28
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
 msgstr "Temperatuuri jaoks kasutatav ühik. Väärtused: 'Kelvin', 'Centigrade', 'Fahrenheit'."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
 msgid "Not used anymore"
 msgstr "Enam ei kasutata"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:18
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:30
 msgid "Display radar map"
 msgstr "Radarikaarti näitamine"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:19
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:31
 msgid "Fetch a radar map on each update."
 msgstr "Radarikaardi hankimine iga uuendusega."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:20
+#. TRANSLATORS: Change this to the default location name, used
+#. when you first start the Weather Applet. This is the common
+#. localised name that corresponds to the location code
+#. (DEFAULT_CODE) you will put on the next message. For example, for
+#. the Greek locale, we set this to "Athens", the capital city and we
+#. write it in Greek. It's important to translate this name. If you
+#. do not require a DEFAULT_LOCATION, set this to
+#. "DEFAULT_LOCATION".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:40
+msgid "'DEFAULT_LOCATION'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
 msgstr "Ilmaasukoha andmed"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:42
 msgid "Weather location information."
 msgstr "Ilmaasukoha andmed."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
+#. TRANSLATORS: Change this to the code of your default location
+#. that corresponds to the DEFAULT_LOCATION name you put above. This
+#. is normally a four-letter (ICAO) code and can be found in
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in.
+#. NB. The web page is over 1.7MB in size. Pick a default location
+#. like a capital city so that it would be ok for more of your users.
+#. For example, for Greek, we use "LGAV" for the capital city, Athens.
+#. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:51
+msgid "'DEFAULT_CODE'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:52
 msgid "Nearby city"
 msgstr "Lähim linn"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:23
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:53
 msgid ""
 "Nearby major zone, such as a capital city, as found from "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr "Lähedal asuv suurem piirkond, nagu näiteks linn, mis on leitav aadressilt https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:24
+#. TRANSLATORS: Change this to the zone of your default location
+#. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+#. above. Normally, US and Canada locations have zones while the rest
+#. do not. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any zone you put here must also be present in the Locations.xml
+#. file. If your default location does not have a zone, set this to
+#. "DEFAULT_ZONE".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:62
+msgid "'DEFAULT_ZONE'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
 msgstr "Tsooni asukoht"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:25
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:64
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr "Unikaalne piirkond linna jaoks, nagu on näidatud aadressil https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
+#. TRANSLATORS: Change this to the radar of your default location
+#. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+#. above. Normally, US and Canada locations have radar names while the
+#. rest do not. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any radar you put here must also be present in the Locations.xml
+#. file. If your default location does not have a radar, set this to
+#. " " (or space).
+#. If you do not have a default location, set this to DEFAULT_RADAR.
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:74
+msgid "'DEFAULT_RADAR'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
 msgstr "Radari asukoht"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:76
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr "Kolmekohaline kood radarikaardi vastuvõtmiseks weather.com saidist. Numbrid leiab aadressilt https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:28
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:77
 msgid "Weather for a city"
 msgstr "Ilm linna jaoks"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:78
 msgid "The city that mateweather displays information for."
 msgstr "Linn, mille kohta mateweather andmeid kuvab."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:30
+#. TRANSLATORS: Change this to the coordinates of your default
+#. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
+#. you put above. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any coordinates you put here must also be present in the
+#. Locations.xml file. If your default location does not have known
+#. coordinates, set this to " " (or space). If you do not have a
+#. default location, set this to DEFAULT_COORDINATES.
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:87
+msgid "'DEFAULT_COORDINATES'"
+msgstr ""
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
 msgstr "Asukoha koordinaadid"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:31
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:89
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
 msgstr "Sinu asukoha laius- ja pikkuskraad väljendatuna DD-MM-SS[NS] DD-MM-SS[EW] vormingus"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:32
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:90
 msgid "Use custom url for the radar map"
 msgstr "Radarikaardi jaoks oma aadressi kasutamine"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:33
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:91
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
 msgstr "Kui märgitud, siis hangitakse radarikaart võtmega \"radar\" määratud asukohast."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:34
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:92
 msgid "Url for the radar map"
 msgstr "Radarikaardi URL"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:35
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:93
 msgid "The custom url from where to retrieve a radar map."
 msgstr "Kohandatud url radarikaardi hankimiseks."
 

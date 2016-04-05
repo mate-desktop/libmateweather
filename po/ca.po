@@ -8,15 +8,16 @@
 # Jordi Mallach <jordi@sindominio.net>, 2002-2005
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2005-2006
 # Pere Orga <gotrunks@gmail.com>, 2012
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2015-2016
 # Softcatalà <info@softcatala.org>, 2000
 # Xavier Conde Rueda <xavi.conde@gmail.com>, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-06 20:16+0200\n"
-"PO-Revision-Date: 2015-09-06 18:14+0000\n"
-"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
+"POT-Creation-Date: 2016-03-21 17:48+0300\n"
+"PO-Revision-Date: 2016-03-21 16:15+0000\n"
+"Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,19 +127,19 @@ msgstr "mi"
 
 #: ../libmateweather/mateweather-timezone.c:315
 msgid "Greenwich Mean Time"
-msgstr "Hora mitja de Greenwich"
+msgstr "Meridià de Greenwich"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:1
 msgid "Show notifications"
-msgstr ""
+msgstr "Mostra les notificacions"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:2
 msgid "Determines whether the applet shows a notification on each update."
-msgstr ""
+msgstr "Determina si la miniaplicació mostra una notificació en cada actualització."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:3
 msgid "Update the data automatically"
-msgstr "Actualitza les dades automàticament"
+msgstr "Actualitza automàticament les dades"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:4
 msgid ""
@@ -162,129 +163,220 @@ msgstr "Utilitza unitats del sistema mètric"
 msgid "Use metric units instead of english units."
 msgstr "Utilitza unitats del sistema mètric en comptes d'unitats anglosaxones."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:9
+#. TRANSLATORS: pick a default distance unit for your locale, see key
+#. description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
+msgid "'miles'"
+msgstr "'km'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
 msgid "Distance unit"
 msgstr "Unitats de distància"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:10
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr ""
+msgstr "La unitat a utilitzar per a la visibilitat. Valors: «metres», «km», «milles»."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
+#. TRANSLATORS: pick a default pressure unit for your locale, see key
+#. description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
+msgid "'inHg'"
+msgstr "'hPa'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
 msgid "Pressure unit"
 msgstr "Unitats de pressió"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:18
 msgid ""
-"The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg, "
+"The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
-msgstr ""
+msgstr "La unitat a utilitzar per a la pressió. Valors: «kPa», «hPa», «mb», «mmHg», «inHg» i «atm»."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
+#. TRANSLATORS: pick a default speed unit for your locale, see key description
+#. for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
+msgid "'knots'"
+msgstr "'km/h'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
 msgid "Speed unit"
 msgstr "Unitats de velocitat"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:14
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:23
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr ""
+msgstr "La unitat a utilitzar per a la velocitat del vent. Valors: «m/s», «km/h», «mph», «nusos», «escala de Beaufort»."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:15
+#. TRANSLATORS: pick a temperature unit that should be used by default in your
+#. locale, see key description for valid values; values must be quoted
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
+msgid "'Fahrenheit'"
+msgstr "'Centigrade'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
 msgid "Temperature unit"
 msgstr "Unitats de temperatura"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:28
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr ""
+msgstr "La unitat a utilitzar per a la temperatura. Valors: «Kelvin», «Centigrade» o «Fahrenheit»."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
 msgid "Not used anymore"
 msgstr "Ja no s'utilitza"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:18
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:30
 msgid "Display radar map"
 msgstr "Mostra el mapa del radar"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:19
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:31
 msgid "Fetch a radar map on each update."
 msgstr "Obté un mapa del radar en cada actualització."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:20
+#. TRANSLATORS: Change this to the default location name, used
+#. when you first start the Weather Applet. This is the common
+#. localised name that corresponds to the location code
+#. (DEFAULT_CODE) you will put on the next message. For example, for
+#. the Greek locale, we set this to "Athens", the capital city and we
+#. write it in Greek. It's important to translate this name. If you
+#. do not require a DEFAULT_LOCATION, set this to
+#. "DEFAULT_LOCATION".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:40
+msgid "'DEFAULT_LOCATION'"
+msgstr "Barcelona"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
 msgstr "Informació de la ubicació del temps"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:42
 msgid "Weather location information."
 msgstr "Informació de la ubicació del temps."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
+#. TRANSLATORS: Change this to the code of your default location
+#. that corresponds to the DEFAULT_LOCATION name you put above. This
+#. is normally a four-letter (ICAO) code and can be found in
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in.
+#. NB. The web page is over 1.7MB in size. Pick a default location
+#. like a capital city so that it would be ok for more of your users.
+#. For example, for Greek, we use "LGAV" for the capital city, Athens.
+#. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:51
+msgid "'DEFAULT_CODE'"
+msgstr "LEBL"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:52
 msgid "Nearby city"
 msgstr "Ciutat més propera"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:23
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:53
 msgid ""
 "Nearby major zone, such as a capital city, as found from "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "A prop de la zona més gran, com una capital, tal com s'indica a https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:24
+#. TRANSLATORS: Change this to the zone of your default location
+#. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+#. above. Normally, US and Canada locations have zones while the rest
+#. do not. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any zone you put here must also be present in the Locations.xml
+#. file. If your default location does not have a zone, set this to
+#. "DEFAULT_ZONE".
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:62
+msgid "'DEFAULT_ZONE'"
+msgstr "DEFAULT_ZONE"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
 msgstr "Ubicació de la zona"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:25
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:64
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Una zona única per a la ciutat, tal com s'indica a https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
+#. TRANSLATORS: Change this to the radar of your default location
+#. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
+#. above. Normally, US and Canada locations have radar names while the
+#. rest do not. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any radar you put here must also be present in the Locations.xml
+#. file. If your default location does not have a radar, set this to
+#. " " (or space).
+#. If you do not have a default location, set this to DEFAULT_RADAR.
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:74
+msgid "'DEFAULT_RADAR'"
+msgstr "'DEFAULT_RADAR'"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
 msgstr "Ubicació del radar"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:76
 msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr ""
+msgstr "Un codi de tres dígits per recuperar els mapes de radar de weather.com, tal com s'indica a https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:28
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:77
 msgid "Weather for a city"
 msgstr "Informe del temps d'una ciutat"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:78
 msgid "The city that mateweather displays information for."
-msgstr "De quina ciutat mostra informació el mateweather."
+msgstr "La ciutat que mateweather mostra la informació."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:30
+#. TRANSLATORS: Change this to the coordinates of your default
+#. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
+#. you put above. Check
+#. https://github.com/mate-
+#. desktop/libmateweather/blob/master/data/Locations.xml.in
+#. as any coordinates you put here must also be present in the
+#. Locations.xml file. If your default location does not have known
+#. coordinates, set this to " " (or space). If you do not have a
+#. default location, set this to DEFAULT_COORDINATES.
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:87
+msgid "'DEFAULT_COORDINATES'"
+msgstr "41.283333 2.066667"
+
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
 msgstr "Coordenades de la ubicació"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:31
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:89
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
 msgstr "Latitud i longitud de la vostra ubicació expressada en DD-MM-SS[NS] DD-MM-SS[EW]."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:32
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:90
 msgid "Use custom url for the radar map"
 msgstr "Utilitza una adreça personalitzada per al mapa del radar"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:33
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:91
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr "Si és cert, obtingues un mapa del radar d'una ubicació especificada en la clau «radar»."
+msgstr "En cas que fos cert, s'obté un mapa del radar d'una ubicació especificada en la clau «radar»."
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:34
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:92
 msgid "Url for the radar map"
 msgstr "Adreça per al mapa del radar"
 
-#: ../libmateweather/org.mate.weather.gschema.xml.in.h:35
+#: ../libmateweather/org.mate.weather.gschema.xml.in.h:93
 msgid "The custom url from where to retrieve a radar map."
 msgstr "L'adreça personalitzada d'on obtenir un mapa del radar."
 
@@ -301,7 +393,7 @@ msgstr "No s'han pogut rebre les dades de METAR: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
-msgstr "Manca la ubicació de WeatherInfo"
+msgstr "Falta la ubicació de WeatherInfo"
 
 #: ../libmateweather/weather.c:242
 msgid "Variable"
@@ -309,67 +401,67 @@ msgstr "Variable"
 
 #: ../libmateweather/weather.c:243
 msgid "North"
-msgstr "Nord"
+msgstr "Migjorn"
 
 #: ../libmateweather/weather.c:243
 msgid "North - NorthEast"
-msgstr "Nord - Nord-est"
+msgstr "Migjorn - Garbí"
 
 #: ../libmateweather/weather.c:243
 msgid "Northeast"
-msgstr "Nord-est"
+msgstr "Garbí"
 
 #: ../libmateweather/weather.c:243
 msgid "East - NorthEast"
-msgstr "Est - Nord-est"
+msgstr "Ponent - Garbí"
 
 #: ../libmateweather/weather.c:244
 msgid "East"
-msgstr "Est"
+msgstr "Ponent"
 
 #: ../libmateweather/weather.c:244
 msgid "East - Southeast"
-msgstr "Est - Sud-est"
+msgstr "Ponent - Mestral"
 
 #: ../libmateweather/weather.c:244
 msgid "Southeast"
-msgstr "Sud-est"
+msgstr "Mestral"
 
 #: ../libmateweather/weather.c:244
 msgid "South - Southeast"
-msgstr "Sud - Sud-est"
+msgstr "Tramuntana - Mestral"
 
 #: ../libmateweather/weather.c:245
 msgid "South"
-msgstr "Sud"
+msgstr "Tramuntana"
 
 #: ../libmateweather/weather.c:245
 msgid "South - Southwest"
-msgstr "Sud - Sud-oest"
+msgstr "Tramuntana - Gregal"
 
 #: ../libmateweather/weather.c:245
 msgid "Southwest"
-msgstr "Sud-oest"
+msgstr "Gregal"
 
 #: ../libmateweather/weather.c:245
 msgid "West - Southwest"
-msgstr "Oest - Sud-oest"
+msgstr "Llevant - Gregal"
 
 #: ../libmateweather/weather.c:246
 msgid "West"
-msgstr "Oest"
+msgstr "Llevant"
 
 #: ../libmateweather/weather.c:246
 msgid "West - Northwest"
-msgstr "Oest - Nord-oest"
+msgstr "Llevant - Xaloc"
 
 #: ../libmateweather/weather.c:246
 msgid "Northwest"
-msgstr "Nord-oest"
+msgstr "Xaloc"
 
 #: ../libmateweather/weather.c:246
 msgid "North - Northwest"
-msgstr "Nord - Nord-oest"
+msgstr "Migjorn - Xaloc"
 
 #: ../libmateweather/weather.c:259
 msgid "Clear Sky"
@@ -414,11 +506,11 @@ msgstr "Plugims moderats"
 
 #: ../libmateweather/weather.c:303
 msgid "Heavy drizzle"
-msgstr "Plugims forts"
+msgstr "Plugims intensos"
 
 #: ../libmateweather/weather.c:303
 msgid "Freezing drizzle"
-msgstr "Plugims gelats"
+msgstr "Plugims gebradors"
 
 #. RAIN
 #: ../libmateweather/weather.c:304
@@ -427,7 +519,7 @@ msgstr "Pluja"
 
 #: ../libmateweather/weather.c:304
 msgid "Light rain"
-msgstr "Pluja lleugera"
+msgstr "Pluja feble"
 
 #: ../libmateweather/weather.c:304
 msgid "Moderate rain"
@@ -435,15 +527,15 @@ msgstr "Pluja moderada"
 
 #: ../libmateweather/weather.c:304
 msgid "Heavy rain"
-msgstr "Pluja forta"
+msgstr "Pluja intensa"
 
 #: ../libmateweather/weather.c:304
 msgid "Rain showers"
-msgstr "Pluges"
+msgstr "Xàfec"
 
 #: ../libmateweather/weather.c:304
 msgid "Freezing rain"
-msgstr "Pluja glaçada"
+msgstr "Pluja gebradora"
 
 #. SNOW
 #: ../libmateweather/weather.c:305
@@ -460,7 +552,7 @@ msgstr "Neu moderada"
 
 #: ../libmateweather/weather.c:305
 msgid "Heavy snow"
-msgstr "Neu forta"
+msgstr "Neu intensa"
 
 #: ../libmateweather/weather.c:305
 msgid "Snowstorm"
@@ -468,11 +560,11 @@ msgstr "Tempesta de neu"
 
 #: ../libmateweather/weather.c:305
 msgid "Blowing snowfall"
-msgstr "Està marxant la neu"
+msgstr "Nevada amb vent"
 
 #: ../libmateweather/weather.c:305
 msgid "Snow showers"
-msgstr "Pluges de neu"
+msgstr "Xàfec de neu"
 
 #: ../libmateweather/weather.c:305
 msgid "Drifting snow"
@@ -493,7 +585,7 @@ msgstr "Volves de neu moderades"
 
 #: ../libmateweather/weather.c:306
 msgid "Heavy snow grains"
-msgstr "Volves de neu fortes"
+msgstr "Volves de neu intenses"
 
 #. ICE_CRYSTALS
 #: ../libmateweather/weather.c:307
@@ -503,27 +595,27 @@ msgstr "Cristalls de gel"
 #. ICE_PELLETS
 #: ../libmateweather/weather.c:308
 msgid "Ice pellets"
-msgstr "Esferes de gel"
+msgstr "Calamarsó"
 
 #: ../libmateweather/weather.c:308
 msgid "Few ice pellets"
-msgstr "Algunes esferes de gel"
+msgstr "Alguns calamarsons"
 
 #: ../libmateweather/weather.c:308
 msgid "Moderate ice pellets"
-msgstr "Esferes de gel moderades"
+msgstr "Calamarsó moderat"
 
 #: ../libmateweather/weather.c:308
 msgid "Heavy ice pellets"
-msgstr "Esferes de gel fortes"
+msgstr "Calamarsó intens"
 
 #: ../libmateweather/weather.c:308
 msgid "Ice pellet storm"
-msgstr "Tempesta d'esferes de gel"
+msgstr "Tempesta de calamarsó"
 
 #: ../libmateweather/weather.c:308
 msgid "Showers of ice pellets"
-msgstr "Pluja d'esferes de gel"
+msgstr "Xàfec de calamarsó"
 
 #. HAIL
 #: ../libmateweather/weather.c:309
@@ -532,11 +624,11 @@ msgstr "Pedra"
 
 #: ../libmateweather/weather.c:309
 msgid "Hailstorm"
-msgstr "Tormenta de pedra"
+msgstr "Pedregada"
 
 #: ../libmateweather/weather.c:309
 msgid "Hail showers"
-msgstr "Pluges de pedra"
+msgstr "Xàfec de pedra"
 
 #. SMALL_HAIL
 #: ../libmateweather/weather.c:310
@@ -545,11 +637,11 @@ msgstr "Pedregada lleugera"
 
 #: ../libmateweather/weather.c:310
 msgid "Small hailstorm"
-msgstr "Tempesta de pedra petita"
+msgstr "Calamarsa"
 
 #: ../libmateweather/weather.c:310
 msgid "Showers of small hail"
-msgstr "Calamarsada"
+msgstr "Xàfec de calamarsa"
 
 #. PRECIPITATION
 #: ../libmateweather/weather.c:311
@@ -584,7 +676,7 @@ msgstr "Parcialment emboirat"
 
 #: ../libmateweather/weather.c:313
 msgid "Freezing fog"
-msgstr "Boira gelada"
+msgstr "Boira gebradora"
 
 #. SMOKE
 #: ../libmateweather/weather.c:314
@@ -648,7 +740,7 @@ msgstr "Tempesta d'arena a les rodalies"
 
 #: ../libmateweather/weather.c:321
 msgid "Heavy sandstorm"
-msgstr "Tempesta d'arena forta"
+msgstr "Tempesta intensa d'arena"
 
 #. DUSTSTORM
 #: ../libmateweather/weather.c:322
@@ -661,12 +753,12 @@ msgstr "Tempesta de pols a les rodalies"
 
 #: ../libmateweather/weather.c:322
 msgid "Heavy duststorm"
-msgstr "Tempesta de pols forta"
+msgstr "Tempesta intensa de pols"
 
 #. FUNNEL_CLOUD
 #: ../libmateweather/weather.c:323
 msgid "Funnel cloud"
-msgstr "Remolí"
+msgstr "Núvol embut"
 
 #. TORNADO
 #: ../libmateweather/weather.c:324
