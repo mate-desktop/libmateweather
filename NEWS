@@ -3,6 +3,7 @@
   * Drop obsolete build flags
   * Small fix in schema
   * Translations update
+  * Add Changelog generation
 
 1.12.1
 
