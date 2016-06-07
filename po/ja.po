@@ -8,7 +8,7 @@
 # Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999
 # Ikuru Kanum <kanumaiku@gmail.com>, 2015
 # KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
-# keisuke suzaki <mail@semicln.com>, 2016
+# semicolon <mail@semicln.com>, 2016
 # Satoru SATOH <ss@gnome.gr.jp>, 2006
 # Shingo Akagaki <dora@kondara.org>, 2000
 # Sun G11n <mate_int_l10n@ireland.sun.com>, 2002

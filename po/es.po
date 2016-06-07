@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme Barrientos, 2014
+# Fitoschido, 2014
 # Benjamin Perez Carrillo <benperezc@gmail.com>, 2015
 # ebray187 <ebray187@gmail.com>, 2016
 # Francisco B.G. <franchulo021@gmail.com>, 2016
