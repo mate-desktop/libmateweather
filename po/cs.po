@@ -13,7 +13,10 @@
 # Ondřej Kolín <ondrej.kolin@gmail.com>, 2013
 # Pavel Šefránek <ps@pjoul.cz>, 2008-2009
 # Petr Kovar <pmkovar@gmail.com>, 2008-2009
+# Petr Šimáček <petr.simacek@gmail.com>, 2016
 # Petr Tomeš <ptomes@gmail.com>, 2006
+# phebix <dev@phebix.cz>, 2016
+# Robin Kriebel <kriebel.robin@gmail.com>, 2016
 # Stanislav Brabec <utx@penguin.cz>, 2000-2001
 # Stanislav Kučera <inactive+kacernator@transifex.com>, 2015
 msgid ""
@@ -21,8 +24,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-21 17:48+0300\n"
-"PO-Revision-Date: 2016-03-21 15:03+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-05-04 08:50+0000\n"
+"Last-Translator: Petr Šimáček <petr.simacek@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/mate/MATE/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -173,7 +176,7 @@ msgstr "Používat metrické jednotky místo anglosaských."
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
 msgid "'miles'"
-msgstr ""
+msgstr "'míle'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
 msgid "Distance unit"
@@ -188,7 +191,7 @@ msgstr "Jednotka zobrazení viditelnosti.  Hodnoty: 'meters', 'km', 'miles'."
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
 msgid "'inHg'"
-msgstr ""
+msgstr "'inHg'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
 msgid "Pressure unit"
@@ -198,13 +201,13 @@ msgstr "Jednotky tlaku"
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
-msgstr ""
+msgstr "Jednotka tlaku. Hodnoty: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', 'atm'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
 msgid "'knots'"
-msgstr ""
+msgstr "'uzly'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
 msgid "Speed unit"
@@ -220,7 +223,7 @@ msgstr "Jednotka rychlosti větru. Hodnoty: 'm/s', 'km/h', 'mph', 'knots', 'Beau
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'Fahrenheita'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
 msgid "Temperature unit"
@@ -254,7 +257,7 @@ msgstr "Stáhnout radarovou mapu při každé aktualizaci."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:40
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "'VÝCHOZÍ_UMÍSTĚNÍ'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
@@ -275,7 +278,7 @@ msgstr "Informace o poloze počasí."
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:51
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "'VÝCHOZÍ_KÓD'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:52
 msgid "Nearby city"
@@ -299,7 +302,7 @@ msgstr "Blízká větší oblast, jako hlavní město, bráno z https://raw.gith
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:62
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "'VÝCHOZÍ_ZONA'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
@@ -323,7 +326,7 @@ msgstr "Unikátní kód pásma města, který můžete najít na https://raw.git
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:74
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr "'VÝCHOZÍ_RADAR'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
@@ -355,7 +358,7 @@ msgstr "Město, pro které mateweather zobrazuje informace."
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:87
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "'VÝCHOZÍ_SOUŘADNICE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
