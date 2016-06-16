@@ -19687,7 +19687,7 @@ msgstr "Шревепорт"
 #. A city in Kazakhstan
 #: ../data/Locations.xml.in.h:8212
 msgid "Shymkent"
-msgstr "Шемкент"
+msgstr "Шымкент"
 
 #. A city in Romania
 #: ../data/Locations.xml.in.h:8214
