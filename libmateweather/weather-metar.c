@@ -522,7 +522,7 @@ metar_finish (SoupSession *session, SoupMessage *msg, gpointer data)
 	    metar = g_strdup (p);
 	success = metar_parse (metar, info);
 	g_free (metar);
-    } else if (!strstr (msg->response_body->data, "National Weather Service")) {
+    } else if (!strstr (msg->response_body->data, "AVIATION WEATHER CENTER")) {
 	/* The response doesn't even seem to have come from NWS...
 	 * most likely it is a wifi hotspot login page. Call that a
 	 * network error.
@@ -550,8 +550,8 @@ metar_start_open (WeatherInfo *info)
     }
 
     msg = soup_form_request_new (
-	"GET", "http://weather.noaa.gov/mgetmetar.php",
-	"cccc", loc->code,
+	"GET", "http://aviationweather.gov/metar/data",
+	"ids", loc->code,
 	NULL);
     soup_session_queue_message (info->session, msg, metar_finish, info);
 
