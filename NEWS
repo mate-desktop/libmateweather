@@ -1,3 +1,8 @@
+1.14.2
+
+  * METAR: switch to https and use recommended method of data retrieval
+    (as per https://aviationweather.gov/dataserver/bestpractices).
+
 1.14.1
 
   * METAR: switch to aviationweather.gov as weather.noaa.gov
