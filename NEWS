@@ -1,3 +1,7 @@
+1.14.3
+
+  * IWIN: use new server address to fix forecast
+
 1.14.2
 
   * METAR: switch to https and use recommended method of data retrieval
