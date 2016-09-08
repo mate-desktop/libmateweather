@@ -1,3 +1,7 @@
+1.12.2
+
+  * Fix weather and forecast API to use National Weather Service.
+
 1.12.1
 
   * Translations update
