@@ -1,10 +1,25 @@
-1.15.1
+1.16.0
 
-  * Fix weather and forecast API to use National Weather Service.
-
-1.15.0
-
+  * Locations: update ICAO code for Quito, Ecuador
+  * Locations: correct coordinates for Minsk airport (code UMMS)
   * Translations update
+
+1.14.3
+
+  * IWIN: use new server address to fix forecast
+
+1.14.2
+
+  * METAR: switch to https and use recommended method of data retrieval
+    (as per https://aviationweather.gov/dataserver/bestpractices).
+
+1.14.1
+
+  * METAR: switch to aviationweather.gov as weather.noaa.gov
+    is discontinued
+  * Locations: correct Russian translation and tz-hint for Shymkent
+  * Translations update
+  * Make distcheck use currently selected GTK+ version
 
 1.14.0
 
