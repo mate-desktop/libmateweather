@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Anatoli F. Peña Castillo <anatoli1993@yahoo.com>, 2016
 # Tatiana Gutiérrez Bunster <tgutierr@ubiobio.cl>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-21 17:48+0300\n"
-"PO-Revision-Date: 2016-03-21 15:02+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"POT-Creation-Date: 2016-06-27 15:08+0300\n"
+"PO-Revision-Date: 2016-08-12 21:37+0000\n"
+"Last-Translator: Anatoli F. Peña Castillo <anatoli1993@yahoo.com>\n"
 "Language-Team: Spanish (Dominican Republic) (http://www.transifex.com/mate/MATE/language/es_DO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,15 +121,15 @@ msgstr ""
 
 #: ../libmateweather/mateweather-timezone.c:315
 msgid "Greenwich Mean Time"
-msgstr ""
+msgstr "Meridiano de Greenwich"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:1
 msgid "Show notifications"
-msgstr ""
+msgstr "Mostrar notificaciones"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:2
 msgid "Determines whether the applet shows a notification on each update."
-msgstr ""
+msgstr "Determina si la miniaplicación muestra una notificación en cada actualización."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:3
 msgid "Update the data automatically"
@@ -161,7 +162,7 @@ msgstr "Usa unidades métricas en vez de las unidades inglesas."
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
 msgid "'miles'"
-msgstr ""
+msgstr "'millas'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
 msgid "Distance unit"
@@ -169,7 +170,7 @@ msgstr "Unidad de distancia"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr ""
+msgstr "La unidad en que medir la visibilidad. Valores: 'metros', 'km', 'millas'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
@@ -192,7 +193,7 @@ msgstr ""
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
 msgid "'knots'"
-msgstr ""
+msgstr "nudos"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
 msgid "Speed unit"
@@ -208,7 +209,7 @@ msgstr ""
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "Fahrenheit"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
 msgid "Temperature unit"
@@ -376,7 +377,7 @@ msgstr "La url personalizada desde donde recuperar un mapa de radar."
 #: ../libmateweather/timezone-menu.c:278
 msgctxt "timezone"
 msgid "Unknown"
-msgstr ""
+msgstr "Desconocido"
 
 #. Translators: %d is an error code, and %s the error string
 #: ../libmateweather/weather-metar.c:504

@@ -11,7 +11,7 @@
 # Ray Wang <wanglei1123@gmail.com>, 2009
 # Wang Li <charles@linux.net.cn>, 2002
 # Wu XiaoGuang <woohsiaokuang@yahoo.com.cn>, 2002
-# Wylmer Wang <wantinghard@gmail.com>, 2013
+# Wylmer Wang, 2013
 # Xiong Jiang <jxiong@offtopic.org>, 2003
 # Yang Zhang <zyangmath@gmail.com>, 2009
 # Mingcong Bai <jeffbai@aosc.xyz>, 2015
@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-21 17:48+0300\n"
-"PO-Revision-Date: 2016-03-26 12:12+0000\n"
+"POT-Creation-Date: 2016-06-27 15:08+0300\n"
+"PO-Revision-Date: 2016-06-27 11:44+0000\n"
 "Last-Translator: liushuyu011 <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/mate/MATE/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"

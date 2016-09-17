@@ -10,7 +10,7 @@
 # Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2006
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008
 # Fabrizzio Alphonsus Soares <fabrizzio.soares@gmail.com>, 2012
-# Gilberto Coutinho <gilberto.jsc@gmail.com>, 2015
+# Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2015
 # Gustavo Noronha Silva <kov@debian.org>, 2003
 # Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2008
 # Marcus Vinícius Marques, 2014
@@ -20,8 +20,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-21 17:48+0300\n"
-"PO-Revision-Date: 2016-03-28 16:02+0000\n"
+"POT-Creation-Date: 2016-06-27 15:08+0300\n"
+"PO-Revision-Date: 2016-06-27 11:44+0000\n"
 "Last-Translator: Matheus Macabu <mkbu95@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mate/MATE/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
