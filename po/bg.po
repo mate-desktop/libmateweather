@@ -12,13 +12,14 @@
 # Yanko Kaneti <yaneti@declera.com>, 2003
 # Yasen Pramatarov <yasen@lindeas.com>, 2012
 # Yavor Doganov <yavor@gnu.org>, 2008
+# Любомир Василев, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-27 15:08+0300\n"
-"PO-Revision-Date: 2016-06-27 11:44+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-10-26 08:31+0000\n"
+"Last-Translator: Любомир Василев\n"
 "Language-Team: Bulgarian (http://www.transifex.com/mate/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,11 +133,11 @@ msgstr "По Гринуич"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:1
 msgid "Show notifications"
-msgstr ""
+msgstr "Показване на известия"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:2
 msgid "Determines whether the applet shows a notification on each update."
-msgstr ""
+msgstr "Определя дали добавката да показва известие при всяко обновяване на данните."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:3
 msgid "Update the data automatically"
@@ -169,22 +170,22 @@ msgstr "Използване на метричната система вмест
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
 msgid "'miles'"
-msgstr ""
+msgstr "„мили“"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
 msgid "Distance unit"
-msgstr "Единици за разстояние"
+msgstr "Единица за разстояние"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr "Единицата за видимост, която да се ползва. Стойности: \"метри\", \"км\", \"мили\"."
+msgstr "Единицата за видимост, която да се ползва. Стойности: „метри“, „км“, „мили“."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
 msgid "'inHg'"
-msgstr ""
+msgstr "„inHg“"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
 msgid "Pressure unit"
@@ -194,33 +195,33 @@ msgstr "Единици за налягане"
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
-msgstr ""
+msgstr "Единицата за налягане, която да се ползва. Стойности: „кПа“, „хПа“, „mb“, „mmHg“, „inHg“, „атмосфери“."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
 msgid "'knots'"
-msgstr ""
+msgstr "„възли“"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
 msgid "Speed unit"
-msgstr "Единици за скорост"
+msgstr "Единица за скорост"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:23
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr "Единицата за скорост на вятъра, която да се ползва. Стойности: \"м/с\", \"км/ч\", \"м/ч\", \"възли\", \"скалата на Бофорт\"."
+msgstr "Единицата за скорост на вятъра, която да се ползва. Стойности: „м/с“, „км/ч“, „м/ч“, „възли“, „скала на Бофорт“."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "„Фаренхайт“"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
 msgid "Temperature unit"
-msgstr "Единици за температура"
+msgstr "Единица за температура"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:28
 msgid ""
@@ -250,7 +251,7 @@ msgstr "Изтегляне на радарната карта при всяко 
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:40
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "София"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
@@ -271,7 +272,7 @@ msgstr "Информация за времето в дадено местопо�
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:51
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "LBSF"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:52
 msgid "Nearby city"
@@ -295,7 +296,7 @@ msgstr "Близък голям град, например столица, ка�
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:62
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "DEFAULT_ZONE"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
@@ -319,7 +320,7 @@ msgstr "Уникална зона в града. Проверете го в http
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:74
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr " "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
@@ -351,7 +352,7 @@ msgstr "Градът, за който mateweather показва информа�
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:87
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "42.650000 23.383333"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
@@ -863,7 +864,7 @@ msgstr "%.1f km/h"
 #: ../libmateweather/weather.c:912
 #, c-format
 msgid "%.1f m/s"
-msgstr "%.1f m/s"
+msgstr "%.1f м/сек"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
