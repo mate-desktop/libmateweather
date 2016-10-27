@@ -5370,9 +5370,9 @@
       <iso-code>MM</iso-code>
       <fips-code>BM</fips-code>
       <timezones>
-        <timezone id="Asia/Rangoon" />
+        <timezone id="Asia/Yangon" />
       </timezones>
-      <tz-hint>Asia/Rangoon</tz-hint>
+      <tz-hint>Asia/Yangon</tz-hint>
       <city>
         <!-- The capital of Myanmar.
              "Rangoon" is the traditional English name.
