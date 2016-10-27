@@ -10549,7 +10549,7 @@ msgstr "Хило"
 #. A city in South Carolina in the United States
 #: ../data/Locations.xml.in.h:4309
 msgid "Hilton Head Island"
-msgstr "Остров Хилтон-ХеадHilton"
+msgstr "Хилтон-Хед-Айленд"
 
 #. A city in Georgia in the United States
 #: ../data/Locations.xml.in.h:4311
@@ -21187,7 +21187,7 @@ msgstr "Зе-Далес"
 #.
 #: ../data/Locations.xml.in.h:8827
 msgid "The Hague"
-msgstr "Зе-Хог"
+msgstr "Гаага"
 
 #. A city in the British Virgin Islands
 #: ../data/Locations.xml.in.h:8829
@@ -21980,7 +21980,7 @@ msgstr "Соединённое Королевство"
 #. US - United States, aka United States of America
 #: ../data/Locations.xml.in.h:9173
 msgid "United States"
-msgstr "Соединенные Штаты"
+msgstr "Соединённые Штаты"
 
 #. UM - United States Minor Outlying Islands, a group of
 #. mostly-uninhabited United States territories in the South
