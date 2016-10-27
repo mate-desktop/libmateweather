@@ -1,3 +1,11 @@
+1.16.1
+
+  * Locations: rename Rangoon timezone to Yangon, following
+    tzdata 2016g change. Due to this, tzdata 2016g or newer
+    is now required for build.
+  * Locations: fix a couple of issues in Russian translation
+  * Translations update
+
 1.16.0
 
   * Locations: update ICAO code for Quito, Ecuador
