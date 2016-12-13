@@ -25,7 +25,6 @@
 #include <string.h>
 #include <math.h>
 #include <locale.h>
-#include <gtk/gtk.h>
 #include <libxml/xmlreader.h>
 
 #define MATEWEATHER_I_KNOW_THIS_IS_UNSTABLE

@@ -34,7 +34,6 @@
 #include <time.h>
 #include <unistd.h>
 
-#include <gtk/gtk.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
 #define MATEWEATHER_I_KNOW_THIS_IS_UNSTABLE
