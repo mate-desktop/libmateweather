@@ -167,24 +167,6 @@ fi
 AC_DEFINE_UNQUOTED(ZONEINFO_DIR, "$ZONEINFO_DIR", [zoneinfo directory])
 
 dnl ***************************************************************************
-dnl *** Python bindings
-dnl ***************************************************************************
-AC_ARG_ENABLE(python,
-        [AC_HELP_STRING([--enable-python],
-                        [Build libmateweather python bindings])],
-        [enable_python=$enableval],
-        [enable_python=no])
-if test "$enable_python" = "yes"; then
-   AM_PATH_PYTHON()
-   AM_CHECK_PYTHON_HEADERS(,enable_python=no)
-   PKG_CHECK_MODULES(PYGOBJECT, pygobject-2.0)
-   pygtk_defsdir=`$PKG_CONFIG --variable=defsdir pygtk-2.0`
-   PYGTK_DEFS="$pygtk_defsdir/gtk.defs"
-   AC_SUBST(PYGTK_DEFS)
-fi
-AM_CONDITIONAL(BUILD_PYTHON, test "x$enable_python" = "xyes")
-
-dnl ***************************************************************************
 dnl *** Honour aclocal flags                                                ***
 dnl ***************************************************************************
 ACLOCAL_AMFLAGS="\${ACLOCAL_FLAGS}"
@@ -194,7 +176,6 @@ AC_SUBST(VERSION)
 AC_SUBST(PACKAGE)
 AC_SUBST(DATADIR)
 AC_SUBST(LIBDIR)
-AC_SUBST(PYTHONDIR)
 AC_SUBST(GLADEDIR)
 
 ##################################################
@@ -215,7 +196,6 @@ libmateweather/mateweather.pc
 libmateweather/mateweather-uninstalled.pc
 libmateweather/org.mate.weather.gschema.xml
 data/Makefile
-python/Makefile
 icons/Makefile
 ])
 AC_OUTPUT
@@ -234,7 +214,6 @@ libmateweather-$VERSION configure summary:
 	Prefix:				${prefix}
 	Source code location:		${srcdir}
 	Compiler:			${CC}
-	Python bindings:		${enable_python}
 	Locations.xml translations:	${LOCATIONS_XML_TRANSLATIONS}
 	Locations.xml compression:	${enable_locations_compression}
 	Gtk+ version:			${GTK_API_VERSION}
