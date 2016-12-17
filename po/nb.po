@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-27 15:08+0300\n"
-"PO-Revision-Date: 2016-06-27 11:44+0000\n"
+"PO-Revision-Date: 2016-11-17 10:17+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -247,11 +247,11 @@ msgstr "Oslo/Gardermoen"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
-msgstr "Informasjon om værlokasjon."
+msgstr "Informasjon om værplassering."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:42
 msgid "Weather location information."
-msgstr "Informasjon om værlokasjon."
+msgstr "Informasjon om værplassering."
 
 #. TRANSLATORS: Change this to the code of your default location
 #. that corresponds to the DEFAULT_LOCATION name you put above. This
@@ -292,7 +292,7 @@ msgstr "'DEFAULT_ZONE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
-msgstr "Lokasjon for sone"
+msgstr "Soneplassering"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:64
 msgid ""
@@ -316,7 +316,7 @@ msgstr "'DEFAULT_RADAR'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
-msgstr "Radarlokasjon"
+msgstr "Radarplassering"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:76
 msgid ""
@@ -348,13 +348,13 @@ msgstr "<_name>Oslo</_name>\n<coordinates>59.916667 10.750000</coordinates>"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
-msgstr "Koordinater for lokasjon"
+msgstr "Koordinater for plassering"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:89
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
-msgstr "Bredde- og lengdegrad for din lokasjon uttrykt i DD-MM-SS[NS] DD-MM-SS [EW]"
+msgstr "Bredde- og lengdegrad for din plassering uttrykt i DD-MM-SS[NS] DD-MM-SS [EW]"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:90
 msgid "Use custom url for the radar map"
@@ -364,7 +364,7 @@ msgstr "Bruk egendefinert URL for radarkart"
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr "Hent et radarkart fra en lokasjon spesifisert i nøkkelen «radar» hvis denne er true."
+msgstr "Hent et radarkart fra en plassering spesifisert i nøkkelen «radar» hvis denne er true."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:92
 msgid "Url for the radar map"
@@ -387,7 +387,7 @@ msgstr "Kunne ikke hente METAR-data: %d %s\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
-msgstr "VærInfo mangler sted"
+msgstr "VærInfo mangler plassering"
 
 #: ../libmateweather/weather.c:242
 msgid "Variable"
