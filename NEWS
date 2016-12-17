@@ -1,5 +1,9 @@
 1.17.0
 
+  * Drop Python bindings and --enable-python build option
+  * Move to GTK+3 (>= 3.14), drop GTK+2 code and --with-gtk build option
+  * Translations update
+
 1.16.1
 
   * Locations: rename Rangoon timezone to Yangon, following
