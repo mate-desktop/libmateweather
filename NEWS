@@ -1,10 +1,10 @@
-1.17.0
+### libmateweather 1.17.0
 
   * Drop Python bindings and --enable-python build option
   * Move to GTK+3 (>= 3.14), drop GTK+2 code and --with-gtk build option
   * Translations update
 
-1.16.1
+### libmateweather 1.16.1
 
   * Locations: rename Rangoon timezone to Yangon, following
     tzdata 2016g change. Due to this, tzdata 2016g or newer
@@ -12,22 +12,22 @@
   * Locations: fix a couple of issues in Russian translation
   * Translations update
 
-1.16.0
+### libmateweather 1.16.0
 
   * Locations: update ICAO code for Quito, Ecuador
   * Locations: correct coordinates for Minsk airport (code UMMS)
   * Translations update
 
-1.14.3
+### libmateweather 1.14.3
 
   * IWIN: use new server address to fix forecast
 
-1.14.2
+### libmateweather 1.14.2
 
   * METAR: switch to https and use recommended method of data retrieval
     (as per https://aviationweather.gov/dataserver/bestpractices).
 
-1.14.1
+### libmateweather 1.14.1
 
   * METAR: switch to aviationweather.gov as weather.noaa.gov
     is discontinued
@@ -35,28 +35,28 @@
   * Translations update
   * Make distcheck use currently selected GTK+ version
 
-1.14.0
+### libmateweather 1.14.0
 
   * Drop obsolete build flags
   * Small fix in schema
   * Translations update
   * Add Changelog generation
 
-1.12.1
+### libmateweather 1.12.1
 
   * Translations update
 
-1.12.0
+### libmateweather 1.12.0
 
   * Location updates for timezones
   * Retrieve strings directly from gschema (requires intltool 0.50.1)
   * Some more fixes and cleanups
 
-1.10.0
+### libmateweather 1.10.0
 
   * Bugfixes
 
-1.8.0
+### libmateweather 1.8.0
 
   * Drop libsoup-gnome dependency
   * Add GTK3 support
