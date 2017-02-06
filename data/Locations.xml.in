@@ -3962,11 +3962,11 @@
       <city>
       <!-- A city in India -->
         <_name>Pune</_name>
-        <coordinates>-18.53 73.85</coordinates>
+        <coordinates>18.53 73.85</coordinates>
         <location>
           <name>Pune International Airport</name>
 	  <code>VAPO</code>
-	  <coordinates>-18.3456 073.5511</coordinates>
+	  <coordinates>18.3456 073.5511</coordinates>
         </location>
       </city>
       <city>
