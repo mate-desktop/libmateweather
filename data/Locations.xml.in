@@ -4018,6 +4018,99 @@
       </city>
     </country>
     <country>
+      <!-- ID - Indonesia -->
+      <_name>Indonesia</_name>
+      <!-- Could not find information about the following stations,
+           which may be in Indonesia:
+           WADD WALL WARR WARS WIDD WIPT
+        -->
+      <iso-code>ID</iso-code>
+      <fips-code>ID</fips-code>
+      <timezones>
+        <timezone id="Asia/Jakarta">
+          <!-- The timezone on the western islands of Indonesia. The
+               name in Indonesian is "Waktu Indonesia Bagian Barat".
+            -->
+          <_name>Western Indonesia Time</_name>
+          <obsoletes>Asia/Pontianak</obsoletes>
+        </timezone>
+        <timezone id="Asia/Makassar">
+          <!-- The timezone on the central islands of Indonesia. The
+               name in Indonesian is "Waktu Indonesia Bagian Tengah".
+            -->
+          <_name>Central Indonesia Time</_name>
+        </timezone>
+        <timezone id="Asia/Jayapura">
+          <!-- The timezone on the eastern islands of Indonesia. The
+               name in Indonesian is "Waktu Indonesia Bagian Timur".
+            -->
+          <_name>Eastern Indonesia Time</_name>
+        </timezone>
+      </timezones>
+      <tz-hint>Asia/Jakarta</tz-hint>
+      <city>
+        <!-- The capital of Indonesia -->
+        <_name>Jakarta</_name>
+        <coordinates>-6.174444 106.829444</coordinates>
+        <location>
+          <name>Soekarno-Hatta Airport</name>
+          <code>WIII</code>
+          <coordinates>-6.116667 106.650000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Indonesia -->
+        <_name>Makassar</_name>
+        <coordinates>-5.140000 119.422100</coordinates>
+        <location>
+          <name>Hasanuddin Airport</name>
+          <code>WAAA</code>
+          <tz-hint>Asia/Makassar</tz-hint>
+          <coordinates>-5.066667 119.550000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Indonesia -->
+        <_name>Medan</_name>
+        <coordinates>3.583333 98.666667</coordinates>
+        <location>
+          <name>Polonia Airport</name>
+          <code>WIMM</code>
+          <coordinates>3.566667 98.683333</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Indonesia -->
+        <_name>Palembang</_name>
+        <coordinates>-2.916667 104.750000</coordinates>
+        <location>
+          <name>Talangbetutu Airport</name>
+          <code>WIPP</code>
+          <coordinates>-2.900000 104.700000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Indonesia -->
+        <_name>Pekanbaru</_name>
+        <coordinates>0.533333 101.450000</coordinates>
+        <location>
+          <name>Simpangtiga Airport</name>
+          <code>WIBB</code>
+          <coordinates>0.466667 101.450000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Indonesia -->
+        <_name>Yogyakarta</_name>
+        <coordinates>-7.803164 110.3398254</coordinates>
+        <location>
+          <name>Adisucipto International Airport</name>
+          <code>WAHH</code>
+          <coordinates>-7.7876785 110.4295726</coordinates>
+        </location>
+      </city>
+    </country>
+    <country>
       <!-- JP - Japan -->
       <_name>Japan</_name>
       <!-- Could not find information about the following stations,
@@ -7229,99 +7322,6 @@
           <name>Guam International Airport</name>
           <code>PGUM</code>
           <coordinates>13.483333 144.800000</coordinates>
-        </location>
-      </city>
-    </country>
-    <country>
-      <!-- ID - Indonesia -->
-      <_name>Indonesia</_name>
-      <!-- Could not find information about the following stations,
-           which may be in Indonesia:
-           WADD WALL WARR WARS WIDD WIPT 
-        -->
-      <iso-code>ID</iso-code>
-      <fips-code>ID</fips-code>
-      <timezones>
-        <timezone id="Asia/Jakarta">
-          <!-- The timezone on the western islands of Indonesia. The
-               name in Indonesian is "Waktu Indonesia Bagian Barat".
-            -->
-          <_name>Western Indonesia Time</_name>
-          <obsoletes>Asia/Pontianak</obsoletes>
-        </timezone>
-        <timezone id="Asia/Makassar">
-          <!-- The timezone on the central islands of Indonesia. The
-               name in Indonesian is "Waktu Indonesia Bagian Tengah".
-            -->
-          <_name>Central Indonesia Time</_name>
-        </timezone>
-        <timezone id="Asia/Jayapura">
-          <!-- The timezone on the eastern islands of Indonesia. The
-               name in Indonesian is "Waktu Indonesia Bagian Timur".
-            -->
-          <_name>Eastern Indonesia Time</_name>
-        </timezone>
-      </timezones>
-      <tz-hint>Asia/Jakarta</tz-hint>
-      <city>
-        <!-- The capital of Indonesia -->
-        <_name>Jakarta</_name>
-        <coordinates>-6.174444 106.829444</coordinates>
-        <location>
-          <name>Soekarno-Hatta Airport</name>
-          <code>WIII</code>
-          <coordinates>-6.116667 106.650000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Indonesia -->
-        <_name>Makassar</_name>
-        <coordinates>-5.140000 119.422100</coordinates>
-        <location>
-          <name>Hasanuddin Airport</name>
-          <code>WAAA</code>
-          <tz-hint>Asia/Makassar</tz-hint>
-          <coordinates>-5.066667 119.550000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Indonesia -->
-        <_name>Medan</_name>
-        <coordinates>3.583333 98.666667</coordinates>
-        <location>
-          <name>Polonia Airport</name>
-          <code>WIMM</code>
-          <coordinates>3.566667 98.683333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Indonesia -->
-        <_name>Palembang</_name>
-        <coordinates>-2.916667 104.750000</coordinates>
-        <location>
-          <name>Talangbetutu Airport</name>
-          <code>WIPP</code>
-          <coordinates>-2.900000 104.700000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Indonesia -->
-        <_name>Pekanbaru</_name>
-        <coordinates>0.533333 101.450000</coordinates>
-        <location>
-          <name>Simpangtiga Airport</name>
-          <code>WIBB</code>
-          <coordinates>0.466667 101.450000</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Indonesia -->
-        <_name>Yogyakarta</_name>
-        <coordinates>-7.803164 110.3398254</coordinates>
-        <location>
-          <name>Adisucipto International Airport</name>
-          <code>WAHH</code>
-          <coordinates>-7.7876785 110.4295726</coordinates>
         </location>
       </city>
     </country>
