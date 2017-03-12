@@ -7314,6 +7314,16 @@
           <coordinates>0.466667 101.450000</coordinates>
         </location>
       </city>
+      <city>
+        <!-- A city in Indonesia -->
+        <_name>Yogyakarta</_name>
+        <coordinates>-7.803164 110.3398254</coordinates>
+        <location>
+          <name>Adisucipto International Airport</name>
+          <code>WAHH</code>
+          <coordinates>-7.7876785 110.4295726</coordinates>
+        </location>
+      </city>
     </country>
     <country>
       <!-- KI - Kiribati -->
