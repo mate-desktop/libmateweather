@@ -7521,6 +7521,16 @@
         </location>
       </city>
       <city>
+        <!-- A city in New Zealand -->
+        <_name>Dunedin</_name>
+        <coordinates>-45.8741 170.5035</coordinates>
+        <location>
+          <name>Dunedin Airport</name>
+          <code>NZDN</code>
+          <coordinates>-46.018741 170.6000</coordinates>
+        </location>
+      </city>
+      <city>
         <!-- The capital of New Zealand -->
         <_name>Wellington</_name>
         <coordinates>-41.300000 174.783333</coordinates>
