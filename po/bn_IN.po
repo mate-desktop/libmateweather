@@ -9,7 +9,7 @@
 # runab <runab@redhat.com>, 2008-2009
 # Samia Niamatullah <mailsamia2001@yahoo.com>, 2005
 # Sayamindu Dasgupta <unmadindu@Softhome.net>, 2003
-# Umesh Agarwal <umesh.agarwal1@gmail.com>, 2013
+# umesh agarwal <umesh.agarwal1@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"

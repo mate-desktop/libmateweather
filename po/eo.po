@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# fenris <fenris.kcf@gmail.com>, 2012
+# fenris <fenris@folksprak.org>, 2012
 # Hendrik LÖNNGREN, 2009
 # kristjan <kristjan.schmidt@googlemail.com>, 2010
 msgid ""
