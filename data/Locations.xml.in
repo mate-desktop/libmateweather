@@ -17434,10 +17434,20 @@
       <tz-hint>Europe/Warsaw</tz-hint>
       <city>
         <!-- A city in Poland -->
+        <_name>Bydgoszcz</_name>
+        <coordinates>53.123480 18.008438</coordinates>
+        <location>
+          <name>Bydgoszcz-Szwederowo</name>
+          <code>EPBY</code>
+          <coordinates>53.097951 17.972681</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Poland -->
         <_name>Gdańsk</_name>
         <coordinates>54.350000 18.666667</coordinates>
         <location>
-          <name>Gdansk-Rebiechowo</name>
+          <name>Gdańsk-Rębiechowo</name>
           <code>EPGD</code>
           <coordinates>54.383333 18.466667</coordinates>
         </location>
@@ -17447,7 +17457,7 @@
         <_name>Katowice</_name>
         <coordinates>50.266667 19.016667</coordinates>
         <location>
-          <name>Katowice</name>
+          <name>Katowice-Pyrzowice</name>
           <code>EPKT</code>
           <coordinates>50.233333 19.033333</coordinates>
         </location>
@@ -17457,9 +17467,19 @@
         <_name>Kraków</_name>
         <coordinates>50.083333 19.916667</coordinates>
         <location>
-          <name>Kraków</name>
+          <name>Kraków-Balice</name>
           <code>EPKK</code>
           <coordinates>50.083333 19.800000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Poland -->
+        <_name>Lublin</_name>
+        <coordinates>51.246452 22.568445</coordinates>
+        <location>
+          <name>Lublin-Świdnik</name>
+          <code>EPLB</code>
+          <coordinates>51.235810 22.715066</coordinates>
         </location>
       </city>
       <city>
@@ -17467,9 +17487,19 @@
         <_name>Łódź</_name>
         <coordinates>51.750000 19.466667</coordinates>
         <location>
-          <name>Łódź</name>
+          <name>Łódź-Lublinek</name>
           <code>EPLL</code>
           <coordinates>51.733333 19.400000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Poland -->
+        <_name>Olsztyn</_name>
+        <coordinates>53.778422 20.480119</coordinates>
+        <location>
+          <name>Olsztyn-Szymany</name>
+          <code>EPSY</code>
+          <coordinates>53.480557 20.936228</coordinates>
         </location>
       </city>
       <city>
@@ -17477,7 +17507,7 @@
         <_name>Poznań</_name>
         <coordinates>52.416667 16.966667</coordinates>
         <location>
-          <name>Poznań</name>
+          <name>Poznań-Ławica</name>
           <code>EPPO</code>
           <coordinates>52.416667 16.833333</coordinates>
         </location>
@@ -17487,7 +17517,7 @@
         <_name>Rzeszów</_name>
         <coordinates>50.050000 22.000000</coordinates>
         <location>
-          <name>Rzeszow-Jasionka</name>
+          <name>Rzeszów-Jasionka</name>
           <code>EPRZ</code>
           <coordinates>50.100000 22.050000</coordinates>
         </location>
@@ -17497,7 +17527,7 @@
         <_name>Szczecin</_name>
         <coordinates>53.416667 14.583333</coordinates>
         <location>
-          <name>Szczecin</name>
+          <name>Szczecin-Goleniów</name>
           <code>EPSC</code>
           <coordinates>53.400000 14.616667</coordinates>
         </location>
@@ -17510,7 +17540,7 @@
         <_name msgctxt="City in Poland">Warsaw</_name>
         <coordinates>52.250000 21.000000</coordinates>
         <location>
-          <name>Warszawa-Okecie</name>
+          <name>Warszawa-Okęcie</name>
           <code>EPWA</code>
           <coordinates>52.166667 20.966667</coordinates>
         </location>
@@ -17520,9 +17550,19 @@
         <_name>Wrocław</_name>
         <coordinates>51.100000 17.033333</coordinates>
         <location>
-          <name>Wrocław</name>
+          <name>Wrocław-Strachowice</name>
           <code>EPWR</code>
           <coordinates>51.100000 16.883333</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Poland -->
+        <_name>Zielona Góra</_name>
+        <coordinates>51.935621 15.506186</coordinates>
+        <location>
+          <name>Zielona Góra-Babimost</name>
+          <code>EPZG</code>
+          <coordinates>52.137026 15.777645</coordinates>
         </location>
       </city>
     </country>
