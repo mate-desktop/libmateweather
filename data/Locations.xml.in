@@ -4994,26 +4994,22 @@
         </location>
       </city>
       <city>
-        <!-- A city in Kazakhstan.
-             The local name in Russian is "Aktau".
-          -->
-        <_name>Aqtau</_name>
+        <!-- A city in Kazakhstan -->
+        <_name>Aktau</_name>
         <coordinates>43.650000 51.200000</coordinates>
         <location>
-          <name>Aqtau</name>
+          <name>Aktau</name>
           <code>UATE</code>
           <tz-hint>Asia/Aqtobe</tz-hint>
           <coordinates>43.870000 51.100000</coordinates>
         </location>
       </city>
       <city>
-        <!-- A city in Kazakhstan.
-             The local name in Russian is "Aktobe".
-          -->
-        <_name>Aqtöbe</_name>
+        <!-- A city in Kazakhstan -->
+        <_name>Aktobe</_name>
         <coordinates>50.298056 57.181389</coordinates>
         <location>
-          <name>Aktjubinsk</name>
+          <name>Aktobe</name>
           <code>UATT</code>
           <tz-hint>Asia/Aqtobe</tz-hint>
           <coordinates>50.283333 57.150000</coordinates>
@@ -5026,8 +5022,70 @@
         <location>
           <name>Astana</name>
           <code>UACC</code>
-          <tz-hint>Asia/Aqtobe</tz-hint>
           <coordinates>51.200000 71.450000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kazakhstan -->
+        <_name>Atyrau</_name>
+        <coordinates>47.105000 51.920000</coordinates>
+        <location>
+          <name>Atyrau Airport</name>
+          <code>UATG</code>
+          <tz-hint>Asia/Aqtobe</tz-hint>
+          <coordinates>47.123000 51.828000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kazakhstan.
+             The local name in Russian is "Balkhash". 
+          -->
+        <_name>Balqash</_name>
+        <coordinates>46.840000 74.975000</coordinates>
+        <location>
+          <name>Balqash Airport</name>
+          <code>UAAH</code>
+          <coordinates>46.885000 75.000000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kazakhstan -->
+        <_name>Karaganda</_name>
+        <coordinates>49.798889 73.099444</coordinates>
+        <location>
+          <name>Karaganda</name>
+          <code>UAKK</code>
+          <coordinates>49.800000 73.150000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kazakhstan -->
+        <_name>Kokshetau</_name>
+        <coordinates>53.275000 69.390000</coordinates>
+        <location>
+          <name>Kokshetau Airport</name>
+          <code>UACK</code>
+          <coordinates>53.330000 69.590000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kazakhstan -->
+        <_name>Kostanay</_name>
+        <coordinates>53.166667 63.583333</coordinates>
+        <location>
+          <name>Kostanay</name>
+          <code>UAUU</code>
+          <coordinates>53.206389 63.550833</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kazakhstan -->
+        <_name>Kyzylorda</_name>
+        <coordinates>44.852778 65.509167</coordinates>
+        <location>
+          <name>Kyzylorda</name>
+          <code>UAOO</code>
+          <coordinates>44.850000 65.500000</coordinates>
         </location>
       </city>
       <city>
@@ -5045,40 +5103,45 @@
       </city>
       <city>
         <!-- A city in Kazakhstan.
-             The local name in Russian is "Karaganda".
           -->
-        <_name>Qaraghandy</_name>
-        <coordinates>49.798889 73.099444</coordinates>
+        <_name>Oskemen</_name>
+        <coordinates>49.960000 82.606000</coordinates>
         <location>
-          <name>Qaraghandy</name>
-          <code>UAKK</code>
-          <coordinates>49.800000 73.150000</coordinates>
+          <name>Oskemen Airport</name>
+          <code>UASK</code>
+          <coordinates>50.030000 82.510000</coordinates>
         </location>
       </city>
       <city>
         <!-- A city in Kazakhstan.
-             The local name in Russian is "Kostanay".
+             The local name in Russian is "Petropavlovsk".
           -->
-        <_name>Qostanay</_name>
-        <coordinates>53.166667 63.583333</coordinates>
+        <_name>Petropavl</_name>
+        <coordinates>54.864427 69.133755</coordinates>
         <location>
-          <name>Qostanay</name>
-          <code>UAUU</code>
-          <tz-hint>Asia/Aqtobe</tz-hint>
-          <coordinates>53.206389 63.550833</coordinates>
+          <name>Petropavl Airport</name>
+          <code>UACP</code>
+          <coordinates>54.778519 69.180211</coordinates>
         </location>
       </city>
       <city>
-        <!-- A city in Kazakhstan.
-             The local name in Russian is "Kyzylorda".
-          -->
-        <_name>Qyzylorda</_name>
-        <coordinates>44.852778 65.509167</coordinates>
+        <!-- A city in Kazakhstan -->
+        <_name>Pavlodar</_name>
+        <coordinates>52.264656, 76.970022</coordinates>
         <location>
-          <name>Qyzylorda</name>
-          <code>UAOO</code>
-          <tz-hint>Asia/Almaty</tz-hint>
-          <coordinates>44.850000 65.500000</coordinates>
+          <name>Pavlodar Airport</name>
+          <code>UASP</code>
+          <coordinates>52.198393 77.069721</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kazakhstan -->
+        <_name>Semey</_name>
+        <coordinates>50.413720 80.233534</coordinates>
+        <location>
+          <name>Semey Airport</name>
+          <code>UASS</code>
+          <coordinates>50.344938 80.217010</coordinates>
         </location>
       </city>
       <city>
@@ -5088,8 +5151,17 @@
         <location>
           <name>Shymkent</name>
           <code>UAII</code>
-          <tz-hint>Asia/Almaty</tz-hint>
           <coordinates>42.316667 69.700000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kazakhstan -->
+        <_name>Taraz</_name>
+        <coordinates>42.901070 71.378531</coordinates>
+        <location>
+          <name>Taraz Airport</name>
+          <code>UADD</code>
+          <coordinates>42.866460 71.293308</coordinates>
         </location>
       </city>
     </country>
@@ -5098,7 +5170,7 @@
       <_name>Kyrgyzstan</_name>
       <!-- Could not find information about the following stations,
            which may be in Kyrgyzstan:
-           UACK UACP UADD UAFO UASK UASP UATG 
+           UAFO 
         -->
       <iso-code>KG</iso-code>
       <fips-code>KG</fips-code>
