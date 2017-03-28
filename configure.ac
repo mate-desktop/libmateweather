@@ -71,7 +71,7 @@ PKG_CHECK_MODULES(LIBSOUP, [libsoup-2.4 >= $LIBSOUP_REQUIRED])
 
 dnl -- check for gio (required) -----------------------------------------
 PKG_CHECK_MODULES(GIO,
-		  [gio-2.0 >= GIO_REQUIRED])
+		  [gio-2.0 >= $GIO_REQUIRED])
 AC_SUBST(GIO_CFLAGS)
 
 dnl -- check for glib; redundant at this point, but sets $GLIB_MKENUMS
