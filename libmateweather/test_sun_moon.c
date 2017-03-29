@@ -71,10 +71,14 @@ main (int argc, char **argv)
 	    fabs(latitude), (latitude >= 0. ? 'N' : 'S'),
 	    fabs(longitude), (longitude >= 0. ? 'E' : 'W'),
 	    asctime(gmtime(&info.update)));
-    printf("sunrise:   %s",
-	   (info.sunriseValid ? ctime(&info.sunrise) : "(invalid)\n"));
-    printf("sunset:    %s",
-	   (info.sunsetValid ? ctime(&info.sunset)  : "(invalid)\n"));
+
+    if (bsun) {
+        printf("sunrise:   %s",
+	       (info.sunriseValid ? ctime(&info.sunrise) : "(invalid)\n"));
+        printf("sunset:    %s",
+	       (info.sunsetValid ? ctime(&info.sunset)  : "(invalid)\n"));
+    }
+
     if (bmoon) {
 	printf("moonphase: %g\n", info.moonphase);
 	printf("moonlat:   %g\n", info.moonlatitude);
