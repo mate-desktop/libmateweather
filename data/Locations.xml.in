@@ -18038,14 +18038,21 @@
           <_name>Yekaterinburg Time</_name>
         </timezone>
         <timezone id="Asia/Omsk">
-          <!-- A Russian time zone, used in the Omsk and Novosibirsk
-               oblasts and surrounding areas of south-central Russia.
+          <!-- A Russian time zone, used in the Omsk oblast
+               and surrounding areas of south-central Russia.
                The Russian name is "Омское время". This string is only
                used in places where "Russia" is already clear from
                context.
             -->
           <_name>Omsk Time</_name>
-          <obsoletes>Asia/Novosibirsk</obsoletes>
+        </timezone>
+        <timezone id="Asia/Novosibirsk">
+          <!-- A Russian time zone, used in the Novosibirsk oblast.
+               The Russian name is "Новосибирское время".
+               This string is only used in places
+               where "Russia" is already clear from context.
+            -->
+          <_name>Novosibirsk Time</_name>
         </timezone>
         <timezone id="Asia/Krasnoyarsk">
           <!-- A Russian time zone, used in the Krasnoyarsk krai and
@@ -18496,7 +18503,7 @@
         <location>
           <name>Novosibirsk</name>
           <code>UNNT</code>
-          <tz-hint>Asia/Omsk</tz-hint>
+          <tz-hint>Asia/Novosibirsk</tz-hint>
           <coordinates>55.083333 82.900000</coordinates>
         </location>
       </city>
