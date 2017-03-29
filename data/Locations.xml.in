@@ -6607,6 +6607,17 @@
       </city>
       <city>
         <!-- A city in Puerto Rico -->
+        <name>Ceiba</name>
+        <coordinates>18.264169 -65.648302</coordinates>
+        <location>
+          <name>José Aponte de la Torre Airport</name>
+          <code>TJNR</code>
+	  <radar>sju</radar>
+          <coordinates>18.2553 -65.6386</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Puerto Rico -->
         <_name>Ponce</_name>
         <coordinates>18.011077 -66.614062</coordinates>
         <location>
