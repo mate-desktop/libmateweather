@@ -176,6 +176,8 @@ gchar *			weather_info_get_weather_summary(WeatherInfo *info);
 const gchar *		weather_info_get_icon_name	(WeatherInfo *info);
 gint			weather_info_next_sun_event	(WeatherInfo *info);
 
+gboolean                weather_info_equal              (WeatherInfo *info1, WeatherInfo *info2);
+
 /* values retrieving functions */
 
 enum _WeatherWindDirection {
