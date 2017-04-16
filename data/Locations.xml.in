@@ -4997,10 +4997,10 @@
         <!-- A city in Kazakhstan -->
         <_name>Aktau</_name>
         <coordinates>43.650000 51.200000</coordinates>
-        <tz-hint>Asia/Aqtobe</tz-hint>
         <location>
           <name>Aktau</name>
           <code>UATE</code>
+          <tz-hint>Asia/Aqtobe</tz-hint>
           <coordinates>43.870000 51.100000</coordinates>
         </location>
       </city>
@@ -5008,10 +5008,10 @@
         <!-- A city in Kazakhstan -->
         <_name>Aktobe</_name>
         <coordinates>50.298056 57.181389</coordinates>
-        <tz-hint>Asia/Aqtobe</tz-hint>
         <location>
           <name>Aktobe</name>
           <code>UATT</code>
+          <tz-hint>Asia/Aqtobe</tz-hint>
           <coordinates>50.283333 57.150000</coordinates>
         </location>
       </city>
@@ -5029,10 +5029,10 @@
         <!-- A city in Kazakhstan -->
         <_name>Atyrau</_name>
         <coordinates>47.105000 51.920000</coordinates>
-        <tz-hint>Asia/Aqtobe</tz-hint>
         <location>
           <name>Atyrau Airport</name>
           <code>UATG</code>
+          <tz-hint>Asia/Aqtobe</tz-hint>
           <coordinates>47.123000 51.828000</coordinates>
         </location>
       </city>
@@ -5082,7 +5082,6 @@
         <!-- A city in Kazakhstan -->
         <_name>Kyzylorda</_name>
         <coordinates>44.852778 65.509167</coordinates>
-        <tz-hint>Asia/Almaty</tz-hint>
         <location>
           <name>Kyzylorda</name>
           <code>UAOO</code>
@@ -5095,10 +5094,10 @@
           -->
         <_name>Oral</_name>
         <coordinates>51.233333 51.366667</coordinates>
-        <tz-hint>Asia/Aqtobe</tz-hint>
         <location>
           <name>Oral</name>
           <code>UARR</code>
+          <tz-hint>Asia/Aqtobe</tz-hint>
           <coordinates>51.250000 51.283333</coordinates>
         </location>
       </city>
