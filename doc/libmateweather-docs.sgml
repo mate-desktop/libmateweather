@@ -23,7 +23,6 @@
     <xi:include href="xml/timezone-menu.xml"/>
     <xi:include href="xml/weather.xml"/>
     <xi:include href="xml/mateweather-xml.xml"/>
-    <xi:include href="xml/mateweather-mateconf.xml"/>
     <xi:include href="xml/mateweather-prefs.xml"/>
   </chapter>
 
