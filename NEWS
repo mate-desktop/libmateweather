@@ -1,5 +1,13 @@
 ### libmateweather 1.19.0
 
+  * Fix Novosibirsk timezone
+  * Add Ceiba in Puerto Rico
+  * doc: drop ancient MateConf references and some other stuff
+  * remove ancient NEWS.GNOME
+  * Update cities of Kazakhstan.
+  * actually check the $GIO_REQUIRED variable's value
+  * Translations update
+
 ### libmateweather 1.18.0
 
   * NEWS: use consistent, project wide, markdown-like formatting
