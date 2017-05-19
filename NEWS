@@ -1,3 +1,11 @@
+### libmateweather 1.18.1
+
+  * Translations update
+  * Fix Novosibirsk timezone
+  * Add Ceiba in Puerto Rico
+  * Update cities of Kazakhstan.
+  * actually check the $GIO_REQUIRED variable's value
+
 ### libmateweather 1.18.0
 
   * NEWS: use consistent, project wide, markdown-like formatting
