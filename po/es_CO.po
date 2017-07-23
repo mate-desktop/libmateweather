@@ -4,7 +4,7 @@
 # 
 # Translators:
 # monsta <monsta@inbox.ru>, 2016
-# sergiob2 <sergioalejo@gmail.com>, 2016
+# Sergio Alejandro Bayona Becerra <sergioalejo@gmail.com>, 2016
 # Tatiana Gutiérrez Bunster <tgutierr@ubiobio.cl>, 2003
 msgid ""
 msgstr ""

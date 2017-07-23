@@ -9,7 +9,7 @@
 # Emre Kadıoğlu <emrek@gawab.com>, 2005
 # mauron, 2013,2016
 # mauron, 2012
-# Mehmet <mehmet337402@gmail.com>, 2015
+# Mehmet, 2015
 # Sinan Imamoglu <sinan@myrealbox.com>, 2003
 msgid ""
 msgstr ""
