@@ -1,3 +1,15 @@
+### libmateweather 1.19.1
+
+  * Translations update
+  * Add timeout, actully invalidate session in weather_info_abort
+  * Start reducing weather spam by creating intial cut of weather_info_equal ()
+    function that will help apps determine if two WeatherInfo instances are 'the same'
+    enough to not bother with a notification
+  * remove warning on unused bsun by actually testing value
+  * Fix soup_session_async_new () deprecation warning
+  * Add missing Polish cities with airports
+  * Restore Polish translation credits from GNOME
+
 ### libmateweather 1.19.0
 
   * Fix Novosibirsk timezone
