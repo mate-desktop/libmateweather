@@ -7,20 +7,21 @@
 # Bogusław B. <penknife1@gmail.com>, 2013
 # Darek Witkowski, 2016
 # Marcin Kralka <marcink96@gmail.com>, 2013
+# Piotr Drąg <piotrdrag@gmail.com>, 2017
 # Piotr Strębski <strebski@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-27 15:08+0300\n"
-"PO-Revision-Date: 2016-06-27 11:44+0000\n"
-"Last-Translator: Piotr Strębski <strebski@gmail.com>\n"
+"PO-Revision-Date: 2017-05-21 01:45+0000\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/mate/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: ../libmateweather/mateweather-prefs.c:93
 #: ../libmateweather/mateweather-prefs.c:113
@@ -65,7 +66,7 @@ msgstr "km/h"
 #. translators: miles per hour
 #: ../libmateweather/mateweather-prefs.c:122
 msgid "mph"
-msgstr "mi/h"
+msgstr "mph"
 
 #. translators: knots (speed unit)
 #: ../libmateweather/mateweather-prefs.c:125
@@ -165,7 +166,7 @@ msgstr "Wykorzystanie systemu metrycznego zamiast jednostek angielskich."
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:11
 msgid "'miles'"
-msgstr "'mile'"
+msgstr "'meters'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:12
 msgid "Distance unit"
@@ -173,14 +174,14 @@ msgstr "Jednostka odległości"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr "Jednostka używana do określenia widoczności. Jednostki: 'metry', 'km' ,'mile'."
+msgstr "Jednostka używana do określenia widoczności. Jednostki: 'meters', 'km' ,'miles'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:16
 msgid "'inHg'"
-msgstr "'cal słupka rtęci'"
+msgstr "'hPa'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:17
 msgid "Pressure unit"
@@ -196,7 +197,7 @@ msgstr "Jednostka używana do określania ciśnienia. Jednostki: 'kPa', 'hPa', '
 #. for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:21
 msgid "'knots'"
-msgstr "'węzły'"
+msgstr "'km/h'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:22
 msgid "Speed unit"
@@ -206,13 +207,13 @@ msgstr "Jednostka prędkości"
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr "Jednostka używana do określania prędkości wiatru. Jednostki: 'm/s', 'km/h, 'mi/h', 'węzły', 'skala Beauforta'."
+msgstr "Jednostka używana do określania prędkości wiatru. Jednostki: 'm/s', 'km/h, 'mph', 'knots', 'Beaufort scale'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:26
 msgid "'Fahrenheit'"
-msgstr "'stopień Fahrenheita'"
+msgstr "'Centigrade'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
 msgid "Temperature unit"
@@ -222,7 +223,7 @@ msgstr "Jednostka temperatury"
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr "Jednostka używania do określania temperatury. Jednostki: 'Kelwin', 'Celsjusz', 'Fahrenheit'."
+msgstr "Jednostka używania do określania temperatury. Jednostki: 'Kelvin', 'Centigrade', 'Fahrenheit'."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
 msgid "Not used anymore"
@@ -246,7 +247,7 @@ msgstr "Pobieranie mapy radarowej podczas każdej aktualizacji."
 #. "DEFAULT_LOCATION".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:40
 msgid "'DEFAULT_LOCATION'"
-msgstr "'DOMYŚLNA_LOKALIZACJA'"
+msgstr "'Warszawa'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
@@ -267,7 +268,7 @@ msgstr "Informacja o miejscu prognozy."
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:51
 msgid "'DEFAULT_CODE'"
-msgstr "'DOMYŚLNY_KOD'"
+msgstr "'EPWA'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:52
 msgid "Nearby city"
@@ -291,7 +292,7 @@ msgstr "Główny obszar w pobliżu, zgodnie z https://raw.github.com/mate-deskto
 #. "DEFAULT_ZONE".
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:62
 msgid "'DEFAULT_ZONE'"
-msgstr "'DOMYŚLNA_STREFA'"
+msgstr "'DEFAULT_ZONE'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
@@ -315,7 +316,7 @@ msgstr "Unikalna strefa dla miasta, zgodnie z https://raw.github.com/mate-deskto
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:74
 msgid "'DEFAULT_RADAR'"
-msgstr "'DOMYŚLNY_RADAR'"
+msgstr "' '"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
@@ -334,7 +335,7 @@ msgstr "Prognoza pogody dla miasta"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:78
 msgid "The city that mateweather displays information for."
-msgstr "Miasto, dla którego biblioteka gwaether wyświetla informacje."
+msgstr "Miasto, dla którego biblioteka mateweather wyświetla informacje."
 
 #. TRANSLATORS: Change this to the coordinates of your default
 #. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
@@ -347,7 +348,7 @@ msgstr "Miasto, dla którego biblioteka gwaether wyświetla informacje."
 #. default location, set this to DEFAULT_COORDINATES.
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:87
 msgid "'DEFAULT_COORDINATES'"
-msgstr "'DOMYŚLNE_WSPÓŁRZĘDNE'"
+msgstr "'52.166667 20.966667'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
@@ -386,7 +387,7 @@ msgstr "Nieznany"
 #: ../libmateweather/weather-metar.c:504
 #, c-format
 msgid "Failed to get METAR data: %d %s.\n"
-msgstr "Pobranie danych METAR się nie powiodło:%d %s.\n"
+msgstr "Pobranie danych METAR się nie powiodło: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
@@ -394,91 +395,91 @@ msgstr "Brak informacji o położeniu"
 
 #: ../libmateweather/weather.c:242
 msgid "Variable"
-msgstr "Zmienne"
+msgstr "Zmienny"
 
 #: ../libmateweather/weather.c:243
 msgid "North"
-msgstr "Północ"
+msgstr "Północny"
 
 #: ../libmateweather/weather.c:243
 msgid "North - NorthEast"
-msgstr "Północ - północny wschód"
+msgstr "Północny — północno‑wschodni"
 
 #: ../libmateweather/weather.c:243
 msgid "Northeast"
-msgstr "Północny wschód"
+msgstr "Północno‑wschodni"
 
 #: ../libmateweather/weather.c:243
 msgid "East - NorthEast"
-msgstr "Wschód - północny wschód"
+msgstr "Wschodni — północno‑wschodni"
 
 #: ../libmateweather/weather.c:244
 msgid "East"
-msgstr "Wschód"
+msgstr "Wschodni"
 
 #: ../libmateweather/weather.c:244
 msgid "East - Southeast"
-msgstr "Wschód - południowy wschód"
+msgstr "Wschodni — południowo‑wschodni"
 
 #: ../libmateweather/weather.c:244
 msgid "Southeast"
-msgstr "Południowy wschód"
+msgstr "Południowo‑wschodni"
 
 #: ../libmateweather/weather.c:244
 msgid "South - Southeast"
-msgstr "Południe - południowy wschód"
+msgstr "Południowy — południowo‑wschodni"
 
 #: ../libmateweather/weather.c:245
 msgid "South"
-msgstr "Południe"
+msgstr "Południowy"
 
 #: ../libmateweather/weather.c:245
 msgid "South - Southwest"
-msgstr "Południe - południowy zachód"
+msgstr "Południowy — południowo‑zachodni"
 
 #: ../libmateweather/weather.c:245
 msgid "Southwest"
-msgstr "Południowy zachód"
+msgstr "Południowo‑zachodni"
 
 #: ../libmateweather/weather.c:245
 msgid "West - Southwest"
-msgstr "Zachód - południowy zachód"
+msgstr "Zachodni — południowo‑zachodni"
 
 #: ../libmateweather/weather.c:246
 msgid "West"
-msgstr "Zachód"
+msgstr "Zachodni"
 
 #: ../libmateweather/weather.c:246
 msgid "West - Northwest"
-msgstr "Zachód - północny zachód"
+msgstr "Zachodni — północno‑zachodni"
 
 #: ../libmateweather/weather.c:246
 msgid "Northwest"
-msgstr "Północny zachód"
+msgstr "Północno‑zachodni"
 
 #: ../libmateweather/weather.c:246
 msgid "North - Northwest"
-msgstr "Północ - północny zachód"
+msgstr "Północny — północno‑zachodni"
 
 #: ../libmateweather/weather.c:259
 msgid "Clear Sky"
-msgstr "Czyste niebo"
+msgstr "Bezchmurnie"
 
 #: ../libmateweather/weather.c:260
 msgid "Broken clouds"
-msgstr "Zachmurzenie umiarkowane"
+msgstr "Pochmurnie"
 
 #: ../libmateweather/weather.c:261
 msgid "Scattered clouds"
-msgstr "Kłębiaste chmury"
+msgstr "Umiarkowane zachmurzenie"
 
 #: ../libmateweather/weather.c:262
 msgid "Few clouds"
-msgstr "Mało pochmurne"
+msgstr "Niewielkie zachmurzenie"
 
 #: ../libmateweather/weather.c:263
 msgid "Overcast"
-msgstr "Pochmurno"
+msgstr "Całkowite zachmurzenie"
 
 #. TRANSLATOR: If you want to know what "blowing" "shallow" "partial"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
@@ -495,7 +496,7 @@ msgstr "Mżawka"
 
 #: ../libmateweather/weather.c:303
 msgid "Light drizzle"
-msgstr "Łagodna mżawka"
+msgstr "Lekka mżawka"
 
 #: ../libmateweather/weather.c:303
 msgid "Moderate drizzle"
@@ -516,11 +517,11 @@ msgstr "Deszcz"
 
 #: ../libmateweather/weather.c:304
 msgid "Light rain"
-msgstr "Łagodne opady deszczu"
+msgstr "Lekki deszcz"
 
 #: ../libmateweather/weather.c:304
 msgid "Moderate rain"
-msgstr "Umiarkowane opady deszczu"
+msgstr "Umiarkowany deszcz"
 
 #: ../libmateweather/weather.c:304
 msgid "Heavy rain"
@@ -528,7 +529,7 @@ msgstr "Ulewny deszcz"
 
 #: ../libmateweather/weather.c:304
 msgid "Rain showers"
-msgstr "Przelotne opady deszczu"
+msgstr "Przelotny deszcz"
 
 #: ../libmateweather/weather.c:304
 msgid "Freezing rain"
@@ -541,7 +542,7 @@ msgstr "Śnieg"
 
 #: ../libmateweather/weather.c:305
 msgid "Light snow"
-msgstr "Łagodny śnieg"
+msgstr "Lekki śnieg"
 
 #: ../libmateweather/weather.c:305
 msgid "Moderate snow"
@@ -553,66 +554,66 @@ msgstr "Obfity śnieg"
 
 #: ../libmateweather/weather.c:305
 msgid "Snowstorm"
-msgstr "Burza śnieżna"
+msgstr "Śnieżyca"
 
 #: ../libmateweather/weather.c:305
 msgid "Blowing snowfall"
-msgstr "Silna burza śnieżna"
+msgstr "Zawieja śnieżna"
 
 #: ../libmateweather/weather.c:305
 msgid "Snow showers"
-msgstr "Przelotne opady śniegu"
+msgstr "Przelotny śnieg"
 
 #: ../libmateweather/weather.c:305
 msgid "Drifting snow"
-msgstr "Zamiecie śnieżne"
+msgstr "Zamieć śnieżna"
 
 #. SNOW_GRAINS
 #: ../libmateweather/weather.c:306
 msgid "Snow grains"
-msgstr "Lekkie opady śniegu"
+msgstr "Śnieg ziarnisty"
 
 #: ../libmateweather/weather.c:306
 msgid "Light snow grains"
-msgstr "Lekkie ziarna śniegu"
+msgstr "Lekki śnieg ziarnisty"
 
 #: ../libmateweather/weather.c:306
 msgid "Moderate snow grains"
-msgstr "Zmienne ziarna śniegu"
+msgstr "Umiarkowany śnieg ziarnisty"
 
 #: ../libmateweather/weather.c:306
 msgid "Heavy snow grains"
-msgstr "Grad śnieżny"
+msgstr "Obfity śnieg ziarnisty"
 
 #. ICE_CRYSTALS
 #: ../libmateweather/weather.c:307
 msgid "Ice crystals"
-msgstr "Kryształy lodu"
+msgstr "Słupki lodowe"
 
 #. ICE_PELLETS
 #: ../libmateweather/weather.c:308
 msgid "Ice pellets"
-msgstr "Kulki lodowe"
+msgstr "Deszcz ze śniegiem"
 
 #: ../libmateweather/weather.c:308
 msgid "Few ice pellets"
-msgstr "Kilka kulek lodowych"
+msgstr "Niewielki deszcz ze śniegiem"
 
 #: ../libmateweather/weather.c:308
 msgid "Moderate ice pellets"
-msgstr "Umiarkowane kuli lodowe"
+msgstr "Umiarkowany deszcz ze śniegiem"
 
 #: ../libmateweather/weather.c:308
 msgid "Heavy ice pellets"
-msgstr "Obfite kulki lodowe"
+msgstr "Obfity deszcz ze śniegiem"
 
 #: ../libmateweather/weather.c:308
 msgid "Ice pellet storm"
-msgstr "Burza z kulkami lodowymi"
+msgstr "Burza z deszczem i śniegiem"
 
 #: ../libmateweather/weather.c:308
 msgid "Showers of ice pellets"
-msgstr "Krótkotrwałe kulki lodowe"
+msgstr "Przelotny deszcz ze śniegiem"
 
 #. HAIL
 #: ../libmateweather/weather.c:309
@@ -625,20 +626,20 @@ msgstr "Burza gradowa"
 
 #: ../libmateweather/weather.c:309
 msgid "Hail showers"
-msgstr "Krótkotrwały grad"
+msgstr "Przelotny grad"
 
 #. SMALL_HAIL
 #: ../libmateweather/weather.c:310
 msgid "Small hail"
-msgstr "Gradzik"
+msgstr "Krupa lodowa"
 
 #: ../libmateweather/weather.c:310
 msgid "Small hailstorm"
-msgstr "Mała burza gradowa"
+msgstr "Burza krupy lodowej"
 
 #: ../libmateweather/weather.c:310
 msgid "Showers of small hail"
-msgstr "Krótkotrwały gradzik"
+msgstr "Przelotna krupa lodowa"
 
 #. PRECIPITATION
 #: ../libmateweather/weather.c:311
@@ -648,7 +649,7 @@ msgstr "Nieznane opady"
 #. MIST
 #: ../libmateweather/weather.c:312
 msgid "Mist"
-msgstr "Mgiełka"
+msgstr "Zamglenie"
 
 #. FOG
 #: ../libmateweather/weather.c:313
@@ -657,15 +658,15 @@ msgstr "Mgła"
 
 #: ../libmateweather/weather.c:313
 msgid "Fog in the vicinity"
-msgstr "Nadchodząca mgła"
+msgstr "Mgła w pobliżu"
 
 #: ../libmateweather/weather.c:313
 msgid "Shallow fog"
-msgstr "Słaba mgła"
+msgstr "Przelotna mgła"
 
 #: ../libmateweather/weather.c:313
 msgid "Patches of fog"
-msgstr "Łagodna mgła"
+msgstr "Płaty mgły"
 
 #: ../libmateweather/weather.c:313
 msgid "Partial fog"
@@ -692,39 +693,39 @@ msgstr "Piasek"
 
 #: ../libmateweather/weather.c:316
 msgid "Blowing sand"
-msgstr "Szalejący piasek"
+msgstr "Zawieja piaskowa"
 
 #: ../libmateweather/weather.c:316
 msgid "Drifting sand"
-msgstr "Burza piaskowa"
+msgstr "Zamieć piaskowa"
 
 #. HAZE
 #: ../libmateweather/weather.c:317
 msgid "Haze"
-msgstr "Zamglenie"
+msgstr "Zmętnienie"
 
 #. SPRAY
 #: ../libmateweather/weather.c:318
 msgid "Blowing sprays"
-msgstr "Szalejący pył wodny"
+msgstr "Zawieja pyłu wodnego"
 
 #. DUST
 #: ../libmateweather/weather.c:319
 msgid "Dust"
-msgstr "Tumany kurzu"
+msgstr "Pył"
 
 #: ../libmateweather/weather.c:319
 msgid "Blowing dust"
-msgstr "Szalejące tumany kurzu"
+msgstr "Zawieja pyłowa"
 
 #: ../libmateweather/weather.c:319
 msgid "Drifting dust"
-msgstr "Zbliżające się tumany kurzu"
+msgstr "Zamieć pyłowa"
 
 #. SQUALL
 #: ../libmateweather/weather.c:320
 msgid "Squall"
-msgstr "Szkwał"
+msgstr "Nawałnica"
 
 #. SANDSTORM
 #: ../libmateweather/weather.c:321
@@ -733,7 +734,7 @@ msgstr "Burza piaskowa"
 
 #: ../libmateweather/weather.c:321
 msgid "Sandstorm in the vicinity"
-msgstr "Bura piaskowa w pobliżu"
+msgstr "Burza piaskowa w pobliżu"
 
 #: ../libmateweather/weather.c:321
 msgid "Heavy sandstorm"
@@ -742,15 +743,15 @@ msgstr "Ciężka burza piaskowa"
 #. DUSTSTORM
 #: ../libmateweather/weather.c:322
 msgid "Duststorm"
-msgstr "Burza kurzowa"
+msgstr "Burza pyłowa"
 
 #: ../libmateweather/weather.c:322
 msgid "Duststorm in the vicinity"
-msgstr "Burza kurzowa w pobliżu"
+msgstr "Burza pyłowa w pobliżu"
 
 #: ../libmateweather/weather.c:322
 msgid "Heavy duststorm"
-msgstr "Ciężka burza kurzowa"
+msgstr "Ciężka burza pyłowa"
 
 #. FUNNEL_CLOUD
 #: ../libmateweather/weather.c:323
@@ -765,11 +766,11 @@ msgstr "Tornado"
 #. DUST_WHIRLS
 #: ../libmateweather/weather.c:325
 msgid "Dust whirls"
-msgstr "Tumany kurzu"
+msgstr "Wiry pyłowe"
 
 #: ../libmateweather/weather.c:325
 msgid "Dust whirls in the vicinity"
-msgstr "Tumany kurzu w pobliżu"
+msgstr "Wiry pyłowe w pobliżu"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
@@ -841,13 +842,13 @@ msgstr "%.f%%"
 #: ../libmateweather/weather.c:900
 #, c-format
 msgid "%0.1f knots"
-msgstr "%0.1f węzłów"
+msgstr "%0.1f w."
 
 #. TRANSLATOR: This is the wind speed in miles per hour
 #: ../libmateweather/weather.c:904
 #, c-format
 msgid "%.1f mph"
-msgstr "%.1f mi/h"
+msgstr "%.1f mph"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
 #: ../libmateweather/weather.c:908
@@ -866,11 +867,11 @@ msgstr "%.1f m/s"
 #: ../libmateweather/weather.c:918
 #, c-format
 msgid "Beaufort force %.1f"
-msgstr "%.1f w skali Beauforta"
+msgstr "%.1f B"
 
 #: ../libmateweather/weather.c:943
 msgid "Calm"
-msgstr "Spokojny"
+msgstr "Bezwietrznie"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
 #: ../libmateweather/weather.c:947
@@ -906,7 +907,7 @@ msgstr "%.2f hPa"
 #: ../libmateweather/weather.c:985
 #, c-format
 msgid "%.2f mb"
-msgstr "%.2f mb"
+msgstr "%.2f mbar"
 
 #. TRANSLATOR: This is pressure in atmospheres
 #: ../libmateweather/weather.c:989
@@ -918,7 +919,7 @@ msgstr "%.3f atm"
 #: ../libmateweather/weather.c:1017
 #, c-format
 msgid "%.1f miles"
-msgstr "%.1f mil"
+msgstr "%.1f mi"
 
 #. TRANSLATOR: This is the visibility in kilometers
 #: ../libmateweather/weather.c:1021
