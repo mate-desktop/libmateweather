@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Alejo_K <claudio_alejandro@gmx.com>, 2015
-# Pablo Roberto “Jristz” Lezaeta Reyes <prflr88@gmail.com>, 2012
+# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2012
 # Tatiana Gutiérrez Bunster <tgutierr@ubiobio.cl>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-27 15:08+0300\n"
-"PO-Revision-Date: 2016-06-27 11:44+0000\n"
+"PO-Revision-Date: 2017-09-19 11:40+0000\n"
 "Last-Translator: monsta <monsta@inbox.ru>\n"
 "Language-Team: Spanish (Chile) (http://www.transifex.com/mate/MATE/language/es_CL/)\n"
 "MIME-Version: 1.0\n"

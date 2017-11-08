@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme-Barrientos, 2014
+# Adolfo Jayme Barrientos, 2014
 # Benjamin Perez Carrillo <benperezc@gmail.com>, 2015
 # ebray187 <ebray187@gmail.com>, 2016
 # Francisco B.G. <inactive+franchulo@transifex.com>, 2016
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-27 15:08+0300\n"
-"PO-Revision-Date: 2016-06-27 11:44+0000\n"
+"PO-Revision-Date: 2017-09-19 11:40+0000\n"
 "Last-Translator: ebray187 <ebray187@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/mate/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
