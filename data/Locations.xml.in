@@ -18481,6 +18481,12 @@
           <tz-hint>Europe/Moscow</tz-hint>
           <coordinates>55.400000 37.900000</coordinates>
         </location>
+        <location>
+          <name>Zhukovsky Airport</name>
+          <code>UUBW</code>
+          <tz-hint>Europe/Moscow</tz-hint>
+          <coordinates>55.553333 38.151667</coordinates>
+        </location>
       </city>
       <city>
         <!-- A city in Russia.
