@@ -17617,6 +17617,16 @@
       </city>
       <city>
         <!-- A city in Poland -->
+        <_name>Radom</_name>
+        <coordinates>51.403611 21.156667</coordinates>
+        <location>
+          <name>Radom-Sadków</name>
+          <code>EPRA</code>
+          <coordinates>51.389167 21.213611</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Poland -->
         <_name>Rzeszów</_name>
         <coordinates>50.050000 22.000000</coordinates>
         <location>
