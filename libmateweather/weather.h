@@ -24,7 +24,6 @@
 #error "libmateweather should only be used if you understand that it's subject to change, and is not supported as a fixed API/ABI or as part of the platform"
 #endif
 
-#define MATEWEATHER_DEFAULT_TIMEOUT (30)
 
 #include <gdk-pixbuf/gdk-pixbuf.h>
 

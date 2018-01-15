@@ -557,7 +557,7 @@ _weather_info_fill (WeatherInfo *info,
     info->cb_data = data;
 
     if (!info->session) {
-	info->session = soup_session_new_with_options (SOUP_SESSION_TIMEOUT, MATEWEATHER_DEFAULT_TIMEOUT, NULL);
+	info->session = soup_session_new ();
 	soup_session_add_feature_by_type (info->session, SOUP_TYPE_PROXY_RESOLVER_DEFAULT);
     }
 
@@ -579,7 +579,6 @@ weather_info_abort (WeatherInfo *info)
     if (info->session) {
 	soup_session_abort (info->session);
 	info->requests_pending = 0;
-	info->session = NULL;
     }
 }
 
