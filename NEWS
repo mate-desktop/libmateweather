@@ -1,3 +1,16 @@
+### libmateweather 1.20.0
+
+    sync with transifex
+    building: bump required glib version to 2.50.0
+    building: bump required gtk+ version to 3.22
+    Revert "Fix soup_session_async_new () deprecation warning"
+    Revert "remove warning on unused bsun by actually testing value"
+    Revert "Start reducing weather spam by creating intial cut of weather_info_equal ()
+    Revert "Add timeout, actully invalidate session in weather_info_abort"
+    locations: Add Radom, Poland
+    Locations: add Zhukovsky airport (Moscow, Russia)
+    Locations: fix Sheremetyevo airport name (Moscow, Russia)
+
 ### libmateweather 1.19.1
 
   * Translations update
