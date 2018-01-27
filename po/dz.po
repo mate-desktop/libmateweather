@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-27 15:08+0300\n"
+"POT-Creation-Date: 2017-11-28 10:05+0100\n"
 "PO-Revision-Date: 2017-09-19 11:40+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
 "Language-Team: Dzongkha (http://www.transifex.com/mate/MATE/language/dz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,8 +42,8 @@ msgstr ""
 #: ../libmateweather/mateweather-prefs.c:104
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:159
-#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:253
-#: ../libmateweather/weather.c:270 ../libmateweather/weather.c:342
+#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:269 ../libmateweather/weather.c:341
 msgid "Invalid"
 msgstr "ནུས་མེད།"
 
@@ -387,91 +387,91 @@ msgstr ""
 msgid "WeatherInfo missing location"
 msgstr "གནམ་གཤིས་བརྡ་དོན་མེད་པའི་གནས་ཁོངས།"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:241
 msgid "Variable"
 msgstr "འགྱུར་བ་ཅན།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North"
 msgstr "བྱང་།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North - NorthEast"
 msgstr "བྱང་-བྱང་ཤར།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "Northeast"
 msgstr "བྱང་ཤར།"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "East - NorthEast"
 msgstr "ཤར་-བྱང་ཤར།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East"
 msgstr "ཤར།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East - Southeast"
 msgstr "ཤར་-ཤར་ལྷོ།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "Southeast"
 msgstr "ཤར་ལྷོ།"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "South - Southeast"
 msgstr "ལྷོ་-ཤར་ལྷོ།"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South"
 msgstr "ལྷོ།"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South - Southwest"
 msgstr "ལྷོ་-ལྷོ་ནུབ།"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "Southwest"
 msgstr "ལྷོ་ནུབ།"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "West - Southwest"
 msgstr "ནུབ་-ལྷོ་ནུབ།"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West"
 msgstr "ནུབ།"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West - Northwest"
 msgstr "ནུབ་-ནུབ་བྱང་།"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "Northwest"
 msgstr "ནུབ་བྱང་།"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "North - Northwest"
 msgstr "བྱང་-ནུབ་བྱང་།"
 
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:258
 msgid "Clear Sky"
 msgstr "གནམ་དྭངས།"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:259
 msgid "Broken clouds"
 msgstr "བར་ཆད་པའི་ས་སྨུག"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:260
 msgid "Scattered clouds"
 msgstr "ཁ་ཐོར་བའི་ས་སྨུག"
 
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:261
 msgid "Few clouds"
 msgstr "ས་སྨུག་ཐར་ཐོར།"
 
-#: ../libmateweather/weather.c:263
+#: ../libmateweather/weather.c:262
 msgid "Overcast"
 msgstr "སྨུག་གྲིབ་ཅན།"
 
@@ -479,290 +479,290 @@ msgstr "སྨུག་གྲིབ་ཅན།"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:302 ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:301 ../libmateweather/weather.c:303
 msgid "Thunderstorm"
 msgstr "འབྲུག་ཆར།"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Drizzle"
 msgstr "ཟིམ་ཆར།"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Light drizzle"
 msgstr "ཟིམ་ཆར་དུམ་གྲ་རེ།"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Moderate drizzle"
 msgstr "ཟིམ་ཆར་རན་པ།"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Heavy drizzle"
 msgstr "ཟིམ་ཆར་ཤུགས་ཅན།"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Freezing drizzle"
 msgstr "གྲང་ངེར་ཟིམ་ཆར།"
 
 #. RAIN
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain"
 msgstr "ཆརཔ།"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Light rain"
 msgstr "ཆརཔ་དུམ་གྲ་རེ།"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Moderate rain"
 msgstr "ཆརཔ་རན་པ།"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Heavy rain"
 msgstr "ཆརཔ་ཤུགས་ཅན།"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain showers"
 msgstr "འབྲུ་ཆར།"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Freezing rain"
 msgstr "གྲང་ཆར།"
 
 #. SNOW
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow"
 msgstr "ཁཝ།"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Light snow"
 msgstr "ཁཝ་དུམ་གྲ་རེ།"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Moderate snow"
 msgstr "ཁཝ་རན་པ།"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Heavy snow"
 msgstr "ཁཝ་ཤུགས་ཅན།"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snowstorm"
 msgstr "ཁ་ཆར།"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Blowing snowfall"
 msgstr "ཁ་རླུང་།"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow showers"
 msgstr "ཁ་ཟིམ།"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Drifting snow"
 msgstr "ཁ་ཕུང་།"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Snow grains"
 msgstr "ཁ་རིལ།"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Light snow grains"
 msgstr "ཁ་རིལ་དུམ་གྲ་རེ།"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Moderate snow grains"
 msgstr "ཁ་རིལ་རན་པ།"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Heavy snow grains"
 msgstr "ཁ་རིལ་ཤུགས་ཅན།"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:306
 msgid "Ice crystals"
 msgstr "ཁྱེགས་ཤེལ།"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellets"
 msgstr "ཁྱེགས་རིལ།"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Few ice pellets"
 msgstr "ཁྱེགས་རིལ་དག་པ་རེ།"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Moderate ice pellets"
 msgstr "ཁྱེགས་རིལ་རན་པ།"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Heavy ice pellets"
 msgstr "ཁྱེགས་རིལ་ཤུགས་ཅན།"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellet storm"
 msgstr "ཁྱེགས་རིལ་རླུང་འཚུབས།"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Showers of ice pellets"
 msgstr "ཁྱེགས་རིལ་ཟིམ་ཆར།"
 
 #. HAIL
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail"
 msgstr "སེརཝ།"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hailstorm"
 msgstr "སེར་ཆར།"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail showers"
 msgstr "སེར་ཟིམ།"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hail"
 msgstr "སེར་ཆུང་།"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hailstorm"
 msgstr "སེར་ཆར་ཆུང་ཀུ།"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Showers of small hail"
 msgstr "སེར་ཆུང་གི་ཆར་ཟིམ།"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:310
 msgid "Unknown precipitation"
 msgstr "མ་ཤེས་པའི་ཆར་ཞོད།"
 
 #. MIST
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:311
 msgid "Mist"
 msgstr "སྨུག་ཟིལ།"
 
 #. FOG
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog"
 msgstr "ན་བུན།"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog in the vicinity"
 msgstr "མཐའ་སྐོར་གྱི་ན་བུན།"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Shallow fog"
 msgstr "ན་བུན་སྲབ་མོ།"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Patches of fog"
 msgstr "ན་བུན་མཚམས་ཐོར།"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Partial fog"
 msgstr "ན་བུན་ཐར་ཐོར།"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Freezing fog"
 msgstr "གྲང་ངེར་ཅན་གྱི་ན་བུན།"
 
 #. SMOKE
-#: ../libmateweather/weather.c:314
+#: ../libmateweather/weather.c:313
 msgid "Smoke"
 msgstr "དུ་པ།"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:315
+#: ../libmateweather/weather.c:314
 msgid "Volcanic ash"
 msgstr "མེ་རིའི་སྒོ་ཐལ།"
 
 #. SAND
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Sand"
 msgstr "བྱེམ།"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Blowing sand"
 msgstr "འཕུར་བའི་བྱེམ།"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Drifting sand"
 msgstr "བྱེ་ཕུང་།"
 
 #. HAZE
-#: ../libmateweather/weather.c:317
+#: ../libmateweather/weather.c:316
 msgid "Haze"
 msgstr "དུ་སྨུག"
 
 #. SPRAY
-#: ../libmateweather/weather.c:318
+#: ../libmateweather/weather.c:317
 msgid "Blowing sprays"
 msgstr "འཕུར་བའི་ཆར་ཟིལ།"
 
 #. DUST
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Dust"
 msgstr "ཐལཝ།"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Blowing dust"
 msgstr "འཕུར་ཐལ།"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Drifting dust"
 msgstr "ཐལ་ཕུང་།"
 
 #. SQUALL
-#: ../libmateweather/weather.c:320
+#: ../libmateweather/weather.c:319
 msgid "Squall"
 msgstr "རླུང་འཚུབས།"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm"
 msgstr "བྱེ་མའི་རླུང་།"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm in the vicinity"
 msgstr "མཐའ་སྐོར་གྱི་བྱེ་མའི་རླུང་།"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Heavy sandstorm"
 msgstr "བྱེ་མའི་རླུང་དྲག་པོ།"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm"
 msgstr "ཐལ་རླུང་།"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm in the vicinity"
 msgstr "མཐའ་སྐོར་གྱི་ཐལ་རླུང་།"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Heavy duststorm"
 msgstr "ཐལ་རླུང་དྲག་པོ།"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:323
+#: ../libmateweather/weather.c:322
 msgid "Funnel cloud"
 msgstr "ས་སྨུག་དཀྱུས་རིང་།"
 
 #. TORNADO
-#: ../libmateweather/weather.c:324
+#: ../libmateweather/weather.c:323
 msgid "Tornado"
 msgstr "དྲག་རླུང་།"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls"
 msgstr "ཐལ་བའི་འཁྱིལ་རླུང་།"
 
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls in the vicinity"
 msgstr "མཐའ་སྐོར་ནང་གི་་ ཐལ་བའི་འཁྱིར་རླུང་།"
 

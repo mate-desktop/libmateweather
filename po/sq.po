@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-27 15:08+0300\n"
+"POT-Creation-Date: 2017-11-28 10:05+0100\n"
 "PO-Revision-Date: 2017-09-19 11:40+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
 "Language-Team: Albanian (http://www.transifex.com/mate/MATE/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,8 +45,8 @@ msgstr "Farenheit"
 #: ../libmateweather/mateweather-prefs.c:104
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:159
-#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:253
-#: ../libmateweather/weather.c:270 ../libmateweather/weather.c:342
+#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:269 ../libmateweather/weather.c:341
 msgid "Invalid"
 msgstr "E pavlefshme"
 
@@ -390,91 +390,91 @@ msgstr "Rikuperimi i të dhënave METAR dështoi: %d %s.\n"
 msgid "WeatherInfo missing location"
 msgstr "Mungon vendndodhja WeatherInfo"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:241
 msgid "Variable"
 msgstr "E ndryshueshme"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North"
 msgstr "Veri"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North - NorthEast"
 msgstr "Veri - Veri-Lindje"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "Northeast"
 msgstr "Veri-Lindje"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "East - NorthEast"
 msgstr "Lindje - Veri-Lindje"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East"
 msgstr "Lindje"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East - Southeast"
 msgstr "Lindje - Jug-Lindje"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "Southeast"
 msgstr "Jug-Lindje"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "South - Southeast"
 msgstr "Jug - Jug-Lindje"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South"
 msgstr "Jug"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South - Southwest"
 msgstr "Jug - Jug-Perëndim"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "Southwest"
 msgstr "Jug-Perëndim"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "West - Southwest"
 msgstr "Perëndim - Jug-Perëndim"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West"
 msgstr "Perëndim"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West - Northwest"
 msgstr "Perëndim - Veri-Perëndim"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "Northwest"
 msgstr "Veri-Perëndim"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "North - Northwest"
 msgstr "Veri - Veri-Perëndim"
 
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:258
 msgid "Clear Sky"
 msgstr "Qiell i Hapur"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:259
 msgid "Broken clouds"
 msgstr "Re të thyera"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:260
 msgid "Scattered clouds"
 msgstr "Re të shpërndara"
 
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:261
 msgid "Few clouds"
 msgstr "Pak re"
 
-#: ../libmateweather/weather.c:263
+#: ../libmateweather/weather.c:262
 msgid "Overcast"
 msgstr "Vrenjtur"
 
@@ -482,290 +482,290 @@ msgstr "Vrenjtur"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:302 ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:301 ../libmateweather/weather.c:303
 msgid "Thunderstorm"
 msgstr "Stuhi"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Drizzle"
 msgstr "Shi i imët"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Light drizzle"
 msgstr "Vesë"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Moderate drizzle"
 msgstr "Shi"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Heavy drizzle"
 msgstr "Shi i rënde"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Freezing drizzle"
 msgstr "Shi i akullt"
 
 #. RAIN
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain"
 msgstr "Shi"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Light rain"
 msgstr "Shi i lehtë"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Moderate rain"
 msgstr "Shi i moderuar"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Heavy rain"
 msgstr "Shi i madh"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain showers"
 msgstr "Shi i bollshëm"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Freezing rain"
 msgstr "Shi i akullt"
 
 #. SNOW
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow"
 msgstr "Borë"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Light snow"
 msgstr "Borë e imët"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Moderate snow"
 msgstr "Borë e moderuar"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Heavy snow"
 msgstr "Borë e madhe"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snowstorm"
 msgstr "Stuhi bore"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Blowing snowfall"
 msgstr "Borë e fuqishme"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow showers"
 msgstr "Borë e bollshme"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Drifting snow"
 msgstr "Borë e levizshme"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Snow grains"
 msgstr "Borë"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Light snow grains"
 msgstr "Borë e lehtë"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Moderate snow grains"
 msgstr "Borë e moderuar"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Heavy snow grains"
 msgstr "Borë e madhe"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:306
 msgid "Ice crystals"
 msgstr "Kristale akulli"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellets"
 msgstr "Copa akulli"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Few ice pellets"
 msgstr "Copa të pakta akulli"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Moderate ice pellets"
 msgstr "Copa të pakta akulli"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Heavy ice pellets"
 msgstr "Copa të shumta akulli"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellet storm"
 msgstr "Stuhi copash akulli"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Showers of ice pellets"
 msgstr "Shi copash akulli"
 
 #. HAIL
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail"
 msgstr "Breshër"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hailstorm"
 msgstr "Stuhi Breshëri"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail showers"
 msgstr "Breshër"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hail"
 msgstr "Breshër i imët"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hailstorm"
 msgstr "Stuhi e vogël breshëri"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Showers of small hail"
 msgstr "Breshër i vogël"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:310
 msgid "Unknown precipitation"
 msgstr "Rënie të panjohura"
 
 #. MIST
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:311
 msgid "Mist"
 msgstr "Grimca"
 
 #. FOG
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog"
 msgstr "Mjegull"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog in the vicinity"
 msgstr "Mjegull e dendur"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Shallow fog"
 msgstr "Mjegull e cekët"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Patches of fog"
 msgstr "Mjegull e shpërndarë"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Partial fog"
 msgstr "Mjegull e pjesshme"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Freezing fog"
 msgstr "Mjegull e akullt"
 
 #. SMOKE
-#: ../libmateweather/weather.c:314
+#: ../libmateweather/weather.c:313
 msgid "Smoke"
 msgstr "Tym"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:315
+#: ../libmateweather/weather.c:314
 msgid "Volcanic ash"
 msgstr "Hi vullkanik"
 
 #. SAND
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Sand"
 msgstr "Rërë"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Blowing sand"
 msgstr "Stuhi Rëre"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Drifting sand"
 msgstr "Rërë e lëvizshme"
 
 #. HAZE
-#: ../libmateweather/weather.c:317
+#: ../libmateweather/weather.c:316
 msgid "Haze"
 msgstr "Mjegull"
 
 #. SPRAY
-#: ../libmateweather/weather.c:318
+#: ../libmateweather/weather.c:317
 msgid "Blowing sprays"
 msgstr "Spërkatje shpërthyese"
 
 #. DUST
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Dust"
 msgstr "Pluhur"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Blowing dust"
 msgstr "Pluhur shpërthyes"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Drifting dust"
 msgstr "Pluhur i lëvizshëm"
 
 #. SQUALL
-#: ../libmateweather/weather.c:320
+#: ../libmateweather/weather.c:319
 msgid "Squall"
 msgstr "Erë që ulërin"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm"
 msgstr "Stuhi rëre"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm in the vicinity"
 msgstr "Stuhi rëre në afërsi"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Heavy sandstorm"
 msgstr "Stuhi rëre e fuqishme"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm"
 msgstr "Stuhi pluhuri"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm in the vicinity"
 msgstr "Stuhi pluhuri në afërsi"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Heavy duststorm"
 msgstr "Stuhi pluhuri e fuqishme"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:323
+#: ../libmateweather/weather.c:322
 msgid "Funnel cloud"
 msgstr "Re hinkë"
 
 #. TORNADO
-#: ../libmateweather/weather.c:324
+#: ../libmateweather/weather.c:323
 msgid "Tornado"
 msgstr "Tornado"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls"
 msgstr "Vorbulla pluhuri"
 
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls in the vicinity"
 msgstr "Stuhi pluhuri në afërsi"
 

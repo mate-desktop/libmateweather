@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-27 15:08+0300\n"
+"POT-Creation-Date: 2017-11-28 10:05+0100\n"
 "PO-Revision-Date: 2017-09-19 11:40+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
 "Language-Team: Oriya (http://www.transifex.com/mate/MATE/language/or/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,8 +45,8 @@ msgstr "F"
 #: ../libmateweather/mateweather-prefs.c:104
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:159
-#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:253
-#: ../libmateweather/weather.c:270 ../libmateweather/weather.c:342
+#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:269 ../libmateweather/weather.c:341
 msgid "Invalid"
 msgstr "ଅବୈଧ"
 
@@ -390,91 +390,91 @@ msgstr "METAR ତଥ୍ଯ ହାସଲ କରିବାରେ ବିଫଳ: %d %
 msgid "WeatherInfo missing location"
 msgstr "ପାଣିପାଗ ସୂଚନା ଅବସ୍ଥାନ ଅନୁପସ୍ଥିତ"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:241
 msgid "Variable"
 msgstr "ଚଳ"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North"
 msgstr "ଉତ୍ତର"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North - NorthEast"
 msgstr "ଉତ୍ତର - ଉତ୍ତର ପୂର୍ବ"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "Northeast"
 msgstr "ଉତ୍ତରପୂର୍ବ"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "East - NorthEast"
 msgstr "ପୂର୍ବ- ଉତ୍ତର ପୂର୍ବ"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East"
 msgstr "ପୂର୍ବ"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East - Southeast"
 msgstr "ପୂର୍ବ- ଦକ୍ଷିଣପୂର୍ବ"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "Southeast"
 msgstr "ଦକ୍ଷିଣ ପୂର୍ବ"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "South - Southeast"
 msgstr "ଦକ୍ଷିଣ - ଦକ୍ଷିଣପୂର୍ବ"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South"
 msgstr "ଦକ୍ଷିଣ"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South - Southwest"
 msgstr "ଦକ୍ଷିଣ - ଦକ୍ଷିଣ ପଶ୍ଚିମ"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "Southwest"
 msgstr "ଦକ୍ଷିଣ ପଶ୍ଚିମ"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "West - Southwest"
 msgstr "ପଶ୍ଚିମ - ଦକ୍ଷିଣ ପଶ୍ଚିମ"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West"
 msgstr "ପଶ୍ଚିମ"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West - Northwest"
 msgstr "ପଶ୍ଚିମ- ଉତ୍ତର ପଶ୍ଚିମ"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "Northwest"
 msgstr "ଉତ୍ତରପଶ୍ଚିମ"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "North - Northwest"
 msgstr "ଉତ୍ତର - ଉତ୍ତର ପଶ୍ଚିମ"
 
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:258
 msgid "Clear Sky"
 msgstr "ପରିଷ୍କାର ଆକାଶ"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:259
 msgid "Broken clouds"
 msgstr "ଖଣ୍ଡ ଖଣ୍ଡ ମେଘ"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:260
 msgid "Scattered clouds"
 msgstr "ଛିନ୍ନ ବିଚ୍ଛିନ୍ନ ମେଘ"
 
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:261
 msgid "Few clouds"
 msgstr "କେତେକ ମେଘ"
 
-#: ../libmateweather/weather.c:263
+#: ../libmateweather/weather.c:262
 msgid "Overcast"
 msgstr "ମେଘ ଢାଙ୍କିରହିବା"
 
@@ -482,290 +482,290 @@ msgstr "ମେଘ ଢାଙ୍କିରହିବା"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:302 ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:301 ../libmateweather/weather.c:303
 msgid "Thunderstorm"
 msgstr "ବିଜୁଳି ଘଡଘଡି ସହିତ ବର୍ଷା"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Drizzle"
 msgstr "ଝିପିଝିପି ବର୍ଷା"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Light drizzle"
 msgstr "କୁଣ୍ଡାଝାଡିଲାପରି ବର୍ଷା"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Moderate drizzle"
 msgstr "ମଧ୍ଯମ ଅନୁପାତରେ ବର୍ଷା"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Heavy drizzle"
 msgstr "ଜୋରରେ ବର୍ଷା"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Freezing drizzle"
 msgstr "ଝିପିଝିପି ଶୀତଳ ବ୍ରୁଷ୍ଟି"
 
 #. RAIN
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain"
 msgstr "ବ୍ରୁଷ୍ଟିପାତ"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Light rain"
 msgstr "କମ ବର୍ଷା"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Moderate rain"
 msgstr "ମଧ୍ଯମ ଧରଣର ବର୍ଷା"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Heavy rain"
 msgstr "ଜୋରରେ ବର୍ଷା"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain showers"
 msgstr "ବ୍ରୁଷ୍ଟିପାତ"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Freezing rain"
 msgstr "ଶୀତଳ ବ୍ରୁଷ୍ଟି"
 
 #. SNOW
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow"
 msgstr "ବରଫ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Light snow"
 msgstr "କମ ତୁଷାରପାତ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Moderate snow"
 msgstr "ମଧ୍ଯମ ଅନୁପାତରେ ତୁଷାରପାତ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Heavy snow"
 msgstr "ଅତ୍ଯଧିକ ତୁଷାରପାତ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snowstorm"
 msgstr "ତୁଷାରଝଡ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Blowing snowfall"
 msgstr "ପବନସହିତ ତୁଷାରପାତ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow showers"
 msgstr "ତୁଷାରପାତ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Drifting snow"
 msgstr "ବାଯୁବେଗରେ ପୂଞ୍ଜୀଭୂତ ତୁଷାରପାତ"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Snow grains"
 msgstr "ତୁଷାର କଣିକା ପାତ"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Light snow grains"
 msgstr "କମ ଅନୁପାତରେ ତୁଷାରକଣିକା ପାତ"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Moderate snow grains"
 msgstr "ମଧ୍ଯମ ଅନୁପାତରେ ତୁଷାରକଣିକା ପାତ"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Heavy snow grains"
 msgstr "ଅତ୍ଯଧିକ ତୁଷାରକଣିକା ପାତ"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:306
 msgid "Ice crystals"
 msgstr "ବରଫ ସ୍ଫଟିକଗୁଡିକ"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellets"
 msgstr "ବରଫ ଖଣ୍ଡ"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Few ice pellets"
 msgstr "କେତେକ ବରଫ ଖଣ୍ଡ"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Moderate ice pellets"
 msgstr "ମଧ୍ଯମ ଅନୁପାତରେ ବରଫ ଖଣ୍ଡଗୁଡିକ"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Heavy ice pellets"
 msgstr "ଅତ୍ଯଧିକ ବରଫ ଖଣ୍ଡଗୁଡିକ"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellet storm"
 msgstr "ବରଫ ଖଣ୍ଡର ଝଡବାତ୍ଯା"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Showers of ice pellets"
 msgstr "ବରଫ ଖଣ୍ଡର ବର୍ଷା"
 
 #. HAIL
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail"
 msgstr "ହେଲ"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hailstorm"
 msgstr "କୁଆପଥର ସହିତ ଝଡବର୍ଷା"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail showers"
 msgstr "କୁଆପଥର ବର୍ଷା"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hail"
 msgstr "ଛୋଟ କୁଆପଥର"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hailstorm"
 msgstr "କମ ଅନୁପାତରେ କୁଆପଥର ସହିତ ଝଡବର୍ଷା"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Showers of small hail"
 msgstr "ଛୋଟ କୁଆପଥର ବର୍ଷା"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:310
 msgid "Unknown precipitation"
 msgstr "ଅଜଣା ତୁଷାରପାତ"
 
 #. MIST
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:311
 msgid "Mist"
 msgstr "କୁହୁଡ଼ି"
 
 #. FOG
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog"
 msgstr "ଘନ କୁହୁଡି"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog in the vicinity"
 msgstr "ଆଖପାଖ ଅଞ୍ଚଳରେ କୁହୁଡି"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Shallow fog"
 msgstr "ଅଳ୍ପ ଘନ କୁହୁଡି"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Patches of fog"
 msgstr "ସ୍ଥାନ ସ୍ଥାନରେ କୁହୁଡି "
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Partial fog"
 msgstr "ଆଂଶିକ କୁହୁଡି"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Freezing fog"
 msgstr "ବରଫ ଜମିଗଲା ପରି କୁହୁଡି"
 
 #. SMOKE
-#: ../libmateweather/weather.c:314
+#: ../libmateweather/weather.c:313
 msgid "Smoke"
 msgstr "ଧୁଆଁ"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:315
+#: ../libmateweather/weather.c:314
 msgid "Volcanic ash"
 msgstr "ଆଗ୍ନେଯଗିରିର ପାଉଁଶ"
 
 #. SAND
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Sand"
 msgstr "ବାଲି"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Blowing sand"
 msgstr "ବାଲି ଝଡ"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Drifting sand"
 msgstr "ବାୟୁବେଗରେ ପୂଞ୍ଜୀଭୂତ ବାଲି ଝଡ"
 
 #. HAZE
-#: ../libmateweather/weather.c:317
+#: ../libmateweather/weather.c:316
 msgid "Haze"
 msgstr "ଅସ୍ପଷ୍ଟତା"
 
 #. SPRAY
-#: ../libmateweather/weather.c:318
+#: ../libmateweather/weather.c:317
 msgid "Blowing sprays"
 msgstr "ବାୟୁବେଗରେ ବିନ୍ଦୁ ବିନ୍ଦୁ ବର୍ଷା"
 
 #. DUST
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Dust"
 msgstr "ଧୂଳି"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Blowing dust"
 msgstr "ବାଲି ଝଡ"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Drifting dust"
 msgstr "ବାୟୁବେଗରେ ପୂଞ୍ଜୀଭୂତ ବାଲି ଝଡ"
 
 #. SQUALL
-#: ../libmateweather/weather.c:320
+#: ../libmateweather/weather.c:319
 msgid "Squall"
 msgstr "ଝଞ୍ଜା ତୋଫାନ"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm"
 msgstr "ବାଲିର ଝଡବାତ୍ଯା"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm in the vicinity"
 msgstr "ଆଖପାଖ ଅଞ୍ଚଳରେ ବାଲିଝଡ"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Heavy sandstorm"
 msgstr "ଅତ୍ଯଧିକ ବାଲିର ଝଡବାତ୍ଯା"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm"
 msgstr "ବାଲିଝଡ"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm in the vicinity"
 msgstr "ଆଖପାଖ ଅଞ୍ଚଳରେ ଧୂଳିଝଡ"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Heavy duststorm"
 msgstr "ଅତ୍ଯଧିକ ବାଲିଝଡ"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:323
+#: ../libmateweather/weather.c:322
 msgid "Funnel cloud"
 msgstr "ଧୂମମାର୍ଗ ମେଘ"
 
 #. TORNADO
-#: ../libmateweather/weather.c:324
+#: ../libmateweather/weather.c:323
 msgid "Tornado"
 msgstr "ଟରନେଡୋ ତୋଫାନ"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls"
 msgstr "ବାଲିର ଘୁର୍ଣ୍ଣୀବାତ୍ଯା"
 
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls in the vicinity"
 msgstr "ଆଖପାଖ ଅଞ୍ଚଳରେ ଖଣ୍ଡିଆଭୂତ"
 

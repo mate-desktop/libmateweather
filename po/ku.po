@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-27 15:08+0300\n"
+"POT-Creation-Date: 2017-11-28 10:05+0100\n"
 "PO-Revision-Date: 2017-09-19 11:40+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
 "Language-Team: Kurdish (http://www.transifex.com/mate/MATE/language/ku/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,8 +43,8 @@ msgstr "F"
 #: ../libmateweather/mateweather-prefs.c:104
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:159
-#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:253
-#: ../libmateweather/weather.c:270 ../libmateweather/weather.c:342
+#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:269 ../libmateweather/weather.c:341
 msgid "Invalid"
 msgstr "Nederbasdar"
 
@@ -388,91 +388,91 @@ msgstr ""
 msgid "WeatherInfo missing location"
 msgstr "WeatherInfo agahiyên bicihbûnê nahewîne"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:241
 msgid "Variable"
 msgstr "Guherbar"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North"
 msgstr "Bakur"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North - NorthEast"
 msgstr "Bakur - bakurê rojhilat"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "Northeast"
 msgstr "Bakurê rojhilat"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "East - NorthEast"
 msgstr "Rojhilat - bakurê rojhilat"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East"
 msgstr "Rojhilat"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East - Southeast"
 msgstr "Rojhilat - başûrê rojhilat"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "Southeast"
 msgstr "Başûrê rojhilat"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "South - Southeast"
 msgstr "Başûr - başûrê rojhilat"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South"
 msgstr "Başûr"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South - Southwest"
 msgstr "Başûr - başûrê rojava"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "Southwest"
 msgstr "Başûrê rojava"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "West - Southwest"
 msgstr "Rojava - başûrê rojava"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West"
 msgstr "Rojava"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West - Northwest"
 msgstr "Rojava - bakurê rojava"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "Northwest"
 msgstr "Bakurê rojava"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "North - Northwest"
 msgstr "Bakur - bakurê Rojava"
 
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:258
 msgid "Clear Sky"
 msgstr "Ezmanê Sayî"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:259
 msgid "Broken clouds"
 msgstr "Hin cih bi ewr e"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:260
 msgid "Scattered clouds"
 msgstr "Ewrên belawela"
 
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:261
 msgid "Few clouds"
 msgstr "Zêde ewr tuneye"
 
-#: ../libmateweather/weather.c:263
+#: ../libmateweather/weather.c:262
 msgid "Overcast"
 msgstr "Zêde ewr heye"
 
@@ -480,290 +480,290 @@ msgstr "Zêde ewr heye"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:302 ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:301 ../libmateweather/weather.c:303
 msgid "Thunderstorm"
 msgstr "Bahoz"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Drizzle"
 msgstr "Xunav"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Light drizzle"
 msgstr "Barana hêdî"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Moderate drizzle"
 msgstr "Xunava hêdî"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Heavy drizzle"
 msgstr "Xunava zêde"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Freezing drizzle"
 msgstr "Xunava qerisîner"
 
 #. RAIN
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain"
 msgstr "Baran"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Light rain"
 msgstr "Barana sivik"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Moderate rain"
 msgstr "Barana normal"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Heavy rain"
 msgstr "Barana giran"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain showers"
 msgstr "Barana hindik û tîr"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Freezing rain"
 msgstr "Barana qerisîner"
 
 #. SNOW
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow"
 msgstr "Berf"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Light snow"
 msgstr "Berf hindik dibare"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Moderate snow"
 msgstr "Berfa hêdî"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Heavy snow"
 msgstr "Berf zêde dibare"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snowstorm"
 msgstr "Boran"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Blowing snowfall"
 msgstr "Borana bi ba"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow showers"
 msgstr "Berfa hindik û girtî"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Drifting snow"
 msgstr "Berfa şemetokî"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Snow grains"
 msgstr "Çelepe"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Light snow grains"
 msgstr "Kuliyên berfê yên biçûk heye"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Moderate snow grains"
 msgstr "Xilorîkên hêdî yên berfê hene"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Heavy snow grains"
 msgstr "Kuliyên berfê yên mezin heye"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:306
 msgid "Ice crystals"
 msgstr "Krîstalên cemedê"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellets"
 msgstr "Hebikên cemedê"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Few ice pellets"
 msgstr "Hebikên cemedê yên biçûk"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Moderate ice pellets"
 msgstr "Hebikên cemedê yên hêdî"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Heavy ice pellets"
 msgstr "Hebikên cemedê yên giran"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellet storm"
 msgstr "Firtoneya hebikên cemedê"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Showers of ice pellets"
 msgstr "Barana hebikên cemedê"
 
 #. HAIL
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail"
 msgstr "Zîpik"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hailstorm"
 msgstr "Teyrok"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail showers"
 msgstr "Baran bi zîpik"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hail"
 msgstr "Hebikên zîpikê yên biçûk"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hailstorm"
 msgstr "Firtoneya zîpikê ya hebikhûr"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Showers of small hail"
 msgstr "Barana hebikên zîpikê yên biçûk"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:310
 msgid "Unknown precipitation"
 msgstr "Barana nenas"
 
 #. MIST
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:311
 msgid "Mist"
 msgstr "Mij"
 
 #. FOG
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog"
 msgstr "Mij"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog in the vicinity"
 msgstr "Li derdorê mij heye"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Shallow fog"
 msgstr "Mija Nizm"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Patches of fog"
 msgstr "Şopa mijê heye"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Partial fog"
 msgstr "Li hin cihan mij heye"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Freezing fog"
 msgstr "Mija qerisîner"
 
 #. SMOKE
-#: ../libmateweather/weather.c:314
+#: ../libmateweather/weather.c:313
 msgid "Smoke"
 msgstr "Dixan"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:315
+#: ../libmateweather/weather.c:314
 msgid "Volcanic ash"
 msgstr "Xweliya agirpijan"
 
 #. SAND
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Sand"
 msgstr "Qûm"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Blowing sand"
 msgstr "Qûma bi ba"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Drifting sand"
 msgstr "Qûma şemetokî"
 
 #. HAZE
-#: ../libmateweather/weather.c:317
+#: ../libmateweather/weather.c:316
 msgid "Haze"
 msgstr "Moran"
 
 #. SPRAY
-#: ../libmateweather/weather.c:318
+#: ../libmateweather/weather.c:317
 msgid "Blowing sprays"
 msgstr "Barana bi bahoz"
 
 #. DUST
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Dust"
 msgstr "Toz"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Blowing dust"
 msgstr "Toza bi ba"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Drifting dust"
 msgstr "Toza şemetokî"
 
 #. SQUALL
-#: ../libmateweather/weather.c:320
+#: ../libmateweather/weather.c:319
 msgid "Squall"
 msgstr "Bahoz"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm"
 msgstr "Firtoneya Qûmê"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm in the vicinity"
 msgstr "Li derdorê firtoneya qûmê heye"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Heavy sandstorm"
 msgstr "Firtoneya qûmê ya giran"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm"
 msgstr "Firtoneya tozê"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm in the vicinity"
 msgstr "Li derdorê firtoneya tozê heye"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Heavy duststorm"
 msgstr "Firtoneya tozê ya giran"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:323
+#: ../libmateweather/weather.c:322
 msgid "Funnel cloud"
 msgstr "Ecacoka ewran"
 
 #. TORNADO
-#: ../libmateweather/weather.c:324
+#: ../libmateweather/weather.c:323
 msgid "Tornado"
 msgstr "Bager"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls"
 msgstr "Bahoza tozê"
 
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls in the vicinity"
 msgstr "Li derdorê bahoza tozê heye"
 

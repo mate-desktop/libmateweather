@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-27 15:08+0300\n"
+"POT-Creation-Date: 2017-11-28 10:05+0100\n"
 "PO-Revision-Date: 2017-09-23 18:09+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
 "Language-Team: Arabic (http://www.transifex.com/mate/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,8 +51,8 @@ msgstr "فهرنهايت"
 #: ../libmateweather/mateweather-prefs.c:104
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:159
-#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:253
-#: ../libmateweather/weather.c:270 ../libmateweather/weather.c:342
+#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:252
+#: ../libmateweather/weather.c:269 ../libmateweather/weather.c:341
 msgid "Invalid"
 msgstr "غير صحيح"
 
@@ -396,91 +396,91 @@ msgstr "فشل الحصول على بيانات ‏METAR: ‏%Id ‏%s\n"
 msgid "WeatherInfo missing location"
 msgstr "معلومات الطقس تفتقد الموقع"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:241
 msgid "Variable"
 msgstr "متغير"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North"
 msgstr "شمال"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "North - NorthEast"
 msgstr "شمال - شمال شرقي"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "Northeast"
 msgstr "شمال شرقي"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:242
 msgid "East - NorthEast"
 msgstr "شرق - شمال شرقي"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East"
 msgstr "شرق"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "East - Southeast"
 msgstr "شرق - جنوب شرقي"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "Southeast"
 msgstr "جنوب شرقي"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:243
 msgid "South - Southeast"
 msgstr "جنوب - جنوب شرقي"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South"
 msgstr "جنوب"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "South - Southwest"
 msgstr "جنوب - جنوب غربي"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "Southwest"
 msgstr "جنوب غربي"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:244
 msgid "West - Southwest"
 msgstr "غرب - جنوب غربي"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West"
 msgstr "غرب"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "West - Northwest"
 msgstr "غرب - شمال غربي"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "Northwest"
 msgstr "شمال غربي"
 
-#: ../libmateweather/weather.c:246
+#: ../libmateweather/weather.c:245
 msgid "North - Northwest"
 msgstr "شمال - شمال غربي"
 
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:258
 msgid "Clear Sky"
 msgstr "سماء صافية"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:259
 msgid "Broken clouds"
 msgstr "غيوم مفككة"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:260
 msgid "Scattered clouds"
 msgstr "غيوم متفرقة"
 
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:261
 msgid "Few clouds"
 msgstr "غيوم قليلة"
 
-#: ../libmateweather/weather.c:263
+#: ../libmateweather/weather.c:262
 msgid "Overcast"
 msgstr "مكفهر"
 
@@ -488,290 +488,290 @@ msgstr "مكفهر"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:302 ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:301 ../libmateweather/weather.c:303
 msgid "Thunderstorm"
 msgstr "عاصفة رعدية"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Drizzle"
 msgstr "رذاذ"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Light drizzle"
 msgstr "رذاذ خفيف"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Moderate drizzle"
 msgstr "رذاذ متوسط"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Heavy drizzle"
 msgstr "رذاذ ثقيل"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:302
 msgid "Freezing drizzle"
 msgstr "رذاذ مجمِّد"
 
 #. RAIN
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain"
 msgstr "مطر"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Light rain"
 msgstr "مطر خفيف"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Moderate rain"
 msgstr "مطر متوسط"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Heavy rain"
 msgstr "مطر كثيف"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Rain showers"
 msgstr "وابل من المطر"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:303
 msgid "Freezing rain"
 msgstr "مطر مجمِّد"
 
 #. SNOW
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow"
 msgstr "ثلوج"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Light snow"
 msgstr "ثلوج خفيفة"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Moderate snow"
 msgstr "ثلوج متوسطة"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Heavy snow"
 msgstr "ثلوج كثيفة"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snowstorm"
 msgstr "عاصفة ثلجية"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Blowing snowfall"
 msgstr "عاصفة ثلجية"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Snow showers"
 msgstr "وابل ثلجي"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:304
 msgid "Drifting snow"
 msgstr "ثلج جارف"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Snow grains"
 msgstr "حبات ثلجية"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Light snow grains"
 msgstr "حبات ثلجية خفيفة"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Moderate snow grains"
 msgstr "حبات ثلجية متوسطة"
 
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:305
 msgid "Heavy snow grains"
 msgstr "حبات ثلجية كثيفة"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:306
 msgid "Ice crystals"
 msgstr "بلورات ثلجية"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellets"
 msgstr "كرات ثلجية"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Few ice pellets"
 msgstr "كرات ثلجية قليلة"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Moderate ice pellets"
 msgstr "كرات ثلجية متوسطة"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Heavy ice pellets"
 msgstr "كرات ثلجية كثيفة"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Ice pellet storm"
 msgstr "عاصفة من الكرات الثلجية"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:307
 msgid "Showers of ice pellets"
 msgstr "وابل من الكرات الثلجية"
 
 #. HAIL
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail"
 msgstr "برَد"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hailstorm"
 msgstr "عاصفة برَد"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:308
 msgid "Hail showers"
 msgstr "وابل من البرَد"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hail"
 msgstr "برَد صغير"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Small hailstorm"
 msgstr "عاصفة من البرَد الصغير"
 
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:309
 msgid "Showers of small hail"
 msgstr "وابل من البرَد الصغير"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:310
 msgid "Unknown precipitation"
 msgstr "هطول مجهول"
 
 #. MIST
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:311
 msgid "Mist"
 msgstr "غشاء"
 
 #. FOG
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog"
 msgstr "ضباب"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Fog in the vicinity"
 msgstr "ضباب بالجوار"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Shallow fog"
 msgstr "ضباب خفيف جدا"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Patches of fog"
 msgstr "رقع من الضباب"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Partial fog"
 msgstr "ضباب جزئي"
 
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:312
 msgid "Freezing fog"
 msgstr "ضباب مجمِّد"
 
 #. SMOKE
-#: ../libmateweather/weather.c:314
+#: ../libmateweather/weather.c:313
 msgid "Smoke"
 msgstr "دخان"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:315
+#: ../libmateweather/weather.c:314
 msgid "Volcanic ash"
 msgstr "رماد بركاني"
 
 #. SAND
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Sand"
 msgstr "رمل"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Blowing sand"
 msgstr "رمل عاصف"
 
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:315
 msgid "Drifting sand"
 msgstr "رمل جارف"
 
 #. HAZE
-#: ../libmateweather/weather.c:317
+#: ../libmateweather/weather.c:316
 msgid "Haze"
 msgstr "سديم"
 
 #. SPRAY
-#: ../libmateweather/weather.c:318
+#: ../libmateweather/weather.c:317
 msgid "Blowing sprays"
 msgstr "رذاذ عاصف"
 
 #. DUST
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Dust"
 msgstr "غبار"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Blowing dust"
 msgstr "غبار عاصف"
 
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:318
 msgid "Drifting dust"
 msgstr "غبار جارف"
 
 #. SQUALL
-#: ../libmateweather/weather.c:320
+#: ../libmateweather/weather.c:319
 msgid "Squall"
 msgstr "عاصفة مفاجئة"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm"
 msgstr "عاصفة رملية"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Sandstorm in the vicinity"
 msgstr "عاصفة رملية بالجوار"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:320
 msgid "Heavy sandstorm"
 msgstr "عاصفة رملية كثيفة"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm"
 msgstr "عاصفة غبار"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Duststorm in the vicinity"
 msgstr "عاصفة غبار بالجوار"
 
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:321
 msgid "Heavy duststorm"
 msgstr "عاصفة غبار كثيفة"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:323
+#: ../libmateweather/weather.c:322
 msgid "Funnel cloud"
 msgstr "سحابة أنبوبية"
 
 #. TORNADO
-#: ../libmateweather/weather.c:324
+#: ../libmateweather/weather.c:323
 msgid "Tornado"
 msgstr "إعصار"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls"
 msgstr "دوامات غبار"
 
-#: ../libmateweather/weather.c:325
+#: ../libmateweather/weather.c:324
 msgid "Dust whirls in the vicinity"
 msgstr "دوامات غبار بالجوار"
 
