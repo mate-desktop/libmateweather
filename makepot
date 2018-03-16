@@ -1,0 +1,5 @@
+#! /bin/sh
+
+PACKAGE=libmateweather;
+
+make -C po $PACKAGE.pot && mv po/$PACKAGE.pot .
