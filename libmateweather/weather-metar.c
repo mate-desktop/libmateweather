@@ -490,7 +490,7 @@ metar_finish (SoupSession *session, SoupMessage *msg, gpointer data)
 {
     WeatherInfo *info = (WeatherInfo *)data;
     WeatherLocation *loc;
-    const gchar *p, *eoln;
+    const gchar *p, *endtag;
     gchar *searchkey, *metar;
     gboolean success = FALSE;
 
@@ -514,10 +514,10 @@ metar_finish (SoupSession *session, SoupMessage *msg, gpointer data)
     p = strstr (msg->response_body->data, searchkey);
     g_free (searchkey);
     if (p) {
-        p += WEATHER_LOCATION_CODE_LEN + 2;
-        eoln = strchr(p, '\n');
-        if (eoln)
-            metar = g_strndup (p, eoln - p);
+        p += WEATHER_LOCATION_CODE_LEN + 11;
+        endtag = strstr (p, "</raw_text>");
+        if (endtag)
+            metar = g_strndup (p, endtag - p);
         else
             metar = g_strdup (p);
         success = metar_parse (metar, info);
