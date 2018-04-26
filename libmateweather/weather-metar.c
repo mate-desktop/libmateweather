@@ -56,7 +56,7 @@ make_time (gint utcDate, gint utcHour, gint utcMin)
      * 24 hrs old! */
     if ((utcDate > tm.tm_mday) && (tm.tm_mday == 1)) {
         tm.tm_mday = 0; /* mktime knows this is the last day of the previous
-			 * month. */
+                         * month. */
     } else {
         tm.tm_mday = utcDate;
     }
@@ -102,15 +102,15 @@ metar_tok_wind (gchar *tokp, WeatherInfo *info)
     gustp = strchr (tokp, 'G');
     if (gustp) {
         memset (sgust, 0, sizeof (sgust));
-	glen = strspn (gustp + 1, CONST_DIGITS);
+        glen = strspn (gustp + 1, CONST_DIGITS);
         strncpy (sgust, gustp + 1, glen);
-	tokp = gustp + 1 + glen;
+        tokp = gustp + 1 + glen;
     }
 
     if (!strcmp (tokp, "MPS"))
-	info->windspeed = WINDSPEED_MS_TO_KNOTS ((WeatherWindSpeed)spd);
+        info->windspeed = WINDSPEED_MS_TO_KNOTS ((WeatherWindSpeed)spd);
     else
-	info->windspeed = (WeatherWindSpeed)spd;
+        info->windspeed = (WeatherWindSpeed)spd;
 
     if ((349 <= dir) || (dir <= 11))
         info->wind = WIND_N;
@@ -163,33 +163,33 @@ metar_tok_vis (gchar *tokp, WeatherInfo *info)
         // US observation: field ends with "SM"
         pfrac = strchr (tokp, '/');
         if (pfrac) {
-	    if (*tokp == 'M') {
-	        info->visibility = 0.001;
-	    } else {
-	        num = (*(pfrac - 1) - '0');
-		strncpy (sval, pfrac + 1, pend - pfrac - 1);
-		den = atoi (sval);
-		info->visibility =
-		    ((WeatherVisibility)num / ((WeatherVisibility)den));
+            if (*tokp == 'M') {
+                info->visibility = 0.001;
+            } else {
+                num = (*(pfrac - 1) - '0');
+                strncpy (sval, pfrac + 1, pend - pfrac - 1);
+                den = atoi (sval);
+                info->visibility =
+                    ((WeatherVisibility)num / ((WeatherVisibility)den));
 
-		psp = strchr (tokp, ' ');
-		if (psp) {
-		    *psp = '\0';
-		    val = atoi (tokp);
-		    info->visibility += (WeatherVisibility)val;
-		}
-	    }
-	} else {
-	    strncpy (sval, tokp, pend - tokp);
+                psp = strchr (tokp, ' ');
+                if (psp) {
+                    *psp = '\0';
+                    val = atoi (tokp);
+                    info->visibility += (WeatherVisibility)val;
+                }
+            }
+        } else {
+            strncpy (sval, tokp, pend - tokp);
             val = atoi (sval);
             info->visibility = (WeatherVisibility)val;
-	}
+        }
     } else {
         // International observation: NNNN(DD NNNNDD)?
         // For now: use only the minimum visibility and ignore its direction
         strncpy (sval, tokp, strspn (tokp, CONST_DIGITS));
-	val = atoi (sval);
-	info->visibility = (WeatherVisibility)val / VISIBILITY_SM_TO_M (1.);
+        val = atoi (sval);
+        info->visibility = (WeatherVisibility)val / VISIBILITY_SM_TO_M (1.);
     }
 }
 
@@ -261,12 +261,12 @@ metar_tok_temp (gchar *tokp, WeatherInfo *info)
     pdew = psep + 1;
 
     info->temp = (*ptemp == 'M') ? TEMP_C_TO_F (-atoi (ptemp + 1))
-	: TEMP_C_TO_F (atoi (ptemp));
+        : TEMP_C_TO_F (atoi (ptemp));
     if (*pdew) {
-	info->dew = (*pdew == 'M') ? TEMP_C_TO_F (-atoi (pdew + 1))
-	    : TEMP_C_TO_F (atoi (pdew));
+        info->dew = (*pdew == 'M') ? TEMP_C_TO_F (-atoi (pdew + 1))
+            : TEMP_C_TO_F (atoi (pdew));
     } else {
-	info->dew = -1000.0;
+        info->dew = -1000.0;
     }
 }
 
@@ -447,7 +447,7 @@ metar_parse (gchar *metar, WeatherInfo *info)
      */
     if (0 != (p = strstr (metar, " RMK "))) {
         *p = '\0';
-	//rmk = p + 5;   // uncomment this if RMK data becomes useful
+        //rmk = p + 5;   // uncomment this if RMK data becomes useful
     }
 
     p = metar;
@@ -455,32 +455,32 @@ metar_parse (gchar *metar, WeatherInfo *info)
     while (*p) {
 
         i2 = RE_NUM;
-	rm2.rm_so = strlen (p);
-	rm2.rm_eo = rm2.rm_so;
+        rm2.rm_so = strlen (p);
+        rm2.rm_eo = rm2.rm_so;
 
         for (i = 0; i < RE_NUM && rm2.rm_so > 0; i++) {
-	    if (0 == regexec (&metar_re[i], p, 1, &rm, 0)
-		&& rm.rm_so < rm2.rm_so)
-	    {
-	        i2 = i;
-		/* Skip leading and trailing space characters, if present.
-		   (the regular expressions include those characters to
-		   only get matches limited to whole words). */
-		if (p[rm.rm_so] == ' ') rm.rm_so++;
-		if (p[rm.rm_eo - 1] == ' ') rm.rm_eo--;
-	        rm2.rm_so = rm.rm_so;
-		rm2.rm_eo = rm.rm_eo;
-	    }
-	}
+            if (0 == regexec (&metar_re[i], p, 1, &rm, 0)
+                && rm.rm_so < rm2.rm_so)
+            {
+                i2 = i;
+                /* Skip leading and trailing space characters, if present.
+                   (the regular expressions include those characters to
+                   only get matches limited to whole words). */
+                if (p[rm.rm_so] == ' ') rm.rm_so++;
+                if (p[rm.rm_eo - 1] == ' ') rm.rm_eo--;
+                rm2.rm_so = rm.rm_so;
+                rm2.rm_eo = rm.rm_eo;
+            }
+        }
 
-	if (i2 != RE_NUM) {
-	    tokp = g_strndup (p + rm2.rm_so, rm2.rm_eo - rm2.rm_so);
-	    metar_f[i2] (tokp, info);
-	    g_free (tokp);
-	}
+        if (i2 != RE_NUM) {
+            tokp = g_strndup (p + rm2.rm_so, rm2.rm_eo - rm2.rm_so);
+            metar_f[i2] (tokp, info);
+            g_free (tokp);
+        }
 
-	p += rm2.rm_eo;
-	p += strspn (p, " ");
+        p += rm2.rm_eo;
+        p += strspn (p, " ");
     }
     return TRUE;
 }
@@ -497,15 +497,15 @@ metar_finish (SoupSession *session, SoupMessage *msg, gpointer data)
     g_return_if_fail (info != NULL);
    
     if (!SOUP_STATUS_IS_SUCCESSFUL (msg->status_code)) {
-	if (SOUP_STATUS_IS_TRANSPORT_ERROR (msg->status_code))
-	    info->network_error = TRUE;
-	else {
-	    /* Translators: %d is an error code, and %s the error string */
-	    g_warning (_("Failed to get METAR data: %d %s.\n"),
-		       msg->status_code, msg->reason_phrase);
-	}
-	request_done (info, FALSE);
-	return;
+        if (SOUP_STATUS_IS_TRANSPORT_ERROR (msg->status_code))
+            info->network_error = TRUE;
+        else {
+            /* Translators: %d is an error code, and %s the error string */
+            g_warning (_("Failed to get METAR data: %d %s.\n"),
+                       msg->status_code, msg->reason_phrase);
+        }
+        request_done (info, FALSE);
+        return;
     }
 
     loc = info->location;
@@ -514,20 +514,20 @@ metar_finish (SoupSession *session, SoupMessage *msg, gpointer data)
     p = strstr (msg->response_body->data, searchkey);
     g_free (searchkey);
     if (p) {
-	p += WEATHER_LOCATION_CODE_LEN + 2;
-	eoln = strchr(p, '\n');
-	if (eoln)
-	    metar = g_strndup (p, eoln - p);
-	else
-	    metar = g_strdup (p);
-	success = metar_parse (metar, info);
-	g_free (metar);
+        p += WEATHER_LOCATION_CODE_LEN + 2;
+        eoln = strchr(p, '\n');
+        if (eoln)
+            metar = g_strndup (p, eoln - p);
+        else
+            metar = g_strdup (p);
+        success = metar_parse (metar, info);
+        g_free (metar);
     } else if (!strstr (msg->response_body->data, "aviationweather.gov")) {
-	/* The response doesn't even seem to have come from NOAA...
-	 * most likely it is a wifi hotspot login page. Call that a
-	 * network error.
-	 */
-	info->network_error = TRUE;
+        /* The response doesn't even seem to have come from NOAA...
+         * most likely it is a wifi hotspot login page. Call that a
+         * network error.
+         */
+        info->network_error = TRUE;
     }
 
     info->valid = success;
@@ -545,20 +545,20 @@ metar_start_open (WeatherInfo *info)
     info->valid = info->network_error = FALSE;
     loc = info->location;
     if (loc == NULL) {
-	g_warning (_("WeatherInfo missing location"));
-	return;
+        g_warning (_("WeatherInfo missing location"));
+        return;
     }
 
     msg = soup_form_request_new (
-	"GET", "https://www.aviationweather.gov/adds/dataserver_current/httpparam",
-	"dataSource", "metars",
-	"requestType", "retrieve",
-	"format", "xml",
-	"hoursBeforeNow", "3",
-	"mostRecent", "true",
-	"fields", "raw_text",
-	"stationString", loc->code,
-	NULL);
+        "GET", "https://www.aviationweather.gov/adds/dataserver_current/httpparam",
+        "dataSource", "metars",
+        "requestType", "retrieve",
+        "format", "xml",
+        "hoursBeforeNow", "3",
+        "mostRecent", "true",
+        "fields", "raw_text",
+        "stationString", loc->code,
+        NULL);
     soup_session_queue_message (info->session, msg, metar_finish, info);
 
     info->requests_pending++;
