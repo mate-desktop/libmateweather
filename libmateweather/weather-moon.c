@@ -39,7 +39,7 @@
 #include "weather-priv.h"
 
 /*
- * Elements of the Moon's matecorba, epoch 2000 Jan 1.5
+ * Elements of the Moon's orbit, epoch 2000 Jan 1.5
  * http://ssd.jpl.nasa.gov/?sat_elem#earth
  * The page only lists most values to 2 decimal places
  */
