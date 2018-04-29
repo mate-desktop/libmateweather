@@ -18,7 +18,7 @@ main (int argc, char **argv)
     gchar*          gtime = NULL;
     GDate           gdate;
     struct tm       tm;
-    gboolean        bsun, bmoon;
+    gboolean        bmoon;
     time_t          phases[4];
     const GOptionEntry entries[] = {
 	{ "latitude", 0, 0, G_OPTION_ARG_DOUBLE, &latitude,
@@ -64,7 +64,7 @@ main (int argc, char **argv)
 	info.update = time(NULL);
     }
 
-    bsun = calc_sun_time(&info, info.update);
+    calc_sun_time(&info, info.update);
     bmoon = calc_moon(&info);
 
     printf ("  Latitude %7.3f %c  Longitude %7.3f %c for %s  All times UTC\n",
