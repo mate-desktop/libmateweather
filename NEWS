@@ -1,3 +1,11 @@
+### libmateweather 1.18.3
+
+  * Locations: add Radom, Poland
+  * Locations: add Zhukovsky airport (Moscow, Russia)
+  * Locations: fix Sheremetyevo airport name (Moscow, Russia)
+  * metar: fix searching for string to parse
+  * Some cleanups
+
 ### libmateweather 1.18.2
 
   * Translations update
