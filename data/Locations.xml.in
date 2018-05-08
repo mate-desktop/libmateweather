@@ -8873,6 +8873,17 @@
         </city>
         <city>
           <!-- A city in Bahia in Brazil -->
+          <_name>Feira de Santana</_name>
+          <coordinates>-12.255082 -38.972638</coordinates>
+          <location>
+            <name>Feira de Santana Airport</name>
+            <code>SBFE</code>
+            <tz-hint>America/Bahia</tz-hint>
+            <coordinates>-12.200556 -38.906389</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Bahia in Brazil -->
           <_name>Ilhéus</_name>
           <coordinates>-14.816667 -39.033333</coordinates>
           <location>
