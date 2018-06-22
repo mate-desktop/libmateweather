@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2005
-# Siranush <ss.m.95@mail.ru>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 10:05+0100\n"
-"PO-Revision-Date: 2017-09-19 11:40+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Armenian (http://www.transifex.com/mate/MATE/language/hy/)\n"
+"POT-Creation-Date: 2018-03-14 10:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Siranush <ss.m.95@mail.ru>, 2018\n"
+"Language-Team: Armenian (https://www.transifex.com/mate/teams/13566/hy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +23,7 @@ msgstr ""
 #: ../libmateweather/mateweather-prefs.c:139
 #: ../libmateweather/mateweather-prefs.c:168
 msgid "Default"
-msgstr "Դեֆոլտ"
+msgstr "Հիմնական"
 
 #. translators: Kelvin
 #: ../libmateweather/mateweather-prefs.c:96
@@ -44,8 +43,8 @@ msgstr "F"
 #: ../libmateweather/mateweather-prefs.c:104
 #: ../libmateweather/mateweather-prefs.c:130
 #: ../libmateweather/mateweather-prefs.c:159
-#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:252
-#: ../libmateweather/weather.c:269 ../libmateweather/weather.c:341
+#: ../libmateweather/mateweather-prefs.c:179 ../libmateweather/weather.c:247
+#: ../libmateweather/weather.c:264 ../libmateweather/weather.c:336
 msgid "Invalid"
 msgstr "Անթույլատրելի"
 
@@ -107,7 +106,7 @@ msgstr "ԱԳՄ"
 #. translators: meters
 #: ../libmateweather/mateweather-prefs.c:171
 msgid "m"
-msgstr "m"
+msgstr "մ"
 
 #. translators: kilometers
 #: ../libmateweather/mateweather-prefs.c:174
@@ -129,7 +128,8 @@ msgstr "Ցույց տալ ծանուցումները"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:2
 msgid "Determines whether the applet shows a notification on each update."
-msgstr "Որոշում է , արդյոք ապլետը ցույց է տալիս ծանուցման յուրաքանչյուր թարմացում:"
+msgstr ""
+"Որոշում է , արդյոք ապլետը ցույց է տալիս ծանուցման յուրաքանչյուր թարմացում:"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:3
 msgid "Update the data automatically"
@@ -139,7 +139,9 @@ msgstr "Տվյալները ավտոմատ նորացնել"
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr "Որոշում է արդյոք ապլետը ավտոմատ կերպով նորացնում է եղանակի տեղեկատվությունը թե ոչ"
+msgstr ""
+"Որոշում է արդյոք ապլետը ավտոմատ կերպով նորացնում է եղանակի տեղեկատվությունը "
+"թե ոչ"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:5
 msgid "Update interval"
@@ -170,7 +172,8 @@ msgstr "Տարածության միավորներ"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr "Տեսանելիության համար օգտագործվող միավորներ․Արժեքներ։ 'մ', 'կմ', 'մղոն'."
+msgstr ""
+"Տեսանելիության համար օգտագործվող միավորներ․Արժեքներ։ 'մ', 'կմ', 'մղոն'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
@@ -203,7 +206,9 @@ msgstr "Արագության միավոր"
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr "Քամու արագության չափման օգտագործվող միավորները․Արժեքները․'մ/վ', 'կմ/ժ', 'բալլ',  'հանգույց', 'Beaufort սանդղակ'."
+msgstr ""
+"Քամու արագության չափման օգտագործվող միավորները․Արժեքները․'մ/վ', 'կմ/ժ', "
+"'բալլ',  'հանգույց', 'Beaufort սանդղակ'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
@@ -219,7 +224,9 @@ msgstr "Ջերմաստիճանի միավոր"
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr "Ջերմաստիճանի չափման օգտագործվող միավորները․ Արժեքներ․ 'Կելվին', 'հարյուրաստիճան',  'Ֆարենհեյթ'։"
+msgstr ""
+"Ջերմաստիճանի չափման օգտագործվող միավորները․ Արժեքներ․ 'Կելվին', "
+"'հարյուրաստիճան',  'Ֆարենհեյթ'։"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
 msgid "Not used anymore"
@@ -275,7 +282,9 @@ msgid ""
 "Nearby major zone, such as a capital city, as found from "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr "Մոտակա գլխավոր գոտին, ինչպիսին է մայրաքաղաքը, գտնելhttps://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in ֊ից"
+msgstr ""
+"Մոտակա գլխավոր գոտին, ինչպիսին է մայրաքաղաքը, գտնելhttps://raw.github.com"
+"/mate-desktop/libmateweather/master/data/Locations.xml.in ֊ից"
 
 #. TRANSLATORS: Change this to the zone of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -298,7 +307,9 @@ msgstr "Տեղադրության գոտի"
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr "Եզակի գոտի քաղաքի համար, գտնել https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in այստեղից"
+msgstr ""
+"Եզակի գոտի քաղաքի համար, գտնել https://raw.github.com/mate-"
+"desktop/libmateweather/master/data/Locations.xml.in այստեղից"
 
 #. TRANSLATORS: Change this to the radar of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -323,7 +334,10 @@ msgid ""
 "A three-digit-long code for retrieving radar maps from weather.com, found "
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr "Երեք թվանշան երկարությամբ ծածկագրում է ռադիոտեղորոշիչ քարտեզներ վերագտնելու համար weather.com֊ից, գտնել https://raw.github.com/mate-desktop/libmateweather/master/data/Locations.xml.in ֊ից"
+msgstr ""
+"Երեք թվանշան երկարությամբ ծածկագրում է ռադիոտեղորոշիչ քարտեզներ վերագտնելու "
+"համար weather.com֊ից, գտնել https://raw.github.com/mate-"
+"desktop/libmateweather/master/data/Locations.xml.in ֊ից"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:77
 msgid "Weather for a city"
@@ -331,7 +345,8 @@ msgstr "Քաղաքի համար եղանակը"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:78
 msgid "The city that mateweather displays information for."
-msgstr "Քաղաքը, որի համար mate եղանակի տեսությունը ցուցադրում է տեղեկատվություն"
+msgstr ""
+"Քաղաքը, որի համար mate եղանակի տեսությունը ցուցադրում է տեղեկատվություն"
 
 #. TRANSLATORS: Change this to the coordinates of your default
 #. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
@@ -354,7 +369,9 @@ msgstr "Տեղադրության կոորդինատները"
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
-msgstr "Ձեր գտնվելու վայրի լայնությունը եւ երկայնությունը արտահայտել DD-MM-SS[NS] DD-MM-SS[EW]."
+msgstr ""
+"Ձեր գտնվելու վայրի լայնությունը եւ երկայնությունը արտահայտել DD-MM-SS[NS] "
+"DD-MM-SS[EW]."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:90
 msgid "Use custom url for the radar map"
@@ -364,7 +381,9 @@ msgstr "Օգտագործել գործարկողի տեղեկատվական ռե�
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr "Եթե միացված է, ապա ռադարային քարտեզը ստանալ \"ռադար \"ստեղնով ընտրված հասցեից"
+msgstr ""
+"Եթե միացված է, ապա ռադարային քարտեզը ստանալ \"ռադար \"ստեղնով ընտրված "
+"հասցեից"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:92
 msgid "Url for the radar map"
@@ -372,7 +391,8 @@ msgstr "Տեղեկատվական ռեսուրս ռադարային քարտեզ�
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:93
 msgid "The custom url from where to retrieve a radar map."
-msgstr "Գործարկողի տեղեկատվական ռեսուրսի ցուցիչ ռադարային քարտեզի ստացման համար"
+msgstr ""
+"Գործարկողի տեղեկատվական ռեսուրսի ցուցիչ ռադարային քարտեզի ստացման համար"
 
 #: ../libmateweather/timezone-menu.c:278
 msgctxt "timezone"
@@ -389,91 +409,91 @@ msgstr "Չհաջողվեց ստանալ METAR տվյալները: %d %s.\n"
 msgid "WeatherInfo missing location"
 msgstr "Weatherinfo հասցեն բացակայում է"
 
-#: ../libmateweather/weather.c:241
+#: ../libmateweather/weather.c:236
 msgid "Variable"
 msgstr "Փոփոխական"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:237
 msgid "North"
 msgstr "Հյուսիս"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:237
 msgid "North - NorthEast"
 msgstr "Հյուսիս–հյուսիս արևելյան"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:237
 msgid "Northeast"
 msgstr "Հյուսիս արևելյան"
 
-#: ../libmateweather/weather.c:242
+#: ../libmateweather/weather.c:237
 msgid "East - NorthEast"
 msgstr "Արևելք–հյուսիս արևելյան"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:238
 msgid "East"
 msgstr "Արևելք"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:238
 msgid "East - Southeast"
 msgstr "Արևելք–հարավ արևելյալ"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:238
 msgid "Southeast"
 msgstr "Հարավ արևելյան"
 
-#: ../libmateweather/weather.c:243
+#: ../libmateweather/weather.c:238
 msgid "South - Southeast"
 msgstr "Հարավ–հարավ արևելյան"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:239
 msgid "South"
 msgstr "Հարավ"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:239
 msgid "South - Southwest"
 msgstr "Հարավ–հարավ արևմտյան"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:239
 msgid "Southwest"
 msgstr "Հարավ արևմտյան"
 
-#: ../libmateweather/weather.c:244
+#: ../libmateweather/weather.c:239
 msgid "West - Southwest"
 msgstr "Արևմուտք– հարավ արևմտյան"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:240
 msgid "West"
 msgstr "Արևմտյան"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:240
 msgid "West - Northwest"
 msgstr "Արևմուտք– հյուսիս արևմտյան"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:240
 msgid "Northwest"
 msgstr "Հյուսիս արևմտյան"
 
-#: ../libmateweather/weather.c:245
+#: ../libmateweather/weather.c:240
 msgid "North - Northwest"
 msgstr "Հյուսիս–հյուսիս արևմտյան"
 
-#: ../libmateweather/weather.c:258
+#: ../libmateweather/weather.c:253
 msgid "Clear Sky"
 msgstr "Հստակ երկինք"
 
-#: ../libmateweather/weather.c:259
+#: ../libmateweather/weather.c:254
 msgid "Broken clouds"
 msgstr "Ամպամած պարզումներով"
 
-#: ../libmateweather/weather.c:260
+#: ../libmateweather/weather.c:255
 msgid "Scattered clouds"
 msgstr "Ցրված ամպեր"
 
-#: ../libmateweather/weather.c:261
+#: ../libmateweather/weather.c:256
 msgid "Few clouds"
 msgstr "Թեթևակի ամպամած"
 
-#: ../libmateweather/weather.c:262
+#: ../libmateweather/weather.c:257
 msgid "Overcast"
 msgstr "Համատարած ամպամածություն"
 
@@ -481,458 +501,458 @@ msgstr "Համատարած ամպամածություն"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: ../libmateweather/weather.c:301 ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:296 ../libmateweather/weather.c:298
 msgid "Thunderstorm"
 msgstr "Ամպրոպ"
 
 #. DRIZZLE
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:297
 msgid "Drizzle"
 msgstr "Մաղող անձրև"
 
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:297
 msgid "Light drizzle"
 msgstr "Թեթև մաղող անձրև"
 
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:297
 msgid "Moderate drizzle"
 msgstr "Չափավոր մաղող անձրև"
 
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:297
 msgid "Heavy drizzle"
 msgstr "Հորդառատ անձրև"
 
-#: ../libmateweather/weather.c:302
+#: ../libmateweather/weather.c:297
 msgid "Freezing drizzle"
 msgstr "Հորդառատ անձրև և կարկուտ"
 
 #. RAIN
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:298
 msgid "Rain"
 msgstr "Անձրև"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:298
 msgid "Light rain"
 msgstr "Թույլ անձրև"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:298
 msgid "Moderate rain"
 msgstr "Չափավոր անձրև"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:298
 msgid "Heavy rain"
 msgstr "Ուժեղ անձրև"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:298
 msgid "Rain showers"
 msgstr "Տեղատարափ անձրև"
 
-#: ../libmateweather/weather.c:303
+#: ../libmateweather/weather.c:298
 msgid "Freezing rain"
 msgstr "Անձրև և կարկուտ"
 
 #. SNOW
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:299
 msgid "Snow"
 msgstr "Ձյուն"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:299
 msgid "Light snow"
 msgstr "Թույլ ձյուն"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:299
 msgid "Moderate snow"
 msgstr "Չափավոր ձյուն"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:299
 msgid "Heavy snow"
 msgstr "Ուժեղ ձյուն"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:299
 msgid "Snowstorm"
 msgstr "Ձյունամրրիկ"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:299
 msgid "Blowing snowfall"
 msgstr "Ջյան տեղումներ"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:299
 msgid "Snow showers"
 msgstr "Բուք"
 
-#: ../libmateweather/weather.c:304
+#: ../libmateweather/weather.c:299
 msgid "Drifting snow"
 msgstr "Ջյան կուտակումներ"
 
 #. SNOW_GRAINS
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:300
 msgid "Snow grains"
 msgstr "Ջյան փաթիլներ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:300
 msgid "Light snow grains"
 msgstr "Թույլ ձյան փոքր փաթիլներ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:300
 msgid "Moderate snow grains"
 msgstr "Չափավոր ձյան փաթիլներ"
 
-#: ../libmateweather/weather.c:305
+#: ../libmateweather/weather.c:300
 msgid "Heavy snow grains"
 msgstr "Ուժեղ ձյան փաթիլներ"
 
 #. ICE_CRYSTALS
-#: ../libmateweather/weather.c:306
+#: ../libmateweather/weather.c:301
 msgid "Ice crystals"
 msgstr "Սառույցի բյուրեղներ"
 
 #. ICE_PELLETS
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:302
 msgid "Ice pellets"
 msgstr "Կարկուտ"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:302
 msgid "Few ice pellets"
 msgstr "Թույլ կարկուտ"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:302
 msgid "Moderate ice pellets"
 msgstr "Չափավոր կարկուտ"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:302
 msgid "Heavy ice pellets"
 msgstr "Ուժեղ կարկուտ"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:302
 msgid "Ice pellet storm"
 msgstr "Փոթորիկ և կարկուտ"
 
-#: ../libmateweather/weather.c:307
+#: ../libmateweather/weather.c:302
 msgid "Showers of ice pellets"
 msgstr "Տեղատարափ անձրև և կարկուտ"
 
 #. HAIL
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:303
 msgid "Hail"
 msgstr "Կարկուտ"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:303
 msgid "Hailstorm"
 msgstr "Փոթորիկ և կարկուտ"
 
-#: ../libmateweather/weather.c:308
+#: ../libmateweather/weather.c:303
 msgid "Hail showers"
 msgstr "Տեղ–տեղ կարկուտ"
 
 #. SMALL_HAIL
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:304
 msgid "Small hail"
 msgstr "Թույլ կարկուտ"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:304
 msgid "Small hailstorm"
 msgstr "Թույլ փոթորիկ և կարկուտ"
 
-#: ../libmateweather/weather.c:309
+#: ../libmateweather/weather.c:304
 msgid "Showers of small hail"
 msgstr "Թույլ տեղատարափ կարկուտ"
 
 #. PRECIPITATION
-#: ../libmateweather/weather.c:310
+#: ../libmateweather/weather.c:305
 msgid "Unknown precipitation"
 msgstr "Անհայտ տեղումներ"
 
 #. MIST
-#: ../libmateweather/weather.c:311
+#: ../libmateweather/weather.c:306
 msgid "Mist"
 msgstr "Մառախուղ"
 
 #. FOG
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:307
 msgid "Fog"
 msgstr "Մշուշ"
 
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:307
 msgid "Fog in the vicinity"
 msgstr "Շրջակայքում մշուշ"
 
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:307
 msgid "Shallow fog"
 msgstr "Համատարած մշուշ"
 
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:307
 msgid "Patches of fog"
 msgstr "Տեղ տեղ մշուշ"
 
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:307
 msgid "Partial fog"
 msgstr "Մասամբ մշուշապատ"
 
-#: ../libmateweather/weather.c:312
+#: ../libmateweather/weather.c:307
 msgid "Freezing fog"
 msgstr "Սառող մշուշ"
 
 #. SMOKE
-#: ../libmateweather/weather.c:313
+#: ../libmateweather/weather.c:308
 msgid "Smoke"
 msgstr "Ծուխ"
 
 #. VOLCANIC_ASH
-#: ../libmateweather/weather.c:314
+#: ../libmateweather/weather.c:309
 msgid "Volcanic ash"
 msgstr "Հրաբխային մոխիր"
 
 #. SAND
-#: ../libmateweather/weather.c:315
+#: ../libmateweather/weather.c:310
 msgid "Sand"
 msgstr "Ավազ"
 
-#: ../libmateweather/weather.c:315
+#: ../libmateweather/weather.c:310
 msgid "Blowing sand"
 msgstr "Ավազահողմ"
 
-#: ../libmateweather/weather.c:315
+#: ../libmateweather/weather.c:310
 msgid "Drifting sand"
 msgstr "Ավազի կուտակումներ"
 
 #. HAZE
-#: ../libmateweather/weather.c:316
+#: ../libmateweather/weather.c:311
 msgid "Haze"
 msgstr "Փոշու մշուշ"
 
 #. SPRAY
-#: ../libmateweather/weather.c:317
+#: ../libmateweather/weather.c:312
 msgid "Blowing sprays"
 msgstr "Քամու պոռթկումներ փոշու հետ"
 
 #. DUST
-#: ../libmateweather/weather.c:318
+#: ../libmateweather/weather.c:313
 msgid "Dust"
 msgstr "Փոշի"
 
-#: ../libmateweather/weather.c:318
+#: ../libmateweather/weather.c:313
 msgid "Blowing dust"
 msgstr "Փոշու փոթորիկ"
 
-#: ../libmateweather/weather.c:318
+#: ../libmateweather/weather.c:313
 msgid "Drifting dust"
 msgstr "Փոթորկալից փոշի"
 
 #. SQUALL
-#: ../libmateweather/weather.c:319
+#: ../libmateweather/weather.c:314
 msgid "Squall"
 msgstr "Հանկարծական փոթորիկ"
 
 #. SANDSTORM
-#: ../libmateweather/weather.c:320
+#: ../libmateweather/weather.c:315
 msgid "Sandstorm"
 msgstr "Ավազի փոթորիկ"
 
-#: ../libmateweather/weather.c:320
+#: ../libmateweather/weather.c:315
 msgid "Sandstorm in the vicinity"
 msgstr "Շրջակայքում ավազահողմ"
 
-#: ../libmateweather/weather.c:320
+#: ../libmateweather/weather.c:315
 msgid "Heavy sandstorm"
 msgstr "Ուժեղ ավազահողմ"
 
 #. DUSTSTORM
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:316
 msgid "Duststorm"
 msgstr "Փոշու փոթորիկ"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:316
 msgid "Duststorm in the vicinity"
 msgstr "Շրջակայքում փոշու փոթորիկ"
 
-#: ../libmateweather/weather.c:321
+#: ../libmateweather/weather.c:316
 msgid "Heavy duststorm"
 msgstr "Ուժեղ փոշու փոթորիկ"
 
 #. FUNNEL_CLOUD
-#: ../libmateweather/weather.c:322
+#: ../libmateweather/weather.c:317
 msgid "Funnel cloud"
 msgstr "Մրրկասյուն"
 
 #. TORNADO
-#: ../libmateweather/weather.c:323
+#: ../libmateweather/weather.c:318
 msgid "Tornado"
 msgstr "Տորնադո"
 
 #. DUST_WHIRLS
-#: ../libmateweather/weather.c:324
+#: ../libmateweather/weather.c:319
 msgid "Dust whirls"
 msgstr "Հողմապտույտ"
 
-#: ../libmateweather/weather.c:324
+#: ../libmateweather/weather.c:319
 msgid "Dust whirls in the vicinity"
 msgstr "Շրջակայքում հողմապտույտ"
 
 #. TRANSLATOR: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#: ../libmateweather/weather.c:718
+#: ../libmateweather/weather.c:712
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %b %d / %H:%M"
 
-#: ../libmateweather/weather.c:733
+#: ../libmateweather/weather.c:727
 msgid "Unknown observation time"
 msgstr "Անհայտ դիտման ժամանակահատված"
 
-#: ../libmateweather/weather.c:747 ../libmateweather/weather.c:798
-#: ../libmateweather/weather.c:812 ../libmateweather/weather.c:825
-#: ../libmateweather/weather.c:838 ../libmateweather/weather.c:851
-#: ../libmateweather/weather.c:869 ../libmateweather/weather.c:887
-#: ../libmateweather/weather.c:925 ../libmateweather/weather.c:941
-#: ../libmateweather/weather.c:964 ../libmateweather/weather.c:996
-#: ../libmateweather/weather.c:1012 ../libmateweather/weather.c:1032
+#: ../libmateweather/weather.c:741 ../libmateweather/weather.c:792
+#: ../libmateweather/weather.c:806 ../libmateweather/weather.c:819
+#: ../libmateweather/weather.c:832 ../libmateweather/weather.c:845
+#: ../libmateweather/weather.c:863 ../libmateweather/weather.c:881
+#: ../libmateweather/weather.c:919 ../libmateweather/weather.c:935
+#: ../libmateweather/weather.c:958 ../libmateweather/weather.c:990
+#: ../libmateweather/weather.c:1006 ../libmateweather/weather.c:1026
 msgid "Unknown"
 msgstr "Անհայտ"
 
 #. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:769
+#: ../libmateweather/weather.c:763
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
 #. TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
-#: ../libmateweather/weather.c:772
+#: ../libmateweather/weather.c:766
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
 #. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
-#: ../libmateweather/weather.c:778
+#: ../libmateweather/weather.c:772
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
 #. TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
-#: ../libmateweather/weather.c:781
+#: ../libmateweather/weather.c:775
 #, c-format
 msgid "%d °C"
 msgstr "%d °C"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:787
+#: ../libmateweather/weather.c:781
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. TRANSLATOR: This is the temperature in kelvin
-#: ../libmateweather/weather.c:790
+#: ../libmateweather/weather.c:784
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. TRANSLATOR: This is the humidity in percent
-#: ../libmateweather/weather.c:872
+#: ../libmateweather/weather.c:866
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. TRANSLATOR: This is the wind speed in knots
-#: ../libmateweather/weather.c:900
+#: ../libmateweather/weather.c:894
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f հանգույց"
 
 #. TRANSLATOR: This is the wind speed in miles per hour
-#: ../libmateweather/weather.c:904
+#: ../libmateweather/weather.c:898
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f մղոն/ժ"
 
 #. TRANSLATOR: This is the wind speed in kilometers per hour
-#: ../libmateweather/weather.c:908
+#: ../libmateweather/weather.c:902
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f կմ/ժ"
 
 #. TRANSLATOR: This is the wind speed in meters per second
-#: ../libmateweather/weather.c:912
+#: ../libmateweather/weather.c:906
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f մ/վ"
 
 #. TRANSLATOR: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#: ../libmateweather/weather.c:918
+#: ../libmateweather/weather.c:912
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "Բեոֆորտյան ուժ %.1f"
 
-#: ../libmateweather/weather.c:943
+#: ../libmateweather/weather.c:937
 msgid "Calm"
 msgstr "Հանդարտ"
 
 #. TRANSLATOR: This is 'wind direction' / 'wind speed'
-#: ../libmateweather/weather.c:947
+#: ../libmateweather/weather.c:941
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. TRANSLATOR: This is pressure in inches of mercury
-#: ../libmateweather/weather.c:969
+#: ../libmateweather/weather.c:963
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f դույմ սնդիկի սյուն"
 
 #. TRANSLATOR: This is pressure in millimeters of mercury
-#: ../libmateweather/weather.c:973
+#: ../libmateweather/weather.c:967
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f մմ սնդիկի սյուն"
 
 #. TRANSLATOR: This is pressure in kiloPascals
-#: ../libmateweather/weather.c:977
+#: ../libmateweather/weather.c:971
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f կիլոպասկալ"
 
 #. TRANSLATOR: This is pressure in hectoPascals
-#: ../libmateweather/weather.c:981
+#: ../libmateweather/weather.c:975
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f հեկտոպասկալ"
 
 #. TRANSLATOR: This is pressure in millibars
-#: ../libmateweather/weather.c:985
+#: ../libmateweather/weather.c:979
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f միլիբար"
 
 #. TRANSLATOR: This is pressure in atmospheres
-#: ../libmateweather/weather.c:989
+#: ../libmateweather/weather.c:983
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f միլիբար"
 
 #. TRANSLATOR: This is the visibility in miles
-#: ../libmateweather/weather.c:1017
+#: ../libmateweather/weather.c:1011
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f մղոն"
 
 #. TRANSLATOR: This is the visibility in kilometers
-#: ../libmateweather/weather.c:1021
+#: ../libmateweather/weather.c:1015
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f կմ"
 
 #. TRANSLATOR: This is the visibility in meters
-#: ../libmateweather/weather.c:1025
+#: ../libmateweather/weather.c:1019
 #, c-format
 msgid "%.0fm"
 msgstr "%.0f մետր տեսանելիություն"
 
-#: ../libmateweather/weather.c:1054 ../libmateweather/weather.c:1075
+#: ../libmateweather/weather.c:1048 ../libmateweather/weather.c:1069
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: ../libmateweather/weather.c:1134
+#: ../libmateweather/weather.c:1128
 msgid "Retrieval failed"
 msgstr "Ստացման խափանում"
