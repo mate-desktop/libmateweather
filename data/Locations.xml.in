@@ -6582,8 +6582,15 @@
       </city>
     </country>
     <country>
-      <!-- PR - Puerto Rico, a territory of the United States in the
-           Caribbean.
+      <!-- PR - Puerto Rico, a territory of the United States in the Caribbean.
+           The following municipalities have airports with valid IACO codes
+           but no active METAR stations, so we don't include them:
+           * Arecibo:  TJAB
+           * Culebra:  TJCP
+           * Fajardo:  TJFA
+           * Mayagüez: TJMZ
+           * Ponce:    TJPS
+           * Vieques:  TJVQ
         -->
       <_name>Puerto Rico</_name>
       <iso-code>PR</iso-code>
@@ -6595,58 +6602,59 @@
       </timezones>
       <tz-hint>America/Puerto_Rico</tz-hint>
       <city>
-        <!-- A city in Puerto Rico -->
-        <_name>Carolina</_name>
-        <coordinates>18.380782 -65.957387</coordinates>
+        <!-- A municipality of Puerto Rico -->
+        <_name>Aguadilla</_name>
+        <coordinates>18.430000 -67.154444</coordinates>
         <location>
-          <name>San Juan, Luis Munoz Marin International Airport</name>
-          <code>TJSJ</code>
+          <name>Rafael Hernández International Airport</name>
+          <code>TJBQ</code>
+          <zone>PRZ008</zone>
           <radar>sju</radar>
-          <coordinates>18.450000 -66.000000</coordinates>
+          <coordinates>18.495000 -67.129444</coordinates>
         </location>
       </city>
       <city>
-        <!-- A city in Puerto Rico -->
+        <!-- A municipality of Puerto Rico -->
+        <_name>Carolina</_name>
+        <coordinates>18.406111 -65.967222</coordinates>
+        <location>
+          <name>Luis Muñoz Marín International Airport</name>
+          <code>TJSJ</code>
+          <!-- According to the METARs database, the TJSJ airport should get
+               forecast data from AMZ712 (Coastal Waters of Northern Puerto
+               Rico). However, this is Marine Forecast data and so it can only
+               be queried reliably from a separate database. We use instead
+               the PRZ001, which includes the municipality of Carolina. -->
+          <zone>PRZ001</zone>
+          <radar>sju</radar>
+          <coordinates>18.439167 -66.001944</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A municipality of Puerto Rico -->
         <name>Ceiba</name>
-        <coordinates>18.264169 -65.648302</coordinates>
+        <coordinates>18.238056 -65.627778</coordinates>
         <location>
           <name>José Aponte de la Torre Airport</name>
+          <!-- The old Roosevelt Roads airport is closed, but the code seems to
+               be reused for the José Aponte Airport, which itself has an
+               invalid station code (TJRV). -->
           <code>TJNR</code>
-	  <radar>sju</radar>
-          <coordinates>18.2553 -65.6386</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Puerto Rico -->
-        <_name>Ponce</_name>
-        <coordinates>18.011077 -66.614062</coordinates>
-        <location>
-          <name>Mercedita Airport</name>
-          <code>TJPS</code>
+          <zone>PRZ002</zone>
           <radar>sju</radar>
-          <coordinates>18.016667 -66.566667</coordinates>
+          <coordinates>18.245278 -65.643333</coordinates>
         </location>
       </city>
       <city>
-        <!-- A city in Puerto Rico -->
-        <_name>Rafael Hernandez</_name>
-        <coordinates>18.471333 -67.079069</coordinates>
-        <location>
-          <name>Aquadilla, Rafael Hernandez Airport</name>
-          <code>TJBQ</code>
-          <radar>sju</radar>
-          <coordinates>18.500000 -67.133333</coordinates>
-        </location>
-      </city>
-      <city>
-        <!-- A city in Puerto Rico -->
+        <!-- A municipality of Puerto Rico -->
         <_name>San Juan</_name>
         <coordinates>18.466334 -66.105722</coordinates>
         <location>
-          <name>Luis Munoz Marin International Airport</name>
-          <code>TJSJ</code>
+          <name>Fernando Luis Ribas Dominicci Airport (Isla Grande Airport)</name>
+          <code>TJIG</code>
+          <zone>PRZ001</zone>
           <radar>sju</radar>
-          <coordinates>18.450000 -66.000000</coordinates>
+          <coordinates>18.456667 -66.098333</coordinates>
         </location>
       </city>
     </country>
