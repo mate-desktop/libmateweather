@@ -37,7 +37,7 @@
 
 #define ECCENTRICITY(d)         (0.01671123 - (d)/36525.*0.00004392)
 
-/* 
+/*
  * Ecliptic longitude of the sun at specified time (UT)
  * The algoithm is described in section 47 of Duffett-Smith
  * Return value is in radians
@@ -53,11 +53,11 @@ sunEclipLongitude(time_t t)
     ndays = EPOCH_TO_J2000(t) / 86400.;
     meanAnom = DEGREES_TO_RADIANS(MEAN_ECLIPTIC_LONGITUDE(ndays)
 				  - PERIGEE_LONGITUDE(ndays));
-    
+
     /*
      * Approximate solution of Kepler's equation:
      * Find E which satisfies  E - e sin(E) = M (mean anomaly)
-     */                                         
+     */
     eccenAnom = meanAnom;
     e = ECCENTRICITY(ndays);
 
@@ -186,7 +186,7 @@ calc_sun2 (WeatherInfo *info, time_t t)
         lcl_midn -= 86400;
 
     lambda = sunEclipLongitude (lcl_midn);
-    
+
     /*
      * Calculate equitorial coordinates of sun at previous
      * and next local midnights
@@ -195,7 +195,7 @@ calc_sun2 (WeatherInfo *info, time_t t)
     ecl2equ (lcl_midn + 86400.,
 	     lambda + DEGREES_TO_RADIANS(SOL_PROGRESSION), 0.,
 	     &ra2, &decl2);
-    
+
     /*
      * If the observer is within the Arctic or Antarctic Circles then
      * the sun may be above or below the horizon for the full day.
@@ -245,7 +245,7 @@ calc_sun2 (WeatherInfo *info, time_t t)
         set1  += 24.;
         set2  += 24.;
     }
-   
+
     /*
      * Interpolate between the two to get a rise and set time
      * based on the sun's position at local noon (step 8)
@@ -261,7 +261,7 @@ calc_sun2 (WeatherInfo *info, time_t t)
     x = DEGREES_TO_RADIANS(0.830725);
     u = acos ( sin(obsLat) / cos(decl2) );
     dt = RADIANS_TO_HOURS ( asin ( sin(x) / sin(u) ) / cos(decl2) );
-   
+
     /*
      * Subtract the correction value from sunrise and add to sunset,
      * then (step 11) convert sideral times to UT

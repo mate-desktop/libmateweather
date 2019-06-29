@@ -40,7 +40,7 @@
  * A #MateWeatherLocation represents a "location" of some type known to
  * libmateweather; anything from a single weather station to the entire
  * world. See #MateWeatherLocationLevel for information about how the
- * hierarchy of locations works. 
+ * hierarchy of locations works.
  */
 
 struct _MateWeatherLocation {
@@ -90,7 +90,7 @@ sort_locations_by_name (gconstpointer a, gconstpointer b)
 
     return g_utf8_collate (loc_a->sort_name, loc_b->sort_name);
 }
- 
+
 static int
 sort_locations_by_distance (gconstpointer a, gconstpointer b, gpointer user_data)
 {
@@ -368,7 +368,7 @@ mateweather_location_unref (MateWeatherLocation *loc)
 
     if (--loc->ref_count)
 	return;
-    
+
     g_free (loc->name);
     g_free (loc->sort_name);
     g_free (loc->country_code);
