@@ -76,7 +76,7 @@ mateweather_prefs_load (MateWeatherPrefs *prefs, GSettings *settings)
         prefs->radar = NULL;
     }
     prefs->radar = g_settings_get_string (settings, "radar");
-    
+
     prefs->temperature_unit = g_settings_get_enum (settings, GSETTINGS_TEMP_UNIT);
     prefs->speed_unit = g_settings_get_enum (settings, GSETTINGS_SPEED_UNIT);
     prefs->pressure_unit = g_settings_get_enum (settings, GSETTINGS_PRESSURE_UNIT);

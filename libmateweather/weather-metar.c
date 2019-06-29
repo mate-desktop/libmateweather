@@ -495,7 +495,7 @@ metar_finish (SoupSession *session, SoupMessage *msg, gpointer data)
     gboolean success = FALSE;
 
     g_return_if_fail (info != NULL);
-   
+
     if (!SOUP_STATUS_IS_SUCCESSFUL (msg->status_code)) {
         if (SOUP_STATUS_IS_TRANSPORT_ERROR (msg->status_code))
             info->network_error = TRUE;

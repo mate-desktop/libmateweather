@@ -90,7 +90,7 @@ wx_start_open (WeatherInfo *info)
 	    return;
 	url = g_strdup_printf ("http://image.weather.com/web/radar/us_%s_closeradar_medium_usen.jpg", loc->radar);
     }
- 
+
     msg = soup_message_new ("GET", url);
     if (!msg) {
 	g_warning ("Invalid radar URL: %s\n", url);

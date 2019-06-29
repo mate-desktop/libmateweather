@@ -637,7 +637,7 @@ weather_info_free (WeatherInfo *info)
         g_object_unref (info->radar);
         info->radar = NULL;
     }
-	
+
     g_free (info);
 }
 

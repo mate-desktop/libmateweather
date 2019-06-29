@@ -422,7 +422,7 @@ iwin_start_open (WeatherInfo *info)
         info->forecast = NULL;
     }
 
-    free_forecast_list (info);    
+    free_forecast_list (info);
 
     if (info->forecast_type == FORECAST_LIST) {
         /* see the description here: http://www.weather.gov/forecasts/xml/ */
@@ -466,7 +466,7 @@ iwin_start_open (WeatherInfo *info)
 
     g_free (zone);
     g_free (state);
-    
+
     msg = soup_message_new ("GET", url);
     g_free (url);
     soup_session_queue_message (info->session, msg, iwin_finish, info);

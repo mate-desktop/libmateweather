@@ -124,7 +124,7 @@ calc_moon (WeatherInfo *info)
     ecl2equ (t, lambda_r, beta_r, &ra_h, &decl_r);
 
     /*
-     * The phase is the angle from the sun's longitude to the moon's 
+     * The phase is the angle from the sun's longitude to the moon's
      */
     info->moonphase =
         fmod (15.*ra_h - RADIANS_TO_DEGREES (sunEclipLongitude (info->update)),
