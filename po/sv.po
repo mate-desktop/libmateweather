@@ -5,19 +5,19 @@
 # 
 # Translators:
 # Kristoffer Grundström <hamnisdude@gmail.com>, 2018
-# Erik, 2018
+# 6a42dd6e7ca9a813693714b0d9aa1ad8, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Henrik Mattsson-Mårn <h@reglage.net>, 2018
 # Patrik Nilsson <asavartzeth@gmail.com>, 2018
 # Marcus Larborg, 2018
 # Jonatan Nyberg, 2018
-# Urban Berggren <pudberggren@icloud.com>, 2018
+# 8385e6e60a22e18cd347a1f6e4685fb9, 2018
 # Tobias Lekare <lekare@linux.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 10:10+0100\n"
 "PO-Revision-Date: 2018-03-11 16:04+0000\n"

@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# se7entime <se7entime@openmailbox.org>, 2018
+# se7entime <se7entime@disroot.org>, 2018
 # Ibnu Daru Aji, 2018
 # Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2018
 # La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2018
@@ -13,7 +13,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 10:10+0100\n"
 "PO-Revision-Date: 2018-03-11 16:04+0000\n"

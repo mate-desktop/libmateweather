@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Adolfo Jayme-Barrientos, 2018
+# Fito JB, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Lluís Tusquellas <lutusq@gmail.com>, 2018
 # Andres Sanchez <blackatze93@gmail.com>, 2018
@@ -13,15 +13,16 @@
 # Francisco B.G. <inactive+franchulo@transifex.com>, 2018
 # Arcenio Cid <gusty.miliki@gmail.com>, 2018
 # Mario Verdin <jmvl1303@gmail.com>, 2018
+# Toni Estévez <toni.estevez@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 10:10+0100\n"
 "PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Mario Verdin <jmvl1303@gmail.com>, 2018\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -244,7 +245,7 @@ msgstr ""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:29
 msgid "Not used anymore"
-msgstr "Ya no se utiliza"
+msgstr "Ya no se usa"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:30
 msgid "Display radar map"
@@ -268,11 +269,11 @@ msgstr "'UBICACIÓN_PREDETERMINADA'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
-msgstr "Información meteorológica de una zona"
+msgstr "Información meteorológica de una ubicación"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:42
 msgid "Weather location information."
-msgstr "Información meteorológica de una zona."
+msgstr "Información meteorológica de una ubicación."
 
 #. TRANSLATORS: Change this to the code of your default location
 #. that corresponds to the DEFAULT_LOCATION name you put above. This
@@ -297,7 +298,7 @@ msgid ""
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
-"Zona principal cercana, como la ciudad capital, según se encuentra en "
+"Zona principal cercana, como la capital, según se encuentra en "
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 
@@ -316,13 +317,15 @@ msgstr "'ZONA_PREDETERMINADA'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
-msgstr "Situación de la zona"
+msgstr "Ubicación de la zona"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:64
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
-msgstr "Una zona única para la ciudad, tal como se encuentra en "
+msgstr ""
+"Una zona única para la ciudad, como se encuentra en https://raw.github.com"
+"/mate-desktop/libmateweather/master/data/Locations.xml.in "
 
 #. TRANSLATORS: Change this to the radar of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -340,7 +343,7 @@ msgstr "'RADAR_PREDETERMINADO'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
-msgstr "Zona de radar"
+msgstr "Ubicación del radar"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:76
 msgid ""
@@ -349,15 +352,16 @@ msgid ""
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
 "Un código de tres dígitos para obtener los mapas de radar desde weather.com,"
-" tal como los que se encuentran en "
+" como los que se encuentran en https://raw.github.com/mate-"
+"desktop/libmateweather/master/data/Locations.xml.in "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:77
 msgid "Weather for a city"
-msgstr "Pronóstico para una ciudad"
+msgstr "Información meteorológica de una ciudad"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:78
 msgid "The city that mateweather displays information for."
-msgstr "La ciudad para la que mateweather muestra información."
+msgstr "La ciudad para la que se muestra información meteorológica."
 
 #. TRANSLATORS: Change this to the coordinates of your default
 #. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
@@ -374,13 +378,14 @@ msgstr "'COORDENADAS_PREDETERMINADAS'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
-msgstr "Coordenadas de la zona"
+msgstr "Coordenadas de la ubicación"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:89
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
-msgstr "Latitud y longitud de su zona expresada en DD-MM-SS[NS] DD-MM-SS[EW]."
+msgstr ""
+"Latitud y longitud de su ubicación expresada en DD-MM-SS[NS] DD-MM-SS[EW]."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:90
 msgid "Use custom url for the radar map"
@@ -391,8 +396,8 @@ msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
 msgstr ""
-"Si es «true» (verdadero), entonces recupera un mapa de radar desde la "
-"dirección especificada por la clave «radar»."
+"Si se activa, recupera un mapa de radar desde la ubicación especificada por "
+"la clave «radar»."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:92
 msgid "Url for the radar map"
@@ -411,11 +416,11 @@ msgstr "Desconocido"
 #: ../libmateweather/weather-metar.c:504
 #, c-format
 msgid "Failed to get METAR data: %d %s.\n"
-msgstr "Falló la obtención de los datos METAR: %d %s.\n"
+msgstr "Ha fallado la obtención de los datos METAR: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
-msgstr "Zona no existente para WeatherInfo"
+msgstr "Falta la ubicación de WeatherInfo"
 
 #: ../libmateweather/weather.c:236
 msgid "Variable"
