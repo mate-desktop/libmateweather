@@ -1,3 +1,10 @@
+### libmateweather 1.23.0
+
+    tx: sync with transifex
+    Remove trailing whitespaces
+    Change url project's website
+    locations: change weather station for Rostov-on-Don, Russia
+
 ### libmateweather 1.22.0
 
   * Translations update
