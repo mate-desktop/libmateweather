@@ -19411,6 +19411,16 @@
         </location>
       </city>
       <city>
+	<!-- A city in Spain -->
+        <_name>Lleida</_name>
+        <coordinates>41.727778 0.535833</coordinates>
+        <location>
+	  <name>Lleida–Alguaire Airport</name>
+          <code>LEDA</code>
+          <coordinates>41.727778 0.535833</coordinates>
+        </location>
+      </city>
+      <city>
         <!-- A city in Spain -->
         <_name>Los Baldíos</_name>
         <coordinates>28.466667 -16.316667</coordinates>
