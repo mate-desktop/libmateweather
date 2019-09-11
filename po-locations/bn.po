@@ -1,7 +1,6 @@
-# Translation of locations.bn.po to Bengali
-# Translation of mate-applets-locations.HEAD.bn.po to Bangla
-# This file is distributed under the same license as the Mate-applets-locations package.
-# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER.
+# Libraries to allow MATE Desktop to display weather information
+# Copyright (C) 2019 The MATE Team
+# This file is distributed under the same license as the libmateweather package.
 # Sayamindu Dasgupta <unmadindu@softhome.net>, 2004.
 # Runa Bhattacharjee <runa@bengalinux.org>, 2004.
 # Mahay Alam Khan (মাহে আলম খান) <makl10n@yahoo.com>, 2005.
@@ -13,15 +12,15 @@
 # Sankarshan Mukhopadhyay <sankarshan.mukhopadhyay@gmail.com>, 2009.
 # Maruf Ovee <maruf@ankur.org.bd>, 2009.
 # Israt Jahan <israt@ankur.org.bd>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: bn\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 11:57+0000\n"
+"POT-Creation-Date: 2019-09-17 10:35+0200\n"
 "PO-Revision-Date: 2010-03-08 16:34+0600\n"
 "Last-Translator: Israt Jahan <israt@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -837,8 +836,15 @@ msgstr "পোল্যান্ড"
 msgid "Portugal"
 msgstr "পোর্টুগাল"
 
-#. PR - Puerto Rico, a territory of the United States in the
-#. Caribbean.
+#. PR - Puerto Rico, a territory of the United States in the Caribbean.
+#. The following municipalities have airports with valid IACO codes
+#. but no active METAR stations, so we don't include them:
+#. * Arecibo:  TJAB
+#. * Culebra:  TJCP
+#. * Fajardo:  TJFA
+#. * Mayagüez: TJMZ
+#. * Ponce:    TJPS
+#. * Vieques:  TJVQ
 #.
 msgid "Puerto Rico"
 msgstr "পুয়ের্তো রিকো"
@@ -1249,6 +1255,24 @@ msgstr "ম্যাক মুর্দো স্টেশন (নিউজি�
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
 msgstr "অ্যামুন্ডসেন-স্কট সাউথ পোল স্টেশন (নিউজিল্যান্ড সময়)"
 
+#. The timezone on the western islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Barat".
+#.
+msgid "Western Indonesia Time"
+msgstr "ওয়েস্টার্ন ইন্দোনেশিয়া সময়"
+
+#. The timezone on the central islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
+#.
+msgid "Central Indonesia Time"
+msgstr "সেন্ট্রাল ইন্দোনেশিয়া সময়"
+
+#. The timezone on the eastern islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Timur".
+#.
+msgid "Eastern Indonesia Time"
+msgstr "ইস্টার্ন ইন্দোনেশিয়া সময়"
+
 #. The time zone used in the eastern half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 #.
@@ -1417,24 +1441,6 @@ msgstr "মার্কেসাস দ্বীপ"
 #.
 msgid "Gambier Islands"
 msgstr "গ্যাম্বিয়ার দ্বীপ"
-
-#. The timezone on the western islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Barat".
-#.
-msgid "Western Indonesia Time"
-msgstr "ওয়েস্টার্ন ইন্দোনেশিয়া সময়"
-
-#. The timezone on the central islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
-#.
-msgid "Central Indonesia Time"
-msgstr "সেন্ট্রাল ইন্দোনেশিয়া সময়"
-
-#. The timezone on the eastern islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Timur".
-#.
-msgid "Eastern Indonesia Time"
-msgstr "ইস্টার্ন ইন্দোনেশিয়া সময়"
 
 #. The time zone in the Gilbert Islands, one of the three
 #. main island groups of Kiribati. This string is only used
@@ -1748,14 +1754,22 @@ msgstr "সামারা সময়"
 msgid "Yekaterinburg Time"
 msgstr "ইয়েকাটেরিনবার্গ সময়"
 
-#. A Russian time zone, used in the Omsk and Novosibirsk
-#. oblasts and surrounding areas of south-central Russia.
+#. A Russian time zone, used in the Omsk oblast
+#. and surrounding areas of south-central Russia.
 #. The Russian name is "Омское время". This string is only
 #. used in places where "Russia" is already clear from
 #. context.
 #.
 msgid "Omsk Time"
 msgstr "ওমস্ক সময়"
+
+#. A Russian time zone, used in the Novosibirsk oblast.
+#. The Russian name is "Новосибирское время".
+#. This string is only used in places
+#. where "Russia" is already clear from context.
+#.
+msgid "Novosibirsk Time"
+msgstr ""
 
 #. A Russian time zone, used in the Krasnoyarsk krai and
 #. surrounding areas of central Russia. The Russian name is
@@ -3642,6 +3656,10 @@ msgstr "কুইয়াবা"
 #. A city in Paraná in Brazil
 msgid "Curitiba"
 msgstr "কুরিটিবা"
+
+#. A city in Bahia in Brazil
+msgid "Feira de Santana"
+msgstr ""
 
 #. A city in Santa Catarina in Brazil
 msgid "Florianópolis"
@@ -6634,7 +6652,6 @@ msgid "Montélimar"
 msgstr "মন্টেলিমার"
 
 #. A city in France
-#| msgid "Toulouse"
 msgid "Mulhouse"
 msgstr "মুলহাউস"
 
@@ -7349,7 +7366,6 @@ msgid "Georgetown"
 msgstr "জর্জটাউন"
 
 #. Capital of Haiti
-#| msgid "Port Mathurin"
 msgid "Port-au-Prince"
 msgstr "পোর্ট-অফ-প্রিন্স"
 
@@ -7668,6 +7684,10 @@ msgstr "পালেব্যাং"
 #. A city in Indonesia
 msgid "Pekanbaru"
 msgstr "পেকানবারু"
+
+#. A city in Indonesia
+msgid "Yogyakarta"
+msgstr ""
 
 #. A city in Iran.
 #. The name is also written "آبادان".
@@ -8000,6 +8020,10 @@ msgid "Alghero"
 msgstr "এলঘেরো"
 
 #. A city in Italy
+msgid "Ancona"
+msgstr ""
+
+#. A city in Italy
 msgid "Aviano"
 msgstr "এভিয়ানো"
 
@@ -8144,10 +8168,6 @@ msgstr "মেসিনা"
 #.
 msgid "Milan"
 msgstr "মিলান"
-
-#. A city in Italy
-msgid "Molino di Ancona"
-msgstr "মেলিনও দি আনকোনা"
 
 #. A city in Italy.
 #. "Naples" is the traditional English name.
@@ -8652,24 +8672,46 @@ msgid "Amman"
 msgstr "আম্মান"
 
 #. A city in Kazakhstan
+msgid "Aktau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Aktobe"
+msgstr ""
+
+#. A city in Kazakhstan
 msgid "Almaty"
 msgstr "আলমাটি"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktau".
-#.
-msgid "Aqtau"
-msgstr "অ্যাকটাউ"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktobe".
-#.
-msgid "Aqtöbe"
-msgstr "আকটোবে"
 
 #. The capital of Kazakhstan
 msgid "Astana"
 msgstr "আস্তানা"
+
+#. A city in Kazakhstan
+msgid "Atyrau"
+msgstr ""
+
+#. A city in Kazakhstan.
+#. The local name in Russian is "Balkhash".
+#.
+msgid "Balqash"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Karaganda"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kokshetau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kostanay"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kyzylorda"
+msgstr ""
 
 #. A city in Kazakhstan.
 #. The local name in Russian is "Ural'sk".
@@ -8678,26 +8720,31 @@ msgid "Oral"
 msgstr "ওরাল"
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Karaganda".
 #.
-msgid "Qaraghandy"
-msgstr "কারাগান্ডি"
+msgid "Oskemen"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Pavlodar"
+msgstr ""
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Kostanay".
+#. The local name in Russian is "Petropavlovsk".
 #.
-msgid "Qostanay"
-msgstr "কোসটানে"
+msgid "Petropavl"
+msgstr ""
 
-#. A city in Kazakhstan.
-#. The local name in Russian is "Kyzylorda".
-#.
-msgid "Qyzylorda"
-msgstr "কিঝিলোর্ডা"
+#. A city in Kazakhstan
+msgid "Semey"
+msgstr ""
 
 #. A city in Kazakhstan
 msgid "Shymkent"
 msgstr "শিমকিন্ট"
+
+#. A city in Kazakhstan
+msgid "Taraz"
+msgstr ""
 
 #. A city in Kenya
 msgid "Eldoret"
@@ -9444,6 +9491,10 @@ msgstr "আকল্যান্ড"
 msgid "Christchurch"
 msgstr "ক্রাইস্টচার্চ"
 
+#. A city in New Zealand
+msgid "Dunedin"
+msgstr ""
+
 #. The capital of New Zealand
 msgid "Wellington"
 msgstr "ওয়েলিংটন"
@@ -9890,6 +9941,10 @@ msgid "Zamboanga City"
 msgstr "জামবোয়াংগা সিটি"
 
 #. A city in Poland
+msgid "Bydgoszcz"
+msgstr ""
+
+#. A city in Poland
 msgid "Gdańsk"
 msgstr "দানস্ক"
 
@@ -9902,8 +9957,20 @@ msgid "Kraków"
 msgstr "ক্র্যাকাও"
 
 #. A city in Poland
+msgid "Lublin"
+msgstr ""
+
+#. A city in Poland
+msgid "Olsztyn"
+msgstr ""
+
+#. A city in Poland
 msgid "Poznań"
 msgstr "পোজনান"
+
+#. A city in Poland
+msgid "Radom"
+msgstr ""
 
 #. A city in Poland
 msgid "Rzeszów"
@@ -9924,6 +9991,10 @@ msgstr "ওয়ার্সয়"
 #. A city in Poland
 msgid "Wrocław"
 msgstr "রোক্লাও"
+
+#. A city in Poland
+msgid "Zielona Góra"
+msgstr ""
 
 #. A city in Poland
 msgid "Łódź"
@@ -9994,19 +10065,15 @@ msgstr "সিন্ট্রা"
 msgid "Água de Pena"
 msgstr "অ্যাগুয়া ডে পেনা"
 
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
+msgid "Aguadilla"
+msgstr ""
+
+#. A municipality of Puerto Rico
 msgid "Carolina"
 msgstr "ক্যারোলিনা"
 
-#. A city in Puerto Rico
-msgid "Ponce"
-msgstr "পোন্সে"
-
-#. A city in Puerto Rico
-msgid "Rafael Hernandez"
-msgstr "রাফায়েল হেরনান্দেজ"
-
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
 msgid "San Juan"
 msgstr "সান হুয়ান"
 
@@ -10203,7 +10270,6 @@ msgstr "ক্রাসনোডার"
 #. A city in Russia.
 #. The local name in Russian is "Красноярск".
 #.
-#| msgid "Krasnoyarsk Time"
 msgid "Krasnoyarsk"
 msgstr "ক্রাসনোইয়ারক্স"
 
@@ -10882,6 +10948,10 @@ msgid "León"
 msgstr "লিওন"
 
 #. A city in Spain
+msgid "Lleida"
+msgstr ""
+
+#. A city in Spain
 msgid "Los Baldíos"
 msgstr "লস বালডিওস"
 
@@ -11147,7 +11217,6 @@ msgid "Örnsköldsvik"
 msgstr "ওর্নস্কোল্ডস্ভিক"
 
 #. A city in Switzerland
-#| msgid "Kassel"
 msgid "Basel"
 msgstr "ব্যাসেল"
 
@@ -11183,7 +11252,6 @@ msgid "Sion"
 msgstr "সিয়ন"
 
 #. A city in Switzerland
-#| msgid "St. Louis"
 msgid "St. Moritz"
 msgstr "সেন্ট মর্টিজ"
 
@@ -11223,21 +11291,18 @@ msgstr "লাট্টাকিয়া"
 #. A city in Taiwan.
 #. The name is also written "高雄".
 #.
-#| msgid "Kao-hsiung-shih"
 msgid "Kaohsiung"
 msgstr "কাওসিউং"
 
 #. The capital of Taiwan.
 #. The name is also written "臺北".
 #.
-#| msgid "Taipa"
 msgid "Taipei"
 msgstr "তাইপে"
 
 #. A city in Taiwan.
 #. The name is also written "埔頂".
 #.
-#| msgid "Taiyuan"
 msgid "Taoyuan"
 msgstr "তাইউয়ন"
 
@@ -11783,7 +11848,6 @@ msgid "Carlisle"
 msgstr "কার্লাইল"
 
 #. A city in Midlands in the United Kingdom
-#| msgid "Castle Donnington"
 msgid "Castle Donington"
 msgstr "ক্যাসেল ডনিংটন"
 
@@ -19222,126 +19286,3 @@ msgstr "নডোলা"
 #.
 msgid "Mariehamn"
 msgstr "মারিহ্যাম"
-
-#~ msgid "Hésingue"
-#~ msgstr "হেসিনগে"
-
-#~ msgid "Pu-ting"
-#~ msgstr "পু-টিং"
-
-#~ msgid "T'ai-pei Shih"
-#~ msgstr "তাই-পেই শিহ"
-
-#~ msgid "Bombay"
-#~ msgstr "মুম্বাই"
-
-#~ msgid "Calcutta"
-#~ msgstr "কলকাতা"
-
-#~ msgid "Madras"
-#~ msgstr "মাদ্রাস"
-
-#~ msgid "Langenes"
-#~ msgstr "ল্যাঞ্জিনিস"
-
-#~ msgid "Robertson"
-#~ msgstr "রবার্টসন"
-
-#~ msgid "Luanda"
-#~ msgstr "লুয়ান্ডা"
-
-#~ msgid "San Miguel de Tucumán"
-#~ msgstr "সান মিগুয়েল দে টুকুমান"
-
-#~ msgid "Fox Bay"
-#~ msgstr "ফক্স বে"
-
-#~ msgid "Malahat"
-#~ msgstr "মালাহাট"
-
-#~ msgid "Port Colborne"
-#~ msgstr "পোর্ট কোলবোর্ন"
-
-#~ msgid "Nausori"
-#~ msgstr "নাওসোরি"
-
-#~ msgid "Suva"
-#~ msgstr "সুভা"
-
-#~ msgid "Manado"
-#~ msgstr "মানাদো"
-
-#~ msgid "Kunigami"
-#~ msgstr "কুনিগামি"
-
-#~ msgid "Casablanca"
-#~ msgstr "ক্যাসাব্লাঙ্কা"
-
-#~ msgid "Inhambane"
-#~ msgstr "ইনহামবানে"
-
-#~ msgid "Tete"
-#~ msgstr "টেটে"
-
-#~ msgid "Windhoek"
-#~ msgstr "উইন্ডহোয়েক"
-
-#~ msgid "Soesterberg"
-#~ msgstr "সোয়েস্টারবার্গ"
-
-#~ msgid "Ibadan"
-#~ msgstr "ইবাদান"
-
-#~ msgid "Wewak"
-#~ msgstr "ওয়েয়াক"
-
-#~ msgid "Cajamarca"
-#~ msgstr "ক্যাটামার্কা"
-
-#~ msgid "Juanjuí"
-#~ msgstr "জুজুই"
-
-#~ msgid "Tingo María"
-#~ msgstr "টিংগো মারিয়া"
-
-#~ msgid "Yurimaguas"
-#~ msgstr "ইউরিমাগুয়াস"
-
-#~ msgid "Warszawa"
-#~ msgstr "ওয়ার্সজায়া"
-
-#~ msgid "Rustenburg"
-#~ msgstr "রুস্তেনবার্গ"
-
-#~ msgid "Standerton"
-#~ msgstr "স্ট্যান্ডারটন"
-
-#~ msgid "P'ohang"
-#~ msgstr "পোহাং বিমান ঘাঁটি"
-
-#~ msgid "Sach'on"
-#~ msgstr "সাকঅন"
-
-#~ msgid "Saint Mawgan"
-#~ msgstr "সেন্ট মগান"
-
-#~ msgid "Cantwell"
-#~ msgstr "ক্যান্টওয়েল"
-
-#~ msgid "Central"
-#~ msgstr "সেন্ট্রাল"
-
-#~ msgid "Deering"
-#~ msgstr "ডিয়ারিং"
-
-#~ msgid "Golovin"
-#~ msgstr "গোলোভিন"
-
-#~ msgid "Green River"
-#~ msgstr "গ্রিন রিভার"
-
-#~ msgid "Kremmling"
-#~ msgstr "ক্রেমলিং"
-
-#~ msgid "Lincolnton"
-#~ msgstr "লিঙ্কনটন"
