@@ -1,7 +1,6 @@
-# translation of bn_IN.po to Bengali INDIA
-# Translation of mate-applets-locations.HEAD.bn.po to Bangla
-# This file is distributed under the same license as the Mate-applets-locations package.
-# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER.
+# Libraries to allow MATE Desktop to display weather information
+# Copyright (C) 2019 The MATE Team
+# This file is distributed under the same license as the libmateweather package.
 # Sayamindu Dasgupta <unmadindu@softhome.net>, 2004.
 # Runa Bhattacharjee <runa@bengalinux.org>, 2004.
 # Mahay Alam Khan (মাহে আলম খান) <makl10n@yahoo.com>, 2005.
@@ -13,17 +12,17 @@
 # Sankarshan Mukhopadhyay <sankarshan.mukhopadhyay@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: bn_IN\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-04 15:49+0000\n"
+"POT-Creation-Date: 2019-09-17 10:35+0200\n"
 "PO-Revision-Date: 2009-03-04 22:17+0530\n"
 "Last-Translator: Sankarshan Mukhopadhyay <sankarshan.mukhopadhyay@gmail."
 "com>\n"
 "Language-Team: Bengali (India) <discuss@lists.ankur.org.in>\n"
+"Language: bn_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 0.3\n"
 
@@ -102,6 +101,7 @@ msgid "Argentina"
 msgstr "আর্জেনটিনা"
 
 #. AM - Armenia
+#. A city in Colombia
 msgid "Armenia"
 msgstr "আর্মেনিয়া"
 
@@ -836,8 +836,15 @@ msgstr "পোল্যান্ড"
 msgid "Portugal"
 msgstr "পোর্টুগাল"
 
-#. PR - Puerto Rico, a territory of the United States in the
-#. Caribbean.
+#. PR - Puerto Rico, a territory of the United States in the Caribbean.
+#. The following municipalities have airports with valid IACO codes
+#. but no active METAR stations, so we don't include them:
+#. * Arecibo:  TJAB
+#. * Culebra:  TJCP
+#. * Fajardo:  TJFA
+#. * Mayagüez: TJMZ
+#. * Ponce:    TJPS
+#. * Vieques:  TJVQ
 #.
 msgid "Puerto Rico"
 msgstr "পুয়ের্তো রিকো"
@@ -1248,6 +1255,24 @@ msgstr "ম্যাক মুর্দো স্টেশন"
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
 msgstr "অ্যামুন্ডসেন-স্কট সাউথ পোল স্টেশন (নিউজিল্যান্ড সময়)"
 
+#. The timezone on the western islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Barat".
+#.
+msgid "Western Indonesia Time"
+msgstr "ওয়েস্টার্ন ইন্দোনেশিয়া টাইম"
+
+#. The timezone on the central islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
+#.
+msgid "Central Indonesia Time"
+msgstr "সেন্ট্রাল ইন্দোনেশিয়া টাইম"
+
+#. The timezone on the eastern islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Timur".
+#.
+msgid "Eastern Indonesia Time"
+msgstr "ইস্টার্ন ইন্দোনেশিয়া টাইম"
+
 #. The time zone used in the eastern half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 #.
@@ -1416,24 +1441,6 @@ msgstr "মার্কেসাস দ্বীপ"
 #.
 msgid "Gambier Islands"
 msgstr "গ্যাম্বিয়ার আইল্যান্ড"
-
-#. The timezone on the western islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Barat".
-#.
-msgid "Western Indonesia Time"
-msgstr "ওয়েস্টার্ন ইন্দোনেশিয়া টাইম"
-
-#. The timezone on the central islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
-#.
-msgid "Central Indonesia Time"
-msgstr "সেন্ট্রাল ইন্দোনেশিয়া টাইম"
-
-#. The timezone on the eastern islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Timur".
-#.
-msgid "Eastern Indonesia Time"
-msgstr "ইস্টার্ন ইন্দোনেশিয়া টাইম"
 
 #. The time zone in the Gilbert Islands, one of the three
 #. main island groups of Kiribati. This string is only used
@@ -1747,14 +1754,22 @@ msgstr "সামারা সময়সীমা"
 msgid "Yekaterinburg Time"
 msgstr "ইয়েকাটেরিনবার্গ সময়"
 
-#. A Russian time zone, used in the Omsk and Novosibirsk
-#. oblasts and surrounding areas of south-central Russia.
+#. A Russian time zone, used in the Omsk oblast
+#. and surrounding areas of south-central Russia.
 #. The Russian name is "Омское время". This string is only
 #. used in places where "Russia" is already clear from
 #. context.
 #.
 msgid "Omsk Time"
 msgstr "ওমস্ক"
+
+#. A Russian time zone, used in the Novosibirsk oblast.
+#. The Russian name is "Новосибирское время".
+#. This string is only used in places
+#. where "Russia" is already clear from context.
+#.
+msgid "Novosibirsk Time"
+msgstr ""
 
 #. A Russian time zone, used in the Krasnoyarsk krai and
 #. surrounding areas of central Russia. The Russian name is
@@ -3641,6 +3656,10 @@ msgstr "কুইয়াবা"
 #. A city in Paraná in Brazil
 msgid "Curitiba"
 msgstr "কুরিটিবা"
+
+#. A city in Bahia in Brazil
+msgid "Feira de Santana"
+msgstr ""
 
 #. A city in Santa Catarina in Brazil
 msgid "Florianópolis"
@@ -5827,12 +5846,44 @@ msgid "Cúcuta"
 msgstr "কুকুতা"
 
 #. A city in Colombia
+msgid "Ibagué"
+msgstr ""
+
+#. A city in Colombia
+msgid "Ipiales"
+msgstr ""
+
+#. A city in Colombia
 msgid "Leticia"
 msgstr "লেটিসিয়া"
 
 #. A city in Colombia
+msgid "Medellín"
+msgstr ""
+
+#. A city in Colombia
+msgid "Monteria"
+msgstr ""
+
+#. A city in Colombia
+msgid "Pasto"
+msgstr ""
+
+#. A city in Colombia
 msgid "Pereira"
 msgstr "পেরৈরা"
+
+#. A city in Colombia
+msgid "Popayán"
+msgstr ""
+
+#. A city in Colombia
+msgid "Quibdó"
+msgstr ""
+
+#. A city in Colombia
+msgid "Riohacha"
+msgstr ""
 
 #. A city in Colombia
 msgid "Rionegro"
@@ -5841,6 +5892,14 @@ msgstr "রিওনেগ্রো"
 #. A city in Colombia
 msgid "San Andrés"
 msgstr "সান আন্দ্রেজ"
+
+#. A city in Colombia
+msgid "Santa Marta"
+msgstr ""
+
+#. A city in Colombia
+msgid "Villavicencio"
+msgstr ""
 
 #. A city in Comoros
 msgid "Mbaléni"
@@ -6340,6 +6399,12 @@ msgstr "উট্টি"
 msgid "Vaasa"
 msgstr "ভাসা"
 
+#. A city in Finland.
+#. The local name in Swedish is "Vanda".
+#.
+msgid "Vantaa"
+msgstr ""
+
 #. A city in Finland
 msgid "Varkaus"
 msgstr "ভারকাউস"
@@ -6519,10 +6584,6 @@ msgid "Hyères"
 msgstr "হায়ারেস"
 
 #. A city in France
-msgid "Hésingue"
-msgstr "হেসিনগে"
-
-#. A city in France
 msgid "Istres"
 msgstr "ইস্টরে"
 
@@ -6589,6 +6650,10 @@ msgstr "মন্টপেলিয়ার"
 #. A city in France
 msgid "Montélimar"
 msgstr "মন্টেলিমার"
+
+#. A city in France
+msgid "Mulhouse"
+msgstr ""
 
 #. A city in France
 msgid "Mâcon"
@@ -7300,6 +7365,10 @@ msgctxt "City in Guyana"
 msgid "Georgetown"
 msgstr "জর্জটাউন"
 
+#. Capital of Haiti
+msgid "Port-au-Prince"
+msgstr ""
+
 #. A city in Honduras
 msgid "Amapala"
 msgstr "আমাপালা"
@@ -7405,12 +7474,45 @@ msgid "Ytri-Njarðvík"
 msgstr "Ytri-Njarðvík"
 
 #. A city in India
+#. the local name in Bengali is "আগরতলা/Agortôla"
+msgid "Agartala"
+msgstr ""
+
+#. A city in India
+#. the local name in Hindi is "आगरा"
+#.
+msgid "Agra"
+msgstr ""
+
+#. A city in India
 msgid "Ahmadabad"
 msgstr "আহমেদাবাদ"
 
 #. A city in India
+#. the local name in Hindi is "इलाहाबाद"
+msgid "Allahabad"
+msgstr ""
+
+#. A city in India
+#. the local name in Punjabi is "ਅੰਮ੍ਰਿਤਸਰ"
+#.
 msgid "Amritsar"
 msgstr "অমৃতসর"
+
+#. A city in India
+#. the local name in Marathi is "औरंगाबाद"
+msgid "Aurangabad"
+msgstr ""
+
+#. A city in India
+msgid "Bagdogra"
+msgstr ""
+
+#. A city in India - local airport
+#. "Bengaluru" is the new name
+#.
+msgid "Bangalore"
+msgstr ""
 
 #. A city in India.
 #. "Benares" is the traditional English name.
@@ -7420,19 +7522,61 @@ msgstr "অমৃতসর"
 msgid "Benares"
 msgstr "বেনারস"
 
-#. A city in India.
-#. "Bombay" is the traditional English name.
-#. The local name in Marathi is "Mumbai /  मुंबई".
-#.
-msgid "Bombay"
-msgstr "বম্বে"
+#. A city in India
+#. the local name in Gujrati is "ભાવનગર"
+#. the local name in Hindi is "भावनगर"
+msgid "Bhavnagar"
+msgstr ""
 
 #. A city in India.
-#. "Calcutta" is the traditional English name.
-#. The local name in Bengali is "Kolkata /  কলকাতা".
+#. The local name in Hindi is "भोपाल".
 #.
-msgid "Calcutta"
-msgstr "কলকাতা/দম দম"
+msgid "Bhopal"
+msgstr ""
+
+#. A city in India.
+#. The local name in Oriya is "ଭୁବେନଶ୍ବର".
+#.
+msgid "Bhubaneshwar"
+msgstr ""
+
+#. A city in India.
+msgid "Bhuj"
+msgstr ""
+
+#. A union territory in India.
+#. The local name in Hindi is "चण्डीगढ़ / चंडीगढ़"
+#. The local name in Punjabi is "ਚੰਡੀਗੜ੍ਹ"
+msgid "Chandigarh"
+msgstr ""
+
+#. A city in India.
+#. "Madras" is the traditional English name.
+#. The local name in Tamil is "Chennai / சென்னை".
+#.
+msgid "Chennai"
+msgstr ""
+
+#. A city in India.
+#. The local name in Tamil is "கோயம்புத்தூர்".
+#.
+msgid "Coimbatore"
+msgstr ""
+
+#. A city in India
+#. also known as Dehra Doon
+#. the local name in Hindi is "देहरादून"
+msgid "Dehradun"
+msgstr ""
+
+#. A city in India
+msgid "Dibrugarh"
+msgstr ""
+
+#. A city in India
+#. the local name in Hindi is "दीमापुर"
+msgid "Dimapur"
+msgstr ""
 
 #. A city in India
 msgid "Hyderabad"
@@ -7443,17 +7587,40 @@ msgid "Jaipur"
 msgstr "জয়পুর"
 
 #. A city in India.
+#. The local name in Dogri is "जम्मू"
+msgid "Jammu"
+msgstr ""
+
+#. A city in India.
+#. The old name is "Cochin"
+#. A city in Japan
+msgid "Kochi"
+msgstr "কোচি"
+
+#. A city in India.
+#. "Calcutta" is the traditional English name.
+#. The local name in Bengali is "Kolkata /  কলকাতা".
+#.
+msgid "Kolkata"
+msgstr ""
+
+#. A city in India.
+#. The local name in Hindi is "लेह"
+msgid "Leh"
+msgstr ""
+
+#. A city in India.
 #. The local name in Hindi is "लखनऊ".
 #.
 msgid "Lucknow"
 msgstr "লক্ষ্ণৌ"
 
 #. A city in India.
-#. "Madras" is the traditional English name.
-#. The local name in Tamil is "Chennai / சென்னை".
+#. "Bombay" is the traditional English name.
+#. The local name in Marathi is "Mumbai /  मुंबई".
 #.
-msgid "Madras"
-msgstr "মাদ্রাস"
+msgid "Mumbai"
+msgstr ""
 
 #. A city in India
 msgid "Nagpur"
@@ -7470,6 +7637,21 @@ msgstr "নতুন দিল্লি/পালাম"
 #. A city in India
 msgid "Patna"
 msgstr "পাটনা"
+
+#. A city in India
+msgid "Pune"
+msgstr ""
+
+#. A city in India.
+#. The local name in Hindi is "शिमला"
+msgid "Shimla"
+msgstr ""
+
+#. A city in India.
+#. The local name in Dogri is "श्रीनगर"
+#. The local name in Urdu is "شرینگر"
+msgid "Srinagar"
+msgstr ""
 
 #. A city in India.
 #. The local name in Malayalam is "തിരുവനന്തപുരം".
@@ -7502,6 +7684,10 @@ msgstr "পালেব্যাং"
 #. A city in Indonesia
 msgid "Pekanbaru"
 msgstr "পেকানবারু"
+
+#. A city in Indonesia
+msgid "Yogyakarta"
+msgstr ""
 
 #. A city in Iran.
 #. The name is also written "آبادان".
@@ -7834,6 +8020,10 @@ msgid "Alghero"
 msgstr "এলঘেরো"
 
 #. A city in Italy
+msgid "Ancona"
+msgstr ""
+
+#. A city in Italy
 msgid "Aviano"
 msgstr "এভিয়ানো"
 
@@ -7978,10 +8168,6 @@ msgstr "মেসিনা"
 #.
 msgid "Milan"
 msgstr "মিলান"
-
-#. A city in Italy
-msgid "Molino di Ancona"
-msgstr "মেলিনও দি আনকোনা"
 
 #. A city in Italy.
 #. "Naples" is the traditional English name.
@@ -8255,10 +8441,6 @@ msgid "Kitakyushu"
 msgstr "কিটাকিউশু"
 
 #. A city in Japan
-msgid "Kochi"
-msgstr "কোচি"
-
-#. A city in Japan
 msgid "Komatsu"
 msgstr "কোমাটসু"
 
@@ -8490,24 +8672,46 @@ msgid "Amman"
 msgstr "আম্মান"
 
 #. A city in Kazakhstan
+msgid "Aktau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Aktobe"
+msgstr ""
+
+#. A city in Kazakhstan
 msgid "Almaty"
 msgstr "আলমাটি"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktau".
-#.
-msgid "Aqtau"
-msgstr "অ্যাকটাউ"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktobe".
-#.
-msgid "Aqtöbe"
-msgstr "আকটোবে"
 
 #. The capital of Kazakhstan
 msgid "Astana"
 msgstr "আস্তানা"
+
+#. A city in Kazakhstan
+msgid "Atyrau"
+msgstr ""
+
+#. A city in Kazakhstan.
+#. The local name in Russian is "Balkhash".
+#.
+msgid "Balqash"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Karaganda"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kokshetau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kostanay"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kyzylorda"
+msgstr ""
 
 #. A city in Kazakhstan.
 #. The local name in Russian is "Ural'sk".
@@ -8516,26 +8720,31 @@ msgid "Oral"
 msgstr "ওরাল"
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Karaganda".
 #.
-msgid "Qaraghandy"
-msgstr "কারাগান্ডি"
+msgid "Oskemen"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Pavlodar"
+msgstr ""
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Kostanay".
+#. The local name in Russian is "Petropavlovsk".
 #.
-msgid "Qostanay"
-msgstr "কোসটানে"
+msgid "Petropavl"
+msgstr ""
 
-#. A city in Kazakhstan.
-#. The local name in Russian is "Kyzylorda".
-#.
-msgid "Qyzylorda"
-msgstr "কিঝিলোর্ডা"
+#. A city in Kazakhstan
+msgid "Semey"
+msgstr ""
 
 #. A city in Kazakhstan
 msgid "Shymkent"
 msgstr "শিমকিন্ট"
+
+#. A city in Kazakhstan
+msgid "Taraz"
+msgstr ""
 
 #. A city in Kenya
 msgid "Eldoret"
@@ -9282,6 +9491,10 @@ msgstr "আকল্যান্ড"
 msgid "Christchurch"
 msgstr "ক্রাইস্টচার্চ"
 
+#. A city in New Zealand
+msgid "Dunedin"
+msgstr ""
+
 #. The capital of New Zealand
 msgid "Wellington"
 msgstr "ওয়েলিংটন"
@@ -9326,7 +9539,7 @@ msgstr "নিয়ামে-অ্যারো"
 msgid "Zinder"
 msgstr "জিন্দার"
 
-#. A city in Nigeria
+#. A city in Lagos Nigeria
 msgid "Ikeja"
 msgstr "ইকেজা"
 
@@ -9456,10 +9669,6 @@ msgid "Kristiansund"
 msgstr "ক্রিস্টিয়ানস্ট্যাড"
 
 #. A city in Norway
-msgid "Langenes"
-msgstr "ল্যাঞ্জিনিস"
-
-#. A city in Norway
 msgid "Mehamn"
 msgstr "মেহাম"
 
@@ -9546,6 +9755,10 @@ msgstr "সোর্কজোসেন"
 #. A city in Norway
 msgid "Torp"
 msgstr "টর্প"
+
+#. A city in Norway
+msgid "Tromsø"
+msgstr ""
 
 #. A city in Norway
 msgid "Trondheim"
@@ -9728,6 +9941,10 @@ msgid "Zamboanga City"
 msgstr "জামবোয়াংগা সিটি"
 
 #. A city in Poland
+msgid "Bydgoszcz"
+msgstr ""
+
+#. A city in Poland
 msgid "Gdańsk"
 msgstr "দানস্ক"
 
@@ -9740,8 +9957,20 @@ msgid "Kraków"
 msgstr "ক্র্যাকাও"
 
 #. A city in Poland
+msgid "Lublin"
+msgstr ""
+
+#. A city in Poland
+msgid "Olsztyn"
+msgstr ""
+
+#. A city in Poland
 msgid "Poznań"
 msgstr "পোজনান"
+
+#. A city in Poland
+msgid "Radom"
+msgstr ""
 
 #. A city in Poland
 msgid "Rzeszów"
@@ -9762,6 +9991,14 @@ msgstr "ওয়ার্সয়"
 #. A city in Poland
 msgid "Wrocław"
 msgstr "রোক্লাও"
+
+#. A city in Poland
+msgid "Zielona Góra"
+msgstr ""
+
+#. A city in Poland
+msgid "Łódź"
+msgstr ""
 
 #. A city in Portugal
 msgid "Beja"
@@ -9828,19 +10065,15 @@ msgstr "সিন্ট্রা"
 msgid "Água de Pena"
 msgstr "অ্যাগুয়া ডে পেনা"
 
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
+msgid "Aguadilla"
+msgstr ""
+
+#. A municipality of Puerto Rico
 msgid "Carolina"
 msgstr "ক্যারোলিনা"
 
-#. A city in Puerto Rico
-msgid "Ponce"
-msgstr "পোন্সে"
-
-#. A city in Puerto Rico
-msgid "Rafael Hernandez"
-msgstr "রাফায়েল হেরনান্দেজ"
-
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
 msgid "San Juan"
 msgstr "সান হুয়ান"
 
@@ -10035,6 +10268,12 @@ msgid "Krasnodar"
 msgstr "ক্রাসনোডার"
 
 #. A city in Russia.
+#. The local name in Russian is "Красноярск".
+#.
+msgid "Krasnoyarsk"
+msgstr ""
+
+#. A city in Russia.
 #. The local name in Russian is "Магадан".
 #.
 msgid "Magadan"
@@ -10169,6 +10408,10 @@ msgstr "সিকটিভকার"
 #. A city in Russia
 msgid "Tiksi"
 msgstr "টাকসি"
+
+#. A city in Russia
+msgid "Tyumen"
+msgstr ""
 
 #. A city in Russia
 msgid "Udachnyy"
@@ -10705,6 +10948,10 @@ msgid "León"
 msgstr "লিওন"
 
 #. A city in Spain
+msgid "Lleida"
+msgstr ""
+
+#. A city in Spain
 msgid "Los Baldíos"
 msgstr "লস বালডিওস"
 
@@ -10969,6 +11216,10 @@ msgstr "ওরেব্রো"
 msgid "Örnsköldsvik"
 msgstr "ওর্নস্কোল্ডস্ভিক"
 
+#. A city in Switzerland
+msgid "Basel"
+msgstr ""
+
 #. The capital of Switzerland
 msgid "Bern"
 msgstr "বার্ন"
@@ -10999,6 +11250,10 @@ msgstr "সানক্ট গ্যালেন"
 #. A city in Switzerland
 msgid "Sion"
 msgstr "সিয়ন"
+
+#. A city in Switzerland
+msgid "St. Moritz"
+msgstr ""
 
 #. A city in Switzerland
 msgid "Zürich"
@@ -11034,22 +11289,22 @@ msgid "Latakia"
 msgstr "লাট্টাকিয়া"
 
 #. A city in Taiwan.
-#. The name is also written "高雄巿".
+#. The name is also written "高雄".
 #.
-msgid "Kao-hsiung-shih"
-msgstr "কাওসিউং"
+msgid "Kaohsiung"
+msgstr ""
+
+#. The capital of Taiwan.
+#. The name is also written "臺北".
+#.
+msgid "Taipei"
+msgstr ""
 
 #. A city in Taiwan.
 #. The name is also written "埔頂".
 #.
-msgid "Pu-ting"
-msgstr "পু-টিং"
-
-#. The capital of Taiwan.
-#. The name is also written "臺北市".
-#.
-msgid "T'ai-pei Shih"
-msgstr "তাই-পেই শিহ"
+msgid "Taoyuan"
+msgstr ""
 
 #. The capital of Tajikistan
 msgid "Dushanbe"
@@ -11593,8 +11848,8 @@ msgid "Carlisle"
 msgstr "কার্লাইল"
 
 #. A city in Midlands in the United Kingdom
-msgid "Castle Donnington"
-msgstr "কাসেল ডনিংটন"
+msgid "Castle Donington"
+msgstr ""
 
 #. A city in North West England in the United Kingdom
 msgid "Church Fenton"
@@ -17225,10 +17480,6 @@ msgstr "রোয়ানোকে"
 msgid "Roanoke Rapids"
 msgstr "রোয়ানেক রেপিডস"
 
-#. A city in Missouri in the United States
-msgid "Robertson"
-msgstr "রবার্টসন"
-
 #. A city in Illinois in the United States
 msgid "Robinson"
 msgstr "রবিনসন"
@@ -17849,6 +18100,10 @@ msgstr "স্প্রিংফিল্ড"
 msgctxt "City in Vermont, United States"
 msgid "Springfield"
 msgstr "স্প্রিংফিল্ড"
+
+#. A city in Missouri in the United States
+msgid "St. Louis"
+msgstr ""
 
 #. A city in Virginia in the United States
 msgid "Stafford"
@@ -19031,1663 +19286,3 @@ msgstr "নডোলা"
 #.
 msgid "Mariehamn"
 msgstr "মারিহ্যাম"
-
-#~ msgid "Luanda"
-#~ msgstr "লুয়ান্ডা"
-
-#~ msgid "San Miguel de Tucumán"
-#~ msgstr "সান মিগুয়েল দে টুকুমান"
-
-#~ msgid "Fox Bay"
-#~ msgstr "ফক্স বে"
-
-#~ msgid "Malahat"
-#~ msgstr "মালাহাট"
-
-#~ msgid "Port Colborne"
-#~ msgstr "পোর্ট কোলবোর্ন"
-
-#~ msgid "Nausori"
-#~ msgstr "নাওসোরি"
-
-#~ msgid "Suva"
-#~ msgstr "সুভা"
-
-#~ msgid "Manado"
-#~ msgstr "মানাদো"
-
-#~ msgid "Kunigami"
-#~ msgstr "কুনিগামি"
-
-#~ msgid "Casablanca"
-#~ msgstr "ক্যাসাব্লাঙ্কা"
-
-#~ msgid "Inhambane"
-#~ msgstr "ইনহামবানে"
-
-#~ msgid "Tete"
-#~ msgstr "টেটে"
-
-#~ msgid "Windhoek"
-#~ msgstr "উইন্ডহোয়েক"
-
-#~ msgid "Soesterberg"
-#~ msgstr "সোয়েস্টারবার্গ"
-
-#~ msgid "Ibadan"
-#~ msgstr "ইবাদান"
-
-#~ msgid "Wewak"
-#~ msgstr "ওয়েয়াক"
-
-#~ msgid "Cajamarca"
-#~ msgstr "ক্যাটামার্কা"
-
-#~ msgid "Juanjuí"
-#~ msgstr "জুজুই"
-
-#~ msgid "Tingo María"
-#~ msgstr "টিংগো মারিয়া"
-
-#~ msgid "Yurimaguas"
-#~ msgstr "ইউরিমাগুয়াস"
-
-#~ msgid "Warszawa"
-#~ msgstr "ওয়ার্সজায়া"
-
-#~ msgid "Rustenburg"
-#~ msgstr "রুস্তেনবার্গ"
-
-#~ msgid "Standerton"
-#~ msgstr "স্ট্যান্ডারটন"
-
-#~ msgid "P'ohang"
-#~ msgstr "পোহাং বিমান ঘাঁটি"
-
-#~ msgid "Sach'on"
-#~ msgstr "সাকঅন"
-
-#~ msgid "Saint Mawgan"
-#~ msgstr "সেন্ট মগান"
-
-#~ msgid "Cantwell"
-#~ msgstr "ক্যান্টওয়েল"
-
-#~ msgid "Central"
-#~ msgstr "সেন্ট্রাল"
-
-#~ msgid "Deering"
-#~ msgstr "ডিয়ারিং"
-
-#~ msgid "Golovin"
-#~ msgstr "গোলোভিন"
-
-#~ msgid "Green River"
-#~ msgstr "গ্রিন রিভার"
-
-#~ msgid "Kremmling"
-#~ msgstr "ক্রেমলিং"
-
-#~ msgid "Lincolnton"
-#~ msgstr "লিঙ্কনটন"
-
-#~| msgid "Monticello"
-#~ msgctxt "City in Kentucky, United States"
-#~ msgid "Monticello"
-#~ msgstr "মন্টিসেলো"
-
-#~ msgid "New Shoreham"
-#~ msgstr "নিউ শোরহ্যাম"
-
-#~ msgid "Red Cliff"
-#~ msgstr "রেড ক্লিফ"
-
-#~ msgid "Richlands"
-#~ msgstr "রিচল্যান্ডস"
-
-#~ msgid "Sabine Pass"
-#~ msgstr "সেবাইন পাস"
-
-#~ msgid "Taunton"
-#~ msgstr "টওনটন"
-
-#~ msgid "West Yellowstone"
-#~ msgstr "ওয়েস্ট ইয়েল্লোস্টোন"
-
-#~ msgid "Whiteville"
-#~ msgstr "ওয়াইটভিল"
-
-#~ msgid "Willimantic"
-#~ msgstr "উইলিমান্টিক"
-
-#~ msgid "Woodward"
-#~ msgstr "উডওয়ার্ড"
-
-#~ msgid "Harare"
-#~ msgstr "হারারে"
-
-#~ msgid "Abilene Regional Airport"
-#~ msgstr "অ্যাবিলিন আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Abu Dhabi Bateen Airport"
-#~ msgstr "আবু ধাবি বাতিন বিমানবন্দর"
-
-#~ msgid "Abu Dhabi International Airport"
-#~ msgstr "আবু ধাবি আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Abumusa Island, Abumusa Airport"
-#~ msgstr "আবুমুসা দ্বীপ, আবুমুসা বিমানবন্দর"
-
-#~ msgid "Adams Field"
-#~ msgstr "অ্যাডামস ফিল্ড"
-
-#~ msgid "Adana-Incirlik Airport"
-#~ msgstr "অ্যাডানা-ইনসার্লিক বিমানবন্দর"
-
-#~ msgid "Adana-Sakirpasa Airport"
-#~ msgstr "অ্যাডানা-সাকিরপাশা বিমানবন্দর"
-
-#~ msgid "Addison Airport"
-#~ msgstr "অ্যাডিসন বিমানবন্দর"
-
-#~ msgid "Afonsos Airport"
-#~ msgstr "অ্যাফোন্সো বিমানবন্দর"
-
-#~ msgid "Air Force Academy"
-#~ msgstr "এয়ার ফোর্স আকাডেমি"
-
-#~ msgid "Airlake Airport"
-#~ msgstr "এয়ারলেক এয়ারপোর্ট"
-
-#~ msgid "Akron Fulton International Airport"
-#~ msgstr "অ্যাক্রন ফুলটোন আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Akron-Canton Regional Airport"
-#~ msgstr "অ্যাক্রন-ক্যানটন আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Al Udeid"
-#~ msgstr "অ্যাল উদেইদ"
-
-#~ msgid "Alamogordo-White"
-#~ msgstr "আলামোগোর্ডো-ওয়াইট"
-
-#~ msgid "Albuquerque International Airport"
-#~ msgstr "অ্যাবুকার্ক আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Aldergrove Airport"
-#~ msgstr "অলডারগ্রোভ বিমানবন্দর"
-
-#~ msgid "Alexandria Borg El Arab"
-#~ msgstr "অ্যালেকজান্ডার বোর্গ এল আরাব"
-
-#~ msgid "Alexandria Esler Regional Airport"
-#~ msgstr "আলেকজেন্দ্রিয়া এলসার আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Alexandria International Airport"
-#~ msgstr "আলেকজেন্দ্রিয়া আন্তর্জাতিক বিমানবন্দ"
-
-#~ msgid "Allegheny County Airport"
-#~ msgstr "অ্যালিঘেনি কাউন্টি বিমানবন্দর"
-
-#~ msgid "Altus / Quartz Mountain Regional Airport"
-#~ msgstr "অলটাস / কোয়ার্টজ মাউনটেন আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Altus Air Force Base"
-#~ msgstr "অলটাস বায়ুসেনা ঘাঁটি"
-
-#~ msgid "Ambouli"
-#~ msgstr "অ্যামবৌলি"
-
-#~ msgid "Ankara-Esenboga Airport"
-#~ msgstr "আনকারা-এসেনবোগা বিমানবন্দর"
-
-#~ msgid "Ankara-Etimesgut Airport"
-#~ msgstr "আনকারা-এটিমেসগুট বিমানবন্দর"
-
-#~ msgid "Ankara-Guvercin Lik Airport"
-#~ msgstr "আনকারা-গিউভারসিন লিক বিমানবন্দর"
-
-#~ msgid "Ansbach"
-#~ msgstr "আন্সবাখ"
-
-#~ msgid "Aomen"
-#~ msgstr "আওমেন"
-
-#~ msgid "Ardmore Downtown Executive Airport"
-#~ msgstr "আর্ডমোর ডাউনটাউন এক্সিকিউটিভ বিমানবন্দর"
-
-#~ msgid "Ardmore Municipal Airport"
-#~ msgstr "আর্ডমোর মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Arkansas City"
-#~ msgstr "আর্কানসাস সিটি"
-
-#~ msgid "Austin City, Austin Camp Mabry"
-#~ msgstr "অস্টিন সিটি, অস্টিন ক্যাম্প মেব্রি"
-
-#~ msgid "Austin-Bergstrom International Airport"
-#~ msgstr "অস্টিন-বার্গস্ট্রোম আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Aviano US Air Force Base"
-#~ msgstr "অ্যাভিয়ানো মার্কিন বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Babelthuap Island, Babelthuap / Koror Airport"
-#~ msgstr "ব্যাবেলথুয়াপ দ্বীপ, ব্যাবেলথুয়াপ / কোরোর বিমানবন্দর"
-
-#~ msgid "Baden-Baden"
-#~ msgstr "বাদেন-বাদেন"
-
-#~ msgid "Baltimore / Martin"
-#~ msgstr "বালটিমোর / মার্টিন"
-
-#~ msgid "Baltimore, Inner Harbor"
-#~ msgstr "বালটিমোর / ইনার হার্বার"
-
-#~ msgid "Baltimore-Washington International Airport"
-#~ msgstr "বালটিমোর-ওয়াশিংটন আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Banff Marine Aviation Reporting Station"
-#~ msgstr "বানফ মেরিন এভিয়েশন রিপোর্টিং স্টেশন"
-
-#~ msgid "Barca"
-#~ msgstr "বার্কা"
-
-#~ msgid "Barksdale Air Force Base"
-#~ msgstr "বার্কসডেল বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Beale Air Force Base"
-#~ msgstr "বিয়েল বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Beldringe"
-#~ msgstr "বেল্ডরিঞ্জ"
-
-#~ msgid "Belfast / Harbour"
-#~ msgstr "বেলফাস্ট / হার্বার"
-
-#~ msgid "Belo Horizonte Airport"
-#~ msgstr "বেলো হোরিজোনতে বিমানবন্দর"
-
-#~ msgid "Berlin-Schoenefeld"
-#~ msgstr "বার্লিন-স্কোনফেল্ড"
-
-#~ msgid "Berlin-Tegel"
-#~ msgstr "বার্লিন-তেগেল"
-
-#~ msgid "Berlin-Tempelhof"
-#~ msgstr "বার্লিন-টেমপেলহোফ"
-
-#~ msgid "Blaine"
-#~ msgstr "ব্লেইন"
-
-#~ msgid "Bobby L Chain Municipal Airport"
-#~ msgstr "ববি এল চেন মিউনিসিপাল এয়ারপোর্ট"
-
-#~ msgid "Bolton Field Airport"
-#~ msgstr "বোল্টন ফিল্ড এয়ারপোর্ট"
-
-#~ msgid "Bowman Field Airport"
-#~ msgstr "বোম্যান ফিল্ড বিমানবন্দর"
-
-#~ msgid "Bradenton"
-#~ msgstr "ব্যাডেন্টন"
-
-#~ msgid "Bratts Lake"
-#~ msgstr "ব্র্যাটস লেক"
-
-#~ msgid "Brown Field Municipal Airport"
-#~ msgstr "ব্রাউন ফিল্ড মিইনিসিপ্যাল এয়ারপোর্ট"
-
-#~ msgid "Brunswick / Glynco"
-#~ msgstr "ব্রানসউইক"
-
-#~ msgid "Bucharest / Imh"
-#~ msgstr "বুখারেস্ট"
-
-#~ msgid "Bucuresti Otopeni"
-#~ msgstr "বুকুরেস্টি ওটোপেনি"
-
-#~ msgid "Burke Lakefront Airport"
-#~ msgstr "বার্ক লেকফ্রন্ট বিমানবন্দর"
-
-#~ msgid "Bush Field"
-#~ msgstr "বুশ ফিল্ড"
-
-#~ msgid "Cairns Army Air Field / Ozark"
-#~ msgstr "কেইর্নস সেনা এয়ার ফিল্ড"
-
-#~ msgid "Calden"
-#~ msgstr "ক্যালডেন"
-
-#~ msgid "Calgary International"
-#~ msgstr "ক্যালগেরি ইন্টারন্যাশনাল"
-
-#~ msgid "Calgary-Springbank Airport"
-#~ msgstr "ক্যালগেরি এয়ারপোর্ট"
-
-#~ msgid "Cannon Air Force Base / Clovis"
-#~ msgstr "কেনন এয়ার ফোর্স বেস"
-
-#~ msgid "Cape Newenham, Cape Newenham LRRS Airport"
-#~ msgstr "কেপ নেউয়েনহ্যাম"
-
-#~ msgid "Capital City Airport"
-#~ msgstr "ক্যাপিটাল সিটি বিমানবন্দর"
-
-#~ msgid "Cecil Field Airport"
-#~ msgstr "সেসিল ফিল্ড বিমান ঘাঁটি"
-
-#~ msgid "Centennial Airport"
-#~ msgstr "সেনটিনিয়াল বিমানবন্দর"
-
-#~ msgid "Changi Airport"
-#~ msgstr "চাংগি বিমানবন্দর"
-
-#~ msgid "Charleroi"
-#~ msgstr "চার্লেরোয়"
-
-#~ msgid "Charles de Gaulle International Airport"
-#~ msgstr "চার্লস দা গল আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Charlestown"
-#~ msgstr "চার্লস্টন"
-
-#~ msgid "Chicago / Romeoville, Lewis University Airport"
-#~ msgstr "চিকাগো রোমিওভিল, লুইস ইউনিভার্সিটি এয়ারপোর্ট"
-
-#~ msgid "Chicago / Wheeling, Pal-Waukee Airport"
-#~ msgstr "চিকাগো"
-
-#~ msgid "Chicago Midway Airport"
-#~ msgstr "চিকাগো মিডওয়ে বিমানবন্দর"
-
-#~ msgid "Chicago-O'Hare International Airport"
-#~ msgstr "চিকাগো-ও'হেয়ার আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Chitose Air Base"
-#~ msgstr "চিটোস বিমান ঘাঁটি"
-
-#~ msgid "Chitose Japanese Air Self Defense Force"
-#~ msgstr "চিতোজ জাপানিজ এয়ার সেল্ফ ডিফেন্স ফোর্স"
-
-#~ msgid "Ciampino Airport"
-#~ msgstr "চিয়াম্পিনো এয়ারপোর্ট"
-
-#~ msgid "Cincinnati Municipal Airport, Lunken Field"
-#~ msgstr "সিনসিনাটি মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "City of Colorado Springs Municipal Airport"
-#~ msgstr "সিটি অব কলোরাডো মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Cleveland / Cuyahoga"
-#~ msgstr "ক্লিভল্যান্ড"
-
-#~ msgid "Cleveland-Hopkins International Airport"
-#~ msgstr "ক্লিভল্যান্ড-হপকিনস ইন্টারন্যাশনাল এয়ারপোর্ট"
-
-#~ msgid "Clinton Regional Airport"
-#~ msgstr "ক্লিন্টন আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Clinton-Sherman Airport"
-#~ msgstr "ক্লিন্টন-শেরমান এয়ারপোর্ট"
-
-#~ msgid "Clovis Municipal Airport"
-#~ msgstr "ক্লোভিস মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Cobb County-McCollum Field Airport"
-#~ msgstr "কব কাউন্টি ম্যাকোলাম ফিল্ড বিমানবন্দর"
-
-#~ msgid "Cocoa Beach"
-#~ msgstr "কোকো বিচ"
-
-#~ msgid "Cologne"
-#~ msgstr "কোলোন"
-
-#~ msgid "Colonel James Jabara Airport"
-#~ msgstr "কলোনেল জেমস জাবারা এয়ারপোর্ট"
-
-#~ msgid "Columbia Metropolitan Airport"
-#~ msgstr "কলম্বিয়া মেট্রোপোলিটান এয়ারপোর্ট"
-
-#~ msgid "Columbia Owens Downtown Airport"
-#~ msgstr "কলম্বিয়া ওয়েন্স ডাউনটাউন বিমানবন্দর"
-
-#~ msgid "Columbus / West Point / Starkville, Golden Triangle Regional Airport"
-#~ msgstr "কলম্বাস"
-
-#~ msgid "Columbus Air Force Base"
-#~ msgstr "কলম্বাস এয়ার ফোর্স বেস"
-
-#~ msgid "Congonhas Airport"
-#~ msgstr "কঙ্গোনহাস বিমানবন্দর"
-
-#~ msgid "Copper Mountain"
-#~ msgstr "কপার মাউন্টেন"
-
-#~ msgid "Corpus Christi International Airport"
-#~ msgstr "কর্পাস ক্রিস্টি ইন্টারন্যাশনাল এয়ারপোর্ট"
-
-#~ msgid "Corpus Christi Naval Air Station / Truax Field"
-#~ msgstr "কর্পাস ক্রিস্টি ন্যাভাল এয়ার স্টেশন"
-
-#~ msgid "Covington"
-#~ msgstr "কভিংটন"
-
-#~ msgid ""
-#~ "Covington / Cincinnati, Cincinnati / Northern Kentucky International "
-#~ "Airport"
-#~ msgstr "কোভিংটন"
-
-#~ msgid "Cox Dayton International Airport"
-#~ msgstr "কক্স ডেয়টন আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Craig Municipal Airport"
-#~ msgstr "ক্রেইগ মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Crystal Airport"
-#~ msgstr "ক্রিস্ট্যাল বিমানবন্দর"
-
-#~ msgid "Curitiba Airport"
-#~ msgstr "কুরিটিবা এয়ারপোর্ট"
-
-#~ msgid "Cypress Hills Park"
-#~ msgstr "সাইপ্রেস হিলস পার্ক"
-
-#~ msgid "Dalcross"
-#~ msgstr "ডালক্রস"
-
-#~ msgid "Dallas / Fort Worth, Dallas / Fort Worth International Airport"
-#~ msgstr "ডালাস / ফোর্ট ওয়র্থ"
-
-#~ msgid "Dallas Love Field"
-#~ msgstr "ডালাস লাভ ফিল্ড"
-
-#~ msgid "Dam Dam"
-#~ msgstr "দাম দাম"
-
-#~ msgid "Daniel Field"
-#~ msgstr "ডেনিয়েল ফিল্ড"
-
-#~ msgid "Dannelly Field"
-#~ msgstr "দানেলি ফিল্ড"
-
-#~ msgid "Davis-Monthan Air Force Base"
-#~ msgstr "ডেভিস-মোনথান এএফবি"
-
-#~ msgid "Dayton / Wright-Patterson Air Force Base"
-#~ msgstr "ডেয়টন / রাইট প্যাটার্সন এয়ার ফোর্স বেস"
-
-#~ msgid "Dayton-Wright Brothers Airport"
-#~ msgstr "ডেয়টন-রাইট ব্রাদার্স এয়ারপোর্ট"
-
-#~ msgid "De Kalb-Peachtree Airport"
-#~ msgstr "ডেকাল্‌ব-পিচট্রি বিমানবন্দর"
-
-#~ msgid "Denver International Airport"
-#~ msgstr "ডেনভার ইন্টার্ন্যাশানাল এয়ারপোর্ট"
-
-#~ msgid "Denver NEXRAD Station"
-#~ msgstr "ডেনভার নেক্সরাড স্টেশন"
-
-#~ msgid "Detroit / Grosse Ile, Grosse Ile Airport"
-#~ msgstr "ডেট্রয়েট গ্রোসে ইল বিমানবন্দর"
-
-#~ msgid "Detroit City Airport"
-#~ msgstr "ডেট্রয়েট সিটি এয়ারপোর্ট"
-
-#~ msgid "Detroit Metropolitan Wayne County Airport"
-#~ msgstr "ডেট্রয়েট মেট্রোপোলিটান ওয়েন কাউন্টি এয়ারপোর্ট"
-
-#~ msgid "Deurne"
-#~ msgstr "দেউর্ন"
-
-#~ msgid "Doha International Airport"
-#~ msgstr "দোহা ইন্টার্ন্যাশানাল এয়ারপোর্ট"
-
-#~ msgid "Domodedovo Airport"
-#~ msgstr "ডমোডেডোভো এয়ারপোর্ট"
-
-#~ msgid "Donji Zemunik"
-#~ msgstr "ডোনজি জেমুনিক"
-
-#~ msgid "Double Eagle II Airport"
-#~ msgstr "ডাবল ঈগত II বিমানবন্দর"
-
-#~ msgid "Drake Field"
-#~ msgstr "ড্রেকফিল্ড"
-
-#~ msgid "Duke Field / Eglin Auxiliary"
-#~ msgstr "ডিউক ফিল্ড / এল্গিন অক্সিলারি"
-
-#~ msgid "Duluth International Airport"
-#~ msgstr "দুলুথ ইন্টার্ন্যাশানাল এয়ারপোর্ট"
-
-#~ msgid "Dyce"
-#~ msgstr "ডিচে"
-
-#~ msgid "Dyess Air Force Base"
-#~ msgstr "ডাইয়েস বায়ুসেনা ঘাঁটি"
-
-#~ msgid "Délįne Airport"
-#~ msgstr "দেলিন এয়ারপোর্ট"
-
-#~ msgid "Edmonton International"
-#~ msgstr "এডমনটন আন্তর্জাতিক"
-
-#~ msgid "Edmonton Municipal"
-#~ msgstr "এডমনটন মিউনিসিপাল"
-
-#~ msgid "Edmonton Municipal CR10"
-#~ msgstr "এডমনটন মিউনিসিপাল"
-
-#~ msgid "Edmonton Namao"
-#~ msgstr "এডমন্টন নামাও"
-
-#~ msgid "Eduardo Gomes International Airport"
-#~ msgstr "এডুয়ার্ডো গোমেস আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Edwards Air Force Auxiliary North Base"
-#~ msgstr "এডওয়ার্ডস এয়ার ফোর্স অক্সিলিয়ারি নর্থ বেস"
-
-#~ msgid "Edwards Air Force Base"
-#~ msgstr "এডওয়ার্ডস এয়ার ফোর্স বেস"
-
-#~ msgid "Eielson Air Force Base"
-#~ msgstr "এইলসন এয়ার ফোর্স বেস"
-
-#~ msgid "El Cajon"
-#~ msgstr "এল কাজোন"
-
-#~ msgid "Elmendorf Air Force Base"
-#~ msgstr "এল্মডর্ফ এয়ার ফোর্স বেস"
-
-#~ msgid "Enid Woodring Regional Airport"
-#~ msgstr "এনিড উডরিং আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Es Senia Airport"
-#~ msgstr "এস সেনিয়া এয়ারপোর্ট"
-
-#~ msgid "Eureka, Skelton Airport"
-#~ msgstr "ইউরেকা স্কেল্টন এয়ারপোর্ট"
-
-#~ msgid "Fairbanks International Airport"
-#~ msgstr "ফেয়ারব্যাংক্স আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Faleolo"
-#~ msgstr "ফ্যালেওলো"
-
-#~ msgid "Fayetteville / Springdale, Northwest Arkansas Regional Airport"
-#~ msgstr "উত্তরপশ্চিম আর্কানসাস আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Fayetteville Regional Airport"
-#~ msgstr "ফায়েটভিল আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Felts Field"
-#~ msgstr "ফেল্টস ফিল্ড"
-
-#~ msgid "Flying Cloud Airport"
-#~ msgstr "ফ্লাইং ক্লাউড বিমানবন্দর"
-
-#~ msgid "Fontanarossa Airport"
-#~ msgstr "ফোন্টারোসা এয়ারপোর্ট"
-
-#~ msgid "Forbes Field"
-#~ msgstr "ফোর্বস ফিল্ড"
-
-#~ msgid "Fort Bragg / Simmons Army Airfield"
-#~ msgstr "ফোর্ট ব্র্যাগ / সিমনস আর্মি এয়ারফিল্ড"
-
-#~ msgid "Fort Campbell U. S. Army Airfield"
-#~ msgstr "ফোর্ট ক্যাম্পবেল ইউ.এস. আর্মি এয়ারফিল্ড"
-
-#~ msgid "Fort Eustis / Felker"
-#~ msgstr "ফোর্ট ইউস্টিস"
-
-#~ msgid "Fort Hood, Hood AAF Ft Hood"
-#~ msgstr "ফোর্ট হুড, হুড এএফ ফোর্ট হুড"
-
-#~ msgid "Fort Hood, Robert Gray AAF Ft Hood"
-#~ msgstr "ফোর্ট হুড"
-
-#~ msgid "Fort Lauderdale / Hollywood International Airport"
-#~ msgstr "ফোর্ট লডার্ডেল (আন্তর্জাতিক)"
-
-#~ msgid "Fort Lauderdale Executive Airport"
-#~ msgstr "ফোর্ট লডারডেল এক্সিউটিভ এয়ারপোর্ট"
-
-#~ msgid "Fort Meade / Tipton"
-#~ msgstr "ফোর্ট মিড / টিপ্টন"
-
-#~ msgid "Fort Sill"
-#~ msgstr "ফোর্ট সিল"
-
-#~ msgid "Fort Wainwright AAF"
-#~ msgstr "ফোর্ট ওয়েনরাইট"
-
-#~ msgid "Fort Worth Alliance Airport"
-#~ msgstr "ফোর্ট ওয়ার্থ অ্যালায়ান্স এয়ারপোর্ট"
-
-#~ msgid "Fort Worth, Naval Air Station"
-#~ msgstr "ফোর্ট ওয়ার্থ নেভাল এয়ার স্টেশন"
-
-#~ msgid "Forth Worth Spinks Airport"
-#~ msgstr "ফোর্ট ওয়ার্থ স্পিংক্স বিমানবন্দর"
-
-#~ msgid "Fulton County Airport-Brown Field"
-#~ msgstr "ফুলটন কাউন্টি বিমানবন্দর"
-
-#~ msgid "Galeao"
-#~ msgstr "গ্যালিয়াও"
-
-#~ msgid "Gatwick Airport"
-#~ msgstr "গ্যাটইউক বিমানবন্দর"
-
-#~ msgid "Gen Maria Airport"
-#~ msgstr "জেন মারিয়া বিমানবন্দর"
-
-#~ msgid "General Mitchell International Airport"
-#~ msgstr "জেনেরাল মিশেল আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Ghedi Airport"
-#~ msgstr "ঘেদি এয়ারপোর্ট"
-
-#~ msgid "Gillot"
-#~ msgstr "জিলেট"
-
-#~ msgid "Glynco"
-#~ msgstr "গ্লিনকো"
-
-#~ msgid "Grand Forks Air Force Base"
-#~ msgstr "গ্র্যান্ড ফর্কস এয়ার ফোর্স বেস"
-
-#~ msgid "Grand Forks International Airport"
-#~ msgstr "গ্র্যান্ড ফর্কস আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Grand Marais / Cook County Airport"
-#~ msgstr "কুক কাউন্টি বিমানবন্দর"
-
-#~ msgid "Grand Marais, The Bay of Grand Marais"
-#~ msgstr "গ্র্যান্ড মারিয়াস"
-
-#~ msgid "Grosse Ile"
-#~ msgstr "গ্রোসে ইল"
-
-#~ msgid "Göteborg-Landvetter Airport"
-#~ msgstr "গোটেবোর্গ-ল্যান্ডভেটার এয়ারপোর্ট"
-
-#~ msgid "Göteborg-Save Airport"
-#~ msgstr "গোটেবোর্গ-সাভে এয়ারপোর্ট"
-
-#~ msgid "Halifax International Airport"
-#~ msgstr "হ্যালিফ্যাক্স ইন্টারন্যাশনাল এয়ারপোর্ট"
-
-#~ msgid "Hamburg-Finkenwerder"
-#~ msgstr "ফিনকেনওয়েরডের"
-
-#~ msgid "Hamburg-Fuhlsbuettel"
-#~ msgstr "ফুহলসবাটেল"
-
-#~ msgid "Hanchey AHP / Ozark"
-#~ msgstr "হাচ্ঞে ওজার্ক"
-
-#~ msgid "Harrell"
-#~ msgstr "হ্যারেল"
-
-#~ msgid "Harrisburg International Airport"
-#~ msgstr "হ্যারিসবার্গ আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Hartsfield - Jackson Atlanta International Airport"
-#~ msgstr "জ্যাকসন আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Hattiesburg / Laurel, Hattiesburg-Laurel Regional Airport"
-#~ msgstr "হ্যাটিসবার্গ"
-
-#~ msgid "Hawkins Field Airport"
-#~ msgstr "হকিন্স ফিল্ড বিমানবন্দর"
-
-#~ msgid "Heathrow Airport"
-#~ msgstr "হিথরো বিমানবন্দর"
-
-#~ msgid "Helsinki-Malmi"
-#~ msgstr "হেলসিংকি"
-
-#~ msgid "Helsinki-Vantaa"
-#~ msgstr "হেলসিংকি-ভান্তা"
-
-#~ msgid "Henderson Executive Airport"
-#~ msgstr "হেন্ডার্সন এক্সিউটিভ বিমানবন্দর"
-
-#~ msgid "Hill Air Force Base / Ogden"
-#~ msgstr "হিল বায়ু সেনা ঘাঁটি / অগডেন"
-
-#~ msgid "Hiroshima Airport"
-#~ msgstr "হিরোশিমা বিমানবন্দর"
-
-#~ msgid "Hiroshimanishi"
-#~ msgstr "হিরোশিমানিশি"
-
-#~ msgid "Holloman Air Force Base"
-#~ msgstr "হোলোম্যান এয়ার ফোর্স বেস"
-
-#~ msgid "Hongqiao Airport"
-#~ msgstr "হংকিও বিমানবন্দর"
-
-#~ msgid "Honolulu International Airport"
-#~ msgstr "হনোলুলু আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Hooks Memorial Airport"
-#~ msgstr "হুকস বিমানবন্দর"
-
-#~ msgid "Horta"
-#~ msgstr "হোর্টা"
-
-#~ msgid "Houston / Ellington"
-#~ msgstr "হিউস্টন / এলিংটন"
-
-#~ msgid "Houston Hobby Airport"
-#~ msgstr "হিউস্টন হবি বিমানবন্দর"
-
-#~ msgid "Houston Intercontinental Airport"
-#~ msgstr "হউস্টন আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Hunter U. S. Army Airfield"
-#~ msgstr "হানটার সেনা এয়ার ফিল্ড"
-
-#~ msgid "Huntsville International / Jones Field"
-#~ msgstr "হান্টসভিল ইন্টার্ন্যাশানাল ফিল্ড"
-
-#~ msgid "Ile Aux Perroquets"
-#~ msgstr "ইল অ পেরোখ"
-
-#~ msgid "Iles de la Madeleineque."
-#~ msgstr "ইলেস ডে লা মেডেলিঙ্কে"
-
-#~ msgid "Iles-De-La-Madelein"
-#~ msgstr "ইলেস ডে লা মেডেলিঙ্কে"
-
-#~ msgid "Indianapolis International Airport"
-#~ msgstr "ইন্ডিয়ানাপোলিস আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Indianapolis, Eagle Creek Airpark"
-#~ msgstr "ইন্ডিয়ানাপোলিস ঈগল ক্রিক এয়ারপার্ক"
-
-#~ msgid "Istanbul-Ataturk Airport"
-#~ msgstr "ইস্তাম্বুল-আতার্তুক বিমানবন্দর"
-
-#~ msgid "Istanbul-Sabiha Gokcen Airport"
-#~ msgstr "ইস্তাম্বুল-সাবিহা গোকেন বিমানবন্দর"
-
-#~ msgid "Istrana Airport"
-#~ msgstr "ইস্ত্রানা বিমানবন্দর"
-
-#~ msgid "Izmir-Adnan Menderes Airport"
-#~ msgstr "ইজমির-অ্যাডনান মেনডেরেস বিমানবন্দর"
-
-#~ msgid "Izmir-Cigli Airport"
-#~ msgstr "ইজমির-চিগ্লি বিমানবন্দর"
-
-#~ msgid "Jacarepagua Airport"
-#~ msgstr "জাকারেপাগুয়া বিমানবন্দর"
-
-#~ msgid "Jackson International Airport"
-#~ msgstr "জ্যাকসন আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Jacksonville International Airport"
-#~ msgstr "জ্যাকসনভিল আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Jacksonville, Naval Air Station"
-#~ msgstr "জ্যাক্সনভিল নেভাল এয়ার স্টেশন"
-
-#~ msgid "Jacqueline Cochran Regional Airport"
-#~ msgstr "জ্যাকেলিন ককরান আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Johnson County Executive Airport"
-#~ msgstr "জনসন কাউন্টি এক্সিউটিভ বিমানবন্দর"
-
-#~ msgid "Jones Jr. Airport"
-#~ msgstr "জোনস জুনিয়ার বিমানবন্দর"
-
-#~ msgid "Kaneohe, Marine Corps Air Station"
-#~ msgstr "কানিওহো, মেরিন কর্পস্ এয়ার স্টেশন"
-
-#~ msgid "Kansas City Downtown Airport"
-#~ msgstr "কানসাস সিটি ডাউনটাউন বিমানবন্দর"
-
-#~ msgid "Kansas City International Airport"
-#~ msgstr "কানসাস সিটি ইন্টারন্যাশনাল এয়ারপোর্ট"
-
-#~ msgid "Kasuminome Air Base"
-#~ msgstr "কাসুমিনোমে বিমান ঘাঁটি"
-
-#~ msgid "Kelly Air Force Base"
-#~ msgstr "কেলি বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Kelp Reefs"
-#~ msgstr "কেল্প রিফস"
-
-#~ msgid "Kendall-Tamiami Executive Airport"
-#~ msgstr "কেন্ডাল-টামিয়ামি এক্সিউটিভ এয়ারপোর্ট"
-
-#~ msgid "Kennedy International Airport"
-#~ msgstr "কেনেডি আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Key Field"
-#~ msgstr "কি ফিল্ড"
-
-#~ msgid "Key West International Airport"
-#~ msgstr "কি ওয়েস্ট আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Key West, Naval Air Station"
-#~ msgstr "কি ওয়েস্ট নেভাল এয়ার স্টেশন"
-
-#~ msgid "King Khaled International Airport"
-#~ msgstr "কিং খালেদ আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Kingsford"
-#~ msgstr "কিংসফোর্ড"
-
-#~ msgid "Kisauni"
-#~ msgstr "কিসাউনি"
-
-#~ msgid "Kissimmee Municipal Airport"
-#~ msgstr "কিসিম্মি মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Koror, Palau"
-#~ msgstr "কোরোর, পালাও"
-
-#~ msgid "La Carlota Airport"
-#~ msgstr "লা কার্লোতা বিমানবন্দর"
-
-#~ msgid "La Guardia Airport"
-#~ msgstr "লা গার্ডিয়া বিমানবন্দর"
-
-#~ msgid "La Veta Pass"
-#~ msgstr "লাস ভেতা পাস"
-
-#~ msgid "Lagos"
-#~ msgstr "লাগোস"
-
-#~ msgid "Lake Hood Seaplane Base"
-#~ msgstr "লেক হুড সি প্লেন বেস"
-
-#~ msgid "Lake Jackson"
-#~ msgstr "লেক জ্যাকসন"
-
-#~ msgid "Lanseria"
-#~ msgstr "লানসেরিয়া"
-
-#~ msgid "Lansing Municipal Airport"
-#~ msgstr "লানসিং মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Las Bajadas"
-#~ msgstr "লাস বাহাদাস"
-
-#~ msgid "Laughlin"
-#~ msgstr "লাফলিন"
-
-#~ msgid "Laurel"
-#~ msgstr "লরেল"
-
-#~ msgid "Lawton Municipal Airport"
-#~ msgstr "লয়টন মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Linate Airport"
-#~ msgstr "লিনাটে বিমানবন্দর"
-
-#~ msgid "Lippstadt"
-#~ msgstr "লিপস্টাড"
-
-#~ msgid "Little Rock Air Force Base"
-#~ msgstr "লিটল রক বায়ুসেনা ঘাঁটি"
-
-#~ msgid "Lompoc Airport"
-#~ msgstr "লোম্পোক বিমানবন্দর"
-
-#~ msgid "London City Airport"
-#~ msgstr "লন্ডন সিটি বিমানবন্দর"
-
-#~ msgid "Longue Point de Mingan"
-#~ msgstr "লোংগু পয়েন্ট দি মিংগান"
-
-#~ msgid "Lorain"
-#~ msgstr "লোরেইন"
-
-#~ msgid "Los Angeles / USC Campus Downtown"
-#~ msgstr "USC ক্যাম্পাস ডাউনটাউন"
-
-#~ msgid "Los Angeles International Airport"
-#~ msgstr "লস এঞ্জেলেস আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Loshitsa"
-#~ msgstr "লওশিটসা"
-
-#~ msgid "Loshitsa / Minsk International"
-#~ msgstr "লোশিৎসা / মিনস্ক আন্তর্জাতিক ১"
-
-#~ msgid "Loveland"
-#~ msgstr "লাভল্যান্ড"
-
-#~ msgid "Luke Air Force Base / Phoenix"
-#~ msgstr "লইউক বায়ু সেনা ঘাঁটি / ফিনিক্স"
-
-#~ msgid "Lyon-Bron Airport"
-#~ msgstr "লিয়ন-ব্রন বিমানবন্দর"
-
-#~ msgid "Lyon-Satolas Airport"
-#~ msgstr "লিয়ন-সাটোলাস বিমানবন্দর"
-
-#~ msgid "MBS International Airport"
-#~ msgstr "এম বি এস আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Macdill Air Force Base, Fl."
-#~ msgstr "ম্যাকডিল বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Madison County Executive Airport"
-#~ msgstr "ম্যাডিসন কাউন্টি এক্সিউটিভ এয়ারপোর্ট"
-
-#~ msgid "Majuro Atoll"
-#~ msgstr "মাজুরো অ্যাটোল"
-
-#~ msgid "Majuro Atoll, Marshall Islands International Airport"
-#~ msgstr "মাজুরো অ্যাটোল, মার্শাল আইল্যান্ড ইন্টারন্যাশনাল এয়ারপোর্ট"
-
-#~ msgid "Malcolm McKinnon Airport"
-#~ msgstr "ম্যালকম ম্যাককিনন বিমানবন্দর"
-
-#~ msgid "Malpensa Airport"
-#~ msgstr "মালপেন্সা বিমানবন্দর"
-
-#~ msgid "Manaus Airport"
-#~ msgstr "মানাউস বিমানবন্দর"
-
-#~ msgid "Maplecreek Automatic Weather Reporting System"
-#~ msgstr "মেপলক্রীক অটোমেটিক ওয়েদার অবজার্ভিং/রিপোর্টিং স্টেশন"
-
-#~ msgid "Marietta / Dobbins Air Force Base"
-#~ msgstr "মারিয়েট্টা / ডব্বিন্স বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Marte Airport"
-#~ msgstr "মার্তে বিমানবন্দর"
-
-#~ msgid "Maxwell Air Force Base / Montgomery"
-#~ msgstr "ম্যাক্সওয়েল বায়ু সেনা ঘাঁটি / মন্টগোমেরি"
-
-#~ msgid "McCarran International Airport"
-#~ msgstr "ম্যাককারান ইন্টারন্যাশনাল এয়ারপোর্ট"
-
-#~ msgid "McConnell Air Force Base"
-#~ msgstr "ম্যাককনেল বায়ু সেনা ঘাঁটি"
-
-#~ msgid "McEntire Air National Guard Weather Facility Base"
-#~ msgstr "ম্যাক এন্টায়ার এয়ার ন্যাশানাল গার্ড ওয়েদার ফেসিলিটি বেস"
-
-#~ msgid "McGregor Executive Airport"
-#~ msgstr "ম্যাকগ্রেগর এক্সিউটিভ এয়ারপোর্ট"
-
-#~ msgid "McNabs Island"
-#~ msgstr "ম্যাকন্যাবস দ্বীপ"
-
-#~ msgid "McTavish Automated Reporting Station"
-#~ msgstr "ম্যাক টাভিশ অটোমেটেড ওয়েদার রিপোর্টিং স্টেশন"
-
-#~ msgid "Meacham International Airport"
-#~ msgstr "মীয়াচাম আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Merced / Castle Air Force Base"
-#~ msgstr "মারসেড / কাসেল বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Merced Municipal Airport"
-#~ msgstr "মারসেড মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Meridian Naval Air Station - McCain Field"
-#~ msgstr "মেরিডিয়ান ন্যাভাল এয়ার স্টেশন - ম্যাক কেইন ফিল্ড"
-
-#~ msgid "Merrill Field Airport"
-#~ msgstr "মেরিল ফিল্ড বিমান ঘাঁটি"
-
-#~ msgid "Mesa / Falcon Field"
-#~ msgstr "মেসা / ফ্যালকন ফিল্ড"
-
-#~ msgid "Metcalf Field"
-#~ msgstr "মেটকাল্ফ ফিল্ড"
-
-#~ msgid "Miami International Airport"
-#~ msgstr "মায়ামি আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Midland Airpark"
-#~ msgstr "মিলার্ড বিমানবন্দর"
-
-#~ msgid "Midland International Airport"
-#~ msgstr "মিডল্যান্ড আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Mikhaylovsk"
-#~ msgstr "মিখাইলোভস্ক"
-
-#~ msgid "Millard Airport"
-#~ msgstr "মিলার্ড বিমানবন্দর"
-
-#~ msgid "Milton, Whiting Field Naval Air Station North"
-#~ msgstr "মিল্টন, হুইটিঙ্গ ফিল্ড - নর্থ"
-
-#~ msgid "Milton, Whiting Field South"
-#~ msgstr "মিল্টন হুইটিঙ্গ ফিল্ড - সাউথ"
-
-#~ msgid "Milwaukee / Timmerman"
-#~ msgstr "মিলওউকি"
-
-#~ msgid "Minneapolis / Blaine"
-#~ msgstr "মিনিয়াপোলিস"
-
-#~ msgid "Minneapolis-St. Paul International Airport"
-#~ msgstr "মিনিয়াপোলিস-সেন্ট পল আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Minocqua"
-#~ msgstr "মিনোকা"
-
-#~ msgid "Minot Air Force Base"
-#~ msgstr "মিনট বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Minot International Airport"
-#~ msgstr "মিনট আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Miramar"
-#~ msgstr "মিরামার"
-
-#~ msgid "Miramar MCAS / Mitscher Field Airport"
-#~ msgstr "মিরামার MCAS/মিটস্চের ফিল্ড এয়ারপোর্ট"
-
-#~ msgid "Mobile Downtown Airport"
-#~ msgstr "মোবাইল ডাউনটাউন বিমানবন্দর"
-
-#~ msgid "Mobile Regional Airport"
-#~ msgstr "মোবাইল আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Monterrey International Airport"
-#~ msgstr "মন্টেরে আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Montgomery Field"
-#~ msgstr "মন্টগমারি ফিল্ড"
-
-#~ msgid "Montichiara Airport"
-#~ msgstr "মন্টিচিয়ারা বিমানবন্দর"
-
-#~ msgid "Montpelier"
-#~ msgstr "মন্টপেলিয়ার"
-
-#~ msgid "Montreal-Mirabel Airport"
-#~ msgstr "মন্ট্রিয়াল-মিরাবেল বিমানবন্দর"
-
-#~ msgid "Monument"
-#~ msgstr "মোনুমেন্ট"
-
-#~ msgid "Muir"
-#~ msgstr "মুইয়ার"
-
-#~ msgid "Murphysboro"
-#~ msgstr "মার্ফিসবোরো"
-
-#~ msgid "N. Kingston / Quonset"
-#~ msgstr "কন্সেট"
-
-#~ msgid "Nancy-Essey Airport"
-#~ msgstr "ন্যান্সি-এসে বিমানবন্দর"
-
-#~ msgid "Nancy-Ochey Airport"
-#~ msgstr "ন্যান্সি-ওছে বিমানবন্দর"
-
-#~ msgid "Naval Air Station - Alvin Callender Field"
-#~ msgstr "ন্যাভাল এয়ার স্টেশন - অ্যালভিন ক্যালেন্ডার ফিল্ড"
-
-#~ msgid "New London"
-#~ msgstr "নিউ লন্ডন"
-
-#~ msgid "New Orleans International Airport"
-#~ msgstr "নিউ অর্লিয়েন্স আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "New Orleans Lakefront Airport"
-#~ msgstr "নিউ অর্লিয়েন্স লেকফ্রন্ট এয়ারপোর্ট"
-
-#~ msgid "New River"
-#~ msgstr "নিউ রিভার"
-
-#~ msgid "New York City, Central Park"
-#~ msgstr "নিউ ইয়র্ক সিটি, সেন্ট্রাল পার্ক"
-
-#~ msgid "Newport News / Williamsburg International Airport"
-#~ msgstr "উইলিয়ামসবার্গ আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Norfolk International Airport"
-#~ msgstr "নর্ফল্ক আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Norfolk, Naval Air Station"
-#~ msgstr "নর্ফল্ক, নেভাল এয়ার স্টেশন"
-
-#~ msgid "Normal"
-#~ msgstr "নরম্যাল"
-
-#~ msgid "North Las Vegas Airport"
-#~ msgstr "নর্থ লাস ভেগাস বিমানবন্দর"
-
-#~ msgid "Northeast Philadelphia Airport"
-#~ msgstr "উত্তরপূর্ব ফিলাডেল্ফিয়া বিমানবন্দর"
-
-#~ msgid "Nouzha Airport"
-#~ msgstr "নৌঝা বিমানবন্দর"
-
-#~ msgid "O. R. Tambo International Airport"
-#~ msgstr "ও আর টাম্বো আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Oahu, Kalaeloa Airport"
-#~ msgstr "ওয়াহু, কালাইলোয়া বিমানবন্দর"
-
-#~ msgid "Obihiro Airport"
-#~ msgstr "ওবিহিরো বিমানবন্দর"
-
-#~ msgid "Oceana"
-#~ msgstr "ওশানিয়া"
-
-#~ msgid "Oceanside Municipal Airport"
-#~ msgstr "ওশেনসাইড মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Oceanside, Camp Pendleton, Marine Corps Air Station"
-#~ msgstr "ওসেনসাইড ক্যাম্প পেন্ডেল্টন মেরিন কর্পস্ এয়ার স্টেশন"
-
-#~ msgid "Ogden-Hinckley Airport"
-#~ msgstr "ওগডেন-হিংকলি বিমানবন্দর"
-
-#~ msgid "Ohio State University Airport"
-#~ msgstr "ওহাও স্টেট ইউনিভার্সিটি এয়ারপোর্ট"
-
-#~ msgid "Olathe, New Century Aircenter"
-#~ msgstr "ওলাথে"
-
-#~ msgid "Old Yundum"
-#~ msgstr "ইউনদুম"
-
-#~ msgid "Omaha / Offutt Air Force Base"
-#~ msgstr "ওমাহা / ওফুট বায়ু সেনা ঘাঁটি"
-
-#~ msgid "Omaha, Eppley Airfield"
-#~ msgstr "ওমাহা, এপলি এয়ারফিল্ড"
-
-#~ msgid "Omišalj"
-#~ msgstr "ওমিসালজ"
-
-#~ msgid "Opa Locka Airport"
-#~ msgstr "ওপালোকা বিমানবন্দর"
-
-#~ msgid "Orlando Executive Airport"
-#~ msgstr "অর্ল্যান্ডো এক্সিউটিভ এয়ারপোর্ট"
-
-#~ msgid "Orlando International Airport"
-#~ msgstr "অর্ল্যান্ডো আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Oscar Macha Airport"
-#~ msgstr "অস্কার মাচা বিমানবন্দর"
-
-#~ msgid "Outlaw Field Airport"
-#~ msgstr "আউটলঅ ফিল্ড বিমানবন্দর"
-
-#~ msgid "Oxnard Airport"
-#~ msgstr "ওক্সনার্ড বিমানবন্দর"
-
-#~ msgid "Page Field"
-#~ msgstr "পেজ ফিল্ড"
-
-#~ msgid "Palam"
-#~ msgstr "পালাম"
-
-#~ msgid "Palermo Boccadifalco"
-#~ msgstr "পালের্মো বোকাডিফালকো"
-
-#~ msgid "Palm Springs Regional Airport"
-#~ msgstr "পালম স্প্রিংস আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Paris-Le Bourget Airport"
-#~ msgstr "প্যারিস-লে বোর্জেট বিমানবন্দর"
-
-#~ msgid "Paris-Orly"
-#~ msgstr "প্যারিস-ওলি"
-
-#~ msgid "Paya Lebar Airport"
-#~ msgstr "পায়া লেবার বিমানবন্দর"
-
-#~ msgid "Peachtree City"
-#~ msgstr "পিচট্রি সিটি"
-
-#~ msgid "Peachtree City-Falcon Field"
-#~ msgstr "পিচট্রি সিটি - ফ্যালকন ফিল্ড"
-
-#~ msgid "Pearland Regional Airport"
-#~ msgstr "পিয়ারল্যান্ড আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Pedras Rubras"
-#~ msgstr "পেদ্রাস রুব্রাস"
-
-#~ msgid "Pensacola Regional Airport"
-#~ msgstr "পেন্সাকোলা আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Pensacola, Naval Air Station"
-#~ msgstr "পেন্সাকোলা, নেভাল এয়ার স্টেশন"
-
-#~ msgid "Peter O Knight Airport"
-#~ msgstr "পিটার ও নাইট বিমানবন্দর"
-
-#~ msgid "Philadelphia International Airport"
-#~ msgstr "ফিলাডেলফিয়া ইন্টারন্যাশনাল এয়ারপোর্ট"
-
-#~ msgid "Philip Billard Municipal Airport"
-#~ msgstr "ফিলিপ বিলার্ড মিইনিসিপ্যাল এয়ারপোর্ট"
-
-#~ msgid "Phoenix Sky Harbor International Airport"
-#~ msgstr "ফিনিক্স স্কাই হার্বার আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Phoenix-Deer Valley Municipal Airport"
-#~ msgstr "ফিনিক্স-ডিয়ার ভ্যালি মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Pierre Elliot Trudeau International Airport"
-#~ msgstr "পিয়ের এলিয়ট ট্রুডিউ আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Pirkkala"
-#~ msgstr "পিরকালা"
-
-#~ msgid "Pittsburgh International Airport"
-#~ msgstr "পিটসবার্গ আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Pleso"
-#~ msgstr "প্লেসো"
-
-#~ msgid "Point Mugu, Naval Air Warfare Center"
-#~ msgstr "পয়েন্ট মুগু"
-
-#~ msgid "Pointe Noire"
-#~ msgstr "পয়েন্টে-নোয়ের"
-
-#~ msgid "Pope Air Force Base"
-#~ msgstr "পোপ বায়ুসেনা ঘাঁটি"
-
-#~ msgid "Port Arthur"
-#~ msgstr "পোর্ট আর্থার"
-
-#~ msgid "Port Columbus International Airport"
-#~ msgstr "পোর্ট কলম্বাস আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Portage, Portage Glacier"
-#~ msgstr "পোর্টেজ গ্লেসিয়ার"
-
-#~ msgid "Portela"
-#~ msgstr "পোর্টেলা"
-
-#~ msgid "Portland International Airport"
-#~ msgstr "পোর্টল্যান্ড আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Portland-Hillsboro Airport"
-#~ msgstr "পোর্টল্যান্ড হিল্সবরো বিমানবন্দর"
-
-#~ msgid "Portland-Troutdale Airport"
-#~ msgstr "পোর্টল্যান্ড ট্রাউটডেল বিমানবন্দর"
-
-#~ msgid "Porto Alegre Airport"
-#~ msgstr "পোর্টো আলেগ্রে বিমানবন্দর"
-
-#~ msgid "Pouthichentong"
-#~ msgstr "পৌথিচেনটং"
-
-#~ msgid "Pudong Airport"
-#~ msgstr "পুডং বিমানবন্দর"
-
-#~ msgid "Pullman"
-#~ msgstr "পুলম্যান"
-
-#~ msgid "Punta Raisi Airport"
-#~ msgstr "পুন্টা রাইসি বিমানবন্দর"
-
-#~ msgid "Qikiqtarjuaq Airport"
-#~ msgstr "কিকিকটারজুয়াক বিমানবন্দর"
-
-#~ msgid "Rancho Boyeros"
-#~ msgstr "রাচ্ঞো বোয়েরোস"
-
-#~ msgid "Redbird Airport"
-#~ msgstr "রেডবার্ড বিমানবন্দর"
-
-#~ msgid "Regina University"
-#~ msgstr "রেজিনা ইউনিভার্সিটি"
-
-#~ msgid "Rickenbacker Air National Guard Base"
-#~ msgstr "রিকেব্যাকার এয়ার ন্যাশানাল গার্ড বেস"
-
-#~ msgid "Rio de Janeiro Airport"
-#~ msgstr "রিও ডে জিনেরো বিমানবন্দর"
-
-#~ msgid "Rio de Janeiro-Santa Cruz Air Base"
-#~ msgstr "রিও দি জানেরিও"
-
-#~ msgid "Riverside / March Air Force Base"
-#~ msgstr "রিভারসাইড / মার্চ বায়ুসেনা ঘাঁটি"
-
-#~ msgid "Riverside Municipal Airport"
-#~ msgstr "রিভারসাইড মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Rolla"
-#~ msgstr "রোল্লা"
-
-#~ msgid "Roma Fiumicino"
-#~ msgstr "রোমা ফিউমিসিনো"
-
-#~ msgid "Romeoville"
-#~ msgstr "রোমিওভিল"
-
-#~ msgid "S. Angelo Airport"
-#~ msgstr "এস অ্যাঞ্জেলো বিমানবন্দর"
-
-#~ msgid "Sacramento Executive Airport"
-#~ msgstr "সাক্রামেন্টো একজেকিউটিভ বিমানবন্দর"
-
-#~ msgid "Sacramento International Airport"
-#~ msgstr "সাক্রামেন্টো আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Sacramento Mather Airport"
-#~ msgstr "সাক্রামেন্টো মাথের বিমানবন্দর"
-
-#~ msgid "Saginaw County H.W. Browne Airport"
-#~ msgstr "স্যাগিনাও কাউন্টি এইচ.ডব্লিউ. ব্রাউন এয়ারপোর্ট"
-
-#~ msgid "Saint Leonard Airport"
-#~ msgstr "সেন্ট লিওনার্ড বিমানবন্দর"
-
-#~ msgid "Saipan Island, Saipan International Airport"
-#~ msgstr "সাইপান দ্বীপ, সাইপান আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Salcea"
-#~ msgstr "সাসিয়া"
-
-#~ msgid "San Antonio International Airport"
-#~ msgstr "সান আন্তোনিও আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "San Diego / El Cajon, Gillespie Field Airport"
-#~ msgstr "সান দিয়েগো"
-
-#~ msgid "San Diego International-Lindbergh Field"
-#~ msgstr "সান দিয়েগো ইন্টারন্যাশানাল লিন্দবার্গ ফিল্ড"
-
-#~ msgid "San Diego, North Island, Naval Air Station"
-#~ msgstr "সান দিয়েগো, নর্থ আইল্যান্ড ন্যাভাল এয়ার স্টেশন"
-
-#~ msgid "San Jose / Reid / Hillv"
-#~ msgstr "সান হোসে রিড/হিল্ভ"
-
-#~ msgid "San Jose International Airport"
-#~ msgstr "সান হোসে আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Sanford Airport"
-#~ msgstr "স্যানফোর্ড বিমানবন্দর"
-
-#~ msgid "Sanganer"
-#~ msgstr "জয়পুর/সাঙ্গানের"
-
-#~ msgid "Saturna Island Meteorological Aeronautical Presentation System"
-#~ msgstr "সাতুর্না আইল্যান্ড মেটেরিওলোজিকাল অ্যারোনটিকাল প্রেজেনটশন সিস্টেম"
-
-#~ msgid "Savannah International Airport"
-#~ msgstr "সাভানা আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Seattle Boeing Field"
-#~ msgstr "সিয়াটেল বোয়িং ফিল্ড"
-
-#~ msgid "Seattle-Tacoma International Airport"
-#~ msgstr "সিয়াটেল-টাকোমা আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Sendai Airport"
-#~ msgstr "সেন্ডাই বিমানবন্দর"
-
-#~ msgid "Sheep Mountain, Sheep Mountain Airport"
-#~ msgstr "শিপ মাউন্টেন, শিপ মাউন্টেন এয়ারপোর্ট"
-
-#~ msgid "Sheremet'ye Airport"
-#~ msgstr "শেরেমেট বিমানবন্দর"
-
-#~ msgid "Sheringham Automatic Weather Reporting System"
-#~ msgstr "শেরিংহ্যাম অটোম্যাটি ওয়েদার রিপোর্টং স্টেশন"
-
-#~ msgid "Shreveport Downtown Airport"
-#~ msgstr "শ্রেভেপোর্ট ডাউনটাউন বিমানবন্দর"
-
-#~ msgid "Shreveport Regional Airport"
-#~ msgstr "শ্রেভেপোর্ট আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Sigonella Airport"
-#~ msgstr "সাইগোনেল্লা বিমানবন্দর"
-
-#~ msgid "Sikes Airport"
-#~ msgstr "সাইক্স বিমানবন্দর"
-
-#~ msgid "Simon Bolivar International Airport"
-#~ msgstr "সাইমন বলিভার আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Sirri Island, Sirri Airport"
-#~ msgstr "সিরি আইল্যান্ড এয়ারপোর্ট"
-
-#~ msgid "Sky Harbor Airport"
-#~ msgstr "স্কাই হার্বার বিমানবন্দর"
-
-#~ msgid "Skylark Field Airport"
-#~ msgstr "স্কাইলার্ক ফিল্ড এয়ারপোর্ট"
-
-#~ msgid "Southern Pines"
-#~ msgstr "সাউথার্ন পাইনস"
-
-#~ msgid "Southwest Florida International Airport"
-#~ msgstr "সাউথওয়েস্ট ফ্লোরিডা আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Spadeadam"
-#~ msgstr "স্পাডেয়াডাম"
-
-#~ msgid "Sparwood Automatic Weather Reporting System"
-#~ msgstr "স্পারউড অটোম্যাটিক ওয়েদার রিপোর্টিং সিস্টেম"
-
-#~ msgid "Sparwood, Sparwood-Elk Valley Airport"
-#~ msgstr "স্পারউড / এলক ভ্যালি"
-
-#~ msgid "Spokane International Airport"
-#~ msgstr "স্পোকানে ইন্টারন্যাশানাল এয়ারপোর্ট"
-
-#~ msgid "Springdale Municipal"
-#~ msgstr "স্প্রিংডেল মিউনিসিপাল"
-
-#~ msgid "St Leonard Automatic Weather Reporting System"
-#~ msgstr "সেন্ট লিওনার্ড অটোম্যাটিক ওয়েদার রিপোর্টিং সিস্টেম"
-
-#~ msgid "St. Paul, St. Paul Downtown Holman Field"
-#~ msgstr "সেন্ট পল, সেন্ট পল ডাউনটাউন হোলম্যান ফিল্ড"
-
-#~ msgid "St. Petersburg, Whitted Airport"
-#~ msgstr "সেন্ট পিটার্সবার্গ, হুয়িটেড এয়ারপোর্ট"
-
-#~ msgid "Standiford Field"
-#~ msgstr "স্ট্যান্ডিফোর্ড ফিল্ড"
-
-#~ msgid "Starkville"
-#~ msgstr "স্টার্কভিল"
-
-#~ msgid "Stinson Municipal Airport"
-#~ msgstr "স্টিনসন মিউনিসিপ্যাল এয়ারপোর্ট"
-
-#~ msgid "Stockholm-Arlanda Airport"
-#~ msgstr "স্টকহোলম-আর্লান্ডা এয়ারপোর্ট"
-
-#~ msgid "Stockholm-Bromma Airport"
-#~ msgstr "স্টকহোলম-ব্রোম্মা এয়ারপোর্ট"
-
-#~ msgid "Sugar Land"
-#~ msgstr "সুগার ল্যান্ড"
-
-#~ msgid "Sugar Land Municipal / Hull Field Airport"
-#~ msgstr "সুগার ল্যান্ড মিউনিসিপাল বিমানবন্দর"
-
-#~ msgid "Sung-shan"
-#~ msgstr "সুংশান/তাইপে"
-
-#~ msgid "Surčin"
-#~ msgstr "সার্কিন"
-
-#~ msgid "Swansboro"
-#~ msgstr "ওয়েন্সবরো"
-
-#~ msgid "Tacoma / McChord Air Force Base"
-#~ msgstr "টাকোমা / ম্যাককর্ড এয়ার ফোর্স বেস"
-
-#~ msgid "Tacoma Narrows Airport"
-#~ msgstr "টাকোমা ন্যারোজ বিমানবন্দর"
-
-#~ msgid "Tafaraoui Airport"
-#~ msgstr "টাফারাউই বিমানবন্দর"
-
-#~ msgid "Tampa International Airport"
-#~ msgstr "ট্যাম্পা আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Ted Stevens Anchorage International Airport"
-#~ msgstr "টেড স্টিভেন্স অ্যাঙ্কোরেজ আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Teslin Marine Aviation Reporting Station"
-#~ msgstr "টেস্লিন মেরিন এভিয়েশন রিপোর্টিং স্টেশন"
-
-#~ msgid "Theodore Francis Green State Airport"
-#~ msgstr "থিওডোর ফ্রান্সিস গ্রিন স্টেট এয়ারপোর্ট"
-
-#~ msgid "Tinian Island, N. Mariana Is, West Tinian Airport"
-#~ msgstr "তিনিয়ান আইল্যান্ড"
-
-#~ msgid "Tinker Air Force Base"
-#~ msgstr "টিনকার এয়ার ফোর্স বেস"
-
-#~ msgid "Titusville, NASA Shuttle Landing Facility"
-#~ msgstr "টাইটাসভিল NASA শাটল ল্যান্ডিং ফেসিলিটি"
-
-#~ msgid "Tokachi Japanese Ground Self Defense Force"
-#~ msgstr "টোকাচি জাপানিজ গ্রাউন্ড সেল্ফ ডিফেন্স ফোর্স"
-
-#~ msgid "Tokyo Heliport"
-#~ msgstr "টোকিও হেলিপোর্ট"
-
-#~ msgid "Tokyo International Airport"
-#~ msgstr "টোকিও আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Toledo Express Airport"
-#~ msgstr "টোলেডো এক্সপ্রেস বিমানবন্দর"
-
-#~ msgid "Toronto Buttonville"
-#~ msgstr "টরোন্টো বাটনভিল"
-
-#~ msgid "Toronto Island Airport"
-#~ msgstr "টরোন্টো আইল্যান্ড এয়ারপোর্ট"
-
-#~ msgid "Toronto Pearson International"
-#~ msgstr "টরোন্টো পিয়ার্সন আন্তর্জাতিক"
-
-#~ msgid "Toulouse-Blagnac Airport"
-#~ msgstr "টুলুজ-ব্লাগনাক বিমানবন্দর"
-
-#~ msgid "Toulouse-Francazal Airport"
-#~ msgstr "টুলুজ-ফ্রানকাজাল বিমানবন্দর"
-
-#~ msgid "Trail Valley"
-#~ msgstr "ট্রেইল ভ্যালি"
-
-#~ msgid "Tucson International Airport"
-#~ msgstr "টাস্কন আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Tulsa International Airport"
-#~ msgstr "তুলসা আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Urbana"
-#~ msgstr "উর্বানা"
-
-#~ msgid "Urbe Airport"
-#~ msgstr "উর্বে বিমানবন্দর"
-
-#~ msgid "Vance Air Force Base / Enid"
-#~ msgstr "ভ্যান্স এয়ার ফোর্স বেস / এনিড"
-
-#~ msgid "Vandenberg Air Force Base"
-#~ msgstr "ভ্যান্ডেনবার্গ এয়ার ফোর্স বেস"
-
-#~ msgid "Vandenberg Airport"
-#~ msgstr "ভেন্ডেনবার্গ বিমানবন্দর"
-
-#~ msgid "Varadero"
-#~ msgstr "ভারাডেরো"
-
-#~ msgid "Vic. Hartland Automatic Weather Reporting System"
-#~ msgstr "ভিক্টোরিয়া হার্টল্যান্ড অটোমেটিক ওয়েদার অবজার্ভিং/রিপোর্টিং স্টেশন"
-
-#~ msgid "Victoria Automatic Weather Reporting System"
-#~ msgstr "ভিক্টোরিয়া অটোমেটিক ওয়েদার অবজার্ভিং/রিপোর্টিং স্টেশন"
-
-#~ msgid "Victoria Harbour"
-#~ msgstr "ভিক্টোরিয়া হার্বার"
-
-#~ msgid "Victoria International Airport"
-#~ msgstr "ভিক্টোরিয়া আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Victoria University"
-#~ msgstr "ভিক্টোরিয়া বিশ্ববিদ্যালয়"
-
-#~ msgid "Vnukovo Airport"
-#~ msgstr "নুকোভো বিমানবন্দর"
-
-#~ msgid "Waco Regional Airport"
-#~ msgstr "ওয়াকো আঞ্চলিক বিমানবন্দর"
-
-#~ msgid "Washington DC, Reagan National Airport"
-#~ msgstr "ওয়াশিংটন ডিসি, রেগান আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Washington DC, Washington-Dulles International Airport"
-#~ msgstr "ওয়াশিংটন ডিসি, ওয়াশিংটন-ডালেস আন্তর্জাতিক বিমানবন্দর"
-
-#~ msgid "Waxahachie"
-#~ msgstr "ওয়াক্সাহে"
-
-#~ msgid "Whiteman Airport"
-#~ msgstr "ওয়াইটম্যান বিমানবন্দর"
-
-#~ msgid "Wichita Mid-Continent Airport"
-#~ msgstr "উইচিটা বিমানবন্দর"
-
-#~ msgid "Wickede"
-#~ msgstr "উইকেডে"
-
-#~ msgid "Wiley Post Airport"
-#~ msgstr "উইলি পোস্ট বিমানবন্দর"
-
-#~ msgid "Will Rogers World Airport"
-#~ msgstr "উইল রজার্স বিমানবন্দর"
-
-#~ msgid "Williams Gateway Airport"
-#~ msgstr "উইলিয়ামস গেটওয়ে বিমানবন্দর"
-
-#~ msgid "Willow Run Airport"
-#~ msgstr "উইলো রান বিমানবন্দর"
-
-#~ msgid "Wings Field Airport"
-#~ msgstr "উইংস ফিল্ড বিমানবন্দর"
-
-#~ msgid "Winnipeg International Airportman."
-#~ msgstr "উইনিপেগ আন্তর্জাতিক বিমানবন্দর।"
-
-#~ msgid "Winnipeg The Forks"
-#~ msgstr "উইনিপেগ দা ফর্কস"
-
-#~ msgid "Wytheville"
-#~ msgstr "ব্লিথভিল"
-
-#~ msgid "Yuba County Airport"
-#~ msgstr "ইউবা কাউন্টি এয়ারপোর্ট"
-
-#~ msgid "Ülenurme"
-#~ msgstr "উলেনুর্মে"
-
-#~ msgid "Čepin"
-#~ msgstr "চেপিন"
-
-#~ msgid "Čilipi"
-#~ msgstr "চিলিপি"

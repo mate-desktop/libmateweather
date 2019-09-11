@@ -1,30 +1,27 @@
-# Serbian translation of mate-applets-locations
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2004, 2005, 2006.
-#
-# This file is distributed under the same license as the evolution package.
-#
+# Libraries to allow MATE Desktop to display weather information
+# Copyright (C) 2019 The MATE Team
+# This file is distributed under the same license as the libmateweather package.
 # Maintainer: Danilo Šegan <danilo@gnome.org>
 # Reviewed on 2005-08-02 by: Igor Nestorović <igor@prevod.org>
 # Reviewed on 2006-05-27 by: Filip Miletić <filmil@gmail.com>: Dutch place names
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: locations-compendium\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-19 13:35+0000\n"
+"POT-Creation-Date: 2019-09-17 10:35+0200\n"
 "PO-Revision-Date: 2009-09-04 22:56+0200\n"
 "Last-Translator: Goran Rakić <grakic@devbase.net>\n"
 "Language-Team: Serbian (sr) <sorta@googlegroups.com>\n"
+"Language: sr@latin\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%"
-"10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 msgid "Africa"
 msgstr "Afrika"
 
-#| msgid "Antarctica"
 msgctxt "Region"
 msgid "Antarctica"
 msgstr "Antarktik"
@@ -33,7 +30,6 @@ msgid "Asia"
 msgstr "Azija"
 
 #. FIXME: rename this to Atlantic Ocean
-#| msgid "Atlantic"
 msgctxt "Region"
 msgid "Atlantic"
 msgstr "Atlantik"
@@ -85,7 +81,6 @@ msgid "Anguilla"
 msgstr "Angila"
 
 #. AQ - Antarctica
-#| msgid "Antarctica"
 msgctxt "Country"
 msgid "Antarctica"
 msgstr "Antarktik"
@@ -99,6 +94,7 @@ msgid "Argentina"
 msgstr "Argentina"
 
 #. AM - Armenia
+#. A city in Colombia
 msgid "Armenia"
 msgstr "Jermenija"
 
@@ -313,7 +309,6 @@ msgid "Denmark"
 msgstr "Danska"
 
 #. DJ - Djibouti
-#| msgid "Djibouti"
 msgctxt "Country"
 msgid "Djibouti"
 msgstr "Džibuti"
@@ -412,7 +407,6 @@ msgid "Gambia"
 msgstr "Gambija"
 
 #. GE - Georgia (the country, not the US state)
-#| msgid "Georgia"
 msgctxt "Country"
 msgid "Georgia"
 msgstr "Gruzija"
@@ -428,7 +422,6 @@ msgstr "Gana"
 #. GI - Gibraltar, a British overseas territory on the southern
 #. tip of Spain.
 #.
-#| msgid "Gibraltar"
 msgctxt "Country"
 msgid "Gibraltar"
 msgstr "Gibraltar"
@@ -460,7 +453,6 @@ msgid "Guam"
 msgstr "Guam"
 
 #. GT - Guatemala
-#| msgid "Guatemala"
 msgctxt "Country"
 msgid "Guatemala"
 msgstr "Gvatemala"
@@ -548,7 +540,6 @@ msgid "Jersey"
 msgstr "Džersi"
 
 #. JO - Jordan
-#| msgid "Jordan"
 msgctxt "Country"
 msgid "Jordan"
 msgstr "Jordan"
@@ -566,7 +557,6 @@ msgid "Kiribati"
 msgstr "Kiribati"
 
 #. KW - Kuwait
-#| msgid "Kuwait"
 msgctxt "Country"
 msgid "Kuwait"
 msgstr "Kuvajt"
@@ -584,7 +574,6 @@ msgid "Latvia"
 msgstr "Latvija"
 
 #. LB - Lebanon
-#| msgid "Lebanon"
 msgctxt "Country"
 msgid "Lebanon"
 msgstr "Liban"
@@ -594,7 +583,6 @@ msgid "Lesotho"
 msgstr "Lesoto"
 
 #. LR - Liberia
-#| msgid "Liberia"
 msgctxt "Country"
 msgid "Liberia"
 msgstr "Liberija"
@@ -612,7 +600,6 @@ msgid "Lithuania"
 msgstr "Litvanija"
 
 #. LU - Luxembourg
-#| msgid "Luxembourg"
 msgctxt "Country"
 msgid "Luxembourg"
 msgstr "Luksemburg"
@@ -622,7 +609,6 @@ msgstr "Luksemburg"
 #. used. The "u" spelling is currently slightly more popular in
 #. English.)
 #.
-#| msgid "Macau"
 msgctxt "Country"
 msgid "Macau"
 msgstr "Makao"
@@ -652,7 +638,6 @@ msgid "Mali"
 msgstr "Mali"
 
 #. MT - Malta
-#| msgid "Malta"
 msgctxt "Country"
 msgid "Malta"
 msgstr "Malta"
@@ -692,7 +677,6 @@ msgid "Moldova"
 msgstr "Moldavija"
 
 #. MC - Monaco
-#| msgid "Monaco"
 msgctxt "Country"
 msgid "Monaco"
 msgstr "Monako"
@@ -824,7 +808,6 @@ msgid "Paraguay"
 msgstr "Paragvaj"
 
 #. PE - Peru
-#| msgid "Peru"
 msgctxt "Country"
 msgid "Peru"
 msgstr "Peru"
@@ -845,8 +828,15 @@ msgstr "Poljska"
 msgid "Portugal"
 msgstr "Portugal"
 
-#. PR - Puerto Rico, a territory of the United States in the
-#. Caribbean.
+#. PR - Puerto Rico, a territory of the United States in the Caribbean.
+#. The following municipalities have airports with valid IACO codes
+#. but no active METAR stations, so we don't include them:
+#. * Arecibo:  TJAB
+#. * Culebra:  TJCP
+#. * Fajardo:  TJFA
+#. * Mayagüez: TJMZ
+#. * Ponce:    TJPS
+#. * Vieques:  TJVQ
 #.
 msgid "Puerto Rico"
 msgstr "Portoriko"
@@ -916,7 +906,6 @@ msgid "Samoa"
 msgstr "Samoa"
 
 #. SM - San Marino
-#| msgid "San Marino"
 msgctxt "Country"
 msgid "San Marino"
 msgstr "San Marino"
@@ -949,7 +938,6 @@ msgid "Sierra Leone"
 msgstr "Siera Leone"
 
 #. SG - Singapore
-#| msgid "Singapore"
 msgctxt "Country"
 msgid "Singapore"
 msgstr "Singapur"
@@ -1259,6 +1247,24 @@ msgstr "Mek Murdo stanica (novozelandsko vreme)"
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
 msgstr "Amundsen-Skot stanica na Južnom polu (novozelandsko vreme)"
 
+#. The timezone on the western islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Barat".
+#.
+msgid "Western Indonesia Time"
+msgstr "Zapadno indonezijsko vreme"
+
+#. The timezone on the central islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
+#.
+msgid "Central Indonesia Time"
+msgstr "Centralno Indonezijsko vreme"
+
+#. The timezone on the eastern islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Timur".
+#.
+msgid "Eastern Indonesia Time"
+msgstr "Istočno Indonezijsko vreme"
+
 #. The time zone used in the eastern half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 #.
@@ -1428,24 +1434,6 @@ msgstr "Markuzas Ostrva"
 msgid "Gambier Islands"
 msgstr "Gambijer Ostrvo"
 
-#. The timezone on the western islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Barat".
-#.
-msgid "Western Indonesia Time"
-msgstr "Zapadno indonezijsko vreme"
-
-#. The timezone on the central islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
-#.
-msgid "Central Indonesia Time"
-msgstr "Centralno Indonezijsko vreme"
-
-#. The timezone on the eastern islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Timur".
-#.
-msgid "Eastern Indonesia Time"
-msgstr "Istočno Indonezijsko vreme"
-
 #. The time zone in the Gilbert Islands, one of the three
 #. main island groups of Kiribati. This string is only used
 #. in places where "Kiribati" is already clear from context.
@@ -1539,7 +1527,6 @@ msgstr "Tokantins"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 #.
-#| msgid "Bahia"
 msgctxt "Timezone"
 msgid "Bahia"
 msgstr "Bahija"
@@ -1558,7 +1545,6 @@ msgstr "Amapa / Ist Para"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 #.
-#| msgid "Roraima"
 msgctxt "Timezone"
 msgid "Roraima"
 msgstr "Rorajima"
@@ -1568,7 +1554,6 @@ msgstr "Rorajima"
 #. for more details. This string is only used in places
 #. where "Brazil" is already clear from context.
 #.
-#| msgid "Mato Grosso do Sul"
 msgctxt "Timezone"
 msgid "Mato Grosso do Sul"
 msgstr "Mato Groso de Sul"
@@ -1578,7 +1563,6 @@ msgstr "Mato Groso de Sul"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 #.
-#| msgid "Mato Grosso"
 msgctxt "Timezone"
 msgid "Mato Grosso"
 msgstr "Mato Groso"
@@ -1640,7 +1624,6 @@ msgstr "Njest Para, Rondonija"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 #.
-#| msgid "Pernambuco"
 msgctxt "Timezone"
 msgid "Pernambuco"
 msgstr "Pernambuko"
@@ -1650,7 +1633,6 @@ msgstr "Pernambuko"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 #.
-#| msgid "Acre"
 msgctxt "Timezone"
 msgid "Acre"
 msgstr "Akre"
@@ -1733,7 +1715,7 @@ msgstr "Unutrašnji Portugal"
 
 #. A Russian time zone, used in the city and oblast of
 #. Kaliningrad on the Baltic sea. The Russian name is
-#. "Kaliningradskoe vremя". This string is only used in
+#. "Калининградское время". This string is only used in
 #. places where "Russia" is already clear from context.
 #.
 msgid "Kaliningrad Time"
@@ -1741,7 +1723,7 @@ msgstr "Kaljiningradsko vreme"
 
 #. A Russian time zone, used in most of the European part
 #. of Russia, including Moscow. The Russian name is
-#. "Moskovskoe vremя". This string is only used in places
+#. "Московское время". This string is only used in places
 #. where "Russia" is already clear from context.
 #.
 msgid "Moscow Time"
@@ -1749,7 +1731,7 @@ msgstr "Moskvovsko vreme"
 
 #. A Russian time zone, used in the Samara oblast and
 #. Udmurtia, on the eastern edge of European Russia. The
-#. Russian name is "Samarskoe vremя". This string is only
+#. Russian name is "Самарское время". This string is only
 #. used in places where "Russia" is already clear from
 #. context.
 #.
@@ -1758,24 +1740,32 @@ msgstr "Samarsko vreme"
 
 #. A Russian time zone, used along the Ural mountains,
 #. including the city of Yekaterinburg. The Russian name is
-#. "Ekaterinburgskoe vremя". This string is only used in
+#. "Екатеринбургское время". This string is only used in
 #. places where "Russia" is already clear from context.
 #.
 msgid "Yekaterinburg Time"
 msgstr "Ekaterinburgško vreme"
 
-#. A Russian time zone, used in the Omsk and Novosibirsk
-#. oblasts and surrounding areas of south-central Russia.
-#. The Russian name is "Omskoe vremя". This string is only
+#. A Russian time zone, used in the Omsk oblast
+#. and surrounding areas of south-central Russia.
+#. The Russian name is "Омское время". This string is only
 #. used in places where "Russia" is already clear from
 #. context.
 #.
 msgid "Omsk Time"
 msgstr "Omsko vreme"
 
+#. A Russian time zone, used in the Novosibirsk oblast.
+#. The Russian name is "Новосибирское время".
+#. This string is only used in places
+#. where "Russia" is already clear from context.
+#.
+msgid "Novosibirsk Time"
+msgstr ""
+
 #. A Russian time zone, used in the Krasnoyarsk krai and
 #. surrounding areas of central Russia. The Russian name is
-#. "Krasnoяrskoe vremя". This string is only used in places
+#. "Красноярское время". This string is only used in places
 #. where "Russia" is already clear from context.
 #.
 msgid "Krasnoyarsk Time"
@@ -1783,7 +1773,7 @@ msgstr "Krasnojarsko vreme"
 
 #. A Russian time zone, used in the Irkutsk oblast and
 #. surrounding areas of south-central Russia. The Russian
-#. name is "Irkutskoe vremя". This string is only used in
+#. name is "Иркутское время". This string is only used in
 #. places where "Russia" is already clear from context.
 #.
 msgid "Irkutsk Time"
@@ -1791,7 +1781,7 @@ msgstr "Irkutsko vreme"
 
 #. A Russian time zone, used in the city of Yakutsk and
 #. surrounding areas of east-central Russia. The Russian
-#. name is "Яkutskoe vremя". This string is only used in
+#. name is "Якутское время". This string is only used in
 #. places where "Russia" is already clear from context.
 #.
 msgid "Yakutsk Time"
@@ -1799,7 +1789,7 @@ msgstr "Jakutsko vreme"
 
 #. A Russian time zone, used in the city of Vladivostok and
 #. surrounding areas of eastern Russia. The Russian name is
-#. "Vladivostokskoe vremя". This string is only used in
+#. "Владивостокское время". This string is only used in
 #. places where "Russia" is already clear from context.
 #.
 msgid "Vladivostok Time"
@@ -1807,7 +1797,7 @@ msgstr "Vladivostokovsko vreme"
 
 #. A Russian time zone, used in the Magadan oblast and
 #. surrounding areas of eastern Russia. The Russian name is
-#. "Magadanskoe vremя". This string is only used in places
+#. "Магаданское время". This string is only used in places
 #. where "Russia" is already clear from context.
 #.
 msgid "Magadan Time"
@@ -1815,7 +1805,7 @@ msgstr "Magadansko vreme"
 
 #. A Russian time zone, used in the Kamchatka krai and
 #. Chukotka okrug of far-eastern Russia. The Russian name
-#. is "Kamčatskoe vremя". This string is only used in
+#. is "Камчатское время". This string is only used in
 #. places where "Russia" is already clear from context.
 #.
 msgid "Kamchatka Time"
@@ -1983,7 +1973,6 @@ msgid "Tasmania"
 msgstr "Tasmanija"
 
 #. A state/province/territory in Australia
-#| msgid "Victoria"
 msgctxt "State in Australia"
 msgid "Victoria"
 msgstr "Viktorija"
@@ -1995,7 +1984,6 @@ msgstr "Zapadna Australija"
 #. A state in Belgium. local name (nl): Antwerpen. local name
 #. (fr): Anvers. local name (de): Antwerpen.
 #.
-#| msgid "Antwerp"
 msgctxt "State in Belgium"
 msgid "Antwerp"
 msgstr "Antverpen"
@@ -2033,7 +2021,6 @@ msgid "Liège"
 msgstr "Liž"
 
 #. A state/province/territory in Belgium
-#| msgid "Luxembourg"
 msgctxt "State in Belgium"
 msgid "Luxembourg"
 msgstr "Luksemburg"
@@ -2050,7 +2037,6 @@ msgid "West-Flanders"
 msgstr "Vest-Flanders"
 
 #. A state/province/territory in Brazil
-#| msgid "Acre"
 msgctxt "State in Brazil"
 msgid "Acre"
 msgstr "Akre"
@@ -2068,7 +2054,6 @@ msgid "Amazonas"
 msgstr "Amazonija"
 
 #. A state/province/territory in Brazil
-#| msgid "Bahia"
 msgctxt "State in Brazil"
 msgid "Bahia"
 msgstr "Bahija"
@@ -2095,13 +2080,11 @@ msgid "Maranhão"
 msgstr "Maranjo"
 
 #. A state/province/territory in Brazil
-#| msgid "Mato Grosso"
 msgctxt "State in Brazil"
 msgid "Mato Grosso"
 msgstr "Mato Groso"
 
 #. A state/province/territory in Brazil
-#| msgid "Mato Grosso do Sul"
 msgctxt "State in Brazil"
 msgid "Mato Grosso do Sul"
 msgstr "Mato Groso de Sul"
@@ -2123,7 +2106,6 @@ msgid "Pará"
 msgstr "Para"
 
 #. A state/province/territory in Brazil
-#| msgid "Pernambuco"
 msgctxt "State in Brazil"
 msgid "Pernambuco"
 msgstr "Pernambuko"
@@ -2141,7 +2123,6 @@ msgid "Rio Grande do Sul"
 msgstr "Rio Grande do Sul"
 
 #. A state/province/territory in Brazil
-#| msgid "Rio de Janeiro"
 msgctxt "State in Brazil"
 msgid "Rio de Janeiro"
 msgstr "Rio de Žaneiro"
@@ -2151,7 +2132,6 @@ msgid "Rondônia"
 msgstr "Rondonija"
 
 #. A state/province/territory in Brazil
-#| msgid "Roraima"
 msgctxt "State in Brazil"
 msgid "Roraima"
 msgstr "Rorajima"
@@ -2165,7 +2145,6 @@ msgid "Sergipe"
 msgstr "Sergipe"
 
 #. A state/province/territory in Brazil
-#| msgid "São Paulo"
 msgctxt "State in Brazil"
 msgid "São Paulo"
 msgstr "Sao Paulo"
@@ -2207,7 +2186,6 @@ msgid "Nunavut"
 msgstr "Nunavut"
 
 #. A state/province/territory in Canada
-#| msgid "Ontario"
 msgctxt "State in Canada"
 msgid "Ontario"
 msgstr "Ontario"
@@ -2217,7 +2195,6 @@ msgid "Prince Edward Island"
 msgstr "Princ Edvard Ostrvo"
 
 #. A state/province/territory in Canada
-#| msgid "Quebec"
 msgctxt "State in Canada"
 msgid "Quebec"
 msgstr "Kvebek"
@@ -2235,13 +2212,11 @@ msgid "Anhui"
 msgstr "Anhui"
 
 #. A state/province/territory in China
-#| msgid "Beijing"
 msgctxt "State in China"
 msgid "Beijing"
 msgstr "Peking"
 
 #. A state/province/territory in China
-#| msgid "Chongqing"
 msgctxt "State in China"
 msgid "Chongqing"
 msgstr "Čongking"
@@ -2311,7 +2286,6 @@ msgid "Shandong"
 msgstr "Šandong"
 
 #. A state/province/territory in China
-#| msgid "Shanghai"
 msgctxt "State in China"
 msgid "Shanghai"
 msgstr "Šangaj"
@@ -2325,7 +2299,6 @@ msgid "Sichuan"
 msgstr "Sičuan"
 
 #. A state/province/territory in China
-#| msgid "Tianjin"
 msgctxt "State in China"
 msgid "Tianjin"
 msgstr "Tjandžin"
@@ -2354,7 +2327,6 @@ msgid "Bavaria"
 msgstr "Bavarija"
 
 #. A state/province/territory in Germany
-#| msgid "Berlin"
 msgctxt "State in Germany"
 msgid "Berlin"
 msgstr "Berlin"
@@ -2364,13 +2336,11 @@ msgid "Brandenburg"
 msgstr "Brandenburg"
 
 #. A state/province/territory in Germany
-#| msgid "Bremen"
 msgctxt "State in Germany"
 msgid "Bremen"
 msgstr "Bremen"
 
 #. A state/province/territory in Germany
-#| msgid "Hamburg"
 msgctxt "State in Germany"
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -2440,7 +2410,6 @@ msgid "Thuringia"
 msgstr "Turingen"
 
 #. A state/province/territory in Mexico
-#| msgid "Aguascalientes"
 msgctxt "State in Mexico"
 msgid "Aguascalientes"
 msgstr "Aguascalientes"
@@ -2454,7 +2423,6 @@ msgid "Baja California Sur"
 msgstr "Baha Kalifornija Sur"
 
 #. A state/province/territory in Mexico
-#| msgid "Campeche"
 msgctxt "State in Mexico"
 msgid "Campeche"
 msgstr "Kampeče"
@@ -2464,7 +2432,6 @@ msgid "Chiapas"
 msgstr "Čijapas"
 
 #. A state/province/territory in Mexico
-#| msgid "Chihuahua"
 msgctxt "State in Mexico"
 msgid "Chihuahua"
 msgstr "Čihuahua"
@@ -2474,7 +2441,6 @@ msgid "Coahuila"
 msgstr "Kahuja"
 
 #. A state/province/territory in Mexico
-#| msgid "Colima"
 msgctxt "State in Mexico"
 msgid "Colima"
 msgstr "Kolima"
@@ -2485,7 +2451,6 @@ msgid "Distrito Federal"
 msgstr "Distrito Federal"
 
 #. A state/province/territory in Mexico
-#| msgid "Durango"
 msgctxt "State in Mexico"
 msgid "Durango"
 msgstr "Durango"
@@ -2527,13 +2492,11 @@ msgid "Nuevo León"
 msgstr "Nevo Leon"
 
 #. A state/province/territory in Mexico
-#| msgid "Oaxaca"
 msgctxt "State in Mexico"
 msgid "Oaxaca"
 msgstr "Oaksaka"
 
 #. A state/province/territory in Mexico
-#| msgid "Puebla"
 msgctxt "State in Mexico"
 msgid "Puebla"
 msgstr "Puebla"
@@ -2557,7 +2520,6 @@ msgid "Sinaloa"
 msgstr "Sinaloa"
 
 #. A state/province/territory in Mexico
-#| msgid "Sonora"
 msgctxt "State in Mexico"
 msgid "Sonora"
 msgstr "Sonora"
@@ -2575,7 +2537,6 @@ msgid "Tlaxcala"
 msgstr "Tlakskala"
 
 #. A state/province/territory in Mexico
-#| msgid "Veracruz"
 msgctxt "State in Mexico"
 msgid "Veracruz"
 msgstr "Verakruz"
@@ -2585,7 +2546,6 @@ msgid "Yucatán"
 msgstr "Jukatan"
 
 #. A state/province/territory in Mexico
-#| msgid "Zacatecas"
 msgctxt "State in Mexico"
 msgid "Zacatecas"
 msgstr "Zakatekas"
@@ -2663,7 +2623,6 @@ msgid "Florida"
 msgstr "Florida"
 
 #. A state/province/territory in United States
-#| msgid "Georgia"
 msgctxt "State in United States"
 msgid "Georgia"
 msgstr "Džordžija"
@@ -2681,7 +2640,6 @@ msgid "Illinois"
 msgstr "Ilinois"
 
 #. A state/province/territory in United States
-#| msgid "Indiana"
 msgctxt "State in United States"
 msgid "Indiana"
 msgstr "Indijana"
@@ -2755,7 +2713,6 @@ msgid "New Mexico"
 msgstr "Novi Meksiko"
 
 #. A state/province/territory in United States
-#| msgid "New York"
 msgctxt "State in United States"
 msgid "New York"
 msgstr "Njujork"
@@ -2817,7 +2774,6 @@ msgid "Virginia"
 msgstr "Virdžinija"
 
 #. A state/province/territory in United States
-#| msgid "Washington"
 msgctxt "State in United States"
 msgid "Washington"
 msgstr "Vašington"
@@ -2831,7 +2787,6 @@ msgid "Wisconsin"
 msgstr "Viskonsin"
 
 #. A state/province/territory in United States
-#| msgid "Wyoming"
 msgctxt "State in United States"
 msgid "Wyoming"
 msgstr "Vajoming"
@@ -3023,7 +2978,6 @@ msgid "Corrientes"
 msgstr "Korijentes"
 
 #. A city in Argentina
-#| msgid "Córdoba"
 msgctxt "City in Argentina"
 msgid "Córdoba"
 msgstr "Kordoba"
@@ -3089,7 +3043,6 @@ msgid "San Carlos de Bariloche"
 msgstr "San Karlos De Bariloče"
 
 #. A city in Argentina
-#| msgid "San Fernando"
 msgctxt "City in Argentina"
 msgid "San Fernando"
 msgstr "San Fernando"
@@ -3159,7 +3112,6 @@ msgid "Forest Hill"
 msgstr "Forest Hil"
 
 #. A city in Tasmania in Australia
-#| msgid "Hobart"
 msgctxt "City in Tasmania, Australia"
 msgid "Hobart"
 msgstr "Hobart"
@@ -3189,7 +3141,6 @@ msgid "Learmonth"
 msgstr "Lermont"
 
 #. A city in Victoria in Australia
-#| msgid "Melbourne"
 msgctxt "City in Victoria, Australia"
 msgid "Melbourne"
 msgstr "Melburn"
@@ -3203,7 +3154,6 @@ msgid "Perth"
 msgstr "Pert"
 
 #. A city in New South Wales in Australia
-#| msgid "Richmond"
 msgctxt "City in New South Wales, Australia"
 msgid "Richmond"
 msgstr "Ričmond"
@@ -3217,7 +3167,6 @@ msgid "Shellborough"
 msgstr "Šelboro"
 
 #. A city in New South Wales in Australia
-#| msgid "Sydney"
 msgctxt "City in New South Wales, Australia"
 msgid "Sydney"
 msgstr "Sidnej"
@@ -3303,13 +3252,11 @@ msgid "Ganca"
 msgstr "Ganca"
 
 #. A city in the Bahamas
-#| msgid "Freeport"
 msgctxt "City in Bahamas"
 msgid "Freeport"
 msgstr "Friport"
 
 #. A city in the Bahamas
-#| msgid "Georgetown"
 msgctxt "City in Bahamas"
 msgid "Georgetown"
 msgstr "Džordžtaun"
@@ -3356,7 +3303,6 @@ msgid "Paragon"
 msgstr "Paragon"
 
 #. A city in Belarus
-#| msgid "Brest"
 msgctxt "City in Belarus"
 msgid "Brest"
 msgstr "Brest"
@@ -3381,7 +3327,6 @@ msgstr "Vitebsk"
 #. "Antwerp" is the traditional English name.
 #. The local name is "Antwerpen".
 #.
-#| msgid "Antwerp"
 msgctxt "City in Antwerp, Belgium"
 msgid "Antwerp"
 msgstr "Antverpen"
@@ -3451,7 +3396,6 @@ msgid "Porto-Novo"
 msgstr "Porto Novo"
 
 #. The capital of Bermuda
-#| msgid "Hamilton"
 msgctxt "City in Bermuda"
 msgid "Hamilton"
 msgstr "Hamilton"
@@ -3474,13 +3418,11 @@ msgid "Cochabamba"
 msgstr "Kočabamba"
 
 #. A city in Bolivia
-#| msgid "Concepción"
 msgctxt "City in Bolivia"
 msgid "Concepción"
 msgstr "Konsepsion"
 
 #. The capital of Bolivia
-#| msgid "La Paz"
 msgctxt "City in Bolivia"
 msgid "La Paz"
 msgstr "La Paz"
@@ -3552,7 +3494,6 @@ msgid "Tarija"
 msgstr "Taridža"
 
 #. A city in Bolivia
-#| msgid "Trinidad"
 msgctxt "City in Bolivia"
 msgid "Trinidad"
 msgstr "Trinidad"
@@ -3709,6 +3650,10 @@ msgstr "Kujaba"
 msgid "Curitiba"
 msgstr "Kurtiba"
 
+#. A city in Bahia in Brazil
+msgid "Feira de Santana"
+msgstr ""
+
 #. A city in Santa Catarina in Brazil
 msgid "Florianópolis"
 msgstr "Florianpolis"
@@ -3790,7 +3735,6 @@ msgid "Mossoró"
 msgstr "Mosoro"
 
 #. A city in Rio Grande do Norte in Brazil
-#| msgid "Natal"
 msgctxt "City in Rio Grande do Norte, Brazil"
 msgid "Natal"
 msgstr "Natal"
@@ -3860,7 +3804,6 @@ msgid "Rio Branco"
 msgstr "Rio Branko"
 
 #. A city in Rio de Janeiro in Brazil
-#| msgid "Rio de Janeiro"
 msgctxt "City in Rio de Janeiro, Brazil"
 msgid "Rio de Janeiro"
 msgstr "Rio de Žaneiro"
@@ -3870,7 +3813,6 @@ msgid "Salvador"
 msgstr "Salvador"
 
 #. A city in Rio Grande do Sul in Brazil
-#| msgid "Santa Maria"
 msgctxt "City in Rio Grande do Sul, Brazil"
 msgid "Santa Maria"
 msgstr "Santa Marija"
@@ -3900,7 +3842,6 @@ msgid "São Luís"
 msgstr "Sao Luis"
 
 #. A city in São Paulo in Brazil
-#| msgid "São Paulo"
 msgctxt "City in São Paulo, Brazil"
 msgid "São Paulo"
 msgstr "Sao Paulo"
@@ -4116,7 +4057,6 @@ msgid "Beaver Harbour"
 msgstr "Biver Harbor"
 
 #. A city in Quebec in Canada
-#| msgid "Bedford"
 msgctxt "City in Quebec, Canada"
 msgid "Bedford"
 msgstr "Bedford"
@@ -4174,7 +4114,6 @@ msgid "Buffalo Narrows"
 msgstr "Bafalo Narouz"
 
 #. A city in Ontario in Canada
-#| msgid "Burlington"
 msgctxt "City in Ontario, Canada"
 msgid "Burlington"
 msgstr "Burlington"
@@ -4296,7 +4235,6 @@ msgid "Claresholm"
 msgstr "Klersholm"
 
 #. A city in British Columbia in Canada
-#| msgid "Clinton"
 msgctxt "City in British Columbia, Canada"
 msgid "Clinton"
 msgstr "Klinton"
@@ -4342,7 +4280,6 @@ msgid "Cranbrook"
 msgstr "Krejnbruk"
 
 #. A city in British Columbia in Canada
-#| msgid "Creston"
 msgctxt "City in British Columbia, Canada"
 msgid "Creston"
 msgstr "Kreston"
@@ -4380,7 +4317,6 @@ msgid "Drumheller"
 msgstr "Drameler"
 
 #. A city in Ontario in Canada
-#| msgid "Dryden"
 msgctxt "City in Ontario, Canada"
 msgid "Dryden"
 msgstr "Driden"
@@ -4414,7 +4350,6 @@ msgid "Elliot Lake"
 msgstr "Eliot Lejk"
 
 #. A city in Prince Edward Island in Canada
-#| msgid "Elmira"
 msgctxt "City in Prince Edward Island, Canada"
 msgid "Elmira"
 msgstr "Elmira"
@@ -4448,7 +4383,6 @@ msgid "Esther"
 msgstr "Ester"
 
 #. A city in Nunavut in Canada
-#| msgid "Eureka"
 msgctxt "City in Nunavut, Canada"
 msgid "Eureka"
 msgstr "Eureka"
@@ -4490,7 +4424,6 @@ msgid "Fort Simpson"
 msgstr "Fort Simpson"
 
 #. A city in Northwest Territories in Canada
-#| msgid "Fort Smith"
 msgctxt "City in Northwest Territories, Canada"
 msgid "Fort Smith"
 msgstr "Fort Smit"
@@ -4560,7 +4493,6 @@ msgid "Gore Bay"
 msgstr "Gor Bej"
 
 #. A city in Manitoba in Canada
-#| msgid "Grand Rapids"
 msgctxt "City in Manitoba, Canada"
 msgid "Grand Rapids"
 msgstr "Grend Rapids"
@@ -4574,7 +4506,6 @@ msgid "Grande Prairie"
 msgstr "Grande Preri"
 
 #. A city in Nova Scotia in Canada
-#| msgid "Greenwood"
 msgctxt "City in Nova Scotia, Canada"
 msgid "Greenwood"
 msgstr "Grinvud"
@@ -4596,7 +4527,6 @@ msgid "Hallowell"
 msgstr "Halovel"
 
 #. A city in Ontario in Canada
-#| msgid "Hamilton"
 msgctxt "City in Ontario, Canada"
 msgid "Hamilton"
 msgstr "Hamilton"
@@ -4618,7 +4548,6 @@ msgid "Hay River"
 msgstr "Hej River"
 
 #. A city in Newfoundland and Labrador in Canada
-#| msgid "Hebron"
 msgctxt "City in Newfoundland and Labrador, Canada"
 msgid "Hebron"
 msgstr "Hebron"
@@ -4676,7 +4605,6 @@ msgid "Jacques-Cartier"
 msgstr "Žak-Kartije"
 
 #. A city in Alberta in Canada
-#| msgid "Jasper"
 msgctxt "City in Alberta, Canada"
 msgid "Jasper"
 msgstr "Džasper"
@@ -4710,7 +4638,6 @@ msgid "Kindersley"
 msgstr "Kindersli"
 
 #. A city in Ontario in Canada
-#| msgid "Kingston"
 msgctxt "City in Ontario, Canada"
 msgid "Kingston"
 msgstr "Kingston"
@@ -4784,7 +4711,6 @@ msgid "Little Prairie"
 msgstr "Litl Preri"
 
 #. A city in Nova Scotia in Canada
-#| msgid "Liverpool"
 msgctxt "City in Nova Scotia, Canada"
 msgid "Liverpool"
 msgstr "Liverpul"
@@ -4794,7 +4720,6 @@ msgid "Lloydminster"
 msgstr "Lojdminister"
 
 #. A city in Ontario in Canada
-#| msgid "London"
 msgctxt "City in Ontario, Canada"
 msgid "London"
 msgstr "London"
@@ -4860,7 +4785,6 @@ msgid "Melfort"
 msgstr "Melfort"
 
 #. A city in Manitoba in Canada
-#| msgid "Miami"
 msgctxt "City in Manitoba, Canada"
 msgid "Miami"
 msgstr "Majami"
@@ -4936,7 +4860,6 @@ msgid "Nanticoke"
 msgstr "Nantikoke"
 
 #. A city in British Columbia in Canada
-#| msgid "Natal"
 msgctxt "City in British Columbia, Canada"
 msgid "Natal"
 msgstr "Natal"
@@ -5110,7 +5033,6 @@ msgid "Prince Rupert"
 msgstr "Princ Rupert"
 
 #. A city in British Columbia in Canada
-#| msgid "Princeton"
 msgctxt "City in British Columbia, Canada"
 msgid "Princeton"
 msgstr "Prinston"
@@ -5126,7 +5048,6 @@ msgstr "Kvikikutaržuaku"
 #. A city in Quebec in Canada.
 #. The local name in French is "Québec".
 #.
-#| msgid "Quebec"
 msgctxt "City in Quebec, Canada"
 msgid "Quebec"
 msgstr "Kvebek"
@@ -5337,7 +5258,6 @@ msgid "Snag"
 msgstr "Sneg"
 
 #. A city in Saskatchewan in Canada
-#| msgid "Southend"
 msgctxt "City in Saskatchewan, Canada"
 msgid "Southend"
 msgstr "Sautend"
@@ -5359,7 +5279,6 @@ msgid "Stephen"
 msgstr "Stiven"
 
 #. A city in Newfoundland and Labrador in Canada
-#| msgid "Stephenville"
 msgctxt "City in Newfoundland and Labrador, Canada"
 msgid "Stephenville"
 msgstr "Stivenvil"
@@ -5401,7 +5320,6 @@ msgid "Swift Current"
 msgstr "Svift Karent"
 
 #. A city in Nova Scotia in Canada
-#| msgid "Sydney"
 msgctxt "City in Nova Scotia, Canada"
 msgid "Sydney"
 msgstr "Sidnej"
@@ -5463,7 +5381,6 @@ msgid "Tow Hill"
 msgstr "Tau Hil"
 
 #. A city in Ontario in Canada
-#| msgid "Trenton"
 msgctxt "City in Ontario, Canada"
 msgid "Trenton"
 msgstr "Trenton"
@@ -5509,7 +5426,6 @@ msgid "Valcartier Station"
 msgstr "Valkartje Stejšn"
 
 #. A city in British Columbia in Canada
-#| msgid "Vancouver"
 msgctxt "City in British Columbia, Canada"
 msgid "Vancouver"
 msgstr "Vankuver"
@@ -5523,13 +5439,11 @@ msgid "Vegreville"
 msgstr "Vegrvil"
 
 #. A city in British Columbia in Canada
-#| msgid "Vernon"
 msgctxt "City in British Columbia, Canada"
 msgid "Vernon"
 msgstr "Vernon"
 
 #. A city in British Columbia in Canada
-#| msgid "Victoria"
 msgctxt "City in British Columbia, Canada"
 msgid "Victoria"
 msgstr "Viktorija"
@@ -5543,7 +5457,6 @@ msgid "Wabush"
 msgstr "Vabuš"
 
 #. A city in Ontario in Canada
-#| msgid "Waterloo"
 msgctxt "City in Ontario, Canada"
 msgid "Waterloo"
 msgstr "Voterlo"
@@ -5678,7 +5591,6 @@ msgid "Balmaceda"
 msgstr "Balmakeda"
 
 #. A city in Chile
-#| msgid "Concepción"
 msgctxt "City in Chile"
 msgid "Concepción"
 msgstr "Konsepsion"
@@ -5708,7 +5620,6 @@ msgid "Santa Teresa de Lo Ovalle"
 msgstr "Santa Tereza De Lo Oval"
 
 #. The capital of Chile
-#| msgid "Santiago"
 msgctxt "City in Chile"
 msgid "Santiago"
 msgstr "Santjago"
@@ -5718,7 +5629,6 @@ msgid "Temuco"
 msgstr "Temuko"
 
 #. The capital of China
-#| msgid "Beijing"
 msgctxt "City in Beijing, China"
 msgid "Beijing"
 msgstr "Peking"
@@ -5744,7 +5654,6 @@ msgstr "Čengdu"
 #. A city in Chongqing in China.
 #. The name is also written "重庆".
 #.
-#| msgid "Chongqing"
 msgctxt "City in Chongqing, China"
 msgid "Chongqing"
 msgstr "Čongking"
@@ -5832,7 +5741,6 @@ msgstr "Sania"
 #. A city in Shanghai in China.
 #. The name is also written "上海".
 #.
-#| msgid "Shanghai"
 msgctxt "City in Shanghai, China"
 msgid "Shanghai"
 msgstr "Šangaj"
@@ -5860,7 +5768,6 @@ msgstr "Tajuan"
 #. A city in Tianjin in China.
 #. The name is also written "天津".
 #.
-#| msgid "Tianjin"
 msgctxt "City in Tianjin, China"
 msgid "Tianjin"
 msgstr "Tjandžin"
@@ -5932,12 +5839,44 @@ msgid "Cúcuta"
 msgstr "Kukuta"
 
 #. A city in Colombia
+msgid "Ibagué"
+msgstr ""
+
+#. A city in Colombia
+msgid "Ipiales"
+msgstr ""
+
+#. A city in Colombia
 msgid "Leticia"
 msgstr "Leticija"
 
 #. A city in Colombia
+msgid "Medellín"
+msgstr ""
+
+#. A city in Colombia
+msgid "Monteria"
+msgstr ""
+
+#. A city in Colombia
+msgid "Pasto"
+msgstr ""
+
+#. A city in Colombia
 msgid "Pereira"
 msgstr "Pereira"
+
+#. A city in Colombia
+msgid "Popayán"
+msgstr ""
+
+#. A city in Colombia
+msgid "Quibdó"
+msgstr ""
+
+#. A city in Colombia
+msgid "Riohacha"
+msgstr ""
 
 #. A city in Colombia
 msgid "Rionegro"
@@ -5946,6 +5885,14 @@ msgstr "Rionegro"
 #. A city in Colombia
 msgid "San Andrés"
 msgstr "San Andre"
+
+#. A city in Colombia
+msgid "Santa Marta"
+msgstr ""
+
+#. A city in Colombia
+msgid "Villavicencio"
+msgstr ""
 
 #. A city in Comoros
 msgid "Mbaléni"
@@ -5976,7 +5923,6 @@ msgid "Alajuela"
 msgstr "Alahuela"
 
 #. A city in Costa Rica
-#| msgid "Liberia"
 msgctxt "City in Costa Rica"
 msgid "Liberia"
 msgstr "Liberija"
@@ -6053,7 +5999,6 @@ msgid "Holguín"
 msgstr "Holgvin"
 
 #. A city in Cuba
-#| msgid "Manzanillo"
 msgctxt "City in Cuba"
 msgid "Manzanillo"
 msgstr "Mancanilo"
@@ -6177,7 +6122,6 @@ msgid "Ålborg"
 msgstr "Aalborg"
 
 #. The capital of Djibouti
-#| msgid "Djibouti"
 msgctxt "City in Djibouti"
 msgid "Djibouti"
 msgstr "Džibuti"
@@ -6187,7 +6131,6 @@ msgid "Marigot"
 msgstr "Merigot"
 
 #. The capital of Dominica
-#| msgid "Roseau"
 msgctxt "City in Dominica"
 msgid "Roseau"
 msgstr "Rozo"
@@ -6217,7 +6160,6 @@ msgid "Puerto Plata"
 msgstr "Puerto Plata"
 
 #. A city in the Dominican Republic
-#| msgid "Santiago"
 msgctxt "City in Dominican Republic"
 msgid "Santiago"
 msgstr "Santjago"
@@ -6258,7 +6200,6 @@ msgstr "El Kabuti"
 #. "Alexandria" is the traditional English name.
 #. The local name in Arabic is "Al Iskandariyah".
 #.
-#| msgid "Alexandria"
 msgctxt "City in Egypt"
 msgid "Alexandria"
 msgstr "Aleksandrija"
@@ -6275,7 +6216,6 @@ msgstr "Asjut"
 #. "Cairo" is the traditional English name.
 #. The local name in Arabic is "Al Qahirah".
 #.
-#| msgid "Cairo"
 msgctxt "City in Egypt"
 msgid "Cairo"
 msgstr "Kairo"
@@ -6336,7 +6276,6 @@ msgid "Tartu"
 msgstr "Tartu"
 
 #. The capital of the Falkland Islands (Malvinas)
-#| msgid "Stanley"
 msgctxt "City in Falkland Islands (Malvinas)"
 msgid "Stanley"
 msgstr "Stenli"
@@ -6453,6 +6392,12 @@ msgstr "Uti"
 msgid "Vaasa"
 msgstr "Vasa"
 
+#. A city in Finland.
+#. The local name in Swedish is "Vanda".
+#.
+msgid "Vantaa"
+msgstr ""
+
 #. A city in Finland
 msgid "Varkaus"
 msgstr "Varkaus"
@@ -6512,7 +6457,6 @@ msgid "Biarritz"
 msgstr "Bjaric"
 
 #. A city in France
-#| msgid "Bordeaux"
 msgctxt "City in France"
 msgid "Bordeaux"
 msgstr "Bordo"
@@ -6522,7 +6466,6 @@ msgid "Bourges"
 msgstr "Burges"
 
 #. A city in France
-#| msgid "Brest"
 msgctxt "City in France"
 msgid "Brest"
 msgstr "Brest"
@@ -6634,10 +6577,6 @@ msgid "Hyères"
 msgstr "Ijeres"
 
 #. A city in France
-msgid "Hésingue"
-msgstr "Hesing"
-
-#. A city in France
 msgid "Istres"
 msgstr "Istr"
 
@@ -6706,6 +6645,10 @@ msgid "Montélimar"
 msgstr "Montelimar"
 
 #. A city in France
+msgid "Mulhouse"
+msgstr ""
+
+#. A city in France
 msgid "Mâcon"
 msgstr "Makon"
 
@@ -6734,7 +6677,6 @@ msgid "Nîmes"
 msgstr "Nim"
 
 #. A city in France
-#| msgid "Orange"
 msgctxt "City in France"
 msgid "Orange"
 msgstr "Oranž"
@@ -6744,7 +6686,6 @@ msgid "Orléans"
 msgstr "Orlean"
 
 #. The capital of France
-#| msgid "Paris"
 msgctxt "City in France"
 msgid "Paris"
 msgstr "Pariz"
@@ -6834,7 +6775,6 @@ msgid "Veauche"
 msgstr "Voše"
 
 #. A city in France
-#| msgid "Vichy"
 msgctxt "City in France"
 msgid "Vichy"
 msgstr "Viši"
@@ -6888,7 +6828,6 @@ msgid "Baal"
 msgstr "Baal"
 
 #. The capital of Germany
-#| msgid "Berlin"
 msgctxt "City in Berlin, Germany"
 msgid "Berlin"
 msgstr "Berlin"
@@ -6910,7 +6849,6 @@ msgid "Bredeck"
 msgstr "Bredek"
 
 #. A city in Bremen in Germany
-#| msgid "Bremen"
 msgctxt "City in Bremen, Germany"
 msgid "Bremen"
 msgstr "Bremen"
@@ -6968,7 +6906,6 @@ msgid "Hahn"
 msgstr "Han"
 
 #. A city in Hamburg in Germany
-#| msgid "Hamburg"
 msgctxt "City in Hamburg, Germany"
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -7130,7 +7067,6 @@ msgid "Spangdahlem"
 msgstr "Spangdalem"
 
 #. A city in Baden-Württemberg in Germany
-#| msgid "Stuttgart"
 msgctxt "City in Baden-Württemberg, Germany"
 msgid "Stuttgart"
 msgstr "Štutgart"
@@ -7176,7 +7112,6 @@ msgid "Accra"
 msgstr "Akra"
 
 #. The capital of Gibraltar
-#| msgid "Gibraltar"
 msgctxt "City in Gibraltar"
 msgid "Gibraltar"
 msgstr "Gibraltar"
@@ -7197,7 +7132,6 @@ msgstr "Argostoli"
 #. "Athens" is the traditional English name.
 #. The local name in Greek is "Athína / Αθήνα".
 #.
-#| msgid "Athens"
 msgctxt "City in Greece"
 msgid "Athens"
 msgstr "Atina"
@@ -7383,7 +7317,6 @@ msgid "Hagåtña"
 msgstr "Aganja"
 
 #. The capital of Guatemala
-#| msgid "Guatemala"
 msgctxt "City in Guatemala"
 msgid "Guatemala"
 msgstr "Gvatemala"
@@ -7421,10 +7354,13 @@ msgid "Conakry"
 msgstr "Konakri"
 
 #. The capital of Guyana
-#| msgid "Georgetown"
 msgctxt "City in Guyana"
 msgid "Georgetown"
 msgstr "Džordžtaun"
+
+#. Capital of Haiti
+msgid "Port-au-Prince"
+msgstr ""
 
 #. A city in Honduras
 msgid "Amapala"
@@ -7531,12 +7467,45 @@ msgid "Ytri-Njarðvík"
 msgstr "Itri Nardvik"
 
 #. A city in India
+#. the local name in Bengali is "আগরতলা/Agortôla"
+msgid "Agartala"
+msgstr ""
+
+#. A city in India
+#. the local name in Hindi is "आगरा"
+#.
+msgid "Agra"
+msgstr ""
+
+#. A city in India
 msgid "Ahmadabad"
 msgstr "Ahmadabad"
 
 #. A city in India
+#. the local name in Hindi is "इलाहाबाद"
+msgid "Allahabad"
+msgstr ""
+
+#. A city in India
+#. the local name in Punjabi is "ਅੰਮ੍ਰਿਤਸਰ"
+#.
 msgid "Amritsar"
 msgstr "Amrisar"
+
+#. A city in India
+#. the local name in Marathi is "औरंगाबाद"
+msgid "Aurangabad"
+msgstr ""
+
+#. A city in India
+msgid "Bagdogra"
+msgstr ""
+
+#. A city in India - local airport
+#. "Bengaluru" is the new name
+#.
+msgid "Bangalore"
+msgstr ""
 
 #. A city in India.
 #. "Benares" is the traditional English name.
@@ -7546,19 +7515,61 @@ msgstr "Amrisar"
 msgid "Benares"
 msgstr "Benares"
 
-#. A city in India.
-#. "Bombay" is the traditional English name.
-#. The local name in Marathi is "Mumbai /  मुंबई".
-#.
-msgid "Bombay"
-msgstr "Bombaj"
+#. A city in India
+#. the local name in Gujrati is "ભાવનગર"
+#. the local name in Hindi is "भावनगर"
+msgid "Bhavnagar"
+msgstr ""
 
 #. A city in India.
-#. "Calcutta" is the traditional English name.
-#. The local name in Bengali is "Kolkata /  কলকাতা".
+#. The local name in Hindi is "भोपाल".
 #.
-msgid "Calcutta"
-msgstr "Kalkuta"
+msgid "Bhopal"
+msgstr ""
+
+#. A city in India.
+#. The local name in Oriya is "ଭୁବେନଶ୍ବର".
+#.
+msgid "Bhubaneshwar"
+msgstr ""
+
+#. A city in India.
+msgid "Bhuj"
+msgstr ""
+
+#. A union territory in India.
+#. The local name in Hindi is "चण्डीगढ़ / चंडीगढ़"
+#. The local name in Punjabi is "ਚੰਡੀਗੜ੍ਹ"
+msgid "Chandigarh"
+msgstr ""
+
+#. A city in India.
+#. "Madras" is the traditional English name.
+#. The local name in Tamil is "Chennai / சென்னை".
+#.
+msgid "Chennai"
+msgstr ""
+
+#. A city in India.
+#. The local name in Tamil is "கோயம்புத்தூர்".
+#.
+msgid "Coimbatore"
+msgstr ""
+
+#. A city in India
+#. also known as Dehra Doon
+#. the local name in Hindi is "देहरादून"
+msgid "Dehradun"
+msgstr ""
+
+#. A city in India
+msgid "Dibrugarh"
+msgstr ""
+
+#. A city in India
+#. the local name in Hindi is "दीमापुर"
+msgid "Dimapur"
+msgstr ""
 
 #. A city in India
 msgid "Hyderabad"
@@ -7569,17 +7580,40 @@ msgid "Jaipur"
 msgstr "Džajpur"
 
 #. A city in India.
+#. The local name in Dogri is "जम्मू"
+msgid "Jammu"
+msgstr ""
+
+#. A city in India.
+#. The old name is "Cochin"
+#. A city in Japan
+msgid "Kochi"
+msgstr "Koči"
+
+#. A city in India.
+#. "Calcutta" is the traditional English name.
+#. The local name in Bengali is "Kolkata /  কলকাতা".
+#.
+msgid "Kolkata"
+msgstr ""
+
+#. A city in India.
+#. The local name in Hindi is "लेह"
+msgid "Leh"
+msgstr ""
+
+#. A city in India.
 #. The local name in Hindi is "लखनऊ".
 #.
 msgid "Lucknow"
 msgstr "Laknov"
 
 #. A city in India.
-#. "Madras" is the traditional English name.
-#. The local name in Tamil is "Chennai / சென்னை".
+#. "Bombay" is the traditional English name.
+#. The local name in Marathi is "Mumbai /  मुंबई".
 #.
-msgid "Madras"
-msgstr "Madras"
+msgid "Mumbai"
+msgstr ""
 
 #. A city in India
 msgid "Nagpur"
@@ -7596,6 +7630,21 @@ msgstr "Nju Delhi"
 #. A city in India
 msgid "Patna"
 msgstr "Patna"
+
+#. A city in India
+msgid "Pune"
+msgstr ""
+
+#. A city in India.
+#. The local name in Hindi is "शिमला"
+msgid "Shimla"
+msgstr ""
+
+#. A city in India.
+#. The local name in Dogri is "श्रीनगर"
+#. The local name in Urdu is "شرینگر"
+msgid "Srinagar"
+msgstr ""
 
 #. A city in India.
 #. The local name in Malayalam is "തിരുവനന്തപുരം".
@@ -7628,6 +7677,10 @@ msgstr "Palembang"
 #. A city in Indonesia
 msgid "Pekanbaru"
 msgstr "Pekanbaru"
+
+#. A city in Indonesia
+msgid "Yogyakarta"
+msgstr ""
 
 #. A city in Iran.
 #. The name is also written "آبادان".
@@ -7898,7 +7951,6 @@ msgstr "Kork"
 #. The capital of Ireland.
 #. The local name in Irish is "Baile Átha Cliath".
 #.
-#| msgid "Dublin"
 msgctxt "City in Ireland"
 msgid "Dublin"
 msgstr "Dablin"
@@ -7920,7 +7972,6 @@ msgid "Shannon"
 msgstr "Šenon"
 
 #. The capital of the Isle of Man
-#| msgid "Douglas"
 msgctxt "City in Isle of Man"
 msgid "Douglas"
 msgstr "Daglas"
@@ -7960,6 +8011,10 @@ msgstr "Albenga"
 #. A city in Italy
 msgid "Alghero"
 msgstr "Algero"
+
+#. A city in Italy
+msgid "Ancona"
+msgstr ""
 
 #. A city in Italy
 msgid "Aviano"
@@ -8037,7 +8092,6 @@ msgstr "Ferara"
 #. "Florence" is the traditional English name.
 #. The local name in Italian is "Firenze".
 #.
-#| msgid "Florence"
 msgctxt "City in Italy"
 msgid "Florence"
 msgstr "Firenca"
@@ -8108,15 +8162,10 @@ msgstr "Mesina"
 msgid "Milan"
 msgstr "Milano"
 
-#. A city in Italy
-msgid "Molino di Ancona"
-msgstr "Molino Di Ankona"
-
 #. A city in Italy.
 #. "Naples" is the traditional English name.
 #. The local name in Italian is "Napoli".
 #.
-#| msgid "Naples"
 msgctxt "City in Italy"
 msgid "Naples"
 msgstr "Napulj"
@@ -8189,7 +8238,6 @@ msgstr "Rimini"
 #. "Rome" is the traditional English name.
 #. The local name in Italian is "Roma".
 #.
-#| msgid "Rome"
 msgctxt "City in Italy"
 msgid "Rome"
 msgstr "Rim"
@@ -8265,7 +8313,6 @@ msgid "Àrbatax"
 msgstr "Arbataks"
 
 #. The capital of Jamaica
-#| msgid "Kingston"
 msgctxt "City in Jamaica"
 msgid "Kingston"
 msgstr "Kingston"
@@ -8385,10 +8432,6 @@ msgstr "Kašoji"
 #. A city in Japan
 msgid "Kitakyushu"
 msgstr "Kitakjušu"
-
-#. A city in Japan
-msgid "Kochi"
-msgstr "Koči"
 
 #. A city in Japan
 msgid "Komatsu"
@@ -8622,24 +8665,46 @@ msgid "Amman"
 msgstr "Aman"
 
 #. A city in Kazakhstan
+msgid "Aktau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Aktobe"
+msgstr ""
+
+#. A city in Kazakhstan
 msgid "Almaty"
 msgstr "Almati"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktau".
-#.
-msgid "Aqtau"
-msgstr "Aktau"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktobe".
-#.
-msgid "Aqtöbe"
-msgstr "Aktobe"
 
 #. The capital of Kazakhstan
 msgid "Astana"
 msgstr "Astana"
+
+#. A city in Kazakhstan
+msgid "Atyrau"
+msgstr ""
+
+#. A city in Kazakhstan.
+#. The local name in Russian is "Balkhash".
+#.
+msgid "Balqash"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Karaganda"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kokshetau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kostanay"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kyzylorda"
+msgstr ""
 
 #. A city in Kazakhstan.
 #. The local name in Russian is "Ural'sk".
@@ -8648,26 +8713,31 @@ msgid "Oral"
 msgstr "Oral"
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Karaganda".
 #.
-msgid "Qaraghandy"
-msgstr "Karaganda"
+msgid "Oskemen"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Pavlodar"
+msgstr ""
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Kostanay".
+#. The local name in Russian is "Petropavlovsk".
 #.
-msgid "Qostanay"
-msgstr "Kostanaj"
+msgid "Petropavl"
+msgstr ""
 
-#. A city in Kazakhstan.
-#. The local name in Russian is "Kyzylorda".
-#.
-msgid "Qyzylorda"
-msgstr "Kzil-Orda"
+#. A city in Kazakhstan
+msgid "Semey"
+msgstr ""
 
 #. A city in Kazakhstan
 msgid "Shymkent"
 msgstr "Šumkent"
+
+#. A city in Kazakhstan
+msgid "Taraz"
+msgstr ""
 
 #. A city in Kenya
 msgid "Eldoret"
@@ -8686,7 +8756,6 @@ msgid "Nairobi"
 msgstr "Nairobi"
 
 #. A city in Kiribati
-#| msgid "London"
 msgctxt "City in Kiribati"
 msgid "London"
 msgstr "London"
@@ -8695,7 +8764,6 @@ msgstr "London"
 #. "Kuwait" is the traditional English name.
 #. The local name in Arabic is "Al Kuwayt / الكويت".
 #.
-#| msgid "Kuwait"
 msgctxt "City in Kuwait"
 msgid "Kuwait"
 msgstr "Kuvajt"
@@ -8762,7 +8830,6 @@ msgid "Šiauliai"
 msgstr "Šiaulai"
 
 #. The capital of Luxembourg
-#| msgid "Luxembourg"
 msgctxt "City in Luxembourg"
 msgid "Luxembourg"
 msgstr "Luksemburg"
@@ -8770,7 +8837,6 @@ msgstr "Luksemburg"
 #. The capital of Macau.
 #. The local name in Chinese is "Aomen / 澳门".
 #.
-#| msgid "Macau"
 msgctxt "City in Macau"
 msgid "Macau"
 msgstr "Makao"
@@ -8891,7 +8957,6 @@ msgid "Tawau"
 msgstr "Tavau"
 
 #. A city in Malaysia
-#| msgid "Victoria"
 msgctxt "City in Malaysia"
 msgid "Victoria"
 msgstr "Viktorija"
@@ -8956,13 +9021,11 @@ msgid "Acapulco"
 msgstr "Akapulko"
 
 #. A city in Aguascalientes in Mexico
-#| msgid "Aguascalientes"
 msgctxt "City in Aguascalientes, Mexico"
 msgid "Aguascalientes"
 msgstr "Agvaskaliantes"
 
 #. A city in Campeche in Mexico
-#| msgid "Campeche"
 msgctxt "City in Campeche, Mexico"
 msgid "Campeche"
 msgstr "Kampeče"
@@ -8984,7 +9047,6 @@ msgid "Chichén-Itzá"
 msgstr "Čičen-Ica"
 
 #. A city in Chihuahua in Mexico
-#| msgid "Chihuahua"
 msgctxt "City in Chihuahua, Mexico"
 msgid "Chihuahua"
 msgstr "Čihuahua"
@@ -9004,7 +9066,6 @@ msgid "Ciudad Victoria"
 msgstr "Siudad Viktoria"
 
 #. A city in Colima in Mexico
-#| msgid "Colima"
 msgctxt "City in Colima, Mexico"
 msgid "Colima"
 msgstr "Kolima"
@@ -9022,7 +9083,6 @@ msgid "Culiacán"
 msgstr "Kulakan"
 
 #. A city in Durango in Mexico
-#| msgid "Durango"
 msgctxt "City in Durango, Mexico"
 msgid "Durango"
 msgstr "Durango"
@@ -9052,7 +9112,6 @@ msgid "Ixtepec"
 msgstr "Ikstepek"
 
 #. A city in Baja California Sur in Mexico
-#| msgid "La Paz"
 msgctxt "City in Baja California Sur, Mexico"
 msgid "La Paz"
 msgstr "La Paz"
@@ -9062,7 +9121,6 @@ msgid "Laguna Tepic"
 msgstr "Laguna Tepik"
 
 #. A city in Guanajuato in Mexico
-#| msgid "León"
 msgctxt "City in Guanajuato, Mexico"
 msgid "León"
 msgstr "Leon"
@@ -9076,7 +9134,6 @@ msgid "Los Mochis"
 msgstr "Los Mokis"
 
 #. A city in Colima in Mexico
-#| msgid "Manzanillo"
 msgctxt "City in Colima, Mexico"
 msgid "Manzanillo"
 msgstr "Mancanilo"
@@ -9117,7 +9174,6 @@ msgid "Morelia"
 msgstr "Morelija"
 
 #. A city in Yucatán in Mexico
-#| msgid "Mérida"
 msgctxt "City in Yucatán, Mexico"
 msgid "Mérida"
 msgstr "Merida"
@@ -9127,7 +9183,6 @@ msgid "Nuevo Laredo"
 msgstr "Nuevo Laredo"
 
 #. A city in Oaxaca in Mexico
-#| msgid "Oaxaca"
 msgctxt "City in Oaxaca, Mexico"
 msgid "Oaxaca"
 msgstr "Oaksaka"
@@ -9143,7 +9198,6 @@ msgid "Poza Rica de Hidalgo"
 msgstr "Pozarika De Hidalgo"
 
 #. A city in Puebla in Mexico
-#| msgid "Puebla"
 msgctxt "City in Puebla, Mexico"
 msgid "Puebla"
 msgstr "Puebla"
@@ -9207,7 +9261,6 @@ msgid "Uruapan"
 msgstr "Urupan"
 
 #. A city in Veracruz in Mexico
-#| msgid "Veracruz"
 msgctxt "City in Veracruz, Mexico"
 msgid "Veracruz"
 msgstr "Verakruz"
@@ -9217,7 +9270,6 @@ msgid "Villahermosa"
 msgstr "Vilahermoza"
 
 #. A city in Zacatecas in Mexico
-#| msgid "Zacatecas"
 msgctxt "City in Zacatecas, Mexico"
 msgid "Zacatecas"
 msgstr "Zakatekas"
@@ -9231,13 +9283,12 @@ msgid "Chişinău"
 msgstr "Kinsinau"
 
 #. The capital of Monaco
-#| msgid "Monaco"
 msgctxt "City in Monaco"
 msgid "Monaco"
 msgstr "Monako"
 
 #. The capital of Mongolia.
-#. The name is also written "Ulaanbaatar".
+#. The name is also written "Улаанбаатар".
 #.
 msgid "Ulaanbaatar"
 msgstr "Ulanbator"
@@ -9433,6 +9484,10 @@ msgstr "Okland"
 msgid "Christchurch"
 msgstr "Krajstčurč"
 
+#. A city in New Zealand
+msgid "Dunedin"
+msgstr ""
+
 #. The capital of New Zealand
 msgid "Wellington"
 msgstr "Velington"
@@ -9477,7 +9532,7 @@ msgstr "Nijamej"
 msgid "Zinder"
 msgstr "Zinder"
 
-#. A city in Nigeria
+#. A city in Lagos Nigeria
 msgid "Ikeja"
 msgstr "Ikeja"
 
@@ -9502,7 +9557,6 @@ msgid "Alofi"
 msgstr "Alofi"
 
 #. A city in Norfolk Island
-#| msgid "Kingston"
 msgctxt "City in Norfolk Island"
 msgid "Kingston"
 msgstr "Kingston"
@@ -9608,10 +9662,6 @@ msgid "Kristiansund"
 msgstr "Kristijanštat"
 
 #. A city in Norway
-msgid "Langenes"
-msgstr "Langenes"
-
-#. A city in Norway
 msgid "Mehamn"
 msgstr "Mehamn"
 
@@ -9698,6 +9748,10 @@ msgstr "Sorkjosen"
 #. A city in Norway
 msgid "Torp"
 msgstr "Torp"
+
+#. A city in Norway
+msgid "Tromsø"
+msgstr ""
 
 #. A city in Norway
 msgid "Trondheim"
@@ -9811,7 +9865,6 @@ msgid "Juliaca"
 msgstr "Džulijaka"
 
 #. The capital of Peru
-#| msgid "Lima"
 msgctxt "City in Peru"
 msgid "Lima"
 msgstr "Lima"
@@ -9881,6 +9934,10 @@ msgid "Zamboanga City"
 msgstr "Zambanga"
 
 #. A city in Poland
+msgid "Bydgoszcz"
+msgstr ""
+
+#. A city in Poland
 msgid "Gdańsk"
 msgstr "Gdanjsk"
 
@@ -9893,8 +9950,20 @@ msgid "Kraków"
 msgstr "Krakov"
 
 #. A city in Poland
+msgid "Lublin"
+msgstr ""
+
+#. A city in Poland
+msgid "Olsztyn"
+msgstr ""
+
+#. A city in Poland
 msgid "Poznań"
 msgstr "Poznanj"
+
+#. A city in Poland
+msgid "Radom"
+msgstr ""
 
 #. A city in Poland
 msgid "Rzeszów"
@@ -9908,7 +9977,6 @@ msgstr "Ščečin"
 #. "Warsaw" is the traditional English name.
 #. The local name in Polish is "Warszawa".
 #.
-#| msgid "Warsaw"
 msgctxt "City in Poland"
 msgid "Warsaw"
 msgstr "Varšava"
@@ -9916,6 +9984,14 @@ msgstr "Varšava"
 #. A city in Poland
 msgid "Wrocław"
 msgstr "Vroclav"
+
+#. A city in Poland
+msgid "Zielona Góra"
+msgstr ""
+
+#. A city in Poland
+msgid "Łódź"
+msgstr ""
 
 #. A city in Portugal
 msgid "Beja"
@@ -9982,19 +10058,15 @@ msgstr "Sintra"
 msgid "Água de Pena"
 msgstr "Agva De Penja"
 
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
+msgid "Aguadilla"
+msgstr ""
+
+#. A municipality of Puerto Rico
 msgid "Carolina"
 msgstr "Karolina"
 
-#. A city in Puerto Rico
-msgid "Ponce"
-msgstr "Pons"
-
-#. A city in Puerto Rico
-msgid "Rafael Hernandez"
-msgstr "Rafael Hernandez"
-
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
 msgid "San Juan"
 msgstr "San Huan"
 
@@ -10069,214 +10141,219 @@ msgid "Târgu-Mureş"
 msgstr "Targu-Mureš"
 
 #. A city in Russia.
-#. The local name in Russian is "Abakan".
+#. The local name in Russian is "Абакан".
 #.
 msgid "Abakan"
 msgstr "Abakan"
 
 #. A city in Russia.
-#. The local name in Russian is "Adler".
+#. The local name in Russian is "Адлер".
 #.
 msgid "Adler"
 msgstr "Adler"
 
 #. A city in Russia.
-#. The local name in Russian is "Anadыrь".
+#. The local name in Russian is "Анадырь".
 #.
 msgid "Anadyr'"
 msgstr "Anadir"
 
 #. A city in Russia.
-#. The local name in Russian is "Anapa".
+#. The local name in Russian is "Анапа".
 #.
 msgid "Anapa"
 msgstr "Anapa"
 
 #. A city in Russia.
-#. The local name in Russian is "Arhangelьsk".
+#. The local name in Russian is "Архангельск".
 #.
 msgid "Arkhangel'sk"
 msgstr "Arhangelsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Astrahanь".
+#. The local name in Russian is "Астрахань".
 #.
 msgid "Astrakhan'"
 msgstr "Astrakan"
 
 #. A city in Russia.
-#. The local name in Russian is "Barnaul".
+#. The local name in Russian is "Барнаул".
 #.
 msgid "Barnaul"
 msgstr "Barnaul"
 
 #. A city in Russia.
-#. The local name in Russian is "Brack".
+#. The local name in Russian is "Брацк".
 #.
 msgid "Bratsk"
 msgstr "Bratsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Brяnsk".
+#. The local name in Russian is "Брянск".
 #.
 msgid "Bryansk"
 msgstr "Brijansk"
 
 #. A city in Russia.
-#. The local name in Russian is "Čelяbinsk".
+#. The local name in Russian is "Челябинск".
 #.
 msgid "Chelyabinsk"
 msgstr "Čeljabinsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Čita".
+#. The local name in Russian is "Чита".
 #.
 msgid "Chita"
 msgstr "Čita"
 
 #. A city in Russia.
-#. The local name in Russian is "Čulьman".
+#. The local name in Russian is "Чульман".
 #.
 msgid "Chul'man"
 msgstr "Čulman"
 
 #. A city in Russia.
-#. The local name in Russian is "Эngelьs".
+#. The local name in Russian is "Энгельс".
 #.
 msgid "Engel's"
 msgstr "Engels"
 
 #. A city in Russia.
-#. The local name in Russian is "Irkuck".
+#. The local name in Russian is "Иркуцк".
 #.
 msgid "Irkutsk"
 msgstr "Irkutsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Kaliningrad".
+#. The local name in Russian is "Калининград".
 #.
 msgid "Kaliningrad"
 msgstr "Kaljiningrad"
 
 #. A city in Russia.
-#. The local name in Russian is "Kazanь".
+#. The local name in Russian is "Казань".
 #.
 msgid "Kazan'"
 msgstr "Kazan"
 
 #. A city in Russia.
-#. The local name in Russian is "Kemerovo".
+#. The local name in Russian is "Кемерово".
 #.
 msgid "Kemerovo"
 msgstr "Kemerovo"
 
 #. A city in Russia.
-#. The local name in Russian is "Habarovsk".
+#. The local name in Russian is "Хабаровск".
 #.
 msgid "Khabarovsk"
 msgstr "Kabarovsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Hantы-Mansiйsk".
+#. The local name in Russian is "Ханты-Мансийск".
 #.
 msgid "Khanty-Mansiysk"
 msgstr "Hanti-Mansijsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Krasnodar".
+#. The local name in Russian is "Краснодар".
 #.
 msgid "Krasnodar"
 msgstr "Krasnodar"
 
 #. A city in Russia.
-#. The local name in Russian is "Magadan".
+#. The local name in Russian is "Красноярск".
+#.
+msgid "Krasnoyarsk"
+msgstr ""
+
+#. A city in Russia.
+#. The local name in Russian is "Магадан".
 #.
 msgid "Magadan"
 msgstr "Magadan"
 
 #. A city in Russia.
-#. The local name in Russian is "Mineralьnыe Vodы".
+#. The local name in Russian is "Минеральные Воды".
 #.
 msgid "Mineral'nyye Vody"
 msgstr "Mineralnije Vodi"
 
 #. A city in Russia.
-#. The local name in Russian is "Mirnый".
+#. The local name in Russian is "Мирный".
 #.
 msgid "Mirnyy"
 msgstr "Mirni"
 
 #. The capital of Russia.
 #. "Moscow" is the traditional English name.
-#. The local name in Russian is "Moskva / Moskva".
+#. The local name in Russian is "Moskva / Москва".
 #.
-#| msgid "Moscow"
 msgctxt "City in Russia"
 msgid "Moscow"
 msgstr "Moskva"
 
 #. A city in Russia.
-#. The local name in Russian is "Murmansk".
+#. The local name in Russian is "Мурманск".
 #.
 msgid "Murmansk"
 msgstr "Murmansk"
 
 #. A city in Russia.
-#. The local name in Russian is "Nalьčik".
+#. The local name in Russian is "Нальчик".
 #.
 msgid "Nal'chik"
 msgstr "Nalčik"
 
 #. A city in Russia.
-#. The local name in Russian is "Nižnevartovsk".
+#. The local name in Russian is "Нижневартовск".
 #.
 msgid "Nizhnevartovsk"
 msgstr "Nižnevartovsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Novokuzneck".
+#. The local name in Russian is "Новокузнецк".
 #.
 msgid "Novokuznetsk"
 msgstr "Novokuznjetsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Novosibirsk".
+#. The local name in Russian is "Новосибирск".
 #.
 msgid "Novosibirsk"
 msgstr "Novosibirsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Omsk".
+#. The local name in Russian is "Омск".
 #.
 msgid "Omsk"
 msgstr "Omsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Orenburg".
+#. The local name in Russian is "Оренбург".
 #.
 msgid "Orenburg"
 msgstr "Orenburg"
 
 #. A city in Russia.
-#. The local name in Russian is "Penza".
+#. The local name in Russian is "Пенза".
 #.
 msgid "Penza"
 msgstr "Penza"
 
 #. A city in Russia.
-#. The local name in Russian is "Permь".
+#. The local name in Russian is "Пермь".
 #.
 msgid "Perm'"
 msgstr "Perm"
 
 #. A city in Russia.
-#. The local name in Russian is "Petropavlovsk-Kamčatskiй".
+#. The local name in Russian is "Петропавловск-Камчатский".
 #.
 msgid "Petropavlovsk"
 msgstr "Petropavlovsk"
 
 #. A city in Russia.
-#. The local name in Russian is "Rostov-na-Donu".
+#. The local name in Russian is "Ростов-на-Дону".
 #.
 msgid "Rostov"
 msgstr "Rostov"
@@ -10284,13 +10361,13 @@ msgstr "Rostov"
 #. A city in Russia.
 #. "Saint Petersburg" is the traditional English name.
 #. The local name in Russian is "Sankt-Peterburg /
-#. Sankt-Peterburg".
+#. Санкт-Петербург".
 #.
 msgid "Saint Petersburg"
 msgstr "Sankt Petersburg"
 
 #. A city in Russia.
-#. The local name in Russian is "Samara".
+#. The local name in Russian is "Самара".
 #.
 msgid "Samara"
 msgstr "Samara"
@@ -10300,19 +10377,19 @@ msgid "Saratov"
 msgstr "Saratov"
 
 #. A city in Russia.
-#. The local name in Russian is "Stavropolь".
+#. The local name in Russian is "Ставрополь".
 #.
 msgid "Stavropol'"
 msgstr "Stavropolj"
 
 #. A city in Russia.
-#. The local name in Russian is "Strigino".
+#. The local name in Russian is "Стригино".
 #.
 msgid "Strigino"
 msgstr "Strižino"
 
 #. A city in Russia.
-#. The local name in Russian is "Surgut".
+#. The local name in Russian is "Сургут".
 #.
 msgid "Surgut"
 msgstr "Surgut"
@@ -10324,6 +10401,10 @@ msgstr "Siktivkar"
 #. A city in Russia
 msgid "Tiksi"
 msgstr "Tiksi"
+
+#. A city in Russia
+msgid "Tyumen"
+msgstr ""
 
 #. A city in Russia
 msgid "Udachnyy"
@@ -10374,13 +10455,11 @@ msgid "Saint-Denis"
 msgstr "Sen Deni"
 
 #. A city in Réunion
-#| msgid "Saint-Pierre"
 msgctxt "City in Réunion"
 msgid "Saint-Pierre"
 msgstr "Sen-Pjer"
 
 #. A city in Saint Helena
-#| msgid "Georgetown"
 msgctxt "City in Saint Helena"
 msgid "Georgetown"
 msgstr "Džordžtaun"
@@ -10394,7 +10473,6 @@ msgid "Golden Rock"
 msgstr "Golden Rok"
 
 #. A city in Saint Kitts and Nevis
-#| msgid "Newcastle"
 msgctxt "City in Saint Kitts and Nevis"
 msgid "Newcastle"
 msgstr "Njukasl"
@@ -10412,7 +10490,6 @@ msgid "Vigie"
 msgstr "Viži"
 
 #. The capital of Saint Pierre and Miquelon
-#| msgid "Saint-Pierre"
 msgctxt "City in Saint Pierre and Miquelon"
 msgid "Saint-Pierre"
 msgstr "Sen Pjer"
@@ -10430,7 +10507,6 @@ msgid "Apia"
 msgstr "Apija"
 
 #. The capital of San Marino
-#| msgid "San Marino"
 msgctxt "City in San Marino"
 msgid "San Marino"
 msgstr "San Marino"
@@ -10604,7 +10680,6 @@ msgid "Cascade"
 msgstr "Kaskejd"
 
 #. The capital of the Seychelles
-#| msgid "Victoria"
 msgctxt "City in Seychelles"
 msgid "Victoria"
 msgstr "Viktorija"
@@ -10618,7 +10693,6 @@ msgid "Lungi"
 msgstr "Lungi"
 
 #. The capital of Singapore
-#| msgid "Singapore"
 msgctxt "City in Singapore"
 msgid "Singapore"
 msgstr "Singapur"
@@ -10801,7 +10875,6 @@ msgid "Barajas"
 msgstr "Barahas"
 
 #. A city in Spain
-#| msgid "Barcelona"
 msgctxt "City in Spain"
 msgid "Barcelona"
 msgstr "Barselona"
@@ -10823,7 +10896,6 @@ msgid "Cuatro Vientos"
 msgstr "Kvatro Vijentos"
 
 #. A city in Spain
-#| msgid "Córdoba"
 msgctxt "City in Spain"
 msgid "Córdoba"
 msgstr "Kordoba"
@@ -10865,10 +10937,13 @@ msgid "Jerez"
 msgstr "Herez"
 
 #. A city in Spain
-#| msgid "León"
 msgctxt "City in Spain"
 msgid "León"
 msgstr "Leon"
+
+#. A city in Spain
+msgid "Lleida"
+msgstr ""
 
 #. A city in Spain
 msgid "Los Baldíos"
@@ -10935,7 +11010,6 @@ msgid "Santander"
 msgstr "Santander"
 
 #. A city in Spain
-#| msgid "Santiago"
 msgctxt "City in Spain"
 msgid "Santiago"
 msgstr "Santjago"
@@ -10953,7 +11027,6 @@ msgid "Torrejón del Rey"
 msgstr "Torežon Del Rej"
 
 #. A city in Spain
-#| msgid "Valencia"
 msgctxt "City in Spain"
 msgid "Valencia"
 msgstr "Valensija"
@@ -11137,6 +11210,10 @@ msgstr "Orebro"
 msgid "Örnsköldsvik"
 msgstr "Ornskolsvik"
 
+#. A city in Switzerland
+msgid "Basel"
+msgstr ""
+
 #. The capital of Switzerland
 msgid "Bern"
 msgstr "Bern"
@@ -11167,6 +11244,10 @@ msgstr "Sent Galen"
 #. A city in Switzerland
 msgid "Sion"
 msgstr "Sion"
+
+#. A city in Switzerland
+msgid "St. Moritz"
+msgstr ""
 
 #. A city in Switzerland
 msgid "Zürich"
@@ -11202,22 +11283,22 @@ msgid "Latakia"
 msgstr "Latakija"
 
 #. A city in Taiwan.
-#. The name is also written "高雄巿".
+#. The name is also written "高雄".
 #.
-msgid "Kao-hsiung-shih"
-msgstr "Kso Cung"
+msgid "Kaohsiung"
+msgstr ""
+
+#. The capital of Taiwan.
+#. The name is also written "臺北".
+#.
+msgid "Taipei"
+msgstr ""
 
 #. A city in Taiwan.
 #. The name is also written "埔頂".
 #.
-msgid "Pu-ting"
-msgstr "Puting"
-
-#. The capital of Taiwan.
-#. The name is also written "臺北市".
-#.
-msgid "T'ai-pei Shih"
-msgstr "Tajpej"
+msgid "Taoyuan"
+msgstr ""
 
 #. The capital of Tajikistan
 msgid "Dushanbe"
@@ -11678,7 +11759,6 @@ msgid "Sharjah"
 msgstr "Šarja"
 
 #. A city in Scotland in the United Kingdom
-#| msgid "Aberdeen"
 msgctxt "City in Scotland, United Kingdom"
 msgid "Aberdeen"
 msgstr "Aberdin"
@@ -11690,7 +11770,6 @@ msgstr "Belfast"
 #. A city in East and South East England in the United
 #. Kingdom
 #.
-#| msgid "Benson"
 msgctxt "City in East and South East England, United Kingdom"
 msgid "Benson"
 msgstr "Benson"
@@ -11702,7 +11781,6 @@ msgid "Biggin Hill"
 msgstr "Biginhil"
 
 #. A city in Midlands in the United Kingdom
-#| msgid "Birmingham"
 msgctxt "City in Midlands, United Kingdom"
 msgid "Birmingham"
 msgstr "Birmingem"
@@ -11744,7 +11822,6 @@ msgstr "But"
 #. A city in East and South East England in the United
 #. Kingdom
 #.
-#| msgid "Cambridge"
 msgctxt "City in East and South East England, United Kingdom"
 msgid "Cambridge"
 msgstr "Kembridž"
@@ -11756,7 +11833,6 @@ msgstr "Kempbeltaun"
 #. A city in Wales in the United Kingdom.
 #. The local name in Welsh is "Caerdydd".
 #.
-#| msgid "Cardiff"
 msgctxt "City in Wales, United Kingdom"
 msgid "Cardiff"
 msgstr "Kardif"
@@ -11766,8 +11842,8 @@ msgid "Carlisle"
 msgstr "Karlajl"
 
 #. A city in Midlands in the United Kingdom
-msgid "Castle Donnington"
-msgstr "Kestl Donington"
+msgid "Castle Donington"
+msgstr ""
 
 #. A city in North West England in the United Kingdom
 msgid "Church Fenton"
@@ -11832,7 +11908,6 @@ msgid "Filton"
 msgstr "Filton"
 
 #. A city in Scotland in the United Kingdom
-#| msgid "Glasgow"
 msgctxt "City in Scotland, United Kingdom"
 msgid "Glasgow"
 msgstr "Glazgov"
@@ -11904,13 +11979,11 @@ msgid "Linton upon Ouse"
 msgstr "Linton-na-Osi"
 
 #. A city in North West England in the United Kingdom
-#| msgid "Liverpool"
 msgctxt "City in North West England, United Kingdom"
 msgid "Liverpool"
 msgstr "Liverpul"
 
 #. The capital of the United Kingdom
-#| msgid "London"
 msgctxt "City in East and South East England, United Kingdom"
 msgid "London"
 msgstr "London"
@@ -11938,7 +12011,6 @@ msgid "Lyneham"
 msgstr "Linham"
 
 #. A city in North West England in the United Kingdom
-#| msgid "Manchester"
 msgctxt "City in North West England, United Kingdom"
 msgid "Manchester"
 msgstr "Mančester"
@@ -11972,7 +12044,6 @@ msgid "Mossbank"
 msgstr "Mozbank"
 
 #. A city in North East England in the United Kingdom
-#| msgid "Newcastle"
 msgctxt "City in North East England, United Kingdom"
 msgid "Newcastle"
 msgstr "Njukasl"
@@ -12002,7 +12073,6 @@ msgstr "Pembrej"
 #. A city in South and South West England in the United
 #. Kingdom
 #.
-#| msgid "Plymouth"
 msgctxt "City in South and South West England, United Kingdom"
 msgid "Plymouth"
 msgstr "Plimut"
@@ -12034,7 +12104,6 @@ msgstr "Sauthempton"
 #. A city in East and South East England in the United
 #. Kingdom
 #.
-#| msgid "Southend"
 msgctxt "City in East and South East England, United Kingdom"
 msgid "Southend"
 msgstr "Sautend"
@@ -12052,7 +12121,6 @@ msgid "Staverton"
 msgstr "Staverton"
 
 #. A city in North East England in the United Kingdom
-#| msgid "Stockton"
 msgctxt "City in North East England, United Kingdom"
 msgid "Stockton"
 msgstr "Stokton"
@@ -12106,7 +12174,6 @@ msgid "Yeovilton"
 msgstr "Jeovilton"
 
 #. A city in South Dakota in the United States
-#| msgid "Aberdeen"
 msgctxt "City in South Dakota, United States"
 msgid "Aberdeen"
 msgstr "Aberdin"
@@ -12149,13 +12216,11 @@ msgid "Aitkin"
 msgstr "Etkin"
 
 #. A city in Colorado in the United States
-#| msgid "Akron"
 msgctxt "City in Colorado, United States"
 msgid "Akron"
 msgstr "Akron"
 
 #. A city in Ohio in the United States
-#| msgid "Akron"
 msgctxt "City in Ohio, United States"
 msgid "Akron"
 msgstr "Akron"
@@ -12173,13 +12238,11 @@ msgid "Alamosa"
 msgstr "Alamosa"
 
 #. A city in Georgia in the United States
-#| msgid "Albany"
 msgctxt "City in Georgia, United States"
 msgid "Albany"
 msgstr "Olbani"
 
 #. A city in New York in the United States
-#| msgid "Albany"
 msgctxt "City in New York, United States"
 msgid "Albany"
 msgstr "Olbani"
@@ -12209,19 +12272,16 @@ msgid "Alexander City"
 msgstr "Aleksander Siti"
 
 #. A city in Louisiana in the United States
-#| msgid "Alexandria"
 msgctxt "City in Louisiana, United States"
 msgid "Alexandria"
 msgstr "Aleksandrija"
 
 #. A city in Minnesota in the United States
-#| msgid "Alexandria"
 msgctxt "City in Minnesota, United States"
 msgid "Alexandria"
 msgstr "Aleksandrija"
 
 #. A city in Virginia in the United States
-#| msgid "Alexandria"
 msgctxt "City in Virginia, United States"
 msgid "Alexandria"
 msgstr "Aleksandrija"
@@ -12239,13 +12299,11 @@ msgid "Alliance"
 msgstr "Alajans"
 
 #. A city in Georgia in the United States
-#| msgid "Alma"
 msgctxt "City in Georgia, United States"
 msgid "Alma"
 msgstr "Alma"
 
 #. A city in Michigan in the United States
-#| msgid "Alma"
 msgctxt "City in Michigan, United States"
 msgid "Alma"
 msgstr "Alma"
@@ -12255,13 +12313,11 @@ msgid "Alpena"
 msgstr "Apena"
 
 #. A city in Alaska in the United States
-#| msgid "Alpine"
 msgctxt "City in Alaska, United States"
 msgid "Alpine"
 msgstr "Alpajn"
 
 #. A city in Texas in the United States
-#| msgid "Alpine"
 msgctxt "City in Texas, United States"
 msgid "Alpine"
 msgstr "Alpajn"
@@ -12319,13 +12375,11 @@ msgid "Andalusia"
 msgstr "Andaluzija"
 
 #. A city in Indiana in the United States
-#| msgid "Anderson"
 msgctxt "City in Indiana, United States"
 msgid "Anderson"
 msgstr "Anderson"
 
 #. A city in South Carolina in the United States
-#| msgid "Anderson"
 msgctxt "City in South Carolina, United States"
 msgid "Anderson"
 msgstr "Anderson"
@@ -12387,13 +12441,11 @@ msgid "Apalachicola"
 msgstr "Apalačikola"
 
 #. A city in Minnesota in the United States
-#| msgid "Appleton"
 msgctxt "City in Minnesota, United States"
 msgid "Appleton"
 msgstr "Eplton"
 
 #. A city in Wisconsin in the United States
-#| msgid "Appleton"
 msgctxt "City in Wisconsin, United States"
 msgid "Appleton"
 msgstr "Eplton"
@@ -12415,13 +12467,11 @@ msgid "Arkadelphia"
 msgstr "Arkadelfija"
 
 #. A city in Texas in the United States
-#| msgid "Arlington"
 msgctxt "City in Texas, United States"
 msgid "Arlington"
 msgstr "Arlington"
 
 #. A city in Washington in the United States
-#| msgid "Arlington"
 msgctxt "City in Washington, United States"
 msgid "Arlington"
 msgstr "Arlington"
@@ -12443,13 +12493,11 @@ msgid "Asheville"
 msgstr "Ešvil"
 
 #. A city in Virginia in the United States
-#| msgid "Ashland"
 msgctxt "City in Virginia, United States"
 msgid "Ashland"
 msgstr "Ešland"
 
 #. A city in Wisconsin in the United States
-#| msgid "Ashland"
 msgctxt "City in Wisconsin, United States"
 msgid "Ashland"
 msgstr "Ešland"
@@ -12467,7 +12515,6 @@ msgid "Astoria"
 msgstr "Astorija"
 
 #. A city in Georgia in the United States
-#| msgid "Athens"
 msgctxt "City in Georgia, United States"
 msgid "Athens"
 msgstr "Atina"
@@ -12477,7 +12524,6 @@ msgid "Atlanta"
 msgstr "Atlanta"
 
 #. A city in Iowa in the United States
-#| msgid "Atlantic"
 msgctxt "City in Iowa, United States"
 msgid "Atlantic"
 msgstr "Atlantik"
@@ -12491,19 +12537,16 @@ msgid "Atoka"
 msgstr "Atoka"
 
 #. A city in Alabama in the United States
-#| msgid "Auburn"
 msgctxt "City in Alabama, United States"
 msgid "Auburn"
 msgstr "Oburn"
 
 #. A city in California in the United States
-#| msgid "Auburn"
 msgctxt "City in California, United States"
 msgid "Auburn"
 msgstr "Oburn"
 
 #. A city in Maine in the United States
-#| msgid "Auburn"
 msgctxt "City in Maine, United States"
 msgid "Auburn"
 msgstr "Oburn"
@@ -12513,49 +12556,41 @@ msgid "Audubon"
 msgstr "Odubon"
 
 #. A city in Georgia in the United States
-#| msgid "Augusta"
 msgctxt "City in Georgia, United States"
 msgid "Augusta"
 msgstr "Augusta"
 
 #. A city in Maine in the United States
-#| msgid "Augusta"
 msgctxt "City in Maine, United States"
 msgid "Augusta"
 msgstr "Augusta"
 
 #. A city in Colorado in the United States
-#| msgid "Aurora"
 msgctxt "City in Colorado, United States"
 msgid "Aurora"
 msgstr "Aurora"
 
 #. A city in Illinois in the United States
-#| msgid "Aurora"
 msgctxt "City in Illinois, United States"
 msgid "Aurora"
 msgstr "Aurora"
 
 #. A city in Nebraska in the United States
-#| msgid "Aurora"
 msgctxt "City in Nebraska, United States"
 msgid "Aurora"
 msgstr "Aurora"
 
 #. A city in Oregon in the United States
-#| msgid "Aurora"
 msgctxt "City in Oregon, United States"
 msgid "Aurora"
 msgstr "Aurora"
 
 #. A city in Minnesota in the United States
-#| msgid "Austin"
 msgctxt "City in Minnesota, United States"
 msgid "Austin"
 msgstr "Ostin"
 
 #. A city in Texas in the United States
-#| msgid "Austin"
 msgctxt "City in Texas, United States"
 msgid "Austin"
 msgstr "Ostin"
@@ -12645,13 +12680,11 @@ msgid "Beatrice"
 msgstr "Beatris"
 
 #. A city in North Carolina in the United States
-#| msgid "Beaufort"
 msgctxt "City in North Carolina, United States"
 msgid "Beaufort"
 msgstr "Bofort"
 
 #. A city in South Carolina in the United States
-#| msgid "Beaufort"
 msgctxt "City in South Carolina, United States"
 msgid "Beaufort"
 msgstr "Bofort"
@@ -12669,7 +12702,6 @@ msgid "Beckley"
 msgstr "Bekli"
 
 #. A city in Massachusetts in the United States
-#| msgid "Bedford"
 msgctxt "City in Massachusetts, United States"
 msgid "Bedford"
 msgstr "Bedford"
@@ -12703,7 +12735,6 @@ msgid "Bennington"
 msgstr "Benington"
 
 #. A city in Minnesota in the United States
-#| msgid "Benson"
 msgctxt "City in Minnesota, United States"
 msgid "Benson"
 msgstr "Benson"
@@ -12721,7 +12752,6 @@ msgid "Berkeley"
 msgstr "Berkli"
 
 #. A city in New Hampshire in the United States
-#| msgid "Berlin"
 msgctxt "City in New Hampshire, United States"
 msgid "Berlin"
 msgstr "Berlin"
@@ -12771,7 +12801,6 @@ msgid "Birchwood"
 msgstr "Birkvud"
 
 #. A city in Alabama in the United States
-#| msgid "Birmingham"
 msgctxt "City in Alabama, United States"
 msgid "Birmingham"
 msgstr "Birmingem"
@@ -12797,13 +12826,11 @@ msgid "Blacksburg"
 msgstr "Bleksburg"
 
 #. A city in Illinois in the United States
-#| msgid "Bloomington"
 msgctxt "City in Illinois, United States"
 msgid "Bloomington"
 msgstr "Blumington"
 
 #. A city in Indiana in the United States
-#| msgid "Bloomington"
 msgctxt "City in Indiana, United States"
 msgid "Bloomington"
 msgstr "Blumington"
@@ -12833,13 +12860,11 @@ msgid "Boise"
 msgstr "Boaz"
 
 #. A city in Iowa in the United States
-#| msgid "Boone"
 msgctxt "City in Iowa, United States"
 msgid "Boone"
 msgstr "Bun"
 
 #. A city in North Carolina in the United States
-#| msgid "Boone"
 msgctxt "City in North Carolina, United States"
 msgid "Boone"
 msgstr "Bun"
@@ -12849,7 +12874,6 @@ msgid "Boothville"
 msgstr "Butvil"
 
 #. A city in Wyoming in the United States
-#| msgid "Bordeaux"
 msgctxt "City in Wyoming, United States"
 msgid "Bordeaux"
 msgstr "Bordo"
@@ -12911,13 +12935,11 @@ msgid "Broken Bow"
 msgstr "Broken Bou"
 
 #. A city in Oregon in the United States
-#| msgid "Brookings"
 msgctxt "City in Oregon, United States"
 msgid "Brookings"
 msgstr "Brukings"
 
 #. A city in South Dakota in the United States
-#| msgid "Brookings"
 msgctxt "City in South Dakota, United States"
 msgid "Brookings"
 msgstr "Brukings"
@@ -12943,13 +12965,11 @@ msgid "Brownwood"
 msgstr "Braunvud"
 
 #. A city in Georgia in the United States
-#| msgid "Brunswick"
 msgctxt "City in Georgia, United States"
 msgid "Brunswick"
 msgstr "Brunsvik"
 
 #. A city in Maine in the United States
-#| msgid "Brunswick"
 msgctxt "City in Maine, United States"
 msgid "Brunswick"
 msgstr "Brunsvik"
@@ -12967,25 +12987,21 @@ msgid "Buckland"
 msgstr "Baklend"
 
 #. A city in Minnesota in the United States
-#| msgid "Buffalo"
 msgctxt "City in Minnesota, United States"
 msgid "Buffalo"
 msgstr "Bafalo"
 
 #. A city in New York in the United States
-#| msgid "Buffalo"
 msgctxt "City in New York, United States"
 msgid "Buffalo"
 msgstr "Bafalo"
 
 #. A city in South Dakota in the United States
-#| msgid "Buffalo"
 msgctxt "City in South Dakota, United States"
 msgid "Buffalo"
 msgstr "Bafalo"
 
 #. A city in Wyoming in the United States
-#| msgid "Buffalo"
 msgctxt "City in Wyoming, United States"
 msgid "Buffalo"
 msgstr "Bafalo"
@@ -13003,37 +13019,31 @@ msgid "Burley"
 msgstr "Burli"
 
 #. A city in Colorado in the United States
-#| msgid "Burlington"
 msgctxt "City in Colorado, United States"
 msgid "Burlington"
 msgstr "Burlington"
 
 #. A city in Iowa in the United States
-#| msgid "Burlington"
 msgctxt "City in Iowa, United States"
 msgid "Burlington"
 msgstr "Burlington"
 
 #. A city in North Carolina in the United States
-#| msgid "Burlington"
 msgctxt "City in North Carolina, United States"
 msgid "Burlington"
 msgstr "Burlington"
 
 #. A city in Vermont in the United States
-#| msgid "Burlington"
 msgctxt "City in Vermont, United States"
 msgid "Burlington"
 msgstr "Burlington"
 
 #. A city in Washington in the United States
-#| msgid "Burlington"
 msgctxt "City in Washington, United States"
 msgid "Burlington"
 msgstr "Burlington"
 
 #. A city in Wisconsin in the United States
-#| msgid "Burlington"
 msgctxt "City in Wisconsin, United States"
 msgid "Burlington"
 msgstr "Burlington"
@@ -13063,25 +13073,21 @@ msgid "Cahokia"
 msgstr "Kahoka"
 
 #. A city in Illinois in the United States
-#| msgid "Cairo"
 msgctxt "City in Illinois, United States"
 msgid "Cairo"
 msgstr "Kairo"
 
 #. A city in Idaho in the United States
-#| msgid "Caldwell"
 msgctxt "City in Idaho, United States"
 msgid "Caldwell"
 msgstr "Kaldvel"
 
 #. A city in New Jersey in the United States
-#| msgid "Caldwell"
 msgctxt "City in New Jersey, United States"
 msgid "Caldwell"
 msgstr "Kaldvel"
 
 #. A city in Texas in the United States
-#| msgid "Caldwell"
 msgctxt "City in Texas, United States"
 msgid "Caldwell"
 msgstr "Kaldvel"
@@ -13091,13 +13097,11 @@ msgid "Camarillo"
 msgstr "Kamarilo"
 
 #. A city in Massachusetts in the United States
-#| msgid "Cambridge"
 msgctxt "City in Massachusetts, United States"
 msgid "Cambridge"
 msgstr "Kembridž"
 
 #. A city in Minnesota in the United States
-#| msgid "Cambridge"
 msgctxt "City in Minnesota, United States"
 msgid "Cambridge"
 msgstr "Kembridž"
@@ -13143,7 +13147,6 @@ msgid "Carbondale"
 msgstr "Karbondejl"
 
 #. A city in Colorado in the United States
-#| msgid "Cardiff"
 msgctxt "City in Colorado, United States"
 msgid "Cardiff"
 msgstr "Kardif"
@@ -13153,13 +13156,11 @@ msgid "Caribou"
 msgstr "Karibu"
 
 #. A city in California in the United States
-#| msgid "Carlsbad"
 msgctxt "City in California, United States"
 msgid "Carlsbad"
 msgstr "Karlsbad"
 
 #. A city in New Mexico in the United States
-#| msgid "Carlsbad"
 msgctxt "City in New Mexico, United States"
 msgid "Carlsbad"
 msgstr "Karlsbad"
@@ -13229,13 +13230,11 @@ msgid "Chandalar"
 msgstr "Čandalar"
 
 #. A city in Arizona in the United States
-#| msgid "Chandler"
 msgctxt "City in Arizona, United States"
 msgid "Chandler"
 msgstr "Čendler"
 
 #. A city in Oklahoma in the United States
-#| msgid "Chandler"
 msgctxt "City in Oklahoma, United States"
 msgid "Chandler"
 msgstr "Čendler"
@@ -13257,13 +13256,11 @@ msgid "Charles City"
 msgstr "Čarls Siti"
 
 #. A city in South Carolina in the United States
-#| msgid "Charleston"
 msgctxt "City in South Carolina, United States"
 msgid "Charleston"
 msgstr "Čarlston"
 
 #. A city in West Virginia in the United States
-#| msgid "Charleston"
 msgctxt "City in West Virginia, United States"
 msgid "Charleston"
 msgstr "Čarlston"
@@ -13273,13 +13270,11 @@ msgid "Charlevoix"
 msgstr "Šarlvua"
 
 #. A city in Michigan in the United States
-#| msgid "Charlotte"
 msgctxt "City in Michigan, United States"
 msgid "Charlotte"
 msgstr "Šarlot"
 
 #. A city in North Carolina in the United States
-#| msgid "Charlotte"
 msgctxt "City in North Carolina, United States"
 msgid "Charlotte"
 msgstr "Šarlot"
@@ -13397,13 +13392,11 @@ msgid "Clarksburg"
 msgstr "Klarksburg"
 
 #. A city in Tennessee in the United States
-#| msgid "Clarksville"
 msgctxt "City in Tennessee, United States"
 msgid "Clarksville"
 msgstr "Klarksvil"
 
 #. A city in Texas in the United States
-#| msgid "Clarksville"
 msgctxt "City in Texas, United States"
 msgid "Clarksville"
 msgstr "Klarksvil"
@@ -13433,19 +13426,16 @@ msgid "Clines Corners"
 msgstr "Klajns Korners"
 
 #. A city in Iowa in the United States
-#| msgid "Clinton"
 msgctxt "City in Iowa, United States"
 msgid "Clinton"
 msgstr "Klinton"
 
 #. A city in North Carolina in the United States
-#| msgid "Clinton"
 msgctxt "City in North Carolina, United States"
 msgid "Clinton"
 msgstr "Klinton"
 
 #. A city in Oklahoma in the United States
-#| msgid "Clinton"
 msgctxt "City in Oklahoma, United States"
 msgid "Clinton"
 msgstr "Klinton"
@@ -13495,61 +13485,51 @@ msgid "Colorado Springs"
 msgstr "Kolorado Springs"
 
 #. A city in Missouri in the United States
-#| msgid "Columbia"
 msgctxt "City in Missouri, United States"
 msgid "Columbia"
 msgstr "Kolumbija"
 
 #. A city in South Carolina in the United States
-#| msgid "Columbia"
 msgctxt "City in South Carolina, United States"
 msgid "Columbia"
 msgstr "Kolumbija"
 
 #. A city in Georgia in the United States
-#| msgid "Columbus"
 msgctxt "City in Georgia, United States"
 msgid "Columbus"
 msgstr "Kolumbo"
 
 #. A city in Indiana in the United States
-#| msgid "Columbus"
 msgctxt "City in Indiana, United States"
 msgid "Columbus"
 msgstr "Kolumbo"
 
 #. A city in Mississippi in the United States
-#| msgid "Columbus"
 msgctxt "City in Mississippi, United States"
 msgid "Columbus"
 msgstr "Kolumbo"
 
 #. A city in Nebraska in the United States
-#| msgid "Columbus"
 msgctxt "City in Nebraska, United States"
 msgid "Columbus"
 msgstr "Kolumbo"
 
 #. A city in Ohio in the United States
-#| msgid "Columbus"
 msgctxt "City in Ohio, United States"
 msgid "Columbus"
 msgstr "Kolumbo"
 
 #. A city in California in the United States
-#| msgid "Concord"
 msgctxt "City in California, United States"
 msgid "Concord"
 msgstr "Konkord"
 
 #. A city in New Hampshire in the United States
-#| msgid "Concord"
 msgctxt "City in New Hampshire, United States"
 msgid "Concord"
 msgstr "Konkord"
 
 #. A city in North Carolina in the United States
-#| msgid "Concord"
 msgctxt "City in North Carolina, United States"
 msgid "Concord"
 msgstr "Konkord"
@@ -13575,13 +13555,11 @@ msgid "Cordova"
 msgstr "Kordova"
 
 #. A city in California in the United States
-#| msgid "Corona"
 msgctxt "City in California, United States"
 msgid "Corona"
 msgstr "Korona"
 
 #. A city in New Mexico in the United States
-#| msgid "Corona"
 msgctxt "City in New Mexico, United States"
 msgid "Corona"
 msgstr "Korona"
@@ -13627,7 +13605,6 @@ msgid "Crescent City"
 msgstr "Kreskent Siti"
 
 #. A city in Iowa in the United States
-#| msgid "Creston"
 msgctxt "City in Iowa, United States"
 msgid "Creston"
 msgstr "Kreston"
@@ -13717,13 +13694,11 @@ msgid "Dansville"
 msgstr "Densvil"
 
 #. A city in Illinois in the United States
-#| msgid "Danville"
 msgctxt "City in Illinois, United States"
 msgid "Danville"
 msgstr "Denvil"
 
 #. A city in Virginia in the United States
-#| msgid "Danville"
 msgctxt "City in Virginia, United States"
 msgid "Danville"
 msgstr "Denvil"
@@ -13761,19 +13736,16 @@ msgid "Deadhorse"
 msgstr "Dedhors"
 
 #. A city in Alabama in the United States
-#| msgid "Decatur"
 msgctxt "City in Alabama, United States"
 msgid "Decatur"
 msgstr "Dekatur"
 
 #. A city in Illinois in the United States
-#| msgid "Decatur"
 msgctxt "City in Illinois, United States"
 msgid "Decatur"
 msgstr "Dekatur"
 
 #. A city in Texas in the United States
-#| msgid "Decatur"
 msgctxt "City in Texas, United States"
 msgid "Decatur"
 msgstr "Dekatur"
@@ -13863,19 +13835,16 @@ msgid "Dothan"
 msgstr "Dotan"
 
 #. A city in Arizona in the United States
-#| msgid "Douglas"
 msgctxt "City in Arizona, United States"
 msgid "Douglas"
 msgstr "Daglas"
 
 #. A city in Georgia in the United States
-#| msgid "Douglas"
 msgctxt "City in Georgia, United States"
 msgid "Douglas"
 msgstr "Daglas"
 
 #. A city in Wyoming in the United States
-#| msgid "Douglas"
 msgctxt "City in Wyoming, United States"
 msgid "Douglas"
 msgstr "Daglas"
@@ -13893,7 +13862,6 @@ msgid "Drummond"
 msgstr "Dramond"
 
 #. A city in Texas in the United States
-#| msgid "Dryden"
 msgctxt "City in Texas, United States"
 msgid "Dryden"
 msgstr "Driden"
@@ -13903,13 +13871,11 @@ msgid "Du Bois"
 msgstr "Du Boa"
 
 #. A city in Georgia in the United States
-#| msgid "Dublin"
 msgctxt "City in Georgia, United States"
 msgid "Dublin"
 msgstr "Dablin"
 
 #. A city in Virginia in the United States
-#| msgid "Dublin"
 msgctxt "City in Virginia, United States"
 msgid "Dublin"
 msgstr "Dablin"
@@ -13935,7 +13901,6 @@ msgid "Dunkirk"
 msgstr "Dankerk"
 
 #. A city in Colorado in the United States
-#| msgid "Durango"
 msgctxt "City in Colorado, United States"
 msgid "Durango"
 msgstr "Durango"
@@ -13953,13 +13918,11 @@ msgid "Dyersburg"
 msgstr "Dijersburg"
 
 #. A city in Alaska in the United States
-#| msgid "Eagle"
 msgctxt "City in Alaska, United States"
 msgid "Eagle"
 msgstr "Igl"
 
 #. A city in Colorado in the United States
-#| msgid "Eagle"
 msgctxt "City in Colorado, United States"
 msgid "Eagle"
 msgstr "Igl"
@@ -14049,13 +14012,11 @@ msgid "Elizabethtown"
 msgstr "Elizabettaun"
 
 #. A city in Indiana in the United States
-#| msgid "Elkhart"
 msgctxt "City in Indiana, United States"
 msgid "Elkhart"
 msgstr "Elkart"
 
 #. A city in Kansas in the United States
-#| msgid "Elkhart"
 msgctxt "City in Kansas, United States"
 msgid "Elkhart"
 msgstr "Elkart"
@@ -14073,7 +14034,6 @@ msgid "Ellensburg"
 msgstr "Elensburg"
 
 #. A city in New York in the United States
-#| msgid "Elmira"
 msgctxt "City in New York, United States"
 msgid "Elmira"
 msgstr "Elmira"
@@ -14083,13 +14043,11 @@ msgid "Elwood"
 msgstr "Elvud"
 
 #. A city in Minnesota in the United States
-#| msgid "Ely"
 msgctxt "City in Minnesota, United States"
 msgid "Ely"
 msgstr "Eli"
 
 #. A city in Nevada in the United States
-#| msgid "Ely"
 msgctxt "City in Nevada, United States"
 msgid "Ely"
 msgstr "Eli"
@@ -14107,13 +14065,11 @@ msgid "Emmonak"
 msgstr "Emonak"
 
 #. A city in Kansas in the United States
-#| msgid "Emporia"
 msgctxt "City in Kansas, United States"
 msgid "Emporia"
 msgstr "Emporija"
 
 #. A city in Virginia in the United States
-#| msgid "Emporia"
 msgctxt "City in Virginia, United States"
 msgid "Emporia"
 msgstr "Emporija"
@@ -14151,7 +14107,6 @@ msgid "Eugene"
 msgstr "Judžin"
 
 #. A city in Nevada in the United States
-#| msgid "Eureka"
 msgctxt "City in Nevada, United States"
 msgid "Eureka"
 msgstr "Eureka"
@@ -14189,19 +14144,16 @@ msgid "Fairchild"
 msgstr "Ferčajld"
 
 #. A city in California in the United States
-#| msgid "Fairfield"
 msgctxt "City in California, United States"
 msgid "Fairfield"
 msgstr "Ferfild"
 
 #. A city in Illinois in the United States
-#| msgid "Fairfield"
 msgctxt "City in Illinois, United States"
 msgid "Fairfield"
 msgstr "Ferfild"
 
 #. A city in Iowa in the United States
-#| msgid "Fairfield"
 msgctxt "City in Iowa, United States"
 msgid "Fairfield"
 msgstr "Ferfild"
@@ -14239,13 +14191,11 @@ msgid "Farmingdale"
 msgstr "Farmingdejl"
 
 #. A city in Missouri in the United States
-#| msgid "Farmington"
 msgctxt "City in Missouri, United States"
 msgid "Farmington"
 msgstr "Farmington"
 
 #. A city in New Mexico in the United States
-#| msgid "Farmington"
 msgctxt "City in New Mexico, United States"
 msgid "Farmington"
 msgstr "Farmington"
@@ -14255,13 +14205,11 @@ msgid "Farmville"
 msgstr "Farmvil"
 
 #. A city in Arkansas in the United States
-#| msgid "Fayetteville"
 msgctxt "City in Arkansas, United States"
 msgid "Fayetteville"
 msgstr "Fajetvil"
 
 #. A city in North Carolina in the United States
-#| msgid "Fayetteville"
 msgctxt "City in North Carolina, United States"
 msgid "Fayetteville"
 msgstr "Fajetvil"
@@ -14295,7 +14243,6 @@ msgid "Flora"
 msgstr "Flora"
 
 #. A city in South Carolina in the United States
-#| msgid "Florence"
 msgctxt "City in South Carolina, United States"
 msgid "Florence"
 msgstr "Firenca"
@@ -14349,7 +14296,6 @@ msgid "Fort Polk"
 msgstr "Fort Polk"
 
 #. A city in Arkansas in the United States
-#| msgid "Fort Smith"
 msgctxt "City in Arkansas, United States"
 msgid "Fort Smith"
 msgstr "Fort Smit"
@@ -14379,43 +14325,36 @@ msgid "Fosston"
 msgstr "Foston"
 
 #. A city in Kentucky in the United States
-#| msgid "Frankfort"
 msgctxt "City in Kentucky, United States"
 msgid "Frankfort"
 msgstr "Frenkfort"
 
 #. A city in Michigan in the United States
-#| msgid "Frankfort"
 msgctxt "City in Michigan, United States"
 msgid "Frankfort"
 msgstr "Frenkfort"
 
 #. A city in North Carolina in the United States
-#| msgid "Franklin"
 msgctxt "City in North Carolina, United States"
 msgid "Franklin"
 msgstr "Frenklin"
 
 #. A city in Pennsylvania in the United States
-#| msgid "Franklin"
 msgctxt "City in Pennsylvania, United States"
 msgid "Franklin"
 msgstr "Frenklin"
 
 #. A city in Virginia in the United States
-#| msgid "Franklin"
 msgctxt "City in Virginia, United States"
 msgid "Franklin"
 msgstr "Frenklin"
 
 #. A city in Maryland in the United States
-#| msgid "Frederick"
 msgctxt "City in Maryland, United States"
 msgid "Frederick"
 msgstr "Frederik"
 
 #. A city in Oklahoma in the United States
-#| msgid "Frederick"
 msgctxt "City in Oklahoma, United States"
 msgid "Frederick"
 msgstr "Frederik"
@@ -14425,19 +14364,16 @@ msgid "Fredericksburg"
 msgstr "Frederiksburg"
 
 #. A city in Illinois in the United States
-#| msgid "Freeport"
 msgctxt "City in Illinois, United States"
 msgid "Freeport"
 msgstr "Friport"
 
 #. A city in California in the United States
-#| msgid "Fremont"
 msgctxt "City in California, United States"
 msgid "Fremont"
 msgstr "Frimont"
 
 #. A city in Nebraska in the United States
-#| msgid "Fremont"
 msgctxt "City in Nebraska, United States"
 msgid "Fremont"
 msgstr "Frimont"
@@ -14475,19 +14411,16 @@ msgid "Gage"
 msgstr "Gejdž"
 
 #. A city in Florida in the United States
-#| msgid "Gainesville"
 msgctxt "City in Florida, United States"
 msgid "Gainesville"
 msgstr "Gejnsvil"
 
 #. A city in Georgia in the United States
-#| msgid "Gainesville"
 msgctxt "City in Georgia, United States"
 msgid "Gainesville"
 msgstr "Gejnsvil"
 
 #. A city in Texas in the United States
-#| msgid "Gainesville"
 msgctxt "City in Texas, United States"
 msgid "Gainesville"
 msgstr "Gejnsvil"
@@ -14517,13 +14450,11 @@ msgid "Gambell"
 msgstr "Gembel"
 
 #. A city in Kansas in the United States
-#| msgid "Garden City"
 msgctxt "City in Kansas, United States"
 msgid "Garden City"
 msgstr "Garden Siti"
 
 #. A city in Louisiana in the United States
-#| msgid "Garden City"
 msgctxt "City in Louisiana, United States"
 msgid "Garden City"
 msgstr "Garden Siti"
@@ -14557,13 +14488,11 @@ msgid "Gaylord"
 msgstr "Gejlord"
 
 #. A city in Delaware in the United States
-#| msgid "Georgetown"
 msgctxt "City in Delaware, United States"
 msgid "Georgetown"
 msgstr "Džordžtaun"
 
 #. A city in Texas in the United States
-#| msgid "Georgetown"
 msgctxt "City in Texas, United States"
 msgid "Georgetown"
 msgstr "Džordžtaun"
@@ -14585,13 +14514,11 @@ msgid "Gilmer"
 msgstr "Gilmer"
 
 #. A city in Kentucky in the United States
-#| msgid "Glasgow"
 msgctxt "City in Kentucky, United States"
 msgid "Glasgow"
 msgstr "Glazgov"
 
 #. A city in Montana in the United States
-#| msgid "Glasgow"
 msgctxt "City in Montana, United States"
 msgid "Glasgow"
 msgstr "Glazgov"
@@ -14601,13 +14528,11 @@ msgid "Glencoe"
 msgstr "Glenko"
 
 #. A city in Arizona in the United States
-#| msgid "Glendale"
 msgctxt "City in Arizona, United States"
 msgid "Glendale"
 msgstr "Glendejl"
 
 #. A city in California in the United States
-#| msgid "Glendale"
 msgctxt "City in California, United States"
 msgid "Glendale"
 msgstr "Glendejl"
@@ -14689,13 +14614,11 @@ msgid "Grand Prairie"
 msgstr "Grend Preri"
 
 #. A city in Michigan in the United States
-#| msgid "Grand Rapids"
 msgctxt "City in Michigan, United States"
 msgid "Grand Rapids"
 msgstr "Grend Rapids"
 
 #. A city in Minnesota in the United States
-#| msgid "Grand Rapids"
 msgctxt "City in Minnesota, United States"
 msgid "Grand Rapids"
 msgstr "Grend Rapids"
@@ -14725,49 +14648,41 @@ msgid "Green Bay"
 msgstr "Grin Bej"
 
 #. A city in Georgia in the United States
-#| msgid "Greensboro"
 msgctxt "City in Georgia, United States"
 msgid "Greensboro"
 msgstr "Grinsboro"
 
 #. A city in North Carolina in the United States
-#| msgid "Greensboro"
 msgctxt "City in North Carolina, United States"
 msgid "Greensboro"
 msgstr "Grinsboro"
 
 #. A city in Maine in the United States
-#| msgid "Greenville"
 msgctxt "City in Maine, United States"
 msgid "Greenville"
 msgstr "Grinvil"
 
 #. A city in Mississippi in the United States
-#| msgid "Greenville"
 msgctxt "City in Mississippi, United States"
 msgid "Greenville"
 msgstr "Grinvil"
 
 #. A city in South Carolina in the United States
-#| msgid "Greenville"
 msgctxt "City in South Carolina, United States"
 msgid "Greenville"
 msgstr "Grinvil"
 
 #. A city in Texas in the United States
-#| msgid "Greenville"
 msgctxt "City in Texas, United States"
 msgid "Greenville"
 msgstr "Grinvil"
 
 #. A city in Mississippi in the United States
-#| msgid "Greenwood"
 msgctxt "City in Mississippi, United States"
 msgid "Greenwood"
 msgstr "Grinvud"
 
 #. A city in South Carolina in the United States
-#| msgid "Greenwood"
 msgctxt "City in South Carolina, United States"
 msgid "Greenwood"
 msgstr "Grinvud"
@@ -14833,7 +14748,6 @@ msgid "Hallock"
 msgstr "Holok"
 
 #. A city in Ohio in the United States
-#| msgid "Hamilton"
 msgctxt "City in Ohio, United States"
 msgid "Hamilton"
 msgstr "Hamilton"
@@ -14851,13 +14765,11 @@ msgid "Hancock"
 msgstr "Henkok"
 
 #. A city in California in the United States
-#| msgid "Hanford"
 msgctxt "City in California, United States"
 msgid "Hanford"
 msgstr "Henford"
 
 #. A city in Washington in the United States
-#| msgid "Hanford"
 msgctxt "City in Washington, United States"
 msgid "Hanford"
 msgstr "Henford"
@@ -14879,13 +14791,11 @@ msgid "Harlingen"
 msgstr "Harlingen"
 
 #. A city in Illinois in the United States
-#| msgid "Harrisburg"
 msgctxt "City in Illinois, United States"
 msgid "Harrisburg"
 msgstr "Herisburg"
 
 #. A city in Pennsylvania in the United States
-#| msgid "Harrisburg"
 msgctxt "City in Pennsylvania, United States"
 msgid "Harrisburg"
 msgstr "Herisburg"
@@ -14931,13 +14841,11 @@ msgid "Hays"
 msgstr "Hejs"
 
 #. A city in California in the United States
-#| msgid "Hayward"
 msgctxt "City in California, United States"
 msgid "Hayward"
 msgstr "Hejvord"
 
 #. A city in Wisconsin in the United States
-#| msgid "Hayward"
 msgctxt "City in Wisconsin, United States"
 msgid "Hayward"
 msgstr "Hejvord"
@@ -14955,7 +14863,6 @@ msgid "Hebbronville"
 msgstr "Hebronvil"
 
 #. A city in Nebraska in the United States
-#| msgid "Hebron"
 msgctxt "City in Nebraska, United States"
 msgid "Hebron"
 msgstr "Hebron"
@@ -14965,13 +14872,11 @@ msgid "Helena"
 msgstr "Helena"
 
 #. A city in Kentucky in the United States
-#| msgid "Henderson"
 msgctxt "City in Kentucky, United States"
 msgid "Henderson"
 msgstr "Henderson"
 
 #. A city in Nevada in the United States
-#| msgid "Henderson"
 msgctxt "City in Nevada, United States"
 msgid "Henderson"
 msgstr "Henderson"
@@ -15029,7 +14934,6 @@ msgid "Hinesville"
 msgstr "Hajnsvil"
 
 #. A city in Oklahoma in the United States
-#| msgid "Hobart"
 msgctxt "City in Oklahoma, United States"
 msgid "Hobart"
 msgstr "Hobart"
@@ -15083,13 +14987,11 @@ msgid "Hoquiam"
 msgstr "Hokvijam"
 
 #. A city in Arkansas in the United States
-#| msgid "Hot Springs"
 msgctxt "City in Arkansas, United States"
 msgid "Hot Springs"
 msgstr "Hot Springs"
 
 #. A city in Virginia in the United States
-#| msgid "Hot Springs"
 msgctxt "City in Virginia, United States"
 msgid "Hot Springs"
 msgstr "Hot Springs"
@@ -15123,13 +15025,11 @@ msgid "Huntington Beach"
 msgstr "Hantington Bič"
 
 #. A city in Alabama in the United States
-#| msgid "Huntsville"
 msgctxt "City in Alabama, United States"
 msgid "Huntsville"
 msgstr "Hantsvil"
 
 #. A city in Texas in the United States
-#| msgid "Huntsville"
 msgctxt "City in Texas, United States"
 msgid "Huntsville"
 msgstr "Hantsvil"
@@ -15143,13 +15043,11 @@ msgid "Huslia"
 msgstr "Haslija"
 
 #. A city in Kansas in the United States
-#| msgid "Hutchinson"
 msgctxt "City in Kansas, United States"
 msgid "Hutchinson"
 msgstr "Hatčinson"
 
 #. A city in Minnesota in the United States
-#| msgid "Hutchinson"
 msgctxt "City in Minnesota, United States"
 msgid "Hutchinson"
 msgstr "Hatčinson"
@@ -15171,13 +15069,11 @@ msgid "Idaho Falls"
 msgstr "Ajdaho Fols"
 
 #. A city in California in the United States
-#| msgid "Imperial"
 msgctxt "City in California, United States"
 msgid "Imperial"
 msgstr "Imperijal"
 
 #. A city in Nebraska in the United States
-#| msgid "Imperial"
 msgctxt "City in Nebraska, United States"
 msgid "Imperial"
 msgstr "Imperijal"
@@ -15191,7 +15087,6 @@ msgid "Independence"
 msgstr "Independans"
 
 #. A city in Pennsylvania in the United States
-#| msgid "Indiana"
 msgctxt "City in Pennsylvania, United States"
 msgid "Indiana"
 msgstr "Indijana"
@@ -15249,61 +15144,51 @@ msgid "Ithaca"
 msgstr "Itaka"
 
 #. A city in Kentucky in the United States
-#| msgid "Jackson"
 msgctxt "City in Kentucky, United States"
 msgid "Jackson"
 msgstr "Džekson"
 
 #. A city in Michigan in the United States
-#| msgid "Jackson"
 msgctxt "City in Michigan, United States"
 msgid "Jackson"
 msgstr "Džekson"
 
 #. A city in Minnesota in the United States
-#| msgid "Jackson"
 msgctxt "City in Minnesota, United States"
 msgid "Jackson"
 msgstr "Džekson"
 
 #. A city in Mississippi in the United States
-#| msgid "Jackson"
 msgctxt "City in Mississippi, United States"
 msgid "Jackson"
 msgstr "Džekson"
 
 #. A city in Tennessee in the United States
-#| msgid "Jackson"
 msgctxt "City in Tennessee, United States"
 msgid "Jackson"
 msgstr "Džekson"
 
 #. A city in Wyoming in the United States
-#| msgid "Jackson"
 msgctxt "City in Wyoming, United States"
 msgid "Jackson"
 msgstr "Džekson"
 
 #. A city in Florida in the United States
-#| msgid "Jacksonville"
 msgctxt "City in Florida, United States"
 msgid "Jacksonville"
 msgstr "Džeksonvil"
 
 #. A city in Illinois in the United States
-#| msgid "Jacksonville"
 msgctxt "City in Illinois, United States"
 msgid "Jacksonville"
 msgstr "Džeksonvil"
 
 #. A city in North Carolina in the United States
-#| msgid "Jacksonville"
 msgctxt "City in North Carolina, United States"
 msgid "Jacksonville"
 msgstr "Džeksonvil"
 
 #. A city in Texas in the United States
-#| msgid "Jacksonville"
 msgctxt "City in Texas, United States"
 msgid "Jacksonville"
 msgstr "Džeksonvil"
@@ -15313,13 +15198,11 @@ msgid "Jaffrey"
 msgstr "Džefri"
 
 #. A city in New York in the United States
-#| msgid "Jamestown"
 msgctxt "City in New York, United States"
 msgid "Jamestown"
 msgstr "Džejmstaun"
 
 #. A city in North Dakota in the United States
-#| msgid "Jamestown"
 msgctxt "City in North Dakota, United States"
 msgid "Jamestown"
 msgstr "Džejmstaun"
@@ -15329,7 +15212,6 @@ msgid "Janesville"
 msgstr "Džejnsvil"
 
 #. A city in Texas in the United States
-#| msgid "Jasper"
 msgctxt "City in Texas, United States"
 msgid "Jasper"
 msgstr "Džasper"
@@ -15367,7 +15249,6 @@ msgid "Joplin"
 msgstr "Džoplin"
 
 #. A city in Montana in the United States
-#| msgid "Jordan"
 msgctxt "City in Montana, United States"
 msgid "Jordan"
 msgstr "Jordan"
@@ -15385,13 +15266,11 @@ msgid "Junction City"
 msgstr "Džankšon Siti"
 
 #. A city in Alaska in the United States
-#| msgid "Juneau"
 msgctxt "City in Alaska, United States"
 msgid "Juneau"
 msgstr "Džuno"
 
 #. A city in Wisconsin in the United States
-#| msgid "Juneau"
 msgctxt "City in Wisconsin, United States"
 msgid "Juneau"
 msgstr "Džuno"
@@ -15433,13 +15312,11 @@ msgid "Kankakee"
 msgstr "Kankaki"
 
 #. A city in Kansas in the United States
-#| msgid "Kansas City"
 msgctxt "City in Kansas, United States"
 msgid "Kansas City"
 msgstr "Kanzas Siti"
 
 #. A city in Missouri in the United States
-#| msgid "Kansas City"
 msgctxt "City in Missouri, United States"
 msgid "Kansas City"
 msgstr "Kanzas Siti"
@@ -15557,13 +15434,11 @@ msgid "Knob Noster"
 msgstr "Nob Noster"
 
 #. A city in Iowa in the United States
-#| msgid "Knoxville"
 msgctxt "City in Iowa, United States"
 msgid "Knoxville"
 msgstr "Noksvil"
 
 #. A city in Tennessee in the United States
-#| msgid "Knoxville"
 msgctxt "City in Tennessee, United States"
 msgid "Knoxville"
 msgstr "Noksvil"
@@ -15597,13 +15472,11 @@ msgid "La Grande"
 msgstr "La Grande"
 
 #. A city in Georgia in the United States
-#| msgid "La Grange"
 msgctxt "City in Georgia, United States"
 msgid "La Grange"
 msgstr "La Granž"
 
 #. A city in Texas in the United States
-#| msgid "La Grange"
 msgctxt "City in Texas, United States"
 msgid "La Grange"
 msgstr "La Granž"
@@ -15633,13 +15506,11 @@ msgid "Ladysmith"
 msgstr "Lejdismit"
 
 #. A city in Indiana in the United States
-#| msgid "Lafayette"
 msgctxt "City in Indiana, United States"
 msgid "Lafayette"
 msgstr "Lafajet"
 
 #. A city in Louisiana in the United States
-#| msgid "Lafayette"
 msgctxt "City in Louisiana, United States"
 msgid "Lafayette"
 msgstr "Lafajet"
@@ -15685,25 +15556,21 @@ msgid "Lamoni"
 msgstr "Lamoni"
 
 #. A city in California in the United States
-#| msgid "Lancaster"
 msgctxt "City in California, United States"
 msgid "Lancaster"
 msgstr "Lankaster"
 
 #. A city in Ohio in the United States
-#| msgid "Lancaster"
 msgctxt "City in Ohio, United States"
 msgid "Lancaster"
 msgstr "Lankaster"
 
 #. A city in Pennsylvania in the United States
-#| msgid "Lancaster"
 msgctxt "City in Pennsylvania, United States"
 msgid "Lancaster"
 msgstr "Lankaster"
 
 #. A city in Texas in the United States
-#| msgid "Lancaster"
 msgctxt "City in Texas, United States"
 msgid "Lancaster"
 msgstr "Lankaster"
@@ -15733,13 +15600,11 @@ msgid "Las Cruces"
 msgstr "Las Kruses"
 
 #. A city in Nevada in the United States
-#| msgid "Las Vegas"
 msgctxt "City in Nevada, United States"
 msgid "Las Vegas"
 msgstr "Las Vegas"
 
 #. A city in New Mexico in the United States
-#| msgid "Las Vegas"
 msgctxt "City in New Mexico, United States"
 msgid "Las Vegas"
 msgstr "Las Vegas"
@@ -15749,25 +15614,21 @@ msgid "Latrobe"
 msgstr "Latrobi"
 
 #. A city in Kansas in the United States
-#| msgid "Lawrence"
 msgctxt "City in Kansas, United States"
 msgid "Lawrence"
 msgstr "Lavrens"
 
 #. A city in Massachusetts in the United States
-#| msgid "Lawrence"
 msgctxt "City in Massachusetts, United States"
 msgid "Lawrence"
 msgstr "Lavrens"
 
 #. A city in Georgia in the United States
-#| msgid "Lawrenceville"
 msgctxt "City in Georgia, United States"
 msgid "Lawrenceville"
 msgstr "Lavrensvil"
 
 #. A city in Illinois in the United States
-#| msgid "Lawrenceville"
 msgctxt "City in Illinois, United States"
 msgid "Lawrenceville"
 msgstr "Lavrensvil"
@@ -15785,19 +15646,16 @@ msgid "Leadville"
 msgstr "Lidvil"
 
 #. A city in New Hampshire in the United States
-#| msgid "Lebanon"
 msgctxt "City in New Hampshire, United States"
 msgid "Lebanon"
 msgstr "Liban"
 
 #. A city in Florida in the United States
-#| msgid "Leesburg"
 msgctxt "City in Florida, United States"
 msgid "Leesburg"
 msgstr "Lisburg"
 
 #. A city in Virginia in the United States
-#| msgid "Leesburg"
 msgctxt "City in Virginia, United States"
 msgid "Leesburg"
 msgstr "Lisburg"
@@ -15823,19 +15681,16 @@ msgid "Lewistown"
 msgstr "Luistaun"
 
 #. A city in Kentucky in the United States
-#| msgid "Lexington"
 msgctxt "City in Kentucky, United States"
 msgid "Lexington"
 msgstr "Leksington"
 
 #. A city in Nebraska in the United States
-#| msgid "Lexington"
 msgctxt "City in Nebraska, United States"
 msgid "Lexington"
 msgstr "Leksington"
 
 #. A city in North Carolina in the United States
-#| msgid "Lexington"
 msgctxt "City in North Carolina, United States"
 msgid "Lexington"
 msgstr "Leksington"
@@ -15849,7 +15704,6 @@ msgid "Lihue"
 msgstr "Lihue"
 
 #. A city in Ohio in the United States
-#| msgid "Lima"
 msgctxt "City in Ohio, United States"
 msgid "Lima"
 msgstr "Lima"
@@ -15863,25 +15717,21 @@ msgid "Limon"
 msgstr "Limon"
 
 #. A city in Illinois in the United States
-#| msgid "Lincoln"
 msgctxt "City in Illinois, United States"
 msgid "Lincoln"
 msgstr "Linkoln"
 
 #. A city in Nebraska in the United States
-#| msgid "Lincoln"
 msgctxt "City in Nebraska, United States"
 msgid "Lincoln"
 msgstr "Linkoln"
 
 #. A city in Illinois in the United States
-#| msgid "Litchfield"
 msgctxt "City in Illinois, United States"
 msgid "Litchfield"
 msgstr "Ličfild"
 
 #. A city in Minnesota in the United States
-#| msgid "Litchfield"
 msgctxt "City in Minnesota, United States"
 msgid "Litchfield"
 msgstr "Ličfild"
@@ -15919,7 +15769,6 @@ msgid "Lompoc"
 msgstr "Lompok"
 
 #. A city in Kentucky in the United States
-#| msgid "London"
 msgctxt "City in Kentucky, United States"
 msgid "London"
 msgstr "London"
@@ -15969,13 +15818,11 @@ msgid "Lovelock"
 msgstr "Lavlok"
 
 #. A city in Idaho in the United States
-#| msgid "Lowell"
 msgctxt "City in Idaho, United States"
 msgid "Lowell"
 msgstr "Louel"
 
 #. A city in Massachusetts in the United States
-#| msgid "Lowell"
 msgctxt "City in Massachusetts, United States"
 msgid "Lowell"
 msgstr "Louel"
@@ -16021,19 +15868,16 @@ msgid "Madera"
 msgstr "Madera"
 
 #. A city in Minnesota in the United States
-#| msgid "Madison"
 msgctxt "City in Minnesota, United States"
 msgid "Madison"
 msgstr "Medison"
 
 #. A city in Wisconsin in the United States
-#| msgid "Madison"
 msgctxt "City in Wisconsin, United States"
 msgid "Madison"
 msgstr "Medison"
 
 #. A city in Idaho in the United States
-#| msgid "Malta"
 msgctxt "City in Idaho, United States"
 msgid "Malta"
 msgstr "Malta"
@@ -16043,7 +15887,6 @@ msgid "Manassas"
 msgstr "Manasas"
 
 #. A city in New Hampshire in the United States
-#| msgid "Manchester"
 msgctxt "City in New Hampshire, United States"
 msgid "Manchester"
 msgstr "Mančester"
@@ -16101,19 +15944,16 @@ msgid "Marietta"
 msgstr "Marijeta"
 
 #. A city in Illinois in the United States
-#| msgid "Marion"
 msgctxt "City in Illinois, United States"
 msgid "Marion"
 msgstr "Merion"
 
 #. A city in Ohio in the United States
-#| msgid "Marion"
 msgctxt "City in Ohio, United States"
 msgid "Marion"
 msgstr "Merion"
 
 #. A city in Virginia in the United States
-#| msgid "Marion"
 msgctxt "City in Virginia, United States"
 msgid "Marion"
 msgstr "Merion"
@@ -16123,13 +15963,11 @@ msgid "Marquette"
 msgstr "Market"
 
 #. A city in Michigan in the United States
-#| msgid "Marshall"
 msgctxt "City in Michigan, United States"
 msgid "Marshall"
 msgstr "Maršal"
 
 #. A city in Minnesota in the United States
-#| msgid "Marshall"
 msgctxt "City in Minnesota, United States"
 msgid "Marshall"
 msgstr "Maršal"
@@ -16151,13 +15989,11 @@ msgid "Martinsville"
 msgstr "Martinsvil"
 
 #. A city in California in the United States
-#| msgid "Marysville"
 msgctxt "City in California, United States"
 msgid "Marysville"
 msgstr "Merisvil"
 
 #. A city in Michigan in the United States
-#| msgid "Marysville"
 msgctxt "City in Michigan, United States"
 msgid "Marysville"
 msgstr "Merisvil"
@@ -16239,13 +16075,11 @@ msgid "Meadville"
 msgstr "Medvil"
 
 #. A city in Oregon in the United States
-#| msgid "Medford"
 msgctxt "City in Oregon, United States"
 msgid "Medford"
 msgstr "Medford"
 
 #. A city in Wisconsin in the United States
-#| msgid "Medford"
 msgctxt "City in Wisconsin, United States"
 msgid "Medford"
 msgstr "Medford"
@@ -16263,7 +16097,6 @@ msgid "Mekoryuk"
 msgstr "Mekoriuk"
 
 #. A city in Florida in the United States
-#| msgid "Melbourne"
 msgctxt "City in Florida, United States"
 msgid "Melbourne"
 msgstr "Melburn"
@@ -16325,7 +16158,6 @@ msgid "Metropolis"
 msgstr "Metropolis"
 
 #. A city in Florida in the United States
-#| msgid "Miami"
 msgctxt "City in Florida, United States"
 msgid "Miami"
 msgstr "Majami"
@@ -16415,25 +16247,21 @@ msgid "Moline"
 msgstr "Molin"
 
 #. A city in Louisiana in the United States
-#| msgid "Monroe"
 msgctxt "City in Louisiana, United States"
 msgid "Monroe"
 msgstr "Monro"
 
 #. A city in Michigan in the United States
-#| msgid "Monroe"
 msgctxt "City in Michigan, United States"
 msgid "Monroe"
 msgstr "Monro"
 
 #. A city in North Carolina in the United States
-#| msgid "Monroe"
 msgctxt "City in North Carolina, United States"
 msgid "Monroe"
 msgstr "Monro"
 
 #. A city in Wisconsin in the United States
-#| msgid "Monroe"
 msgctxt "City in Wisconsin, United States"
 msgid "Monroe"
 msgstr "Monro"
@@ -16451,37 +16279,31 @@ msgid "Monterey"
 msgstr "Monterej"
 
 #. A city in Minnesota in the United States
-#| msgid "Montevideo"
 msgctxt "City in Minnesota, United States"
 msgid "Montevideo"
 msgstr "Montevideo"
 
 #. A city in Alabama in the United States
-#| msgid "Montgomery"
 msgctxt "City in Alabama, United States"
 msgid "Montgomery"
 msgstr "Montgomeri"
 
 #. A city in New York in the United States
-#| msgid "Montgomery"
 msgctxt "City in New York, United States"
 msgid "Montgomery"
 msgstr "Montgomeri"
 
 #. A city in Arkansas in the United States
-#| msgid "Monticello"
 msgctxt "City in Arkansas, United States"
 msgid "Monticello"
 msgstr "Montikelo"
 
 #. A city in Iowa in the United States
-#| msgid "Monticello"
 msgctxt "City in Iowa, United States"
 msgid "Monticello"
 msgstr "Montikelo"
 
 #. A city in New York in the United States
-#| msgid "Monticello"
 msgctxt "City in New York, United States"
 msgid "Monticello"
 msgstr "Montikelo"
@@ -16511,13 +16333,11 @@ msgid "Moriarty"
 msgstr "Morijarti"
 
 #. A city in Illinois in the United States
-#| msgid "Morris"
 msgctxt "City in Illinois, United States"
 msgid "Morris"
 msgstr "Moris"
 
 #. A city in Minnesota in the United States
-#| msgid "Morris"
 msgctxt "City in Minnesota, United States"
 msgid "Morris"
 msgstr "Moris"
@@ -16531,7 +16351,6 @@ msgid "Morrisville"
 msgstr "Morisvil"
 
 #. A city in Idaho in the United States
-#| msgid "Moscow"
 msgctxt "City in Idaho, United States"
 msgid "Moscow"
 msgstr "Moskva"
@@ -16565,19 +16384,16 @@ msgid "Mount Ida"
 msgstr "Maunt Ajda"
 
 #. A city in Iowa in the United States
-#| msgid "Mount Pleasant"
 msgctxt "City in Iowa, United States"
 msgid "Mount Pleasant"
 msgstr "Maunt Plezent"
 
 #. A city in Michigan in the United States
-#| msgid "Mount Pleasant"
 msgctxt "City in Michigan, United States"
 msgid "Mount Pleasant"
 msgstr "Maunt Plezen "
 
 #. A city in Texas in the United States
-#| msgid "Mount Pleasant"
 msgctxt "City in Texas, United States"
 msgid "Mount Pleasant"
 msgstr "Maunt Plezen "
@@ -16599,13 +16415,11 @@ msgid "Mount Wilson"
 msgstr "Maunt Vilson"
 
 #. A city in Arkansas in the United States
-#| msgid "Mountain Home"
 msgctxt "City in Arkansas, United States"
 msgid "Mountain Home"
 msgstr "Mauntin Houm"
 
 #. A city in Idaho in the United States
-#| msgid "Mountain Home"
 msgctxt "City in Idaho, United States"
 msgid "Mountain Home"
 msgstr "Mauntin Houm"
@@ -16671,7 +16485,6 @@ msgid "Naperville"
 msgstr "Nepervil"
 
 #. A city in Florida in the United States
-#| msgid "Naples"
 msgctxt "City in Florida, United States"
 msgid "Naples"
 msgstr "Nejpls"
@@ -16749,19 +16562,16 @@ msgid "New Ulm"
 msgstr "Nju Ulm"
 
 #. A city in New York in the United States
-#| msgid "New York"
 msgctxt "City in New York, United States"
 msgid "New York"
 msgstr "Njujork"
 
 #. A city in New Jersey in the United States
-#| msgid "Newark"
 msgctxt "City in New Jersey, United States"
 msgid "Newark"
 msgstr "Nevark"
 
 #. A city in Ohio in the United States
-#| msgid "Newark"
 msgctxt "City in Ohio, United States"
 msgid "Newark"
 msgstr "Nevark"
@@ -16787,19 +16597,16 @@ msgid "Newnan"
 msgstr "Njunan"
 
 #. A city in Arkansas in the United States
-#| msgid "Newport"
 msgctxt "City in Arkansas, United States"
 msgid "Newport"
 msgstr "Njuport"
 
 #. A city in Oregon in the United States
-#| msgid "Newport"
 msgctxt "City in Oregon, United States"
 msgid "Newport"
 msgstr "Njuport"
 
 #. A city in Rhode Island in the United States
-#| msgid "Newport"
 msgctxt "City in Rhode Island, United States"
 msgid "Newport"
 msgstr "Njuport"
@@ -16829,13 +16636,11 @@ msgid "Nome"
 msgstr "Nom"
 
 #. A city in Nebraska in the United States
-#| msgid "Norfolk"
 msgctxt "City in Nebraska, United States"
 msgid "Norfolk"
 msgstr "Norfolk"
 
 #. A city in Virginia in the United States
-#| msgid "Norfolk"
 msgctxt "City in Virginia, United States"
 msgid "Norfolk"
 msgstr "Norfolk"
@@ -16977,37 +16782,31 @@ msgid "Omak"
 msgstr "Omak"
 
 #. A city in California in the United States
-#| msgid "Ontario"
 msgctxt "City in California, United States"
 msgid "Ontario"
 msgstr "Ontario"
 
 #. A city in Oregon in the United States
-#| msgid "Ontario"
 msgctxt "City in Oregon, United States"
 msgid "Ontario"
 msgstr "Ontario"
 
 #. A city in California in the United States
-#| msgid "Orange"
 msgctxt "City in California, United States"
 msgid "Orange"
 msgstr "Oranž"
 
 #. A city in Massachusetts in the United States
-#| msgid "Orange"
 msgctxt "City in Massachusetts, United States"
 msgid "Orange"
 msgstr "Oranž"
 
 #. A city in Texas in the United States
-#| msgid "Orange"
 msgctxt "City in Texas, United States"
 msgid "Orange"
 msgstr "Oranž"
 
 #. A city in Virginia in the United States
-#| msgid "Orange"
 msgctxt "City in Virginia, United States"
 msgid "Orange"
 msgstr "Oranž"
@@ -17081,19 +16880,16 @@ msgid "Owosso"
 msgstr "Ovoso"
 
 #. A city in Connecticut in the United States
-#| msgid "Oxford"
 msgctxt "City in Connecticut, United States"
 msgid "Oxford"
 msgstr "Oksford"
 
 #. A city in Mississippi in the United States
-#| msgid "Oxford"
 msgctxt "City in Mississippi, United States"
 msgid "Oxford"
 msgstr "Oksford"
 
 #. A city in North Carolina in the United States
-#| msgid "Oxford"
 msgctxt "City in North Carolina, United States"
 msgid "Oxford"
 msgstr "Oksford"
@@ -17151,13 +16947,11 @@ msgid "Panama City"
 msgstr "Panama Siti"
 
 #. A city in Illinois in the United States
-#| msgid "Paris"
 msgctxt "City in Illinois, United States"
 msgid "Paris"
 msgstr "Pariz"
 
 #. A city in Texas in the United States
-#| msgid "Paris"
 msgctxt "City in Texas, United States"
 msgid "Paris"
 msgstr "Pariz"
@@ -17175,13 +16969,11 @@ msgid "Parsons"
 msgstr "Parsons"
 
 #. A city in California in the United States
-#| msgid "Pasadena"
 msgctxt "City in California, United States"
 msgid "Pasadena"
 msgstr "Pasadena"
 
 #. A city in Texas in the United States
-#| msgid "Pasadena"
 msgctxt "City in Texas, United States"
 msgid "Pasadena"
 msgstr "Pasadena"
@@ -17259,13 +17051,11 @@ msgid "Pensacola"
 msgstr "Pensakola"
 
 #. A city in Arizona in the United States
-#| msgid "Peoria"
 msgctxt "City in Arizona, United States"
 msgid "Peoria"
 msgstr "Peorija"
 
 #. A city in Illinois in the United States
-#| msgid "Peoria"
 msgctxt "City in Illinois, United States"
 msgid "Peoria"
 msgstr "Peorija"
@@ -17279,31 +17069,26 @@ msgid "Perryton"
 msgstr "Periton"
 
 #. A city in Illinois in the United States
-#| msgid "Peru"
 msgctxt "City in Illinois, United States"
 msgid "Peru"
 msgstr "Peru"
 
 #. A city in Indiana in the United States
-#| msgid "Peru"
 msgctxt "City in Indiana, United States"
 msgid "Peru"
 msgstr "Peru"
 
 #. A city in Alaska in the United States
-#| msgid "Petersburg"
 msgctxt "City in Alaska, United States"
 msgid "Petersburg"
 msgstr "Petersburg"
 
 #. A city in Virginia in the United States
-#| msgid "Petersburg"
 msgctxt "City in Virginia, United States"
 msgid "Petersburg"
 msgstr "Petersburg"
 
 #. A city in West Virginia in the United States
-#| msgid "Petersburg"
 msgctxt "City in West Virginia, United States"
 msgid "Petersburg"
 msgstr "Petersburg"
@@ -17361,13 +17146,11 @@ msgid "Pittsburgh"
 msgstr "Pitsburg"
 
 #. A city in Illinois in the United States
-#| msgid "Pittsfield"
 msgctxt "City in Illinois, United States"
 msgid "Pittsfield"
 msgstr "Pitsfild"
 
 #. A city in Massachusetts in the United States
-#| msgid "Pittsfield"
 msgctxt "City in Massachusetts, United States"
 msgid "Pittsfield"
 msgstr "Pitsfild"
@@ -17397,13 +17180,11 @@ msgid "Plattsmouth"
 msgstr "Platsmut"
 
 #. A city in Massachusetts in the United States
-#| msgid "Plymouth"
 msgctxt "City in Massachusetts, United States"
 msgid "Plymouth"
 msgstr "Plimut"
 
 #. A city in New Hampshire in the United States
-#| msgid "Plymouth"
 msgctxt "City in New Hampshire, United States"
 msgid "Plymouth"
 msgstr "Plimut"
@@ -17441,13 +17222,11 @@ msgid "Ponca City"
 msgstr "Ponka Siti"
 
 #. A city in Illinois in the United States
-#| msgid "Pontiac"
 msgctxt "City in Illinois, United States"
 msgid "Pontiac"
 msgstr "Pontijak"
 
 #. A city in Michigan in the United States
-#| msgid "Pontiac"
 msgctxt "City in Michigan, United States"
 msgid "Pontiac"
 msgstr "Pontijak"
@@ -17493,25 +17272,21 @@ msgid "Porterville"
 msgstr "Portervil"
 
 #. A city in Maine in the United States
-#| msgid "Portland"
 msgctxt "City in Maine, United States"
 msgid "Portland"
 msgstr "Portland"
 
 #. A city in Oregon in the United States
-#| msgid "Portland"
 msgctxt "City in Oregon, United States"
 msgid "Portland"
 msgstr "Portland"
 
 #. A city in New Hampshire in the United States
-#| msgid "Portsmouth"
 msgctxt "City in New Hampshire, United States"
 msgid "Portsmouth"
 msgstr "Portsmaut"
 
 #. A city in Virginia in the United States
-#| msgid "Portsmouth"
 msgctxt "City in Virginia, United States"
 msgid "Portsmouth"
 msgstr "Portsmaut"
@@ -17553,7 +17328,6 @@ msgid "Price"
 msgstr "Prajs"
 
 #. A city in Minnesota in the United States
-#| msgid "Princeton"
 msgctxt "City in Minnesota, United States"
 msgid "Princeton"
 msgstr "Prinston"
@@ -17675,7 +17449,6 @@ msgid "Rice Lake"
 msgstr "Rajs Lejk"
 
 #. A city in Virginia in the United States
-#| msgid "Richmond"
 msgctxt "City in Virginia, United States"
 msgid "Richmond"
 msgstr "Ričmond"
@@ -17700,10 +17473,6 @@ msgstr "Roanok"
 msgid "Roanoke Rapids"
 msgstr "Roanok Rapids"
 
-#. A city in Missouri in the United States
-msgid "Robertson"
-msgstr "Robertson"
-
 #. A city in Illinois in the United States
 msgid "Robinson"
 msgstr "Robinson"
@@ -17713,19 +17482,16 @@ msgid "Rochelle"
 msgstr "Rošel"
 
 #. A city in Minnesota in the United States
-#| msgid "Rochester"
 msgctxt "City in Minnesota, United States"
 msgid "Rochester"
 msgstr "Ročester"
 
 #. A city in New Hampshire in the United States
-#| msgid "Rochester"
 msgctxt "City in New Hampshire, United States"
 msgid "Rochester"
 msgstr "Ročester"
 
 #. A city in New York in the United States
-#| msgid "Rochester"
 msgctxt "City in New York, United States"
 msgid "Rochester"
 msgstr "Ročester"
@@ -17771,25 +17537,21 @@ msgid "Rogers City"
 msgstr "Rodžers Siti"
 
 #. A city in Georgia in the United States
-#| msgid "Rome"
 msgctxt "City in Georgia, United States"
 msgid "Rome"
 msgstr "Rim"
 
 #. A city in New York in the United States
-#| msgid "Rome"
 msgctxt "City in New York, United States"
 msgid "Rome"
 msgstr "Rim"
 
 #. A city in Oregon in the United States
-#| msgid "Rome"
 msgctxt "City in Oregon, United States"
 msgid "Rome"
 msgstr "Rim"
 
 #. A city in Minnesota in the United States
-#| msgid "Roseau"
 msgctxt "City in Minnesota, United States"
 msgid "Roseau"
 msgstr "Rozo"
@@ -17886,13 +17648,11 @@ msgid "Saint Paul"
 msgstr "Sent Pol"
 
 #. A city in Illinois in the United States
-#| msgid "Salem"
 msgctxt "City in Illinois, United States"
 msgid "Salem"
 msgstr "Salem"
 
 #. A city in Oregon in the United States
-#| msgid "Salem"
 msgctxt "City in Oregon, United States"
 msgid "Salem"
 msgstr "Salem"
@@ -17910,13 +17670,11 @@ msgid "Salinas"
 msgstr "Salinas"
 
 #. A city in Maryland in the United States
-#| msgid "Salisbury"
 msgctxt "City in Maryland, United States"
 msgid "Salisbury"
 msgstr "Salsburi"
 
 #. A city in North Carolina in the United States
-#| msgid "Salisbury"
 msgctxt "City in North Carolina, United States"
 msgid "Salisbury"
 msgstr "Salsburi"
@@ -17986,13 +17744,11 @@ msgid "Sandwich"
 msgstr "Sendvič"
 
 #. A city in Maine in the United States
-#| msgid "Sanford"
 msgctxt "City in Maine, United States"
 msgid "Sanford"
 msgstr "Sanford"
 
 #. A city in North Carolina in the United States
-#| msgid "Sanford"
 msgctxt "City in North Carolina, United States"
 msgid "Sanford"
 msgstr "Sanford"
@@ -18006,13 +17762,11 @@ msgid "Santa Barbara"
 msgstr "Santa Barbara"
 
 #. A city in California in the United States
-#| msgid "Santa Clara"
 msgctxt "City in California, United States"
 msgid "Santa Clara"
 msgstr "Santa Klara"
 
 #. A city in Utah in the United States
-#| msgid "Santa Clara"
 msgctxt "City in Utah, United States"
 msgid "Santa Clara"
 msgstr "Santa Klara"
@@ -18022,7 +17776,6 @@ msgid "Santa Fe"
 msgstr "Santa Fe"
 
 #. A city in California in the United States
-#| msgid "Santa Maria"
 msgctxt "City in California, United States"
 msgid "Santa Maria"
 msgstr "Santa Marija"
@@ -18100,13 +17853,11 @@ msgid "Selinsgrove"
 msgstr "Selinsgrov"
 
 #. A city in Oklahoma in the United States
-#| msgid "Seminole"
 msgctxt "City in Oklahoma, United States"
 msgid "Seminole"
 msgstr "Seminoli"
 
 #. A city in Texas in the United States
-#| msgid "Seminole"
 msgctxt "City in Texas, United States"
 msgid "Seminole"
 msgstr "Seminoli"
@@ -18168,13 +17919,11 @@ msgid "Shreveport"
 msgstr "Šrivport"
 
 #. A city in Montana in the United States
-#| msgid "Sidney"
 msgctxt "City in Montana, United States"
 msgid "Sidney"
 msgstr "Sidnej"
 
 #. A city in Nebraska in the United States
-#| msgid "Sidney"
 msgctxt "City in Nebraska, United States"
 msgid "Sidney"
 msgstr "Sidnej"
@@ -18264,7 +18013,6 @@ msgid "Somerville"
 msgstr "Somervil"
 
 #. A city in Texas in the United States
-#| msgid "Sonora"
 msgctxt "City in Texas, United States"
 msgid "Sonora"
 msgstr "Sonora"
@@ -18286,13 +18034,11 @@ msgid "South Lake Tahoe"
 msgstr "Saut Lejk Taho"
 
 #. A city in Illinois in the United States
-#| msgid "Sparta"
 msgctxt "City in Illinois, United States"
 msgid "Sparta"
 msgstr "Sparta"
 
 #. A city in Wisconsin in the United States
-#| msgid "Sparta"
 msgctxt "City in Wisconsin, United States"
 msgid "Sparta"
 msgstr "Sparta"
@@ -18314,46 +18060,43 @@ msgid "Springdale"
 msgstr "Springdejl"
 
 #. A city in Colorado in the United States
-#| msgid "Springfield"
 msgctxt "City in Colorado, United States"
 msgid "Springfield"
 msgstr "Springfild"
 
 #. A city in Florida in the United States
-#| msgid "Springfield"
 msgctxt "City in Florida, United States"
 msgid "Springfield"
 msgstr "Springfild"
 
 #. A city in Illinois in the United States
-#| msgid "Springfield"
 msgctxt "City in Illinois, United States"
 msgid "Springfield"
 msgstr "Springfild "
 
 #. A city in Massachusetts in the United States
-#| msgid "Springfield"
 msgctxt "City in Massachusetts, United States"
 msgid "Springfield"
 msgstr "Springfild"
 
 #. A city in Missouri in the United States
-#| msgid "Springfield"
 msgctxt "City in Missouri, United States"
 msgid "Springfield"
 msgstr "Springfild"
 
 #. A city in Ohio in the United States
-#| msgid "Springfield"
 msgctxt "City in Ohio, United States"
 msgid "Springfield"
 msgstr "Springfild"
 
 #. A city in Vermont in the United States
-#| msgid "Springfield"
 msgctxt "City in Vermont, United States"
 msgid "Springfield"
 msgstr "Springfild"
+
+#. A city in Missouri in the United States
+msgid "St. Louis"
+msgstr ""
 
 #. A city in Virginia in the United States
 msgid "Stafford"
@@ -18368,7 +18111,6 @@ msgid "Stampede"
 msgstr "Stampid"
 
 #. A city in Idaho in the United States
-#| msgid "Stanley"
 msgctxt "City in Idaho, United States"
 msgid "Stanley"
 msgstr "Stenli"
@@ -18402,7 +18144,6 @@ msgid "Steamboat Springs"
 msgstr "Stimboat Springs"
 
 #. A city in Texas in the United States
-#| msgid "Stephenville"
 msgctxt "City in Texas, United States"
 msgid "Stephenville"
 msgstr "Stivenvil"
@@ -18424,7 +18165,6 @@ msgid "Stillwater"
 msgstr "Stilvoter"
 
 #. A city in California in the United States
-#| msgid "Stockton"
 msgctxt "City in California, United States"
 msgid "Stockton"
 msgstr "Stokton"
@@ -18446,7 +18186,6 @@ msgid "Sturgis"
 msgstr "Stirdžis"
 
 #. A city in Arkansas in the United States
-#| msgid "Stuttgart"
 msgctxt "City in Arkansas, United States"
 msgid "Stuttgart"
 msgstr "Štutgart"
@@ -18472,13 +18211,11 @@ msgid "Sussex"
 msgstr "Saseks"
 
 #. A city in Alaska in the United States
-#| msgid "Sutton"
 msgctxt "City in Alaska, United States"
 msgid "Sutton"
 msgstr "Saton"
 
 #. A city in West Virginia in the United States
-#| msgid "Sutton"
 msgctxt "City in West Virginia, United States"
 msgid "Sutton"
 msgstr "Saton"
@@ -18648,25 +18385,21 @@ msgid "Traverse City"
 msgstr "Travers Siti"
 
 #. A city in New Jersey in the United States
-#| msgid "Trenton"
 msgctxt "City in New Jersey, United States"
 msgid "Trenton"
 msgstr "Trenton"
 
 #. A city in Colorado in the United States
-#| msgid "Trinidad"
 msgctxt "City in Colorado, United States"
 msgid "Trinidad"
 msgstr "Trinidad"
 
 #. A city in Alabama in the United States
-#| msgid "Troy"
 msgctxt "City in Alabama, United States"
 msgid "Troy"
 msgstr "Troj"
 
 #. A city in Michigan in the United States
-#| msgid "Troy"
 msgctxt "City in Michigan, United States"
 msgid "Troy"
 msgstr "Troj"
@@ -18764,13 +18497,11 @@ msgid "Vallejo"
 msgstr "Valjejo"
 
 #. A city in Florida in the United States
-#| msgid "Valparaiso"
 msgctxt "City in Florida, United States"
 msgid "Valparaiso"
 msgstr "Valparizo"
 
 #. A city in Indiana in the United States
-#| msgid "Valparaiso"
 msgctxt "City in Indiana, United States"
 msgid "Valparaiso"
 msgstr "Valparizo"
@@ -18780,7 +18511,6 @@ msgid "Van Nuys"
 msgstr "Van Nijs"
 
 #. A city in Washington in the United States
-#| msgid "Vancouver"
 msgctxt "City in Washington, United States"
 msgid "Vancouver"
 msgstr "Vankuver"
@@ -18794,7 +18524,6 @@ msgid "Vernal"
 msgstr "Vernal"
 
 #. A city in Texas in the United States
-#| msgid "Vernon"
 msgctxt "City in Texas, United States"
 msgid "Vernon"
 msgstr "Vernon"
@@ -18804,7 +18533,6 @@ msgid "Vero Beach"
 msgstr "Vero Bič"
 
 #. A city in Missouri in the United States
-#| msgid "Vichy"
 msgctxt "City in Missouri, United States"
 msgid "Vichy"
 msgstr "Viči"
@@ -18814,7 +18542,6 @@ msgid "Vicksburg"
 msgstr "Viksburg"
 
 #. A city in Texas in the United States
-#| msgid "Victoria"
 msgctxt "City in Texas, United States"
 msgid "Victoria"
 msgstr "Viktorija"
@@ -18900,7 +18627,6 @@ msgid "Warroad"
 msgstr "Varoud"
 
 #. A city in Indiana in the United States
-#| msgid "Warsaw"
 msgctxt "City in Indiana, United States"
 msgid "Warsaw"
 msgstr "Varšava"
@@ -18910,25 +18636,21 @@ msgid "Waseca"
 msgstr "Vaseka"
 
 #. The capital of the United States
-#| msgid "Washington"
 msgctxt "City in District of Columbia, United States"
 msgid "Washington"
 msgstr "Vašington"
 
 #. A city in Iowa in the United States
-#| msgid "Washington"
 msgctxt "City in Iowa, United States"
 msgid "Washington"
 msgstr "Vašington"
 
 #. A city in North Carolina in the United States
-#| msgid "Washington"
 msgctxt "City in North Carolina, United States"
 msgid "Washington"
 msgstr "Vašington"
 
 #. A city in Pennsylvania in the United States
-#| msgid "Washington"
 msgctxt "City in Pennsylvania, United States"
 msgid "Washington"
 msgstr "Vašington"
@@ -18946,25 +18668,21 @@ msgid "Waterbury"
 msgstr "Voterburi"
 
 #. A city in Iowa in the United States
-#| msgid "Waterloo"
 msgctxt "City in Iowa, United States"
 msgid "Waterloo"
 msgstr "Voterlo"
 
 #. A city in New York in the United States
-#| msgid "Watertown"
 msgctxt "City in New York, United States"
 msgid "Watertown"
 msgstr "Votertaun"
 
 #. A city in South Dakota in the United States
-#| msgid "Watertown"
 msgctxt "City in South Dakota, United States"
 msgid "Watertown"
 msgstr "Votertaun"
 
 #. A city in Wisconsin in the United States
-#| msgid "Watertown"
 msgctxt "City in Wisconsin, United States"
 msgid "Watertown"
 msgstr "Votertaun"
@@ -19142,19 +18860,16 @@ msgid "Willow Grove"
 msgstr "Violu Grov"
 
 #. A city in Delaware in the United States
-#| msgid "Wilmington"
 msgctxt "City in Delaware, United States"
 msgid "Wilmington"
 msgstr "Vilmington"
 
 #. A city in North Carolina in the United States
-#| msgid "Wilmington"
 msgctxt "City in North Carolina, United States"
 msgid "Wilmington"
 msgstr "Vilmington"
 
 #. A city in Ohio in the United States
-#| msgid "Wilmington"
 msgctxt "City in Ohio, United States"
 msgid "Wilmington"
 msgstr "Vilmington"
@@ -19252,7 +18967,6 @@ msgid "Wrangell"
 msgstr "Vrangel"
 
 #. A city in Wyoming in the United States
-#| msgid "Wyoming"
 msgctxt "City in Wyoming, United States"
 msgid "Wyoming"
 msgstr "Vajoming"
@@ -19274,13 +18988,11 @@ msgid "Yonkers"
 msgstr "Jonkers"
 
 #. A city in Nebraska in the United States
-#| msgid "York"
 msgctxt "City in Nebraska, United States"
 msgid "York"
 msgstr "Jork"
 
 #. A city in Pennsylvania in the United States
-#| msgid "York"
 msgctxt "City in Pennsylvania, United States"
 msgid "York"
 msgstr "Jork"
@@ -19326,7 +19038,6 @@ msgid "Maldonado"
 msgstr "Maldonado"
 
 #. The capital of Uruguay
-#| msgid "Montevideo"
 msgctxt "City in Uruguay"
 msgid "Montevideo"
 msgstr "Montevideo"
@@ -19359,7 +19070,6 @@ msgid "Acarigua"
 msgstr "Akarigva"
 
 #. A city in Venezuela
-#| msgid "Barcelona"
 msgctxt "City in Venezuela"
 msgid "Barcelona"
 msgstr "Barselona"
@@ -19437,7 +19147,6 @@ msgid "Morocure"
 msgstr "Morokure"
 
 #. A city in Venezuela
-#| msgid "Mérida"
 msgctxt "City in Venezuela"
 msgid "Mérida"
 msgstr "Merida"
@@ -19463,7 +19172,6 @@ msgid "San Felipe"
 msgstr "San Felipe"
 
 #. A city in Venezuela
-#| msgid "San Fernando"
 msgctxt "City in Venezuela"
 msgid "San Fernando"
 msgstr "San Fernando"
@@ -19481,7 +19189,6 @@ msgid "Santa Bárbara"
 msgstr "Santa Barbara"
 
 #. A city in Venezuela
-#| msgid "Valencia"
 msgctxt "City in Venezuela"
 msgid "Valencia"
 msgstr "Valensija"
@@ -19572,4 +19279,3 @@ msgstr "Nedola"
 #.
 msgid "Mariehamn"
 msgstr "Marihamn"
-

@@ -1,26 +1,15 @@
-# Mate ilmajaamade asukohtade eesti keele tõlge.
-# Estonian translation for weather-locations.
-#
-# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2008–2010 The MATE Project.
-# This file is distributed under the same license as the
-# mate-applets-locations package.
-#
-# Priit Laes <amd store20 com>, 2005, 2006
-# Ivar Smolin <okul linux ee>, 2005, 2006, 2008–2010.
-# Mattias Põldaru <mahfiaz gmail com>, 2009, 2010.
-#
-# Abiks materjal asub EKI kohanimeandmebaasis:
-# KNAB - http://www.eki.ee/knab/knab.htm
-#
+# Libraries to allow MATE Desktop to display weather information
+# Copyright (C) 2019 The MATE Team
+# This file is distributed under the same license as the libmateweather package.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-applets-locations MASTER\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-11 17:38+0000\n"
+"POT-Creation-Date: 2019-09-17 10:35+0200\n"
 "PO-Revision-Date: 2010-05-24 19:15+0300\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <et-mate@linux.ee>\n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -834,8 +823,15 @@ msgstr "Poola"
 msgid "Portugal"
 msgstr "Portugal"
 
-#. PR - Puerto Rico, a territory of the United States in the
-#. Caribbean.
+#. PR - Puerto Rico, a territory of the United States in the Caribbean.
+#. The following municipalities have airports with valid IACO codes
+#. but no active METAR stations, so we don't include them:
+#. * Arecibo:  TJAB
+#. * Culebra:  TJCP
+#. * Fajardo:  TJFA
+#. * Mayagüez: TJMZ
+#. * Ponce:    TJPS
+#. * Vieques:  TJVQ
 #.
 msgid "Puerto Rico"
 msgstr "Puerto Rico"
@@ -1246,6 +1242,24 @@ msgstr "McMurdo polaarjaam (Uus-Meremaa aeg)"
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
 msgstr "Amundsen-Scotti lõunapooluse jaam (Uus-Meremaa aeg)"
 
+#. The timezone on the western islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Barat".
+#.
+msgid "Western Indonesia Time"
+msgstr "Lääne-Indoneesia aeg"
+
+#. The timezone on the central islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
+#.
+msgid "Central Indonesia Time"
+msgstr "Kesk-Indoneesia aeg"
+
+#. The timezone on the eastern islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Timur".
+#.
+msgid "Eastern Indonesia Time"
+msgstr "Ida-Indoneesia aeg"
+
 #. The time zone used in the eastern half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 #.
@@ -1414,24 +1428,6 @@ msgstr "Markiisaared"
 #.
 msgid "Gambier Islands"
 msgstr "Gambier' saared"
-
-#. The timezone on the western islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Barat".
-#.
-msgid "Western Indonesia Time"
-msgstr "Lääne-Indoneesia aeg"
-
-#. The timezone on the central islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
-#.
-msgid "Central Indonesia Time"
-msgstr "Kesk-Indoneesia aeg"
-
-#. The timezone on the eastern islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Timur".
-#.
-msgid "Eastern Indonesia Time"
-msgstr "Ida-Indoneesia aeg"
 
 #. The time zone in the Gilbert Islands, one of the three
 #. main island groups of Kiribati. This string is only used
@@ -1745,14 +1741,22 @@ msgstr "Samaara aeg"
 msgid "Yekaterinburg Time"
 msgstr "Jekaterinburgi aeg"
 
-#. A Russian time zone, used in the Omsk and Novosibirsk
-#. oblasts and surrounding areas of south-central Russia.
+#. A Russian time zone, used in the Omsk oblast
+#. and surrounding areas of south-central Russia.
 #. The Russian name is "Омское время". This string is only
 #. used in places where "Russia" is already clear from
 #. context.
 #.
 msgid "Omsk Time"
 msgstr "Omski aeg"
+
+#. A Russian time zone, used in the Novosibirsk oblast.
+#. The Russian name is "Новосибирское время".
+#. This string is only used in places
+#. where "Russia" is already clear from context.
+#.
+msgid "Novosibirsk Time"
+msgstr ""
 
 #. A Russian time zone, used in the Krasnoyarsk krai and
 #. surrounding areas of central Russia. The Russian name is
@@ -3638,6 +3642,10 @@ msgstr "Cuiabá"
 #. A city in Paraná in Brazil
 msgid "Curitiba"
 msgstr "Curitiba"
+
+#. A city in Bahia in Brazil
+msgid "Feira de Santana"
+msgstr ""
 
 #. A city in Santa Catarina in Brazil
 msgid "Florianópolis"
@@ -7663,6 +7671,10 @@ msgstr "Palembang"
 msgid "Pekanbaru"
 msgstr "Pekanbaru"
 
+#. A city in Indonesia
+msgid "Yogyakarta"
+msgstr ""
+
 #. A city in Iran.
 #. The name is also written "آبادان".
 #.
@@ -7994,6 +8006,10 @@ msgid "Alghero"
 msgstr "Alghero"
 
 #. A city in Italy
+msgid "Ancona"
+msgstr ""
+
+#. A city in Italy
 msgid "Aviano"
 msgstr "Aviano"
 
@@ -8138,10 +8154,6 @@ msgstr "Messina"
 #.
 msgid "Milan"
 msgstr "Milano"
-
-#. A city in Italy
-msgid "Molino di Ancona"
-msgstr "Molino di Ancona"
 
 #. A city in Italy.
 #. "Naples" is the traditional English name.
@@ -8646,24 +8658,46 @@ msgid "Amman"
 msgstr "Amman"
 
 #. A city in Kazakhstan
+msgid "Aktau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Aktobe"
+msgstr ""
+
+#. A city in Kazakhstan
 msgid "Almaty"
 msgstr "Almatõ"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktau".
-#.
-msgid "Aqtau"
-msgstr "Aktau"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktobe".
-#.
-msgid "Aqtöbe"
-msgstr "Aktöbe"
 
 #. The capital of Kazakhstan
 msgid "Astana"
 msgstr "Astana"
+
+#. A city in Kazakhstan
+msgid "Atyrau"
+msgstr ""
+
+#. A city in Kazakhstan.
+#. The local name in Russian is "Balkhash".
+#.
+msgid "Balqash"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Karaganda"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kokshetau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kostanay"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kyzylorda"
+msgstr ""
 
 #. A city in Kazakhstan.
 #. The local name in Russian is "Ural'sk".
@@ -8672,26 +8706,31 @@ msgid "Oral"
 msgstr "Uralsk"
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Karaganda".
 #.
-msgid "Qaraghandy"
-msgstr "Karagandõ"
+msgid "Oskemen"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Pavlodar"
+msgstr ""
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Kostanay".
+#. The local name in Russian is "Petropavlovsk".
 #.
-msgid "Qostanay"
-msgstr "Kostanaj"
+msgid "Petropavl"
+msgstr ""
 
-#. A city in Kazakhstan.
-#. The local name in Russian is "Kyzylorda".
-#.
-msgid "Qyzylorda"
-msgstr "Kõzõlorda"
+#. A city in Kazakhstan
+msgid "Semey"
+msgstr ""
 
 #. A city in Kazakhstan
 msgid "Shymkent"
 msgstr "Shymkent"
+
+#. A city in Kazakhstan
+msgid "Taraz"
+msgstr ""
 
 #. A city in Kenya
 msgid "Eldoret"
@@ -9438,6 +9477,10 @@ msgstr "Auckland"
 msgid "Christchurch"
 msgstr "Christchurch"
 
+#. A city in New Zealand
+msgid "Dunedin"
+msgstr ""
+
 #. The capital of New Zealand
 msgid "Wellington"
 msgstr "Wellington"
@@ -9884,6 +9927,10 @@ msgid "Zamboanga City"
 msgstr "Zamboanga City"
 
 #. A city in Poland
+msgid "Bydgoszcz"
+msgstr ""
+
+#. A city in Poland
 msgid "Gdańsk"
 msgstr "Gdańsk"
 
@@ -9896,8 +9943,20 @@ msgid "Kraków"
 msgstr "Kraków"
 
 #. A city in Poland
+msgid "Lublin"
+msgstr ""
+
+#. A city in Poland
+msgid "Olsztyn"
+msgstr ""
+
+#. A city in Poland
 msgid "Poznań"
 msgstr "Poznań"
+
+#. A city in Poland
+msgid "Radom"
+msgstr ""
 
 #. A city in Poland
 msgid "Rzeszów"
@@ -9918,6 +9977,10 @@ msgstr "Varssavi"
 #. A city in Poland
 msgid "Wrocław"
 msgstr "Wrocław"
+
+#. A city in Poland
+msgid "Zielona Góra"
+msgstr ""
 
 #. A city in Poland
 msgid "Łódź"
@@ -9988,19 +10051,15 @@ msgstr "Sintra"
 msgid "Água de Pena"
 msgstr "Água de Pena"
 
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
+msgid "Aguadilla"
+msgstr ""
+
+#. A municipality of Puerto Rico
 msgid "Carolina"
 msgstr "Carolina"
 
-#. A city in Puerto Rico
-msgid "Ponce"
-msgstr "Ponce"
-
-#. A city in Puerto Rico
-msgid "Rafael Hernandez"
-msgstr "Rafael Hernandez"
-
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
 msgid "San Juan"
 msgstr "San Juan"
 
@@ -10874,6 +10933,10 @@ msgstr "Jerez"
 msgctxt "City in Spain"
 msgid "León"
 msgstr "León"
+
+#. A city in Spain
+msgid "Lleida"
+msgstr ""
 
 #. A city in Spain
 msgid "Los Baldíos"
@@ -19212,1281 +19275,3 @@ msgstr "Ndola"
 #.
 msgid "Mariehamn"
 msgstr "Mariehamn"
-
-#~ msgid "Hésingue"
-#~ msgstr "Hésingue"
-
-#~ msgid "T'ai-pei Shih"
-#~ msgstr "T'ai-pei Shih"
-
-#~ msgid "Bombay"
-#~ msgstr "Mumbai"
-
-#~ msgid "Calcutta"
-#~ msgstr "Kolkata"
-
-#~ msgid "Madras"
-#~ msgstr "Chennai"
-
-#~ msgid "Langenes"
-#~ msgstr "Langenes"
-
-#~ msgid "Robertson"
-#~ msgstr "Robertson"
-
-#~ msgid "Abilene Regional Airport"
-#~ msgstr "Abilene'i piirkondlik lennujaam"
-
-#~ msgid "Abu Dhabi Bateen Airport"
-#~ msgstr "Abu Dhabi Bateen'i lennujaam"
-
-#~ msgid "Abu Dhabi International Airport"
-#~ msgstr "Abu Dhabi rahvusvaheline lennujaam"
-
-#~ msgid "Abumusa Island, Abumusa Airport"
-#~ msgstr "Abumusa saar, Abumusa lennujaam"
-
-#~ msgid "Adams Field"
-#~ msgstr "Adams Field"
-
-#~ msgid "Adana-Incirlik Airport"
-#~ msgstr "Adana-Incirliki lennujaam"
-
-#~ msgid "Adana-Sakirpasa Airport"
-#~ msgstr "Adana-Sakirpasa lennujaam"
-
-#~ msgid "Addison Airport"
-#~ msgstr "Addisoni lennujaam"
-
-#~ msgid "Afonsos Airport"
-#~ msgstr "Afonsos'i lennujaam"
-
-#~ msgid "Air Force Academy"
-#~ msgstr "Lennuväeakadeemia"
-
-#~ msgid "Airlake Airport"
-#~ msgstr "Airlake lennujaam"
-
-#~ msgid "Akron Fulton International Airport"
-#~ msgstr "Akron Fultoni rahvusvaheline lennujaam"
-
-#~ msgid "Akron-Canton Regional Airport"
-#~ msgstr "Akron-Cantoni piirkondlik lennujaam"
-
-#~ msgid "Al Udeid"
-#~ msgstr "Al Udeid"
-
-#~ msgid "Alamogordo-White"
-#~ msgstr "Alamogordo-White"
-
-#~ msgid "Albuquerque International Airport"
-#~ msgstr "Albuquerque'i rahvusvaheline lennujaam"
-
-#~ msgid "Aldergrove Airport"
-#~ msgstr "Aldergrove'i lennujaam"
-
-#~ msgid "Alexandria Borg El Arab"
-#~ msgstr "Alexandria Borg El Arab"
-
-#~ msgid "Alexandria Esler Regional Airport"
-#~ msgstr "Alexandria Esler piirkondlik lennujaam"
-
-#~ msgid "Alexandria International Airport"
-#~ msgstr "Alexandria rahvusvaheline lennujaam"
-
-#~ msgid "Allegheny County Airport"
-#~ msgstr "Allegheny County lennujaam"
-
-#~ msgid "Altus / Quartz Mountain Regional Airport"
-#~ msgstr "Altus / Quartz Mountaini piirkondlik lennujaam"
-
-#~ msgid "Altus Air Force Base"
-#~ msgstr "Altuse õhujõudude baas"
-
-#~ msgid "Ambouli"
-#~ msgstr "Ambouli"
-
-#~ msgid "Ankara-Esenboga Airport"
-#~ msgstr "Ankara-Esenboga lennujaam"
-
-#~ msgid "Ankara-Etimesgut Airport"
-#~ msgstr "Ankara-Etimesguti lennujaam"
-
-#~ msgid "Ankara-Guvercin Lik Airport"
-#~ msgstr "Ankara/Guvercin Liki lennujaam"
-
-#~ msgid "Ansbach"
-#~ msgstr "Ansbach"
-
-#~ msgid "Aomen"
-#~ msgstr "Aomen"
-
-#~ msgid "Ardmore Municipal Airport"
-#~ msgstr "Ardmore munitsipaallennujaam"
-
-#~ msgid "Arkansas City"
-#~ msgstr "Arkansas City"
-
-#~ msgid "Austin-Bergstrom International Airport"
-#~ msgstr "Austin-Bergstromi rahvusvaheline lennujaam"
-
-#~ msgid "Baden-Baden"
-#~ msgstr "Baden-Baden"
-
-#~ msgid "Baltimore / Martin"
-#~ msgstr "Baltimore / Martin"
-
-#~ msgid "Baltimore, Inner Harbor"
-#~ msgstr "Baltimore, Inner Harbor"
-
-#~ msgid "Baltimore-Washington International Airport"
-#~ msgstr "Baltimore-Washingtoni rahvusvaheline lennujaam"
-
-#~ msgid "Barca"
-#~ msgstr "Barca"
-
-#~ msgid "Barksdale Air Force Base"
-#~ msgstr "Barksdale õhujõudude baas"
-
-#~ msgid "Beale Air Force Base"
-#~ msgstr "Beale'i õhujõudude baas"
-
-#~ msgid "Beldringe"
-#~ msgstr "Beldringe"
-
-#~ msgid "Belfast / Harbour"
-#~ msgstr "Belfast / Harbour"
-
-#~ msgid "Belo Horizonte Airport"
-#~ msgstr "Belo Horizonte lennujaam"
-
-#~ msgid "Berlin-Schoenefeld"
-#~ msgstr "Berlin-Schoenefeld"
-
-#~ msgid "Berlin-Tegel"
-#~ msgstr "Berlin-Tegel"
-
-#~ msgid "Berlin-Tempelhof"
-#~ msgstr "Berlin-Tempelhof"
-
-#~ msgid "Blaine"
-#~ msgstr "Blaine"
-
-#~ msgid "Bobby L Chain Municipal Airport"
-#~ msgstr "Bobby L Chaini munitsipaallennujaam"
-
-#~ msgid "Bolton Field Airport"
-#~ msgstr "Bolton Field'i lennujaam"
-
-#~ msgid "Bowman Field Airport"
-#~ msgstr "Bowman Field'i lennujaam"
-
-#~ msgid "Bradenton"
-#~ msgstr "Bradenton"
-
-#~ msgid "Bratts Lake"
-#~ msgstr "Bratts Lake"
-
-#~ msgid "Brown Field Municipal Airport"
-#~ msgstr "Brown Field'i munitsipaallennujaam"
-
-#~ msgid "Brunswick / Glynco"
-#~ msgstr "Brunswick / Glynco"
-
-#~ msgid "Bucharest / Imh"
-#~ msgstr "Bucharest / Imh"
-
-#~ msgid "Bucuresti Otopeni"
-#~ msgstr "Bucuresti Otopeni"
-
-#~ msgid "Burke Lakefront Airport"
-#~ msgstr "Burke Lakefronti lennujaam"
-
-#~ msgid "Bush Field"
-#~ msgstr "Bush Field"
-
-#~ msgid "Cajamarca"
-#~ msgstr "Cajamarca"
-
-#~ msgid "Calden"
-#~ msgstr "Calden"
-
-#~ msgid "Calgary International"
-#~ msgstr "Calgary International"
-
-#~ msgid "Calgary-Springbank Airport"
-#~ msgstr "Calgary-Springbanki lennujaam"
-
-#~ msgid "Cannon Air Force Base / Clovis"
-#~ msgstr "Cannoni õhujõudude baas / Clovis"
-
-#~ msgid "Cantwell"
-#~ msgstr "Cantwell"
-
-#~ msgid "Capital City Airport"
-#~ msgstr "Capital City lennujaam"
-
-#~ msgid "Casablanca"
-#~ msgstr "Casablanca"
-
-#~ msgid "Cecil Field Airport"
-#~ msgstr "Cecil Fieldi lennujaam"
-
-#~ msgid "Centennial Airport"
-#~ msgstr "Centenniali lennujaam"
-
-#~ msgid "Central"
-#~ msgstr "Central"
-
-#~ msgid "Changi Airport"
-#~ msgstr "Changi lennujaam"
-
-#~ msgid "Charleroi"
-#~ msgstr "Charleroi"
-
-#~ msgid "Charles de Gaulle International Airport"
-#~ msgstr "Charles de Gaulle'i rahvusvaheline lennujaam"
-
-#~ msgid "Charlestown"
-#~ msgstr "Charlestown"
-
-#~ msgid "Chicago / Wheeling, Pal-Waukee Airport"
-#~ msgstr "Chicago / Wheeling, Pal-Waukee lennujaam"
-
-#~ msgid "Chicago Midway Airport"
-#~ msgstr "Chicago Midway lennujaam"
-
-#~ msgid "Chicago-O'Hare International Airport"
-#~ msgstr "Chicago-O'Hare'i rahvusvaheline lennujaam"
-
-#~ msgid "Ciampino Airport"
-#~ msgstr "Ciampino lennujaam"
-
-#~ msgid "Cincinnati Municipal Airport, Lunken Field"
-#~ msgstr "Cincinnati munitsipaallennujaam, Lunken Field"
-
-#~ msgid "City of Colorado Springs Municipal Airport"
-#~ msgstr "Colorado Springsi linna munitsipaallennujaam"
-
-#~ msgid "Cleveland / Cuyahoga"
-#~ msgstr "Cleveland / Cuyahoga"
-
-#~ msgid "Cleveland-Hopkins International Airport"
-#~ msgstr "Cleveland-Hopkinsi rahvusvaheline lennujaam"
-
-#~ msgid "Clinton Regional Airport"
-#~ msgstr "Clintoni piirkondlik lennujaam"
-
-#~ msgid "Clinton-Sherman Airport"
-#~ msgstr "Clinton-Shermani lennujaam"
-
-#~ msgid "Clovis Municipal Airport"
-#~ msgstr "Clovise lennujaam"
-
-#~ msgid "Cocoa Beach"
-#~ msgstr "Cocoa Beach"
-
-#~ msgid "Cologne"
-#~ msgstr "Köln"
-
-#~ msgid "Colonel James Jabara Airport"
-#~ msgstr "Colonel James Jabara lennujaam"
-
-#~ msgid "Columbia Metropolitan Airport"
-#~ msgstr "Columbia Metropolitani lennujaam"
-
-#~ msgid "Columbia Owens Downtown Airport"
-#~ msgstr "Columbia Owens Downtowni lennujaam"
-
-#~ msgid "Columbus / West Point / Starkville, Golden Triangle Regional Airport"
-#~ msgstr ""
-#~ "Columbus / West Point / Starkville, Golden Triangle'i piirkondlik "
-#~ "lennujaam"
-
-#~ msgid "Columbus Air Force Base"
-#~ msgstr "Columbuse lennuväebaas"
-
-#~ msgid "Congonhas Airport"
-#~ msgstr "Congonhas' lennujaam"
-
-#~ msgid "Copper Mountain"
-#~ msgstr "Copper Mountain"
-
-#~ msgid "Corpus Christi International Airport"
-#~ msgstr "Corpus Christi rahvusvaheline lennujaam"
-
-#~ msgid "Covington"
-#~ msgstr "Covington"
-
-#~ msgid ""
-#~ "Covington / Cincinnati, Cincinnati / Northern Kentucky International "
-#~ "Airport"
-#~ msgstr ""
-#~ "Covington / Cincinnati, Cincinnati / Põhja-Kentucky rahvusvaheline "
-#~ "lennujaam"
-
-#~ msgid "Cox Dayton International Airport"
-#~ msgstr "Cox Daytoni rahvusvaheline lennujaam"
-
-#~ msgid "Craig Municipal Airport"
-#~ msgstr "Craigi munitsipaallennujaam"
-
-#~ msgid "Crystal Airport"
-#~ msgstr "Crystali lennujaam"
-
-#~ msgid "Curitiba Airport"
-#~ msgstr "Curitiba lennujaam"
-
-#~ msgid "Dalcross"
-#~ msgstr "Dalcross"
-
-#~ msgid "Dallas / Fort Worth, Dallas / Fort Worth International Airport"
-#~ msgstr "Dallas / Fort Worth, Dallase / Fort Worthi rahvusvaheline lennujaam"
-
-#~ msgid "Dam Dam"
-#~ msgstr "Dam Dam"
-
-#~ msgid "Daniel Field"
-#~ msgstr "Daniel Field"
-
-#~ msgid "Davis-Monthan Air Force Base"
-#~ msgstr "Davis-Monthani õhujõudude baas"
-
-#~ msgid "Dayton / Wright-Patterson Air Force Base"
-#~ msgstr "Daytoni / Wright-Pattersoni õhujõudude baas"
-
-#~ msgid "Dayton-Wright Brothers Airport"
-#~ msgstr "Dayton-Wright Brothersi lennujaam"
-
-#~ msgid "De Kalb-Peachtree Airport"
-#~ msgstr "De Kalb-Peachtree rahvusvaheline lennujaam"
-
-#~ msgid "Deering"
-#~ msgstr "Deering"
-
-#~ msgid "Denver International Airport"
-#~ msgstr "Denveri rahvusvaheline lennujaam"
-
-#~ msgid "Detroit City Airport"
-#~ msgstr "Detroit City lennujaam"
-
-#~ msgid "Deurne"
-#~ msgstr "Deurne"
-
-#~ msgid "Doha International Airport"
-#~ msgstr "Doha rahvusvaheline lennujaam"
-
-#~ msgid "Domodedovo Airport"
-#~ msgstr "Domodedovo lennujaam"
-
-#~ msgid "Donji Zemunik"
-#~ msgstr "Donji Zemunik"
-
-#~ msgid "Double Eagle II Airport"
-#~ msgstr "Double Eagle II lennujaam"
-
-#~ msgid "Drake Field"
-#~ msgstr "Drake Field"
-
-#~ msgid "Duluth International Airport"
-#~ msgstr "Duluthi rahvusvaheline lennujaam"
-
-#~ msgid "Dyce"
-#~ msgstr "Dyce"
-
-#~ msgid "Dyess Air Force Base"
-#~ msgstr "Dyessi õhujõudude baas"
-
-#~ msgid "Délįne Airport"
-#~ msgstr "Délįne lennujaam"
-
-#~ msgid "Eduardo Gomes International Airport"
-#~ msgstr "Eduardo Gomesi rahvusvaheline lennujaam"
-
-#~ msgid "Edwards Air Force Base"
-#~ msgstr "Edwardsi õhujõudude baas"
-
-#~ msgid "Eielson Air Force Base"
-#~ msgstr "Eielsoni õhuväebaas"
-
-#~ msgid "El Cajon"
-#~ msgstr "El Cajon"
-
-#~ msgid "Elmendorf Air Force Base"
-#~ msgstr "Elmendorfi õhujõudude baas"
-
-#~ msgid "Enid Woodring Regional Airport"
-#~ msgstr "Enid Woodringi piirkondlik lennujaam"
-
-#~ msgid "Es Senia Airport"
-#~ msgstr "Es Senia lennujaam"
-
-#~ msgid "Eureka, Skelton Airport"
-#~ msgstr "Eureka, Skeltoni lennujaam"
-
-#~ msgid "Fairbanks International Airport"
-#~ msgstr "Fairbanksi rahvusvaheline lennujaam"
-
-#~ msgid "Faleolo"
-#~ msgstr "Faleolo"
-
-#~ msgid "Fayetteville / Springdale, Northwest Arkansas Regional Airport"
-#~ msgstr "Fayetteville / Springdale, Loode-Arkansase piirkondlik lennujaam"
-
-#~ msgid "Fayetteville Regional Airport"
-#~ msgstr "Fayetteville'i piirkondlik lennujaam"
-
-#~ msgid "Flying Cloud Airport"
-#~ msgstr "Flying Cloudi lennujaam"
-
-#~ msgid "Fontanarossa Airport"
-#~ msgstr "Fontanarossa lennujaam"
-
-#~ msgid "Fort Lauderdale / Hollywood International Airport"
-#~ msgstr "Fort Lauderdale'i / Hollywoodi rahvusvaheline lennujaam"
-
-#~ msgid "Fort Sill"
-#~ msgstr "Fort Sill"
-
-#~ msgid "Forth Worth Spinks Airport"
-#~ msgstr "Forth Worth Spinksi lennujaam"
-
-#~ msgid "Fox Bay"
-#~ msgstr "Fox Bay"
-
-#~ msgid "Gatwick Airport"
-#~ msgstr "Gatwick'i lennujaam"
-
-#~ msgid "Gen Maria Airport"
-#~ msgstr "Gen Maria lennujaam"
-
-#~ msgid "General Mitchell International Airport"
-#~ msgstr "General Mitchelli rahvusvaheline lennujaam"
-
-#~ msgid "Ghedi Airport"
-#~ msgstr "Ghedi lennujaam"
-
-#~ msgid "Gillot"
-#~ msgstr "Gillot"
-
-#~ msgid "Glynco"
-#~ msgstr "Glynco"
-
-#~ msgid "Golovin"
-#~ msgstr "Golovin"
-
-#~ msgid "Grand Forks Air Force Base"
-#~ msgstr "Grand Forksi õhujõudude baas"
-
-#~ msgid "Grand Forks International Airport"
-#~ msgstr "Grand Forksi rahvusvaheline lennujaam"
-
-#~ msgid "Green River"
-#~ msgstr "Green River"
-
-#~ msgid "Grosse Ile"
-#~ msgstr "Grosse Ile"
-
-#~ msgid "Göteborg-Landvetter Airport"
-#~ msgstr "Göteborg-Landvetteri lennujaam"
-
-#~ msgid "Göteborg-Save Airport"
-#~ msgstr "Göteborg-Save lennujaam"
-
-#~ msgid "Halifax International Airport"
-#~ msgstr "Halifaxi rahvusvaheline lennujaam"
-
-#~ msgid "Hamburg-Finkenwerder"
-#~ msgstr "Hamburg-Finkenwerder"
-
-#~ msgid "Hamburg-Fuhlsbuettel"
-#~ msgstr "Hamburg-Fuhlsbuettel"
-
-#~ msgid "Harare"
-#~ msgstr "Harare"
-
-#~ msgid "Harrell"
-#~ msgstr "Harrell"
-
-#~ msgid "Harrisburg International Airport"
-#~ msgstr "Harrisburgi rahvusvaheline lennujaam"
-
-#~ msgid "Hartsfield - Jackson Atlanta International Airport"
-#~ msgstr "Hartsfield - Jacksoni rahvusvaheline lennujaam"
-
-#~ msgid "Hattiesburg / Laurel, Hattiesburg-Laurel Regional Airport"
-#~ msgstr "Hattiesburg / Laurel, Hattiesburg-Laureli piirkondlik lennujaam"
-
-#~ msgid "Hawkins Field Airport"
-#~ msgstr "Hawkins Fieldi lennujaam"
-
-#~ msgid "Heathrow Airport"
-#~ msgstr "Heathrow'i lennujaam"
-
-#~ msgid "Helsinki-Malmi"
-#~ msgstr "Helsingi-Malmi"
-
-#~ msgid "Helsinki-Vantaa"
-#~ msgstr "Helsingi-Vantaa"
-
-#~ msgid "Hill Air Force Base / Ogden"
-#~ msgstr "Hilli õhujõudude baas / Ogden"
-
-#~ msgid "Hiroshima Airport"
-#~ msgstr "Hiroshima lennujaam"
-
-#~ msgid "Hiroshimanishi"
-#~ msgstr "Hiroshimanishi"
-
-#~ msgid "Holloman Air Force Base"
-#~ msgstr "Hollomani õhujõudude baas"
-
-#~ msgid "Hongqiao Airport"
-#~ msgstr "Hongqiao lennujaam"
-
-#~ msgid "Honolulu International Airport"
-#~ msgstr "Honolulu rahvusvaheline lennujaam"
-
-#~ msgid "Hooks Memorial Airport"
-#~ msgstr "Hooks Memoriali lennujaam"
-
-#~ msgid "Horta"
-#~ msgstr "Horta"
-
-#~ msgid "Houston / Ellington"
-#~ msgstr "Houston / Ellington"
-
-#~ msgid "Houston Intercontinental Airport"
-#~ msgstr "Houstoni kontinentidevaheline lennujaam"
-
-#~ msgid "Ibadan"
-#~ msgstr "Ibadan"
-
-#~ msgid "Indianapolis International Airport"
-#~ msgstr "Indianapolise rahvusvaheline lennujaam"
-
-#~ msgid "Inhambane"
-#~ msgstr "Inhambane"
-
-#~ msgid "Istanbul-Ataturk Airport"
-#~ msgstr "Istanbul-Ataturki lennujaam"
-
-#~ msgid "Istanbul-Sabiha Gokcen Airport"
-#~ msgstr "Istanbul-Sabiha Gokceni lennujaam"
-
-#~ msgid "Istrana Airport"
-#~ msgstr "Istrana lennujaam"
-
-#~ msgid "Izmir-Adnan Menderes Airport"
-#~ msgstr "Izmir-Adnan Menderesi lennujaam"
-
-#~ msgid "Izmir-Cigli Airport"
-#~ msgstr "Izmir-Cigli lennujaam"
-
-#~ msgid "Jacarepagua Airport"
-#~ msgstr "Jacarepagua lennujaam"
-
-#~ msgid "Jackson International Airport"
-#~ msgstr "Jacksoni rahvusvaheline lennujaam"
-
-#~ msgid "Jacksonville International Airport"
-#~ msgstr "Jacksonville'i rahvusvaheline lennujaam"
-
-#~ msgid "Jacqueline Cochran Regional Airport"
-#~ msgstr "Jacqueline Cochrani piirkondlik lennujaam"
-
-#~ msgid "Jones Jr. Airport"
-#~ msgstr "Jones Jr. lennujaam"
-
-#~ msgid "Juanjuí"
-#~ msgstr "Juanjuí"
-
-#~ msgid "Kansas City Downtown Airport"
-#~ msgstr "Kansas City Downtowni lennujaam"
-
-#~ msgid "Kansas City International Airport"
-#~ msgstr "Kansas City rahvusvaheline lennujaam"
-
-#~ msgid "Kelly Air Force Base"
-#~ msgstr "Kelly õhuväebaas"
-
-#~ msgid "Kelp Reefs"
-#~ msgstr "Kelp Reefs"
-
-#~ msgid "Kennedy International Airport"
-#~ msgstr "Kennedy rahvusvaheline lennujaam"
-
-#~ msgid "Key West International Airport"
-#~ msgstr "Key Westi rahvusvaheline lennujaam"
-
-#~ msgid "King Khaled International Airport"
-#~ msgstr "King Khaledi rahvusvaheline lennujaam"
-
-#~ msgid "Kingsford"
-#~ msgstr "Kingsford"
-
-#~ msgid "Kisauni"
-#~ msgstr "Kisauni"
-
-#~ msgid "Kissimmee Municipal Airport"
-#~ msgstr "Kissimmee munitsipaallennujaam"
-
-#~ msgid "Kremmling"
-#~ msgstr "Kremmling"
-
-#~ msgid "Kunigami"
-#~ msgstr "Kunigami"
-
-#~ msgid "La Carlota Airport"
-#~ msgstr "La Carlota lennujaam"
-
-#~ msgid "La Guardia Airport"
-#~ msgstr "La Guardia lennujaam"
-
-#~ msgid "La Veta Pass"
-#~ msgstr "La Veta Pass"
-
-#~ msgid "Lagos"
-#~ msgstr "Lagos"
-
-#~ msgid "Lake Hood Seaplane Base"
-#~ msgstr "Lake Hoodi vesilennukite baas"
-
-#~ msgid "Lake Jackson"
-#~ msgstr "Lake Jackson"
-
-#~ msgid "Lanseria"
-#~ msgstr "Lanseria"
-
-#~ msgid "Lansing Municipal Airport"
-#~ msgstr "Lansingi munitsipaallennujaam"
-
-#~ msgid "Las Bajadas"
-#~ msgstr "Las Bajadas"
-
-#~ msgid "Laughlin"
-#~ msgstr "Laughlin"
-
-#~ msgid "Laurel"
-#~ msgstr "Laurel"
-
-#~ msgid "Lawton Municipal Airport"
-#~ msgstr "Lawtoni munitsipaallennujaam"
-
-#~ msgid "Linate Airport"
-#~ msgstr "Linate lennujaam"
-
-#~ msgid "Lincolnton"
-#~ msgstr "Lincolnton"
-
-#~ msgid "Lippstadt"
-#~ msgstr "Lippstadt"
-
-#~ msgid "Little Rock Air Force Base"
-#~ msgstr "Little Rocki õhujõudude baas"
-
-#~ msgid "Lompoc Airport"
-#~ msgstr "Lompoci lennujaam"
-
-#~ msgid "London City Airport"
-#~ msgstr "London City lennujaam"
-
-#~ msgid "Lorain"
-#~ msgstr "Lorain"
-
-#~ msgid "Los Angeles International Airport"
-#~ msgstr "Los Angelese rahvusvaheline lennujaam"
-
-#~ msgid "Loveland"
-#~ msgstr "Loveland"
-
-#~ msgid "Luanda"
-#~ msgstr "Luanda"
-
-#~ msgid "Luke Air Force Base / Phoenix"
-#~ msgstr "Luke'i õhujõudude baas / Phoenix"
-
-#~ msgid "Lyon-Bron Airport"
-#~ msgstr "Lyon-Broni lennujaam"
-
-#~ msgid "Lyon-Satolas Airport"
-#~ msgstr "Lyon-Satolasi lennujaam"
-
-#~ msgid "MBS International Airport"
-#~ msgstr "MBS-i rahvusvaheline lennujaam"
-
-#~ msgid "Macdill Air Force Base, Fl."
-#~ msgstr "Macdilli õhujõudude baas, Fl."
-
-#~ msgid "Majuro Atoll"
-#~ msgstr "Majuro Atoll"
-
-#~ msgid "Majuro Atoll, Marshall Islands International Airport"
-#~ msgstr "Majuro Atoll, Marshalli Saarte rahvusvaheline lennuväli"
-
-#~ msgid "Malahat"
-#~ msgstr "Malahat"
-
-#~ msgid "Malcolm McKinnon Airport"
-#~ msgstr "Malcolm McKinnoni lennujaam"
-
-#~ msgid "Malpensa Airport"
-#~ msgstr "Malpensa lennujaam"
-
-#~ msgid "Manado"
-#~ msgstr "Manado"
-
-#~ msgid "Manaus Airport"
-#~ msgstr "Manause lennujaam"
-
-#~ msgid "Marietta / Dobbins Air Force Base"
-#~ msgstr "Marietta / Dobbinsi õhujõudude baas"
-
-#~ msgid "Marte Airport"
-#~ msgstr "Marte lennujaam"
-
-#~ msgid "Maxwell Air Force Base / Montgomery"
-#~ msgstr "Maxwelli õhujõudude baas / Montgomery"
-
-#~ msgid "McCarran International Airport"
-#~ msgstr "McCarrani rahvusvaheline lennujaam"
-
-#~ msgid "McConnell Air Force Base"
-#~ msgstr "McConnelli õhujõudude baas"
-
-#~ msgid "Meacham International Airport"
-#~ msgstr "Meachami rahvusvaheline lennujaam"
-
-#~ msgid "Merced / Castle Air Force Base"
-#~ msgstr "Mercedi / Castle'i õhujõudude baas"
-
-#~ msgid "Merced Municipal Airport"
-#~ msgstr "Mercedi munitsipaallennujaam"
-
-#~ msgid "Miami International Airport"
-#~ msgstr "Miami rahvusvaheline lennujaam"
-
-#~ msgid "Midland International Airport"
-#~ msgstr "Midlandi rahvusvaheline lennujaam"
-
-#~ msgid "Mikhaylovsk"
-#~ msgstr "Mihhailovsk"
-
-#~ msgid "Millard Airport"
-#~ msgstr "Millardi lennujaam"
-
-#~ msgid "Milwaukee / Timmerman"
-#~ msgstr "Milwaukee / Timmerman"
-
-#~ msgid "Minneapolis / Blaine"
-#~ msgstr "Minneapolis / Blaine"
-
-#~ msgid "Minneapolis-St. Paul International Airport"
-#~ msgstr "Minneapolis-St. Pauli rahvusvaheline lennujaam"
-
-#~ msgid "Minocqua"
-#~ msgstr "Minocqua"
-
-#~ msgid "Minot Air Force Base"
-#~ msgstr "Minot' õhujõudude baas"
-
-#~ msgid "Minot International Airport"
-#~ msgstr "Minot' rahvusvaheline lennujaam"
-
-#~ msgid "Miramar"
-#~ msgstr "Miramar"
-
-#~ msgid "Mobile Regional Airport"
-#~ msgstr "Mobile' piirkondlik lennujaam"
-
-#~ msgid "Monterrey International Airport"
-#~ msgstr "Monterrey rahvusvaheline lennujaam"
-
-#~ msgid "Montgomery Field"
-#~ msgstr "Montgomery Field"
-
-#~ msgid "Montichiara Airport"
-#~ msgstr "Montichiara lennujaam"
-
-#~ msgid "Montpelier"
-#~ msgstr "Montpelier"
-
-#~ msgid "Montreal-Mirabel Airport"
-#~ msgstr "Montreal-Mirabeli Airport"
-
-#~ msgid "Monument"
-#~ msgstr "Monument"
-
-#~ msgid "Muir"
-#~ msgstr "Muir"
-
-#~ msgid "Murphysboro"
-#~ msgstr "Murphysboro"
-
-#~ msgid "Nancy-Essey Airport"
-#~ msgstr "Nancy-Essey lennujaam"
-
-#~ msgid "Nancy-Ochey Airport"
-#~ msgstr "Nancy-Ochey lennujaam"
-
-#~ msgid "Nausori"
-#~ msgstr "Nausori"
-
-#~ msgid "New London"
-#~ msgstr "New London"
-
-#~ msgid "New Orleans International Airport"
-#~ msgstr "New Orleansi rahvusvaheline lennujaam"
-
-#~ msgid "New Orleans Lakefront Airport"
-#~ msgstr "New Orleans Lakefronti lennujaam"
-
-#~ msgid "New River"
-#~ msgstr "New River"
-
-#~ msgid "New Shoreham"
-#~ msgstr "New Shoreham"
-
-#~ msgid "New York City, Central Park"
-#~ msgstr "New York City, Central Park"
-
-#~ msgid "Newport News / Williamsburg International Airport"
-#~ msgstr "Newport Newsi / Williamsburgi rahvusvaheline lennujaam"
-
-#~ msgid "Norfolk International Airport"
-#~ msgstr "Norfolki rahvusvaheline lennujaam"
-
-#~ msgid "Normal"
-#~ msgstr "Normal"
-
-#~ msgid "North Las Vegas Airport"
-#~ msgstr "North Las Vegase lennujaam"
-
-#~ msgid "Northeast Philadelphia Airport"
-#~ msgstr "Loode-Philadelphia lennujaam"
-
-#~ msgid "Nouzha Airport"
-#~ msgstr "Nouzha lennujaam"
-
-#~ msgid "O. R. Tambo International Airport"
-#~ msgstr "O. R. Tambo rahvusvaheline lennujaam"
-
-#~ msgid "Oahu, Kalaeloa Airport"
-#~ msgstr "Oahu, Kalaeloa lennujaam"
-
-#~ msgid "Obihiro Airport"
-#~ msgstr "Obihiro lennujaam"
-
-#~ msgid "Oceana"
-#~ msgstr "Oceana"
-
-#~ msgid "Oceanside Municipal Airport"
-#~ msgstr "Oceanside'i munitsipaallennujaam"
-
-#~ msgid "Ogden-Hinckley Airport"
-#~ msgstr "Ogden-Hinckley lennujaam"
-
-#~ msgid "Omaha / Offutt Air Force Base"
-#~ msgstr "Omaha / Offutti õhujõudude baas"
-
-#~ msgid "Omišalj"
-#~ msgstr "Omišalj"
-
-#~ msgid "Opa Locka Airport"
-#~ msgstr "Opa Locka lennujaam"
-
-#~ msgid "Orlando International Airport"
-#~ msgstr "Orlando rahvusvaheline lennujaam"
-
-#~ msgid "Oscar Macha Airport"
-#~ msgstr "Oscar Macha lennujaam"
-
-#~ msgid "Oxnard Airport"
-#~ msgstr "Oxnardi lennujaam"
-
-#~ msgid "Page Field"
-#~ msgstr "Page Field"
-
-#~ msgid "Palm Springs Regional Airport"
-#~ msgstr "Palm Springsi piirkondlik lennujaam"
-
-#~ msgid "Paris-Le Bourget Airport"
-#~ msgstr "Paris-Le Bourget' lennujaam"
-
-#~ msgid "Paya Lebar Airport"
-#~ msgstr "Paya Lebari lennujaam"
-
-#~ msgid "Peachtree City"
-#~ msgstr "Peachtree City"
-
-#~ msgid "Pearland Regional Airport"
-#~ msgstr "Pearlandi piirkondlik lennujaam"
-
-#~ msgid "Pedras Rubras"
-#~ msgstr "Pedras Rubras"
-
-#~ msgid "Pensacola Regional Airport"
-#~ msgstr "Pensacola piirkondlik lennujaam"
-
-#~ msgid "Peter O Knight Airport"
-#~ msgstr "Peter O Knighti lennujaam"
-
-#~ msgid "Philadelphia International Airport"
-#~ msgstr "Philadelphia rahvusvaheline lennujaam"
-
-#~ msgid "Philip Billard Municipal Airport"
-#~ msgstr "Philip Billardi munitsipaallennujaam"
-
-#~ msgid "Phoenix Sky Harbor International Airport"
-#~ msgstr "Phoenix Sky Harbori rahvusvaheline lennujaam"
-
-#~ msgid "Phoenix-Deer Valley Municipal Airport"
-#~ msgstr "Phoenix-Deer Valley munitsipaallennujaam"
-
-#~ msgid "Pierre Elliot Trudeau International Airport"
-#~ msgstr "Pierre Elliot Trudeau' rahvusvaheline lennujaam"
-
-#~ msgid "Pirkkala"
-#~ msgstr "Pirkkala"
-
-#~ msgid "Pittsburgh International Airport"
-#~ msgstr "Pittsburghi rahvusvaheline lennujaam"
-
-#~ msgid "Pleso"
-#~ msgstr "Pleso"
-
-#~ msgid "Pope Air Force Base"
-#~ msgstr "Pope'i lennuväebaas"
-
-#~ msgid "Port Arthur"
-#~ msgstr "Port Arthur"
-
-#~ msgid "Port Colborne"
-#~ msgstr "Port Colborne"
-
-#~ msgid "Port Columbus International Airport"
-#~ msgstr "Port Columbuse rahvusvaheline lennujaam"
-
-#~ msgid "Portela"
-#~ msgstr "Portela"
-
-#~ msgid "Portland International Airport"
-#~ msgstr "Portlandi rahvusvaheline lennujaam"
-
-#~ msgid "Portland-Hillsboro Airport"
-#~ msgstr "Portland-Hillsboro lennujaam"
-
-#~ msgid "Portland-Troutdale Airport"
-#~ msgstr "Portland-Troutdalei lennujaam"
-
-#~ msgid "Porto Alegre Airport"
-#~ msgstr "Porto Alegre lennujaam"
-
-#~ msgid "Pouthichentong"
-#~ msgstr "Pouthichentong"
-
-#~ msgid "Pudong Airport"
-#~ msgstr "Pudongi lennujaam"
-
-#~ msgid "Pullman"
-#~ msgstr "Pullman"
-
-#~ msgid "Punta Raisi Airport"
-#~ msgstr "Punta Raisi lennujaam"
-
-#~ msgid "Qikiqtarjuaq Airport"
-#~ msgstr "Qikiqtarjuaqi lennujaam"
-
-#~ msgid "Rancho Boyeros"
-#~ msgstr "Rancho Boyeros"
-
-#~ msgid "Red Cliff"
-#~ msgstr "Red Cliff"
-
-#~ msgid "Redbird Airport"
-#~ msgstr "Redbirdi lennujaam"
-
-#~ msgid "Richlands"
-#~ msgstr "Richlands"
-
-#~ msgid "Rio de Janeiro Airport"
-#~ msgstr "Rio de Janeiro lennujaam"
-
-#~ msgid "Riverside / March Air Force Base"
-#~ msgstr "Riverside'i / Marchi õhujõudude baas"
-
-#~ msgid "Riverside Municipal Airport"
-#~ msgstr "Riverside'i munitsipaallennujaam"
-
-#~ msgid "Rolla"
-#~ msgstr "Rolla"
-
-#~ msgid "Romeoville"
-#~ msgstr "Romeoville"
-
-#~ msgid "Rustenburg"
-#~ msgstr "Rustenburg"
-
-#~ msgid "S. Angelo Airport"
-#~ msgstr "S. Angelo lennujaam"
-
-#~ msgid "Sabine Pass"
-#~ msgstr "Sabine Pass"
-
-#~ msgid "Sacramento International Airport"
-#~ msgstr "Sacramento rahvusvaheline lennujaam"
-
-#~ msgid "Sacramento Mather Airport"
-#~ msgstr "Sacramento Matheri lennujaam"
-
-#~ msgid "Saginaw County H.W. Browne Airport"
-#~ msgstr "Saginaw County H.W. Brownei lennujaam"
-
-#~ msgid "Saint Leonard Airport"
-#~ msgstr "Saint Leonardi lennujaam"
-
-#~ msgid "Saint Mawgan"
-#~ msgstr "Saint Mawgan"
-
-#~ msgid "Saipan Island, Saipan International Airport"
-#~ msgstr "Saipani saar, Saipani rahvusvaheline lennujaam"
-
-#~ msgid "Salcea"
-#~ msgstr "Salcea"
-
-#~ msgid "San Antonio International Airport"
-#~ msgstr "San Antonio rahvusvaheline lennujaam"
-
-#~ msgid "San Jose / Reid / Hillv"
-#~ msgstr "San Jose / Reid / Hillv"
-
-#~ msgid "San Jose International Airport"
-#~ msgstr "San Jose rahvusvaheline lennujaam"
-
-#~ msgid "San Miguel de Tucumán"
-#~ msgstr "San Miguel de Tucumán"
-
-#~ msgid "Sanford Airport"
-#~ msgstr "Sanford'i lennujaam"
-
-#~ msgid "Sanganer"
-#~ msgstr "Sanganer"
-
-#~ msgid "Savannah International Airport"
-#~ msgstr "Savannah' rahvusvaheline lennujaam"
-
-#~ msgid "Seattle-Tacoma International Airport"
-#~ msgstr "Seattle-Tacoma rahvusvaheline lennujaam"
-
-#~ msgid "Sendai Airport"
-#~ msgstr "Sendai lennujaam"
-
-#~ msgid "Sheep Mountain, Sheep Mountain Airport"
-#~ msgstr "Sheep Mountain, Sheep Mountaini lennujaam"
-
-#~ msgid "Sheremet'ye Airport"
-#~ msgstr "Šeremetevo lennujaam"
-
-#~ msgid "Shreveport Regional Airport"
-#~ msgstr "Shreveporti piirkondlik lennujaam"
-
-#~ msgid "Sigonella Airport"
-#~ msgstr "Sigonella lennujaam"
-
-#~ msgid "Sikes Airport"
-#~ msgstr "Sikesi lennujaam"
-
-#~ msgid "Simon Bolivar International Airport"
-#~ msgstr "Simon Bolivari rahvusvaheline lennujaam"
-
-#~ msgid "Sky Harbor Airport"
-#~ msgstr "Sky Harbor'i lennujaam"
-
-#~ msgid "Soesterberg"
-#~ msgstr "Soesterberg"
-
-#~ msgid "Southern Pines"
-#~ msgstr "Southern Pines"
-
-#~ msgid "Southwest Florida International Airport"
-#~ msgstr "Edela-Florida rahvusvaheline lennujaam"
-
-#~ msgid "Sparwood, Sparwood-Elk Valley Airport"
-#~ msgstr "Sparwood, Sparwood-Elk Valley lennujaam"
-
-#~ msgid "Spokane International Airport"
-#~ msgstr "Spokane'i rahvusvaheline lennujaam"
-
-#~ msgid "Standerton"
-#~ msgstr "Standerton"
-
-#~ msgid "Starkville"
-#~ msgstr "Starkville"
-
-#~ msgid "Stinson Municipal Airport"
-#~ msgstr "Stinsoni munitsipaallennujaam"
-
-#~ msgid "Stockholm-Arlanda Airport"
-#~ msgstr "Stockholm-Arlanda lennujaam"
-
-#~ msgid "Stockholm-Bromma Airport"
-#~ msgstr "Stockholm-Bromma lennujaam"
-
-#~ msgid "Sugar Land"
-#~ msgstr "Sugar Land"
-
-#~ msgid "Sung-shan"
-#~ msgstr "Sung-shan"
-
-#~ msgid "Surčin"
-#~ msgstr "Surčin"
-
-#~ msgid "Suva"
-#~ msgstr "Suva"
-
-#~ msgid "Swansboro"
-#~ msgstr "Swansboro"
-
-#~ msgid "Tacoma / McChord Air Force Base"
-#~ msgstr "Tacoma / McChordi õhujõudude baas"
-
-#~ msgid "Tacoma Narrows Airport"
-#~ msgstr "Tacoma Narrowsi lennujaam"
-
-#~ msgid "Tafaraoui Airport"
-#~ msgstr "Tafaraoui lennujaam"
-
-#~ msgid "Tampa International Airport"
-#~ msgstr "Tampa rahvusvaheline lennujaam"
-
-#~ msgid "Taunton"
-#~ msgstr "Taunton"
-
-#~ msgid "Ted Stevens Anchorage International Airport"
-#~ msgstr "Ted Stevens Anchorage'i rahvusvaheline lennujaam"
-
-#~ msgid "Tete"
-#~ msgstr "Tete"
-
-#~ msgid "Tingo María"
-#~ msgstr "Tingo María"
-
-#~ msgid "Tinker Air Force Base"
-#~ msgstr "Tinkeri õhujõudude baas"
-
-#~ msgid "Tokyo Heliport"
-#~ msgstr "Tokyo Helikopterijaam"
-
-#~ msgid "Tokyo International Airport"
-#~ msgstr "Tokyo rahvusvaheline lennujaam"
-
-#~ msgid "Toronto Buttonville"
-#~ msgstr "Toronto Buttonville"
-
-#~ msgid "Toulouse-Blagnac Airport"
-#~ msgstr "Toulouse-Blagnaci lennujaam"
-
-#~ msgid "Toulouse-Francazal Airport"
-#~ msgstr "Toulouse-Francazali lennujaam"
-
-#~ msgid "Tucson International Airport"
-#~ msgstr "Tucsoni rahvusvaheline lennujaam"
-
-#~ msgid "Tulsa International Airport"
-#~ msgstr "Tulsa rahvusvaheline lennujaam"
-
-#~ msgid "Urbana"
-#~ msgstr "Urbana"
-
-#~ msgid "Urbe Airport"
-#~ msgstr "Urbe lennujaam"
-
-#~ msgid "Vance Air Force Base / Enid"
-#~ msgstr "Vance'i õhujõudude baas / Enid"
-
-#~ msgid "Vandenberg Air Force Base"
-#~ msgstr "Vandenbergi õhujõudude baas"
-
-#~ msgid "Vandenberg Airport"
-#~ msgstr "Vandenbergi lennujaam"
-
-#~ msgid "Varadero"
-#~ msgstr "Varadero"
-
-#~ msgid "Victoria Harbour"
-#~ msgstr "Victoria Harbour"
-
-#~ msgid "Victoria International Airport"
-#~ msgstr "Victoria rahvusvaheline lennujaam"
-
-#~ msgid "Vnukovo Airport"
-#~ msgstr "Vnukovo lennujaam"
-
-#~ msgid "Waco Regional Airport"
-#~ msgstr "Waco piirkondlik lennujaam"
-
-#~ msgid "Warszawa"
-#~ msgstr "Varssavi"
-
-#~ msgid "Washington DC, Washington-Dulles International Airport"
-#~ msgstr "Washington DC, Washington-Dullese'i rahvusvaheline lennujaam"
-
-#~ msgid "Waxahachie"
-#~ msgstr "Waxahachie"
-
-#~ msgid "West Yellowstone"
-#~ msgstr "West Yellowstone"
-
-#~ msgid "Wewak"
-#~ msgstr "Wewak"
-
-#~ msgid "Whiteman Airport"
-#~ msgstr "Whitemani lennujaam"
-
-#~ msgid "Whiteville"
-#~ msgstr "Whiteville"
-
-#~ msgid "Wickede"
-#~ msgstr "Wickede"
-
-#~ msgid "Wiley Post Airport"
-#~ msgstr "Wiley Posti lennujaam"
-
-#~ msgid "Will Rogers World Airport"
-#~ msgstr "Will Rogers Worldi lennujaam"
-
-#~ msgid "Williams Gateway Airport"
-#~ msgstr "Williams Gateway lennujaam"
-
-#~ msgid "Willimantic"
-#~ msgstr "Willimantic"
-
-#~ msgid "Willow Run Airport"
-#~ msgstr "Willow Runi lennujaam"
-
-#~ msgid "Windhoek"
-#~ msgstr "Windhoek"
-
-#~ msgid "Wings Field Airport"
-#~ msgstr "Wings Fieldi lennujaam"
-
-#~ msgid "Woodward"
-#~ msgstr "Woodward"
-
-#~ msgid "Wytheville"
-#~ msgstr "Wytheville"
-
-#~ msgid "Yuba County Airport"
-#~ msgstr "Yuba County lennujaam"
-
-#~ msgid "Yurimaguas"
-#~ msgstr "Yurimaguas"
-
-#~ msgid "Ülenurme"
-#~ msgstr "Ülenurme"
-
-#~ msgid "Čepin"
-#~ msgstr "Čepin"
-
-#~ msgid "Čilipi"
-#~ msgstr "Čilipi"

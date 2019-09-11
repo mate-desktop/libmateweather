@@ -1,14 +1,12 @@
-# translation of ku.po to Kurdish
-# translation of mate-applets.HEAD.po to Kurdish
-# This file is distributed under the same license as the mate-applets.HEAD package.
-# Copyright (C) 2005 THE mate-applets.HEAD'S COPYRIGHT HOLDER.
+# Libraries to allow MATE Desktop to display weather information
+# Copyright (C) 2019 The MATE Team
+# This file is distributed under the same license as the libmateweather package.
 # Erdal Ronahi <erdal.ronahi@gmail.com>, 2005, 2006, 2008, 2009, 2010.
-# Erdal Ronahi <erdal dot ronahi at gmail dot com>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: ku\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-16 10:01+0000\n"
+"POT-Creation-Date: 2019-09-17 10:35+0200\n"
 "PO-Revision-Date: 2010-01-16 11:37+0200\n"
 "Last-Translator: Erdal <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish Team http://pckurd.net\n"
@@ -81,7 +79,6 @@ msgid "Anguilla"
 msgstr "Anguilla"
 
 #. AQ - Antarctica
-#| msgid "Antarctica"
 msgctxt "Country"
 msgid "Antarctica"
 msgstr "Antarktîka"
@@ -310,7 +307,6 @@ msgid "Denmark"
 msgstr "Danîmarka"
 
 #. DJ - Djibouti
-#| msgid "Djibouti"
 msgctxt "Country"
 msgid "Djibouti"
 msgstr "Cîbûtî"
@@ -409,7 +405,6 @@ msgid "Gambia"
 msgstr "Gambiya"
 
 #. GE - Georgia (the country, not the US state)
-#| msgid "Georgia"
 msgctxt "Country"
 msgid "Georgia"
 msgstr "Georgia"
@@ -425,7 +420,6 @@ msgstr "Gana"
 #. GI - Gibraltar, a British overseas territory on the southern
 #. tip of Spain.
 #.
-#| msgid "Gibraltar"
 msgctxt "Country"
 msgid "Gibraltar"
 msgstr "Cebelîtariq"
@@ -587,7 +581,6 @@ msgid "Lesotho"
 msgstr "Lesotho"
 
 #. LR - Liberia
-#| msgid "Liberia"
 msgctxt "Country"
 msgid "Liberia"
 msgstr "Lîberya"
@@ -833,8 +826,15 @@ msgstr "Poland"
 msgid "Portugal"
 msgstr "Portugal"
 
-#. PR - Puerto Rico, a territory of the United States in the
-#. Caribbean.
+#. PR - Puerto Rico, a territory of the United States in the Caribbean.
+#. The following municipalities have airports with valid IACO codes
+#. but no active METAR stations, so we don't include them:
+#. * Arecibo:  TJAB
+#. * Culebra:  TJCP
+#. * Fajardo:  TJFA
+#. * Mayagüez: TJMZ
+#. * Ponce:    TJPS
+#. * Vieques:  TJVQ
 #.
 msgid "Puerto Rico"
 msgstr "Porto Rîko"
@@ -936,7 +936,6 @@ msgid "Sierra Leone"
 msgstr "Sierra Leone"
 
 #. SG - Singapore
-#| msgid "Singapore"
 msgctxt "Country"
 msgid "Singapore"
 msgstr "Sîngapur"
@@ -1246,6 +1245,24 @@ msgstr "McMurdo Station (New Zealand Time)"
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
 msgstr "Amundsen-Scott South Pole Station (Dema Zelandaya Nû)"
 
+#. The timezone on the western islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Barat".
+#.
+msgid "Western Indonesia Time"
+msgstr "Western Indonesia Time"
+
+#. The timezone on the central islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
+#.
+msgid "Central Indonesia Time"
+msgstr "Central Indonesia Time"
+
+#. The timezone on the eastern islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Timur".
+#.
+msgid "Eastern Indonesia Time"
+msgstr "Eastern Indonesia Time"
+
 #. The time zone used in the eastern half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 #.
@@ -1415,24 +1432,6 @@ msgstr "Giravên Marquesas"
 msgid "Gambier Islands"
 msgstr "Giravên Barter"
 
-#. The timezone on the western islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Barat".
-#.
-msgid "Western Indonesia Time"
-msgstr "Western Indonesia Time"
-
-#. The timezone on the central islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
-#.
-msgid "Central Indonesia Time"
-msgstr "Central Indonesia Time"
-
-#. The timezone on the eastern islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Timur".
-#.
-msgid "Eastern Indonesia Time"
-msgstr "Eastern Indonesia Time"
-
 #. The time zone in the Gilbert Islands, one of the three
 #. main island groups of Kiribati. This string is only used
 #. in places where "Kiribati" is already clear from context.
@@ -1553,7 +1552,6 @@ msgstr "Roraima"
 #. for more details. This string is only used in places
 #. where "Brazil" is already clear from context.
 #.
-#| msgid "Mato Grosso do Sul"
 msgctxt "Timezone"
 msgid "Mato Grosso do Sul"
 msgstr "Mato Grosso do Sul"
@@ -1563,7 +1561,6 @@ msgstr "Mato Grosso do Sul"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 #.
-#| msgid "Mato Grosso"
 msgctxt "Timezone"
 msgid "Mato Grosso"
 msgstr "Mato Grosso"
@@ -1625,7 +1622,6 @@ msgstr "West Pará, Rondônia"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 #.
-#| msgid "Pernambuco"
 msgctxt "Timezone"
 msgid "Pernambuco"
 msgstr "Pernambuco"
@@ -1748,14 +1744,22 @@ msgstr "Samara Time"
 msgid "Yekaterinburg Time"
 msgstr "Dema Yekaterinburg"
 
-#. A Russian time zone, used in the Omsk and Novosibirsk
-#. oblasts and surrounding areas of south-central Russia.
+#. A Russian time zone, used in the Omsk oblast
+#. and surrounding areas of south-central Russia.
 #. The Russian name is "Омское время". This string is only
 #. used in places where "Russia" is already clear from
 #. context.
 #.
 msgid "Omsk Time"
 msgstr "Omsk Time"
+
+#. A Russian time zone, used in the Novosibirsk oblast.
+#. The Russian name is "Новосибирское время".
+#. This string is only used in places
+#. where "Russia" is already clear from context.
+#.
+msgid "Novosibirsk Time"
+msgstr ""
 
 #. A Russian time zone, used in the Krasnoyarsk krai and
 #. surrounding areas of central Russia. The Russian name is
@@ -2029,7 +2033,6 @@ msgid "West-Flanders"
 msgstr "West-Flanders"
 
 #. A state/province/territory in Brazil
-#| msgid "Acre"
 msgctxt "State in Brazil"
 msgid "Acre"
 msgstr "Akre"
@@ -2047,7 +2050,6 @@ msgid "Amazonas"
 msgstr "Amazonas"
 
 #. A state/province/territory in Brazil
-#| msgid "Bahia"
 msgctxt "State in Brazil"
 msgid "Bahia"
 msgstr "Bahia"
@@ -2057,7 +2059,6 @@ msgid "Ceará"
 msgstr "Ceará"
 
 #. A state/province/territory in Brazil
-#| msgid "Distrito Federal"
 msgctxt "State in Brazil"
 msgid "Distrito Federal"
 msgstr "Distrito Federal"
@@ -2075,13 +2076,11 @@ msgid "Maranhão"
 msgstr "Maranhão"
 
 #. A state/province/territory in Brazil
-#| msgid "Mato Grosso"
 msgctxt "State in Brazil"
 msgid "Mato Grosso"
 msgstr "Mato Grosso"
 
 #. A state/province/territory in Brazil
-#| msgid "Mato Grosso do Sul"
 msgctxt "State in Brazil"
 msgid "Mato Grosso do Sul"
 msgstr "Mato Grosso do Sul"
@@ -2103,7 +2102,6 @@ msgid "Pará"
 msgstr "Pará"
 
 #. A state/province/territory in Brazil
-#| msgid "Pernambuco"
 msgctxt "State in Brazil"
 msgid "Pernambuco"
 msgstr "Pernambuco"
@@ -2121,7 +2119,6 @@ msgid "Rio Grande do Sul"
 msgstr "Rio Grande do Sul"
 
 #. A state/province/territory in Brazil
-#| msgid "Rio de Janeiro"
 msgctxt "State in Brazil"
 msgid "Rio de Janeiro"
 msgstr "Rio de Janeiro"
@@ -2131,7 +2128,6 @@ msgid "Rondônia"
 msgstr "Rondônia"
 
 #. A state/province/territory in Brazil
-#| msgid "Roraima"
 msgctxt "State in Brazil"
 msgid "Roraima"
 msgstr "Roraima"
@@ -2145,7 +2141,6 @@ msgid "Sergipe"
 msgstr "Sergipe"
 
 #. A state/province/territory in Brazil
-#| msgid "São Paulo"
 msgctxt "State in Brazil"
 msgid "São Paulo"
 msgstr "São Paulo"
@@ -2196,7 +2191,6 @@ msgid "Prince Edward Island"
 msgstr "Prince Edward Island"
 
 #. A state/province/territory in Canada
-#| msgid "Quebec"
 msgctxt "State in Canada"
 msgid "Quebec"
 msgstr "Quebec"
@@ -2219,7 +2213,6 @@ msgid "Beijing"
 msgstr "Beijing"
 
 #. A state/province/territory in China
-#| msgid "Chongqing"
 msgctxt "State in China"
 msgid "Chongqing"
 msgstr "Chongqing"
@@ -2435,7 +2428,6 @@ msgid "Chiapas"
 msgstr "Chiapas"
 
 #. A state/province/territory in Mexico
-#| msgid "Chihuahua"
 msgctxt "State in Mexico"
 msgid "Chihuahua"
 msgstr "Chihuahua"
@@ -2450,7 +2442,6 @@ msgid "Colima"
 msgstr "Colima"
 
 #. A state/province/territory in Mexico
-#| msgid "Distrito Federal"
 msgctxt "State in Mexico"
 msgid "Distrito Federal"
 msgstr "Distrito Federal"
@@ -2507,7 +2498,6 @@ msgid "Puebla"
 msgstr "Puebla"
 
 #. A state/province/territory in Mexico
-#| msgid "Querétaro"
 msgctxt "State in Mexico"
 msgid "Querétaro"
 msgstr "Querétaro"
@@ -2967,7 +2957,6 @@ msgid "Fitches Creek"
 msgstr "Fitches Creek"
 
 #. The capital of Antigua and Barbuda
-#| msgid "Saint John's"
 msgctxt "City in Antigua and Barbuda"
 msgid "Saint John's"
 msgstr "Saint John's"
@@ -2985,7 +2974,6 @@ msgid "Corrientes"
 msgstr "Corrientes"
 
 #. A city in Argentina
-#| msgid "Córdoba"
 msgctxt "City in Argentina"
 msgid "Córdoba"
 msgstr "Córdoba"
@@ -3051,7 +3039,6 @@ msgid "San Carlos de Bariloche"
 msgstr "San Carlos de Bariloche"
 
 #. A city in Argentina
-#| msgid "San Fernando"
 msgctxt "City in Argentina"
 msgid "San Fernando"
 msgstr "San Fernando"
@@ -3163,7 +3150,6 @@ msgid "Perth"
 msgstr "Perth"
 
 #. A city in New South Wales in Australia
-#| msgid "Richmond"
 msgctxt "City in New South Wales, Australia"
 msgid "Richmond"
 msgstr "Richmond"
@@ -3177,7 +3163,6 @@ msgid "Shellborough"
 msgstr "Shellborough"
 
 #. A city in New South Wales in Australia
-#| msgid "Sydney"
 msgctxt "City in New South Wales, Australia"
 msgid "Sydney"
 msgstr "Sîdney"
@@ -3263,13 +3248,11 @@ msgid "Ganca"
 msgstr "Ganca"
 
 #. A city in the Bahamas
-#| msgid "Freeport"
 msgctxt "City in Bahamas"
 msgid "Freeport"
 msgstr "Freeport"
 
 #. A city in the Bahamas
-#| msgid "Georgetown"
 msgctxt "City in Bahamas"
 msgid "Georgetown"
 msgstr "Georgetown"
@@ -3316,7 +3299,6 @@ msgid "Paragon"
 msgstr "Paragon"
 
 #. A city in Belarus
-#| msgid "Brest"
 msgctxt "City in Belarus"
 msgid "Brest"
 msgstr "Brest"
@@ -3341,7 +3323,6 @@ msgstr "Vitsyebsk"
 #. "Antwerp" is the traditional English name.
 #. The local name is "Antwerpen".
 #.
-#| msgid "Antwerp"
 msgctxt "City in Antwerp, Belgium"
 msgid "Antwerp"
 msgstr "Antwerpen"
@@ -3411,7 +3392,6 @@ msgid "Porto-Novo"
 msgstr "Porto-Novo"
 
 #. The capital of Bermuda
-#| msgid "Hamilton"
 msgctxt "City in Bermuda"
 msgid "Hamilton"
 msgstr "Hamilton"
@@ -3434,7 +3414,6 @@ msgid "Cochabamba"
 msgstr "Cochabamba"
 
 #. A city in Bolivia
-#| msgid "Concepción"
 msgctxt "City in Bolivia"
 msgid "Concepción"
 msgstr "Concepción"
@@ -3511,7 +3490,6 @@ msgid "Tarija"
 msgstr "Tarija"
 
 #. A city in Bolivia
-#| msgid "Trinidad"
 msgctxt "City in Bolivia"
 msgid "Trinidad"
 msgstr "Trînîdad"
@@ -3668,6 +3646,10 @@ msgstr "Cuiabá"
 msgid "Curitiba"
 msgstr "Curitiba"
 
+#. A city in Bahia in Brazil
+msgid "Feira de Santana"
+msgstr ""
+
 #. A city in Santa Catarina in Brazil
 msgid "Florianópolis"
 msgstr "Florianópolis"
@@ -3818,7 +3800,6 @@ msgid "Rio Branco"
 msgstr "Rio Branco"
 
 #. A city in Rio de Janeiro in Brazil
-#| msgid "Rio de Janeiro"
 msgctxt "City in Rio de Janeiro, Brazil"
 msgid "Rio de Janeiro"
 msgstr "Rio de Janeiro"
@@ -3857,7 +3838,6 @@ msgid "São Luís"
 msgstr "São Luís"
 
 #. A city in São Paulo in Brazil
-#| msgid "São Paulo"
 msgctxt "City in São Paulo, Brazil"
 msgid "São Paulo"
 msgstr "São Paulo"
@@ -4251,7 +4231,6 @@ msgid "Claresholm"
 msgstr "Claresholm"
 
 #. A city in British Columbia in Canada
-#| msgid "Clinton"
 msgctxt "City in British Columbia, Canada"
 msgid "Clinton"
 msgstr "Clinton"
@@ -4297,7 +4276,6 @@ msgid "Cranbrook"
 msgstr "Cranbrook"
 
 #. A city in British Columbia in Canada
-#| msgid "Creston"
 msgctxt "City in British Columbia, Canada"
 msgid "Creston"
 msgstr "Creston"
@@ -4335,7 +4313,6 @@ msgid "Drumheller"
 msgstr "Drumheller"
 
 #. A city in Ontario in Canada
-#| msgid "Dryden"
 msgctxt "City in Ontario, Canada"
 msgid "Dryden"
 msgstr "Dryden"
@@ -4512,7 +4489,6 @@ msgid "Gore Bay"
 msgstr "Gore Bay"
 
 #. A city in Manitoba in Canada
-#| msgid "Grand Rapids"
 msgctxt "City in Manitoba, Canada"
 msgid "Grand Rapids"
 msgstr "Grand Rapids"
@@ -4526,7 +4502,6 @@ msgid "Grande Prairie"
 msgstr "Grande Prairie"
 
 #. A city in Nova Scotia in Canada
-#| msgid "Greenwood"
 msgctxt "City in Nova Scotia, Canada"
 msgid "Greenwood"
 msgstr "Greenwood"
@@ -4626,7 +4601,6 @@ msgid "Jacques-Cartier"
 msgstr "Jacques-Cartier"
 
 #. A city in Alberta in Canada
-#| msgid "Jasper"
 msgctxt "City in Alberta, Canada"
 msgid "Jasper"
 msgstr "Jasper"
@@ -4733,7 +4707,6 @@ msgid "Little Prairie"
 msgstr "Little Prairie"
 
 #. A city in Nova Scotia in Canada
-#| msgid "Liverpool"
 msgctxt "City in Nova Scotia, Canada"
 msgid "Liverpool"
 msgstr "Liverpool"
@@ -4883,7 +4856,6 @@ msgid "Nanticoke"
 msgstr "Nanticoke"
 
 #. A city in British Columbia in Canada
-#| msgid "Natal"
 msgctxt "City in British Columbia, Canada"
 msgid "Natal"
 msgstr "Natal"
@@ -5057,7 +5029,6 @@ msgid "Prince Rupert"
 msgstr "Prince Rupert"
 
 #. A city in British Columbia in Canada
-#| msgid "Princeton"
 msgctxt "City in British Columbia, Canada"
 msgid "Princeton"
 msgstr "Princeton"
@@ -5073,7 +5044,6 @@ msgstr "Qikiqtarjuaq"
 #. A city in Quebec in Canada.
 #. The local name in French is "Québec".
 #.
-#| msgid "Quebec"
 msgctxt "City in Quebec, Canada"
 msgid "Quebec"
 msgstr "Quebec"
@@ -5305,7 +5275,6 @@ msgid "Stephen"
 msgstr "Stephen"
 
 #. A city in Newfoundland and Labrador in Canada
-#| msgid "Stephenville"
 msgctxt "City in Newfoundland and Labrador, Canada"
 msgid "Stephenville"
 msgstr "Stephenville"
@@ -5347,7 +5316,6 @@ msgid "Swift Current"
 msgstr "Swift Current"
 
 #. A city in Nova Scotia in Canada
-#| msgid "Sydney"
 msgctxt "City in Nova Scotia, Canada"
 msgid "Sydney"
 msgstr "Sîdney"
@@ -5454,7 +5422,6 @@ msgid "Valcartier Station"
 msgstr "Valcartier Station"
 
 #. A city in British Columbia in Canada
-#| msgid "Vancouver"
 msgctxt "City in British Columbia, Canada"
 msgid "Vancouver"
 msgstr "Vancouver"
@@ -5468,13 +5435,11 @@ msgid "Vegreville"
 msgstr "Vegreville"
 
 #. A city in British Columbia in Canada
-#| msgid "Vernon"
 msgctxt "City in British Columbia, Canada"
 msgid "Vernon"
 msgstr "Vernon"
 
 #. A city in British Columbia in Canada
-#| msgid "Victoria"
 msgctxt "City in British Columbia, Canada"
 msgid "Victoria"
 msgstr "Victoria"
@@ -5573,7 +5538,6 @@ msgid "Preguiça"
 msgstr "Preguiça"
 
 #. The capital of the Cayman Islands
-#| msgid "George Town"
 msgctxt "City in Cayman Islands"
 msgid "George Town"
 msgstr "George Town"
@@ -5652,7 +5616,6 @@ msgid "Santa Teresa de Lo Ovalle"
 msgstr "Santa Teresa de Lo Ovalle"
 
 #. The capital of Chile
-#| msgid "Santiago"
 msgctxt "City in Chile"
 msgid "Santiago"
 msgstr "Santiago"
@@ -5662,7 +5625,6 @@ msgid "Temuco"
 msgstr "Temuco"
 
 #. The capital of China
-#| msgid "Beijing"
 msgctxt "City in Beijing, China"
 msgid "Beijing"
 msgstr "Beijîng"
@@ -5688,7 +5650,6 @@ msgstr "Chengdu"
 #. A city in Chongqing in China.
 #. The name is also written "重庆".
 #.
-#| msgid "Chongqing"
 msgctxt "City in Chongqing, China"
 msgid "Chongqing"
 msgstr "Chongqing"
@@ -5776,7 +5737,6 @@ msgstr "Sanya"
 #. A city in Shanghai in China.
 #. The name is also written "上海".
 #.
-#| msgid "Shanghai"
 msgctxt "City in Shanghai, China"
 msgid "Shanghai"
 msgstr "Şangay"
@@ -5804,7 +5764,6 @@ msgstr "Taiyuan"
 #. A city in Tianjin in China.
 #. The name is also written "天津".
 #.
-#| msgid "Tianjin"
 msgctxt "City in Tianjin, China"
 msgid "Tianjin"
 msgstr "Tianjin"
@@ -5960,7 +5919,6 @@ msgid "Alajuela"
 msgstr "Alajuela"
 
 #. A city in Costa Rica
-#| msgid "Liberia"
 msgctxt "City in Costa Rica"
 msgid "Liberia"
 msgstr "Lîberya"
@@ -6160,7 +6118,6 @@ msgid "Ålborg"
 msgstr "Ålborg"
 
 #. The capital of Djibouti
-#| msgid "Djibouti"
 msgctxt "City in Djibouti"
 msgid "Djibouti"
 msgstr "Cîbûtî"
@@ -6170,7 +6127,6 @@ msgid "Marigot"
 msgstr "Marigot"
 
 #. The capital of Dominica
-#| msgid "Roseau"
 msgctxt "City in Dominica"
 msgid "Roseau"
 msgstr "Roseau"
@@ -6240,7 +6196,6 @@ msgstr "Al Qabûtî"
 #. "Alexandria" is the traditional English name.
 #. The local name in Arabic is "Al Iskandariyah".
 #.
-#| msgid "Alexandria"
 msgctxt "City in Egypt"
 msgid "Alexandria"
 msgstr "Alexandria"
@@ -6257,7 +6212,6 @@ msgstr "Asyut"
 #. "Cairo" is the traditional English name.
 #. The local name in Arabic is "Al Qahirah".
 #.
-#| msgid "Cairo"
 msgctxt "City in Egypt"
 msgid "Cairo"
 msgstr "Qahîre"
@@ -6318,7 +6272,6 @@ msgid "Tartu"
 msgstr "Tartu"
 
 #. The capital of the Falkland Islands (Malvinas)
-#| msgid "Stanley"
 msgctxt "City in Falkland Islands (Malvinas)"
 msgid "Stanley"
 msgstr "Stanley"
@@ -6500,7 +6453,6 @@ msgid "Biarritz"
 msgstr "Biarritz"
 
 #. A city in France
-#| msgid "Bordeaux"
 msgctxt "City in France"
 msgid "Bordeaux"
 msgstr "Bordeaux"
@@ -6621,10 +6573,6 @@ msgid "Hyères"
 msgstr "Hyères"
 
 #. A city in France
-msgid "Hésingue"
-msgstr "Hésingue"
-
-#. A city in France
 msgid "Istres"
 msgstr "Istres"
 
@@ -6693,6 +6641,10 @@ msgid "Montélimar"
 msgstr "Montélimar"
 
 #. A city in France
+msgid "Mulhouse"
+msgstr ""
+
+#. A city in France
 msgid "Mâcon"
 msgstr "Mâcon"
 
@@ -6730,7 +6682,6 @@ msgid "Orléans"
 msgstr "Orléans"
 
 #. The capital of France
-#| msgid "Paris"
 msgctxt "City in France"
 msgid "Paris"
 msgstr "Parîs"
@@ -6820,7 +6771,6 @@ msgid "Veauche"
 msgstr "Veauche"
 
 #. A city in France
-#| msgid "Vichy"
 msgctxt "City in France"
 msgid "Vichy"
 msgstr "Vichy"
@@ -6874,7 +6824,6 @@ msgid "Baal"
 msgstr "Baal"
 
 #. The capital of Germany
-#| msgid "Berlin"
 msgctxt "City in Berlin, Germany"
 msgid "Berlin"
 msgstr "Berlîn"
@@ -6896,7 +6845,6 @@ msgid "Bredeck"
 msgstr "Bredeck"
 
 #. A city in Bremen in Germany
-#| msgid "Bremen"
 msgctxt "City in Bremen, Germany"
 msgid "Bremen"
 msgstr "Bremen"
@@ -6954,7 +6902,6 @@ msgid "Hahn"
 msgstr "Hahn"
 
 #. A city in Hamburg in Germany
-#| msgid "Hamburg"
 msgctxt "City in Hamburg, Germany"
 msgid "Hamburg"
 msgstr "Hamburg"
@@ -7161,7 +7108,6 @@ msgid "Accra"
 msgstr "Accra"
 
 #. The capital of Gibraltar
-#| msgid "Gibraltar"
 msgctxt "City in Gibraltar"
 msgid "Gibraltar"
 msgstr "Cebelîtariq"
@@ -7367,7 +7313,6 @@ msgid "Hagåtña"
 msgstr "Hagåtña"
 
 #. The capital of Guatemala
-#| msgid "Guatemala"
 msgctxt "City in Guatemala"
 msgid "Guatemala"
 msgstr "Gûatemala"
@@ -7408,6 +7353,10 @@ msgstr "Conakry"
 msgctxt "City in Guyana"
 msgid "Georgetown"
 msgstr "Georgetown"
+
+#. Capital of Haiti
+msgid "Port-au-Prince"
+msgstr ""
 
 #. A city in Honduras
 msgid "Amapala"
@@ -7724,6 +7673,10 @@ msgstr "Palembang"
 #. A city in Indonesia
 msgid "Pekanbaru"
 msgstr "Pekanbaru"
+
+#. A city in Indonesia
+msgid "Yogyakarta"
+msgstr ""
 
 #. A city in Iran.
 #. The name is also written "آبادان".
@@ -8056,6 +8009,10 @@ msgid "Alghero"
 msgstr "Alghero"
 
 #. A city in Italy
+msgid "Ancona"
+msgstr ""
+
+#. A city in Italy
 msgid "Aviano"
 msgstr "Aviano"
 
@@ -8131,7 +8088,6 @@ msgstr "Ferrara"
 #. "Florence" is the traditional English name.
 #. The local name in Italian is "Firenze".
 #.
-#| msgid "Florence"
 msgctxt "City in Italy"
 msgid "Florence"
 msgstr "Florence"
@@ -8201,10 +8157,6 @@ msgstr "Messina"
 #.
 msgid "Milan"
 msgstr "Milano"
-
-#. A city in Italy
-msgid "Molino di Ancona"
-msgstr "Molino di Ancona"
 
 #. A city in Italy.
 #. "Naples" is the traditional English name.
@@ -8357,7 +8309,6 @@ msgid "Àrbatax"
 msgstr "Àrbatax"
 
 #. The capital of Jamaica
-#| msgid "Kingston"
 msgctxt "City in Jamaica"
 msgid "Kingston"
 msgstr "Kingston"
@@ -8710,24 +8661,46 @@ msgid "Amman"
 msgstr "Amman"
 
 #. A city in Kazakhstan
+msgid "Aktau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Aktobe"
+msgstr ""
+
+#. A city in Kazakhstan
 msgid "Almaty"
 msgstr "Almatî"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktau".
-#.
-msgid "Aqtau"
-msgstr "Aqtau"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktobe".
-#.
-msgid "Aqtöbe"
-msgstr "Aqtobe"
 
 #. The capital of Kazakhstan
 msgid "Astana"
 msgstr "Astana"
+
+#. A city in Kazakhstan
+msgid "Atyrau"
+msgstr ""
+
+#. A city in Kazakhstan.
+#. The local name in Russian is "Balkhash".
+#.
+msgid "Balqash"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Karaganda"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kokshetau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kostanay"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kyzylorda"
+msgstr ""
 
 #. A city in Kazakhstan.
 #. The local name in Russian is "Ural'sk".
@@ -8736,26 +8709,31 @@ msgid "Oral"
 msgstr "Oral"
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Karaganda".
 #.
-msgid "Qaraghandy"
-msgstr "Qaraghandy"
+msgid "Oskemen"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Pavlodar"
+msgstr ""
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Kostanay".
+#. The local name in Russian is "Petropavlovsk".
 #.
-msgid "Qostanay"
-msgstr "Qostanay"
+msgid "Petropavl"
+msgstr ""
 
-#. A city in Kazakhstan.
-#. The local name in Russian is "Kyzylorda".
-#.
-msgid "Qyzylorda"
-msgstr "Qyzylorda"
+#. A city in Kazakhstan
+msgid "Semey"
+msgstr ""
 
 #. A city in Kazakhstan
 msgid "Shymkent"
 msgstr "Shymkent"
+
+#. A city in Kazakhstan
+msgid "Taraz"
+msgstr ""
 
 #. A city in Kenya
 msgid "Eldoret"
@@ -8782,7 +8760,6 @@ msgstr "London"
 #. "Kuwait" is the traditional English name.
 #. The local name in Arabic is "Al Kuwayt / الكويت".
 #.
-#| msgid "Kuwait"
 msgctxt "City in Kuwait"
 msgid "Kuwait"
 msgstr "Kûveyt"
@@ -8849,7 +8826,6 @@ msgid "Šiauliai"
 msgstr "Šiauliai"
 
 #. The capital of Luxembourg
-#| msgid "Luxembourg"
 msgctxt "City in Luxembourg"
 msgid "Luxembourg"
 msgstr "Luksemburg"
@@ -8857,7 +8833,6 @@ msgstr "Luksemburg"
 #. The capital of Macau.
 #. The local name in Chinese is "Aomen / 澳门".
 #.
-#| msgid "Macau"
 msgctxt "City in Macau"
 msgid "Macau"
 msgstr "Macau"
@@ -8909,7 +8884,6 @@ msgid "Bintulu"
 msgstr "Bintulu"
 
 #. A city in Malaysia
-#| msgid "George Town"
 msgctxt "City in Malaysia"
 msgid "George Town"
 msgstr "George Town"
@@ -9043,13 +9017,11 @@ msgid "Acapulco"
 msgstr "Acapulco"
 
 #. A city in Aguascalientes in Mexico
-#| msgid "Aguascalientes"
 msgctxt "City in Aguascalientes, Mexico"
 msgid "Aguascalientes"
 msgstr "Aguascalientes"
 
 #. A city in Campeche in Mexico
-#| msgid "Campeche"
 msgctxt "City in Campeche, Mexico"
 msgid "Campeche"
 msgstr "Campeche"
@@ -9071,7 +9043,6 @@ msgid "Chichén-Itzá"
 msgstr "Chichén-Itzá"
 
 #. A city in Chihuahua in Mexico
-#| msgid "Chihuahua"
 msgctxt "City in Chihuahua, Mexico"
 msgid "Chihuahua"
 msgstr "Chihuahua"
@@ -9091,7 +9062,6 @@ msgid "Ciudad Victoria"
 msgstr "Ciudad Victoria"
 
 #. A city in Colima in Mexico
-#| msgid "Colima"
 msgctxt "City in Colima, Mexico"
 msgid "Colima"
 msgstr "Colima"
@@ -9138,7 +9108,6 @@ msgid "Ixtepec"
 msgstr "Ixtepec"
 
 #. A city in Baja California Sur in Mexico
-#| msgid "La Paz"
 msgctxt "City in Baja California Sur, Mexico"
 msgid "La Paz"
 msgstr "La Paz"
@@ -9148,7 +9117,6 @@ msgid "Laguna Tepic"
 msgstr "Laguna Tepic"
 
 #. A city in Guanajuato in Mexico
-#| msgid "León"
 msgctxt "City in Guanajuato, Mexico"
 msgid "León"
 msgstr "León"
@@ -9162,7 +9130,6 @@ msgid "Los Mochis"
 msgstr "Los Mochis"
 
 #. A city in Colima in Mexico
-#| msgid "Manzanillo"
 msgctxt "City in Colima, Mexico"
 msgid "Manzanillo"
 msgstr "Manzanillo"
@@ -9212,7 +9179,6 @@ msgid "Nuevo Laredo"
 msgstr "Nuevo Laredo"
 
 #. A city in Oaxaca in Mexico
-#| msgid "Oaxaca"
 msgctxt "City in Oaxaca, Mexico"
 msgid "Oaxaca"
 msgstr "Oaxaca"
@@ -9228,7 +9194,6 @@ msgid "Poza Rica de Hidalgo"
 msgstr "Poza Rica de Hidalgo"
 
 #. A city in Puebla in Mexico
-#| msgid "Puebla"
 msgctxt "City in Puebla, Mexico"
 msgid "Puebla"
 msgstr "Puebla"
@@ -9242,7 +9207,6 @@ msgid "Puerto Vallarta"
 msgstr "Puerto Vallarta"
 
 #. A city in Querétaro in Mexico
-#| msgid "Querétaro"
 msgctxt "City in Querétaro, Mexico"
 msgid "Querétaro"
 msgstr "Querétaro"
@@ -9260,7 +9224,6 @@ msgid "San José del Cabo"
 msgstr "San José del Cabo"
 
 #. A city in San Luis Potosí in Mexico
-#| msgid "San Luis Potosí"
 msgctxt "City in San Luis Potosí, Mexico"
 msgid "San Luis Potosí"
 msgstr "San Luis Potosí"
@@ -9294,7 +9257,6 @@ msgid "Uruapan"
 msgstr "Uruapan"
 
 #. A city in Veracruz in Mexico
-#| msgid "Veracruz"
 msgctxt "City in Veracruz, Mexico"
 msgid "Veracruz"
 msgstr "Veracruz"
@@ -9304,7 +9266,6 @@ msgid "Villahermosa"
 msgstr "Villahermosa"
 
 #. A city in Zacatecas in Mexico
-#| msgid "Zacatecas"
 msgctxt "City in Zacatecas, Mexico"
 msgid "Zacatecas"
 msgstr "Zacatecas"
@@ -9318,7 +9279,6 @@ msgid "Chişinău"
 msgstr "Chişinău"
 
 #. The capital of Monaco
-#| msgid "Monaco"
 msgctxt "City in Monaco"
 msgid "Monaco"
 msgstr "Monaco"
@@ -9520,6 +9480,10 @@ msgstr "Auckland"
 msgid "Christchurch"
 msgstr "Christchurch"
 
+#. A city in New Zealand
+msgid "Dunedin"
+msgstr ""
+
 #. The capital of New Zealand
 msgid "Wellington"
 msgstr "Wellington"
@@ -9564,7 +9528,7 @@ msgstr "Niamey"
 msgid "Zinder"
 msgstr "Zinder"
 
-#. A city in Nigeria
+#. A city in Lagos Nigeria
 msgid "Ikeja"
 msgstr "Ikeja"
 
@@ -9966,6 +9930,10 @@ msgid "Zamboanga City"
 msgstr "Zamboanga City"
 
 #. A city in Poland
+msgid "Bydgoszcz"
+msgstr ""
+
+#. A city in Poland
 msgid "Gdańsk"
 msgstr "Gdańsk"
 
@@ -9978,8 +9946,20 @@ msgid "Kraków"
 msgstr "Kraków"
 
 #. A city in Poland
+msgid "Lublin"
+msgstr ""
+
+#. A city in Poland
+msgid "Olsztyn"
+msgstr ""
+
+#. A city in Poland
 msgid "Poznań"
 msgstr "Poznań"
+
+#. A city in Poland
+msgid "Radom"
+msgstr ""
 
 #. A city in Poland
 msgid "Rzeszów"
@@ -10000,6 +9980,14 @@ msgstr "Warşova"
 #. A city in Poland
 msgid "Wrocław"
 msgstr "Wrocław"
+
+#. A city in Poland
+msgid "Zielona Góra"
+msgstr "Zielona Góra"
+
+#. A city in Poland
+msgid "Łódź"
+msgstr ""
 
 #. A city in Portugal
 msgid "Beja"
@@ -10066,19 +10054,15 @@ msgstr "Sintra"
 msgid "Água de Pena"
 msgstr "Água de Pena"
 
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
+msgid "Aguadilla"
+msgstr ""
+
+#. A municipality of Puerto Rico
 msgid "Carolina"
 msgstr "Carolina"
 
-#. A city in Puerto Rico
-msgid "Ponce"
-msgstr "Ponce"
-
-#. A city in Puerto Rico
-msgid "Rafael Hernandez"
-msgstr "Rafael Hernandez"
-
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
 msgid "San Juan"
 msgstr "San Juan"
 
@@ -10273,6 +10257,12 @@ msgid "Krasnodar"
 msgstr "Krasnodar"
 
 #. A city in Russia.
+#. The local name in Russian is "Красноярск".
+#.
+msgid "Krasnoyarsk"
+msgstr ""
+
+#. A city in Russia.
 #. The local name in Russian is "Магадан".
 #.
 msgid "Magadan"
@@ -10461,7 +10451,6 @@ msgid "Saint-Denis"
 msgstr "Saint-Denis"
 
 #. A city in Réunion
-#| msgid "Saint-Pierre"
 msgctxt "City in Réunion"
 msgid "Saint-Pierre"
 msgstr "Saint-Pierre"
@@ -10480,7 +10469,6 @@ msgid "Golden Rock"
 msgstr "Golden Rock"
 
 #. A city in Saint Kitts and Nevis
-#| msgid "Newcastle"
 msgctxt "City in Saint Kitts and Nevis"
 msgid "Newcastle"
 msgstr "Newcastle"
@@ -10515,7 +10503,6 @@ msgid "Apia"
 msgstr "Apia"
 
 #. The capital of San Marino
-#| msgid "San Marino"
 msgctxt "City in San Marino"
 msgid "San Marino"
 msgstr "San Marîno"
@@ -10701,7 +10688,6 @@ msgid "Lungi"
 msgstr "Lungi"
 
 #. The capital of Singapore
-#| msgid "Singapore"
 msgctxt "City in Singapore"
 msgid "Singapore"
 msgstr "Singapore"
@@ -10884,7 +10870,6 @@ msgid "Barajas"
 msgstr "Barajas"
 
 #. A city in Spain
-#| msgid "Barcelona"
 msgctxt "City in Spain"
 msgid "Barcelona"
 msgstr "Barselona"
@@ -10947,10 +10932,13 @@ msgid "Jerez"
 msgstr "Jerez"
 
 #. A city in Spain
-#| msgid "León"
 msgctxt "City in Spain"
 msgid "León"
 msgstr "León"
+
+#. A city in Spain
+msgid "Lleida"
+msgstr ""
 
 #. A city in Spain
 msgid "Los Baldíos"
@@ -11034,7 +11022,6 @@ msgid "Torrejón del Rey"
 msgstr "Torrejón del Rey"
 
 #. A city in Spain
-#| msgid "Valencia"
 msgctxt "City in Spain"
 msgid "Valencia"
 msgstr "Valencia"
@@ -11218,6 +11205,10 @@ msgstr "Örebro"
 msgid "Örnsköldsvik"
 msgstr "Örnsköldsvik"
 
+#. A city in Switzerland
+msgid "Basel"
+msgstr ""
+
 #. The capital of Switzerland
 msgid "Bern"
 msgstr "Bern"
@@ -11248,6 +11239,10 @@ msgstr "Sankt Gallen"
 #. A city in Switzerland
 msgid "Sion"
 msgstr "Sion"
+
+#. A city in Switzerland
+msgid "St. Moritz"
+msgstr ""
 
 #. A city in Switzerland
 msgid "Zürich"
@@ -11283,22 +11278,22 @@ msgid "Latakia"
 msgstr "Latakya"
 
 #. A city in Taiwan.
-#. The name is also written "高雄巿".
+#. The name is also written "高雄".
 #.
-msgid "Kao-hsiung-shih"
-msgstr "Kao-hsiung-shih"
+msgid "Kaohsiung"
+msgstr ""
+
+#. The capital of Taiwan.
+#. The name is also written "臺北".
+#.
+msgid "Taipei"
+msgstr ""
 
 #. A city in Taiwan.
 #. The name is also written "埔頂".
 #.
-msgid "Pu-ting"
-msgstr "Pu-ting"
-
-#. The capital of Taiwan.
-#. The name is also written "臺北市".
-#.
-msgid "T'ai-pei Shih"
-msgstr "T'ai-pei Shih"
+msgid "Taoyuan"
+msgstr ""
 
 #. The capital of Tajikistan
 msgid "Dushanbe"
@@ -11759,7 +11754,6 @@ msgid "Sharjah"
 msgstr "Sharjah"
 
 #. A city in Scotland in the United Kingdom
-#| msgid "Aberdeen"
 msgctxt "City in Scotland, United Kingdom"
 msgid "Aberdeen"
 msgstr "Aberdeen"
@@ -11771,7 +11765,6 @@ msgstr "Belfast"
 #. A city in East and South East England in the United
 #. Kingdom
 #.
-#| msgid "Benson"
 msgctxt "City in East and South East England, United Kingdom"
 msgid "Benson"
 msgstr "Benson"
@@ -11824,7 +11817,6 @@ msgstr "Butes"
 #. A city in East and South East England in the United
 #. Kingdom
 #.
-#| msgid "Cambridge"
 msgctxt "City in East and South East England, United Kingdom"
 msgid "Cambridge"
 msgstr "Cambridge"
@@ -11836,7 +11828,6 @@ msgstr "Campbeltown"
 #. A city in Wales in the United Kingdom.
 #. The local name in Welsh is "Caerdydd".
 #.
-#| msgid "Cardiff"
 msgctxt "City in Wales, United Kingdom"
 msgid "Cardiff"
 msgstr "Cardiff"
@@ -11846,8 +11837,8 @@ msgid "Carlisle"
 msgstr "Carlisle"
 
 #. A city in Midlands in the United Kingdom
-msgid "Castle Donnington"
-msgstr "Castle Donnington"
+msgid "Castle Donington"
+msgstr ""
 
 #. A city in North West England in the United Kingdom
 msgid "Church Fenton"
@@ -11912,7 +11903,6 @@ msgid "Filton"
 msgstr "Filton"
 
 #. A city in Scotland in the United Kingdom
-#| msgid "Glasgow"
 msgctxt "City in Scotland, United Kingdom"
 msgid "Glasgow"
 msgstr "Glasgow"
@@ -11984,13 +11974,11 @@ msgid "Linton upon Ouse"
 msgstr "Linton upon Ouse"
 
 #. A city in North West England in the United Kingdom
-#| msgid "Liverpool"
 msgctxt "City in North West England, United Kingdom"
 msgid "Liverpool"
 msgstr "Liverpool"
 
 #. The capital of the United Kingdom
-#| msgid "London"
 msgctxt "City in East and South East England, United Kingdom"
 msgid "London"
 msgstr "Londra"
@@ -12051,7 +12039,6 @@ msgid "Mossbank"
 msgstr "Mossbank"
 
 #. A city in North East England in the United Kingdom
-#| msgid "Newcastle"
 msgctxt "City in North East England, United Kingdom"
 msgid "Newcastle"
 msgstr "Newcastle"
@@ -12112,7 +12099,6 @@ msgstr "Southampton"
 #. A city in East and South East England in the United
 #. Kingdom
 #.
-#| msgid "Southend"
 msgctxt "City in East and South East England, United Kingdom"
 msgid "Southend"
 msgstr "Southend"
@@ -12224,7 +12210,6 @@ msgid "Aitkin"
 msgstr "Aitkin"
 
 #. A city in Colorado in the United States
-#| msgid "Akron"
 msgctxt "City in Colorado, United States"
 msgid "Akron"
 msgstr "Akron"
@@ -12247,7 +12232,6 @@ msgid "Alamosa"
 msgstr "Alamosa"
 
 #. A city in Georgia in the United States
-#| msgid "Albany"
 msgctxt "City in Georgia, United States"
 msgid "Albany"
 msgstr "Albany"
@@ -12309,7 +12293,6 @@ msgid "Alliance"
 msgstr "Alliance"
 
 #. A city in Georgia in the United States
-#| msgid "Alma"
 msgctxt "City in Georgia, United States"
 msgid "Alma"
 msgstr "Alma"
@@ -12324,7 +12307,6 @@ msgid "Alpena"
 msgstr "Alpena"
 
 #. A city in Alaska in the United States
-#| msgid "Alpine"
 msgctxt "City in Alaska, United States"
 msgid "Alpine"
 msgstr "Alpine"
@@ -12387,7 +12369,6 @@ msgid "Andalusia"
 msgstr "Andalusia"
 
 #. A city in Indiana in the United States
-#| msgid "Anderson"
 msgctxt "City in Indiana, United States"
 msgid "Anderson"
 msgstr "Anderson"
@@ -12454,7 +12435,6 @@ msgid "Apalachicola"
 msgstr "Apalachicola"
 
 #. A city in Minnesota in the United States
-#| msgid "Appleton"
 msgctxt "City in Minnesota, United States"
 msgid "Appleton"
 msgstr "Appleton"
@@ -12481,7 +12461,6 @@ msgid "Arkadelphia"
 msgstr "Arkadelphia"
 
 #. A city in Texas in the United States
-#| msgid "Arlington"
 msgctxt "City in Texas, United States"
 msgid "Arlington"
 msgstr "Arlington"
@@ -12508,7 +12487,6 @@ msgid "Asheville"
 msgstr "Asheville"
 
 #. A city in Virginia in the United States
-#| msgid "Ashland"
 msgctxt "City in Virginia, United States"
 msgid "Ashland"
 msgstr "Ashland"
@@ -12531,7 +12509,6 @@ msgid "Astoria"
 msgstr "Astoria"
 
 #. A city in Georgia in the United States
-#| msgid "Athens"
 msgctxt "City in Georgia, United States"
 msgid "Athens"
 msgstr "Atîna"
@@ -12541,7 +12518,6 @@ msgid "Atlanta"
 msgstr "Atlanta"
 
 #. A city in Iowa in the United States
-#| msgid "Atlantic"
 msgctxt "City in Iowa, United States"
 msgid "Atlantic"
 msgstr "Atlantic"
@@ -12555,7 +12531,6 @@ msgid "Atoka"
 msgstr "Atoka"
 
 #. A city in Alabama in the United States
-#| msgid "Auburn"
 msgctxt "City in Alabama, United States"
 msgid "Auburn"
 msgstr "Auburn"
@@ -12575,7 +12550,6 @@ msgid "Audubon"
 msgstr "Audubon"
 
 #. A city in Georgia in the United States
-#| msgid "Augusta"
 msgctxt "City in Georgia, United States"
 msgid "Augusta"
 msgstr "Augusta"
@@ -12586,7 +12560,6 @@ msgid "Augusta"
 msgstr "Augusta"
 
 #. A city in Colorado in the United States
-#| msgid "Aurora"
 msgctxt "City in Colorado, United States"
 msgid "Aurora"
 msgstr "Aurora"
@@ -12607,7 +12580,6 @@ msgid "Aurora"
 msgstr "Aurora"
 
 #. A city in Minnesota in the United States
-#| msgid "Austin"
 msgctxt "City in Minnesota, United States"
 msgid "Austin"
 msgstr "Austin"
@@ -12702,7 +12674,6 @@ msgid "Beatrice"
 msgstr "Beatrice"
 
 #. A city in North Carolina in the United States
-#| msgid "Beaufort"
 msgctxt "City in North Carolina, United States"
 msgid "Beaufort"
 msgstr "Beaufort"
@@ -12725,7 +12696,6 @@ msgid "Beckley"
 msgstr "Beckley"
 
 #. A city in Massachusetts in the United States
-#| msgid "Bedford"
 msgctxt "City in Massachusetts, United States"
 msgid "Bedford"
 msgstr "Bedford"
@@ -12825,7 +12795,6 @@ msgid "Birchwood"
 msgstr "Birchwood"
 
 #. A city in Alabama in the United States
-#| msgid "Birmingham"
 msgctxt "City in Alabama, United States"
 msgid "Birmingham"
 msgstr "Birmingham"
@@ -12851,7 +12820,6 @@ msgid "Blacksburg"
 msgstr "Blacksburg"
 
 #. A city in Illinois in the United States
-#| msgid "Bloomington"
 msgctxt "City in Illinois, United States"
 msgid "Bloomington"
 msgstr "Bloomington"
@@ -12886,7 +12854,6 @@ msgid "Boise"
 msgstr "Boise"
 
 #. A city in Iowa in the United States
-#| msgid "Boone"
 msgctxt "City in Iowa, United States"
 msgid "Boone"
 msgstr "Boone"
@@ -12962,7 +12929,6 @@ msgid "Broken Bow"
 msgstr "Broken Bow"
 
 #. A city in Oregon in the United States
-#| msgid "Brookings"
 msgctxt "City in Oregon, United States"
 msgid "Brookings"
 msgstr "Brookings"
@@ -12993,7 +12959,6 @@ msgid "Brownwood"
 msgstr "Brownwood"
 
 #. A city in Georgia in the United States
-#| msgid "Brunswick"
 msgctxt "City in Georgia, United States"
 msgid "Brunswick"
 msgstr "Brunswick"
@@ -13016,7 +12981,6 @@ msgid "Buckland"
 msgstr "Buckland"
 
 #. A city in Minnesota in the United States
-#| msgid "Buffalo"
 msgctxt "City in Minnesota, United States"
 msgid "Buffalo"
 msgstr "Buffalo"
@@ -13027,13 +12991,11 @@ msgid "Buffalo"
 msgstr "Buffalo"
 
 #. A city in South Dakota in the United States
-#| msgid "Buffalo"
 msgctxt "City in South Dakota, United States"
 msgid "Buffalo"
 msgstr "Buffalo"
 
 #. A city in Wyoming in the United States
-#| msgid "Buffalo"
 msgctxt "City in Wyoming, United States"
 msgid "Buffalo"
 msgstr "Buffalo"
@@ -13051,7 +13013,6 @@ msgid "Burley"
 msgstr "Burley"
 
 #. A city in Colorado in the United States
-#| msgid "Burlington"
 msgctxt "City in Colorado, United States"
 msgid "Burlington"
 msgstr "Burlington"
@@ -13111,7 +13072,6 @@ msgid "Cairo"
 msgstr "Cairo"
 
 #. A city in Idaho in the United States
-#| msgid "Caldwell"
 msgctxt "City in Idaho, United States"
 msgid "Caldwell"
 msgstr "Caldwell"
@@ -13122,7 +13082,6 @@ msgid "Caldwell"
 msgstr "Caldwell"
 
 #. A city in Texas in the United States
-#| msgid "Caldwell"
 msgctxt "City in Texas, United States"
 msgid "Caldwell"
 msgstr "Caldwell"
@@ -13182,7 +13141,6 @@ msgid "Carbondale"
 msgstr "Carbondale"
 
 #. A city in Colorado in the United States
-#| msgid "Cardiff"
 msgctxt "City in Colorado, United States"
 msgid "Cardiff"
 msgstr "Cardiff"
@@ -13192,7 +13150,6 @@ msgid "Caribou"
 msgstr "Caribou"
 
 #. A city in California in the United States
-#| msgid "Carlsbad"
 msgctxt "City in California, United States"
 msgid "Carlsbad"
 msgstr "Carlsbad"
@@ -13267,7 +13224,6 @@ msgid "Chandalar"
 msgstr "Chandalar"
 
 #. A city in Arizona in the United States
-#| msgid "Chandler"
 msgctxt "City in Arizona, United States"
 msgid "Chandler"
 msgstr "Chandler"
@@ -13294,7 +13250,6 @@ msgid "Charles City"
 msgstr "Charles City"
 
 #. A city in South Carolina in the United States
-#| msgid "Charleston"
 msgctxt "City in South Carolina, United States"
 msgid "Charleston"
 msgstr "Charleston"
@@ -13309,7 +13264,6 @@ msgid "Charlevoix"
 msgstr "Charlevoix"
 
 #. A city in Michigan in the United States
-#| msgid "Charlotte"
 msgctxt "City in Michigan, United States"
 msgid "Charlotte"
 msgstr "Charlotte"
@@ -13432,7 +13386,6 @@ msgid "Clarksburg"
 msgstr "Clarksburg"
 
 #. A city in Tennessee in the United States
-#| msgid "Clarksville"
 msgctxt "City in Tennessee, United States"
 msgid "Clarksville"
 msgstr "Clarksville"
@@ -13526,7 +13479,6 @@ msgid "Colorado Springs"
 msgstr "Colorado Springs"
 
 #. A city in Missouri in the United States
-#| msgid "Columbia"
 msgctxt "City in Missouri, United States"
 msgid "Columbia"
 msgstr "Columbia"
@@ -13537,7 +13489,6 @@ msgid "Columbia"
 msgstr "Columbia"
 
 #. A city in Georgia in the United States
-#| msgid "Columbus"
 msgctxt "City in Georgia, United States"
 msgid "Columbus"
 msgstr "Columbus"
@@ -13558,13 +13509,11 @@ msgid "Columbus"
 msgstr "Columbus"
 
 #. A city in Ohio in the United States
-#| msgid "Columbus"
 msgctxt "City in Ohio, United States"
 msgid "Columbus"
 msgstr "Columbus"
 
 #. A city in California in the United States
-#| msgid "Concord"
 msgctxt "City in California, United States"
 msgid "Concord"
 msgstr "Concord"
@@ -13600,7 +13549,6 @@ msgid "Cordova"
 msgstr "Cordova"
 
 #. A city in California in the United States
-#| msgid "Corona"
 msgctxt "City in California, United States"
 msgid "Corona"
 msgstr "Corona"
@@ -13740,7 +13688,6 @@ msgid "Dansville"
 msgstr "Dansville"
 
 #. A city in Illinois in the United States
-#| msgid "Danville"
 msgctxt "City in Illinois, United States"
 msgid "Danville"
 msgstr "Danville"
@@ -13783,7 +13730,6 @@ msgid "Deadhorse"
 msgstr "Deadhorse"
 
 #. A city in Alabama in the United States
-#| msgid "Decatur"
 msgctxt "City in Alabama, United States"
 msgid "Decatur"
 msgstr "Decatur"
@@ -13883,7 +13829,6 @@ msgid "Dothan"
 msgstr "Dothan"
 
 #. A city in Arizona in the United States
-#| msgid "Douglas"
 msgctxt "City in Arizona, United States"
 msgid "Douglas"
 msgstr "Douglas"
@@ -13920,7 +13865,6 @@ msgid "Du Bois"
 msgstr "Du Bois"
 
 #. A city in Georgia in the United States
-#| msgid "Dublin"
 msgctxt "City in Georgia, United States"
 msgid "Dublin"
 msgstr "Dublin"
@@ -13951,7 +13895,6 @@ msgid "Dunkirk"
 msgstr "Dunkirk"
 
 #. A city in Colorado in the United States
-#| msgid "Durango"
 msgctxt "City in Colorado, United States"
 msgid "Durango"
 msgstr "Durango"
@@ -13969,7 +13912,6 @@ msgid "Dyersburg"
 msgstr "Dyersburg"
 
 #. A city in Alaska in the United States
-#| msgid "Eagle"
 msgctxt "City in Alaska, United States"
 msgid "Eagle"
 msgstr "Eagle"
@@ -14064,7 +14006,6 @@ msgid "Elizabethtown"
 msgstr "Elizabethtown"
 
 #. A city in Indiana in the United States
-#| msgid "Elkhart"
 msgctxt "City in Indiana, United States"
 msgid "Elkhart"
 msgstr "Elkhart"
@@ -14087,7 +14028,6 @@ msgid "Ellensburg"
 msgstr "Ellensburg"
 
 #. A city in New York in the United States
-#| msgid "Elmira"
 msgctxt "City in New York, United States"
 msgid "Elmira"
 msgstr "Elmira"
@@ -14097,7 +14037,6 @@ msgid "Elwood"
 msgstr "Elwood"
 
 #. A city in Minnesota in the United States
-#| msgid "Ely"
 msgctxt "City in Minnesota, United States"
 msgid "Ely"
 msgstr "Ely"
@@ -14120,7 +14059,6 @@ msgid "Emmonak"
 msgstr "Emmonak"
 
 #. A city in Kansas in the United States
-#| msgid "Emporia"
 msgctxt "City in Kansas, United States"
 msgid "Emporia"
 msgstr "Emporia"
@@ -14163,7 +14101,6 @@ msgid "Eugene"
 msgstr "Eugene"
 
 #. A city in Nevada in the United States
-#| msgid "Eureka"
 msgctxt "City in Nevada, United States"
 msgid "Eureka"
 msgstr "Eureka"
@@ -14201,7 +14138,6 @@ msgid "Fairchild"
 msgstr "Fairchild"
 
 #. A city in California in the United States
-#| msgid "Fairfield"
 msgctxt "City in California, United States"
 msgid "Fairfield"
 msgstr "Fairfield"
@@ -14249,7 +14185,6 @@ msgid "Farmingdale"
 msgstr "Farmingdale"
 
 #. A city in Missouri in the United States
-#| msgid "Farmington"
 msgctxt "City in Missouri, United States"
 msgid "Farmington"
 msgstr "Farmington"
@@ -14264,7 +14199,6 @@ msgid "Farmville"
 msgstr "Farmville"
 
 #. A city in Arkansas in the United States
-#| msgid "Fayetteville"
 msgctxt "City in Arkansas, United States"
 msgid "Fayetteville"
 msgstr "Fayetteville"
@@ -14356,7 +14290,6 @@ msgid "Fort Polk"
 msgstr "Fort Polk"
 
 #. A city in Arkansas in the United States
-#| msgid "Fort Smith"
 msgctxt "City in Arkansas, United States"
 msgid "Fort Smith"
 msgstr "Fort Smith"
@@ -14386,7 +14319,6 @@ msgid "Fosston"
 msgstr "Fosston"
 
 #. A city in Kentucky in the United States
-#| msgid "Frankfort"
 msgctxt "City in Kentucky, United States"
 msgid "Frankfort"
 msgstr "Frankfort"
@@ -14397,7 +14329,6 @@ msgid "Frankfort"
 msgstr "Frankfort"
 
 #. A city in North Carolina in the United States
-#| msgid "Franklin"
 msgctxt "City in North Carolina, United States"
 msgid "Franklin"
 msgstr "Franklin"
@@ -14413,13 +14344,11 @@ msgid "Franklin"
 msgstr "Franklin"
 
 #. A city in Maryland in the United States
-#| msgid "Frederick"
 msgctxt "City in Maryland, United States"
 msgid "Frederick"
 msgstr "Frederick"
 
 #. A city in Oklahoma in the United States
-#| msgid "Frederick"
 msgctxt "City in Oklahoma, United States"
 msgid "Frederick"
 msgstr "Frederick"
@@ -14434,7 +14363,6 @@ msgid "Freeport"
 msgstr "Freeport"
 
 #. A city in California in the United States
-#| msgid "Fremont"
 msgctxt "City in California, United States"
 msgid "Fremont"
 msgstr "Fremont"
@@ -14477,7 +14405,6 @@ msgid "Gage"
 msgstr "Gage"
 
 #. A city in Florida in the United States
-#| msgid "Gainesville"
 msgctxt "City in Florida, United States"
 msgid "Gainesville"
 msgstr "Gainesville"
@@ -14517,7 +14444,6 @@ msgid "Gambell"
 msgstr "Gambell"
 
 #. A city in Kansas in the United States
-#| msgid "Garden City"
 msgctxt "City in Kansas, United States"
 msgid "Garden City"
 msgstr "Garden City"
@@ -14582,7 +14508,6 @@ msgid "Gilmer"
 msgstr "Gilmer"
 
 #. A city in Kentucky in the United States
-#| msgid "Glasgow"
 msgctxt "City in Kentucky, United States"
 msgid "Glasgow"
 msgstr "Glasgow"
@@ -14597,7 +14522,6 @@ msgid "Glencoe"
 msgstr "Glencoe"
 
 #. A city in Arizona in the United States
-#| msgid "Glendale"
 msgctxt "City in Arizona, United States"
 msgid "Glendale"
 msgstr "Glendale"
@@ -14718,7 +14642,6 @@ msgid "Green Bay"
 msgstr "Green Bay"
 
 #. A city in Georgia in the United States
-#| msgid "Greensboro"
 msgctxt "City in Georgia, United States"
 msgid "Greensboro"
 msgstr "Greensboro"
@@ -14729,7 +14652,6 @@ msgid "Greensboro"
 msgstr "Greensboro"
 
 #. A city in Maine in the United States
-#| msgid "Greenville"
 msgctxt "City in Maine, United States"
 msgid "Greenville"
 msgstr "Greenville"
@@ -14750,13 +14672,11 @@ msgid "Greenville"
 msgstr "Greenville"
 
 #. A city in Mississippi in the United States
-#| msgid "Greenwood"
 msgctxt "City in Mississippi, United States"
 msgid "Greenwood"
 msgstr "Greenwood"
 
 #. A city in South Carolina in the United States
-#| msgid "Greenwood"
 msgctxt "City in South Carolina, United States"
 msgid "Greenwood"
 msgstr "Greenwood"
@@ -14839,7 +14759,6 @@ msgid "Hancock"
 msgstr "Hancock"
 
 #. A city in California in the United States
-#| msgid "Hanford"
 msgctxt "City in California, United States"
 msgid "Hanford"
 msgstr "Hanford"
@@ -14866,13 +14785,11 @@ msgid "Harlingen"
 msgstr "Harlingen"
 
 #. A city in Illinois in the United States
-#| msgid "Harrisburg"
 msgctxt "City in Illinois, United States"
 msgid "Harrisburg"
 msgstr "Harrisburg"
 
 #. A city in Pennsylvania in the United States
-#| msgid "Harrisburg"
 msgctxt "City in Pennsylvania, United States"
 msgid "Harrisburg"
 msgstr "Harrisburg"
@@ -14918,13 +14835,11 @@ msgid "Hays"
 msgstr "Hays"
 
 #. A city in California in the United States
-#| msgid "Hayward"
 msgctxt "City in California, United States"
 msgid "Hayward"
 msgstr "Hayward"
 
 #. A city in Wisconsin in the United States
-#| msgid "Hayward"
 msgctxt "City in Wisconsin, United States"
 msgid "Hayward"
 msgstr "Hayward"
@@ -14942,7 +14857,6 @@ msgid "Hebbronville"
 msgstr "Hebbronville"
 
 #. A city in Nebraska in the United States
-#| msgid "Hebron"
 msgctxt "City in Nebraska, United States"
 msgid "Hebron"
 msgstr "Hebron"
@@ -14952,7 +14866,6 @@ msgid "Helena"
 msgstr "Helena"
 
 #. A city in Kentucky in the United States
-#| msgid "Henderson"
 msgctxt "City in Kentucky, United States"
 msgid "Henderson"
 msgstr "Henderson"
@@ -15015,7 +14928,6 @@ msgid "Hinesville"
 msgstr "Hinesville"
 
 #. A city in Oklahoma in the United States
-#| msgid "Hobart"
 msgctxt "City in Oklahoma, United States"
 msgid "Hobart"
 msgstr "Hobart"
@@ -15069,7 +14981,6 @@ msgid "Hoquiam"
 msgstr "Hoquiam"
 
 #. A city in Arkansas in the United States
-#| msgid "Hot Springs"
 msgctxt "City in Arkansas, United States"
 msgid "Hot Springs"
 msgstr "Hot Springs"
@@ -15108,7 +15019,6 @@ msgid "Huntington Beach"
 msgstr "Huntington Beach"
 
 #. A city in Alabama in the United States
-#| msgid "Huntsville"
 msgctxt "City in Alabama, United States"
 msgid "Huntsville"
 msgstr "Huntsville"
@@ -15127,7 +15037,6 @@ msgid "Huslia"
 msgstr "Huslia"
 
 #. A city in Kansas in the United States
-#| msgid "Hutchinson"
 msgctxt "City in Kansas, United States"
 msgid "Hutchinson"
 msgstr "Hutchinson"
@@ -15154,7 +15063,6 @@ msgid "Idaho Falls"
 msgstr "Idaho Falls"
 
 #. A city in California in the United States
-#| msgid "Imperial"
 msgctxt "City in California, United States"
 msgid "Imperial"
 msgstr "Imperial"
@@ -15173,7 +15081,6 @@ msgid "Independence"
 msgstr "Independence"
 
 #. A city in Pennsylvania in the United States
-#| msgid "Indiana"
 msgctxt "City in Pennsylvania, United States"
 msgid "Indiana"
 msgstr "Indiana"
@@ -15231,7 +15138,6 @@ msgid "Ithaca"
 msgstr "Ithaca"
 
 #. A city in Kentucky in the United States
-#| msgid "Jackson"
 msgctxt "City in Kentucky, United States"
 msgid "Jackson"
 msgstr "Jackson"
@@ -15262,7 +15168,6 @@ msgid "Jackson"
 msgstr "Jackson"
 
 #. A city in Florida in the United States
-#| msgid "Jacksonville"
 msgctxt "City in Florida, United States"
 msgid "Jacksonville"
 msgstr "Jacksonville"
@@ -15287,7 +15192,6 @@ msgid "Jaffrey"
 msgstr "Jaffrey"
 
 #. A city in New York in the United States
-#| msgid "Jamestown"
 msgctxt "City in New York, United States"
 msgid "Jamestown"
 msgstr "Jamestown"
@@ -15302,7 +15206,6 @@ msgid "Janesville"
 msgstr "Janesville"
 
 #. A city in Texas in the United States
-#| msgid "Jasper"
 msgctxt "City in Texas, United States"
 msgid "Jasper"
 msgstr "Jasper"
@@ -15340,7 +15243,6 @@ msgid "Joplin"
 msgstr "Joplin"
 
 #. A city in Montana in the United States
-#| msgid "Jordan"
 msgctxt "City in Montana, United States"
 msgid "Jordan"
 msgstr "Jordan"
@@ -15358,13 +15260,11 @@ msgid "Junction City"
 msgstr "Junction City"
 
 #. A city in Alaska in the United States
-#| msgid "Juneau"
 msgctxt "City in Alaska, United States"
 msgid "Juneau"
 msgstr "Juneau"
 
 #. A city in Wisconsin in the United States
-#| msgid "Juneau"
 msgctxt "City in Wisconsin, United States"
 msgid "Juneau"
 msgstr "Juneau"
@@ -15406,7 +15306,6 @@ msgid "Kankakee"
 msgstr "Kankakee"
 
 #. A city in Kansas in the United States
-#| msgid "Kansas City"
 msgctxt "City in Kansas, United States"
 msgid "Kansas City"
 msgstr "Kansas City"
@@ -15529,7 +15428,6 @@ msgid "Knob Noster"
 msgstr "Knob Noster"
 
 #. A city in Iowa in the United States
-#| msgid "Knoxville"
 msgctxt "City in Iowa, United States"
 msgid "Knoxville"
 msgstr "Knoxville"
@@ -15568,7 +15466,6 @@ msgid "La Grande"
 msgstr "La Grande"
 
 #. A city in Georgia in the United States
-#| msgid "La Grange"
 msgctxt "City in Georgia, United States"
 msgid "La Grange"
 msgstr "La Grange"
@@ -15603,7 +15500,6 @@ msgid "Ladysmith"
 msgstr "Ladysmith"
 
 #. A city in Indiana in the United States
-#| msgid "Lafayette"
 msgctxt "City in Indiana, United States"
 msgid "Lafayette"
 msgstr "Lafayette"
@@ -15654,7 +15550,6 @@ msgid "Lamoni"
 msgstr "Lamoni"
 
 #. A city in California in the United States
-#| msgid "Lancaster"
 msgctxt "City in California, United States"
 msgid "Lancaster"
 msgstr "Lancaster"
@@ -15699,7 +15594,6 @@ msgid "Las Cruces"
 msgstr "Las Cruces"
 
 #. A city in Nevada in the United States
-#| msgid "Las Vegas"
 msgctxt "City in Nevada, United States"
 msgid "Las Vegas"
 msgstr "Las Vegas"
@@ -15714,7 +15608,6 @@ msgid "Latrobe"
 msgstr "Latrobe"
 
 #. A city in Kansas in the United States
-#| msgid "Lawrence"
 msgctxt "City in Kansas, United States"
 msgid "Lawrence"
 msgstr "Lawrence"
@@ -15725,7 +15618,6 @@ msgid "Lawrence"
 msgstr "Lawrence"
 
 #. A city in Georgia in the United States
-#| msgid "Lawrenceville"
 msgctxt "City in Georgia, United States"
 msgid "Lawrenceville"
 msgstr "Lawrenceville"
@@ -15748,13 +15640,11 @@ msgid "Leadville"
 msgstr "Leadville"
 
 #. A city in New Hampshire in the United States
-#| msgid "Lebanon"
 msgctxt "City in New Hampshire, United States"
 msgid "Lebanon"
 msgstr "Lebanon"
 
 #. A city in Florida in the United States
-#| msgid "Leesburg"
 msgctxt "City in Florida, United States"
 msgid "Leesburg"
 msgstr "Leesburg"
@@ -15785,7 +15675,6 @@ msgid "Lewistown"
 msgstr "Lewistown"
 
 #. A city in Kentucky in the United States
-#| msgid "Lexington"
 msgctxt "City in Kentucky, United States"
 msgid "Lexington"
 msgstr "Lexington"
@@ -15809,7 +15698,6 @@ msgid "Lihue"
 msgstr "Lihue"
 
 #. A city in Ohio in the United States
-#| msgid "Lima"
 msgctxt "City in Ohio, United States"
 msgid "Lima"
 msgstr "Lima"
@@ -15823,7 +15711,6 @@ msgid "Limon"
 msgstr "Limon"
 
 #. A city in Illinois in the United States
-#| msgid "Lincoln"
 msgctxt "City in Illinois, United States"
 msgid "Lincoln"
 msgstr "Lincoln"
@@ -15834,7 +15721,6 @@ msgid "Lincoln"
 msgstr "Lincoln"
 
 #. A city in Illinois in the United States
-#| msgid "Litchfield"
 msgctxt "City in Illinois, United States"
 msgid "Litchfield"
 msgstr "Litchfield"
@@ -15926,7 +15812,6 @@ msgid "Lovelock"
 msgstr "Lovelock"
 
 #. A city in Idaho in the United States
-#| msgid "Lowell"
 msgctxt "City in Idaho, United States"
 msgid "Lowell"
 msgstr "Lowell"
@@ -15977,7 +15862,6 @@ msgid "Madera"
 msgstr "Madera"
 
 #. A city in Minnesota in the United States
-#| msgid "Madison"
 msgctxt "City in Minnesota, United States"
 msgid "Madison"
 msgstr "Madison"
@@ -15988,7 +15872,6 @@ msgid "Madison"
 msgstr "Madison"
 
 #. A city in Idaho in the United States
-#| msgid "Malta"
 msgctxt "City in Idaho, United States"
 msgid "Malta"
 msgstr "Malta"
@@ -15998,7 +15881,6 @@ msgid "Manassas"
 msgstr "Manassas"
 
 #. A city in New Hampshire in the United States
-#| msgid "Manchester"
 msgctxt "City in New Hampshire, United States"
 msgid "Manchester"
 msgstr "Manchester"
@@ -16056,7 +15938,6 @@ msgid "Marietta"
 msgstr "Marietta"
 
 #. A city in Illinois in the United States
-#| msgid "Marion"
 msgctxt "City in Illinois, United States"
 msgid "Marion"
 msgstr "Marion"
@@ -16076,7 +15957,6 @@ msgid "Marquette"
 msgstr "Marquette"
 
 #. A city in Michigan in the United States
-#| msgid "Marshall"
 msgctxt "City in Michigan, United States"
 msgid "Marshall"
 msgstr "Marshall"
@@ -16103,7 +15983,6 @@ msgid "Martinsville"
 msgstr "Martinsville"
 
 #. A city in California in the United States
-#| msgid "Marysville"
 msgctxt "City in California, United States"
 msgid "Marysville"
 msgstr "Marysville"
@@ -16190,7 +16069,6 @@ msgid "Meadville"
 msgstr "Meadville"
 
 #. A city in Oregon in the United States
-#| msgid "Medford"
 msgctxt "City in Oregon, United States"
 msgid "Medford"
 msgstr "Medford"
@@ -16213,7 +16091,6 @@ msgid "Mekoryuk"
 msgstr "Mekoryuk"
 
 #. A city in Florida in the United States
-#| msgid "Melbourne"
 msgctxt "City in Florida, United States"
 msgid "Melbourne"
 msgstr "Melbourne"
@@ -16275,7 +16152,6 @@ msgid "Metropolis"
 msgstr "Metropolis"
 
 #. A city in Florida in the United States
-#| msgid "Miami"
 msgctxt "City in Florida, United States"
 msgid "Miami"
 msgstr "Miami"
@@ -16365,7 +16241,6 @@ msgid "Moline"
 msgstr "Moline"
 
 #. A city in Louisiana in the United States
-#| msgid "Monroe"
 msgctxt "City in Louisiana, United States"
 msgid "Monroe"
 msgstr "Monroe"
@@ -16398,13 +16273,11 @@ msgid "Monterey"
 msgstr "Monterey"
 
 #. A city in Minnesota in the United States
-#| msgid "Montevideo"
 msgctxt "City in Minnesota, United States"
 msgid "Montevideo"
 msgstr "Montevideo"
 
 #. A city in Alabama in the United States
-#| msgid "Montgomery"
 msgctxt "City in Alabama, United States"
 msgid "Montgomery"
 msgstr "Montgomery"
@@ -16415,7 +16288,6 @@ msgid "Montgomery"
 msgstr "Montgomery"
 
 #. A city in Arkansas in the United States
-#| msgid "Monticello"
 msgctxt "City in Arkansas, United States"
 msgid "Monticello"
 msgstr "Monticello"
@@ -16455,7 +16327,6 @@ msgid "Moriarty"
 msgstr "Moriarty"
 
 #. A city in Illinois in the United States
-#| msgid "Morris"
 msgctxt "City in Illinois, United States"
 msgid "Morris"
 msgstr "Morris"
@@ -16474,7 +16345,6 @@ msgid "Morrisville"
 msgstr "Morrisville"
 
 #. A city in Idaho in the United States
-#| msgid "Moscow"
 msgctxt "City in Idaho, United States"
 msgid "Moscow"
 msgstr "Moscow"
@@ -16508,7 +16378,6 @@ msgid "Mount Ida"
 msgstr "Mount Ida"
 
 #. A city in Iowa in the United States
-#| msgid "Mount Pleasant"
 msgctxt "City in Iowa, United States"
 msgid "Mount Pleasant"
 msgstr "Mount Pleasant"
@@ -16540,7 +16409,6 @@ msgid "Mount Wilson"
 msgstr "Mount Wilson"
 
 #. A city in Arkansas in the United States
-#| msgid "Mountain Home"
 msgctxt "City in Arkansas, United States"
 msgid "Mountain Home"
 msgstr "Mountain Home"
@@ -16611,7 +16479,6 @@ msgid "Naperville"
 msgstr "Naperville"
 
 #. A city in Florida in the United States
-#| msgid "Naples"
 msgctxt "City in Florida, United States"
 msgid "Naples"
 msgstr "Naples"
@@ -16689,13 +16556,11 @@ msgid "New Ulm"
 msgstr "New Ulm"
 
 #. A city in New York in the United States
-#| msgid "New York"
 msgctxt "City in New York, United States"
 msgid "New York"
 msgstr "New York"
 
 #. A city in New Jersey in the United States
-#| msgid "Newark"
 msgctxt "City in New Jersey, United States"
 msgid "Newark"
 msgstr "Newark"
@@ -16726,7 +16591,6 @@ msgid "Newnan"
 msgstr "Newnan"
 
 #. A city in Arkansas in the United States
-#| msgid "Newport"
 msgctxt "City in Arkansas, United States"
 msgid "Newport"
 msgstr "Newport"
@@ -16766,7 +16630,6 @@ msgid "Nome"
 msgstr "Nome"
 
 #. A city in Nebraska in the United States
-#| msgid "Norfolk"
 msgctxt "City in Nebraska, United States"
 msgid "Norfolk"
 msgstr "Norfolk"
@@ -16913,7 +16776,6 @@ msgid "Omak"
 msgstr "Omak"
 
 #. A city in California in the United States
-#| msgid "Ontario"
 msgctxt "City in California, United States"
 msgid "Ontario"
 msgstr "Ontario"
@@ -16924,7 +16786,6 @@ msgid "Ontario"
 msgstr "Ontario"
 
 #. A city in California in the United States
-#| msgid "Orange"
 msgctxt "City in California, United States"
 msgid "Orange"
 msgstr "Orange"
@@ -17013,7 +16874,6 @@ msgid "Owosso"
 msgstr "Owosso"
 
 #. A city in Connecticut in the United States
-#| msgid "Oxford"
 msgctxt "City in Connecticut, United States"
 msgid "Oxford"
 msgstr "Oxford"
@@ -17103,13 +16963,11 @@ msgid "Parsons"
 msgstr "Parsons"
 
 #. A city in California in the United States
-#| msgid "Pasadena"
 msgctxt "City in California, United States"
 msgid "Pasadena"
 msgstr "Pasadena"
 
 #. A city in Texas in the United States
-#| msgid "Pasadena"
 msgctxt "City in Texas, United States"
 msgid "Pasadena"
 msgstr "Pasadena"
@@ -17187,7 +17045,6 @@ msgid "Pensacola"
 msgstr "Pensacola"
 
 #. A city in Arizona in the United States
-#| msgid "Peoria"
 msgctxt "City in Arizona, United States"
 msgid "Peoria"
 msgstr "Peoria"
@@ -17206,7 +17063,6 @@ msgid "Perryton"
 msgstr "Perryton"
 
 #. A city in Illinois in the United States
-#| msgid "Peru"
 msgctxt "City in Illinois, United States"
 msgid "Peru"
 msgstr "Perû"
@@ -17217,7 +17073,6 @@ msgid "Peru"
 msgstr "Peru"
 
 #. A city in Alaska in the United States
-#| msgid "Petersburg"
 msgctxt "City in Alaska, United States"
 msgid "Petersburg"
 msgstr "Petersburg"
@@ -17285,7 +17140,6 @@ msgid "Pittsburgh"
 msgstr "Pittsburgh"
 
 #. A city in Illinois in the United States
-#| msgid "Pittsfield"
 msgctxt "City in Illinois, United States"
 msgid "Pittsfield"
 msgstr "Pittsfield"
@@ -17320,7 +17174,6 @@ msgid "Plattsmouth"
 msgstr "Plattsmouth"
 
 #. A city in Massachusetts in the United States
-#| msgid "Plymouth"
 msgctxt "City in Massachusetts, United States"
 msgid "Plymouth"
 msgstr "Plymouth"
@@ -17363,7 +17216,6 @@ msgid "Ponca City"
 msgstr "Ponca City"
 
 #. A city in Illinois in the United States
-#| msgid "Pontiac"
 msgctxt "City in Illinois, United States"
 msgid "Pontiac"
 msgstr "Pontiac"
@@ -17414,7 +17266,6 @@ msgid "Porterville"
 msgstr "Porterville"
 
 #. A city in Maine in the United States
-#| msgid "Portland"
 msgctxt "City in Maine, United States"
 msgid "Portland"
 msgstr "Portland"
@@ -17425,7 +17276,6 @@ msgid "Portland"
 msgstr "Portland"
 
 #. A city in New Hampshire in the United States
-#| msgid "Portsmouth"
 msgctxt "City in New Hampshire, United States"
 msgid "Portsmouth"
 msgstr "Portsmouth"
@@ -17626,7 +17476,6 @@ msgid "Rochelle"
 msgstr "Rochelle"
 
 #. A city in Minnesota in the United States
-#| msgid "Rochester"
 msgctxt "City in Minnesota, United States"
 msgid "Rochester"
 msgstr "Rochester"
@@ -17682,7 +17531,6 @@ msgid "Rogers City"
 msgstr "Rogers City"
 
 #. A city in Georgia in the United States
-#| msgid "Rome"
 msgctxt "City in Georgia, United States"
 msgid "Rome"
 msgstr "Rome"
@@ -17759,13 +17607,11 @@ msgid "Saint Cloud"
 msgstr "Saint Cloud"
 
 #. A city in Alaska in the United States
-#| msgid "Saint George"
 msgctxt "City in Alaska, United States"
 msgid "Saint George"
 msgstr "Saint George"
 
 #. A city in Michigan in the United States
-#| msgid "Saint James"
 msgctxt "City in Michigan, United States"
 msgid "Saint James"
 msgstr "Saint James"
@@ -17796,7 +17642,6 @@ msgid "Saint Paul"
 msgstr "Saint Paul"
 
 #. A city in Illinois in the United States
-#| msgid "Salem"
 msgctxt "City in Illinois, United States"
 msgid "Salem"
 msgstr "Salem"
@@ -17819,7 +17664,6 @@ msgid "Salinas"
 msgstr "Salinas"
 
 #. A city in Maryland in the United States
-#| msgid "Salisbury"
 msgctxt "City in Maryland, United States"
 msgid "Salisbury"
 msgstr "Salisbury"
@@ -17894,7 +17738,6 @@ msgid "Sandwich"
 msgstr "Sandwich"
 
 #. A city in Maine in the United States
-#| msgid "Sanford"
 msgctxt "City in Maine, United States"
 msgid "Sanford"
 msgstr "Sanford"
@@ -17913,7 +17756,6 @@ msgid "Santa Barbara"
 msgstr "Santa Barbara"
 
 #. A city in California in the United States
-#| msgid "Santa Clara"
 msgctxt "City in California, United States"
 msgid "Santa Clara"
 msgstr "Santa Clara"
@@ -17928,7 +17770,6 @@ msgid "Santa Fe"
 msgstr "Santa Fe"
 
 #. A city in California in the United States
-#| msgid "Santa Maria"
 msgctxt "City in California, United States"
 msgid "Santa Maria"
 msgstr "Santa Maria"
@@ -18006,7 +17847,6 @@ msgid "Selinsgrove"
 msgstr "Selinsgrove"
 
 #. A city in Oklahoma in the United States
-#| msgid "Seminole"
 msgctxt "City in Oklahoma, United States"
 msgid "Seminole"
 msgstr "Seminole"
@@ -18073,7 +17913,6 @@ msgid "Shreveport"
 msgstr "Shreveport"
 
 #. A city in Montana in the United States
-#| msgid "Sidney"
 msgctxt "City in Montana, United States"
 msgid "Sidney"
 msgstr "Sidney"
@@ -18168,7 +18007,6 @@ msgid "Somerville"
 msgstr "Somerville"
 
 #. A city in Texas in the United States
-#| msgid "Sonora"
 msgctxt "City in Texas, United States"
 msgid "Sonora"
 msgstr "Sonora"
@@ -18190,7 +18028,6 @@ msgid "South Lake Tahoe"
 msgstr "South Lake Tahoe"
 
 #. A city in Illinois in the United States
-#| msgid "Sparta"
 msgctxt "City in Illinois, United States"
 msgid "Sparta"
 msgstr "Sparta"
@@ -18217,7 +18054,6 @@ msgid "Springdale"
 msgstr "Springdale"
 
 #. A city in Colorado in the United States
-#| msgid "Springfield"
 msgctxt "City in Colorado, United States"
 msgid "Springfield"
 msgstr "Springfield"
@@ -18323,7 +18159,6 @@ msgid "Stillwater"
 msgstr "Stillwater"
 
 #. A city in California in the United States
-#| msgid "Stockton"
 msgctxt "City in California, United States"
 msgid "Stockton"
 msgstr "Stockton"
@@ -18345,7 +18180,6 @@ msgid "Sturgis"
 msgstr "Sturgis"
 
 #. A city in Arkansas in the United States
-#| msgid "Stuttgart"
 msgctxt "City in Arkansas, United States"
 msgid "Stuttgart"
 msgstr "Stuttgart"
@@ -18371,7 +18205,6 @@ msgid "Sussex"
 msgstr "Sussex"
 
 #. A city in Alaska in the United States
-#| msgid "Sutton"
 msgctxt "City in Alaska, United States"
 msgid "Sutton"
 msgstr "Sutton"
@@ -18546,7 +18379,6 @@ msgid "Traverse City"
 msgstr "Traverse City"
 
 #. A city in New Jersey in the United States
-#| msgid "Trenton"
 msgctxt "City in New Jersey, United States"
 msgid "Trenton"
 msgstr "Trenton"
@@ -18557,7 +18389,6 @@ msgid "Trinidad"
 msgstr "Trînîdad"
 
 #. A city in Alabama in the United States
-#| msgid "Troy"
 msgctxt "City in Alabama, United States"
 msgid "Troy"
 msgstr "Troy"
@@ -18660,13 +18491,11 @@ msgid "Vallejo"
 msgstr "Vallejo"
 
 #. A city in Florida in the United States
-#| msgid "Valparaiso"
 msgctxt "City in Florida, United States"
 msgid "Valparaiso"
 msgstr "Valparaiso"
 
 #. A city in Indiana in the United States
-#| msgid "Valparaiso"
 msgctxt "City in Indiana, United States"
 msgid "Valparaiso"
 msgstr "Valparaiso"
@@ -18698,7 +18527,6 @@ msgid "Vero Beach"
 msgstr "Vero Beach"
 
 #. A city in Missouri in the United States
-#| msgid "Vichy"
 msgctxt "City in Missouri, United States"
 msgid "Vichy"
 msgstr "Vichy"
@@ -18793,7 +18621,6 @@ msgid "Warroad"
 msgstr "Warroad"
 
 #. A city in Indiana in the United States
-#| msgid "Warsaw"
 msgctxt "City in Indiana, United States"
 msgid "Warsaw"
 msgstr "Warsaw"
@@ -18803,7 +18630,6 @@ msgid "Waseca"
 msgstr "Waseca"
 
 #. The capital of the United States
-#| msgid "Washington"
 msgctxt "City in District of Columbia, United States"
 msgid "Washington"
 msgstr "Waşîngton"
@@ -18836,13 +18662,11 @@ msgid "Waterbury"
 msgstr "Waterbury"
 
 #. A city in Iowa in the United States
-#| msgid "Waterloo"
 msgctxt "City in Iowa, United States"
 msgid "Waterloo"
 msgstr "Waterloo"
 
 #. A city in New York in the United States
-#| msgid "Watertown"
 msgctxt "City in New York, United States"
 msgid "Watertown"
 msgstr "Watertown"
@@ -19030,7 +18854,6 @@ msgid "Willow Grove"
 msgstr "Willow Grove"
 
 #. A city in Delaware in the United States
-#| msgid "Wilmington"
 msgctxt "City in Delaware, United States"
 msgid "Wilmington"
 msgstr "Wilmington"
@@ -19138,7 +18961,6 @@ msgid "Wrangell"
 msgstr "Wrangell"
 
 #. A city in Wyoming in the United States
-#| msgid "Wyoming"
 msgctxt "City in Wyoming, United States"
 msgid "Wyoming"
 msgstr "Wyoming"
@@ -19160,7 +18982,6 @@ msgid "Yonkers"
 msgstr "Yonkers"
 
 #. A city in Nebraska in the United States
-#| msgid "York"
 msgctxt "City in Nebraska, United States"
 msgid "York"
 msgstr "York"
@@ -19320,7 +19141,6 @@ msgid "Morocure"
 msgstr "Morocure"
 
 #. A city in Venezuela
-#| msgid "Mérida"
 msgctxt "City in Venezuela"
 msgid "Mérida"
 msgstr "Mérida"
@@ -19453,1897 +19273,3 @@ msgstr "Ndola"
 #.
 msgid "Mariehamn"
 msgstr "Mariehamn"
-
-#~ msgid "Bombay"
-#~ msgstr "Mumbay"
-
-#~ msgid "Calcutta"
-#~ msgstr "Kalkûta"
-
-#, fuzzy
-#~ msgid "Langenes"
-#~ msgstr "Varennes"
-
-#, fuzzy
-#~ msgid "Madras"
-#~ msgstr "Madang"
-
-#, fuzzy
-#~ msgid "Robertson"
-#~ msgstr "Norton"
-
-#~ msgid "Cajamarca"
-#~ msgstr "Cajamarca"
-
-#~ msgid "Cantwell"
-#~ msgstr "Cantwell"
-
-#~ msgid "Casablanca"
-#~ msgstr "Casablanca"
-
-#~ msgid "Central"
-#~ msgstr "Central"
-
-#, fuzzy
-#~ msgctxt "City in Kentucky, United States"
-#~ msgid "Monticello"
-#~ msgstr "Monticello"
-
-#, fuzzy
-#~ msgid "Fox Bay"
-#~ msgstr "North Bay"
-
-#~ msgid "Golovin"
-#~ msgstr "Golovin"
-
-#, fuzzy
-#~ msgid "Harare"
-#~ msgstr "Barre"
-
-#, fuzzy
-#~ msgid "Kunigami"
-#~ msgstr "Kigali"
-
-#~ msgid "Luanda"
-#~ msgstr "Luanda"
-
-#, fuzzy
-#~ msgid "Manado"
-#~ msgstr "Kanada"
-
-#, fuzzy
-#~ msgid "New Shoreham"
-#~ msgstr "New York"
-
-#, fuzzy
-#~ msgid "P'ohang"
-#~ msgstr "Poland"
-
-#, fuzzy
-#~ msgid "Sach'on"
-#~ msgstr "Lacon"
-
-#, fuzzy
-#~ msgid "Saint Mawgan"
-#~ msgstr "Santa Maria"
-
-#, fuzzy
-#~ msgid "Soesterberg"
-#~ msgstr "Worcester"
-
-#, fuzzy
-#~ msgid "Suva"
-#~ msgstr "Souda"
-
-#~ msgid "Tete"
-#~ msgstr "Tete"
-
-#, fuzzy
-#~ msgid "Tingo María"
-#~ msgstr "San Martín"
-
-#~ msgid "Warszawa"
-#~ msgstr "Warszawa"
-
-#~ msgid "West Yellowstone"
-#~ msgstr "West Yellowstone"
-
-#~ msgid "Wewak"
-#~ msgstr "Wewak"
-
-#~ msgid "Whiteville"
-#~ msgstr "Whiteville"
-
-#~ msgid "Willimantic"
-#~ msgstr "Willimantic"
-
-#~ msgid "Windhoek"
-#~ msgstr "Windhoek"
-
-#~ msgid "Woodward"
-#~ msgstr "Woodward"
-
-#~ msgid "Yurimaguas"
-#~ msgstr "Yurimaguas"
-
-#~ msgid "20 Mile Hill"
-#~ msgstr "20 Mile Hill"
-
-#~ msgid "Abeche"
-#~ msgstr "Abeche"
-
-#~ msgid "Abong-Mbang"
-#~ msgstr "Abong-Mbang"
-
-#~ msgid "Abu Dhabi - Bateen"
-#~ msgstr "Abu Dhabi - Bateen"
-
-#~ msgid "Abumusa Island/Abumusa"
-#~ msgstr "Abumusa Island/Abumusa"
-
-#~ msgid "Adak Island"
-#~ msgstr "Adak Island"
-
-#~ msgid "Adana/Incirlik"
-#~ msgstr "Adana/Incirlik"
-
-#~ msgid "Adana/Sakirpasa"
-#~ msgstr "Adana/Şakirpasa"
-
-#~ msgid "Addenbrooke"
-#~ msgstr "Addenbrooke"
-
-#~ msgid "Addis Ababa"
-#~ msgstr "Addis Ababa"
-
-#~ msgid "Aden"
-#~ msgstr "Aden"
-
-#~ msgid "Adiake"
-#~ msgstr "Adiake"
-
-#~ msgid "Adnan Menderes"
-#~ msgstr "Adnan Menderes"
-
-#~ msgid "Aeroparque"
-#~ msgstr "Aeroparque"
-
-#~ msgid "Aeroporto Da Madeira"
-#~ msgstr "Aeroporto Da Madeira"
-
-#~ msgid "Afonso Pena Airport"
-#~ msgstr "Afonso Pena Airport"
-
-#~ msgid "Afyon"
-#~ msgstr "Afyon"
-
-#~ msgid "Agadir Al Massira"
-#~ msgstr "Agadir Al Massira"
-
-#~ msgid "Agordat"
-#~ msgstr "Agordat"
-
-#~ msgid "Agrinio"
-#~ msgstr "Agrinio"
-
-#~ msgid "Aioun El Atrouss"
-#~ msgstr "Aioun El Atrouss"
-
-#~ msgid "Air Force Academy"
-#~ msgstr "Air Force Academy"
-
-#~ msgid "Air Force Base"
-#~ msgstr "Air Force Base"
-
-#~ msgid "Airlake"
-#~ msgstr "Airlake"
-
-#~ msgid "Airlake Airport"
-#~ msgstr "Airlake Airport"
-
-#~ msgid "Airport Jose Martí, Rancho-Boyeros, Habana"
-#~ msgstr "Airport Jose Martí, Rancho-Boyeros, Habana"
-
-#~ msgid "Aix-en-Provence"
-#~ msgstr "Aix-en-Provence"
-
-#~ msgid "Aix-les-Bains"
-#~ msgstr "Aix-les-Bains"
-
-#~ msgid "Ajo"
-#~ msgstr "Ajo"
-
-#~ msgid "Akeno Ab"
-#~ msgstr "Akeno Ab"
-
-#~ msgid "Akhisar"
-#~ msgstr "Akhisar"
-
-#~ msgid "Akim Oda"
-#~ msgstr "Akim Oda"
-
-#~ msgid "Akjoujt"
-#~ msgstr "Akjoujt"
-
-#~ msgid "Akola"
-#~ msgstr "Akola"
-
-#~ msgid "Akron, Akron Fulton International Airport"
-#~ msgstr "Akron, Akron Fulton International Airport"
-
-#~ msgid "Aktion"
-#~ msgstr "Aktion"
-
-#~ msgid "Aktjubinsk"
-#~ msgstr "Aktjubinsk"
-
-#~ msgid "Akulivik"
-#~ msgstr "Akulivik"
-
-#~ msgid "Al Ahsa"
-#~ msgstr "Al Ahsa"
-
-#~ msgid "Al-Hazm"
-#~ msgstr "Al-Hazm"
-
-#~ msgid "Alacant/L'Altet"
-#~ msgstr "Alacant/L'Altet"
-
-#~ msgid "Albrook Afs/Balboa"
-#~ msgstr "Albrook Afs/Balboa"
-
-#~ msgid "Albuquerque Airport"
-#~ msgstr "Albuquerque Airport"
-
-#~ msgid "Albuquerque Radar Site"
-#~ msgstr "Albuquerque Radar Site"
-
-#~ msgid "Alert"
-#~ msgstr "Alert"
-
-#~ msgid "Alexander Bay"
-#~ msgstr "Alexander Bay"
-
-#~ msgid "Alexandria Borg El Arab"
-#~ msgstr "Alexandria Borg El Arab"
-
-#~ msgid "Alexandria-Esler"
-#~ msgstr "Alexandria-Esler"
-
-#~ msgid "Alexandria/Nouzha"
-#~ msgstr "Alexandria/Nouzha"
-
-#~ msgid "Alexis River"
-#~ msgstr "Alexis River"
-
-#~ msgid "Alice Town, Bimini"
-#~ msgstr "Alice Town, Bimini"
-
-#~ msgid "Alindao"
-#~ msgstr "Alindao"
-
-#~ msgid "Aliwal North"
-#~ msgstr "Aliwal North"
-
-#~ msgid "Alki Point"
-#~ msgstr "Alki Point"
-
-#~ msgid "Allahabad/Bamhrauli"
-#~ msgstr "Allahabad/Bamhrauli"
-
-#~ msgid "Almería/Airport"
-#~ msgstr "Almería/Airport"
-
-#~ msgid "Alofi / Niue"
-#~ msgstr "Alofi / Niue"
-
-#~ msgid "Alor / Mali"
-#~ msgstr "Alor / Mali"
-
-#~ msgid "Alor Setar"
-#~ msgstr "Alor Setar"
-
-#~ msgid "Alpine Airstrip"
-#~ msgstr "Alpine Airstrip"
-
-#~ msgid "Altenstadt-Schongau"
-#~ msgstr "Altenstadt-Schongau"
-
-#~ msgid "Am-Timan"
-#~ msgstr "Am-Timan"
-
-#~ msgid "Amahai"
-#~ msgstr "Amahai"
-
-#~ msgid "Amasya"
-#~ msgstr "Amasya"
-
-#~ msgid "Ambato/Chachoan"
-#~ msgstr "Ambato/Chachoan"
-
-#~ msgid "Amberley"
-#~ msgstr "Amberley"
-
-#~ msgid "Ambon / Pattimura"
-#~ msgstr "Ambon / Pattimura"
-
-#~ msgid "Ambrose / Ft. Tilden"
-#~ msgstr "Ambrose / Ft. Tilden"
-
-#~ msgid "Amendola"
-#~ msgstr "Amendola"
-
-#~ msgid "Amherst"
-#~ msgstr "Amherst"
-
-#~ msgid "Ampenan / Selaparang"
-#~ msgstr "Ampenan / Selaparang"
-
-#~ msgid "Amphitrite Point"
-#~ msgstr "Amphitrite Point"
-
-#~ msgid "Anacapa Island"
-#~ msgstr "Anacapa Island"
-
-#~ msgid "Analalava"
-#~ msgstr "Analalava"
-
-#~ msgid "Anapa/Vitiazevo"
-#~ msgstr "Anapa/Vitiazevo"
-
-#~ msgid "Andersen"
-#~ msgstr "Andersen"
-
-#~ msgid "Andøya"
-#~ msgstr "Andøya"
-
-#~ msgid "Angisoq"
-#~ msgstr "Angisoq"
-
-#~ msgid "Anholt Island"
-#~ msgstr "Anholt Island"
-
-#~ msgid "Ankara/Esenboga"
-#~ msgstr "Enqere/Esenboga"
-
-#~ msgid "Ankara/Etimesgut"
-#~ msgstr "Enqere/Etimesgut"
-
-#~ msgid "Ankara/Guvercin Lik"
-#~ msgstr "Ankara/Guvercîn Lîk"
-
-#~ msgid "Annapolis Coast Guard Station"
-#~ msgstr "Annapolis Coast Guard Station"
-
-#~ msgid "Anta Huaraz"
-#~ msgstr "Anta Huaraz"
-
-#~ msgid "Antalaha"
-#~ msgstr "Antalaha"
-
-#~ msgid "Antigua"
-#~ msgstr "Antigua"
-
-#~ msgid "Anuradhapura"
-#~ msgstr "Anuradhapura"
-
-#~ msgid "Aoulef"
-#~ msgstr "Aoulef"
-
-#~ msgid "Aparri"
-#~ msgstr "Aparri"
-
-#~ msgid "Apartado/Los Cedros"
-#~ msgstr "Apartado/Los Cedros"
-
-#~ msgid "Apia / Upolu Island"
-#~ msgstr "Apia / Upolu Island"
-
-#~ msgid "Apolo"
-#~ msgstr "Apolo"
-
-#~ msgid "Aputiteeq"
-#~ msgstr "Aputiteeq"
-
-#~ msgid "Aquadilla"
-#~ msgstr "Aquadilla"
-
-#~ msgid "Arak"
-#~ msgstr "Arak"
-
-#~ msgid "Aralskoe More"
-#~ msgstr "Aralskoe More"
-
-#~ msgid "Arauca/Santiago Pérez"
-#~ msgstr "Arauca/Santiago Pérez"
-
-#~ msgid "Arba Minch"
-#~ msgstr "Arba Minch"
-
-#~ msgid "Ardmore, Ardmore Downtown Executive Airport"
-#~ msgstr "Ardmore, Ardmore Downtown Executive Airport"
-
-#~ msgid "Arezzo"
-#~ msgstr "Arezzo"
-
-#~ msgid "Arlington Automatic Weather Observing/Reporting System"
-#~ msgstr "Arlington Automatic Weather Observing/Reporting System"
-
-#~ msgid "Arlington Municipal"
-#~ msgstr "Arlington Municipal"
-
-#~ msgid "Arlington Municipal Airport"
-#~ msgstr "Arlington Municipal Airport"
-
-#~ msgid "Armenia/El Eden"
-#~ msgstr "Armenia/El Eden"
-
-#~ msgid "Armor"
-#~ msgstr "Armor"
-
-#~ msgid "Armstrong"
-#~ msgstr "Armstrong"
-
-#~ msgid "Artigas"
-#~ msgstr "Artigas"
-
-#~ msgid "Arwi"
-#~ msgstr "Arwi"
-
-#~ msgid "Asahikawa Airport"
-#~ msgstr "Asahikawa Airport"
-
-#~ msgid "Ascensión De Guarayos"
-#~ msgstr "Ascensión De Guarayos"
-
-#~ msgid "Ashburnam"
-#~ msgstr "Ashburnam"
-
-#~ msgid "Ashtabula Coast Guard Station"
-#~ msgstr "Ashtabula Coast Guard Station"
-
-#~ msgid "Ashtabula County Airport"
-#~ msgstr "Ashtabula County Airport"
-
-#~ msgid "Asmara"
-#~ msgstr "Asmara"
-
-#~ msgid "Assab"
-#~ msgstr "Assab"
-
-#~ msgid "Assosa / Asosa"
-#~ msgstr "Assosa / Asosa"
-
-#~ msgid "Astor"
-#~ msgstr "Astor"
-
-#~ msgid "Atakpame"
-#~ msgstr "Atakpame"
-
-#~ msgid "Atar"
-#~ msgstr "Atar"
-
-#~ msgid "Ataturk"
-#~ msgstr "Ataturk"
-
-#~ msgid "Athalassa"
-#~ msgstr "Athalassa"
-
-#~ msgid "Atikokan"
-#~ msgstr "Atikokan"
-
-#~ msgid "Atka"
-#~ msgstr "Atka"
-
-#~ msgid "Atlantic City Coast Guard Station"
-#~ msgstr "Atlantic City Coast Guard Station"
-
-#~ msgid "Atsugi United States Naval Air Station"
-#~ msgstr "Atsugi United States Naval Air Station"
-
-#~ msgid "Attopeu"
-#~ msgstr "Attopeu"
-
-#~ msgid "Auburn University"
-#~ msgstr "Auburn University"
-
-#~ msgid "Auburn-Lewiston"
-#~ msgstr "Auburn-Lewiston"
-
-#~ msgid "Audubon Park"
-#~ msgstr "Audubon Park"
-
-#~ msgid "Augusto Vergara"
-#~ msgstr "Augusto Vergara"
-
-#~ msgid "Aupaluk"
-#~ msgstr "Aupaluk"
-
-#~ msgid "Aurora Buckley Air Force Base"
-#~ msgstr "Aurora Buckley Air Force Base"
-
-#~ msgid "Aurora State"
-#~ msgstr "Aurora State"
-
-#~ msgid "Aurora State Airport"
-#~ msgstr "Aurora State Airport"
-
-#~ msgid "Austin City"
-#~ msgstr "Austin City"
-
-#~ msgid "Automatic Meteorological Observing System"
-#~ msgstr "Automatic Meteorological Observing System"
-
-#~ msgid "Automatic Surface Observing System"
-#~ msgstr "Automatic Surface Observing System"
-
-#~ msgid "Aviano Usaf"
-#~ msgstr "Aviano Usaf"
-
-#~ msgid "Aviation Weather Reporting Station"
-#~ msgstr "Aviation Weather Reporting Station"
-
-#~ msgid "Avnø"
-#~ msgstr "Avnø"
-
-#~ msgid "Awash"
-#~ msgstr "Awash"
-
-#~ msgid "Awassa"
-#~ msgstr "Awassa"
-
-#~ msgid "Axim"
-#~ msgstr "Axim"
-
-#~ msgid "Axum"
-#~ msgstr "Axum"
-
-#~ msgid "Aydin"
-#~ msgstr "Aydin"
-
-#~ msgid "Ayer"
-#~ msgstr "Ayer"
-
-#~ msgid "Ayers Rock"
-#~ msgstr "Ayers Rock"
-
-#~ msgid "Azul"
-#~ msgstr "Azul"
-
-#~ msgid "Babelthuap Island"
-#~ msgstr "Babelthuap Island"
-
-#~ msgid "Bacacheri Airport"
-#~ msgstr "Bacacheri Airport"
-
-#~ msgid "Bachelors Island"
-#~ msgstr "Bachelors Island"
-
-#~ msgid "Baco / Bako"
-#~ msgstr "Baco / Bako"
-
-#~ msgid "Bad Kreuznach"
-#~ msgstr "Bad Kreuznach"
-
-#~ msgid "Badger"
-#~ msgstr "Badger"
-
-#~ msgid "Bafata"
-#~ msgstr "Bafata"
-
-#~ msgid "Baghdad"
-#~ msgstr "Bexda"
-
-#~ msgid "Baguio"
-#~ msgstr "Baguio"
-
-#~ msgid "Bahar Dar"
-#~ msgstr "Bahar Dar"
-
-#~ msgid "Bahia Blanca"
-#~ msgstr "Bahia Blanca"
-
-#~ msgid "Bahía De Caraquez"
-#~ msgstr "Bahía De Caraquez"
-
-#~ msgid "Bahías de Huatulco"
-#~ msgstr "Bahías de Huatulco"
-
-#~ msgid "Balikpapan / Sepinggan"
-#~ msgstr "Balikpapan / Sepinggan"
-
-#~ msgid "Ballenas Island"
-#~ msgstr "Ballenas Island"
-
-#~ msgid "Bam"
-#~ msgstr "Bam"
-
-#~ msgid "Bamako / Senou"
-#~ msgstr "Bamako / Senou"
-
-#~ msgid "Banda Aceh / Blangbintang"
-#~ msgstr "Banda Aceh / Blangbintang"
-
-#~ msgid "Bandundu"
-#~ msgstr "Bandundu"
-
-#~ msgid "Bandung / Husein"
-#~ msgstr "Bandung / Husein"
-
-#~ msgid "Banff AWRS"
-#~ msgstr "Banff AWRS"
-
-#~ msgid "Bangalore/Hindustan"
-#~ msgstr "Bangalore/Hindustan"
-
-#~ msgid "Banjarmasin / Syamsuddin Noor"
-#~ msgstr "Banjarmasin / Syamsuddin Noor"
-
-#~ msgid "Banjul / Yundum"
-#~ msgstr "Banjul / Yundum"
-
-#~ msgid "Barbers Point"
-#~ msgstr "Barbers Point"
-
-#~ msgid "Barcelona/Airport"
-#~ msgstr "Barcelona/Airport"
-
-#~ msgid "Bardufoss"
-#~ msgstr "Bardufoss"
-
-#~ msgid "Bari/Palese Macchie"
-#~ msgstr "Bari/Palese Macchie"
-
-#~ msgid "Bariloche"
-#~ msgstr "Bariloche"
-
-#~ msgid "Barking Sand"
-#~ msgstr "Barking Sand"
-
-#~ msgid "Barkston Heath"
-#~ msgstr "Barkston Heath"
-
-#~ msgid "Barrancabermeja/Yariguies"
-#~ msgstr "Barrancabermeja/Yariguies"
-
-#~ msgid "Barranquilla/Ernesto Cortissoz"
-#~ msgstr "Barranquilla/Ernesto Cortissoz"
-
-#~ msgid "Basel-Mulhouse-Freiburg"
-#~ msgstr "Basel-Mulhouse-Freiburg"
-
-#~ msgid "Bastrop"
-#~ msgstr "Bastrop"
-
-#~ msgid "Batan, Sumatra"
-#~ msgstr "Batan, Sumatra"
-
-#~ msgid "Bath"
-#~ msgstr "Bath"
-
-#~ msgid "Batouri"
-#~ msgstr "Batouri"
-
-#~ msgid "Batticaloa"
-#~ msgstr "Batticaloa"
-
-#~ msgid "Battle Mountain"
-#~ msgstr "Battle Mountain"
-
-#~ msgid "Bau-Bau / Beto Ambiri"
-#~ msgstr "Bau-Bau / Beto Ambiri"
-
-#~ msgid "Bauerfield Efate"
-#~ msgstr "Bauerfield Efate"
-
-#~ msgid "Bay Shore / Fire Island"
-#~ msgstr "Bay Shore / Fire Island"
-
-#~ msgid "Bayamo"
-#~ msgstr "Bayamo"
-
-#~ msgid "Bayreuth"
-#~ msgstr "Bayreuth"
-
-#~ msgid "Beartooth Island"
-#~ msgstr "Beartooth Island"
-
-#~ msgid "Beaufort West"
-#~ msgstr "Beaufort West"
-
-#~ msgid "Beauport CS"
-#~ msgstr "Beauport CS"
-
-#~ msgid "Beausoleil Island"
-#~ msgstr "Beausoleil Island"
-
-#~ msgid "Beaven Island"
-#~ msgstr "Beaven Island"
-
-#~ msgid "Beaver Creek"
-#~ msgstr "Beaver Creek"
-
-#~ msgid "Beaver Island"
-#~ msgstr "Beaver Island"
-
-#~ msgid "Beaver Rim"
-#~ msgstr "Beaver Rim"
-
-#~ msgid "Beaverlodge"
-#~ msgstr "Beaverlodge"
-
-#~ msgid "Beef Island, Tortola"
-#~ msgstr "Beef Island, Tortola"
-
-#~ msgid "Beer-Sheva"
-#~ msgstr "Beer-Sheva"
-
-#~ msgid "Beitbridge"
-#~ msgstr "Beitbridge"
-
-#~ msgid "Belet Uen"
-#~ msgstr "Belet Uen"
-
-#~ msgid "Belfast/Aldergrove"
-#~ msgstr "Belfast/Aldergrove"
-
-#~ msgid "Belgaum/Sambra"
-#~ msgstr "Belgaum/Sambra"
-
-#~ msgid "Belgorod"
-#~ msgstr "Belgorod"
-
-#~ msgid "Bellary"
-#~ msgstr "Bellary"
-
-#~ msgid "Belle Fourche"
-#~ msgstr "Belle Fourche"
-
-#~ msgid "Belle Isle"
-#~ msgstr "Belle Isle"
-
-#~ msgid "Belle River"
-#~ msgstr "Belle River"
-
-#~ msgid "Belmar-Farmingdale"
-#~ msgstr "Belmar-Farmingdale"
-
-#~ msgid "Belp"
-#~ msgstr "Belp"
-
-#~ msgid "Ben-Gurion"
-#~ msgstr "Ben-Gurion"
-
-#~ msgid "Benbecula"
-#~ msgstr "Benbecula"
-
-#~ msgid "Bengkulu / Padangkemiling"
-#~ msgstr "Bengkulu / Padangkemiling"
-
-#~ msgid "Benjamin Constant"
-#~ msgstr "Benjamin Constant"
-
-#~ msgid "Bentlage"
-#~ msgstr "Bentlage"
-
-#~ msgid "Berens River Airport"
-#~ msgstr "Berens River Airport"
-
-#~ msgid "Bergamo/Orio Al Serio"
-#~ msgstr "Bergamo/Orio Al Serio"
-
-#~ msgid "Bergstrom Air Force Base"
-#~ msgstr "Bergstrom Air Force Base"
-
-#~ msgid "Bertrix"
-#~ msgstr "Bertrix"
-
-#~ msgid "Besalampy"
-#~ msgstr "Besalampy"
-
-#~ msgid "Besançon"
-#~ msgstr "Besançon"
-
-#~ msgid "Betare-Oya"
-#~ msgstr "Betare-Oya"
-
-#~ msgid "Bethany"
-#~ msgstr "Bethany"
-
-#~ msgid "Bethlehem"
-#~ msgstr "Bethlehem"
-
-#~ msgid "Bhamo"
-#~ msgstr "Bhamo"
-
-#~ msgid "Bhopal/Bairagarh"
-#~ msgstr "Bhopal/Bairagarh"
-
-#~ msgid "Bhuj-Rudramata"
-#~ msgstr "Bhuj-Rudramata"
-
-#~ msgid "Biak / Mokmer"
-#~ msgstr "Biak / Mokmer"
-
-#~ msgid "Biarritz-Bayonne"
-#~ msgstr "Biarritz-Bayonne"
-
-#~ msgid "Bicycle Lake"
-#~ msgstr "Bicycle Lake"
-
-#~ msgid "Bie Silva Porto"
-#~ msgstr "Bie Silva Porto"
-
-#~ msgid "Big Delta Arctic Weather"
-#~ msgstr "Big Delta Arctic Weather"
-
-#~ msgid "Big River Lake"
-#~ msgstr "Big River Lake"
-
-#~ msgid "Big Trout Lake"
-#~ msgstr "Big Trout Lake"
-
-#~ msgid "Biggs"
-#~ msgstr "Biggs"
-
-#~ msgid "Bilbao/Sondika"
-#~ msgstr "Bilbao/Sondika"
-
-#~ msgid "Billing Yell"
-#~ msgstr "Billing Yell"
-
-#~ msgid "Binga"
-#~ msgstr "Binga"
-
-#~ msgid "Biorka Island"
-#~ msgstr "Biorka Island"
-
-#~ msgid "Bir Moghrein"
-#~ msgstr "Bir Moghrein"
-
-#~ msgid "Blaine"
-#~ msgstr "Blaine"
-
-#~ msgid "Brewster"
-#~ msgstr "Brewster"
-
-#~ msgid "Bromma"
-#~ msgstr "Bromma"
-
-#~ msgid "Candle Lake"
-#~ msgstr "Candle Lake"
-
-#~ msgid "Chepes"
-#~ msgstr "Chepes"
-
-#~ msgid "Chiayi"
-#~ msgstr "Chiayi"
-
-#~ msgid "Clover"
-#~ msgstr "Clover"
-
-#~ msgid "Coltishall"
-#~ msgstr "Coltishall"
-
-#~ msgid "Command Post Tango"
-#~ msgstr "Command Post Tango"
-
-#~ msgid "Coppermine"
-#~ msgstr "Coppermine"
-
-#~ msgid "Cozad"
-#~ msgstr "Cozad"
-
-#~ msgid "Crowsnest"
-#~ msgstr "Crowsnest"
-
-#~ msgid "Deschambaults"
-#~ msgstr "Deschambaults"
-
-#~ msgid "Djelfa"
-#~ msgstr "Djelfa"
-
-#~ msgid "Dolores"
-#~ msgstr "Dolores"
-
-#~ msgid "Dzizak"
-#~ msgstr "Dzizak"
-
-#~ msgid "Eastmain"
-#~ msgstr "Eastmain"
-
-#~ msgid "Ekati"
-#~ msgstr "Ekati"
-
-#~ msgid "Elbow"
-#~ msgstr "Elbow"
-
-#~ msgid "Elista"
-#~ msgstr "Elista"
-
-#~ msgid "Falmouth"
-#~ msgstr "Falmouth"
-
-#~ msgid "Fonni"
-#~ msgstr "Fonni"
-
-#~ msgid "Frobisher"
-#~ msgstr "Frobisher"
-
-#~ msgid "Gela"
-#~ msgstr "Gela"
-
-#~ msgid "Gemena"
-#~ msgstr "Gemena"
-
-#~ msgid "Geneina"
-#~ msgstr "Geneina"
-
-#~ msgid "General Pico"
-#~ msgstr "General Pico"
-
-#~ msgid "Genk"
-#~ msgstr "Genk"
-
-#~ msgid "Goma"
-#~ msgstr "Goma"
-
-#~ msgid "Gretna"
-#~ msgstr "Gretna"
-
-#~ msgid "Groennedal"
-#~ msgstr "Groennedal"
-
-#~ msgid "Hissar"
-#~ msgstr "Hissar"
-
-#~ msgid "Hopen"
-#~ msgstr "Hopen"
-
-#~ msgid "Jhansi"
-#~ msgstr "Jhansi"
-
-#~ msgid "Kedougou"
-#~ msgstr "Kedougou"
-
-#~ msgid "Kefalhnia"
-#~ msgstr "Kefalhnia"
-
-#~ msgid "Keflavík"
-#~ msgstr "Keflavík"
-
-#~ msgid "Kejimkujik"
-#~ msgstr "Kejimkujik"
-
-#~ msgid "Kelibia"
-#~ msgstr "Kelibia"
-
-#~ msgid "Kelly Air Force Base"
-#~ msgstr "Kelly Air Force Base"
-
-#~ msgid "Kelp Reefs"
-#~ msgstr "Kelp Reefs"
-
-#~ msgid "Kendari / Woltermon-Ginsidi"
-#~ msgstr "Kendari / Woltermon-Ginsidi"
-
-#~ msgid "Kenge"
-#~ msgstr "Kenge"
-
-#~ msgid "Kengtung"
-#~ msgstr "Kengtung"
-
-#~ msgid "Kenieba"
-#~ msgstr "Kenieba"
-
-#~ msgid "Kenitra"
-#~ msgstr "Kenitra"
-
-#~ msgid "Kennedy Airport"
-#~ msgstr "Kennedy Airport"
-
-#~ msgid "Kenosha Coast Guard Station"
-#~ msgstr "Kenosha Coast Guard Station"
-
-#~ msgid "Keo Jin"
-#~ msgstr "Keo Jin"
-
-#~ msgid "Kericho"
-#~ msgstr "Kericho"
-
-#~ msgid "Kerinci / Depati Parbo"
-#~ msgstr "Kerinci / Depati Parbo"
-
-#~ msgid "Ketapang / Rahadi Usmaman"
-#~ msgstr "Ketapang / Rahadi Usmaman"
-
-#~ msgid "Key West NAS"
-#~ msgstr "Key West NAS"
-
-#~ msgid "Khandwa"
-#~ msgstr "Khandwa"
-
-#~ msgid "Khassab"
-#~ msgstr "Khassab"
-
-#~ msgid "Khoy"
-#~ msgstr "Xoy"
-
-#~ msgid "Khrabrovo"
-#~ msgstr "Khrabrovo"
-
-#~ msgid "Kiffa"
-#~ msgstr "Kiffa"
-
-#~ msgid "Kikai Island"
-#~ msgstr "Kikai Island"
-
-#~ msgid "Killarney"
-#~ msgstr "Killarney"
-
-#~ msgid "Killineq"
-#~ msgstr "Killineq"
-
-#~ msgid "Kilwa Masoko"
-#~ msgstr "Kilwa Masoko"
-
-#~ msgid "Kimberley"
-#~ msgstr "Kimberley"
-
-#~ msgid "Kimmirut"
-#~ msgstr "Kimmirut"
-
-#~ msgid "Kindakun Rocks"
-#~ msgstr "Kindakun Rocks"
-
-#~ msgid "Kindia"
-#~ msgstr "Kindia"
-
-#~ msgid "King Khaled International Airport"
-#~ msgstr "King Khaled International Airport"
-
-#~ msgid "Kingston/Norman Manley"
-#~ msgstr "Kingston/Norman Manley"
-
-#~ msgid "Kinshasa / N'Djili"
-#~ msgstr "Kinshasa / N'Djili"
-
-#~ msgid "Kirensk"
-#~ msgstr "Kirensk"
-
-#~ msgid "Kisangani"
-#~ msgstr "Kisangani"
-
-#~ msgid "Kisarazu Ab"
-#~ msgstr "Kisarazu Ab"
-
-#~ msgid "Kish Island/Kish"
-#~ msgstr "Girava Ki /Ki  ş"
-
-#~ msgid "Kissidougou"
-#~ msgstr "Kissidougou"
-
-#~ msgid "Kissimmee Municipal Airport"
-#~ msgstr "Kissimmee Municipal Airport"
-
-#~ msgid "Kitadaito Island"
-#~ msgstr "Kitadaito Island"
-
-#~ msgid "La Pocatiere"
-#~ msgstr "La Pocatiere"
-
-#~ msgid "Location 2"
-#~ msgstr "Cihê 2"
-
-#~ msgid "Location 3"
-#~ msgstr "Cihê 2"
-
-#~ msgid "Location 4"
-#~ msgstr "Cihê 4"
-
-#~ msgid "Lodja"
-#~ msgstr "Lodja"
-
-#~ msgid "Loudes"
-#~ msgstr "Loudes"
-
-#~ msgid "Loveland"
-#~ msgstr "Loveland"
-
-#~ msgid "Macenta"
-#~ msgstr "Macenta"
-
-#~ msgid "Mackenzie"
-#~ msgstr "Mackenzie"
-
-#~ msgid "Makedonia"
-#~ msgstr "Makedonia"
-
-#~ msgid "Manisa"
-#~ msgstr "Manisa"
-
-#~ msgid "Martin"
-#~ msgstr "Martin"
-
-#~ msgid "Masset"
-#~ msgstr "Masset"
-
-#~ msgid "Mendig"
-#~ msgstr "Mendig"
-
-#~ msgid "Meru"
-#~ msgstr "Meru"
-
-#~ msgid "Mfuwe"
-#~ msgstr "Mfuwe"
-
-#~ msgid "Midlothian/Waxahachie"
-#~ msgstr "Midlothian/Waxahachie"
-
-#~ msgid "Midway Airport"
-#~ msgstr "Midway Airport"
-
-#~ msgid "Midwest City"
-#~ msgstr "Midwest City"
-
-#~ msgid "Miho Ab"
-#~ msgstr "Miho Ab"
-
-#~ msgid "Milano/Linate"
-#~ msgstr "Milano/Linate"
-
-#~ msgid "Milano/Malpensa"
-#~ msgstr "Milano/Malpensa"
-
-#~ msgid "Millard Airport"
-#~ msgstr "Millard Airport"
-
-#~ msgid "Milwaukee Coast Guard Light Station"
-#~ msgstr "Milwaukee Coast Guard Light Station"
-
-#~ msgid "Milwaukee NEXRAD"
-#~ msgstr "Milwaukee NEXRAD"
-
-#~ msgid "Minamidaitojima"
-#~ msgstr "Minamidaitojima"
-
-#~ msgid "Minamitorishima"
-#~ msgstr "Minamitorishima"
-
-#~ msgid "Mineola/Quitman"
-#~ msgstr "Mineola/Quitman"
-
-#~ msgid "Mineral Point"
-#~ msgstr "Mineral Point"
-
-#~ msgid "Mingaladon"
-#~ msgstr "Mingaladon"
-
-#~ msgid "Minneapolis-St.Paul International Airport"
-#~ msgstr "Minneapolis-St.Paul International Airport"
-
-#~ msgid "Minocqua"
-#~ msgstr "Minocqua"
-
-#~ msgid "Minot AFB"
-#~ msgstr "Minot AFB"
-
-#~ msgid "Mirabel"
-#~ msgstr "Mirabel"
-
-#~ msgid "Miramar MCAS/Mitscher Field Airport"
-#~ msgstr "Miramar MCAS/Mitscher Field Airport"
-
-#~ msgid "Miskolc"
-#~ msgstr "Miskolc"
-
-#~ msgid "Mississippi Canyon"
-#~ msgstr "Mississippi Canyon"
-
-#~ msgid "Missoula NEXRAD"
-#~ msgstr "Missoula NEXRAD"
-
-#~ msgid "Mitu"
-#~ msgstr "Mitu"
-
-#~ msgid "Mitzic"
-#~ msgstr "Mitzic"
-
-#~ msgid "Miyakejima"
-#~ msgstr "Miyakejima"
-
-#~ msgid "Miyakojima"
-#~ msgstr "Miyakojima"
-
-#~ msgid "Mmabatho Airport"
-#~ msgstr "Mmabatho Airport"
-
-#~ msgid "Mo i Rana/Rossvoll"
-#~ msgstr "Mo i Rana/Rossvoll"
-
-#~ msgid "Moa"
-#~ msgstr "Moa"
-
-#~ msgid "Moanda"
-#~ msgstr "Moanda"
-
-#~ msgid "Mobile Downtown Airport"
-#~ msgstr "Mobile Downtown Airport"
-
-#~ msgid "Mobile Regional Airport"
-#~ msgstr "Mobile Regional Airport"
-
-#~ msgid "Mobridge Municipal Airport"
-#~ msgstr "Mobridge Municipal Airport"
-
-#~ msgid "Mocimboa Da Praia"
-#~ msgstr "Mocimboa Da Praia"
-
-#~ msgid "Mogadiscio"
-#~ msgstr "Mogadiscio"
-
-#~ msgid "Mojave"
-#~ msgstr "Mojave"
-
-#~ msgid "Mokha"
-#~ msgstr "Mokha"
-
-#~ msgid "Molde/Årø"
-#~ msgstr "Molde/Årø"
-
-#~ msgid "Moline-Quad Cities"
-#~ msgstr "Moline-Quad Cities"
-
-#~ msgid "Mombo"
-#~ msgstr "Mombo"
-
-#~ msgid "Monastir-Skanes"
-#~ msgstr "Monastir-Skanes"
-
-#~ msgid "Monbaca Benguela"
-#~ msgstr "Monbaca Benguela"
-
-#~ msgid "Mont-Orford"
-#~ msgstr "Mont-Orford"
-
-#~ msgid "Montauk Airport"
-#~ msgstr "Montauk Airport"
-
-#~ msgid "Montauk Point"
-#~ msgstr "Montauk Point"
-
-#~ msgid "Monte Argentario"
-#~ msgstr "Monte Argentario"
-
-#~ msgid "Monte Bisbino"
-#~ msgstr "Monte Bisbino"
-
-#~ msgid "Monte Calamita"
-#~ msgstr "Monte Calamita"
-
-#~ msgid "Monte Caseros"
-#~ msgstr "Monte Caseros"
-
-#~ msgid "Monte Malanotte"
-#~ msgstr "Monte Malanotte"
-
-#~ msgid "Monte S. Angelo"
-#~ msgstr "Monte S. Angelo"
-
-#~ msgid "Monte Scuro"
-#~ msgstr "Monte Scuro"
-
-#~ msgid "Monte Terminillo"
-#~ msgstr "Monte Terminillo"
-
-#~ msgid "Montego Bay/Sangster"
-#~ msgstr "Montego Bay/Sangster"
-
-#~ msgid "Monterey NEXRAD"
-#~ msgstr "Monterey NEXRAD"
-
-#~ msgid "Monteria/Los Garzones"
-#~ msgstr "Monteria/Los Garzones"
-
-#~ msgid "Montevideo/Carrasco"
-#~ msgstr "Montevideo/Carrasco"
-
-#~ msgid "Montgomery Field"
-#~ msgstr "Montgomery Field"
-
-#~ msgid "Montluçon-Guéret"
-#~ msgstr "Montluçon-Guéret"
-
-#~ msgid "Montoir-de-Bretagne"
-#~ msgstr "Montoir-de-Bretagne"
-
-#~ msgid "Montpelier"
-#~ msgstr "Montpelier"
-
-#~ msgid "Montreal River"
-#~ msgstr "Montreal River"
-
-#~ msgid "Montreal-Est"
-#~ msgstr "Montreal-Est"
-
-#~ msgid "Moose Jaw"
-#~ msgstr "Moose Jaw"
-
-#~ msgid "Mopti"
-#~ msgstr "Mopti"
-
-#~ msgid "Mora Municipal Airport"
-#~ msgstr "Mora Municipal Airport"
-
-#~ msgid "Morganton"
-#~ msgstr "Morganton"
-
-#~ msgid "Morlaix"
-#~ msgstr "Morlaix"
-
-#~ msgid "Morombe"
-#~ msgstr "Morombe"
-
-#~ msgid "Morondava"
-#~ msgstr "Morondava"
-
-#~ msgid "Morón de la Frontera"
-#~ msgstr "Morón de la Frontera"
-
-#~ msgid "Moshoeshoe"
-#~ msgstr "Moshoeshoe"
-
-#~ msgid "Mossel Bay Cape Saint Blaize"
-#~ msgstr "Mossel Bay Cape Saint Blaize"
-
-#~ msgid "Mosul"
-#~ msgstr "Mûsil"
-
-#~ msgid "Murted"
-#~ msgstr "Murted"
-
-#~ msgid "Nema"
-#~ msgstr "Nema"
-
-#~ msgid "Niort"
-#~ msgstr "Niort"
-
-#~ msgid "Nordhorn"
-#~ msgstr "Nordhorn"
-
-#~ msgid "North Point"
-#~ msgstr "North Point"
-
-#~ msgid "Nowra"
-#~ msgstr "Nowra"
-
-#~ msgid "Oporto"
-#~ msgstr "Oporto"
-
-#~ msgid "Otopeni"
-#~ msgstr "Otopeni"
-
-#~ msgid "Passo Fundo"
-#~ msgstr "Passo Fundo"
-
-#~ msgid "Preschen"
-#~ msgstr "Preschen"
-
-#~ msgid "Proserpine"
-#~ msgstr "Proserpine"
-
-#~ msgid "Rand"
-#~ msgstr "Rand"
-
-#~ msgid "Redig"
-#~ msgstr "Redig"
-
-#~ msgid "Samsun/Carsamba"
-#~ msgstr "Samsun/Çarşamba"
-
-#~ msgid "San Andrés Isla/Sesquicentenario"
-#~ msgstr "San Andrés Isla/Sesquicentenario"
-
-#~ msgid "San Antonio NEXRAD"
-#~ msgstr "San Antonio NEXRAD"
-
-#~ msgid "San Antonio Oeste"
-#~ msgstr "San Antonio Oeste"
-
-#~ msgid "San Clemente"
-#~ msgstr "San Clemente"
-
-#~ msgid "San Cristóbal Galápagos"
-#~ msgstr "San Cristóbal Galápagos"
-
-#~ msgid "San Fernando De Apure"
-#~ msgstr "San Fernando De Apure"
-
-#~ msgid "San Francisco Pbs"
-#~ msgstr "San Francisco Pbs"
-
-#~ msgid "San Ignacio De Moxos"
-#~ msgstr "San Ignacio De Moxos"
-
-#~ msgid "San Isidro"
-#~ msgstr "San Isidro"
-
-#~ msgid "San José Del Guaviare"
-#~ msgstr "San José Del Guaviare"
-
-#~ msgid "San Julián"
-#~ msgstr "San Julián"
-
-#~ msgid "San Luis"
-#~ msgstr "San Luis"
-
-#~ msgid "San Marcos Automatic Weather Observing/Reporting System"
-#~ msgstr "San Marcos Automatic Weather Observing/Reporting System"
-
-#~ msgid "San Marcos Municipal Airport"
-#~ msgstr "San Marcos Municipal Airport"
-
-#~ msgid "San Miguel/El Papalón"
-#~ msgstr "San Miguel/El Papalón"
-
-#~ msgid "San Nicholas Island"
-#~ msgstr "San Nicholas Island"
-
-#~ msgid "San Rafael"
-#~ msgstr "San Rafael"
-
-#~ msgid "San Sebastián/Hondarribia"
-#~ msgstr "San Sebastián/Hondarribia"
-
-#~ msgid "San Tome Private"
-#~ msgstr "San Tome Private"
-
-#~ msgid "Sana'A"
-#~ msgstr "Sana'A"
-
-#~ msgid "Sand Heads CS"
-#~ msgstr "Sand Heads CS"
-
-#~ msgid "Sandane/Anda"
-#~ msgstr "Sandane/Anda"
-
-#~ msgid "Sandnessjøen/Stokka"
-#~ msgstr "Sandnessjøen/Stokka"
-
-#~ msgid "Sandoway"
-#~ msgstr "Sandoway"
-
-#~ msgid "Sandy Hook"
-#~ msgstr "Sandy Hook"
-
-#~ msgid "Sanford Airport"
-#~ msgstr "Sanford Airport"
-
-#~ msgid "Sanford-Lee County Regional Airport"
-#~ msgstr "Sanford-Lee County Regional Airport"
-
-#~ msgid "Sangju"
-#~ msgstr "Sangju"
-
-#~ msgid "Sangley Point"
-#~ msgstr "Sangley Point"
-
-#~ msgid "Sanikiluaq"
-#~ msgstr "Sanikiluaq"
-
-#~ msgid "Santa Barbara Harbor"
-#~ msgstr "Santa Barbara Harbor"
-
-#~ msgid "Santa Barbara Zulia"
-#~ msgstr "Santa Barbara Zulia"
-
-#~ msgid "Santa Catalina Island"
-#~ msgstr "Santa Catalina Island"
-
-#~ msgid "Santa Cruz Island"
-#~ msgstr "Santa Cruz Island"
-
-#~ msgid "Santa Cruz/El Trompillo"
-#~ msgstr "Santa Cruz/El Trompillo"
-
-#~ msgid "Santa Elena De Uairen"
-#~ msgstr "Santa Elena De Uairen"
-
-#~ msgid "Santa Marta/Simón Bolívar"
-#~ msgstr "Santa Marta/Simón Bolívar"
-
-#~ msgid "Santa Monica Pier"
-#~ msgstr "Santa Monica Pier"
-
-#~ msgid "Santander/Parayas"
-#~ msgstr "Santander/Parayas"
-
-#~ msgid "Santiago Del Estero"
-#~ msgstr "Santiago Del Estero"
-
-#~ msgid "Santiago/Labacolla"
-#~ msgstr "Santiago/Labacolla"
-
-#~ msgid "Sapporo Ab"
-#~ msgstr "Sapporo Ab"
-
-#~ msgid "Sarajevo/Butmir"
-#~ msgstr "Sarajevo/Butmir"
-
-#~ msgid "Saravane"
-#~ msgstr "Saravane"
-
-#~ msgid "Sargodha"
-#~ msgstr "Sargodha"
-
-#~ msgid "Sarzana/Luni"
-#~ msgstr "Sarzana/Luni"
-
-#~ msgid "Sasebo Usn"
-#~ msgstr "Sasebo Usn"
-
-#~ msgid "Saskatoon Kernen"
-#~ msgstr "Saskatoon Kernen"
-
-#~ msgid "Satun"
-#~ msgstr "Satun"
-
-#~ msgid "Sauce Viejo"
-#~ msgstr "Sauce Viejo"
-
-#~ msgid "Saumlaki"
-#~ msgstr "Saumlaki"
-
-#~ msgid "Savannah-Hunter AAF"
-#~ msgstr "Savannah-Hunter AAF"
-
-#~ msgid "Savannakhet"
-#~ msgstr "Savannakhet"
-
-#~ msgid "Save"
-#~ msgstr "Save"
-
-#~ msgid "Sawyer Air Force Base"
-#~ msgstr "Sawyer Air Force Base"
-
-#~ msgid "Sayaboury"
-#~ msgstr "Sayaboury"
-
-#~ msgid "Scatsta"
-#~ msgstr "Scatsta"
-
-#~ msgid "Schenectady"
-#~ msgstr "Schenectady"
-
-#~ msgid "Schkeuditz"
-#~ msgstr "Schkeuditz"
-
-#~ msgid "Schoolcraft County Airport"
-#~ msgstr "Schoolcraft County Airport"
-
-#~ msgid "Schwaz"
-#~ msgstr "Schwaz"
-
-#~ msgid "Schönefeld"
-#~ msgstr "Schönefeld"
-
-#~ msgid "Scilly St Mary's"
-#~ msgstr "Scilly St Mary's"
-
-#~ msgid "Scituate"
-#~ msgstr "Scituate"
-
-#~ msgid "Scoresbysund"
-#~ msgstr "Scoresbysund"
-
-#~ msgid "Scotts Seaplane Base"
-#~ msgstr "Scotts Seaplane Base"
-
-#~ msgid "Scripps Pier / La Jol"
-#~ msgstr "Scripps Pier / La Jol"
-
-#~ msgid "Sde-Haifa Haifa"
-#~ msgstr "Sde-Haifa Haifa"
-
-#~ msgid "Sedona"
-#~ msgstr "Sedona"
-
-#~ msgid "Segou"
-#~ msgstr "Segou"
-
-#~ msgid "Slivnica"
-#~ msgstr "Slivnica"
-
-#~ msgid "South Kona"
-#~ msgstr "South Kona"
-
-#~ msgid "Spearfish"
-#~ msgstr "Spearfish"
-
-#~ msgid "Tahoua"
-#~ msgstr "Tahoua"
-
-#~ msgid "Tajima"
-#~ msgstr "Tajima"
-
-#~ msgid "Tandil"
-#~ msgstr "Tandil"
-
-#~ msgid "Tegel"
-#~ msgstr "Tegel"
-
-#~ msgid "Tehran-Mehrabad"
-#~ msgstr "Tahran-Mehrabad"
-
-#~ msgid "Telukbetung / Beranti"
-#~ msgstr "Telukbetung / Beranti"
-
-#~ msgid "Tema"
-#~ msgstr "Tema"
-
-#~ msgid "Tempelhof"
-#~ msgstr "Tempelhof"
-
-#~ msgid "Thermal"
-#~ msgstr "Thermal"
-
-#~ msgid "Thiva"
-#~ msgstr "Thiva"
-
-#~ msgid "Thumrait"
-#~ msgstr "Thumrait"
-
-#~ msgid "Timmerman"
-#~ msgstr "Timmerman"
-
-#~ msgid "Vancouver Automatic Weather Reporting System"
-#~ msgstr "Vancouver Automatic Weather Reporting System"
-
-#~ msgid "Vancouver International Airport"
-#~ msgstr "Vancouver International Airport"
-
-#~ msgid "Vandel"
-#~ msgstr "Vandel"
-
-#~ msgid "Vandenberg"
-#~ msgstr "Vandenberg"
-
-#~ msgid "Vandenberg Airport"
-#~ msgstr "Vandenberg Airport"
-
-#~ msgid "Vandenberg Range"
-#~ msgstr "Vandenberg Range"
-
-#~ msgid "Varadero, Matanzas"
-#~ msgstr "Varadero, Matanzas"
-
-#~ msgid "Varanasi/Babatpur"
-#~ msgstr "Varanasi/Babatpur"
-
-#~ msgid "Varaždin"
-#~ msgstr "Varaždin"
-
-#~ msgid "Vatry"
-#~ msgstr "Vatry"
-
-#~ msgid "Vedauwoo"
-#~ msgstr "Vedauwoo"
-
-#~ msgid "Vellore"
-#~ msgstr "Vellore"
-
-#~ msgid "Venezia/Tessera"
-#~ msgstr "Venezia/Tessera"
-
-#~ msgid "Venezuela, Ciego De Ávila"
-#~ msgstr "Venezuela, Ciego De Ávila"
-
-#~ msgid "Venice Heliport"
-#~ msgstr "Venice Heliport"
-
-#~ msgid "Ventspils"
-#~ msgstr "Ventspils"
-
-#~ msgid "Vermilion"
-#~ msgstr "Vermilion"
-
-#~ msgid "Vermillion Area"
-#~ msgstr "Vermillion Area"
-
-#~ msgid "Verona/Villafranca"
-#~ msgstr "Verona/Villafranca"
-
-#~ msgid "Volos"
-#~ msgstr "Volos"
-
-#~ msgid "Wells"
-#~ msgstr "Wells"
-
-#~ msgid "Wels"
-#~ msgstr "Wels"
-
-#~ msgid "Wemindji"
-#~ msgstr "Wemindji"
-
-#~ msgid "Wittmund"
-#~ msgstr "Wittmund"
-
-#~ msgid "Wrigley"
-#~ msgstr "Wrigley"
-
-#~ msgid "Wynyard Marine"
-#~ msgstr "Wynyard Marine"
-
-#~ msgid "Wynyard West"
-#~ msgstr "Wynyard West"
-
-#~ msgid "Wyton"
-#~ msgstr "Wyton"
-
-#~ msgid "Xai Xai"
-#~ msgstr "Xai Xai"
-
-#~ msgid "Xavantina"
-#~ msgstr "Xavantina"
-
-#~ msgid "Xian/Xianyang"
-#~ msgstr "Xian/Xianyang"
-
-#~ msgid "Xichang"
-#~ msgstr "Xichang"
-
-#~ msgid "Xining"
-#~ msgstr "Xining"
-
-#~ msgid "Xishuangbanna"
-#~ msgstr "Xishuangbanna"
-
-#~ msgid "Yamoussoukro"
-#~ msgstr "Yamoussoukro"
-
-#~ msgid "Yan An"
-#~ msgstr "Yan An"
-
-#~ msgid "Yangon"
-#~ msgstr "Yangon"
-
-#~ msgid "Yanji"
-#~ msgstr "Yanji"
-
-#~ msgid "Yantai"
-#~ msgstr "Yantai"
-
-#~ msgid "Yaoqiang International Airport"
-#~ msgstr "Yaoqiang International Airport"
-
-#~ msgid "Yap Island"
-#~ msgstr "Yap Island"
-
-#~ msgid "Yaquina Bay"
-#~ msgstr "Yaquina Bay"
-
-#~ msgid "Yasouj/National"
-#~ msgstr "Yasouj/National"
-
-#~ msgid "Yathkyed Lake"
-#~ msgstr "Yathkyed Lake"
-
-#~ msgid "Yechon Ab"
-#~ msgstr "Yechon Ab"
-
-#~ msgid "Yellowstone"
-#~ msgstr "Yellowstone"
-
-#~ msgid "Yenbo"
-#~ msgstr "Yenbo"
-
-#~ msgid "Yendi"
-#~ msgstr "Yendi"
-
-#~ msgid "Yeoju Range"
-#~ msgstr "Yeoju Range"
-
-#~ msgid "Yeonpyeungdo"
-#~ msgstr "Yeonpyeungdo"
-
-#~ msgid "Yinchuan"
-#~ msgstr "Yinchuan"
-
-#~ msgid "Yining"
-#~ msgstr "Yining"
-
-#~ msgid "Yokosuka Fwf"
-#~ msgstr "Yokosuka Fwf"
-
-#~ msgid "Yokota Ab"
-#~ msgstr "Yokota Ab"
-
-#~ msgid "Yonaguni"
-#~ msgstr "Yonaguni"
-
-#~ msgid "Yongsan/H-208 Hp"
-#~ msgstr "Yongsan/H-208 Hp"
-
-#~ msgid "Younde Ii"
-#~ msgstr "Younde Ii"
-
-#~ msgid "Ypsilanti"
-#~ msgstr "Ypsilanti"
-
-#~ msgid "Yulara"
-#~ msgstr "Yulara"
-
-#~ msgid "Zacapa"
-#~ msgstr "Zacapa"
-
-#~ msgid "Zambezi"
-#~ msgstr "Zambezi"
-
-#~ msgid "Zanjan"
-#~ msgstr "Zanjan"
-
-#~ msgid "Zanzibar / Kisauni"
-#~ msgstr "Zanzibar / Kisauni"
-
-#~ msgid "Zapopan"
-#~ msgstr "Zapopan"
-
-#~ msgid "Zaporizhzhia/Mokraya"
-#~ msgstr "Zaporizhzhia/Mokraya"
-
-#~ msgid "Zaria"
-#~ msgstr "Zaria"
-
-#~ msgid "Zaventem"
-#~ msgstr "Zaventem"
-
-#~ msgid "Zebak"
-#~ msgstr "Zebak"
-
-#~ msgid "Zhang Gui Zhuang"
-#~ msgstr "Zhang Gui Zhuang"
-
-#~ msgid "Zhongchuan Airport"
-#~ msgstr "Zhongchuan Airport"
-
-#~ msgid "Zhuliany"
-#~ msgstr "Zhuliany"
-
-#~ msgid "Zielona Góra"
-#~ msgstr "Zielona Góra"
-
-#~ msgid "Zonguldak"
-#~ msgstr "Zonguldak"
-
-#~ msgid "Zuma Beach"
-#~ msgstr "Zuma Beach"
-
-#~ msgid "Zuni Pueblo"
-#~ msgstr "Zuni Pueblo"
-
-#~ msgid "Århus"
-#~ msgstr "Århus"
-
-#~ msgid "Île Futuna"
-#~ msgstr "Île Futuna"
-
-#~ msgid "Île Wallis"
-#~ msgstr "Île Wallis"
-
-#~ msgid "Östersund"
-#~ msgstr "Östersund"
-
-#~ msgid "Ørsta-Volda/Hovden"
-#~ msgstr "Ørsta-Volda/Hovden"
-
-#~ msgid "Ülemiste Airport"
-#~ msgstr "Ülemiste Airport"
-
-#~ msgid "Ülemiste Airport (alternate)"
-#~ msgstr "Ülemiste Airport (alternate)"
-
-#~ msgid "Ülenurme"
-#~ msgstr "Ülenurme"
-
-#~ msgid "Čepin"
-#~ msgstr "Čepin"

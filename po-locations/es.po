@@ -1,18 +1,17 @@
-# translation of weather-locations.HEAD.es.po_OLD.po to Español
-# translation of mate-applets-locations to Spanish
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) 2005 Mate Foundation.
-#
+# Libraries to allow MATE Desktop to display weather information
+# Copyright (C) 2019 The MATE Team
+# This file is distributed under the same license as the libmateweather package.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: weather-locations.HEAD.es.po_OLD\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-23 06:49+0000\n"
+"POT-Creation-Date: 2019-09-17 10:35+0200\n"
 "PO-Revision-Date: 2010-02-23 19:50+0100\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <mate-es-list@gnome.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -828,8 +827,15 @@ msgstr "Polonia"
 msgid "Portugal"
 msgstr "Portugal"
 
-#. PR - Puerto Rico, a territory of the United States in the
-#. Caribbean.
+#. PR - Puerto Rico, a territory of the United States in the Caribbean.
+#. The following municipalities have airports with valid IACO codes
+#. but no active METAR stations, so we don't include them:
+#. * Arecibo:  TJAB
+#. * Culebra:  TJCP
+#. * Fajardo:  TJFA
+#. * Mayagüez: TJMZ
+#. * Ponce:    TJPS
+#. * Vieques:  TJVQ
 #.
 msgid "Puerto Rico"
 msgstr "Puerto Rico"
@@ -1240,6 +1246,24 @@ msgstr "McMurdo, base (hora de Nueva Zelanda)"
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
 msgstr "Amundsen-Scott, base en el polo sur (hora de Nueva Zelanda)"
 
+#. The timezone on the western islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Barat".
+#.
+msgid "Western Indonesia Time"
+msgstr "Hora de Indonesia Occidental"
+
+#. The timezone on the central islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
+#.
+msgid "Central Indonesia Time"
+msgstr "Hora de Indonesia Central"
+
+#. The timezone on the eastern islands of Indonesia. The
+#. name in Indonesian is "Waktu Indonesia Bagian Timur".
+#.
+msgid "Eastern Indonesia Time"
+msgstr "Hora de Indonesia Oriental"
+
 #. The time zone used in the eastern half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 #.
@@ -1408,24 +1432,6 @@ msgstr "Islas Marquesas"
 #.
 msgid "Gambier Islands"
 msgstr "Islas Gambier"
-
-#. The timezone on the western islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Barat".
-#.
-msgid "Western Indonesia Time"
-msgstr "Hora de Indonesia Occidental"
-
-#. The timezone on the central islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Tengah".
-#.
-msgid "Central Indonesia Time"
-msgstr "Hora de Indonesia Central"
-
-#. The timezone on the eastern islands of Indonesia. The
-#. name in Indonesian is "Waktu Indonesia Bagian Timur".
-#.
-msgid "Eastern Indonesia Time"
-msgstr "Hora de Indonesia Oriental"
 
 #. The time zone in the Gilbert Islands, one of the three
 #. main island groups of Kiribati. This string is only used
@@ -1739,14 +1745,22 @@ msgstr "Samara, hora de"
 msgid "Yekaterinburg Time"
 msgstr "Ekaterimburgo, hora de"
 
-#. A Russian time zone, used in the Omsk and Novosibirsk
-#. oblasts and surrounding areas of south-central Russia.
+#. A Russian time zone, used in the Omsk oblast
+#. and surrounding areas of south-central Russia.
 #. The Russian name is "Омское время". This string is only
 #. used in places where "Russia" is already clear from
 #. context.
 #.
 msgid "Omsk Time"
 msgstr "Omsk, hora de"
+
+#. A Russian time zone, used in the Novosibirsk oblast.
+#. The Russian name is "Новосибирское время".
+#. This string is only used in places
+#. where "Russia" is already clear from context.
+#.
+msgid "Novosibirsk Time"
+msgstr ""
 
 #. A Russian time zone, used in the Krasnoyarsk krai and
 #. surrounding areas of central Russia. The Russian name is
@@ -3632,6 +3646,10 @@ msgstr "Cuiabá"
 #. A city in Paraná in Brazil
 msgid "Curitiba"
 msgstr "Curitiba"
+
+#. A city in Bahia in Brazil
+msgid "Feira de Santana"
+msgstr ""
 
 #. A city in Santa Catarina in Brazil
 msgid "Florianópolis"
@@ -6624,7 +6642,6 @@ msgid "Montélimar"
 msgstr "Montélimar"
 
 #. A city in France
-#| msgid "Toulouse"
 msgid "Mulhouse"
 msgstr "Mulhouse"
 
@@ -7658,6 +7675,10 @@ msgstr "Palembang"
 msgid "Pekanbaru"
 msgstr "Pekanbaru"
 
+#. A city in Indonesia
+msgid "Yogyakarta"
+msgstr ""
+
 #. A city in Iran.
 #. The name is also written "آبادان".
 #.
@@ -7989,6 +8010,10 @@ msgid "Alghero"
 msgstr "Alghero"
 
 #. A city in Italy
+msgid "Ancona"
+msgstr ""
+
+#. A city in Italy
 msgid "Aviano"
 msgstr "Aviano"
 
@@ -8133,10 +8158,6 @@ msgstr "Messina"
 #.
 msgid "Milan"
 msgstr "Milán"
-
-#. A city in Italy
-msgid "Molino di Ancona"
-msgstr "Molino di Ancona"
 
 #. A city in Italy.
 #. "Naples" is the traditional English name.
@@ -8641,24 +8662,46 @@ msgid "Amman"
 msgstr "Amman"
 
 #. A city in Kazakhstan
+msgid "Aktau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Aktobe"
+msgstr ""
+
+#. A city in Kazakhstan
 msgid "Almaty"
 msgstr "Almaty"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktau".
-#.
-msgid "Aqtau"
-msgstr "Aktau"
-
-#. A city in Kazakhstan.
-#. The local name in Russian is "Aktobe".
-#.
-msgid "Aqtöbe"
-msgstr "Aktobe"
 
 #. The capital of Kazakhstan
 msgid "Astana"
 msgstr "Astana"
+
+#. A city in Kazakhstan
+msgid "Atyrau"
+msgstr ""
+
+#. A city in Kazakhstan.
+#. The local name in Russian is "Balkhash".
+#.
+msgid "Balqash"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Karaganda"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kokshetau"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kostanay"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Kyzylorda"
+msgstr ""
 
 #. A city in Kazakhstan.
 #. The local name in Russian is "Ural'sk".
@@ -8667,26 +8710,31 @@ msgid "Oral"
 msgstr "Oral"
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Karaganda".
 #.
-msgid "Qaraghandy"
-msgstr "Karaganda"
+msgid "Oskemen"
+msgstr ""
+
+#. A city in Kazakhstan
+msgid "Pavlodar"
+msgstr ""
 
 #. A city in Kazakhstan.
-#. The local name in Russian is "Kostanay".
+#. The local name in Russian is "Petropavlovsk".
 #.
-msgid "Qostanay"
-msgstr "Kostanay"
+msgid "Petropavl"
+msgstr ""
 
-#. A city in Kazakhstan.
-#. The local name in Russian is "Kyzylorda".
-#.
-msgid "Qyzylorda"
-msgstr "Kyzylorda"
+#. A city in Kazakhstan
+msgid "Semey"
+msgstr ""
 
 #. A city in Kazakhstan
 msgid "Shymkent"
 msgstr "Shymkent"
+
+#. A city in Kazakhstan
+msgid "Taraz"
+msgstr ""
 
 #. A city in Kenya
 msgid "Eldoret"
@@ -9433,6 +9481,10 @@ msgstr "Auckland"
 msgid "Christchurch"
 msgstr "Christchurch"
 
+#. A city in New Zealand
+msgid "Dunedin"
+msgstr ""
+
 #. The capital of New Zealand
 msgid "Wellington"
 msgstr "Wellington"
@@ -9879,6 +9931,10 @@ msgid "Zamboanga City"
 msgstr "Zamboanga"
 
 #. A city in Poland
+msgid "Bydgoszcz"
+msgstr ""
+
+#. A city in Poland
 msgid "Gdańsk"
 msgstr "Gdansk"
 
@@ -9891,8 +9947,20 @@ msgid "Kraków"
 msgstr "Kraków"
 
 #. A city in Poland
+msgid "Lublin"
+msgstr ""
+
+#. A city in Poland
+msgid "Olsztyn"
+msgstr ""
+
+#. A city in Poland
 msgid "Poznań"
 msgstr "Poznań"
+
+#. A city in Poland
+msgid "Radom"
+msgstr ""
 
 #. A city in Poland
 msgid "Rzeszów"
@@ -9913,6 +9981,10 @@ msgstr "Varsovia"
 #. A city in Poland
 msgid "Wrocław"
 msgstr "Wrocław"
+
+#. A city in Poland
+msgid "Zielona Góra"
+msgstr ""
 
 #. A city in Poland
 msgid "Łódź"
@@ -9983,19 +10055,15 @@ msgstr "Sintra"
 msgid "Água de Pena"
 msgstr "Água de Pena"
 
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
+msgid "Aguadilla"
+msgstr ""
+
+#. A municipality of Puerto Rico
 msgid "Carolina"
 msgstr "Carolina"
 
-#. A city in Puerto Rico
-msgid "Ponce"
-msgstr "Ponce"
-
-#. A city in Puerto Rico
-msgid "Rafael Hernandez"
-msgstr "Rafael Hernández"
-
-#. A city in Puerto Rico
+#. A municipality of Puerto Rico
 msgid "San Juan"
 msgstr "San Juan"
 
@@ -10870,6 +10938,10 @@ msgid "León"
 msgstr "León"
 
 #. A city in Spain
+msgid "Lleida"
+msgstr ""
+
+#. A city in Spain
 msgid "Los Baldíos"
 msgstr "Los Baldíos"
 
@@ -11135,7 +11207,6 @@ msgid "Örnsköldsvik"
 msgstr "Örnsköldsvik"
 
 #. A city in Switzerland
-#| msgid "Kassel"
 msgid "Basel"
 msgstr "Basilea"
 
@@ -11171,7 +11242,6 @@ msgid "Sion"
 msgstr "Sión"
 
 #. A city in Switzerland
-#| msgid "St. Louis"
 msgid "St. Moritz"
 msgstr "San Moritz"
 
@@ -11211,21 +11281,18 @@ msgstr "Latakia"
 #. A city in Taiwan.
 #. The name is also written "高雄".
 #.
-#| msgid "Kao-hsiung-shih"
 msgid "Kaohsiung"
 msgstr "Kaohsiung"
 
 #. The capital of Taiwan.
 #. The name is also written "臺北".
 #.
-#| msgid "Taipa"
 msgid "Taipei"
 msgstr "Taipei"
 
 #. A city in Taiwan.
 #. The name is also written "埔頂".
 #.
-#| msgid "Taiyuan"
 msgid "Taoyuan"
 msgstr "Taoyuan"
 
@@ -11771,7 +11838,6 @@ msgid "Carlisle"
 msgstr "Carlisle"
 
 #. A city in Midlands in the United Kingdom
-#| msgid "Castle Donnington"
 msgid "Castle Donington"
 msgstr "Castle Donington"
 
@@ -19208,1692 +19274,3 @@ msgstr "Ndola"
 #.
 msgid "Mariehamn"
 msgstr "Mariehamn"
-
-#~ msgid "Hésingue"
-#~ msgstr "Hésingue"
-
-#~ msgid "Pu-ting"
-#~ msgstr "Puting"
-
-#~ msgid "T'ai-pei Shih"
-#~ msgstr "Taipéi"
-
-#~ msgid "Bombay"
-#~ msgstr "Bombay"
-
-#~ msgid "Calcutta"
-#~ msgstr "Calcuta"
-
-#~ msgid "Madras"
-#~ msgstr "Chennai"
-
-#~ msgid "Langenes"
-#~ msgstr "Langenes"
-
-#~ msgid "Robertson"
-#~ msgstr "Robertson"
-
-#~ msgid "Cajamarca"
-#~ msgstr "Cajamarca"
-
-#~ msgid "Cantwell"
-#~ msgstr "Cantwell"
-
-#~ msgid "Casablanca"
-#~ msgstr "Casablanca"
-
-#~ msgid "Central"
-#~ msgstr "Central"
-
-#~ msgctxt "City in Kentucky, United States"
-#~ msgid "Monticello"
-#~ msgstr "Monticello"
-
-#~ msgid "Deering"
-#~ msgstr "Deering"
-
-#~ msgid "Fox Bay"
-#~ msgstr "Fox Bay"
-
-#~ msgid "Golovin"
-#~ msgstr "Golovin"
-
-#~ msgid "Green River"
-#~ msgstr "Green River"
-
-#~ msgid "Harare"
-#~ msgstr "Harare"
-
-#~ msgid "Ibadan"
-#~ msgstr "Ibadan"
-
-#~ msgid "Inhambane"
-#~ msgstr "Inhambane"
-
-#~ msgid "Juanjuí"
-#~ msgstr "Juanjuí"
-
-#~ msgid "Kremmling"
-#~ msgstr "Kremmling"
-
-#~ msgid "Kunigami"
-#~ msgstr "Kunigami"
-
-#~ msgid "Lincolnton"
-#~ msgstr "Lincolnton"
-
-#~ msgid "Luanda"
-#~ msgstr "Luanda"
-
-#~ msgid "Malahat"
-#~ msgstr "Malahat"
-
-#~ msgid "Manado"
-#~ msgstr "Manado"
-
-#~ msgid "Nausori"
-#~ msgstr "Nausori"
-
-#~ msgid "New Shoreham"
-#~ msgstr "New Shoreham"
-
-#~ msgid "P'ohang"
-#~ msgstr "Pohang"
-
-#~ msgid "Port Colborne"
-#~ msgstr "Port Colborne"
-
-#~ msgid "Red Cliff"
-#~ msgstr "Red Cliff"
-
-#~ msgid "Richlands"
-#~ msgstr "Richlands"
-
-#~ msgid "Rustenburg"
-#~ msgstr "Rustenburg"
-
-#~ msgid "Sabine Pass"
-#~ msgstr "Sabine Pass"
-
-#~ msgid "Sach'on"
-#~ msgstr "Sach'on"
-
-#~ msgid "Saint Mawgan"
-#~ msgstr "Saint Mawgan"
-
-#~ msgid "San Miguel de Tucumán"
-#~ msgstr "San Miguel de Tucumán"
-
-#~ msgid "Soesterberg"
-#~ msgstr "Soesterberg"
-
-#~ msgid "Standerton"
-#~ msgstr "Standerton"
-
-#~ msgid "Suva"
-#~ msgstr "Suva"
-
-#~ msgid "Taunton"
-#~ msgstr "Taunton"
-
-#~ msgid "Tete"
-#~ msgstr "Tete"
-
-#~ msgid "Tingo María"
-#~ msgstr "Tingo María"
-
-#~ msgid "Warszawa"
-#~ msgstr "Varsovia"
-
-#~ msgid "West Yellowstone"
-#~ msgstr "West Yellowstone"
-
-#~ msgid "Wewak"
-#~ msgstr "Wewak"
-
-#~ msgid "Whiteville"
-#~ msgstr "Whiteville"
-
-#~ msgid "Willimantic"
-#~ msgstr "Willimantic"
-
-#~ msgid "Windhoek"
-#~ msgstr "Windhoek"
-
-#~ msgid "Woodward"
-#~ msgstr "Woodward"
-
-#~ msgid "Yurimaguas"
-#~ msgstr "Yurimaguas"
-
-#~ msgid "Aomen"
-#~ msgstr "Aomen"
-
-#~ msgid "Abilene Regional Airport"
-#~ msgstr "Abilene, aeropuerto regional"
-
-#~ msgid "Abu Dhabi Bateen Airport"
-#~ msgstr "Abu Dhabi Bateen, aeropuerto"
-
-#~ msgid "Abu Dhabi International Airport"
-#~ msgstr "Abhu Dhabi, aeropuerto internacional"
-
-#~ msgid "Abumusa Island, Abumusa Airport"
-#~ msgstr "Isla de Abu Musa, aeropuerto de Abu Musa"
-
-#~ msgid "Adams Field"
-#~ msgstr "Adams Field"
-
-#~ msgid "Adana-Incirlik Airport"
-#~ msgstr "Adana-Incirlik, aeropuerto"
-
-#~ msgid "Adana-Sakirpasa Airport"
-#~ msgstr "Adana-Sakirpasa, aeropuerto"
-
-#~ msgid "Addison Airport"
-#~ msgstr "Adison, aeropuerto"
-
-#~ msgid "Afonsos Airport"
-#~ msgstr "Afonsos, aeropuerto"
-
-#~ msgid "Air Force Academy"
-#~ msgstr "Academia de la Fuerza Aérea"
-
-#~ msgid "Airlake Airport"
-#~ msgstr "Airlake, aeropuerto"
-
-#~ msgid "Akron Fulton International Airport"
-#~ msgstr "Akron, aeropuerto internacional Akron Fulton"
-
-#~ msgid "Akron-Canton Regional Airport"
-#~ msgstr "Akron-Canton, aeropuerto regional"
-
-#~ msgid "Al Udeid"
-#~ msgstr "Al Udeid"
-
-#~ msgid "Alamogordo-White"
-#~ msgstr "Alamogordo-White"
-
-#~ msgid "Albuquerque International Airport"
-#~ msgstr "Albuquerque, aeropuerto internacional"
-
-#~ msgid "Aldergrove Airport"
-#~ msgstr "Aldergrove, aeropuerto"
-
-#~ msgid "Alexandria Borg El Arab"
-#~ msgstr "Alejandría"
-
-#~ msgid "Alexandria Esler Regional Airport"
-#~ msgstr "Alexandria Esler, aeropuerto regional"
-
-#~ msgid "Alexandria International Airport"
-#~ msgstr "Alexandria, aeropuerto internacional"
-
-#~ msgid "Allegheny County Airport"
-#~ msgstr "Allegheny County, aeropuerto"
-
-#~ msgid "Altus / Quartz Mountain Regional Airport"
-#~ msgstr "Altus / Quartz Mountain, aeropuerto regional"
-
-#~ msgid "Altus Air Force Base"
-#~ msgstr "Altus, base de la Fuerza Aérea"
-
-#~ msgid "Ambouli"
-#~ msgstr "Ambouli"
-
-#~ msgid "Ankara-Esenboga Airport"
-#~ msgstr "Ankara-Esenboga, aeropuerto"
-
-#~ msgid "Ankara-Etimesgut Airport"
-#~ msgstr "Ankara-Etimesgut, aeropuerto"
-
-#~ msgid "Ankara-Guvercin Lik Airport"
-#~ msgstr "Ankara-Guvercin Lik, aeropuerto"
-
-#~ msgid "Ansbach"
-#~ msgstr "Ansbach"
-
-#~ msgid "Ardmore Downtown Executive Airport"
-#~ msgstr "Ardmore Downtown, aeropuerto ejecutivo"
-
-#~ msgid "Ardmore Municipal Airport"
-#~ msgstr "Ardmore, aeropuerto municipal"
-
-#~ msgid "Arkansas City"
-#~ msgstr "Arkansas City"
-
-#~ msgid "Austin City, Austin Camp Mabry"
-#~ msgstr "Austin City, Austin Camp Mabry"
-
-#~ msgid "Austin-Bergstrom International Airport"
-#~ msgstr "Austin-Bergstrom, aeropuerto internacional"
-
-#~ msgid "Aviano US Air Force Base"
-#~ msgstr "Aviano, Base Aérea de los EE. UU."
-
-#~ msgid "Babelthuap Island, Babelthuap / Koror Airport"
-#~ msgstr "Babeldaob Island, Babeldaob / Aeropuerto de Koror"
-
-#~ msgid "Baden-Baden"
-#~ msgstr "Baden-Baden"
-
-#~ msgid "Baltimore / Martin"
-#~ msgstr "Baltimore / Martin"
-
-#~ msgid "Baltimore, Inner Harbor"
-#~ msgstr "Baltimore, puerto interior"
-
-#~ msgid "Baltimore-Washington International Airport"
-#~ msgstr "Baltimore-Washington, aeropuerto internacional"
-
-#~ msgid "Banff Marine Aviation Reporting Station"
-#~ msgstr "Banff, base de divulgación de la aviación de la marina"
-
-#~ msgid "Barca"
-#~ msgstr "Barca"
-
-#~ msgid "Barksdale Air Force Base"
-#~ msgstr "Barksdale, base de la Fuerza Aérea"
-
-#~ msgid "Beale Air Force Base"
-#~ msgstr "Beale, base de la Fuerza Aérea"
-
-#~ msgid "Beldringe"
-#~ msgstr "Beldringe"
-
-#~ msgid "Belfast / Harbour"
-#~ msgstr "Belfast / Harbour"
-
-#~ msgid "Belo Horizonte Airport"
-#~ msgstr "Belo Horizonte, aeropuerto"
-
-#~ msgid "Berlin-Schoenefeld"
-#~ msgstr "Berlín-Schoenefeld"
-
-#~ msgid "Berlin-Tegel"
-#~ msgstr "Berlín-Tegel"
-
-#~ msgid "Berlin-Tempelhof"
-#~ msgstr "Berlín-Tempelhof"
-
-#~ msgid "Blaine"
-#~ msgstr "Blaine"
-
-#~ msgid "Bobby L Chain Municipal Airport"
-#~ msgstr "Bobby L Chain, aeropuerto municipal"
-
-#~ msgid "Bolton Field Airport"
-#~ msgstr "Bolton Field, aeropuerto"
-
-#~ msgid "Bowman Field Airport"
-#~ msgstr "Bowman Field, aeropuerto"
-
-#~ msgid "Bradenton"
-#~ msgstr "Bradenton"
-
-#~ msgid "Bratts Lake"
-#~ msgstr "Bratts Lake"
-
-#~ msgid "Brown Field Municipal Airport"
-#~ msgstr "Brown Field Municipal, aeropuerto"
-
-#~ msgid "Brunswick / Glynco"
-#~ msgstr "Brunswick / Glynco"
-
-#~ msgid "Bucharest / Imh"
-#~ msgstr "Bucarest / Imh"
-
-#~ msgid "Bucuresti Otopeni"
-#~ msgstr "Bucarest Otopeni"
-
-#~ msgid "Burke Lakefront Airport"
-#~ msgstr "Burke Lakefront, aeropuerto"
-
-#~ msgid "Bush Field"
-#~ msgstr "Bush Field"
-
-#~ msgid "Cairns Army Air Field / Ozark"
-#~ msgstr "Cairns, aeródromo del Ejército / Ozark"
-
-#~ msgid "Calden"
-#~ msgstr "Calden"
-
-#~ msgid "Calgary International"
-#~ msgstr "Calgary Internacional"
-
-#~ msgid "Calgary-Springbank Airport"
-#~ msgstr "Calgary-Springbank, aeropuerto"
-
-#~ msgid "Cannon Air Force Base / Clovis"
-#~ msgstr "Cannon, base de la Fuerza Aérea / Clovis"
-
-#~ msgid "Cape Newenham, Cape Newenham LRRS Airport"
-#~ msgstr "Cabo Newenham, aeropuerto LRRS del Cabo Newenham "
-
-#~ msgid "Capital City Airport"
-#~ msgstr "Capital City, aeropuerto"
-
-#~ msgid "Cecil Field Airport"
-#~ msgstr "Cecil Field, aeropuerto"
-
-#~ msgid "Centennial Airport"
-#~ msgstr "Centennial, aeropuerto"
-
-#~ msgid "Changi Airport"
-#~ msgstr "Changi, aeropuerto"
-
-#~ msgid "Charleroi"
-#~ msgstr "Charleroi"
-
-#~ msgid "Charles de Gaulle International Airport"
-#~ msgstr "Charles de Gaulle, aeropuerto internacional"
-
-#~ msgid "Charlestown"
-#~ msgstr "Charlestown"
-
-#~ msgid "Chicago / Romeoville, Lewis University Airport"
-#~ msgstr "Chigaco / Romeoville, Lewis University, aeropuerto"
-
-#~ msgid "Chicago / Wheeling, Pal-Waukee Airport"
-#~ msgstr "Chicago / Wheeling, aeropuerto Pal-Waukee"
-
-#~ msgid "Chicago Midway Airport"
-#~ msgstr "Chicago Midway, aeropuerto"
-
-#~ msgid "Chicago-O'Hare International Airport"
-#~ msgstr "Chicago-O'Hare, aeropuerto internacional"
-
-#~ msgid "Chitose Air Base"
-#~ msgstr "Chitose, base aérea"
-
-#~ msgid "Chitose Japanese Air Self Defense Force"
-#~ msgstr "Chitose Japanese Air Self Defense Force"
-
-#~ msgid "Ciampino Airport"
-#~ msgstr "Ciampino, aeropuerto"
-
-#~ msgid "Cincinnati Municipal Airport, Lunken Field"
-#~ msgstr "Cincinnati, aeropuerto municipal, Lunken Field"
-
-#~ msgid "City of Colorado Springs Municipal Airport"
-#~ msgstr "Ciudad de Colorado Springs, aeropuerto municipal"
-
-#~ msgid "Cleveland / Cuyahoga"
-#~ msgstr "Cleveland / Cuyahoga"
-
-#~ msgid "Cleveland-Hopkins International Airport"
-#~ msgstr "Cleveland-Hopkins, aeropuerto internacional"
-
-#~ msgid "Clinton Regional Airport"
-#~ msgstr "Clinton, aeropuerto regional"
-
-#~ msgid "Clinton-Sherman Airport"
-#~ msgstr "Clinton-Sherman, aeropuerto"
-
-#~ msgid "Clovis Municipal Airport"
-#~ msgstr "Clovis, aeropuerto municipal"
-
-#~ msgid "Cobb County-McCollum Field Airport"
-#~ msgstr "Cobb County-McCollum Field, aeropuerto"
-
-#~ msgid "Cocoa Beach"
-#~ msgstr "Playa Cocoa"
-
-#~ msgid "Cologne"
-#~ msgstr "Colonia"
-
-#~ msgid "Colonel James Jabara Airport"
-#~ msgstr "Coronel James Jabara, aeropuerto"
-
-#~ msgid "Columbia Metropolitan Airport"
-#~ msgstr "Columbia, aeropuerto metropolitano"
-
-#~ msgid "Columbia Owens Downtown Airport"
-#~ msgstr "Columbia Owens Downtown, aeropuerto"
-
-#~ msgid "Columbus / West Point / Starkville, Golden Triangle Regional Airport"
-#~ msgstr ""
-#~ "Columbus / West Point / Starkville, Golden Triangle, aeropuerto regional"
-
-#~ msgid "Columbus Air Force Base"
-#~ msgstr "Columbus, base de la Fuerza Aérea"
-
-#~ msgid "Congonhas Airport"
-#~ msgstr "Congonhas, aeropuerto"
-
-#~ msgid "Copper Mountain"
-#~ msgstr "Copper Mountain"
-
-#~ msgid "Corpus Christi International Airport"
-#~ msgstr "Corpus Christi, aeropuerto internacional"
-
-#~ msgid "Corpus Christi Naval Air Station / Truax Field"
-#~ msgstr "Corpus Christi, base aérea naval / Truax Field"
-
-#~ msgid "Covington"
-#~ msgstr "Covington"
-
-#~ msgid ""
-#~ "Covington / Cincinnati, Cincinnati / Northern Kentucky International "
-#~ "Airport"
-#~ msgstr ""
-#~ "Covington / Cincinnati, Cincinnati / Kentucky del Norte, aeropuerto "
-#~ "internacional"
-
-#~ msgid "Cox Dayton International Airport"
-#~ msgstr "Cox Dayton, aeropuerto internacional"
-
-#~ msgid "Craig Municipal Airport"
-#~ msgstr "Craig, aeropuerto municipal"
-
-#~ msgid "Crystal Airport"
-#~ msgstr "Crystal, aeropuerto"
-
-#~ msgid "Curitiba Airport"
-#~ msgstr "Curitiba, aeropuerto"
-
-#~ msgid "Cypress Hills Park"
-#~ msgstr "Cypress Hills Park"
-
-#~ msgid "Dalcross"
-#~ msgstr "Dalcross"
-
-#~ msgid "Dallas / Fort Worth, Dallas / Fort Worth International Airport"
-#~ msgstr ""
-#~ "Dallas / Fort Worth, Dallas / aeropuerto internacional de Forth Worth"
-
-#~ msgid "Dallas Love Field"
-#~ msgstr "Dallas Love Field"
-
-#~ msgid "Dam Dam"
-#~ msgstr "Dam Dam"
-
-#~ msgid "Daniel Field"
-#~ msgstr "Daniel Field"
-
-#~ msgid "Dannelly Field"
-#~ msgstr "Dannelly Field"
-
-#~ msgid "Davis-Monthan Air Force Base"
-#~ msgstr "Davis-Monthan, base de la Fuerza Aérea"
-
-#~ msgid "Dayton / Wright-Patterson Air Force Base"
-#~ msgstr "Dayton / Wright-Patterson, base de la Fuerza Aérea"
-
-#~ msgid "Dayton-Wright Brothers Airport"
-#~ msgstr "Dayton-Wright Brothers, aeropuerto"
-
-#~ msgid "De Kalb-Peachtree Airport"
-#~ msgstr "De Kalb-Peachtree, aeropuerto"
-
-#~ msgid "Denver International Airport"
-#~ msgstr "Denver, aeropuerto internacional"
-
-#~ msgid "Denver NEXRAD Station"
-#~ msgstr "Denver NEXRAD, base"
-
-#~ msgid "Detroit / Grosse Ile, Grosse Ile Airport"
-#~ msgstr "Detroit / Grosse Ile, Grosse Ile, aeropuerto"
-
-#~ msgid "Detroit City Airport"
-#~ msgstr "Detroit City, aeropuerto"
-
-#~ msgid "Detroit Metropolitan Wayne County Airport"
-#~ msgstr "Detroit Metropolitan Wayne, aeropuerto del condado"
-
-#~ msgid "Deurne"
-#~ msgstr "Deurne"
-
-#~ msgid "Doha International Airport"
-#~ msgstr "Doha, aeropuerto internacional"
-
-#~ msgid "Domodedovo Airport"
-#~ msgstr "Domodedovo, aeropuerto"
-
-#~ msgid "Donji Zemunik"
-#~ msgstr "Zemunik Donji"
-
-#~ msgid "Double Eagle II Airport"
-#~ msgstr "Double Eagle II, aeropuerto"
-
-#~ msgid "Drake Field"
-#~ msgstr "Drake Field"
-
-#~ msgid "Duke Field / Eglin Auxiliary"
-#~ msgstr "Duke Field / Eglin Auxiliary"
-
-#~ msgid "Duluth International Airport"
-#~ msgstr "Duluth, aeropuerto internacional"
-
-#~ msgid "Dyce"
-#~ msgstr "Dyce"
-
-#~ msgid "Dyess Air Force Base"
-#~ msgstr "Dyess Air Force Base"
-
-#~ msgid "Délįne Airport"
-#~ msgstr "Délįne, aeropuerto"
-
-#~ msgid "Edmonton International"
-#~ msgstr "Edmonton International"
-
-#~ msgid "Edmonton Municipal"
-#~ msgstr "Edmonton Municipal"
-
-#~ msgid "Edmonton Municipal CR10"
-#~ msgstr "Edmonton Municipal CR10"
-
-#~ msgid "Edmonton Namao"
-#~ msgstr "Edmonton Namao"
-
-#~ msgid "Eduardo Gomes International Airport"
-#~ msgstr "Eduardo Gomes, aeropuerto internacional"
-
-#~ msgid "Edwards Air Force Auxiliary North Base"
-#~ msgstr "Edwards, base aérea auxiliar del norte"
-
-#~ msgid "Edwards Air Force Base"
-#~ msgstr "Edwards, base de la Fuerza Aérea"
-
-#~ msgid "Eielson Air Force Base"
-#~ msgstr "Eielson, base de la Fuerza Aérea"
-
-#~ msgid "El Cajon"
-#~ msgstr "El Cajón"
-
-#~ msgid "Elmendorf Air Force Base"
-#~ msgstr "Elmendorf, base de la Fuerza Aérea"
-
-#~ msgid "Enid Woodring Regional Airport"
-#~ msgstr "Enid Woodring, aeropuerto regional"
-
-#~ msgid "Es Senia Airport"
-#~ msgstr "Es Senia, aeropuerto"
-
-#~ msgid "Eureka, Skelton Airport"
-#~ msgstr "Eureka, Skelton, aeropuerto"
-
-#~ msgid "Fairbanks International Airport"
-#~ msgstr "Fairbanks, aeropuerto internacional"
-
-#~ msgid "Faleolo"
-#~ msgstr "Faleolo"
-
-#~ msgid "Fayetteville / Springdale, Northwest Arkansas Regional Airport"
-#~ msgstr ""
-#~ "Fayetteville / Springdale, Arkansas Noroccidental, aeropuerto regional"
-
-#~ msgid "Fayetteville Regional Airport"
-#~ msgstr "Fayetteville, aeropuerto regional"
-
-#~ msgid "Felts Field"
-#~ msgstr "Felts Field"
-
-#~ msgid "Flying Cloud Airport"
-#~ msgstr "Flying Cloud, aeropuerto"
-
-#~ msgid "Fontanarossa Airport"
-#~ msgstr "Fontanarossa, aeropuerto"
-
-#~ msgid "Forbes Field"
-#~ msgstr "Forbes Field"
-
-#~ msgid "Fort Bragg / Simmons Army Airfield"
-#~ msgstr "Fort Bragg / Simmons, aeródromo del ejército"
-
-#~ msgid "Fort Campbell U. S. Army Airfield"
-#~ msgstr "Fort Campbell, aeródromo del ejército de EE. UU."
-
-#~ msgid "Fort Eustis / Felker"
-#~ msgstr "Fort Eustis / Felker"
-
-#~ msgid "Fort Hood, Hood AAF Ft Hood"
-#~ msgstr "Fort Hood, Hood AAF"
-
-#~ msgid "Fort Hood, Robert Gray AAF Ft Hood"
-#~ msgstr "Fort Good, Robert Gray AAF"
-
-#~ msgid "Fort Lauderdale / Hollywood International Airport"
-#~ msgstr "Fort Lauderdale / Aeropuerto Internacional de Hollywood"
-
-#~ msgid "Fort Lauderdale Executive Airport"
-#~ msgstr "Fort Lauderdale, aeropuerto ejecutivo"
-
-#~ msgid "Fort Meade / Tipton"
-#~ msgstr "Fort Meade / Tipton"
-
-#~ msgid "Fort Sill"
-#~ msgstr "Fuerte Sill"
-
-#~ msgid "Fort Wainwright AAF"
-#~ msgstr "Fort Wainwright, AAF"
-
-#~ msgid "Fort Worth Alliance Airport"
-#~ msgstr "Forth Worth Alliance, aeropuerto"
-
-#~ msgid "Fort Worth, Naval Air Station"
-#~ msgstr "Forth Worth, estación naval aérea"
-
-#~ msgid "Forth Worth Spinks Airport"
-#~ msgstr "Forth Worth Spinks, aeropuerto"
-
-#~ msgid "Fulton County Airport-Brown Field"
-#~ msgstr "Fulton, aeropuerto del condado"
-
-#~ msgid "Galeao"
-#~ msgstr "Galeao"
-
-#~ msgid "Gatwick Airport"
-#~ msgstr "Gatwick, aeropuerto"
-
-#~ msgid "Gen Maria Airport"
-#~ msgstr "Gen Maria, aeropuerto"
-
-#~ msgid "General Mitchell International Airport"
-#~ msgstr "General Mitchell, aeropuerto internacional"
-
-#~ msgid "Ghedi Airport"
-#~ msgstr "Ghedi, aeropuerto"
-
-#~ msgid "Gillot"
-#~ msgstr "Gillot"
-
-#~ msgid "Glynco"
-#~ msgstr "Glynco"
-
-#~ msgid "Grand Forks Air Force Base"
-#~ msgstr "Grand Forks, base de la Fuerza Aérea"
-
-#~ msgid "Grand Forks International Airport"
-#~ msgstr "Grand Forks, aeropuerto internacional"
-
-#~ msgid "Grand Marais / Cook County Airport"
-#~ msgstr "Grand Marais / Cook, aeropuerto del condado"
-
-#~ msgid "Grand Marais, The Bay of Grand Marais"
-#~ msgstr "Grand Marais, La bahía de Grand Marais"
-
-#~ msgid "Grosse Ile"
-#~ msgstr "Grosse Ile"
-
-#~ msgid "Göteborg-Landvetter Airport"
-#~ msgstr "Gotemburgo-Landvetter, aeropuerto"
-
-#~ msgid "Göteborg-Save Airport"
-#~ msgstr "Gotemburgo-Save, aeropuerto"
-
-#~ msgid "Halifax International Airport"
-#~ msgstr "Halifax, aeropuerto internacional"
-
-#~ msgid "Hamburg-Finkenwerder"
-#~ msgstr "Hamburgo-Finkenwerder"
-
-#~ msgid "Hamburg-Fuhlsbuettel"
-#~ msgstr "Hamburgo-Fuhlsbuettel"
-
-#~ msgid "Hanchey AHP / Ozark"
-#~ msgstr "Hanchey AHP / Ozark"
-
-#~ msgid "Harrell"
-#~ msgstr "Harrell"
-
-#~ msgid "Harrisburg International Airport"
-#~ msgstr "Harrisburg International, aeropuerto"
-
-#~ msgid "Hartsfield - Jackson Atlanta International Airport"
-#~ msgstr "Hartsfield - Jackson Atlanta, aeropuerto internacional"
-
-#~ msgid "Hattiesburg / Laurel, Hattiesburg-Laurel Regional Airport"
-#~ msgstr "Hattiesburg / Laurel, Hattiesburg-Laurel, aeropuerto regional"
-
-#~ msgid "Hawkins Field Airport"
-#~ msgstr "Hartsfield, aeropuerto"
-
-#~ msgid "Heathrow Airport"
-#~ msgstr "Heathrow, aeropuerto"
-
-#~ msgid "Helsinki-Malmi"
-#~ msgstr "Helsinki-Malmi"
-
-#~ msgid "Helsinki-Vantaa"
-#~ msgstr "Helsinki-Vantaa"
-
-#~ msgid "Henderson Executive Airport"
-#~ msgstr "Henderson, aeropuerto ejecutivo"
-
-#~ msgid "Hill Air Force Base / Ogden"
-#~ msgstr "Hill, base de la Fuerza Aérea / Ogden"
-
-#~ msgid "Hiroshima Airport"
-#~ msgstr "Hiroshima, aeropuerto"
-
-#~ msgid "Hiroshimanishi"
-#~ msgstr "Hiroshimanishi"
-
-#~ msgid "Holloman Air Force Base"
-#~ msgstr "Holloman Air Force Base"
-
-#~ msgid "Hongqiao Airport"
-#~ msgstr "Hongqiao, aeropuerto"
-
-#~ msgid "Honolulu International Airport"
-#~ msgstr "Honolulu, aeropuerto internacional"
-
-#~ msgid "Hooks Memorial Airport"
-#~ msgstr "Hooks Memorial, aeropuerto"
-
-#~ msgid "Horta"
-#~ msgstr "Horta"
-
-#~ msgid "Houston / Ellington"
-#~ msgstr "Houston / Ellington"
-
-#~ msgid "Houston Hobby Airport"
-#~ msgstr "Houston Hobby, aeropuerto"
-
-#~ msgid "Houston Intercontinental Airport"
-#~ msgstr "Houston Intercontinental, aeropuerto"
-
-#~ msgid "Hunter U. S. Army Airfield"
-#~ msgstr "Hunter, aeródromo del ejército de EE. UU."
-
-#~ msgid "Huntsville International / Jones Field"
-#~ msgstr "Huntsville International / Jones Field"
-
-#~ msgid "Ile Aux Perroquets"
-#~ msgstr "Ile Aux Perroquets"
-
-#~ msgid "Iles de la Madeleineque."
-#~ msgstr "Iles de la Madeleineque"
-
-#~ msgid "Iles-De-La-Madelein"
-#~ msgstr "Iles-De-La-Madelein"
-
-#~ msgid "Indianapolis International Airport"
-#~ msgstr "Indianapolis, aeropuerto internacional"
-
-#~ msgid "Indianapolis, Eagle Creek Airpark"
-#~ msgstr "Indianapolis, Eagle Creek, aeroparque"
-
-#~ msgid "Istanbul-Ataturk Airport"
-#~ msgstr "Estambul-Ataturk, aeropuerto"
-
-#~ msgid "Istanbul-Sabiha Gokcen Airport"
-#~ msgstr "Estambul-Sabiha Gokcen, aeropuerto"
-
-#~ msgid "Istrana Airport"
-#~ msgstr "Istrana, aeropuerto"
-
-#~ msgid "Izmir-Adnan Menderes Airport"
-#~ msgstr "Esmirna-Adnan Menderes, aeropuerto"
-
-#~ msgid "Izmir-Cigli Airport"
-#~ msgstr "Esmirna-Cigli, aeropuerto"
-
-#~ msgid "Jacarepagua Airport"
-#~ msgstr "Jacarepagua, aeropuerto"
-
-#~ msgid "Jackson International Airport"
-#~ msgstr "Jackson International, aeropuerto"
-
-#~ msgid "Jacksonville International Airport"
-#~ msgstr "Jacksonville, aeropuerto internacional"
-
-#~ msgid "Jacksonville, Naval Air Station"
-#~ msgstr "Jacksonville, base aérea naval"
-
-#~ msgid "Jacqueline Cochran Regional Airport"
-#~ msgstr "Jacqueline Cochran, aeropuerto regional"
-
-#~ msgid "Johnson County Executive Airport"
-#~ msgstr "Johnson, aeropuerto ejecutivo del condado"
-
-#~ msgid "Jones Jr. Airport"
-#~ msgstr "Jones Jr., aeropuerto"
-
-#~ msgid "Kaneohe, Marine Corps Air Station"
-#~ msgstr "Kaneohe, base del Cuerpo de Marines"
-
-#~ msgid "Kansas City Downtown Airport"
-#~ msgstr "Kansas City Downtown, aeropuerto"
-
-#~ msgid "Kansas City International Airport"
-#~ msgstr "Kansas City, aeropuerto internacional"
-
-#~ msgid "Kasuminome Air Base"
-#~ msgstr "Kasuminome, base aérea"
-
-#~ msgid "Kelly Air Force Base"
-#~ msgstr "Kelly Air Force Base"
-
-#~ msgid "Kelp Reefs"
-#~ msgstr "Kelp Reefs"
-
-#~ msgid "Kendall-Tamiami Executive Airport"
-#~ msgstr "Kendall-Tamiami, aeropuerto ejecutivo"
-
-#~ msgid "Kennedy International Airport"
-#~ msgstr "Kennedy, aeropuerto internacional"
-
-#~ msgid "Key Field"
-#~ msgstr "Key Field"
-
-#~ msgid "Key West International Airport"
-#~ msgstr "Key West, aeropuerto internacional"
-
-#~ msgid "Key West, Naval Air Station"
-#~ msgstr "Key West, base aérea naval"
-
-#~ msgid "King Khaled International Airport"
-#~ msgstr "King Khaled International, aeropuerto"
-
-#~ msgid "Kingsford"
-#~ msgstr "Kingsford"
-
-#~ msgid "Kisauni"
-#~ msgstr "Kisauni"
-
-#~ msgid "Kissimmee Municipal Airport"
-#~ msgstr "Kissimmee Municipal, aeropuerto"
-
-#~ msgid "Koror, Palau"
-#~ msgstr "Koror, Palau"
-
-#~ msgid "La Carlota Airport"
-#~ msgstr "La Carlota, aeropuerto"
-
-#~ msgid "La Guardia Airport"
-#~ msgstr "La Guardia, aeropuerto"
-
-#~ msgid "La Veta Pass"
-#~ msgstr "La Veta Pass"
-
-#~ msgid "Lagos"
-#~ msgstr "Lagos"
-
-#~ msgid "Lake Hood Seaplane Base"
-#~ msgstr "Lake Hood Seaplane Base"
-
-#~ msgid "Lake Jackson"
-#~ msgstr "Lake Jackson"
-
-#~ msgid "Lanseria"
-#~ msgstr "Lanseria"
-
-#~ msgid "Lansing Municipal Airport"
-#~ msgstr "Lansing, aeropuerto municipal"
-
-#~ msgid "Las Bajadas"
-#~ msgstr "Las Bajadas"
-
-#~ msgid "Laughlin"
-#~ msgstr "Laughlin"
-
-#~ msgid "Laurel"
-#~ msgstr "Laurel"
-
-#~ msgid "Lawton Municipal Airport"
-#~ msgstr "Lawton, aeropuerto municipal"
-
-#~ msgid "Linate Airport"
-#~ msgstr "Linate, aeropuerto"
-
-#~ msgid "Lippstadt"
-#~ msgstr "Lippstadt"
-
-#~ msgid "Little Rock Air Force Base"
-#~ msgstr "Little Rock, base de la Fuerza Aérea"
-
-#~ msgid "Lompoc Airport"
-#~ msgstr "Lompoc, aeropuerto"
-
-#~ msgid "London City Airport"
-#~ msgstr "London City, aeropuerto"
-
-#~ msgid "Longue Point de Mingan"
-#~ msgstr "Longue Point de Mingan"
-
-#~ msgid "Lorain"
-#~ msgstr "Lorain"
-
-#~ msgid "Los Angeles / USC Campus Downtown"
-#~ msgstr "Los Ángeles / USC Campus Downtown"
-
-#~ msgid "Los Angeles International Airport"
-#~ msgstr "Los Ángeles, aeropuerto internacional"
-
-#~ msgid "Loshitsa"
-#~ msgstr "Loshitsa"
-
-#~ msgid "Loshitsa / Minsk International"
-#~ msgstr "Loshitsa / Minsk internacional"
-
-#~ msgid "Loveland"
-#~ msgstr "Loveland"
-
-#~ msgid "Luke Air Force Base / Phoenix"
-#~ msgstr "Luke, base de la Fuerza Aérea / Phoenix"
-
-#~ msgid "Lyon-Bron Airport"
-#~ msgstr "Lyon-Bron, aeropuerto"
-
-#~ msgid "Lyon-Satolas Airport"
-#~ msgstr "Lyon-Satolas, aeropuerto"
-
-#~ msgid "MBS International Airport"
-#~ msgstr "MBS, aeropuerto internacional"
-
-#~ msgid "Macdill Air Force Base, Fl."
-#~ msgstr "Macdill Fl., base de la Fuerza Aérea"
-
-#~ msgid "Madison County Executive Airport"
-#~ msgstr "Madison County Executive, aeropuerto"
-
-#~ msgid "Majuro Atoll"
-#~ msgstr "Islas Majuro"
-
-#~ msgid "Majuro Atoll, Marshall Islands International Airport"
-#~ msgstr "Islas Majuro, aeropuerto internacional de las islas Marshall"
-
-#~ msgid "Malcolm McKinnon Airport"
-#~ msgstr "Malcolm McKinnon, aeropuerto"
-
-#~ msgid "Malpensa Airport"
-#~ msgstr "Malpensa, aeropuerto"
-
-#~ msgid "Manaus Airport"
-#~ msgstr "Manaus, aeropuerto"
-
-#~ msgid "Maplecreek Automatic Weather Reporting System"
-#~ msgstr "Maplecreek, sistema de divulgación meteorológica automático"
-
-#~ msgid "Marietta / Dobbins Air Force Base"
-#~ msgstr "Marietta / Dobbins, base de la Fuerza Aérea"
-
-#~ msgid "Marte Airport"
-#~ msgstr "Marte, aeropuerto"
-
-#~ msgid "Maxwell Air Force Base / Montgomery"
-#~ msgstr "Maxwell, base de la Fuerza Aérea / Montgomery"
-
-#~ msgid "McCarran International Airport"
-#~ msgstr "McCarran, aeropuerto internacional"
-
-#~ msgid "McConnell Air Force Base"
-#~ msgstr "McConnell, base de la Fuerza Aérea"
-
-#~ msgid "McEntire Air National Guard Weather Facility Base"
-#~ msgstr "McEntire, base meteorológica de la Guardia Aérea Nacional"
-
-#~ msgid "McGregor Executive Airport"
-#~ msgstr "McGregor, aeropuerto ejecutivo"
-
-#~ msgid "McNabs Island"
-#~ msgstr "Isla de McNabs"
-
-#~ msgid "McTavish Automated Reporting Station"
-#~ msgstr "McTavish, base automática de divulgación"
-
-#~ msgid "Meacham International Airport"
-#~ msgstr "Meacham, aeropuerto internacional"
-
-#~ msgid "Merced / Castle Air Force Base"
-#~ msgstr "Merced / Castle, base de la Fuerza Aérea"
-
-#~ msgid "Merced Municipal Airport"
-#~ msgstr "Merced, aeropuerto municipal"
-
-#~ msgid "Meridian Naval Air Station - McCain Field"
-#~ msgstr "Meridia, base aérea naval; McCain Field"
-
-#~ msgid "Merrill Field Airport"
-#~ msgstr "Merrill Field, aeropuerto"
-
-#~ msgid "Mesa / Falcon Field"
-#~ msgstr "Mesa / Falcon Field"
-
-#~ msgid "Metcalf Field"
-#~ msgstr "Metcalf Field"
-
-#~ msgid "Miami International Airport"
-#~ msgstr "Miami, aeropuerto internacional"
-
-#~ msgid "Midland Airpark"
-#~ msgstr "Midland Airpark"
-
-#~ msgid "Midland International Airport"
-#~ msgstr "Midland, aeropuerto internacional"
-
-#~ msgid "Mikhaylovsk"
-#~ msgstr "Mikhaylovsk"
-
-#~ msgid "Millard Airport"
-#~ msgstr "Millard, aeropuerto"
-
-#~ msgid "Milton, Whiting Field Naval Air Station North"
-#~ msgstr "Milton, Whiting Field, base aérea naval del norte"
-
-#~ msgid "Milton, Whiting Field South"
-#~ msgstr "Milton, Whiting Field South"
-
-#~ msgid "Milwaukee / Timmerman"
-#~ msgstr "Milwaukee / Timmerman"
-
-#~ msgid "Minneapolis / Blaine"
-#~ msgstr "Minneapolis / Blaine"
-
-#~ msgid "Minneapolis-St. Paul International Airport"
-#~ msgstr "Minneapolis-St. Paul, aeropuerto internacional"
-
-#~ msgid "Minocqua"
-#~ msgstr "Minocqua"
-
-#~ msgid "Minot Air Force Base"
-#~ msgstr "Minot, base de la Fuerza Aérea"
-
-#~ msgid "Minot International Airport"
-#~ msgstr "Minot, aeropuerto internacional"
-
-#~ msgid "Miramar"
-#~ msgstr "Miramar"
-
-#~ msgid "Miramar MCAS / Mitscher Field Airport"
-#~ msgstr "Miramar MCAS / Mitscher Field, aeropuerto"
-
-#~ msgid "Mobile Downtown Airport"
-#~ msgstr "Mobile Downtown, aeropuerto"
-
-#~ msgid "Mobile Regional Airport"
-#~ msgstr "Mobile Regional, aeropuerto"
-
-#~ msgid "Monterrey International Airport"
-#~ msgstr "Monterrey, aeropuerto internacional"
-
-#~ msgid "Montgomery Field"
-#~ msgstr "Montgomery Field"
-
-#~ msgid "Montichiara Airport"
-#~ msgstr "Montichiara, aeropuerto"
-
-#~ msgid "Montpelier"
-#~ msgstr "Montpelier"
-
-#~ msgid "Montreal-Mirabel Airport"
-#~ msgstr "Montreal-Mirabel, aeropuerto"
-
-#~ msgid "Monument"
-#~ msgstr "Monument"
-
-#~ msgid "Muir"
-#~ msgstr "Muir"
-
-#~ msgid "Murphysboro"
-#~ msgstr "Murphysboro"
-
-#~ msgid "N. Kingston / Quonset"
-#~ msgstr "N. Kingston / Quonset"
-
-#~ msgid "Nancy-Essey Airport"
-#~ msgstr "Nancy-Essey, aeropuerto"
-
-#~ msgid "Nancy-Ochey Airport"
-#~ msgstr "Nancy-Ochey, aeropuerto"
-
-#~ msgid "Naval Air Station - Alvin Callender Field"
-#~ msgstr "Base aérea naval - Alvin Callender Field"
-
-#~ msgid "New London"
-#~ msgstr "Nuevo Londres"
-
-#~ msgid "New Orleans International Airport"
-#~ msgstr "Nueva Orleans, aeropuerto internacional"
-
-#~ msgid "New Orleans Lakefront Airport"
-#~ msgstr "Nueva Orleans Lakefront, aeropuerto"
-
-#~ msgid "New River"
-#~ msgstr "New River"
-
-#~ msgid "New York City, Central Park"
-#~ msgstr "Nueva York, Central Park"
-
-#~ msgid "Newport News / Williamsburg International Airport"
-#~ msgstr "Newport News / Williamsburg, aeropuerto internacional"
-
-#~ msgid "Norfolk International Airport"
-#~ msgstr "Norfolk, aeropuerto internacional"
-
-#~ msgid "Norfolk, Naval Air Station"
-#~ msgstr "Norfolk, base aérea naval"
-
-#~ msgid "Normal"
-#~ msgstr "Normal"
-
-#~ msgid "North Las Vegas Airport"
-#~ msgstr "North Las Vegas, aeropuerto"
-
-#~ msgid "Northeast Philadelphia Airport"
-#~ msgstr "Northeast Philadelphia, aeropuerto"
-
-#~ msgid "Nouzha Airport"
-#~ msgstr "Nouzha, aeropuerto"
-
-#~ msgid "O. R. Tambo International Airport"
-#~ msgstr "O.R. Tambo, aeropuerto internacional"
-
-#~ msgid "Oahu, Kalaeloa Airport"
-#~ msgstr "Oahu, aeropuerto de Kalaeloa"
-
-#~ msgid "Obihiro Airport"
-#~ msgstr "Obihiro, aeropuerto"
-
-#~ msgid "Oceana"
-#~ msgstr "Oceana"
-
-#~ msgid "Oceanside Municipal Airport"
-#~ msgstr "Oceanside, aeropuerto municipal"
-
-#~ msgid "Oceanside, Camp Pendleton, Marine Corps Air Station"
-#~ msgstr "Oceanside, Campo Pendleton, base del Cuerpo Aéreo de los Marines"
-
-#~ msgid "Ogden-Hinckley Airport"
-#~ msgstr "Ogden-Hinckley, aeropuerto"
-
-#~ msgid "Ohio State University Airport"
-#~ msgstr "Ohio, aeropuerto State University"
-
-#~ msgid "Olathe, New Century Aircenter"
-#~ msgstr "Olathe, New Century, aerocentro"
-
-#~ msgid "Old Yundum"
-#~ msgstr "Old Yundum"
-
-#~ msgid "Omaha / Offutt Air Force Base"
-#~ msgstr "Omaha / Offutt, base de la Fuerza Aérea"
-
-#~ msgid "Omaha, Eppley Airfield"
-#~ msgstr "Omaha, Eppley, aeródromo"
-
-#~ msgid "Omišalj"
-#~ msgstr "Omisalj"
-
-#~ msgid "Opa Locka Airport"
-#~ msgstr "Opa Locka, aeropuerto"
-
-#~ msgid "Orlando Executive Airport"
-#~ msgstr "Orlando, aeropuerto ejecutivo"
-
-#~ msgid "Orlando International Airport"
-#~ msgstr "Orlando, aeropuerto internacional"
-
-#~ msgid "Oscar Macha Airport"
-#~ msgstr "Oscar Macha, aeropuerto"
-
-#~ msgid "Outlaw Field Airport"
-#~ msgstr "Outlaw Field, aeródromo"
-
-#~ msgid "Oxnard Airport"
-#~ msgstr "Oxnard, aeropuerto"
-
-#~ msgid "Page Field"
-#~ msgstr "Page Field"
-
-#~ msgid "Palam"
-#~ msgstr "Palam"
-
-#~ msgid "Palermo Boccadifalco"
-#~ msgstr "Palermo Boccadifalco"
-
-#~ msgid "Palm Springs Regional Airport"
-#~ msgstr "Palm Springs, aeropuerto regional"
-
-#~ msgid "Paris-Le Bourget Airport"
-#~ msgstr "Paris-Le Bourget, aeropuerto"
-
-#~ msgid "Paris-Orly"
-#~ msgstr "Paris-Orly"
-
-#~ msgid "Paya Lebar Airport"
-#~ msgstr "Paya Lebar, aeropuerto"
-
-#~ msgid "Peachtree City"
-#~ msgstr "Peachtree City"
-
-#~ msgid "Peachtree City-Falcon Field"
-#~ msgstr "Peachtree City-Falcon Field"
-
-#~ msgid "Pearland Regional Airport"
-#~ msgstr "Pearland, aeropuerto regional"
-
-#~ msgid "Pedras Rubras"
-#~ msgstr "Pedras Rubras"
-
-#~ msgid "Pensacola Regional Airport"
-#~ msgstr "Pensacola, aeropuerto regional"
-
-#~ msgid "Pensacola, Naval Air Station"
-#~ msgstr "Pensacola, base aérea naval"
-
-#~ msgid "Peter O Knight Airport"
-#~ msgstr "Peter O Knight, aeropuerto"
-
-#~ msgid "Philadelphia International Airport"
-#~ msgstr "Philadelphia, aeropuerto internacional"
-
-#~ msgid "Philip Billard Municipal Airport"
-#~ msgstr "Philip Billard, aeropuerto municipal"
-
-#~ msgid "Phoenix Sky Harbor International Airport"
-#~ msgstr "Phoenix Sky Harbor, aeropuerto internacional"
-
-#~ msgid "Phoenix-Deer Valley Municipal Airport"
-#~ msgstr "Phoenix-Deer Valley, aeropuerto municipal"
-
-#~ msgid "Pierre Elliot Trudeau International Airport"
-#~ msgstr "Pierre Elliot Trudeau, aeropuerto internacional"
-
-#~ msgid "Pirkkala"
-#~ msgstr "Pirkkala"
-
-#~ msgid "Pittsburgh International Airport"
-#~ msgstr "Pittsburgh, aeropuerto internacional"
-
-#~ msgid "Pleso"
-#~ msgstr "Pleso"
-
-#~ msgid "Point Mugu, Naval Air Warfare Center"
-#~ msgstr "Point Mugu, centro de armamento de la Marina Aérea"
-
-#~ msgid "Pointe Noire"
-#~ msgstr "Pointe Noire"
-
-#~ msgid "Pope Air Force Base"
-#~ msgstr "Pope Air Force Base"
-
-#~ msgid "Port Arthur"
-#~ msgstr "Port Arthur"
-
-#~ msgid "Port Columbus International Airport"
-#~ msgstr "Port Columbus, aeropuerto internacional"
-
-#~ msgid "Portage, Portage Glacier"
-#~ msgstr "Portage, Portage Glacier"
-
-#~ msgid "Portela"
-#~ msgstr "Portela"
-
-#~ msgid "Portland International Airport"
-#~ msgstr "Portland, aeropuerto internacional"
-
-#~ msgid "Portland-Hillsboro Airport"
-#~ msgstr "Portland-Hillsboro, aeropuerto"
-
-#~ msgid "Portland-Troutdale Airport"
-#~ msgstr "Portland-Troutdale, aeropuerto"
-
-#~ msgid "Porto Alegre Airport"
-#~ msgstr "Porto Alegre, aeropuerto"
-
-#~ msgid "Pouthichentong"
-#~ msgstr "Pouthichentong"
-
-#~ msgid "Pudong Airport"
-#~ msgstr "Pudong, aeropuerto"
-
-#~ msgid "Pullman"
-#~ msgstr "Pullman"
-
-#~ msgid "Punta Raisi Airport"
-#~ msgstr "Punta Raisi, aeropuerto"
-
-#~ msgid "Qikiqtarjuaq Airport"
-#~ msgstr "Qikiqtarjuaq, aeropuerto"
-
-#~ msgid "Rancho Boyeros"
-#~ msgstr "Rancho Boyeros"
-
-#~ msgid "Redbird Airport"
-#~ msgstr "Redbird, aeropuerto"
-
-#~ msgid "Regina University"
-#~ msgstr "Regina, universidad"
-
-#~ msgid "Rickenbacker Air National Guard Base"
-#~ msgstr "Rickenbacker, Base aérea de Guardia Aérea"
-
-#~ msgid "Rio de Janeiro Airport"
-#~ msgstr "Río de Janeiro, aeropuerto"
-
-#~ msgid "Rio de Janeiro-Santa Cruz Air Base"
-#~ msgstr "Río de Janeiro, Base aérea de Santa Cruz"
-
-#~ msgid "Riverside / March Air Force Base"
-#~ msgstr "Riverside / March, base de la Fuerza Aérea"
-
-#~ msgid "Riverside Municipal Airport"
-#~ msgstr "Riverside Municipal, aeropuerto"
-
-#~ msgid "Rolla"
-#~ msgstr "Rolla"
-
-#~ msgid "Roma Fiumicino"
-#~ msgstr "Roma Fiumicino"
-
-#~ msgid "Romeoville"
-#~ msgstr "Romeoville"
-
-#~ msgid "S. Angelo Airport"
-#~ msgstr "S. Angelo, aeropuerto"
-
-#~ msgid "Sacramento Executive Airport"
-#~ msgstr "Sacramento, aeropuerto ejecutivo"
-
-#~ msgid "Sacramento International Airport"
-#~ msgstr "Sacramento, aeropuerto internacional"
-
-#~ msgid "Sacramento Mather Airport"
-#~ msgstr "Sacramento Mather, aeropuerto"
-
-#~ msgid "Saginaw County H.W. Browne Airport"
-#~ msgstr "Saginaw County H.W. Browne, aeropuerto"
-
-#~ msgid "Saint Leonard Airport"
-#~ msgstr "Saint Leonard, aeropuerto"
-
-#~ msgid "Saipan Island, Saipan International Airport"
-#~ msgstr "Isla de Saipán, aeropuerto internacional de Saipán"
-
-#~ msgid "Salcea"
-#~ msgstr "Salcea"
-
-#~ msgid "San Antonio International Airport"
-#~ msgstr "San Antonio, aeropuerto internacional"
-
-#~ msgid "San Diego / El Cajon, Gillespie Field Airport"
-#~ msgstr "San Diego / El Cajón, aeropuerto Gillespie Field"
-
-#~ msgid "San Diego International-Lindbergh Field"
-#~ msgstr "San Diego internacional - Campo Lindbergh"
-
-#~ msgid "San Diego, North Island, Naval Air Station"
-#~ msgstr "San Diego, North Island, base aérea naval"
-
-#~ msgid "San Jose / Reid / Hillv"
-#~ msgstr "San José / Reid / Hillv"
-
-#~ msgid "San Jose International Airport"
-#~ msgstr "San José, aeropuerto internacional"
-
-#~ msgid "Sanford Airport"
-#~ msgstr "Sanford, aeropuerto"
-
-#~ msgid "Sanganer"
-#~ msgstr "Sanganer"
-
-#~ msgid "Saturna Island Meteorological Aeronautical Presentation System"
-#~ msgstr "Isla de Saturna, sistema de presentación meteorológico aeronáutico"
-
-#~ msgid "Savannah International Airport"
-#~ msgstr "Savannah, aeropuerto internacional"
-
-#~ msgid "Seattle Boeing Field"
-#~ msgstr "Seattle Boeing Field"
-
-#~ msgid "Seattle-Tacoma International Airport"
-#~ msgstr "Seattle-Tacoma, aeropuerto internacional"
-
-#~ msgid "Sendai Airport"
-#~ msgstr "Sendai, aeropuerto"
-
-#~ msgid "Sheep Mountain, Sheep Mountain Airport"
-#~ msgstr "Sheep Mountain, aeropuerto"
-
-#~ msgid "Sheremet'ye Airport"
-#~ msgstr "Sheremet'ye, aeropuerto"
-
-#~ msgid "Sheringham Automatic Weather Reporting System"
-#~ msgstr "Sheringham, sistema automático de divulgación meteorológica"
-
-#~ msgid "Shreveport Downtown Airport"
-#~ msgstr "Shreveport Downtown, aeropuerto"
-
-#~ msgid "Shreveport Regional Airport"
-#~ msgstr "Shreveport, aeropuerto regional"
-
-#~ msgid "Sigonella Airport"
-#~ msgstr "Sigonella, aeropuerto"
-
-#~ msgid "Sikes Airport"
-#~ msgstr "Sikes, aeropuerto"
-
-#~ msgid "Simon Bolivar International Airport"
-#~ msgstr "Simón Bolívar, aeropuerto internacional"
-
-#~ msgid "Sirri Island, Sirri Airport"
-#~ msgstr "Isla de Sirri, aeropuerto de Sirri"
-
-#~ msgid "Sky Harbor Airport"
-#~ msgstr "Sky Harbor, aeropuerto"
-
-#~ msgid "Skylark Field Airport"
-#~ msgstr "Skylark Field, aeropuerto"
-
-#~ msgid "Southern Pines"
-#~ msgstr "Southern Pines"
-
-#~ msgid "Southwest Florida International Airport"
-#~ msgstr "Southwest Florida, aeropuerto internacional"
-
-#~ msgid "Spadeadam"
-#~ msgstr "Spadeadam"
-
-#~ msgid "Sparwood Automatic Weather Reporting System"
-#~ msgstr "Sparwood, sistema automático de divulgación meteorológica"
-
-#~ msgid "Sparwood, Sparwood-Elk Valley Airport"
-#~ msgstr "Sparwood, Sparwood-Elk Valley, aeropuerto"
-
-#~ msgid "Spokane International Airport"
-#~ msgstr "Spokane, aeropuerto internacional"
-
-#~ msgid "Springdale Municipal"
-#~ msgstr "Springdale Municipal"
-
-#~ msgid "St Leonard Automatic Weather Reporting System"
-#~ msgstr "St Leonard, sistema automático de divulgación meteorológica"
-
-#~ msgid "St. Paul, St. Paul Downtown Holman Field"
-#~ msgstr "St. Paul, St. Paul Downtown Holman Field"
-
-#~ msgid "St. Petersburg, Whitted Airport"
-#~ msgstr "St. Petersburg, aeropuerto de Whitted"
-
-#~ msgid "Standiford Field"
-#~ msgstr "Standiford Field"
-
-#~ msgid "Starkville"
-#~ msgstr "Starkville"
-
-#~ msgid "Stinson Municipal Airport"
-#~ msgstr "Stinson, aeropuerto municipal"
-
-#~ msgid "Stockholm-Arlanda Airport"
-#~ msgstr "Estocolmo-Arlanda, aeropuerto"
-
-#~ msgid "Stockholm-Bromma Airport"
-#~ msgstr "Estocolmo-Bromma, aeropuerto"
-
-#~ msgid "Sugar Land"
-#~ msgstr "Sugar Land"
-
-#~ msgid "Sugar Land Municipal / Hull Field Airport"
-#~ msgstr "Sugar Land Municipal / Hull Field, aeropuerto"
-
-#~ msgid "Sung-shan"
-#~ msgstr "Sungshan"
-
-#~ msgid "Surčin"
-#~ msgstr "Surčin"
-
-#~ msgid "Swansboro"
-#~ msgstr "Swansboro"
-
-#~ msgid "Tacoma / McChord Air Force Base"
-#~ msgstr "Tacoma / McChord, base de la Fuerza Aérea"
-
-#~ msgid "Tacoma Narrows Airport"
-#~ msgstr "Tacoma Narrows, aeropuerto"
-
-#~ msgid "Tafaraoui Airport"
-#~ msgstr "Tafaraoui, aeropuerto"
-
-#~ msgid "Tampa International Airport"
-#~ msgstr "Tampa, aeropuerto internacional"
-
-#~ msgid "Ted Stevens Anchorage International Airport"
-#~ msgstr "Ted Stevens Anchorage, aeropuerto internacional"
-
-#~ msgid "Teslin Marine Aviation Reporting Station"
-#~ msgstr "Teslin Marine, base de divulgación de la aviación"
-
-#~ msgid "Theodore Francis Green State Airport"
-#~ msgstr "Theodore Francis Green State, aeropuerto"
-
-#~ msgid "Tinian Island, N. Mariana Is, West Tinian Airport"
-#~ msgstr "Isla de Tinian, Islas Marianas del Norte, aeropuerto de West Tinian"
-
-#~ msgid "Tinker Air Force Base"
-#~ msgstr "Tinker, Base de la Fuerza Aérea"
-
-#~ msgid "Titusville, NASA Shuttle Landing Facility"
-#~ msgstr ""
-#~ "Titusville, instalaciones de la NASA para aterrizajes de transbordadores"
-
-#~ msgid "Tokachi Japanese Ground Self Defense Force"
-#~ msgstr "Tokachi Japanese Ground Self Defense Force"
-
-#~ msgid "Tokyo Heliport"
-#~ msgstr "Tokio Heliport"
-
-#~ msgid "Tokyo International Airport"
-#~ msgstr "Tokyo International, aeropuerto"
-
-#~ msgid "Toledo Express Airport"
-#~ msgstr "Toledo Express, aeropuerto"
-
-#~ msgid "Toronto Buttonville"
-#~ msgstr "Toronto Buttonville"
-
-#~ msgid "Toronto Island Airport"
-#~ msgstr "Toronto Island, aeropuerto"
-
-#~ msgid "Toronto Pearson International"
-#~ msgstr "Toronto Pearson International"
-
-#~ msgid "Toulouse-Blagnac Airport"
-#~ msgstr "Toulouse-Blagnac, aeropuerto"
-
-#~ msgid "Toulouse-Francazal Airport"
-#~ msgstr "Toulouse-Francazal, aeropuerto"
-
-#~ msgid "Trail Valley"
-#~ msgstr "Trail Valley"
-
-#~ msgid "Tucson International Airport"
-#~ msgstr "Tucson, aeropuerto internacional"
-
-#~ msgid "Tulsa International Airport"
-#~ msgstr "Tulsa, aeropuerto internacional"
-
-#~ msgid "Urbana"
-#~ msgstr "Urbana"
-
-#~ msgid "Urbe Airport"
-#~ msgstr "Urbe, aeropuerto"
-
-#~ msgid "Vance Air Force Base / Enid"
-#~ msgstr "Vance / Enid, base de la Fuerza Aérea"
-
-#~ msgid "Vandenberg Air Force Base"
-#~ msgstr "Vandenberg, base de la Fuerza Aérea"
-
-#~ msgid "Vandenberg Airport"
-#~ msgstr "Vandenberg, aeropuerto"
-
-#~ msgid "Varadero"
-#~ msgstr "Varadero"
-
-#~ msgid "Vic. Hartland Automatic Weather Reporting System"
-#~ msgstr "Vic. Hartland, sistema automático de divulgación meteorológica"
-
-#~ msgid "Victoria Automatic Weather Reporting System"
-#~ msgstr "Victoria, sistema automático de divulgación meteorológica"
-
-#~ msgid "Victoria Harbour"
-#~ msgstr "Victoria Harbour"
-
-#~ msgid "Victoria International Airport"
-#~ msgstr "Victoria International, aeropuerto"
-
-#~ msgid "Victoria University"
-#~ msgstr "Victoria, universidad"
-
-#~ msgid "Vnukovo Airport"
-#~ msgstr "Vnukovo, aeropuerto"
-
-#~ msgid "Waco Regional Airport"
-#~ msgstr "Waco, aeropuerto regional"
-
-#~ msgid "Washington DC, Reagan National Airport"
-#~ msgstr "Washington DC, aeropuerto nacional Reagan"
-
-#~ msgid "Washington DC, Washington-Dulles International Airport"
-#~ msgstr "Washington DC, aeropuerto internacional de Dulles"
-
-#~ msgid "Waxahachie"
-#~ msgstr "Waxahachie"
-
-#~ msgid "Whiteman Airport"
-#~ msgstr "Whiteman, aeropuerto"
-
-#~ msgid "Wichita Mid-Continent Airport"
-#~ msgstr "Wichita Mid-Continent, aeropuerto"
-
-#~ msgid "Wickede"
-#~ msgstr "Wickede"
-
-#~ msgid "Wiley Post Airport"
-#~ msgstr "Wiley Post, aeropuerto"
-
-#~ msgid "Will Rogers World Airport"
-#~ msgstr "Will Rogers World, aeropuerto"
-
-#~ msgid "Williams Gateway Airport"
-#~ msgstr "Williams Gateway, aeropuerto"
-
-#~ msgid "Willow Run Airport"
-#~ msgstr "Willow Run, aeropuerto"
-
-#~ msgid "Wings Field Airport"
-#~ msgstr "Wings Field, aeropuerto"
-
-#~ msgid "Winnipeg International Airportman."
-#~ msgstr "Winnipeg, aeropuerto internacional"
-
-#~ msgid "Winnipeg The Forks"
-#~ msgstr "Winnipeg The Forks"
-
-#~ msgid "Wytheville"
-#~ msgstr "Wytheville"
-
-#~ msgid "Yuba County Airport"
-#~ msgstr "Yuba, aeropuerto del condado"
-
-#~ msgid "Ülenurme"
-#~ msgstr "Ülenurme"
-
-#~ msgid "Čepin"
-#~ msgstr "Čepin"
-
-#~ msgid "Čilipi"
-#~ msgstr "Čilipi"
