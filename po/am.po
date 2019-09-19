@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# samson <sambelet@yahoo.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# samson <sambelet@yahoo.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 10:10+0100\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"PO-Revision-Date: 2019-03-12 16:16+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Amharic (https://www.transifex.com/mate/teams/13566/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,12 +37,12 @@ msgstr "ኬ "
 #. translators: Celsius
 #: ../libmateweather/mateweather-prefs.c:99
 msgid "C"
-msgstr "C"
+msgstr "ሴ "
 
 #. translators: Fahrenheit
 #: ../libmateweather/mateweather-prefs.c:102
 msgid "F"
-msgstr "F"
+msgstr "ፋ "
 
 #: ../libmateweather/mateweather-prefs.c:104
 #: ../libmateweather/mateweather-prefs.c:130
@@ -217,7 +217,7 @@ msgstr "'ፋራናይት'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:27
 msgid "Temperature unit"
-msgstr "የአየር ንብረት መለኪያ "
+msgstr "የ አየር ንብረት መለኪያ "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:28
 msgid ""
@@ -251,11 +251,11 @@ msgstr "'ነባር_አካባቢ'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:41
 msgid "Weather location information"
-msgstr "የአየር ንብረት አካባቢ መረጃ "
+msgstr "የ አየር ንብረት አካባቢ መረጃ "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:42
 msgid "Weather location information."
-msgstr "የአየር ንብረት አካባቢ መረጃ "
+msgstr "የ አየር ንብረት አካባቢ መረጃ "
 
 #. TRANSLATORS: Change this to the code of your default location
 #. that corresponds to the DEFAULT_LOCATION name you put above. This
@@ -298,7 +298,7 @@ msgstr "'ነባር_አካባቢ'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:63
 msgid "Zone location"
-msgstr "የክልሉ አካባቢ "
+msgstr "የ ክልሉ አካባቢ "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:64
 msgid ""
@@ -324,7 +324,7 @@ msgstr "'ነባር_ራዳር'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:75
 msgid "Radar location"
-msgstr "የራዳር አካባቢ "
+msgstr "የ ራዳር አካባቢ "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:76
 msgid ""
@@ -338,11 +338,11 @@ msgstr ""
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:77
 msgid "Weather for a city"
-msgstr "የአየር ንብረት ለ ከተማ "
+msgstr "የ አየር ንብረት ለ ከተማ "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:78
 msgid "The city that mateweather displays information for."
-msgstr "የሜት አየር ንብረት መረጃ የሚታይበት ከተማ"
+msgstr "የ ሜት አየር ንብረት መረጃ የሚታይበት ከተማ"
 
 #. TRANSLATORS: Change this to the coordinates of your default
 #. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
@@ -359,7 +359,7 @@ msgstr "'ነባር_መገናኛዎች'"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:88
 msgid "Location coordinates"
-msgstr "የአካባቢ መጋጠሚያዎች "
+msgstr "የ አካባቢ መጋጠሚያዎች "
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:89
 msgid ""
@@ -400,7 +400,7 @@ msgstr "ማግኘት አልተቻለም METAR data: %d %s.\n"
 
 #: ../libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
-msgstr "የአየር ንብረት አካባቢ ማግኘት አልተቻለም"
+msgstr "የ አየር ንብረት አካባቢ ማግኘት አልተቻለም"
 
 #: ../libmateweather/weather.c:236
 msgid "Variable"
@@ -472,15 +472,15 @@ msgstr "ከ ሰሜን - ሰሜን ምዕራብ"
 
 #: ../libmateweather/weather.c:253
 msgid "Clear Sky"
-msgstr "የጠራ ሰማይ "
+msgstr "የ ጠራ ሰማይ "
 
 #: ../libmateweather/weather.c:254
 msgid "Broken clouds"
-msgstr "የተሰባበሩ ደመናዎች "
+msgstr "የ ተሰባበሩ ደመናዎች "
 
 #: ../libmateweather/weather.c:255
 msgid "Scattered clouds"
-msgstr "የተበታተኑ ደመናዎች "
+msgstr "የ ተበታተኑ ደመናዎች "
 
 #: ../libmateweather/weather.c:256
 msgid "Few clouds"
@@ -563,7 +563,7 @@ msgstr "ከባድ በረዶ"
 
 #: ../libmateweather/weather.c:299
 msgid "Snowstorm"
-msgstr "የበረዶ ማእበል"
+msgstr "የ በረዶ ማእበል"
 
 #: ../libmateweather/weather.c:299
 msgid "Blowing snowfall"
@@ -571,7 +571,7 @@ msgstr "ነፋሳማ በረዶ "
 
 #: ../libmateweather/weather.c:299
 msgid "Snow showers"
-msgstr "የበረዶ ካፊያ "
+msgstr "የ በረዶ ካፊያ "
 
 #: ../libmateweather/weather.c:299
 msgid "Drifting snow"

@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Ivar Smolin <okul@linux.ee>, 2018
+# Ivar Smolin <okul@linux.ee>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 10:10+0100\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>, 2018\n"
+"PO-Revision-Date: 2019-03-12 16:16+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Estonian (https://www.transifex.com/mate/teams/13566/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -422,7 +422,7 @@ msgstr "Muutuja"
 
 #: ../libmateweather/weather.c:237
 msgid "North"
-msgstr "Põhjast"
+msgstr "Põhjalaiust"
 
 #: ../libmateweather/weather.c:237
 msgid "North - NorthEast"
@@ -438,7 +438,7 @@ msgstr "Idast - kirdest"
 
 #: ../libmateweather/weather.c:238
 msgid "East"
-msgstr "Idast"
+msgstr "Idapikkust"
 
 #: ../libmateweather/weather.c:238
 msgid "East - Southeast"
@@ -454,7 +454,7 @@ msgstr "Lõunast - kagust"
 
 #: ../libmateweather/weather.c:239
 msgid "South"
-msgstr "Lõunast"
+msgstr "Lõunalaiust"
 
 #: ../libmateweather/weather.c:239
 msgid "South - Southwest"
@@ -470,7 +470,7 @@ msgstr "Läänest - edelast"
 
 #: ../libmateweather/weather.c:240
 msgid "West"
-msgstr "Läänest"
+msgstr "Läänepikkust"
 
 #: ../libmateweather/weather.c:240
 msgid "West - Northwest"

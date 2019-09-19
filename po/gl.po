@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# manuel meixide <m.meixide@gmail.com>, 2018
-# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# manuel meixide <m.meixide@gmail.com>, 2019
+# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 10:10+0100\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2018\n"
+"PO-Revision-Date: 2019-03-12 16:16+0000\n"
+"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019\n"
 "Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -340,8 +340,8 @@ msgid ""
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
-"Un código de tres díxitos para obter os mapas de radar desde weather.com, "
-"encontrados a través de https://raw.github.com/mate-"
+"Un código de tres díxitos para obter os mapas de radar dende weather.com, "
+"atopados a través de https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:77
@@ -386,7 +386,7 @@ msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
 msgstr ""
-"Se é verdadeiro, obtén un mapa de radar desde a localización especificada "
+"Se é verdadeiro, obtén un mapa de radar dende a localización especificada "
 "pola chave «radar»."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:92
@@ -395,7 +395,7 @@ msgstr "O URL para o mapa de radar"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:93
 msgid "The custom url from where to retrieve a radar map."
-msgstr "O URL personalizado desde onde obter un mapa de radar."
+msgstr "O URL personalizado dende onde obter un mapa de radar."
 
 #: ../libmateweather/timezone-menu.c:278
 msgctxt "timezone"

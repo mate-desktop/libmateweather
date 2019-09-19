@@ -4,20 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Alban <nofbname@gmail.com>, 2018
-# oltjano <apple.doctor92@yahoo.com>, 2018
-# Ardit Dani <ardit.dani@gmail.com>, 2018
-# Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Alban <nofbname@gmail.com>, 2019
+# oltjano <apple.doctor92@yahoo.com>, 2019
+# Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2019
+# Ardit Dani <ardit.dani@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 10:10+0100\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2018\n"
+"PO-Revision-Date: 2019-03-12 16:16+0000\n"
+"Last-Translator: Ardit Dani <ardit.dani@gmail.com>, 2019\n"
 "Language-Team: Albanian (https://www.transifex.com/mate/teams/13566/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,11 +131,11 @@ msgstr "Greenwich ora mesatare"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:1
 msgid "Show notifications"
-msgstr ""
+msgstr "Shfaq informime"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:2
 msgid "Determines whether the applet shows a notification on each update."
-msgstr ""
+msgstr "Përcakton nëse programi tregon një njoftim për çdo përditësim."
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:3
 msgid "Update the data automatically"
@@ -179,6 +179,7 @@ msgstr "Njësia e distancës"
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:13
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
 msgstr ""
+"Njësia që duhet përdorur për shikueshmëri. Vlerat: 'meters', 'km' ,'miles'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
@@ -307,6 +308,8 @@ msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
+"Një zonë unike për qytetin, siç është gjetur https://raw.github.com/mate-"
+"desktop/libmateweather/master/data/Locations.xml.in"
 
 #. TRANSLATORS: Change this to the radar of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -332,6 +335,9 @@ msgid ""
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
+"Një kod tre-shifror për gjetjen e hartave të radarëve nga weather.com, "
+"gjetur nga https://raw.github.com/mate-"
+"desktop/libmateweather/master/data/Locations.xml.in"
 
 #: ../libmateweather/org.mate.weather.gschema.xml.in.h:77
 msgid "Weather for a city"

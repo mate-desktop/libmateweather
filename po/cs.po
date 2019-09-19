@@ -4,26 +4,26 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Michal Procházka <mich.procha@seznam.cz>, 2018
-# Ondřej Kolín <ondrej.kolin@gmail.com>, 2018
-# Petr Šimáček <petr.simacek@gmail.com>, 2018
-# Lukáš Kvídera <lukas.kvidera@seznam.cz>, 2018
-# ToMáš Marný, 2018
-# Michal <sinope@seznam.cz>, 2018
-# Robin Kriebel <kriebel.robin@gmail.com>, 2018
-# LiberteCzech <liberte.czech@gmail.com>, 2018
-# Stanislav Kučera <inactive+kacernator@transifex.com>, 2018
-# phebix <dev@phebix.cz>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Michal Procházka <mich.procha@seznam.cz>, 2019
+# Ondřej Kolín <ondrej.kolin@gmail.com>, 2019
+# Petr Šimáček <petr.simacek@gmail.com>, 2019
+# Lukáš Kvídera <lukas.kvidera@seznam.cz>, 2019
+# ToMáš Marný, 2019
+# Michal <sinope@seznam.cz>, 2019
+# Robin Kriebel <kriebel.robin@gmail.com>, 2019
+# LiberteCzech <liberte.czech@gmail.com>, 2019
+# Stanislav Kučera <inactive+kacernator@transifex.com>, 2019
+# phebix <dev@phebix.cz>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 10:10+0100\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: phebix <dev@phebix.cz>, 2018\n"
+"PO-Revision-Date: 2019-03-12 16:16+0000\n"
+"Last-Translator: phebix <dev@phebix.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +74,7 @@ msgstr "km/h"
 #. translators: miles per hour
 #: ../libmateweather/mateweather-prefs.c:122
 msgid "mph"
-msgstr "mph"
+msgstr "míle za hodinu"
 
 #. translators: knots (speed unit)
 #: ../libmateweather/mateweather-prefs.c:125
