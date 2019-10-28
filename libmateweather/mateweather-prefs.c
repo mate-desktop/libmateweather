@@ -92,13 +92,13 @@ mateweather_prefs_get_temp_display_name (TempUnit temp)
         case TEMP_UNIT_DEFAULT:
             return N_("Default");
         case TEMP_UNIT_KELVIN:
-             /* translators: Kelvin */
+             /* Translators: Kelvin */
             return N_("K");
         case TEMP_UNIT_CENTIGRADE:
-            /* translators: Celsius */
+            /* Translators: Celsius */
             return N_("C");
         case TEMP_UNIT_FAHRENHEIT:
-            /* translators: Fahrenheit */
+            /* Translators: Fahrenheit */
             return N_("F");
 	default:
     	    return N_("Invalid");
@@ -112,19 +112,19 @@ mateweather_prefs_get_speed_display_name (SpeedUnit speed)
         case SPEED_UNIT_DEFAULT:
             return N_("Default");
         case SPEED_UNIT_MS:
-            /* translators: meters per second */
+            /* Translators: meters per second */
             return N_("m/s");
         case SPEED_UNIT_KPH:
-            /* translators: kilometers per hour */
+            /* Translators: kilometers per hour */
             return N_("km/h");
         case SPEED_UNIT_MPH:
-            /* translators: miles per hour */
+            /* Translators: miles per hour */
             return N_("mph");
         case SPEED_UNIT_KNOTS:
-            /* translators: knots (speed unit) */
+            /* Translators: knots (speed unit) */
             return N_("knots");
         case SPEED_UNIT_BFT:
-            /* translators: wind speed */
+            /* Translators: wind speed */
             return N_("Beaufort scale");
 	default:
     	    return N_("Invalid");
@@ -138,22 +138,22 @@ mateweather_prefs_get_pressure_display_name (PressureUnit pressure)
         case PRESSURE_UNIT_DEFAULT:
             return N_("Default");
         case PRESSURE_UNIT_KPA:
-            /* translators: kilopascals */
+            /* Translators: kilopascals */
             return N_("kPa");
         case PRESSURE_UNIT_HPA:
-            /* translators: hectopascals */
+            /* Translators: hectopascals */
             return N_("hPa");
         case PRESSURE_UNIT_MB:
-            /* translators: millibars */
+            /* Translators: millibars */
             return N_("mb");
         case PRESSURE_UNIT_MM_HG:
-            /* translators: millimeters of mercury */
+            /* Translators: millimeters of mercury */
             return N_("mmHg");
         case PRESSURE_UNIT_INCH_HG:
-            /* translators: inches of mercury */
+            /* Translators: inches of mercury */
             return N_("inHg");
         case PRESSURE_UNIT_ATM:
-            /* translators: atmosphere */
+            /* Translators: atmosphere */
             return N_("atm");
 	default:
     	    return N_("Invalid");
@@ -167,13 +167,13 @@ mateweather_prefs_get_distance_display_name (DistanceUnit distance)
         case DISTANCE_UNIT_DEFAULT:
             return N_("Default");
         case DISTANCE_UNIT_METERS:
-            /* translators: meters */
+            /* Translators: meters */
             return N_("m");
         case DISTANCE_UNIT_KM:
-            /* translators: kilometers */
+            /* Translators: kilometers */
             return N_("km");
         case DISTANCE_UNIT_MILES:
-            /* translators: miles */
+            /* Translators: miles */
             return N_("mi");
 	default:
     	    return N_("Invalid");

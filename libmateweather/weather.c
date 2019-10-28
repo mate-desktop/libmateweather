@@ -290,7 +290,7 @@ weather_sky_string (WeatherSky sky)
 /*                   NONE                         VICINITY                             LIGHT                      MODERATE                      HEAVY                      SHALLOW                      PATCHES                         PARTIAL                      THUNDERSTORM                    BLOWING                      SHOWERS                         DRIFTING                      FREEZING                      */
 /*               *******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 static const gchar *conditions_str[24][13] = {
-/* TRANSLATOR: If you want to know what "blowing" "shallow" "partial"
+/* Translators: If you want to know what "blowing" "shallow" "partial"
  * etc means, you can go to http://www.weather.com/glossary/ and
  * http://www.crh.noaa.gov/arx/wx.tbl.php */
     /* NONE          */ {"??",                        "??",                                "??",                      "??",                         "??",                      "??",                        "??",                           "??",                        N_("Thunderstorm"),             "??",                        "??",                           "??",                         "??"                         },
@@ -706,7 +706,7 @@ weather_info_get_update (WeatherInfo *info)
     if (info->update != 0) {
         struct tm tm;
         localtime_r (&info->update, &tm);
-	/* TRANSLATOR: this is a format string for strftime
+	/* Translators: this is a format string for strftime
 	 *             see `man 3 strftime` for more details
 	 */
 	timeformat = g_locale_from_utf8 (_("%a, %b %d / %H:%M"), -1,
@@ -759,28 +759,28 @@ temperature_string (gfloat temp_f, TempUnit to_unit, gboolean want_round)
     switch (to_unit) {
     case TEMP_UNIT_FAHRENHEIT:
 	if (!want_round) {
-	    /* TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN) */
+	    /* Translators: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN) */
 	    g_snprintf (buf, sizeof (buf), _("%.1f \302\260F"), temp_f);
 	} else {
-	    /* TRANSLATOR: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN) */
+	    /* Translators: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN) */
 	    g_snprintf (buf, sizeof (buf), _("%d \302\260F"), (int)floor (temp_f + 0.5));
 	}
 	break;
     case TEMP_UNIT_CENTIGRADE:
 	if (!want_round) {
-	    /* TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN) */
+	    /* Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN) */
 	    g_snprintf (buf, sizeof (buf), _("%.1f \302\260C"), TEMP_F_TO_C (temp_f));
 	} else {
-	    /* TRANSLATOR: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN) */
+	    /* Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN) */
 	    g_snprintf (buf, sizeof (buf), _("%d \302\260C"), (int)floor (TEMP_F_TO_C (temp_f) + 0.5));
 	}
 	break;
     case TEMP_UNIT_KELVIN:
 	if (!want_round) {
-	    /* TRANSLATOR: This is the temperature in kelvin */
+	    /* Translators: This is the temperature in kelvin */
 	    g_snprintf (buf, sizeof (buf), _("%.1f K"), TEMP_F_TO_K (temp_f));
 	} else {
-	    /* TRANSLATOR: This is the temperature in kelvin */
+	    /* Translators: This is the temperature in kelvin */
 	    g_snprintf (buf, sizeof (buf), _("%d K"), (int)floor (TEMP_F_TO_K (temp_f)));
 	}
 	break;
@@ -862,7 +862,7 @@ weather_info_get_humidity (WeatherInfo *info)
     if (humidity < 0.0)
         return _("Unknown");
 
-    /* TRANSLATOR: This is the humidity in percent */
+    /* Translators: This is the humidity in percent */
     g_snprintf (buf, sizeof (buf), _("%.f%%"), humidity);
     return buf;
 }
@@ -890,23 +890,23 @@ windspeed_string (gfloat knots, SpeedUnit to_unit)
 
     switch (to_unit) {
     case SPEED_UNIT_KNOTS:
-	/* TRANSLATOR: This is the wind speed in knots */
+	/* Translators: This is the wind speed in knots */
 	g_snprintf (buf, sizeof (buf), _("%0.1f knots"), knots);
 	break;
     case SPEED_UNIT_MPH:
-	/* TRANSLATOR: This is the wind speed in miles per hour */
+	/* Translators: This is the wind speed in miles per hour */
 	g_snprintf (buf, sizeof (buf), _("%.1f mph"), WINDSPEED_KNOTS_TO_MPH (knots));
 	break;
     case SPEED_UNIT_KPH:
-	/* TRANSLATOR: This is the wind speed in kilometers per hour */
+	/* Translators: This is the wind speed in kilometers per hour */
 	g_snprintf (buf, sizeof (buf), _("%.1f km/h"), WINDSPEED_KNOTS_TO_KPH (knots));
 	break;
     case SPEED_UNIT_MS:
-	/* TRANSLATOR: This is the wind speed in meters per second */
+	/* Translators: This is the wind speed in meters per second */
 	g_snprintf (buf, sizeof (buf), _("%.1f m/s"), WINDSPEED_KNOTS_TO_MS (knots));
 	break;
     case SPEED_UNIT_BFT:
-	/* TRANSLATOR: This is the wind speed as a Beaufort force factor
+	/* Translators: This is the wind speed as a Beaufort force factor
 	 * (commonly used in nautical wind estimation).
 	 */
 	g_snprintf (buf, sizeof (buf), _("Beaufort force %.1f"),
@@ -937,7 +937,7 @@ weather_info_get_wind (WeatherInfo *info)
         strncpy (buf, _("Calm"), sizeof (buf));
 	buf[sizeof (buf)-1] = '\0';
     } else {
-        /* TRANSLATOR: This is 'wind direction' / 'wind speed' */
+        /* Translators: This is 'wind direction' / 'wind speed' */
         g_snprintf (buf, sizeof (buf), _("%s / %s"),
 		    weather_wind_direction_string (info->wind),
 		    windspeed_string (info->windspeed, info->speed_unit));
@@ -959,27 +959,27 @@ weather_info_get_pressure (WeatherInfo *info)
 
     switch (info->pressure_unit) {
     case PRESSURE_UNIT_INCH_HG:
-	/* TRANSLATOR: This is pressure in inches of mercury */
+	/* Translators: This is pressure in inches of mercury */
 	g_snprintf (buf, sizeof (buf), _("%.2f inHg"), info->pressure);
 	break;
     case PRESSURE_UNIT_MM_HG:
-	/* TRANSLATOR: This is pressure in millimeters of mercury */
+	/* Translators: This is pressure in millimeters of mercury */
 	g_snprintf (buf, sizeof (buf), _("%.1f mmHg"), PRESSURE_INCH_TO_MM (info->pressure));
 	break;
     case PRESSURE_UNIT_KPA:
-	/* TRANSLATOR: This is pressure in kiloPascals */
+	/* Translators: This is pressure in kiloPascals */
 	g_snprintf (buf, sizeof (buf), _("%.2f kPa"), PRESSURE_INCH_TO_KPA (info->pressure));
 	break;
     case PRESSURE_UNIT_HPA:
-	/* TRANSLATOR: This is pressure in hectoPascals */
+	/* Translators: This is pressure in hectoPascals */
 	g_snprintf (buf, sizeof (buf), _("%.2f hPa"), PRESSURE_INCH_TO_HPA (info->pressure));
 	break;
     case PRESSURE_UNIT_MB:
-	/* TRANSLATOR: This is pressure in millibars */
+	/* Translators: This is pressure in millibars */
 	g_snprintf (buf, sizeof (buf), _("%.2f mb"), PRESSURE_INCH_TO_MB (info->pressure));
 	break;
     case PRESSURE_UNIT_ATM:
-	/* TRANSLATOR: This is pressure in atmospheres */
+	/* Translators: This is pressure in atmospheres */
 	g_snprintf (buf, sizeof (buf), _("%.3f atm"), PRESSURE_INCH_TO_ATM (info->pressure));
 	break;
 
@@ -1007,15 +1007,15 @@ weather_info_get_visibility (WeatherInfo *info)
 
     switch (info->distance_unit) {
     case DISTANCE_UNIT_MILES:
-	/* TRANSLATOR: This is the visibility in miles */
+	/* Translators: This is the visibility in miles */
 	g_snprintf (buf, sizeof (buf), _("%.1f miles"), info->visibility);
 	break;
     case DISTANCE_UNIT_KM:
-	/* TRANSLATOR: This is the visibility in kilometers */
+	/* Translators: This is the visibility in kilometers */
 	g_snprintf (buf, sizeof (buf), _("%.1f km"), VISIBILITY_SM_TO_KM (info->visibility));
 	break;
     case DISTANCE_UNIT_METERS:
-	/* TRANSLATOR: This is the visibility in meters */
+	/* Translators: This is the visibility in meters */
 	g_snprintf (buf, sizeof (buf), _("%.0fm"), VISIBILITY_SM_TO_M (info->visibility));
 	break;
 
