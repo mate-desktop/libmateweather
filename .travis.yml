@@ -41,7 +41,6 @@ requires:
     - gcc
     - git
     - gtk3
-    - intltool
     - libsoup
     - make
     - mate-common
@@ -50,6 +49,7 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/libmateweather
+    - autopoint
     - git
     - gtk-doc-tools
     - libglib2.0-dev
@@ -73,6 +73,7 @@ requires:
     - redhat-rpm-config
 
   ubuntu:
+    - autopoint
     - git
     - gtk-doc-tools
     - libglib2.0-dev
