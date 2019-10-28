@@ -31,8 +31,6 @@ LT_PREREQ([2.2.6])
 LT_INIT([dlopen disable-static])
 LT_LIB_M
 
-IT_PROG_INTLTOOL([0.50.1])
-
 PKG_PROG_PKG_CONFIG([0.19])
 
 AC_PROG_CC
@@ -79,10 +77,12 @@ AM_PATH_GLIB_2_0($GLIB_REQUIRED)
 
 dnl gettext
 
+AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_GNU_GETTEXT([external])
+
 GETTEXT_PACKAGE=libmateweather
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext Package])
-AM_GLIB_GNU_GETTEXT
 
 dnl icon cache
 AC_ARG_ENABLE(icon-update, AC_HELP_STRING([--disable-icon-update],

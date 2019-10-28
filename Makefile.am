@@ -8,6 +8,7 @@ DISTCHECK_CONFIGURE_FLAGS = \
 	CFLAGS='-Wno-deprecated-declarations'
 
 EXTRA_DIST = \
+	its		\
 	autogen.sh
 
 MAINTAINERCLEANFILES = \

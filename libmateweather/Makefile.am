@@ -85,7 +85,6 @@ BUILT_SOURCES = mateweather-enum-types.c mateweather-enum-types.h
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = mateweather.pc
 
-@INTLTOOL_XML_NOMERGE_RULE@
 gsettingsschema_in_files = org.mate.weather.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 @GSETTINGS_RULES@

@@ -11,7 +11,7 @@ LOCATIONS_STAMP =
 libmateweatherlocations_DATA = $(libmateweatherlocations_in_files:.xml.in=.xml$(COMPRESS_EXT))
 
 %.xml$(COMPRESS_EXT): %.xml.in $(wildcard $(top_srcdir)/po-locations/*.po)
-	$(AM_V_GEN)LC_ALL=C $(INTLTOOL_MERGE) -x -u -c $(top_builddir)/po-locations/.intltool-merge-cache $(top_srcdir)/po-locations $< `echo $@ | sed "s/.xml$(COMPRESS_EXT)/.xml/"` && \
+	$(AM_V_GEN) GETTEXTDATADIR=$(top_srcdir) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po-locations -o `echo $@ | sed "s/.xml$(COMPRESS_EXT)/.xml/"` && \
 	if test "x$(COMPRESS_EXT)" = "x.gz"; then				\
 		gzip -n --force `echo $@ | sed "s/.xml$(COMPRESS_EXT)/.xml/"`;	\
 	fi
@@ -33,19 +33,16 @@ libmateweatherlocations_DATA = $(shell echo $(PO_LOCATIONS) | sed "s|$(top_srcdi
 $(libmateweatherlocations_DATA): $(LOCATIONS_STAMP)
 
 $(LOCATIONS_STAMP): $(libmateweatherlocations_in_files) $(PO_LOCATIONS) Makefile
-	$(AM_V_at)LC_ALL=C $(INTLTOOL_MERGE) --multiple-output --xml-style --utf8 --cache=$(top_builddir)/po-locations/.intltool-merge-cache $(top_srcdir)/po-locations $< $(libmateweatherlocations_data) && \
-	for pofile in $(PO_LOCATIONS); do \
+	$(AM_V_GEN) for pofile in $(PO_LOCATIONS); do \
 		locale=`echo $$pofile | sed "s;$(top_srcdir)/po-locations/\(.*\)\.po;\1;"`;	\
-		xmllint --noblanks -o Locations.$$locale.xml $$locale/$(libmateweatherlocations_data); \
-		rm -f $$locale/$(libmateweatherlocations_data);		\
-		test -d $$locale && rmdir $$locale;			\
+		GETTEXTDATADIR=$(top_srcdir) $(MSGFMT) -l $$locale --xml --template $< $(top_srcdir)/po-locations/$$locale.po -o $(libmateweatherlocations_data) && \
+		xmllint --noblanks -o Locations.$$locale.xml $(libmateweatherlocations_data); \
+		rm -f $(libmateweatherlocations_data);			\
 		if test "x$(COMPRESS_EXT)" = "x.gz"; then		\
 			gzip -n --force Locations.$$locale.xml;		\
 		fi;							\
 	done &&								\
-	xmllint --noblanks -o Locations.xml C/$(libmateweatherlocations_data) && \
-	rm -f C/$(libmateweatherlocations_data) &&				\
-	test -d C && rmdir C &&						\
+	xmllint --noblanks --dtdvalid $(top_srcdir)/data/$(libmateweatherdtd_DATA) -o Locations.xml $(top_srcdir)/data/$(libmateweatherlocations_in_files) && \
 	if test "x$(COMPRESS_EXT)" = "x.gz"; then			\
 		gzip -n --force Locations.xml;				\
 	fi &&								\
