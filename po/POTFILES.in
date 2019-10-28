@@ -1,10 +1,9 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 #
-[encoding: UTF-8]
 libmateweather/mateweather-prefs.c
 libmateweather/mateweather-timezone.c
-[type: gettext/gsettings]libmateweather/org.mate.weather.gschema.xml.in
+libmateweather/org.mate.weather.gschema.xml.in
 libmateweather/timezone-menu.c
 libmateweather/weather-iwin.c
 libmateweather/weather-metar.c
