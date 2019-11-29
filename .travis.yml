@@ -16,7 +16,7 @@ install:
   - ./docker-build --name ${DISTRO} --config .travis.yml --install
 
 script:
-  - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build autotools
+  - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build scripts
 
 deploy:
   - provider: script
@@ -38,6 +38,7 @@ env:
 requires:
   archlinux:
     # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/libmateweather
+    - clang
     - gcc
     - git
     - gtk3
@@ -50,6 +51,9 @@ requires:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/libmateweather
     - autopoint
+    - clang
+    - clang-tools
+    - gcc
     - git
     - gtk-doc-tools
     - libglib2.0-dev
@@ -63,6 +67,8 @@ requires:
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/libmateweather.git
+    - clang
+    - clang-analyzer
     - gcc
     - git
     - gtk3-devel
@@ -74,6 +80,8 @@ requires:
 
   ubuntu:
     - autopoint
+    - clang
+    - clang-tools
     - git
     - gtk-doc-tools
     - libglib2.0-dev
@@ -88,11 +96,36 @@ requires:
 
 variables:
   - CFLAGS="-Wall -Werror=format-security"
+  - 'CHECKERS="
+    -enable-checker deadcode.DeadStores
+    -enable-checker alpha.deadcode.UnreachableCode
+    -enable-checker alpha.core.CastSize
+    -enable-checker alpha.core.CastToStruct
+    -enable-checker alpha.core.IdenticalExpr
+    -enable-checker alpha.core.SizeofPtr
+    -enable-checker alpha.security.ArrayBoundV2
+    -enable-checker alpha.security.MallocOverflow
+    -enable-checker alpha.security.ReturnPtrRange
+    -enable-checker alpha.unix.SimpleStream
+    -enable-checker alpha.unix.cstring.BufferOverlap
+    -enable-checker alpha.unix.cstring.NotNullTerminated
+    -enable-checker alpha.unix.cstring.OutOfBounds
+    -enable-checker alpha.core.FixedAddr
+    -enable-checker security.insecureAPI.strcpy"'
 
 before_scripts:
   - if [ ${DISTRO_NAME} == "debian" ];then
   -     curl -Ls -o debian.sh https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/debian.sh
   -     bash ./debian.sh
+  - fi
+
+build_scripts:
+  - ./autogen.sh
+  - scan-build $CHECKERS ./configure
+  - if [ $CPU_COUNT -gt 1 ]; then
+  -     scan-build $CHECKERS --keep-cc -o html-report make -j $CPU_COUNT
+  - else
+  -     scan-build $CHECKERS --keep-cc -o html-report make
   - fi
 
 after_scripts:
