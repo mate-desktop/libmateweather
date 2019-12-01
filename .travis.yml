@@ -5,9 +5,14 @@ language: bash
 services:
   - docker
 
+branches:
+  except:
+  - gh-pages
+
 before_install:
   - curl -Ls -o docker-build https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/docker-build
-  - chmod +x docker-build
+  - curl -Ls -o gen-index https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/gen-index.sh
+  - chmod +x docker-build gen-index
 
 install:
   - sudo apt-get install -y python3-pip python3-setuptools
@@ -19,12 +24,34 @@ script:
   - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build scripts
 
 deploy:
+  - provider: pages
+    github-token: $GITHUB_TOKEN
+    #keep-history: true
+    skip_cleanup: true
+    committer-from-gh: true
+    target-branch: gh-pages
+    local-dir: html-report
+    on:
+      all_branches: true
+      condition: ${DISTRO} =~ ^fedora.*$
   - provider: script
     script: ./docker-build --verbose --config .travis.yml --release github
     skip_cleanup: true
     on:
       tags: true
       condition: "${TRAVIS_TAG} =~ ^v.*$ && ${DISTRO} =~ ^fedora.*$"
+
+after_success:
+  - 'if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_PULL_REQUEST" != "false" && ${DISTRO} =~ ^fedora.*$ ]]; then
+        REPO_SLUG_ARRAY=(${TRAVIS_REPO_SLUG//\// });
+        REPO_NAME=${REPO_SLUG_ARRAY[1]};
+        URL="https://${REPO_NAME}.mate-desktop.dev";
+        COMMENT="Code analysis completed";
+        curl -H "Authorization: token $GITHUB_TOKEN" -X POST
+           -d "{\"state\": \"success\", \"description\": \"$COMMENT\", \"context\":\"scan-build\", \"target_url\": \"$URL\"}"
+           https://api.github.com/repos/${TRAVIS_REPO_SLUG}/statuses/${TRAVIS_PULL_REQUEST_SHA};
+     fi'
+
 
 env:
   - DISTRO="archlinux/base"
@@ -53,6 +80,7 @@ requires:
     - autopoint
     - clang
     - clang-tools
+    - cppcheck
     - gcc
     - git
     - gtk-doc-tools
@@ -69,6 +97,7 @@ requires:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/libmateweather.git
     - clang
     - clang-analyzer
+    - cppcheck-htmlreport
     - gcc
     - git
     - gtk3-devel
@@ -127,8 +156,16 @@ build_scripts:
   - else
   -     scan-build $CHECKERS --keep-cc -o html-report make
   - fi
+  - if [ ${DISTRO_NAME} == "debian" ];then
+  -     cppcheck --enable=warning,style,performance,portability,information,missingInclude .
+  - fi
 
 after_scripts:
+  - if [ ${DISTRO_NAME} == "fedora" ];then
+  -   cppcheck --xml --output-file=cppcheck.xml --enable=warning,style,performance,portability,information,missingInclude .
+  -   cppcheck-htmlreport --title=${REPO_NAME} --file=cppcheck.xml --report-dir=cppcheck-htmlreport
+  -   ./gen-index -l 20
+  - fi
   - make distcheck
 
 releases:
