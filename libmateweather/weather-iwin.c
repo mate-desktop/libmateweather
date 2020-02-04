@@ -427,13 +427,15 @@ iwin_start_open (WeatherInfo *info)
     if (info->forecast_type == FORECAST_LIST) {
         /* see the description here: http://www.weather.gov/forecasts/xml/ */
         if (loc->latlon_valid) {
-            struct tm tm;
-            time_t now = time (NULL);
+            GDateTime *dt;
+            gint year, month, day;
 
-            localtime_r (&now, &tm);
+            dt = g_date_time_new_now_local ();
+            g_date_time_get_ymd (dt, &year, &month, &day);
+            g_date_time_unref (dt);
 
             url = g_strdup_printf ("http://www.weather.gov/forecasts/xml/sample_products/browser_interface/ndfdBrowserClientByDay.php?&lat=%.02f&lon=%.02f&format=24+hourly&startDate=%04d-%02d-%02d&numDays=7",
-                       RADIANS_TO_DEGREES (loc->latitude), RADIANS_TO_DEGREES (loc->longitude), 1900 + tm.tm_year, 1 + tm.tm_mon, tm.tm_mday);
+                       RADIANS_TO_DEGREES (loc->latitude), RADIANS_TO_DEGREES (loc->longitude), year, month, day);
 
             msg = soup_message_new ("GET", url);
             g_free (url);
@@ -441,7 +443,6 @@ iwin_start_open (WeatherInfo *info)
 
             info->requests_pending++;
         }
-
         return;
     }
 
