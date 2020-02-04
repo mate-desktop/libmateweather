@@ -122,9 +122,9 @@ const gchar *	weather_conditions_string	(WeatherConditions cond);
 
 /* Units conversions and names */
 
-#define TEMP_F_TO_C(f)			(((f) - 32.0) * 0.555556)
-#define TEMP_F_TO_K(f)			(TEMP_F_TO_C (f) + 273.15)
-#define TEMP_C_TO_F(c)			(((c) * 1.8) + 32.0)
+#define TEMP_F_TO_C(f)			(((f) - 32.0) * (5.0/9.0))
+#define TEMP_F_TO_K(f)			((f + 459.67) * (5.0/9.0))
+#define TEMP_C_TO_F(c)			(((c) * (9.0/5.0)) + 32.0)
 
 #define WINDSPEED_KNOTS_TO_KPH(knots)	((knots) * 1.851965)
 #define WINDSPEED_KNOTS_TO_MPH(knots)	((knots) * 1.150779)
