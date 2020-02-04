@@ -26,6 +26,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <math.h>
+#include <fenv.h>
 
 #ifdef HAVE_VALUES_H
 #include <values.h>
@@ -752,7 +753,7 @@ weather_info_get_conditions (WeatherInfo *info)
 }
 
 static const gchar *
-temperature_string (gfloat temp_f, TempUnit to_unit, gboolean want_round)
+temperature_string (gdouble temp, TempUnit to_unit, gboolean want_round)
 {
     static gchar buf[100];
 
@@ -760,28 +761,52 @@ temperature_string (gfloat temp_f, TempUnit to_unit, gboolean want_round)
     case TEMP_UNIT_FAHRENHEIT:
 	if (!want_round) {
 	    /* Translators: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN) */
-	    g_snprintf (buf, sizeof (buf), _("%.1f \302\260F"), temp_f);
+	    g_snprintf (buf, sizeof (buf), _("%.1f \302\260F"), temp);
 	} else {
-	    /* Translators: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN) */
-	    g_snprintf (buf, sizeof (buf), _("%d \302\260F"), (int)floor (temp_f + 0.5));
+	    const int range_problem = FE_INVALID | FE_DIVBYZERO | FE_OVERFLOW | FE_UNDERFLOW;
+	    gdouble temp_r;
+
+	    feclearexcept(range_problem);
+	    temp_r = round (temp);
+	    if (fetestexcept(range_problem))
+	        g_snprintf (buf, sizeof (buf), _("n/a"));
+	    else
+	        /* Translators: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN) */
+	        g_snprintf (buf, sizeof (buf), _("%d \302\260F"), (int)temp_r);
 	}
 	break;
     case TEMP_UNIT_CENTIGRADE:
 	if (!want_round) {
 	    /* Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN) */
-	    g_snprintf (buf, sizeof (buf), _("%.1f \302\260C"), TEMP_F_TO_C (temp_f));
+	    g_snprintf (buf, sizeof (buf), _("%.1f \302\260C"), TEMP_F_TO_C (temp));
 	} else {
-	    /* Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN) */
-	    g_snprintf (buf, sizeof (buf), _("%d \302\260C"), (int)floor (TEMP_F_TO_C (temp_f) + 0.5));
+	    const int range_problem = FE_INVALID | FE_DIVBYZERO | FE_OVERFLOW | FE_UNDERFLOW;
+	    gdouble temp_r;
+
+	    feclearexcept(range_problem);
+	    temp_r = round (TEMP_F_TO_C (temp));
+	    if (fetestexcept(range_problem))
+	        g_snprintf (buf, sizeof (buf), _("n/a"));
+	    else
+	        /* Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN) */
+	        g_snprintf (buf, sizeof (buf), _("%d \302\260C"), (int)temp_r);
 	}
 	break;
     case TEMP_UNIT_KELVIN:
 	if (!want_round) {
 	    /* Translators: This is the temperature in kelvin */
-	    g_snprintf (buf, sizeof (buf), _("%.1f K"), TEMP_F_TO_K (temp_f));
+	    g_snprintf (buf, sizeof (buf), _("%.1f K"), TEMP_F_TO_K (temp));
 	} else {
-	    /* Translators: This is the temperature in kelvin */
-	    g_snprintf (buf, sizeof (buf), _("%d K"), (int)floor (TEMP_F_TO_K (temp_f)));
+	    const int range_problem = FE_INVALID | FE_DIVBYZERO | FE_OVERFLOW | FE_UNDERFLOW;
+	    gdouble temp_r;
+
+	    feclearexcept(range_problem);
+	    temp_r = round (TEMP_F_TO_K (temp));
+	    if (fetestexcept(range_problem))
+	        g_snprintf (buf, sizeof (buf), _("n/a"));
+	    else
+	        /* Translators: This is the temperature in kelvin */
+	        g_snprintf (buf, sizeof (buf), _("%d K"), (int)temp_r);
 	}
 	break;
 
