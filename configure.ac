@@ -195,6 +195,8 @@ libmateweather-$VERSION configure summary:
 	Prefix:				${prefix}
 	Source code location:		${srcdir}
 	Compiler:			${CC}
+	Compiler flags:                 ${CFLAGS}
+	Warning flags:                  ${WARN_CFLAGS}
 	Locations.xml translations:	${LOCATIONS_XML_TRANSLATIONS}
 	Locations.xml compression:	${enable_locations_compression}
 " >&2
