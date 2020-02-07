@@ -1,9 +1,19 @@
+### libmateweather 1.24.0
+
+  * build: show compiler flags on configuration summary
+  * Translations update
+  * use the same translator comments for xgettext
+  * migrate from intltool to gettext
+  * Regen po files for po-locations
+  * Locations: Add Lleida–Alguaire Airport
+  * avoid deprecated soup_session_async_new
+
 ### libmateweather 1.23.0
 
-    tx: sync with transifex
-    Remove trailing whitespaces
-    Change url project's website
-    locations: change weather station for Rostov-on-Don, Russia
+  * Translations update
+  * Remove trailing whitespaces
+  * Change url project's website
+  * locations: change weather station for Rostov-on-Don, Russia
 
 ### libmateweather 1.22.0
 
