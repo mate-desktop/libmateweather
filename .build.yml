@@ -1,0 +1,78 @@
+##########################################################
+# THE FOLLOWING LINES IS USED BY docker-build
+##########################################################
+requires:
+  archlinux:
+    # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/libmateweather
+    - gcc
+    - git
+    - gtk3
+    - intltool
+    - libsoup
+    - make
+    - mate-common
+    - which
+
+  debian:
+    # Useful URL: https://github.com/mate-desktop/debian-packages
+    # Useful URL: https://salsa.debian.org/debian-mate-team/libmateweather
+    - git
+    - gtk-doc-tools
+    - libglib2.0-dev
+    - libgtk-3-dev
+    - libsoup-gnome2.4-dev
+    - libsoup2.4-dev
+    - libxml2-dev
+    - libxml2-utils
+    - make
+    - mate-common
+
+  fedora:
+    # Useful URL: https://src.fedoraproject.org/cgit/rpms/libmateweather.git
+    - gcc
+    - git
+    - gtk3-devel
+    - libsoup-devel
+    - libxml2-devel
+    - make
+    - mate-common
+    - redhat-rpm-config
+
+  ubuntu:
+    - git
+    - gtk-doc-tools
+    - libglib2.0-dev
+    - libgtk-3-dev
+    - libsoup-gnome2.4-dev
+    - libsoup2.4-dev
+    - libxml2-dev
+    - libxml2-utils
+    - make
+    - mate-common
+    - tzdata
+
+variables:
+  - CFLAGS="-Wall -Werror=format-security"
+
+before_scripts:
+  - if [ ${DISTRO_NAME} == "debian" ];then
+  -     curl -Ls -o debian.sh https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/debian.sh
+  -     bash ./debian.sh
+  - fi
+
+after_scripts:
+  - make distcheck
+
+releases:
+  draft: false
+  prerelease: false
+  checksum: true
+  file_glob: true
+  files: libmateweather-*.tar.xz
+  github_release:
+    tags: true
+    overwrite: true
+    base_version: 1.20.0
+    notify_servers:
+      - https://release.mate-desktop.org/release
+
