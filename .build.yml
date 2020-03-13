@@ -50,6 +50,7 @@ requires:
     - autopoint
     - clang
     - clang-tools
+    - gcc
     - git
     - gtk-doc-tools
     - libglib2.0-dev
