@@ -56,7 +56,7 @@ else
 fi
 AC_SUBST(COMPRESS_EXT)
 
-MATE_COMPILE_WARNINGS([maximum])
+MATE_COMPILE_WARNINGS
 
 dnl -- Check for GTK+ (required) ------------------------------------------
 PKG_CHECK_MODULES(GTK, gtk+-3.0 >= $GTK_REQUIRED)
