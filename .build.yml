@@ -128,6 +128,9 @@ after_scripts:
   -   cppcheck-htmlreport --title=${REPO_NAME} --file=cppcheck.xml --report-dir=cppcheck-htmlreport
   -   ./gen-index -l 20
   - fi
+  - if [ ${DISTRO_NAME} == "debian" ];then
+  -     make check
+  - fi
   - make distcheck
 
 releases:
