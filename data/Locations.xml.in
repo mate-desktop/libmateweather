@@ -6482,7 +6482,7 @@
             -->
           <name>Danmarkshavn</name>
         </timezone>
-        <timezone id="America/Godthab">
+        <timezone id="America/Nuuk">
           <!-- The primary timezone for Greenland, although sources
                seem to point towards calling the area "Western
                Greenland" rathern than just "Greenland".
@@ -6502,7 +6502,7 @@
           <name>Thule AFB</name>
         </timezone>
       </timezones>
-      <tz-hint>America/Godthab</tz-hint>
+      <tz-hint>America/Nuuk</tz-hint>
       <city>
         <!-- A city in Greenland.
              The local name in Kalaallisut is "Uummannaq".
