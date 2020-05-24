@@ -495,3 +495,5 @@ update-icon-cache:
 EXTRA_DIST = \
 	$(public_icons) \
 	$(noinst_DATA)
+
+-include $(top_srcdir)/git.mk
