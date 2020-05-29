@@ -12,6 +12,7 @@ requires:
     - libsoup
     - make
     - mate-common
+    - tzdata
     - which
 
   debian:
@@ -32,6 +33,7 @@ requires:
     - libxml2-utils
     - make
     - mate-common
+    - tzdata
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/libmateweather.git
@@ -47,6 +49,7 @@ requires:
     - make
     - mate-common
     - redhat-rpm-config
+    - tzdata
 
   ubuntu:
     - autopoint
