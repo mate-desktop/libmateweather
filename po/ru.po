@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Alexei Sorokin <sor.alexei@meowr.ru>, 2018
+# Alexei Sorokin, 2018
 # Дмитрий Михирев, 2018
 # monsta <monsta@inbox.ru>, 2018
 # theirix <theirix@gmail.com>, 2018

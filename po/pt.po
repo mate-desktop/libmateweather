@@ -8,7 +8,7 @@
 # Carlos Moreira, 2018
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# alfalb_mansil, 2018
+# fc2d9c36d73e741383fbbf46a4aac49f_013445b, 2018
 # Luis Filipe Teixeira <lufilte@gmail.com>, 2018
 # Pedro Mateus <pedro@linuxgamecast.com>, 2018
 # Manuela Silva <manuelarodsilva@gmail.com>, 2018

@@ -9,7 +9,7 @@
 # Matheus Macabu <mkbu95@gmail.com>, 2018
 # Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2018
 # Marcio Andre Padula <padula1000@gmail.com>, 2018
-# Marcus Vinícius Marques, 2018
+# 65f2af3cfa184c075942a0418b98d2de_d688669, 2018
 # Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2018
 # Rodrigo Piñero <rodrigo.pinero@yahoo.com.br>, 2018
 # 

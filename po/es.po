@@ -10,7 +10,7 @@
 # Andres Sanchez <blackatze93@gmail.com>, 2018
 # ebray187 <ebray187@gmail.com>, 2018
 # Benjamin Perez Carrillo <benperezc@gmail.com>, 2018
-# Francisco B.G. <inactive+franchulo@transifex.com>, 2018
+# 69fe870410d3e630a708a509aed5c0f9_e3efcca <3d48305986fd1b36087a0ec11b9a769d_288033>, 2018
 # Arcenio Cid <gusty.miliki@gmail.com>, 2018
 # Mario Verdin <jmvl1303@gmail.com>, 2018
 # Toni Estévez <toni.estevez@gmail.com>, 2019

@@ -13,7 +13,7 @@
 # Michal <sinope@seznam.cz>, 2018
 # Robin Kriebel <kriebel.robin@gmail.com>, 2018
 # LiberteCzech <liberte.czech@gmail.com>, 2018
-# Stanislav Kučera <inactive+kacernator@transifex.com>, 2018
+# 6e833d5535e2fe0dd9dfa7fe5bf473f2_d78f422 <64c38a0ff10419c64e8e03d54c72b3bd_352524>, 2018
 # phebix <dev@phebix.cz>, 2018
 # 
 msgid ""
