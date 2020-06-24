@@ -1,3 +1,15 @@
+### libmateweather 1.25.0
+
+  * Translations update
+  * add git.mk to generate .gitignore
+  * Revert "avoid deprecated soup_session_async_new"
+  * Locations: America/Godthab was renamed to America/Nuuk
+  * weather-iwin: Remove the warning about ‘GTimeVal’ is deprecated
+  * build: silent build warnings for distcheck
+  * build: use default MATE_COMPILE_WARNINGS level
+  * IWIN: use GDateTime for getting current date
+  * weather: use round for rounding floats
+
 ### libmateweather 1.24.0
 
   * build: show compiler flags on configuration summary
