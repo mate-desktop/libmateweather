@@ -5979,10 +5979,6 @@
     <country>
       <!-- TH - Thailand -->
       <name>Thailand</name>
-      <!-- Could not find information about the following stations,
-           which may be in Thailand:
-           VTBO VTCT VTPO VTPP VTSC VTSF VTSG VTSM VTUI VTUO VTUV VTUW 
-        -->
       <iso-code>TH</iso-code>
       <fips-code>TH</fips-code>
       <timezones>
@@ -6000,6 +5996,36 @@
           <name>Bangkok</name>
           <code>VTBD</code>
           <coordinates>13.916667 100.600000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Buriram</name>
+        <coordinates>15.228878 103.248519</coordinates>
+        <location>
+          <name>Buriram</name>
+          <code>VTUO</code>
+          <coordinates>15.228878 103.248519</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Chaiyaphum</name>
+        <coordinates>15.809560 102.031953</coordinates>
+        <location>
+          <name>Chaiyaphum</name>
+          <code>VTUC</code>
+          <coordinates>15.809560 102.031953</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Chanthaburi</name>
+        <coordinates>12.611013 102.109493</coordinates>
+        <location>
+          <name>Chanthaburi</name>
+          <code>VTBC</code>
+          <coordinates>12.611013 102.109493</coordinates>
         </location>
       </city>
       <city>
@@ -6039,6 +6065,16 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Chumphon</name>
+        <coordinates>10.715000 99.359448</coordinates>
+        <location>
+          <name>Chumphon</name>
+          <code>VTSE</code>
+          <coordinates>10.715000 99.359448</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Hat Yai</name>
         <coordinates>7.016667 100.466667</coordinates>
         <location>
@@ -6059,12 +6095,42 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Kanchanaburi</name>
+        <coordinates>14.006006 99.541299</coordinates>
+        <location>
+          <name>Kanchanaburi</name>
+          <code>VTBG</code>
+          <coordinates>14.006006 99.541299</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Khon Kaen</name>
         <coordinates>16.433333 102.833333</coordinates>
         <location>
           <name>Khon Kaen</name>
           <code>VTUK</code>
           <coordinates>16.433333 102.833333</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- An island in Thailand -->
+        <name>Koh Samui</name>
+        <coordinates>9.549588 100.063819</coordinates>
+        <location>
+          <name>Koh Samui</name>
+          <code>VTSM</code>
+          <coordinates>9.549588 100.063819</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Krabi</name>
+        <coordinates>8.096255 98.982563</coordinates>
+        <location>
+          <name>Krabi</name>
+          <code>VTSG</code>
+          <coordinates>8.096255 98.982563</coordinates>
         </location>
       </city>
       <city>
@@ -6075,6 +6141,16 @@
           <name>Lampang</name>
           <code>VTCL</code>
           <coordinates>18.283333 99.516667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Loei</name>
+        <coordinates>17.446045 101.727073</coordinates>
+        <location>
+          <name>Loei</name>
+          <code>VTUL</code>
+          <coordinates>17.446045 101.727073</coordinates>
         </location>
       </city>
       <city>
@@ -6090,11 +6166,70 @@
       <city>
         <!-- A city in Thailand -->
         <name>Mae Sariang</name>
-        <coordinates>18.17 97.93</coordinates>
+        <coordinates>18.176354 97.930851</coordinates>
         <location>
           <name>Mae Sariang</name>
           <code>VTCS</code>
           <coordinates>18.176354 97.930851</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Mae Sot</name>
+        <coordinates>16.702945 98.545193</coordinates>
+        <location>
+          <name>Mae Sot</name>
+          <code>VTPM</code>
+          <coordinates>16.702945 98.545193</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Mukdahan</name>
+        <coordinates>16.544348 104.722601</coordinates>
+        <location>
+          <name>Mukdahan</name>
+          <code>VTUB</code>
+          <coordinates>16.544348 104.722601</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Nakhon Phanom</name>
+        <coordinates>17.388298 104.645298</coordinates>
+        <location>
+          <name>Nakhon Phanom</name>
+          <code>VTUW</code>
+          <coordinates>17.388298 104.645298</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Nakhon Ratchasima</name>
+        <coordinates>14.933465 102.082557</coordinates>
+        <location>
+          <name>Nakhon Ratchasima</name>
+          <code>VTUQ</code>
+          <coordinates>14.933465 102.082557</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Nakhon Sawan</name>
+        <coordinates>15.570992 100.130684</coordinates>
+        <location>
+          <name>Nakhon Sawan</name>
+          <code>VTPN</code>
+          <coordinates>15.570992 100.130684</coordinates>
+        </location>
+      </city>
+      <city>
+        <name>Nakhon Si Thammarat</name>
+        <coordinates>8.546117 99.939499</coordinates>
+        <location>
+          <name>Nakhon Si Thammarat</name>
+          <code>VTSF</code>
+          <coordinates>8.546117 99.939499</coordinates>
         </location>
       </city>
       <city>
@@ -6109,6 +6244,56 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Narathiwat</name>
+        <coordinates>6.521388 101.747787</coordinates>
+        <location>
+          <name>Narathiwat</name>
+          <code>VTSC</code>
+          <coordinates>6.521388 101.747787</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Nong Khai</name>
+        <coordinates>17.887965 102.762909</coordinates>
+        <location>
+          <name>Nong Khai</name>
+          <code>VTUM</code>
+          <coordinates>17.887965 102.762909</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Pattani</name>
+        <coordinates>6.788007 101.147139</coordinates>
+        <location>
+          <name>Pattani</name>
+          <code>VTSK</code>
+          <coordinates>6.788007 101.147139</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Phetchabun</name>
+        <coordinates>16.676394 101.190712</coordinates>
+        <location>
+          <name>Phetchabun</name>
+          <code>VTPB</code>
+          <coordinates>16.676394 101.190712</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Phitsanulok</name>
+        <coordinates>16.772466 100.280699</coordinates>
+        <location>
+          <name>Phitsanulok</name>
+          <code>VTPP</code>
+          <coordinates>16.772466 100.280699</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Phrae</name>
         <coordinates>18.150000 100.133333</coordinates>
         <location>
@@ -6119,12 +6304,42 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Phetchaburi</name>
+        <coordinates>13.113940 99.942635</coordinates>
+        <location>
+          <name>Phetchaburi</name>
+          <code>VTBJ</code>
+          <coordinates>13.113940 99.942635</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Phuket</name>
         <coordinates>7.883333 98.400000</coordinates>
         <location>
           <name>Phuket Airport</name>
           <code>VTSP</code>
           <coordinates>8.116667 98.316667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Prachinburi</name>
+        <coordinates>14.110591 101.331528</coordinates>
+        <location>
+          <name>Prachinburi</name>
+          <code>VTBI</code>
+          <coordinates>14.110591 101.331528</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Prachuap Khirikhan</name>
+        <coordinates>11.786981 99.806715</coordinates>
+        <location>
+          <name>Prachuap Khirikhan</name>
+          <code>VTBP</code>
+          <coordinates>11.786981 99.806715</coordinates>
         </location>
       </city>
       <city>
@@ -6149,6 +6364,66 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Roi Et</name>
+        <coordinates>16.068480 103.644051</coordinates>
+        <location>
+          <name>Roi Et</name>
+          <code>VTUV</code>
+          <coordinates>16.068480 103.644051</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Sakon Nakhon</name>
+        <coordinates>17.166894 104.146821</coordinates>
+        <location>
+          <name>Sakon Nakhon</name>
+          <code>VTUS</code>
+          <coordinates>17.166894 104.146821</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Satun</name>
+        <coordinates>6.612157 100.064969</coordinates>
+        <location>
+          <name>Satun</name>
+          <code>VTSA</code>
+          <coordinates>6.612157 100.064969</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Sakon Nakhon</name>
+        <coordinates>17.196192 104.115899</coordinates>
+        <location>
+          <name>Sakon Nakhon</name>
+          <code>VTUI</code>
+          <coordinates>17.196192 104.115899</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Songkhla</name>
+        <coordinates>7.185631 100.605106</coordinates>
+        <location>
+          <name>Songkhla</name>
+          <code>VTSH</code>
+          <coordinates>7.185631 100.605106</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Sukhothai</name>
+        <coordinates>17.232695 99.820653</coordinates>
+        <location>
+          <name>Sukhothai</name>
+          <code>VTPO</code>
+          <coordinates>17.232695 99.820653</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Surat Thani</name>
         <coordinates>9.133333 99.316667</coordinates>
         <location>
@@ -6159,12 +6434,32 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Tak</name>
+        <coordinates>16.876689 99.138131</coordinates>
+        <location>
+          <name>Tak</name>
+          <code>VTPT</code>
+          <coordinates>16.876689 99.138131</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Trang</name>
         <coordinates>7.550000 99.600000</coordinates>
         <location>
           <name>Trang</name>
           <code>VTST</code>
           <coordinates>7.516667 99.616667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Trat</name>
+        <coordinates>12.280501 102.323621</coordinates>
+        <location>
+          <name>Trat</name>
+          <code>VTBO</code>
+          <coordinates>12.280501 102.323621</coordinates>
         </location>
       </city>
       <city>
@@ -6185,6 +6480,16 @@
           <name>Udon Thani</name>
           <code>VTUD</code>
           <coordinates>17.383333 102.800000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Uttaradit</name>
+        <coordinates>17.624075 100.097282</coordinates>
+        <location>
+          <name>Uttaradit</name>
+          <code>VTPU</code>
+          <coordinates>17.624075 100.097282</coordinates>
         </location>
       </city>
     </country>
