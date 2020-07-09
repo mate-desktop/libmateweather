@@ -6014,6 +6014,21 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Chiang Rai</name>
+        <coordinates>19.960167 99.881414</coordinates>
+        <location>
+          <name>Chiang Rai</name>
+          <code>VTCR</code>
+          <coordinates>19.910480 99.824595</coordinates>
+        </location>
+        <location>
+          <name>Chiang Rai International Airport</name>
+          <code>VTCT</code>
+          <coordinates>19.960167 99.881414</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Chon Buri</name>
         <coordinates>13.366667 100.983333</coordinates>
         <location>
@@ -6070,6 +6085,16 @@
           <name>Mae Hong Son</name>
           <code>VTCH</code>
           <coordinates>19.300000 97.833333</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Mae Sariang</name>
+        <coordinates>18.17 97.93</coordinates>
+        <location>
+          <name>Mae Sariang</name>
+          <code>VTCS</code>
+          <coordinates>18.176354 97.930851</coordinates>
         </location>
       </city>
       <city>
