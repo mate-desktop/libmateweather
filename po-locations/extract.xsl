@@ -24,28 +24,28 @@ char *s = N_("<xsl:call-template name="escape"><xsl:with-param name="string" sel
 
   <xsl:template match="mateweather">
       <!-- region names -->
-      <xsl:for-each select="//region/_name">
+      <xsl:for-each select="//region/name">
 	<xsl:sort select="."/>
 	<xsl:call-template name="output_name" /></xsl:for-each>
 
       <!-- country names -->
-      <xsl:for-each select="//country/_name">
+      <xsl:for-each select="//country/name">
 	<xsl:sort select="."/>
 	<xsl:call-template name="output_name" /></xsl:for-each>
 
       <!-- timezone names -->
-      <xsl:for-each select="//timezone/_name">
+      <xsl:for-each select="//timezone/name">
 	<xsl:call-template name="output_name" /></xsl:for-each>
 
       <!-- state names -->
-      <xsl:for-each select="//state/_name">
-	<xsl:sort select="ancestor::country/_name"/>
+      <xsl:for-each select="//state/name">
+	<xsl:sort select="ancestor::country/name"/>
 	<xsl:sort select="."/>
 	<xsl:call-template name="output_name" /></xsl:for-each>
 
       <!-- city names -->
-      <xsl:for-each select="//city/_name">
-	<xsl:sort select="ancestor::country/_name"/>
+      <xsl:for-each select="//city/name">
+	<xsl:sort select="ancestor::country/name"/>
 	<xsl:sort select="."/>
 	<xsl:call-template name="output_name" /></xsl:for-each>
 
