@@ -5979,10 +5979,6 @@
     <country>
       <!-- TH - Thailand -->
       <name>Thailand</name>
-      <!-- Could not find information about the following stations,
-           which may be in Thailand:
-           VTBO VTCT VTPO VTPP VTSC VTSF VTSG VTSM VTUI VTUO VTUV VTUW 
-        -->
       <iso-code>TH</iso-code>
       <fips-code>TH</fips-code>
       <timezones>
@@ -6004,6 +6000,16 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Buriram</name>
+        <coordinates>15.228878 103.248519</coordinates>
+        <location>
+          <name>Buriram</name>
+          <code>VTUO</code>
+          <coordinates>15.228878 103.248519</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Chiang Mai</name>
         <coordinates>18.790278 98.981667</coordinates>
         <location>
@@ -6014,12 +6020,32 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Chiang Rai</name>
+        <coordinates>19.960167 99.881414</coordinates>
+        <location>
+          <name>Chiang Rai International Airport</name>
+          <code>VTCT</code>
+          <coordinates>19.960167 99.881414</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Chon Buri</name>
         <coordinates>13.366667 100.983333</coordinates>
         <location>
           <name>Chon Buri</name>
           <code>VTBS</code>
           <coordinates>13.366667 100.983333</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Chumphon</name>
+        <coordinates>10.715000 99.359448</coordinates>
+        <location>
+          <name>Chumphon</name>
+          <code>VTSE</code>
+          <coordinates>10.715000 99.359448</coordinates>
         </location>
       </city>
       <city>
@@ -6053,6 +6079,26 @@
         </location>
       </city>
       <city>
+        <!-- An island in Thailand -->
+        <name>Koh Samui</name>
+        <coordinates>9.549588 100.063819</coordinates>
+        <location>
+          <name>Koh Samui</name>
+          <code>VTSM</code>
+          <coordinates>9.549588 100.063819</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Krabi</name>
+        <coordinates>8.096255 98.982563</coordinates>
+        <location>
+          <name>Krabi</name>
+          <code>VTSG</code>
+          <coordinates>8.096255 98.982563</coordinates>
+        </location>
+      </city>
+      <city>
         <!-- A city in Thailand -->
         <name>Lampang</name>
         <coordinates>18.298333 99.507222</coordinates>
@@ -6060,6 +6106,16 @@
           <name>Lampang</name>
           <code>VTCL</code>
           <coordinates>18.283333 99.516667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Loei</name>
+        <coordinates>17.446045 101.727073</coordinates>
+        <location>
+          <name>Loei</name>
+          <code>VTUL</code>
+          <coordinates>17.446045 101.727073</coordinates>
         </location>
       </city>
       <city>
@@ -6074,12 +6130,81 @@
       </city>
       <city>
         <!-- A city in Thailand -->
+        <name>Mae Sot</name>
+        <coordinates>16.702945 98.545193</coordinates>
+        <location>
+          <name>Mae Sot</name>
+          <code>VTPM</code>
+          <coordinates>16.702945 98.545193</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Nakhon Phanom</name>
+        <coordinates>17.388298 104.645298</coordinates>
+        <location>
+          <name>Nakhon Phanom</name>
+          <code>VTUW</code>
+          <coordinates>17.388298 104.645298</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Nakhon Ratchasima</name>
+        <coordinates>14.933465 102.082557</coordinates>
+        <location>
+          <name>Nakhon Ratchasima</name>
+          <code>VTUQ</code>
+          <coordinates>14.933465 102.082557</coordinates>
+        </location>
+      </city>
+      <city>
+        <name>Nakhon Si Thammarat</name>
+        <coordinates>8.546117 99.939499</coordinates>
+        <location>
+          <name>Nakhon Si Thammarat</name>
+          <code>VTSF</code>
+          <coordinates>8.546117 99.939499</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
         <name>Nan</name>
         <coordinates>18.783333 100.783333</coordinates>
         <location>
           <name>Nan</name>
           <code>VTCN</code>
           <coordinates>18.766667 100.766667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Narathiwat</name>
+        <coordinates>6.521388 101.747787</coordinates>
+        <location>
+          <name>Narathiwat</name>
+          <code>VTSC</code>
+          <coordinates>6.521388 101.747787</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Phetchabun</name>
+        <coordinates>16.676394 101.190712</coordinates>
+        <location>
+          <name>Phetchabun</name>
+          <code>VTPB</code>
+          <coordinates>16.676394 101.190712</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Phitsanulok</name>
+        <coordinates>16.772466 100.280699</coordinates>
+        <location>
+          <name>Phitsanulok</name>
+          <code>VTPP</code>
+          <coordinates>16.772466 100.280699</coordinates>
         </location>
       </city>
       <city>
@@ -6120,6 +6245,26 @@
           <name>Rayong</name>
           <code>VTBU</code>
           <coordinates>12.633333 101.350000</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Roi Et</name>
+        <coordinates>16.068480 103.644051</coordinates>
+        <location>
+          <name>Roi Et</name>
+          <code>VTUV</code>
+          <coordinates>16.068480 103.644051</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Thailand -->
+        <name>Sukhothai</name>
+        <coordinates>17.232695 99.820653</coordinates>
+        <location>
+          <name>Sukhothai</name>
+          <code>VTPO</code>
+          <coordinates>17.232695 99.820653</coordinates>
         </location>
       </city>
       <city>
