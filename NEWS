@@ -1,3 +1,13 @@
+### libmateweather 1.24.1
+
+  * Translations update
+  * locations: update cities in Thailand
+  * po-locations: Upgrade extract.xsl after migrating to gettext
+  * Revert "avoid deprecated soup_session_async_new"
+  * Locations: America/Godthab was renamed to America/Nuuk
+  * build: silent build warnings for distcheck
+  * build: use default MATE_COMPILE_WARNINGS level
+
 ### libmateweather 1.24.0
 
   * build: show compiler flags on configuration summary
