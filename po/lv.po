@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Rihards Priedītis <rprieditis@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Imants Liepiņš <imzzinator@gmail.com>, 2018
-# ciba43 <voiceofwise1@gmail.com>, 2018
+# Rihards Priedītis <rprieditis@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Imants Liepiņš <imzzinator@gmail.com>, 2020
+# duck <voiceofwise1@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: libmateweather 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
 "POT-Creation-Date: 2019-11-04 23:24+0100\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: ciba43 <voiceofwise1@gmail.com>, 2018\n"
+"PO-Revision-Date: 2020-02-14 13:12+0000\n"
+"Last-Translator: duck <voiceofwise1@gmail.com>, 2020\n"
 "Language-Team: Latvian (https://www.transifex.com/mate/teams/13566/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -133,7 +133,7 @@ msgstr "Parādīt paziņojumus"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:39
 msgid "Determines whether the applet shows a notification on each update."
-msgstr ""
+msgstr "Nosaka, vai sīklietotne parāda paziņojumu pēc katra atjauninājuma."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:43
 msgid "Update the data automatically"
@@ -195,6 +195,8 @@ msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
 msgstr ""
+"Mērvienību, kuru izmantot spiedienam. Vērtības: 'kPa', 'hPa', 'mb', 'mmHg', "
+"'inHg, 'atm'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted

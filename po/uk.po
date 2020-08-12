@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# zubr139, 2018
-# Микола Ткач <chistomov@gmail.com>, 2018
-# Oleh, 2018
-# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# zubr139, 2020
+# Микола Ткач <chistomov@gmail.com>, 2020
+# 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2020
+# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: libmateweather 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
 "POT-Creation-Date: 2019-11-04 23:24+0100\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018\n"
+"PO-Revision-Date: 2020-02-14 13:12+0000\n"
+"Last-Translator: Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2020\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: libmateweather/mateweather-prefs.c:139
 #: libmateweather/mateweather-prefs.c:168
 msgid "Default"
-msgstr "Типово"
+msgstr "Усталено"
 
 #. Translators: Kelvin
 #: libmateweather/mateweather-prefs.c:96
@@ -126,7 +126,7 @@ msgstr "миль"
 
 #: libmateweather/mateweather-timezone.c:315
 msgid "Greenwich Mean Time"
-msgstr "За Гринвічем"
+msgstr "За Ґринвічем"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:38
 msgid "Show notifications"
@@ -138,13 +138,13 @@ msgstr "Визначає чи показує апплет сповіщення �
 
 #: libmateweather/org.mate.weather.gschema.xml.in:43
 msgid "Update the data automatically"
-msgstr "Оновлювати дані автоматично"
+msgstr "Оновлювати дані самочинно"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:44
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr "Визначає, чи аплет погоди автоматично оновлює дані про погоду."
+msgstr "Визначає, чи аплет погоди самочинно оновлює дані про погоду."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:48
 msgid "Update interval"
@@ -152,7 +152,7 @@ msgstr "Період оновлення"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:49
 msgid "The interval, in seconds, between automatic updates."
-msgstr "Період між автоматичними оновленнями (у секундах)."
+msgstr "Період між самочинними оновленнями (у секундах)."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:53
 msgid "Use metric units"
@@ -255,11 +255,11 @@ msgstr "Київ Україна"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:103
 msgid "Weather location information"
-msgstr "Інформація про погоду у місцевости"
+msgstr "Інформація про погоду у місцевості"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:104
 msgid "Weather location information."
-msgstr "Інформація про погоду у місцевости."
+msgstr "Інформація про погоду у місцевості."
 
 #. TRANSLATORS: Change this to the code of your default location
 #. that corresponds to the DEFAULT_LOCATION name you put above. This
