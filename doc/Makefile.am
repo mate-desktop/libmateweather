@@ -74,6 +74,8 @@ GTKDOC_LIBS = $(top_builddir)/libmateweather/libmateweather.la $(GTK_LIBS) $(LIB
 # This includes the standard gtk-doc make rules, copied by gtkdocize.
 include $(top_srcdir)/gtk-doc.make
 
+DISTCLEANFILES = $(DOC_MODULE).actions
+
 # Other files to distribute
 # e.g. EXTRA_DIST += version.xml.in
 EXTRA_DIST +=
