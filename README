@@ -11,3 +11,33 @@ a new version.
 To use libmateweather in your code, you need to define the 
 MATEWEATHER_I_KNOW_THIS_IS_UNSTABLE preprecessor symbol, e.g. by adding
 -DMATEWEATHER_I_KNOW_THIS_IS_UNSTABLE to your CFLAGS.
+
+
+HOW TO TRANSLATE THE DEFAULT LOCATION DATA
+------------------------------------------
+
+To translate the default location, enter the data for the largest city on your
+locale as folows: (Location Data for en_US.UTF-8: «Washington, D.C, US»)
+
+    msgid "'DEFAULT_LOCATION'"
+    msgstr "'Washington'"
+
+    msgid "'DEFAULT_CODE'"
+    msgstr "'KOCW'"
+
+    msgid "'DEFAULT_ZONE'"
+    msgstr "'America/New_York'"
+
+    msgid "'DEFAULT_RADAR'"
+    msgstr "' '"
+
+    msgid "'DEFAULT_COORDINATES'"
+    msgstr "'35.570557 -77.049721'"
+
+You can retrieve the required data if you have set your location on the clock
+panel applet:
+
+    $ dconf read /org/mate/panel/objects/clock/prefs/cities 
+    ['<location name="" city="Washington" timezone="America/New_York"
+    latitude="35.570557" longitude="-77.049721" code="KOCW" current="false"/>']
+
