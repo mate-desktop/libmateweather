@@ -17,7 +17,7 @@ HOW TO TRANSLATE THE DEFAULT LOCATION DATA
 ------------------------------------------
 
 To translate the default location, enter the data for the largest city on your
-locale as folows: (Location Data for en_US.UTF-8: «Washington, D.C, US»)
+locale as follows: (Location Data for en_US.UTF-8: «Washington, D.C. US»)
 
     msgid "'DEFAULT_LOCATION'"
     msgstr "'Washington'"
