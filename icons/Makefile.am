@@ -471,25 +471,25 @@ install-icons:
 	-for icon in $(public_icons); do \
 		ICON=`echo $$icon | sed -e 's:_:/:g'`; \
 		ICONDIR=`dirname $$ICON`; \
-		mkdir -p $(DESTDIR)$(datadir)/icons/mate/$$ICONDIR; \
-		echo INSTALL $(DESTDIR)$(datadir)/icons/mate/$$ICON; \
-		$(INSTALL_DATA) $(srcdir)/$$icon $(DESTDIR)$(datadir)/icons/mate/$$ICON; \
+		mkdir -p $(DESTDIR)$(datadir)/icons/hicolor/$$ICONDIR; \
+		echo INSTALL $(DESTDIR)$(datadir)/icons/hicolor/$$ICON; \
+		$(INSTALL_DATA) $(srcdir)/$$icon $(DESTDIR)$(datadir)/icons/hicolor/$$ICON; \
 	done;
 
 uninstall-icons:
 	-for icon in $(public_icons); do \
 		ICON=`echo $$icon | sed -e 's:_:/:g'`; \
-		echo rm -f $(DESTDIR)$(datadir)/icons/mate/$$ICON; \
-		rm -f $(DESTDIR)$(datadir)/icons/mate/$$ICON; \
+		echo rm -f $(DESTDIR)$(datadir)/icons/hicolor/$$ICON; \
+		rm -f $(DESTDIR)$(datadir)/icons/hicolor/$$ICON; \
 	done
 
 update-icon-cache:
 	@-if test -z "$(DESTDIR)" && test -n $(ICON_UPDATE); then \
 		echo "Updating Gtk icon cache."; \
-		$(gtk_update_icon_cache) $(DESTDIR)$(datadir)/$(subdir)/mate; \
+		$(gtk_update_icon_cache) $(DESTDIR)$(datadir)/icons/hicolor; \
 	else \
 		echo "*** Icon cache not updated.  After (un)install, run this:"; \
-		echo "***   $(gtk_update_icon_cache) $(DESTDIR)$(datadir)/icons/mate"; \
+		echo "***   $(gtk_update_icon_cache) $(DESTDIR)$(datadir)/icons/hicolor"; \
 	fi
 
 EXTRA_DIST = \
