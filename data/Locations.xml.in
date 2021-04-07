@@ -9787,6 +9787,28 @@
             <coordinates>-27.666667 -48.550000</coordinates>
           </location>
         </city>
+        <city>
+          <!-- A city in Santa Catarina in Brazil -->
+          <name>Joinville</name>
+          <coordinates>-26.30444 -48.84556</coordinates>
+          <location>
+            <name>Joinville Airport</name>
+            <code>SBJV</code>
+            <tz-hint>America/Sao_Paulo</tz-hint>
+            <coordinates>-26.22444 -48.79722</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Santa Catarina in Brazil -->
+          <name>São Bento do Sul</name>
+          <coordinates>-26.25028 -49.37861</coordinates>
+          <location>
+            <name>São Bento do Sul</name>
+            <code>SBSB</code>
+            <tz-hint>America/Sao_Paulo</tz-hint>
+            <coordinates>-26.25028 -49.37861</coordinates>
+          </location>
+        </city>
       </state>
       <state>
         <!-- A state/province/territory in Brazil -->
