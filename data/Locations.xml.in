@@ -14725,11 +14725,6 @@
           <name msgctxt="City in Berlin, Germany">Berlin</name>
           <coordinates>52.516667 13.400000</coordinates>
           <location>
-            <name>Berlin-Tegel</name>
-            <code>EDDT</code>
-            <coordinates>52.566667 13.316667</coordinates>
-          </location>
-          <location>
             <name>Berlin-Schoenefeld</name>
             <code>EDDB</code>
             <coordinates>52.383333 13.516667</coordinates>
