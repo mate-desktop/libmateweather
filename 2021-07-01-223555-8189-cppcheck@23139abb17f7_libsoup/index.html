@@ -1,0 +1,157 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cppcheck - HTML report - libmateweather</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+    <script>
+      function getStyle(el, styleProp) {
+        var y;
+
+        if (el.currentStyle) {
+          y = el.currentStyle[styleProp];
+        } else if (window.getComputedStyle) {
+          y = document.defaultView.getComputedStyle(el, null).getPropertyValue(styleProp);
+        }
+
+        return y;
+      }
+
+      function toggle() {
+        var el = this.expandable_content;
+        var mark = this.expandable_marker;
+
+        if (el.style.display === "block") {
+          el.style.display = "none";
+          mark.textContent = "[+]";
+        } else {
+          el.style.display = "block";
+          mark.textContent = "[-]";
+        }
+      }
+
+      function initExpandables() {
+        var elements = document.querySelectorAll(".expandable");
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+          var el = elements[i];
+          var clickable = el.querySelector("span");
+          var marker = clickable.querySelector(".marker");
+          var content = el.querySelector(".content");
+          var width = clickable.clientWidth - parseInt(getStyle(content, "padding-left")) - parseInt(getStyle(content, "padding-right"));
+          content.style.width = width + "px";
+          clickable.expandable_content = content;
+          clickable.expandable_marker = marker;
+          clickable.addEventListener("click", toggle);
+        }
+      }
+
+      function toggleDisplay(id) {
+        var elements = document.querySelectorAll("." + id);
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+          elements[i].classList.toggle("d-none");
+        }
+      }
+
+      function toggleAll() {
+        var elements = document.querySelectorAll("input");
+
+        // starting from 1 since 0 is the "toggle all" input
+        for (var i = 1, len = elements.length; i < len; i++) {
+          var el = elements[i];
+
+          if (el.checked) {
+            el.checked = false;
+          } else {
+            el.checked = true;
+          }
+
+          toggleDisplay(el.id);
+        }
+      }
+      window.addEventListener("load", initExpandables);
+    </script>
+  </head>
+  <body>
+    <div id="header" class="header">
+      <h1>Cppcheck report - libmateweather: </h1>
+    </div>
+    <div class="wrapper">
+      <div id="menu_index">
+       <p id="filename"><a href="index.html">Defect summary;</a> </p>
+
+       <label><input type="checkbox" onclick="toggleAll()" checked> Toggle all</label>
+       <table>
+           <tr><th>Show</th><th>#</th><th>Defect ID</th></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="variableScope" name="variableScope" checked></td><td>10</td><td>variableScope</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="asctimeCalled" name="asctimeCalled" checked></td><td>5</td><td>asctimeCalled</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="unsignedLessThanZero" name="unsignedLessThanZero" checked></td><td>3</td><td>unsignedLessThanZero</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="knownConditionTrueFalse" name="knownConditionTrueFalse" checked></td><td>2</td><td>knownConditionTrueFalse</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="redundantInitialization" name="redundantInitialization" checked></td><td>2</td><td>redundantInitialization</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="unreadVariable" name="unreadVariable" checked></td><td>2</td><td>unreadVariable</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="arrayIndexThenCheck" name="arrayIndexThenCheck" checked></td><td>1</td><td>arrayIndexThenCheck</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="missingInclude" name="missingInclude" checked></td><td>1</td><td>missingInclude</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="uselessAssignmentPtrArg" name="uselessAssignmentPtrArg" checked></td><td>1</td><td>uselessAssignmentPtrArg</td></tr>
+           <tr><td></td><td>27</td><td>total</td></tr>
+       </table>
+       <p><a href="stats.html">Statistics</a></p>
+    </div>
+    <div id="content_index">
+
+       <table>
+       <tr><th>Line</th><th>Id</th><th>CWE</th><th>Severity</th><th>Message</th></tr>
+       <tr><td colspan="5"><a href="9.html"></a></td></tr>
+         <tr class="missingInclude"><td></td><td>missingInclude</td><td></td><td>information</td><td>Cppcheck cannot find all the include files (use --check-config for details)</td></tr>
+       <tr><td colspan="5"><a href="0.html">libmateweather/location-entry.c</a></td></tr>
+       <tr class="variableScope"><td><a href="0.html#line-303">303</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;cmpcode&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="1.html">libmateweather/mateweather-timezone.c</a></td></tr>
+       <tr class="variableScope"><td><a href="1.html#line-71">71</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;second_isdst&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="2.html">libmateweather/parser.c</a></td></tr>
+       <tr class="variableScope"><td><a href="2.html#line-94">94</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;next_tagname&apos; can be reduced.</td></tr>
+       <tr class="arrayIndexThenCheck"><td><a href="2.html#line-117">117</a></td><td>arrayIndexThenCheck</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Array index &apos;i&apos; is used before limits check.</td></tr>
+       <tr><td colspan="5"><a href="3.html">libmateweather/test_metar.c</a></td></tr>
+       <tr class="variableScope"><td><a href="3.html#line-29">29</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;len&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="4.html">libmateweather/test_sun_moon.c</a></td></tr>
+       <tr class="asctimeCalled"><td><a href="4.html#line-73">73</a></td><td>asctimeCalled</td><td><a href="https://cwe.mitre.org/data/definitions/477.html">477</a></td><td>style</td><td >Obsolete function &apos;asctime&apos; called. It is recommended to use &apos;strftime&apos; instead.</td></tr>
+       <tr class="asctimeCalled"><td><a href="4.html#line-83">83</a></td><td>asctimeCalled</td><td><a href="https://cwe.mitre.org/data/definitions/477.html">477</a></td><td>style</td><td >Obsolete function &apos;asctime&apos; called. It is recommended to use &apos;strftime&apos; instead.</td></tr>
+       <tr class="asctimeCalled"><td><a href="4.html#line-84">84</a></td><td>asctimeCalled</td><td><a href="https://cwe.mitre.org/data/definitions/477.html">477</a></td><td>style</td><td >Obsolete function &apos;asctime&apos; called. It is recommended to use &apos;strftime&apos; instead.</td></tr>
+       <tr class="asctimeCalled"><td><a href="4.html#line-85">85</a></td><td>asctimeCalled</td><td><a href="https://cwe.mitre.org/data/definitions/477.html">477</a></td><td>style</td><td >Obsolete function &apos;asctime&apos; called. It is recommended to use &apos;strftime&apos; instead.</td></tr>
+       <tr class="asctimeCalled"><td><a href="4.html#line-86">86</a></td><td>asctimeCalled</td><td><a href="https://cwe.mitre.org/data/definitions/477.html">477</a></td><td>style</td><td >Obsolete function &apos;asctime&apos; called. It is recommended to use &apos;strftime&apos; instead.</td></tr>
+       <tr><td colspan="5"><a href="5.html">libmateweather/weather-bom.c</a></td></tr>
+       <tr class="variableScope"><td><a href="5.html#line-32">32</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;rp&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="6.html">libmateweather/weather-metar.c</a></td></tr>
+       <tr class="knownConditionTrueFalse"><td><a href="6.html#line-117">117</a></td><td>knownConditionTrueFalse</td><td><a href="https://cwe.mitre.org/data/definitions/571.html">571</a></td><td>style</td><td >Condition &apos;12&lt;=dir&apos; is always true</td></tr>
+       <tr class="knownConditionTrueFalse"><td><a href="6.html#line-145">145</a></td><td>knownConditionTrueFalse</td><td><a href="https://cwe.mitre.org/data/definitions/571.html">571</a></td><td>style</td><td >Condition &apos;dir&lt;=348&apos; is always true</td></tr>
+       <tr class="unreadVariable"><td><a href="6.html#line-454">454</a></td><td>unreadVariable</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >Variable &apos;i&apos; is assigned a value that is never used.</td></tr>
+       <tr class="variableScope"><td><a href="6.html#line-493">493</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;endtag&apos; can be reduced.</td></tr>
+       <tr class="variableScope"><td><a href="6.html#line-494">494</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;metar&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="7.html">libmateweather/weather-sun.c</a></td></tr>
+       <tr class="redundantInitialization"><td><a href="7.html#line-178">178</a></td><td>redundantInitialization</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >Redundant initialization for &apos;obsLat&apos;. The initialized value is overwritten before it is read.</td></tr>
+       <tr class="redundantInitialization"><td><a href="7.html#line-179">179</a></td><td>redundantInitialization</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >Redundant initialization for &apos;obsLon&apos;. The initialized value is overwritten before it is read.</td></tr>
+       <tr><td colspan="5"><a href="8.html">libmateweather/weather.c</a></td></tr>
+       <tr class="variableScope"><td><a href="8.html#line-326">326</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;str&apos; can be reduced.</td></tr>
+       <tr class="uselessAssignmentPtrArg"><td><a href="8.html#line-498">498</a></td><td>uselessAssignmentPtrArg</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?</td></tr>
+       <tr class="unreadVariable"><td><a href="8.html#line-498">498</a></td><td>unreadVariable</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >Variable &apos;location&apos; is assigned a value that is never used.</td></tr>
+       <tr class="variableScope"><td><a href="8.html#line-701">701</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;utf8&apos; can be reduced.</td></tr>
+       <tr class="variableScope"><td><a href="8.html#line-701">701</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;timeformat&apos; can be reduced.</td></tr>
+       <tr class="unsignedLessThanZero"><td><a href="8.html#line-719">719</a></td><td>unsignedLessThanZero</td><td><a href="https://cwe.mitre.org/data/definitions/570.html">570</a></td><td>style</td><td >Checking if unsigned expression &apos;strftime(buf,sizeof(buf),timeformat,&amp;tm)&apos; is less than zero.</td></tr>
+       <tr class="unsignedLessThanZero"><td><a href="8.html#line-1074">1074</a></td><td>unsignedLessThanZero</td><td><a href="https://cwe.mitre.org/data/definitions/570.html">570</a></td><td>style</td><td >Checking if unsigned expression &apos;strftime(buf,sizeof(buf),mateweather_gettext(&quot;%H:%M&quot;),&amp;tm)&apos; is less than zero.</td></tr>
+       <tr class="unsignedLessThanZero"><td><a href="8.html#line-1095">1095</a></td><td>unsignedLessThanZero</td><td><a href="https://cwe.mitre.org/data/definitions/570.html">570</a></td><td>style</td><td >Checking if unsigned expression &apos;strftime(buf,sizeof(buf),mateweather_gettext(&quot;%H:%M&quot;),&amp;tm)&apos; is less than zero.</td></tr>
+       </table>
+      </div> <!-- /.wrapper -->
+    </div>
+    <div id="footer" class="footer">
+      <p>
+        Cppcheck 2.3 - a tool for static C/C++ code analysis<br>
+        <br>
+        Internet: <a href="http://cppcheck.net">http://cppcheck.net</a><br>
+        IRC: <a href="irc://irc.freenode.net/cppcheck">irc://irc.freenode.net/cppcheck</a><br>
+      </p>
+    </div>
+  </body>
+</html>
