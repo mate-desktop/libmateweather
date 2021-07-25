@@ -553,9 +553,7 @@ _weather_info_fill (WeatherInfo *info,
     info->cb_data = data;
 
     if (!info->session) {
-        info->session = soup_session_async_new ();
-        soup_session_add_feature_by_type (info->session, SOUP_TYPE_PROXY_RESOLVER_DEFAULT);
-        g_object_set (G_OBJECT (info->session), "ssl-use-system-ca-file", TRUE, NULL);
+        info->session = soup_session_new ();
     }
 
     metar_start_open (info);
