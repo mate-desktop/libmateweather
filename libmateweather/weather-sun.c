@@ -146,7 +146,6 @@ gstObsv (gdouble ra, gdouble decl,
     *rise = b;
 }
 
-
 static gdouble
 t0 (time_t date)
 {
@@ -156,7 +155,6 @@ t0 (time_t date)
         t0 += 24.;
     return t0;
 }
-
 
 static gboolean
 calc_sun2 (WeatherInfo *info, time_t t)
@@ -285,7 +283,6 @@ calc_sun2 (WeatherInfo *info, time_t t)
     return (info->sunriseValid || info->sunsetValid);
 }
 
-
 /**
  * calc_sun_time:
  * @info: #WeatherInfo structure containing the observer's latitude
@@ -312,7 +309,6 @@ calc_sun (WeatherInfo *info)
 {
     return calc_sun_time(info, time(NULL));
 }
-
 
 /**
  * weather_info_next_sun_event:

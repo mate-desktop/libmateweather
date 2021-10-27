@@ -137,7 +137,6 @@ calc_moon (WeatherInfo *info)
     return TRUE;
 }
 
-
 /**
  * calc_moon_phases:
  * @info:   WeatherInfo containing the time_t of interest

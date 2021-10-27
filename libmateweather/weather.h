@@ -19,11 +19,9 @@
 #ifndef __WEATHER_H_
 #define __WEATHER_H_
 
-
 #ifndef MATEWEATHER_I_KNOW_THIS_IS_UNSTABLE
 #error "libmateweather should only be used if you understand that it's subject to change, and is not supported as a fixed API/ABI or as part of the platform"
 #endif
-
 
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
@@ -279,7 +277,6 @@ gboolean weather_info_get_value_sunrise		(WeatherInfo *info, time_t *value);
 gboolean weather_info_get_value_sunset 		(WeatherInfo *info, time_t *value);
 gboolean weather_info_get_value_moonphase       (WeatherInfo *info, WeatherMoonPhase *value, WeatherMoonLatitude *lat);
 gboolean weather_info_get_upcoming_moonphases   (WeatherInfo *info, time_t *phases);
-
 
 #ifdef __cplusplus
 }

@@ -112,7 +112,6 @@ met_reprocess (char *x, int len)
     return buf;
 }
 
-
 /*
  * Parse the metoffice forecast info.
  * For mate 3.0 we want to just embed an HTML matecomponent component and
