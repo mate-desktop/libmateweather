@@ -50,7 +50,6 @@
 
 static void _weather_internal_check (void);
 
-
 static inline void
 mateweather_gettext_init (void)
 {
@@ -267,7 +266,6 @@ weather_sky_string (WeatherSky sky)
     return _(sky_str[(int)sky]);
 }
 
-
 /*
  * Even though tedious, I switched to a 2D array for weather condition
  * strings, in order to facilitate internationalization, esp. for languages
@@ -340,7 +338,6 @@ weather_conditions_string (WeatherConditions cond)
 }
 
 /* Locals turned global to facilitate asynchronous HTTP requests */
-
 
 gboolean
 requests_init (WeatherInfo *info)
@@ -586,10 +583,8 @@ weather_info_clone (const WeatherInfo *info)
 
     clone = g_new (WeatherInfo, 1);
 
-
     /* move everything */
     memmove (clone, info, sizeof (WeatherInfo));
-
 
     /* special moves */
     clone->location = weather_location_clone (info->location);

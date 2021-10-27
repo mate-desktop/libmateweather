@@ -35,7 +35,6 @@ const char *mateweather_dpgettext (const char *context, const char *str) G_GNUC_
 #define C_(context, str) (mateweather_dpgettext (context, str))
 #define N_(str) (str)
 
-
 #define WEATHER_LOCATION_CODE_LEN 4
 
 WeatherLocation *mateweather_location_to_weather_location (MateWeatherLocation *gloc,

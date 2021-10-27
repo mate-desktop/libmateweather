@@ -19,11 +19,9 @@
 #ifndef __MATEWEATHER_PREFS_H_
 #define __MATEWEATHER_PREFS_H_
 
-
 #ifndef MATEWEATHER_I_KNOW_THIS_IS_UNSTABLE
 #error "libmateweather should only be used if you understand that it's subject to change, and is not supported as a fixed API/ABI or as part of the platform"
 #endif
-
 
 #include <libmateweather/weather.h>
 #include <gio/gio.h>

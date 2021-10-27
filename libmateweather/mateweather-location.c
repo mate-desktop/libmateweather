@@ -502,7 +502,6 @@ mateweather_location_get_children (MateWeatherLocation *loc)
 	return &no_children;
 }
 
-
 /**
  * mateweather_location_free_children:
  * @loc: a #MateWeatherLocation
