@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-17 10:35+0200\n"
-"PO-Revision-Date: 2021-07-01 19:27+0200\n"
+"PO-Revision-Date: 2021-12-11 11:39+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -108,7 +108,7 @@ msgstr "Austràlia"
 
 #. AT - Austria
 msgid "Austria"
-msgstr "Austria"
+msgstr "Àustria"
 
 #. AZ - Azerbaijan
 msgid "Azerbaijan"
@@ -132,7 +132,7 @@ msgstr "Barbada"
 
 #. BY - Belarus
 msgid "Belarus"
-msgstr "Bielorusia"
+msgstr "Bielorussia"
 
 #. BE - Belgium. The local names for the country are "België"
 #. (Dutch), Belgique (French), and Belgien (German).
@@ -184,7 +184,7 @@ msgstr "Territòris britanics de l'ocean indian"
 #. Caribbean
 #.
 msgid "British Virgin Islands"
-msgstr "Finlandia"
+msgstr "Illas Verges britanicas"
 
 #. BN - Brunei Darussalam
 msgid "Brunei"
@@ -284,7 +284,7 @@ msgstr "Còsta Rica"
 
 #. HR - Croatia
 msgid "Croatia"
-msgstr "Croacia"
+msgstr "Croàcia"
 
 #. CU - Cuba
 msgid "Cuba"
@@ -315,7 +315,7 @@ msgstr "Giboti"
 #. with the Domincan Republic.
 #.
 msgid "Dominica"
-msgstr "Romania"
+msgstr "Dominica"
 
 #. DO - Dominican Republic
 msgid "Dominican Republic"
@@ -370,7 +370,7 @@ msgstr "Fiji"
 
 #. FI - Finland
 msgid "Finland"
-msgstr "Finlandia"
+msgstr "Finlàndia"
 
 #. FR - France
 msgid "France"
@@ -380,7 +380,7 @@ msgstr "França"
 #. northern coast of South America.
 #.
 msgid "French Guiana"
-msgstr "Guiana francesa"
+msgstr "Guaiana francesa"
 
 #. PF - French Polynesia, a French territory in the South
 #. Pacific
@@ -402,7 +402,7 @@ msgstr "Gabon"
 
 #. GM - Gambia
 msgid "Gambia"
-msgstr "Gambia"
+msgstr "Gàmbia"
 
 #. GE - Georgia (the country, not the US state)
 msgctxt "Country"
@@ -426,13 +426,13 @@ msgstr "Gibraltar"
 
 #. GR - Greece
 msgid "Greece"
-msgstr "Grèça"
+msgstr "Grècia"
 
 #. GL - Greenland, an autonomous province of Denmark in the
 #. North Atlantic.
 #.
 msgid "Greenland"
-msgstr "Groenland"
+msgstr "Groenlàndia"
 
 #. GD - Grenada
 msgid "Grenada"
@@ -469,15 +469,15 @@ msgstr "Guinèa-Bissau"
 
 #. GY - Guyana
 msgid "Guyana"
-msgstr "Guianà"
+msgstr "Guyana"
 
 #. HT - Haiti
 msgid "Haiti"
-msgstr "Aïtí"
+msgstr "Haití"
 
 #. HN - Honduras
 msgid "Honduras"
-msgstr "Hondures"
+msgstr "Honduras"
 
 #. HK - Hong Kong, aka "Hong Kong Special Administrative Region
 #. of China"
@@ -523,11 +523,11 @@ msgstr "Israel"
 
 #. IT - Italy
 msgid "Italy"
-msgstr "Italia"
+msgstr "Itàlia"
 
 #. JM - Jamaica
 msgid "Jamaica"
-msgstr "Jamaïca"
+msgstr "Jamaica"
 
 #. JP - Japan
 msgid "Japan"
@@ -548,7 +548,7 @@ msgstr "Taiwan"
 
 #. KE - Kenya
 msgid "Kenya"
-msgstr "Kenia"
+msgstr "Kenya"
 
 #. KI - Kiribati
 msgid "Kiribati"
@@ -664,7 +664,7 @@ msgstr "Maiòta"
 
 #. MX - Mexico
 msgid "Mexico"
-msgstr "Mèxic"
+msgstr "Mexic"
 
 #. FM - Federated States of Micronesia
 msgid "Micronesia, Federated States of"
@@ -704,7 +704,7 @@ msgstr "Moçambic"
 #. more Google hits in English)
 #.
 msgid "Myanmar"
-msgstr "Panama"
+msgstr "Birmania"
 
 #. NA - Namibia
 msgid "Namibia"
@@ -720,20 +720,20 @@ msgstr "Nepal"
 
 #. NL - Netherlands
 msgid "Netherlands"
-msgstr "Holanda"
+msgstr "Païses Basses"
 
 #. AN - Netherlands Antilles, a group of Caribbean islands; one
 #. of the three constituent countries of the Kingdom of the
 #. Netherlands.
 #.
 msgid "Netherlands Antilles"
-msgstr "Holanda"
+msgstr "Antilhas neerlandesas"
 
 #. NC - New Caledonia, a French territory in the South Pacific.
 #. The French name is "Nouvelle-Calédonie".
 #.
 msgid "New Caledonia"
-msgstr "Macedònian"
+msgstr "Nòva Caledònia"
 
 #. NZ - New Zealand
 msgid "New Zealand"
@@ -785,7 +785,7 @@ msgstr "Paquistan"
 
 #. PW - Palau
 msgid "Palau"
-msgstr "Palau"
+msgstr "Belau"
 
 #. PS - Occupied Palestinian Territory
 msgid "Palestinian Territory"
@@ -942,11 +942,11 @@ msgstr "Singapor"
 
 #. SK - Slovakia
 msgid "Slovakia"
-msgstr "Eslòvac"
+msgstr "Eslovaquia"
 
 #. SI - Slovenia
 msgid "Slovenia"
-msgstr "Eslovenia"
+msgstr "Eslovènia"
 
 #. SB - Solomon Islands
 msgid "Solomon Islands"
@@ -1017,7 +1017,7 @@ msgstr "Taiwan"
 
 #. TJ - Tajikistan
 msgid "Tajikistan"
-msgstr "Taiwan"
+msgstr "Tatgiquistan"
 
 #. TZ - United Republic of Tanzania
 msgid "Tanzania"
@@ -1087,7 +1087,7 @@ msgstr "Reialme Unit"
 
 #. US - United States, aka United States of America
 msgid "United States"
-msgstr "France"
+msgstr "Estats Units"
 
 #. UM - United States Minor Outlying Islands, a group of
 #. mostly-uninhabited United States territories in the South
@@ -1127,7 +1127,7 @@ msgstr "Veneçuèla"
 #. without one.)
 #.
 msgid "Viet Nam"
-msgstr "Vinyes"
+msgstr "Viet Nam"
 
 #. WF - Wallis and Futuna, a French territory in the South
 #. Pacific
@@ -2678,7 +2678,7 @@ msgstr "Minnesòta"
 
 #. A state/province/territory in United States
 msgid "Mississippi"
-msgstr "Mississippi"
+msgstr "Mississippí"
 
 #. A state/province/territory in United States
 msgid "Missouri"
@@ -4809,7 +4809,7 @@ msgstr "Montmagny"
 #. The local name in French is "Montréal".
 #.
 msgid "Montreal"
-msgstr "Montreal"
+msgstr "Montréal"
 
 #. A city in Ontario in Canada
 msgid "Moosonee"
@@ -6412,7 +6412,7 @@ msgstr "Agen"
 
 #. A city in France
 msgid "Ajaccio"
-msgstr "Ajaccio"
+msgstr "Aiacciu"
 
 #. A city in France
 msgid "Alençon"
@@ -6430,7 +6430,7 @@ msgstr "Aush"
 
 #. A city in France
 msgid "Aurillac"
-msgstr "Aurilhac"
+msgstr "Orlhac"
 
 #. A city in France
 msgid "Avord"
@@ -6464,7 +6464,7 @@ msgstr "Borges"
 #. A city in France
 msgctxt "City in France"
 msgid "Brest"
-msgstr "Brest"
+msgstr "Brèst"
 
 #. A city in France
 msgid "Brive"
@@ -6500,7 +6500,7 @@ msgstr "Casaus"
 
 #. A city in France
 msgid "Chambéry"
-msgstr "Chambéry"
+msgstr "Chamberí"
 
 #. A city in France
 msgid "Chartres"
@@ -6598,7 +6598,7 @@ msgstr "Lo Puèi"
 
 #. A city in France
 msgid "Lille"
-msgstr "Lille"
+msgstr "Lilla"
 
 #. A city in France
 msgid "Limoges"
@@ -6622,7 +6622,7 @@ msgstr "Melun"
 
 #. A city in France
 msgid "Metz"
-msgstr "Metz"
+msgstr "Mètz"
 
 #. A city in France
 msgid "Mont-de-Marsan"
@@ -6654,11 +6654,11 @@ msgstr "Méné Guen"
 
 #. A city in France
 msgid "Nancy"
-msgstr "Nancy"
+msgstr "Nancí"
 
 #. A city in France
 msgid "Nantes"
-msgstr "Nantas"
+msgstr "Nantes"
 
 #. A city in France
 msgid "Nevers"
@@ -6679,7 +6679,7 @@ msgstr "Aurenja"
 
 #. A city in France
 msgid "Orléans"
-msgstr "Orléans"
+msgstr "Orleans"
 
 #. The capital of France
 msgctxt "City in France"
@@ -6704,7 +6704,7 @@ msgstr "Peitieus"
 
 #. A city in France
 msgid "Quimper"
-msgstr "Quimper"
+msgstr "Kimper"
 
 #. A city in France
 msgid "Reims"
@@ -6764,7 +6764,7 @@ msgstr "Trinhac"
 
 #. A city in France
 msgid "Troyes"
-msgstr "Troyes"
+msgstr "Tròias"
 
 #. A city in France
 msgid "Veauche"
@@ -7110,7 +7110,7 @@ msgstr "Accra"
 #. The capital of Gibraltar
 msgctxt "City in Gibraltar"
 msgid "Gibraltar"
-msgstr "Gibraltar"
+msgstr "Gibratar"
 
 #. A city in Greece
 msgid "Alexandroúpolis"
@@ -8803,7 +8803,7 @@ msgstr "Sabha"
 #. The local name in Arabic is "Tarabulus / طرابلس".
 #.
 msgid "Tripoli"
-msgstr "Tripoli"
+msgstr "Trípol"
 
 #. The capital of Liechtenstein
 msgid "Vaduz"
@@ -9814,7 +9814,7 @@ msgstr "Fuerte Kobbe"
 
 #. The capital of Panama
 msgid "Panamá"
-msgstr "Panamá"
+msgstr "Panamà"
 
 #. A city in Panama
 msgid "Tocumen"
