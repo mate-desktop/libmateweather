@@ -2868,6 +2868,42 @@
       </timezones>
       <tz-hint>Asia/Yerevan</tz-hint>
       <city>
+        <!-- A city in Armenia.
+             The local name in Russian is "Гюмри".
+          -->
+        <name>Gyumri</name>
+        <name xml:lang="ru">Гюмри</name>
+        <name xml:lang="pl">Giumri</name>
+        <coordinates>40.785214 43.842697</coordinates>
+        <location>
+          <name>Gyumri</name>
+          <name xml:lang="ru">Гюмри</name>
+          <name xml:lang="pl">Giumri</name>
+          <code>UDSG</code>
+          <!-- Shirak Airport -->
+          <tz-hint>Asia/Yerevan</tz-hint>
+          <coordinates>40.751028 43.854380</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Armenia.
+             The local name in Russian is "Капан".
+          -->
+        <name>Kapan</name>
+        <name xml:lang="ru">Капан</name>
+        <name xml:lang="pl">Kapan</name>
+        <coordinates>39.205823 46.403117</coordinates>
+        <location>
+          <name>Kapan</name>
+          <name xml:lang="ru">Капан</name>
+          <name xml:lang="pl">Kapan</name>
+          <code>UDSK</code>
+          <!-- Syunik Airport -->
+          <tz-hint>Asia/Yerevan</tz-hint>
+          <coordinates>39.202932 46.454088</coordinates>
+        </location>
+      </city>
+      <city>
         <!-- The capital of Armenia -->
         <name>Yerevan</name>
         <coordinates>40.181111 44.513611</coordinates>
