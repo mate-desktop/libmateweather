@@ -5181,11 +5181,150 @@
       <city>
         <!-- The capital of Kyrgyzstan -->
         <name>Bishkek</name>
-        <coordinates>42.873056 74.600278</coordinates>
+        <name xml:lang="ru">Бишкек</name>
+        <name xml:lang="pl">Biszkek</name>
+        <coordinates>42.876105 74.586504</coordinates>
         <location>
           <name>Manas Airport</name>
           <code>UAFM</code>
-          <coordinates>42.850000 74.583333</coordinates>
+          <coordinates>43.054217 74.469593</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Баткен".
+          -->
+        <name>Batken</name>
+        <name xml:lang="ru">Баткен</name>
+        <name xml:lang="pl">Batken</name>
+        <coordinates>40.061712 70.820762</coordinates>
+        <location>
+          <name>Batken</name>
+          <name xml:lang="ru">Баткен</name>
+          <name xml:lang="pl">Batken</name>
+          <code>UAFI</code>
+          <tz-hint>Asia/Bishkek</tz-hint>
+          <coordinates>40.050723 70.828279</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Джалал-Абад".
+          -->
+        <name>Jalal-Abad</name>
+        <name xml:lang="ru">Джалал-Абад</name>
+        <name xml:lang="pl">Dżalalabad</name>
+        <coordinates>40.930056 73.001045</coordinates>
+        <location>
+          <name>Jalal-Abad</name>
+          <name xml:lang="ru">Джалал-Абад</name>
+          <name xml:lang="pl">Dżalalabad</name>
+          <code>UAFJ</code>
+          <tz-hint>Asia/Bishkek</tz-hint>
+          <coordinates>40.937295 72.978428</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Каракол".
+          -->
+        <name>Karakol</name>
+        <name xml:lang="ru">Каракол</name>
+        <name xml:lang="pl">Karakoł</name>
+        <coordinates>42.490321 78.397475</coordinates>
+        <location>
+          <name>Karakol</name>
+          <name xml:lang="ru">Каракол</name>
+          <name xml:lang="pl">Karakoł</name>
+          <code>UCFP</code>
+          <tz-hint>Asia/Bishkek</tz-hint>
+          <coordinates>42.501904 78.408978</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Нарын".
+          -->
+        <name>Naryn</name>
+        <name xml:lang="ru">Нарын</name>
+        <name xml:lang="pl">Naryn</name>
+        <coordinates>41.429002 75.997374</coordinates>
+        <location>
+          <name>Naryn</name>
+          <name xml:lang="ru">Нарын</name>
+          <name xml:lang="pl">Naryn</name>
+          <code>UCFN</code>
+          <tz-hint>Asia/Bishkek</tz-hint>
+          <coordinates>41.438441 76.123491</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Ош".
+          -->
+        <name>Osh</name>
+        <name xml:lang="ru">Ош</name>
+        <name xml:lang="pl">Osz</name>
+        <coordinates>40.516841 72.804657</coordinates>
+        <location>
+          <name>Osh</name>
+          <name xml:lang="ru">Ош</name>
+          <name xml:lang="pl">Osz</name>
+          <code>UCFO</code>
+          <tz-hint>Asia/Bishkek</tz-hint>
+          <coordinates>40.608069 72.786639</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Талас".
+          -->
+        <name>Talas</name>
+        <name xml:lang="ru">Талас</name>
+        <name xml:lang="pl">Tałas</name>
+        <coordinates>42.522299 72.248088</coordinates>
+        <location>
+          <name>Talas</name>
+          <name xml:lang="ru">Талас</name>
+          <name xml:lang="pl">Tałas</name>
+          <code>UAFT</code>
+          <tz-hint>Asia/Bishkek</tz-hint>
+          <coordinates>42.509093 72.253680</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Тамчы".
+          -->
+        <name>Tamchy</name>
+        <name xml:lang="ru">Тамчы</name>
+        <name xml:lang="pl">Tamczy</name>
+        <coordinates>42.565067 76.660373</coordinates>
+        <location>
+          <name>Tamchy</name>
+          <name xml:lang="ru">Тамчы</name>
+          <name xml:lang="pl">Tamczy</name>
+          <code>UCFL</code>
+          <!-- Issyk-Kul Airport -->>
+          <tz-hint>Asia/Bishkek</tz-hint>
+          <coordinates>42.584133 76.707942</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Токмак".
+          -->
+        <name>Tokmok</name>
+        <name xml:lang="ru">Токмак</name>
+        <name xml:lang="pl">Tokmok</name>
+        <coordinates>42.837562 75.299683</coordinates>
+        <location>
+          <name>Tokmok</name>
+          <name xml:lang="ru">Токмак</name>
+          <name xml:lang="pl">Tokmok</name>
+          <code>UAFF</code>
+          <tz-hint>Asia/Bishkek</tz-hint>
+          <coordinates>42.831601 75.317565</coordinates>
         </location>
       </city>
     </country>
