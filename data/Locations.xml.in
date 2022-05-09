@@ -13112,6 +13112,22 @@
       </timezones>
       <tz-hint>Europe/Tallinn</tz-hint>
       <city>
+        <!-- A city in Estonia.
+             The local name in Russian is "Эмари".
+          -->
+        <name>Ämari</name>
+        <name xml:lang="ru">Эмари</name>
+        <name xml:lang="pl">Ämari</name>
+        <coordinates>59.247689 24.239449</coordinates>
+        <location>
+          <name>Ämari</name>
+          <name xml:lang="ru">Эмари</name>
+          <name xml:lang="pl">Ämari</name>
+          <code>EEEI</code>
+          <coordinates>59.256410 24.206039</coordinates>
+        </location>
+      </city>
+      <city>
         <!-- A city in Estonia -->
         <name>Kuressaare</name>
         <coordinates>58.248056 22.503889</coordinates>
@@ -13129,6 +13145,38 @@
           <name>Kärdla</name>
           <code>EEKA</code>
           <coordinates>58.983333 22.816667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Estonia.
+             The local name in Russian is "Кохтла-Ярве".
+          -->
+        <name>Kohtla-Järve</name>
+        <name xml:lang="ru">Кохтла-Ярве</name>
+        <name xml:lang="pl">Kohtla-Jarve</name>
+        <coordinates>59.399934 27.283200</coordinates>
+        <location>
+          <name>Jõhvi</name>
+          <name xml:lang="ru">Йыхви</name>
+          <name xml:lang="pl">Jõhvi</name>
+          <code>EEJI</code>
+          <coordinates>59.328990 27.397152</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Estonia.
+             The local name in Russian is "Нарва".
+          -->
+        <name>Narva</name>
+        <name xml:lang="ru">Нарва</name>
+        <name xml:lang="pl">Narwa</name>
+        <coordinates>59.375600 28.195847</coordinates>
+        <location>
+          <name>Narva</name>
+          <name xml:lang="ru">Нарва</name>
+          <name xml:lang="pl">Narwa</name>
+          <code>EENA</code>
+          <coordinates>39.202932 46.454088</coordinates>
         </location>
       </city>
       <city>
@@ -13161,6 +13209,7 @@
           <coordinates>58.300000 26.733333</coordinates>
         </location>
       </city>
+
     </country>
     <country>
       <!-- FO - Faroe Islands, an autonomous province of Denmark in the
