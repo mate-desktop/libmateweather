@@ -8142,7 +8142,6 @@
           <obsoletes>America/Argentina/Rio_Gallegos</obsoletes>
           <obsoletes>America/Argentina/San_Juan</obsoletes>
           <obsoletes>America/Argentina/San_Luis</obsoletes>
-          <obsoletes>America/Argentina/Tucuman</obsoletes>
           <obsoletes>America/Argentina/Ushuaia</obsoletes>
         </timezone>
       </timezones>
@@ -8355,6 +8354,16 @@
           <name>San Salvador de Jujuy Airport</name>
           <code>SASJ</code>
           <coordinates>-24.383333 -65.083333</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Argentina -->
+        <name>San Miguel de Tucuman</name>
+        <coordinates>-26.840833 -65.104722</coordinates>
+        <location>
+          <name>San Miguel de Tucuman</name>
+          <code>SANT</code>
+          <coordinates>-26.840833 -65.104722</coordinates>
         </location>
       </city>
       <city>
