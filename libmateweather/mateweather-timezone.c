@@ -285,16 +285,16 @@ mateweather_timezone_unref (MateWeatherTimezone *zone)
 GType
 mateweather_timezone_get_type (void)
 {
-    static volatile gsize type_volatile = 0;
+    static gsize initialization_value = 0;
 
-    if (g_once_init_enter (&type_volatile)) {
+    if (g_once_init_enter (&initialization_value)) {
 	GType type = g_boxed_type_register_static (
 	    g_intern_static_string ("MateWeatherTimezone"),
 	    (GBoxedCopyFunc) mateweather_timezone_ref,
 	    (GBoxedFreeFunc) mateweather_timezone_unref);
-	g_once_init_leave (&type_volatile, type);
+	g_once_init_leave (&initialization_value, type);
     }
-    return type_volatile;
+    return initialization_value;
 }
 
 /**
