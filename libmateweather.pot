@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather 1.25.0\n"
+"Project-Id-Version: libmateweather 1.26.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
-"POT-Creation-Date: 2021-08-03 20:41+0200\n"
+"POT-Creation-Date: 2022-10-29 15:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,8 @@ msgstr ""
 #: libmateweather/mateweather-prefs.c:104
 #: libmateweather/mateweather-prefs.c:130
 #: libmateweather/mateweather-prefs.c:159
-#: libmateweather/mateweather-prefs.c:179 libmateweather/weather.c:248
-#: libmateweather/weather.c:265 libmateweather/weather.c:337
+#: libmateweather/mateweather-prefs.c:179 libmateweather/weather.c:247
+#: libmateweather/weather.c:264 libmateweather/weather.c:335
 msgid "Invalid"
 msgstr ""
 
@@ -352,8 +352,8 @@ msgstr ""
 
 #: libmateweather/org.mate.weather.gschema.xml.in:167
 msgid ""
-"If true, then retrieve a radar map from a location specified by the \"radar"
-"\" key."
+"If true, then retrieve a radar map from a location specified by the "
+"\"radar\" key."
 msgstr ""
 
 #: libmateweather/org.mate.weather.gschema.xml.in:171
@@ -379,91 +379,91 @@ msgstr ""
 msgid "WeatherInfo missing location"
 msgstr ""
 
-#: libmateweather/weather.c:237
+#: libmateweather/weather.c:236
 msgid "Variable"
 msgstr ""
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "North"
 msgstr ""
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "North - NorthEast"
 msgstr ""
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "Northeast"
 msgstr ""
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "East - NorthEast"
 msgstr ""
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "East"
 msgstr ""
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "East - Southeast"
 msgstr ""
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "Southeast"
 msgstr ""
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "South - Southeast"
 msgstr ""
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "South"
 msgstr ""
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "South - Southwest"
 msgstr ""
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "Southwest"
 msgstr ""
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "West - Southwest"
 msgstr ""
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "West"
 msgstr ""
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "West - Northwest"
 msgstr ""
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "Northwest"
 msgstr ""
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "North - Northwest"
 msgstr ""
 
-#: libmateweather/weather.c:254
+#: libmateweather/weather.c:253
 msgid "Clear Sky"
 msgstr ""
 
-#: libmateweather/weather.c:255
+#: libmateweather/weather.c:254
 msgid "Broken clouds"
 msgstr ""
 
-#: libmateweather/weather.c:256
+#: libmateweather/weather.c:255
 msgid "Scattered clouds"
 msgstr ""
 
-#: libmateweather/weather.c:257
+#: libmateweather/weather.c:256
 msgid "Few clouds"
 msgstr ""
 
-#: libmateweather/weather.c:258
+#: libmateweather/weather.c:257
 msgid "Overcast"
 msgstr ""
 
@@ -471,358 +471,358 @@ msgstr ""
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: libmateweather/weather.c:297 libmateweather/weather.c:299
+#: libmateweather/weather.c:295 libmateweather/weather.c:297
 msgid "Thunderstorm"
 msgstr ""
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Drizzle"
 msgstr ""
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Light drizzle"
 msgstr ""
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Moderate drizzle"
 msgstr ""
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Heavy drizzle"
 msgstr ""
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Freezing drizzle"
 msgstr ""
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Rain"
 msgstr ""
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Light rain"
 msgstr ""
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Moderate rain"
 msgstr ""
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Heavy rain"
 msgstr ""
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Rain showers"
 msgstr ""
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Freezing rain"
 msgstr ""
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snow"
 msgstr ""
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Light snow"
 msgstr ""
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Moderate snow"
 msgstr ""
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Heavy snow"
 msgstr ""
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snowstorm"
 msgstr ""
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Blowing snowfall"
 msgstr ""
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snow showers"
 msgstr ""
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Drifting snow"
 msgstr ""
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Snow grains"
 msgstr ""
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Light snow grains"
 msgstr ""
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Moderate snow grains"
 msgstr ""
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Heavy snow grains"
 msgstr ""
 
-#: libmateweather/weather.c:302
+#: libmateweather/weather.c:300
 msgid "Ice crystals"
 msgstr ""
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Ice pellets"
 msgstr ""
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Few ice pellets"
 msgstr ""
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Moderate ice pellets"
 msgstr ""
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Heavy ice pellets"
 msgstr ""
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Ice pellet storm"
 msgstr ""
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Showers of ice pellets"
 msgstr ""
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hail"
 msgstr ""
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hailstorm"
 msgstr ""
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hail showers"
 msgstr ""
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Small hail"
 msgstr ""
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Small hailstorm"
 msgstr ""
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Showers of small hail"
 msgstr ""
 
-#: libmateweather/weather.c:306
+#: libmateweather/weather.c:304
 msgid "Unknown precipitation"
 msgstr ""
 
-#: libmateweather/weather.c:307
+#: libmateweather/weather.c:305
 msgid "Mist"
 msgstr ""
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Fog"
 msgstr ""
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Fog in the vicinity"
 msgstr ""
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Shallow fog"
 msgstr ""
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Patches of fog"
 msgstr ""
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Partial fog"
 msgstr ""
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Freezing fog"
 msgstr ""
 
-#: libmateweather/weather.c:309
+#: libmateweather/weather.c:307
 msgid "Smoke"
 msgstr ""
 
-#: libmateweather/weather.c:310
+#: libmateweather/weather.c:308
 msgid "Volcanic ash"
 msgstr ""
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Sand"
 msgstr ""
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Blowing sand"
 msgstr ""
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Drifting sand"
 msgstr ""
 
-#: libmateweather/weather.c:312
+#: libmateweather/weather.c:310
 msgid "Haze"
 msgstr ""
 
-#: libmateweather/weather.c:313
+#: libmateweather/weather.c:311
 msgid "Blowing sprays"
 msgstr ""
 
-#: libmateweather/weather.c:314
+#: libmateweather/weather.c:312
 msgid "Dust"
 msgstr ""
 
-#: libmateweather/weather.c:314
+#: libmateweather/weather.c:312
 msgid "Blowing dust"
 msgstr ""
 
-#: libmateweather/weather.c:314
+#: libmateweather/weather.c:312
 msgid "Drifting dust"
 msgstr ""
 
-#: libmateweather/weather.c:315
+#: libmateweather/weather.c:313
 msgid "Squall"
 msgstr ""
 
-#: libmateweather/weather.c:316
+#: libmateweather/weather.c:314
 msgid "Sandstorm"
 msgstr ""
 
-#: libmateweather/weather.c:316
+#: libmateweather/weather.c:314
 msgid "Sandstorm in the vicinity"
 msgstr ""
 
-#: libmateweather/weather.c:316
+#: libmateweather/weather.c:314
 msgid "Heavy sandstorm"
 msgstr ""
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Duststorm"
 msgstr ""
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Duststorm in the vicinity"
 msgstr ""
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Heavy duststorm"
 msgstr ""
 
-#: libmateweather/weather.c:318
+#: libmateweather/weather.c:316
 msgid "Funnel cloud"
 msgstr ""
 
-#: libmateweather/weather.c:319
+#: libmateweather/weather.c:317
 msgid "Tornado"
 msgstr ""
 
-#: libmateweather/weather.c:320
+#: libmateweather/weather.c:318
 msgid "Dust whirls"
 msgstr ""
 
-#: libmateweather/weather.c:320
+#: libmateweather/weather.c:318
 msgid "Dust whirls in the vicinity"
 msgstr ""
 
 #. Translators: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
 #.
-#: libmateweather/weather.c:712
+#: libmateweather/weather.c:707
 msgid "%a, %b %d / %H:%M"
 msgstr ""
 
-#: libmateweather/weather.c:727
+#: libmateweather/weather.c:722
 msgid "Unknown observation time"
 msgstr ""
 
-#: libmateweather/weather.c:741 libmateweather/weather.c:816
-#: libmateweather/weather.c:830 libmateweather/weather.c:843
-#: libmateweather/weather.c:856 libmateweather/weather.c:869
-#: libmateweather/weather.c:887 libmateweather/weather.c:905
-#: libmateweather/weather.c:943 libmateweather/weather.c:959
-#: libmateweather/weather.c:982 libmateweather/weather.c:1014
-#: libmateweather/weather.c:1030 libmateweather/weather.c:1050
+#: libmateweather/weather.c:736 libmateweather/weather.c:811
+#: libmateweather/weather.c:825 libmateweather/weather.c:838
+#: libmateweather/weather.c:851 libmateweather/weather.c:864
+#: libmateweather/weather.c:882 libmateweather/weather.c:900
+#: libmateweather/weather.c:938 libmateweather/weather.c:954
+#: libmateweather/weather.c:977 libmateweather/weather.c:1009
+#: libmateweather/weather.c:1025 libmateweather/weather.c:1045
 msgid "Unknown"
 msgstr ""
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: libmateweather/weather.c:763
+#: libmateweather/weather.c:758
 #, c-format
 msgid "%.1f °F"
 msgstr ""
 
-#: libmateweather/weather.c:771 libmateweather/weather.c:788
-#: libmateweather/weather.c:805
+#: libmateweather/weather.c:766 libmateweather/weather.c:783
+#: libmateweather/weather.c:800
 msgid "n/a"
 msgstr ""
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is U+00B0 DEGREE SIGN)
-#: libmateweather/weather.c:774
+#: libmateweather/weather.c:769
 #, c-format
 msgid "%d °F"
 msgstr ""
 
 #. Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: libmateweather/weather.c:780
+#: libmateweather/weather.c:775
 #, c-format
 msgid "%.1f °C"
 msgstr ""
 
 #. Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0 DEGREE SIGN)
-#: libmateweather/weather.c:791
+#: libmateweather/weather.c:786
 #, c-format
 msgid "%d °C"
 msgstr ""
 
 #. Translators: This is the temperature in kelvin
-#: libmateweather/weather.c:797
+#: libmateweather/weather.c:792
 #, c-format
 msgid "%.1f K"
 msgstr ""
 
 #. Translators: This is the temperature in kelvin
-#: libmateweather/weather.c:808
+#: libmateweather/weather.c:803
 #, c-format
 msgid "%d K"
 msgstr ""
 
 #. Translators: This is the humidity in percent
-#: libmateweather/weather.c:890
+#: libmateweather/weather.c:885
 #, c-format
 msgid "%.f%%"
 msgstr ""
 
 #. Translators: This is the wind speed in knots
-#: libmateweather/weather.c:918
+#: libmateweather/weather.c:913
 #, c-format
 msgid "%0.1f knots"
 msgstr ""
 
 #. Translators: This is the wind speed in miles per hour
-#: libmateweather/weather.c:922
+#: libmateweather/weather.c:917
 #, c-format
 msgid "%.1f mph"
 msgstr ""
 
 #. Translators: This is the wind speed in kilometers per hour
-#: libmateweather/weather.c:926
+#: libmateweather/weather.c:921
 #, c-format
 msgid "%.1f km/h"
 msgstr ""
 
 #. Translators: This is the wind speed in meters per second
-#: libmateweather/weather.c:930
+#: libmateweather/weather.c:925
 #, c-format
 msgid "%.1f m/s"
 msgstr ""
@@ -830,79 +830,79 @@ msgstr ""
 #. Translators: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
 #.
-#: libmateweather/weather.c:936
+#: libmateweather/weather.c:931
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr ""
 
-#: libmateweather/weather.c:961
+#: libmateweather/weather.c:956
 msgid "Calm"
 msgstr ""
 
 #. Translators: This is 'wind direction' / 'wind speed'
-#: libmateweather/weather.c:965
+#: libmateweather/weather.c:960
 #, c-format
 msgid "%s / %s"
 msgstr ""
 
 #. Translators: This is pressure in inches of mercury
-#: libmateweather/weather.c:987
+#: libmateweather/weather.c:982
 #, c-format
 msgid "%.2f inHg"
 msgstr ""
 
 #. Translators: This is pressure in millimeters of mercury
-#: libmateweather/weather.c:991
+#: libmateweather/weather.c:986
 #, c-format
 msgid "%.1f mmHg"
 msgstr ""
 
 #. Translators: This is pressure in kiloPascals
-#: libmateweather/weather.c:995
+#: libmateweather/weather.c:990
 #, c-format
 msgid "%.2f kPa"
 msgstr ""
 
 #. Translators: This is pressure in hectoPascals
-#: libmateweather/weather.c:999
+#: libmateweather/weather.c:994
 #, c-format
 msgid "%.2f hPa"
 msgstr ""
 
 #. Translators: This is pressure in millibars
-#: libmateweather/weather.c:1003
+#: libmateweather/weather.c:998
 #, c-format
 msgid "%.2f mb"
 msgstr ""
 
 #. Translators: This is pressure in atmospheres
-#: libmateweather/weather.c:1007
+#: libmateweather/weather.c:1002
 #, c-format
 msgid "%.3f atm"
 msgstr ""
 
 #. Translators: This is the visibility in miles
-#: libmateweather/weather.c:1035
+#: libmateweather/weather.c:1030
 #, c-format
 msgid "%.1f miles"
 msgstr ""
 
 #. Translators: This is the visibility in kilometers
-#: libmateweather/weather.c:1039
+#: libmateweather/weather.c:1034
 #, c-format
 msgid "%.1f km"
 msgstr ""
 
 #. Translators: This is the visibility in meters
-#: libmateweather/weather.c:1043
+#: libmateweather/weather.c:1038
 #, c-format
 msgid "%.0fm"
 msgstr ""
 
-#: libmateweather/weather.c:1072 libmateweather/weather.c:1093
+#: libmateweather/weather.c:1067 libmateweather/weather.c:1088
 msgid "%H:%M"
 msgstr ""
 
-#: libmateweather/weather.c:1152
+#: libmateweather/weather.c:1147
 msgid "Retrieval failed"
 msgstr ""

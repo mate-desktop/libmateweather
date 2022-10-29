@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 13:50+0100\n"
+"POT-Creation-Date: 2022-10-29 15:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3047,6 +3047,10 @@ msgstr ""
 #. A city in Argentina
 msgctxt "City in Argentina"
 msgid "San Fernando"
+msgstr ""
+
+#. A city in Argentina
+msgid "San Miguel de Tucuman"
 msgstr ""
 
 #. A city in Argentina
