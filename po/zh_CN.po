@@ -8,15 +8,15 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Mingcong Bai <jeffbai@aosc.xyz>, 2018
 # shuyu liu <liushuyu011@gmail.com>, 2018
-# Wenbin Lv <wenbin816@gmail.com>, 2021
+# Wenbin Lv <wenbin816@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather 1.24.0\n"
+"Project-Id-Version: libmateweather 1.26.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
-"POT-Creation-Date: 2020-06-24 15:44+0200\n"
+"POT-Creation-Date: 2022-10-29 15:26+0200\n"
 "PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2021\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2022\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,8 +49,8 @@ msgstr "F"
 #: libmateweather/mateweather-prefs.c:104
 #: libmateweather/mateweather-prefs.c:130
 #: libmateweather/mateweather-prefs.c:159
-#: libmateweather/mateweather-prefs.c:179 libmateweather/weather.c:248
-#: libmateweather/weather.c:265 libmateweather/weather.c:337
+#: libmateweather/mateweather-prefs.c:179 libmateweather/weather.c:247
+#: libmateweather/weather.c:264 libmateweather/weather.c:335
 msgid "Invalid"
 msgstr "无效"
 
@@ -77,7 +77,7 @@ msgstr "节"
 #. Translators: wind speed
 #: libmateweather/mateweather-prefs.c:128
 msgid "Beaufort scale"
-msgstr "蒲福级"
+msgstr "蒲福风级"
 
 #. Translators: kilopascals
 #: libmateweather/mateweather-prefs.c:142
@@ -126,7 +126,7 @@ msgstr "英里"
 
 #: libmateweather/mateweather-timezone.c:315
 msgid "Greenwich Mean Time"
-msgstr "格林尼治标准时间(GMT)"
+msgstr "格林尼治标准时"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:38
 msgid "Show notifications"
@@ -144,7 +144,7 @@ msgstr "自动更新数据"
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr "决定小程序是否自动更新天气统计。"
+msgstr "决定小程序是否自动更新天气统计数据。"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:48
 msgid "Update interval"
@@ -167,7 +167,7 @@ msgstr "使用公制单位，而不是英制单位。"
 #. for valid values; values must be quoted
 #: libmateweather/org.mate.weather.gschema.xml.in:59
 msgid "'miles'"
-msgstr "'英里'"
+msgstr "'km'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:60
 msgid "Distance unit"
@@ -175,14 +175,14 @@ msgstr "距离单位"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:61
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
-msgstr "用于能见度的单位。取值有：'meters', 'km' ,'miles'."
+msgstr "用于能见度的单位。取值有：“meters”（米）、“km”（千米）、“miles”（英里）。"
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: libmateweather/org.mate.weather.gschema.xml.in:66
 msgid "'inHg'"
-msgstr "‘英尺汞柱’"
+msgstr "'hPa'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:67
 msgid "Pressure unit"
@@ -192,13 +192,14 @@ msgstr "气压单位"
 msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
-msgstr "压力单位。取值有：'kPa', 'hPa', 'mb', 'mmHg', 'inHg, 'atm'."
+msgstr ""
+"压力单位。取值有：“kPa”（千帕）、“hPa”（百帕）、“mb”（毫巴）、“mmHg”（毫米汞柱）、“inHg”（英寸汞柱）、“atm”（大气压）。"
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: libmateweather/org.mate.weather.gschema.xml.in:73
 msgid "'knots'"
-msgstr "'节'"
+msgstr "'m/s'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:74
 msgid "Speed unit"
@@ -208,13 +209,15 @@ msgstr "速度单位"
 msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
-msgstr "默认风速单位。取值有： 'm/s', 'km/h, 'mph', 'knots', 'Beaufort scale'。"
+msgstr ""
+"风速单位。取值有：“m/s”（米/秒）、“km/h”（千米/时）、“mph”（英里/时）、“knots”（节）、“Beaufort "
+"scale”（蒲福风级）。"
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: libmateweather/org.mate.weather.gschema.xml.in:80
 msgid "'Fahrenheit'"
-msgstr "'华氏度'"
+msgstr "'Centigrade'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:81
 msgid "Temperature unit"
@@ -224,7 +227,7 @@ msgstr "温度单位"
 msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
-msgstr "温度单位。取值有：'Kelvin', 'Centigrade', 'Fahrenheit'."
+msgstr "温度单位。取值有：“Kelvin”（开氏温度）、“Centigrade”（摄氏度）、“Fahrenheit”（华氏度）。"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:86
 msgid "Not used anymore"
@@ -236,7 +239,7 @@ msgstr "显示雷达图"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:91
 msgid "Fetch a radar map on each update."
-msgstr "每次更新时取回雷达图。"
+msgstr "每次更新时下载雷达图。"
 
 #. TRANSLATORS: Change this to the default location name, used
 #. when you first start the Weather Applet. This is the common
@@ -249,7 +252,7 @@ msgstr "每次更新时取回雷达图。"
 #: libmateweather/org.mate.weather.gschema.xml.in:102
 #: libmateweather/org.mate.weather.gschema.xml.in:147
 msgid "'DEFAULT_LOCATION'"
-msgstr "'DEFAULT_LOCATION'"
+msgstr "'Beijing'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:103
 msgid "Weather location information"
@@ -270,7 +273,7 @@ msgstr "天气位置信息。"
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: libmateweather/org.mate.weather.gschema.xml.in:115
 msgid "'DEFAULT_CODE'"
-msgstr "'DEFAULT_CODE'"
+msgstr "'ZBAA'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:116
 msgid "Nearby city"
@@ -322,7 +325,7 @@ msgstr ""
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: libmateweather/org.mate.weather.gschema.xml.in:142
 msgid "'DEFAULT_RADAR'"
-msgstr "'DEFAULT_RADAR'"
+msgstr "' '"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:143
 msgid "Radar location"
@@ -334,7 +337,7 @@ msgid ""
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
-"从 weather.com 获取雷达地图的三位数代码，可在  https://raw.github.com/mate-"
+"从 weather.com 获取雷达图的三位数代码，可在 https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in 查询"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:148
@@ -356,7 +359,7 @@ msgstr "mateweather 显示信息的城市。"
 #. default location, set this to DEFAULT_COORDINATES.
 #: libmateweather/org.mate.weather.gschema.xml.in:160
 msgid "'DEFAULT_COORDINATES'"
-msgstr "'DEFAULT_COORDINATES'"
+msgstr "'39.928889 116.388333'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:161
 msgid "Location coordinates"
@@ -366,7 +369,7 @@ msgstr "位置坐标"
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
-msgstr "您所在位置的经纬度，格式为“度-分-秒[NS] 度-分-秒[EW]”"
+msgstr "您所在位置的经纬度，格式为“DD-MM-SS[NS] DD-MM-SS[EW]”。"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:166
 msgid "Use custom url for the radar map"
@@ -376,7 +379,7 @@ msgstr "对雷达图使用自定义地址"
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
-msgstr "如果为 true，则从“radar”键中指定的位置取回雷达图。"
+msgstr "如果为真，则从“radar”键中指定的位置取回雷达图。"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:171
 msgid "Url for the radar map"
@@ -401,532 +404,532 @@ msgstr "获取 METAR 数据失败：%d %s。\n"
 msgid "WeatherInfo missing location"
 msgstr "天气信息缺少位置"
 
-#: libmateweather/weather.c:237
+#: libmateweather/weather.c:236
 msgid "Variable"
-msgstr "变量"
+msgstr "不定"
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "North"
 msgstr "北"
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "North - NorthEast"
-msgstr "东北偏北"
+msgstr "北东北"
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "Northeast"
 msgstr "东北"
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "East - NorthEast"
-msgstr "东北偏东"
+msgstr "东东北"
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "East"
 msgstr "东"
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "East - Southeast"
-msgstr "东南偏东"
+msgstr "东东南"
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "Southeast"
 msgstr "东南"
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "South - Southeast"
-msgstr "东南偏南"
+msgstr "南东南"
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "South"
 msgstr "南"
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "South - Southwest"
-msgstr "西南偏南"
+msgstr "南西南"
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "Southwest"
 msgstr "西南"
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "West - Southwest"
-msgstr "西南偏西"
+msgstr "西西南"
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "West"
 msgstr "西"
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "West - Northwest"
-msgstr "西北偏西"
+msgstr "西西北"
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "Northwest"
 msgstr "西北"
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "North - Northwest"
-msgstr "西北偏北"
+msgstr "北西北"
 
-#: libmateweather/weather.c:254
+#: libmateweather/weather.c:253
 msgid "Clear Sky"
 msgstr "晴"
 
-#: libmateweather/weather.c:255
+#: libmateweather/weather.c:254
 msgid "Broken clouds"
 msgstr "碎云"
 
-#: libmateweather/weather.c:256
+#: libmateweather/weather.c:255
 msgid "Scattered clouds"
 msgstr "散云"
 
-#: libmateweather/weather.c:257
+#: libmateweather/weather.c:256
 msgid "Few clouds"
-msgstr "薄云"
+msgstr "少云"
 
-#: libmateweather/weather.c:258
+#: libmateweather/weather.c:257
 msgid "Overcast"
-msgstr "阴天"
+msgstr "阴"
 
 #. Translators: If you want to know what "blowing" "shallow" "partial"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: libmateweather/weather.c:297 libmateweather/weather.c:299
+#: libmateweather/weather.c:295 libmateweather/weather.c:297
 msgid "Thunderstorm"
 msgstr "雷暴"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Drizzle"
 msgstr "细雨"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Light drizzle"
 msgstr "小细雨"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Moderate drizzle"
 msgstr "中细雨"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Heavy drizzle"
 msgstr "大细雨"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Freezing drizzle"
-msgstr "冻雾雨"
+msgstr "冻细雨"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Rain"
 msgstr "雨"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Light rain"
 msgstr "小雨"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Moderate rain"
 msgstr "中雨"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Heavy rain"
 msgstr "大雨"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Rain showers"
 msgstr "阵雨"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Freezing rain"
 msgstr "冻雨"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snow"
 msgstr "雪"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Light snow"
 msgstr "小雪"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Moderate snow"
 msgstr "中雪"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Heavy snow"
 msgstr "大雪"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snowstorm"
 msgstr "暴雪"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Blowing snowfall"
-msgstr "风雪"
+msgstr "高吹雪"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snow showers"
 msgstr "阵雪"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Drifting snow"
-msgstr "积雪"
+msgstr "低吹雪"
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Snow grains"
 msgstr "米雪"
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Light snow grains"
 msgstr "小米雪"
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Moderate snow grains"
 msgstr "中米雪"
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Heavy snow grains"
 msgstr "大米雪"
 
-#: libmateweather/weather.c:302
+#: libmateweather/weather.c:300
 msgid "Ice crystals"
 msgstr "冰晶"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Ice pellets"
 msgstr "冰丸"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Few ice pellets"
 msgstr "小冰丸"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Moderate ice pellets"
 msgstr "中冰丸"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Heavy ice pellets"
 msgstr "大冰丸"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Ice pellet storm"
 msgstr "暴冰丸"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Showers of ice pellets"
 msgstr "阵冰丸"
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hail"
 msgstr "雹"
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hailstorm"
 msgstr "雹暴"
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hail showers"
 msgstr "阵雹"
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Small hail"
 msgstr "小雹"
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Small hailstorm"
 msgstr "小雹暴"
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Showers of small hail"
 msgstr "小阵雹"
 
-#: libmateweather/weather.c:306
+#: libmateweather/weather.c:304
 msgid "Unknown precipitation"
-msgstr "降水，情況不明"
+msgstr "状况不明的降水"
 
-#: libmateweather/weather.c:307
+#: libmateweather/weather.c:305
 msgid "Mist"
-msgstr "细雾"
+msgstr "轻雾"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Fog"
 msgstr "雾"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Fog in the vicinity"
 msgstr "临近有雾"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Shallow fog"
 msgstr "浅雾"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Patches of fog"
 msgstr "局部地区有雾"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Partial fog"
 msgstr "部分有雾"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Freezing fog"
 msgstr "冻雾"
 
-#: libmateweather/weather.c:309
+#: libmateweather/weather.c:307
 msgid "Smoke"
 msgstr "烟"
 
-#: libmateweather/weather.c:310
+#: libmateweather/weather.c:308
 msgid "Volcanic ash"
 msgstr "火山灰"
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Sand"
 msgstr "沙"
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Blowing sand"
 msgstr "高吹沙"
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Drifting sand"
-msgstr "流砂"
+msgstr "低吹沙"
 
-#: libmateweather/weather.c:312
+#: libmateweather/weather.c:310
 msgid "Haze"
 msgstr "霾"
 
-#: libmateweather/weather.c:313
+#: libmateweather/weather.c:311
 msgid "Blowing sprays"
-msgstr "有风冰雾"
+msgstr "高吹水雾"
 
-#: libmateweather/weather.c:314
+#: libmateweather/weather.c:312
 msgid "Dust"
 msgstr "粉尘"
 
-#: libmateweather/weather.c:314
+#: libmateweather/weather.c:312
 msgid "Blowing dust"
-msgstr "有风粉尘"
+msgstr "高吹粉尘"
+
+#: libmateweather/weather.c:312
+msgid "Drifting dust"
+msgstr "低吹粉尘"
+
+#: libmateweather/weather.c:313
+msgid "Squall"
+msgstr "飑"
 
 #: libmateweather/weather.c:314
-msgid "Drifting dust"
-msgstr "微风粉尘"
-
-#: libmateweather/weather.c:315
-msgid "Squall"
-msgstr "暴风"
-
-#: libmateweather/weather.c:316
 msgid "Sandstorm"
 msgstr "沙暴"
 
-#: libmateweather/weather.c:316
+#: libmateweather/weather.c:314
 msgid "Sandstorm in the vicinity"
 msgstr "临近有沙暴"
 
-#: libmateweather/weather.c:316
+#: libmateweather/weather.c:314
 msgid "Heavy sandstorm"
-msgstr "大沙暴"
+msgstr "强沙暴"
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Duststorm"
 msgstr "尘暴"
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Duststorm in the vicinity"
 msgstr "临近有尘暴"
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Heavy duststorm"
-msgstr "大尘暴"
+msgstr "强尘暴"
 
-#: libmateweather/weather.c:318
+#: libmateweather/weather.c:316
 msgid "Funnel cloud"
 msgstr "漏斗云"
 
-#: libmateweather/weather.c:319
+#: libmateweather/weather.c:317
 msgid "Tornado"
 msgstr "龙卷风"
 
-#: libmateweather/weather.c:320
+#: libmateweather/weather.c:318
 msgid "Dust whirls"
 msgstr "尘卷风"
 
-#: libmateweather/weather.c:320
+#: libmateweather/weather.c:318
 msgid "Dust whirls in the vicinity"
 msgstr "邻近有尘卷风"
 
 #. Translators: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#: libmateweather/weather.c:713
+#: libmateweather/weather.c:707
 msgid "%a, %b %d / %H:%M"
 msgstr "%-m月%-d日%A %H:%M"
 
-#: libmateweather/weather.c:728
+#: libmateweather/weather.c:722
 msgid "Unknown observation time"
 msgstr "未知的观测时间"
 
-#: libmateweather/weather.c:742 libmateweather/weather.c:817
-#: libmateweather/weather.c:831 libmateweather/weather.c:844
-#: libmateweather/weather.c:857 libmateweather/weather.c:870
-#: libmateweather/weather.c:888 libmateweather/weather.c:906
-#: libmateweather/weather.c:944 libmateweather/weather.c:960
-#: libmateweather/weather.c:983 libmateweather/weather.c:1015
-#: libmateweather/weather.c:1031 libmateweather/weather.c:1051
+#: libmateweather/weather.c:736 libmateweather/weather.c:811
+#: libmateweather/weather.c:825 libmateweather/weather.c:838
+#: libmateweather/weather.c:851 libmateweather/weather.c:864
+#: libmateweather/weather.c:882 libmateweather/weather.c:900
+#: libmateweather/weather.c:938 libmateweather/weather.c:954
+#: libmateweather/weather.c:977 libmateweather/weather.c:1009
+#: libmateweather/weather.c:1025 libmateweather/weather.c:1045
 msgid "Unknown"
 msgstr "未知"
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
-#: libmateweather/weather.c:764
+#: libmateweather/weather.c:758
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °F"
 
-#: libmateweather/weather.c:772 libmateweather/weather.c:789
-#: libmateweather/weather.c:806
+#: libmateweather/weather.c:766 libmateweather/weather.c:783
+#: libmateweather/weather.c:800
 msgid "n/a"
 msgstr "不可用"
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
-#: libmateweather/weather.c:775
+#: libmateweather/weather.c:769
 #, c-format
 msgid "%d °F"
 msgstr "%d °F"
 
 #. Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
-#: libmateweather/weather.c:781
+#: libmateweather/weather.c:775
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °C"
 
 #. Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
-#: libmateweather/weather.c:792
+#: libmateweather/weather.c:786
 #, c-format
 msgid "%d °C"
 msgstr "%d °C"
 
 #. Translators: This is the temperature in kelvin
-#: libmateweather/weather.c:798
+#: libmateweather/weather.c:792
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. Translators: This is the temperature in kelvin
-#: libmateweather/weather.c:809
+#: libmateweather/weather.c:803
 #, c-format
 msgid "%d K"
 msgstr "%d K"
 
 #. Translators: This is the humidity in percent
-#: libmateweather/weather.c:891
+#: libmateweather/weather.c:885
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. Translators: This is the wind speed in knots
-#: libmateweather/weather.c:919
+#: libmateweather/weather.c:913
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f 节"
 
 #. Translators: This is the wind speed in miles per hour
-#: libmateweather/weather.c:923
+#: libmateweather/weather.c:917
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f 英里/小时"
 
 #. Translators: This is the wind speed in kilometers per hour
-#: libmateweather/weather.c:927
+#: libmateweather/weather.c:921
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f 千米/小时"
 
 #. Translators: This is the wind speed in meters per second
-#: libmateweather/weather.c:931
+#: libmateweather/weather.c:925
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f 米/秒"
 
 #. Translators: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#: libmateweather/weather.c:937
+#: libmateweather/weather.c:931
 #, c-format
 msgid "Beaufort force %.1f"
-msgstr "蒲福级 %1.f"
+msgstr "蒲福风级 %.1f 级"
 
-#: libmateweather/weather.c:962
+#: libmateweather/weather.c:956
 msgid "Calm"
-msgstr "平静"
+msgstr "静风"
 
 #. Translators: This is 'wind direction' / 'wind speed'
-#: libmateweather/weather.c:966
+#: libmateweather/weather.c:960
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. Translators: This is pressure in inches of mercury
-#: libmateweather/weather.c:988
+#: libmateweather/weather.c:982
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f 英寸汞柱"
 
 #. Translators: This is pressure in millimeters of mercury
-#: libmateweather/weather.c:992
+#: libmateweather/weather.c:986
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f 毫米汞柱"
 
 #. Translators: This is pressure in kiloPascals
-#: libmateweather/weather.c:996
+#: libmateweather/weather.c:990
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f 千帕"
 
 #. Translators: This is pressure in hectoPascals
-#: libmateweather/weather.c:1000
+#: libmateweather/weather.c:994
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f 百帕"
 
 #. Translators: This is pressure in millibars
-#: libmateweather/weather.c:1004
+#: libmateweather/weather.c:998
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f 毫巴"
 
 #. Translators: This is pressure in atmospheres
-#: libmateweather/weather.c:1008
+#: libmateweather/weather.c:1002
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f 大气压"
 
 #. Translators: This is the visibility in miles
-#: libmateweather/weather.c:1036
+#: libmateweather/weather.c:1030
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f 英里"
 
 #. Translators: This is the visibility in kilometers
-#: libmateweather/weather.c:1040
+#: libmateweather/weather.c:1034
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f 千米"
 
 #. Translators: This is the visibility in meters
-#: libmateweather/weather.c:1044
+#: libmateweather/weather.c:1038
 #, c-format
 msgid "%.0fm"
 msgstr "%.0f 米"
 
-#: libmateweather/weather.c:1073 libmateweather/weather.c:1094
+#: libmateweather/weather.c:1067 libmateweather/weather.c:1088
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: libmateweather/weather.c:1153
+#: libmateweather/weather.c:1147
 msgid "Retrieval failed"
 msgstr "获取失败"

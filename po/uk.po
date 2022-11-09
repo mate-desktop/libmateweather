@@ -9,14 +9,15 @@
 # Микола Ткач <chistomov@gmail.com>, 2018
 # 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2018
 # Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018
+# Taras Panchenko <top39@ukr.net>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather 1.24.0\n"
+"Project-Id-Version: libmateweather 1.26.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
-"POT-Creation-Date: 2020-06-24 15:44+0200\n"
+"POT-Creation-Date: 2022-10-29 15:26+0200\n"
 "PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018\n"
+"Last-Translator: Taras Panchenko <top39@ukr.net>, 2021\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,8 +50,8 @@ msgstr "F"
 #: libmateweather/mateweather-prefs.c:104
 #: libmateweather/mateweather-prefs.c:130
 #: libmateweather/mateweather-prefs.c:159
-#: libmateweather/mateweather-prefs.c:179 libmateweather/weather.c:248
-#: libmateweather/weather.c:265 libmateweather/weather.c:337
+#: libmateweather/mateweather-prefs.c:179 libmateweather/weather.c:247
+#: libmateweather/weather.c:264 libmateweather/weather.c:335
 msgid "Invalid"
 msgstr "Помилковий"
 
@@ -407,91 +408,91 @@ msgstr "Не вдається отримати дані METAR: %d %s.\n"
 msgid "WeatherInfo missing location"
 msgstr "Не вказано місцевість згідно системи WeatherInfo"
 
-#: libmateweather/weather.c:237
+#: libmateweather/weather.c:236
 msgid "Variable"
 msgstr "Змінна"
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "North"
 msgstr "Північний"
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "North - NorthEast"
 msgstr "Північний - північно-східний"
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "Northeast"
 msgstr "Північно-східний"
 
-#: libmateweather/weather.c:238
+#: libmateweather/weather.c:237
 msgid "East - NorthEast"
 msgstr "Східний - північно-східний"
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "East"
 msgstr "Східний"
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "East - Southeast"
 msgstr "Східний - південно-східний"
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "Southeast"
 msgstr "Південно-східний"
 
-#: libmateweather/weather.c:239
+#: libmateweather/weather.c:238
 msgid "South - Southeast"
 msgstr "Південний - південно-східний"
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "South"
 msgstr "Південний"
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "South - Southwest"
 msgstr "Південний - південно-західний"
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "Southwest"
 msgstr "Південно-західний"
 
-#: libmateweather/weather.c:240
+#: libmateweather/weather.c:239
 msgid "West - Southwest"
 msgstr "Західний - Південно-західний"
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "West"
 msgstr "Західний"
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "West - Northwest"
 msgstr "Західний - північно-західний"
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "Northwest"
 msgstr "Північно-західний"
 
-#: libmateweather/weather.c:241
+#: libmateweather/weather.c:240
 msgid "North - Northwest"
 msgstr "Північний - північно-західний"
 
-#: libmateweather/weather.c:254
+#: libmateweather/weather.c:253
 msgid "Clear Sky"
 msgstr "Безхмарно"
 
-#: libmateweather/weather.c:255
+#: libmateweather/weather.c:254
 msgid "Broken clouds"
 msgstr "Хмарно з проясненнями"
 
-#: libmateweather/weather.c:256
+#: libmateweather/weather.c:255
 msgid "Scattered clouds"
 msgstr "Окремі хмари"
 
-#: libmateweather/weather.c:257
+#: libmateweather/weather.c:256
 msgid "Few clouds"
 msgstr "Невелика хмарність"
 
-#: libmateweather/weather.c:258
+#: libmateweather/weather.c:257
 msgid "Overcast"
 msgstr "Хмарно"
 
@@ -499,440 +500,440 @@ msgstr "Хмарно"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
 #. * http://www.crh.noaa.gov/arx/wx.tbl.php
 #. NONE
-#: libmateweather/weather.c:297 libmateweather/weather.c:299
+#: libmateweather/weather.c:295 libmateweather/weather.c:297
 msgid "Thunderstorm"
 msgstr "Гроза"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Drizzle"
 msgstr "Мряка"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Light drizzle"
 msgstr "Легка мряка"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Moderate drizzle"
 msgstr "Помірна мряка"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Heavy drizzle"
 msgstr "Рясна мряка"
 
-#: libmateweather/weather.c:298
+#: libmateweather/weather.c:296
 msgid "Freezing drizzle"
 msgstr "Холодна мряка"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Rain"
 msgstr "Дощ"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Light rain"
 msgstr "Легкий дощ"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Moderate rain"
 msgstr "Помірний дощ"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Heavy rain"
 msgstr "Рясний дощ"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Rain showers"
 msgstr "Злива"
 
-#: libmateweather/weather.c:299
+#: libmateweather/weather.c:297
 msgid "Freezing rain"
 msgstr "Дощ з градом"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snow"
 msgstr "Сніг"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Light snow"
 msgstr "Невеликий сніг"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Moderate snow"
 msgstr "Помірний сніг"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Heavy snow"
 msgstr "Сильний сніг"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snowstorm"
 msgstr "Заметіль"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Blowing snowfall"
 msgstr "Хуртовина"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Snow showers"
 msgstr "Завірюха"
 
-#: libmateweather/weather.c:300
+#: libmateweather/weather.c:298
 msgid "Drifting snow"
 msgstr "Снігові замети"
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Snow grains"
 msgstr "Сніжна крупа"
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Light snow grains"
 msgstr "Легка сніжна крупа"
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Moderate snow grains"
 msgstr "Помірна сніжна крупа"
 
-#: libmateweather/weather.c:301
+#: libmateweather/weather.c:299
 msgid "Heavy snow grains"
 msgstr "Рясна сніжна крупа"
 
-#: libmateweather/weather.c:302
+#: libmateweather/weather.c:300
 msgid "Ice crystals"
 msgstr "Крижані кришталики"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Ice pellets"
 msgstr "Крижані кульки"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Few ice pellets"
 msgstr "Незначні опади крижаних кульок"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Moderate ice pellets"
 msgstr "Помірні опади крижаних кульок"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Heavy ice pellets"
 msgstr "Сильні опади крижаних кульок"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Ice pellet storm"
 msgstr "Буря крижаних кульок"
 
-#: libmateweather/weather.c:303
+#: libmateweather/weather.c:301
 msgid "Showers of ice pellets"
 msgstr "Шквал крижаних кульок"
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hail"
 msgstr "Град"
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hailstorm"
 msgstr "Градова гроза"
 
-#: libmateweather/weather.c:304
+#: libmateweather/weather.c:302
 msgid "Hail showers"
 msgstr "Потужний поривчастий град"
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Small hail"
 msgstr "Дрібний град"
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Small hailstorm"
 msgstr "Дрібна гроза з градом"
 
-#: libmateweather/weather.c:305
+#: libmateweather/weather.c:303
 msgid "Showers of small hail"
 msgstr "Проливний дрібний град"
 
-#: libmateweather/weather.c:306
+#: libmateweather/weather.c:304
 msgid "Unknown precipitation"
 msgstr "Невідомі опади"
 
-#: libmateweather/weather.c:307
+#: libmateweather/weather.c:305
 msgid "Mist"
 msgstr "Легкий туман"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Fog"
 msgstr "Туман"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Fog in the vicinity"
 msgstr "Туман на околицях"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Shallow fog"
 msgstr "Дрібний туман"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Patches of fog"
 msgstr "Місцями туман"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Partial fog"
 msgstr "Часом туман"
 
-#: libmateweather/weather.c:308
+#: libmateweather/weather.c:306
 msgid "Freezing fog"
 msgstr "Холодний туман"
 
-#: libmateweather/weather.c:309
+#: libmateweather/weather.c:307
 msgid "Smoke"
 msgstr "Дим"
 
-#: libmateweather/weather.c:310
+#: libmateweather/weather.c:308
 msgid "Volcanic ash"
 msgstr "Вулканічний пил"
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Sand"
 msgstr "Пісочна буря"
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Blowing sand"
 msgstr "Вітер з піском"
 
-#: libmateweather/weather.c:311
+#: libmateweather/weather.c:309
 msgid "Drifting sand"
 msgstr "Пісочні заноси"
 
-#: libmateweather/weather.c:312
+#: libmateweather/weather.c:310
 msgid "Haze"
 msgstr "Серпанок"
 
-#: libmateweather/weather.c:313
+#: libmateweather/weather.c:311
 msgid "Blowing sprays"
 msgstr "Пориви вітру з пилом"
 
-#: libmateweather/weather.c:314
+#: libmateweather/weather.c:312
 msgid "Dust"
 msgstr "Пил"
 
-#: libmateweather/weather.c:314
+#: libmateweather/weather.c:312
 msgid "Blowing dust"
 msgstr "Вітер з пилом"
 
-#: libmateweather/weather.c:314
+#: libmateweather/weather.c:312
 msgid "Drifting dust"
 msgstr "Пилові заноси"
 
-#: libmateweather/weather.c:315
+#: libmateweather/weather.c:313
 msgid "Squall"
 msgstr "Шквал"
 
-#: libmateweather/weather.c:316
+#: libmateweather/weather.c:314
 msgid "Sandstorm"
 msgstr "Пісочна буря"
 
-#: libmateweather/weather.c:316
+#: libmateweather/weather.c:314
 msgid "Sandstorm in the vicinity"
 msgstr "Пісочна буря у околицях"
 
-#: libmateweather/weather.c:316
+#: libmateweather/weather.c:314
 msgid "Heavy sandstorm"
 msgstr "Сильна пісочна буря"
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Duststorm"
 msgstr "Пилова буря"
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Duststorm in the vicinity"
 msgstr "Пилова буря у околицях"
 
-#: libmateweather/weather.c:317
+#: libmateweather/weather.c:315
 msgid "Heavy duststorm"
 msgstr "Сильна пилова буря"
 
-#: libmateweather/weather.c:318
+#: libmateweather/weather.c:316
 msgid "Funnel cloud"
 msgstr "Смерч"
 
-#: libmateweather/weather.c:319
+#: libmateweather/weather.c:317
 msgid "Tornado"
 msgstr "Ураган"
 
-#: libmateweather/weather.c:320
+#: libmateweather/weather.c:318
 msgid "Dust whirls"
 msgstr "Пилові вихори"
 
-#: libmateweather/weather.c:320
+#: libmateweather/weather.c:318
 msgid "Dust whirls in the vicinity"
 msgstr "Пилові вихори у околицях"
 
 #. Translators: this is a format string for strftime
 #. *             see `man 3 strftime` for more details
-#: libmateweather/weather.c:713
+#: libmateweather/weather.c:707
 msgid "%a, %b %d / %H:%M"
 msgstr "%a, %d %b, %H:%M"
 
-#: libmateweather/weather.c:728
+#: libmateweather/weather.c:722
 msgid "Unknown observation time"
 msgstr "Невідомий час спостереження"
 
-#: libmateweather/weather.c:742 libmateweather/weather.c:817
-#: libmateweather/weather.c:831 libmateweather/weather.c:844
-#: libmateweather/weather.c:857 libmateweather/weather.c:870
-#: libmateweather/weather.c:888 libmateweather/weather.c:906
-#: libmateweather/weather.c:944 libmateweather/weather.c:960
-#: libmateweather/weather.c:983 libmateweather/weather.c:1015
-#: libmateweather/weather.c:1031 libmateweather/weather.c:1051
+#: libmateweather/weather.c:736 libmateweather/weather.c:811
+#: libmateweather/weather.c:825 libmateweather/weather.c:838
+#: libmateweather/weather.c:851 libmateweather/weather.c:864
+#: libmateweather/weather.c:882 libmateweather/weather.c:900
+#: libmateweather/weather.c:938 libmateweather/weather.c:954
+#: libmateweather/weather.c:977 libmateweather/weather.c:1009
+#: libmateweather/weather.c:1025 libmateweather/weather.c:1045
 msgid "Unknown"
 msgstr "Невідомий"
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
-#: libmateweather/weather.c:764
+#: libmateweather/weather.c:758
 #, c-format
 msgid "%.1f °F"
 msgstr "%.1f °Ф"
 
-#: libmateweather/weather.c:772 libmateweather/weather.c:789
-#: libmateweather/weather.c:806
+#: libmateweather/weather.c:766 libmateweather/weather.c:783
+#: libmateweather/weather.c:800
 msgid "n/a"
-msgstr ""
+msgstr "не застосовується"
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
-#: libmateweather/weather.c:775
+#: libmateweather/weather.c:769
 #, c-format
 msgid "%d °F"
 msgstr "%d °Ф"
 
 #. Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
-#: libmateweather/weather.c:781
+#: libmateweather/weather.c:775
 #, c-format
 msgid "%.1f °C"
 msgstr "%.1f °Ц"
 
 #. Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
-#: libmateweather/weather.c:792
+#: libmateweather/weather.c:786
 #, c-format
 msgid "%d °C"
 msgstr "%d °Ц"
 
 #. Translators: This is the temperature in kelvin
-#: libmateweather/weather.c:798
+#: libmateweather/weather.c:792
 #, c-format
 msgid "%.1f K"
 msgstr "%.1f K"
 
 #. Translators: This is the temperature in kelvin
-#: libmateweather/weather.c:809
+#: libmateweather/weather.c:803
 #, c-format
 msgid "%d K"
 msgstr "%d К"
 
 #. Translators: This is the humidity in percent
-#: libmateweather/weather.c:891
+#: libmateweather/weather.c:885
 #, c-format
 msgid "%.f%%"
 msgstr "%.f%%"
 
 #. Translators: This is the wind speed in knots
-#: libmateweather/weather.c:919
+#: libmateweather/weather.c:913
 #, c-format
 msgid "%0.1f knots"
 msgstr "%0.1f вузлів"
 
 #. Translators: This is the wind speed in miles per hour
-#: libmateweather/weather.c:923
+#: libmateweather/weather.c:917
 #, c-format
 msgid "%.1f mph"
 msgstr "%.1f миль/год."
 
 #. Translators: This is the wind speed in kilometers per hour
-#: libmateweather/weather.c:927
+#: libmateweather/weather.c:921
 #, c-format
 msgid "%.1f km/h"
 msgstr "%.1f км/год"
 
 #. Translators: This is the wind speed in meters per second
-#: libmateweather/weather.c:931
+#: libmateweather/weather.c:925
 #, c-format
 msgid "%.1f m/s"
 msgstr "%.1f м/с"
 
 #. Translators: This is the wind speed as a Beaufort force factor
 #. * (commonly used in nautical wind estimation).
-#: libmateweather/weather.c:937
+#: libmateweather/weather.c:931
 #, c-format
 msgid "Beaufort force %.1f"
 msgstr "%.1f балів за шкалою Бофорта"
 
-#: libmateweather/weather.c:962
+#: libmateweather/weather.c:956
 msgid "Calm"
 msgstr "Безвітряно"
 
 #. Translators: This is 'wind direction' / 'wind speed'
-#: libmateweather/weather.c:966
+#: libmateweather/weather.c:960
 #, c-format
 msgid "%s / %s"
 msgstr "%s / %s"
 
 #. Translators: This is pressure in inches of mercury
-#: libmateweather/weather.c:988
+#: libmateweather/weather.c:982
 #, c-format
 msgid "%.2f inHg"
 msgstr "%.2f дюймів рт.ст."
 
 #. Translators: This is pressure in millimeters of mercury
-#: libmateweather/weather.c:992
+#: libmateweather/weather.c:986
 #, c-format
 msgid "%.1f mmHg"
 msgstr "%.1f мм рт.ст."
 
 #. Translators: This is pressure in kiloPascals
-#: libmateweather/weather.c:996
+#: libmateweather/weather.c:990
 #, c-format
 msgid "%.2f kPa"
 msgstr "%.2f кПа"
 
 #. Translators: This is pressure in hectoPascals
-#: libmateweather/weather.c:1000
+#: libmateweather/weather.c:994
 #, c-format
 msgid "%.2f hPa"
 msgstr "%.2f ГПа"
 
 #. Translators: This is pressure in millibars
-#: libmateweather/weather.c:1004
+#: libmateweather/weather.c:998
 #, c-format
 msgid "%.2f mb"
 msgstr "%.2f мбар"
 
 #. Translators: This is pressure in atmospheres
-#: libmateweather/weather.c:1008
+#: libmateweather/weather.c:1002
 #, c-format
 msgid "%.3f atm"
 msgstr "%.3f атм"
 
 #. Translators: This is the visibility in miles
-#: libmateweather/weather.c:1036
+#: libmateweather/weather.c:1030
 #, c-format
 msgid "%.1f miles"
 msgstr "%.1f миль"
 
 #. Translators: This is the visibility in kilometers
-#: libmateweather/weather.c:1040
+#: libmateweather/weather.c:1034
 #, c-format
 msgid "%.1f km"
 msgstr "%.1f км"
 
 #. Translators: This is the visibility in meters
-#: libmateweather/weather.c:1044
+#: libmateweather/weather.c:1038
 #, c-format
 msgid "%.0fm"
 msgstr "%.0fм"
 
-#: libmateweather/weather.c:1073 libmateweather/weather.c:1094
+#: libmateweather/weather.c:1067 libmateweather/weather.c:1088
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: libmateweather/weather.c:1153
+#: libmateweather/weather.c:1147
 msgid "Retrieval failed"
 msgstr "Помилка отримання даних"
