@@ -27,7 +27,7 @@ main (int argc, char **argv)
 	  "observer's longitude in degrees east", NULL },
 	{ "time", 0, 0, G_OPTION_ARG_STRING, &gtime,
 	  "time in seconds from Unix epoch", NULL },
-	{ NULL }
+	{ NULL, 0, 0, G_OPTION_ARG_NONE, NULL, NULL, NULL }
     };
 
     memset(&location, 0, sizeof(WeatherLocation));

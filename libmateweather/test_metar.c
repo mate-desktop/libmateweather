@@ -21,7 +21,7 @@ main (int argc, char **argv)
     GOptionEntry entries[] = {
 	{ "file", 'f', 0, G_OPTION_ARG_FILENAME, &filename,
 	  "file constaining metar observations", NULL },
-	{ NULL }
+	{ NULL, 0, 0, G_OPTION_ARG_NONE, NULL, NULL, NULL }
     };
     GOptionContext* context;
     GError* error = NULL;
