@@ -20627,13 +20627,12 @@
       <iso-code>UA</iso-code>
       <fips-code>UP</fips-code>
       <timezones>
-        <timezone id="Europe/Kiev">
-          <obsoletes>Europe/Simferopol</obsoletes>
+        <timezone id="Europe/Kyiv">
           <obsoletes>Europe/Uzhgorod</obsoletes>
           <obsoletes>Europe/Zaporozhye</obsoletes>
         </timezone>
       </timezones>
-      <tz-hint>Europe/Kiev</tz-hint>
+      <tz-hint>Europe/Kyiv</tz-hint>
       <city>
         <!-- A city in Ukraine -->
         <name>Boryspil'</name>
@@ -20706,10 +20705,10 @@
       </city>
       <city>
         <!-- The capital of Ukraine.
-             "Kiev" is the traditional English name.
+             "Kyiv" is the traditional English name.
              The local name in Ukrainian is "Kyyiv".
           -->
-        <name>Kiev</name>
+        <name>Kyiv</name>
         <coordinates>50.433333 30.516667</coordinates>
         <location>
           <name>Kyiv</name>
