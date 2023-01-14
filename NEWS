@@ -1,3 +1,20 @@
+### libmateweather 1.27.0
+
+  * rename Europe/Kiev to Europe/Kyiv (#115)
+  * Fix build warnings about missing field initializer (#102)
+  * tx: sync with transifex
+  * configure.ac: The macro 'AC_HELP_STRING' is obsolete (#112)
+  * tx: update resource
+  * tx: migrate config file
+  * configure.ac: Bump Autoconf version because of LT_INIT
+  * locations: add San Miguel de Tucuman (Argentina)
+  * ci: drop -Wunused-parameter compiler cflag from debian build
+  * Use a blank line at most
+  * tx: add transifex config for locations.pot
+  * add locations.pot
+  * generate locations.pot with makepot
+  * Corrections
+
 ### libmateweather 1.26.0
 
   * Translations update
