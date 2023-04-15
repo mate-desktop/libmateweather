@@ -34649,7 +34649,7 @@
           <location>
             <name>Chicago Midway Airport</name>
             <code>KMDW</code>
-            <zone>ILZ014</zone>
+            <zone>ILZ104</zone>
             <radar>ord</radar>
             <coordinates>41.784167 -87.755278</coordinates>
           </location>
@@ -34663,23 +34663,23 @@
           <location>
             <name>Lansing Municipal Airport</name>
             <code>KIGQ</code>
-            <zone>ILZ014</zone>
+            <zone>ILZ105</zone>
             <radar>ord</radar>
             <coordinates>41.540000 -87.532222</coordinates>
           </location>
           <location>
-            <name>Chicago / Wheeling, Pal-Waukee Airport</name>
-            <code>KPWK</code>
+            <name>Chicago Waukegan Regional Airport</name>
+            <code>KUGN</code>
             <zone>ILZ006</zone>
             <radar>ord</radar>
-            <coordinates>42.120833 -87.904722</coordinates>
+            <coordinates>42.43 -87.86</coordinates>
           </location>
           <location>
-            <name>Chicago / Romeoville, Lewis University Airport</name>
-            <code>KLOT</code>
-            <zone>ILZ014</zone>
+            <name>Chicago / Wheeling, Pal-Waukee Airport</name>
+            <code>KPWK</code>
+            <zone>ILZ103</zone>
             <radar>ord</radar>
-            <coordinates>41.608333 -88.094167</coordinates>
+            <coordinates>42.120833 -87.904722</coordinates>
           </location>
         </city>
         <city>
@@ -34954,7 +34954,7 @@
           <location>
             <name>Chicago / West Chicago, Dupage Airport</name>
             <code>KDPA</code>
-            <zone>ILZ014</zone>
+            <zone>ILZ013</zone>
             <radar>ord</radar>
             <coordinates>41.896389 -88.251111</coordinates>
           </location>
@@ -35156,7 +35156,7 @@
           <location>
             <name>Chicago / West Chicago, Dupage Airport</name>
             <code>KDPA</code>
-            <zone>ILZ014</zone>
+            <zone>ILZ013</zone>
             <radar>ord</radar>
             <coordinates>41.896389 -88.251111</coordinates>
           </location>
