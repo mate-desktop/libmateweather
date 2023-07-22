@@ -61,7 +61,7 @@ static gboolean
 parse_tzdata (const char *tzname, time_t start, time_t end,
 	      int *offset, gboolean *has_dst, int *dst_offset)
 {
-    char *filename, *contents;
+    char *tzdir, *filename, *contents;
     gsize length;
     int timecnt, transitions_size, ttinfo_map_size;
     int initial_transition = -1, second_transition = -1;
@@ -71,7 +71,10 @@ parse_tzdata (const char *tzname, time_t start, time_t end,
     char initial_isdst, second_isdst;
     int i;
 
-    filename = g_build_filename (ZONEINFO_DIR, tzname, NULL);
+    tzdir = g_getenv ("TZDIR");
+    if (tzdir == NULL)
+	tzdir = ZONEINFO_DIR;
+    filename = g_build_filename (tzdir, tzname, NULL);
     if (!g_file_get_contents (filename, &contents, &length, NULL)) {
 	g_free (filename);
 	return FALSE;
@@ -403,4 +406,3 @@ mateweather_timezone_get_dst_offset (MateWeatherTimezone *zone)
     g_return_val_if_fail (zone->has_dst, 0);
     return zone->dst_offset;
 }
-
