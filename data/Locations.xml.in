@@ -2954,7 +2954,7 @@
       </city>
       <city>
         <!-- A city in Bangladesh -->
-        <name>Solpur</name>
+        <name>Solapur</name>
         <coordinates>23.850000 90.400000</coordinates>
         <location>
           <name>Kurmitola, Dia</name>
@@ -9952,7 +9952,7 @@
       </state>
       <state>
         <!-- A state/province/territory in Brazil -->
-        <name>Tocantis</name>
+        <name>Tocantins</name>
         <fips-code>BR31</fips-code>
       </state>
     </country>
@@ -14785,10 +14785,10 @@
              use that unless you know that it has a different name in
              your language.
           -->
-        <name>Hesse</name>
+        <name>Hessen</name>
         <fips-code>GM05</fips-code>
         <city>
-          <!-- A city in Hesse in Germany -->
+          <!-- A city in Hessen in Germany -->
           <name>Frankfurt</name>
           <coordinates>50.116667 8.683333</coordinates>
           <location>
@@ -14798,7 +14798,7 @@
           </location>
         </city>
         <city>
-          <!-- A city in Hesse in Germany -->
+          <!-- A city in Hessen in Germany -->
           <name>Fritzlar</name>
           <coordinates>51.133333 9.283333</coordinates>
           <location>
@@ -14808,7 +14808,7 @@
           </location>
         </city>
         <city>
-          <!-- A city in Hesse in Germany -->
+          <!-- A city in Hessen in Germany -->
           <name>Kassel</name>
           <coordinates>51.316667 9.500000</coordinates>
           <location>
@@ -14818,7 +14818,7 @@
           </location>
         </city>
         <city>
-          <!-- A city in Hesse in Germany -->
+          <!-- A city in Hessen in Germany -->
           <name>Wiesbaden</name>
           <coordinates>50.083333 8.250000</coordinates>
           <location>
