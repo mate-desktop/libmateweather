@@ -1,3 +1,10 @@
+### libmateweather 1.26.2
+
+  * Translations update
+  * Tbilisi, Georgia (Country) IATA Airport code (TBS) changed to ICAO code (UGTB)
+  * fix some location names
+  * Dataserver url changed
+
 ### libmateweather 1.26.1
 
   * Translations update
