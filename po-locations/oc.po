@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 14:47+0100\n"
+"POT-Creation-Date: 2023-10-18 22:20+0200\n"
 "PO-Revision-Date: 2021-12-11 13:55+0000\n"
 "Last-Translator: Quentin PAGÈS, 2021\n"
 "Language-Team: Occitan (post 1500) (https://app.transifex.com/mate/teams/13566/oc/)\n"
@@ -1428,6 +1428,7 @@ msgstr "Illa Wake"
 #. Tocantins. See the comment on "Brasília Time" for more
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
+#. A state/province/territory in Brazil
 msgid "Tocantins"
 msgstr "Tocantins"
 
@@ -2000,10 +2001,6 @@ msgctxt "State in Brazil"
 msgid "São Paulo"
 msgstr "São Paulo"
 
-#. A state/province/territory in Brazil
-msgid "Tocantis"
-msgstr "Tocantis"
-
 #. A state/province/territory in Canada
 msgid "Alberta"
 msgstr "Alberta"
@@ -2201,8 +2198,8 @@ msgstr "Amborg"
 #. A state in Germany.  The local name is "Hessen". Please
 #. use that unless you know that it has a different name in
 #. your language.
-msgid "Hesse"
-msgstr "Èssa"
+msgid "Hessen"
+msgstr ""
 
 #. A state in Germany.  The local name is "Niedersachsen".
 #. Please use that unless you know that it has a different
@@ -2893,6 +2890,10 @@ msgid "San Fernando"
 msgstr "San Fernando"
 
 #. A city in Argentina
+msgid "San Miguel de Tucuman"
+msgstr ""
+
+#. A city in Argentina
 msgid "San Salvador de Jujuy"
 msgstr "San Salvador de Jujuy"
 
@@ -3129,8 +3130,8 @@ msgid "Dhaka"
 msgstr "Dhaka"
 
 #. A city in Bangladesh
-msgid "Solpur"
-msgstr "Solpur"
+msgid "Solapur"
+msgstr ""
 
 #. The capital of Barbados
 msgid "Bridgetown"
@@ -6686,7 +6687,7 @@ msgstr ""
 msgid "Faßberg"
 msgstr "Faßberg"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Frankfurt"
 msgstr "Francfòrt de Men"
 
@@ -6694,7 +6695,7 @@ msgstr "Francfòrt de Men"
 msgid "Friedrichshafen"
 msgstr "Friedrichshafen"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Fritzlar"
 msgstr "Fritzlar"
 
@@ -6743,7 +6744,7 @@ msgstr "Kalkum"
 msgid "Karlsruhe"
 msgstr "Karlsruhe"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Kassel"
 msgstr "Kassel"
 
@@ -6889,7 +6890,7 @@ msgstr "Webershausen"
 msgid "Westerland"
 msgstr "Westerland"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Wiesbaden"
 msgstr "Wiesbaden"
 
@@ -11396,15 +11397,15 @@ msgstr "Ivano-Frankivs'k"
 msgid "Kharkiv"
 msgstr "Kharkiv"
 
-#. The capital of Ukraine.
-#. "Kiev" is the traditional English name.
-#. The local name in Ukrainian is "Kyyiv".
-msgid "Kiev"
-msgstr "Kiev"
-
 #. A city in Ukraine
 msgid "Kryvyy Rih"
 msgstr "Kryvyy Rih"
+
+#. The capital of Ukraine.
+#. "Kyiv" is the traditional English name.
+#. The local name in Ukrainian is "Kyyiv".
+msgid "Kyiv"
+msgstr ""
 
 #. A city in Ukraine
 msgid "L'viv"

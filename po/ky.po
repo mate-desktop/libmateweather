@@ -8,9 +8,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateweather 1.25.0\n"
+"Project-Id-Version: libmateweather 1.26.1\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
-"POT-Creation-Date: 2021-08-03 20:41+0200\n"
+"POT-Creation-Date: 2023-10-18 22:20+0200\n"
 "PO-Revision-Date: 2021-09-18 19:55+0000\n"
 "Last-Translator: 41e38594a6ab66d45dbd71e8e44a0b16_36d21e8, 2021\n"
 "Language-Team: Kyrgyz (https://app.transifex.com/mate/teams/13566/ky/)\n"

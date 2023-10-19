@@ -9,17 +9,17 @@
 # Дмитрий Михирев, 2021
 # DrSheppard <georg.b2012@gmail.com>, 2022
 # HectorB_2020, 2022
-# Sergej A. <Ser82-png@yandex.ru>, 2023
 # Andrei Stepanov, 2023
+# Sergej A. <Ser82-png@yandex.ru>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 14:47+0100\n"
+"POT-Creation-Date: 2023-10-18 22:20+0200\n"
 "PO-Revision-Date: 2021-12-11 13:55+0000\n"
-"Last-Translator: Andrei Stepanov, 2023\n"
+"Last-Translator: Sergej A. <Ser82-png@yandex.ru>, 2023\n"
 "Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1434,6 +1434,7 @@ msgstr "Остров Уэйк"
 #. Tocantins. See the comment on "Brasília Time" for more
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
+#. A state/province/territory in Brazil
 msgid "Tocantins"
 msgstr "Токантинс"
 
@@ -2009,10 +2010,6 @@ msgctxt "State in Brazil"
 msgid "São Paulo"
 msgstr "Сан-Паулу"
 
-#. A state/province/territory in Brazil
-msgid "Tocantis"
-msgstr "Токантинс"
-
 #. A state/province/territory in Canada
 msgid "Alberta"
 msgstr "Альберта"
@@ -2210,8 +2207,8 @@ msgstr "Гамбург"
 #. A state in Germany.  The local name is "Hessen". Please
 #. use that unless you know that it has a different name in
 #. your language.
-msgid "Hesse"
-msgstr "Гессен"
+msgid "Hessen"
+msgstr ""
 
 #. A state in Germany.  The local name is "Niedersachsen".
 #. Please use that unless you know that it has a different
@@ -2902,6 +2899,10 @@ msgid "San Fernando"
 msgstr "Сан-Фернандо"
 
 #. A city in Argentina
+msgid "San Miguel de Tucuman"
+msgstr "Сан-Мигель-де-Тукуман"
+
+#. A city in Argentina
 msgid "San Salvador de Jujuy"
 msgstr "Сан-Сальвадор-де-Жужуй"
 
@@ -3138,8 +3139,8 @@ msgid "Dhaka"
 msgstr "Дакка"
 
 #. A city in Bangladesh
-msgid "Solpur"
-msgstr "Солпур"
+msgid "Solapur"
+msgstr ""
 
 #. The capital of Barbados
 msgid "Bridgetown"
@@ -6695,7 +6696,7 @@ msgstr ""
 msgid "Faßberg"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Frankfurt"
 msgstr "Франкфурт-на-Майне"
 
@@ -6703,7 +6704,7 @@ msgstr "Франкфурт-на-Майне"
 msgid "Friedrichshafen"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Fritzlar"
 msgstr ""
 
@@ -6752,7 +6753,7 @@ msgstr ""
 msgid "Karlsruhe"
 msgstr "Карлсруэ"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Kassel"
 msgstr ""
 
@@ -6898,7 +6899,7 @@ msgstr ""
 msgid "Westerland"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Wiesbaden"
 msgstr "Висбаден"
 
@@ -11405,15 +11406,15 @@ msgstr "Ивано-Франковск"
 msgid "Kharkiv"
 msgstr "Харьков"
 
-#. The capital of Ukraine.
-#. "Kiev" is the traditional English name.
-#. The local name in Ukrainian is "Kyyiv".
-msgid "Kiev"
-msgstr "Киев"
-
 #. A city in Ukraine
 msgid "Kryvyy Rih"
 msgstr "Кривой Рог"
+
+#. The capital of Ukraine.
+#. "Kyiv" is the traditional English name.
+#. The local name in Ukrainian is "Kyyiv".
+msgid "Kyiv"
+msgstr ""
 
 #. A city in Ukraine
 msgid "L'viv"

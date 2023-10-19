@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-11 14:47+0100\n"
+"POT-Creation-Date: 2023-10-18 22:20+0200\n"
 "PO-Revision-Date: 2021-12-11 13:55+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/mate/teams/13566/en_GB/)\n"
@@ -1430,6 +1430,7 @@ msgstr "Wake Island"
 #. Tocantins. See the comment on "Brasília Time" for more
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
+#. A state/province/territory in Brazil
 msgid "Tocantins"
 msgstr "Tocantins"
 
@@ -2002,10 +2003,6 @@ msgctxt "State in Brazil"
 msgid "São Paulo"
 msgstr "São Paulo"
 
-#. A state/province/territory in Brazil
-msgid "Tocantis"
-msgstr "Tocantis"
-
 #. A state/province/territory in Canada
 msgid "Alberta"
 msgstr "Alberta"
@@ -2141,104 +2138,104 @@ msgstr "Shandong"
 #. A state/province/territory in China
 msgctxt "State in China"
 msgid "Shanghai"
-msgstr ""
+msgstr "Shanghai"
 
 #. A state/province/territory in China
 msgid "Shanxi"
-msgstr ""
+msgstr "Shanxi"
 
 #. A state/province/territory in China
 msgid "Sichuan"
-msgstr ""
+msgstr "Sichuan"
 
 #. A state/province/territory in China
 msgctxt "State in China"
 msgid "Tianjin"
-msgstr ""
+msgstr "Tianjin"
 
 #. A state/province/territory in China
 msgid "Xinjiang"
-msgstr ""
+msgstr "Xinjiang"
 
 #. A state/province/territory in China
 msgid "Yunnan"
-msgstr ""
+msgstr "Yunnan"
 
 #. A state/province/territory in China
 msgid "Zhejiang"
-msgstr ""
+msgstr "Zhejiang"
 
 msgid "Tbilisi"
-msgstr ""
+msgstr "Tbilisi"
 
 #. A state/province/territory in Germany
 msgid "Baden-Württemberg"
-msgstr ""
+msgstr "Baden-Württemberg"
 
 #. A state in Germany.  The local name is "Bayern". Please
 #. use that unless you know that it has a different name in
 #. your language.
 msgid "Bavaria"
-msgstr ""
+msgstr "Bavaria"
 
 #. A state/province/territory in Germany
 msgctxt "State in Germany"
 msgid "Berlin"
-msgstr ""
+msgstr "Berlin"
 
 #. A state/province/territory in Germany
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburg"
 
 #. A state/province/territory in Germany
 msgctxt "State in Germany"
 msgid "Bremen"
-msgstr ""
+msgstr "Bremen"
 
 #. A state/province/territory in Germany
 msgctxt "State in Germany"
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamburg"
 
 #. A state in Germany.  The local name is "Hessen". Please
 #. use that unless you know that it has a different name in
 #. your language.
-msgid "Hesse"
+msgid "Hessen"
 msgstr ""
 
 #. A state in Germany.  The local name is "Niedersachsen".
 #. Please use that unless you know that it has a different
 #. name in your language.
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Lower Saxony"
 
 #. A state in Germany.  The local name is
 #. "Mecklenburg-Vorpommern". Please use that unless you know
 #. that it has a different name in your language.
 msgid "Mecklenburg-Western Pomerania"
-msgstr ""
+msgstr "Mecklenburg-Western Pomerania"
 
 #. A state in Germany.  The local name is
 #. "Nordrhein-Westfalen". Please use that unless you know
 #. that it has a different name in your language.
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "North Rhine-Westphalia"
 
 #. A state in Germany.  The local name is "Rheinland-Pfalz".
 #. Please use that unless you know that it has a different
 #. name in your language.
 msgid "Rhineland-Palatinate"
-msgstr ""
+msgstr "Rhineland-Palatinate"
 
 #. A state/province/territory in Germany
 msgid "Saarland"
-msgstr ""
+msgstr "Saarland"
 
 #. A state in Germany.  The local name is "Sachsen". Please
 #. use that unless you know that it has a different name in
 #. your language.
 msgid "Saxony"
-msgstr ""
+msgstr "Saxony"
 
 #. A state in Germany.  The local name is "Sachsen-Anhalt".
 #. Please use that unless you know that it has a different
@@ -2895,6 +2892,10 @@ msgid "San Fernando"
 msgstr ""
 
 #. A city in Argentina
+msgid "San Miguel de Tucuman"
+msgstr ""
+
+#. A city in Argentina
 msgid "San Salvador de Jujuy"
 msgstr ""
 
@@ -3131,7 +3132,7 @@ msgid "Dhaka"
 msgstr ""
 
 #. A city in Bangladesh
-msgid "Solpur"
+msgid "Solapur"
 msgstr ""
 
 #. The capital of Barbados
@@ -5567,7 +5568,7 @@ msgstr ""
 #. The name is also written "上海".
 msgctxt "City in Shanghai, China"
 msgid "Shanghai"
-msgstr ""
+msgstr "Shanghai"
 
 #. A city in Guangdong in China
 msgid "Shantou"
@@ -5591,7 +5592,7 @@ msgstr ""
 #. The name is also written "天津".
 msgctxt "City in Tianjin, China"
 msgid "Tianjin"
-msgstr ""
+msgstr "Tianjin"
 
 #. A city in Xinjiang in China.
 #. The name is also written "乌鲁木齐".
@@ -6633,7 +6634,7 @@ msgstr ""
 #. The capital of Germany
 msgctxt "City in Berlin, Germany"
 msgid "Berlin"
-msgstr ""
+msgstr "Berlin"
 
 #. A city in Thuringia in Germany
 msgid "Bindersleben"
@@ -6654,7 +6655,7 @@ msgstr ""
 #. A city in Bremen in Germany
 msgctxt "City in Bremen, Germany"
 msgid "Bremen"
-msgstr ""
+msgstr "Bremen"
 
 #. A city in Rhineland-Palatinate in Germany
 msgid "Büchel"
@@ -6688,7 +6689,7 @@ msgstr ""
 msgid "Faßberg"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Frankfurt"
 msgstr ""
 
@@ -6696,7 +6697,7 @@ msgstr ""
 msgid "Friedrichshafen"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Fritzlar"
 msgstr ""
 
@@ -6711,7 +6712,7 @@ msgstr ""
 #. A city in Hamburg in Germany
 msgctxt "City in Hamburg, Germany"
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamburg"
 
 #. A city in Lower Saxony in Germany
 msgid "Hannover"
@@ -6745,7 +6746,7 @@ msgstr ""
 msgid "Karlsruhe"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Kassel"
 msgstr ""
 
@@ -6891,7 +6892,7 @@ msgstr ""
 msgid "Westerland"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Wiesbaden"
 msgstr ""
 
@@ -11398,14 +11399,14 @@ msgstr ""
 msgid "Kharkiv"
 msgstr ""
 
-#. The capital of Ukraine.
-#. "Kiev" is the traditional English name.
-#. The local name in Ukrainian is "Kyyiv".
-msgid "Kiev"
-msgstr ""
-
 #. A city in Ukraine
 msgid "Kryvyy Rih"
+msgstr ""
+
+#. The capital of Ukraine.
+#. "Kyiv" is the traditional English name.
+#. The local name in Ukrainian is "Kyyiv".
+msgid "Kyiv"
 msgstr ""
 
 #. A city in Ukraine
@@ -12430,7 +12431,7 @@ msgstr ""
 #. A city in New Hampshire in the United States
 msgctxt "City in New Hampshire, United States"
 msgid "Berlin"
-msgstr ""
+msgstr "Berlin"
 
 #. A city in Alaska in the United States
 msgid "Bethel"
