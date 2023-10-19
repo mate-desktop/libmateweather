@@ -8,17 +8,18 @@
 # Дмитрий Михирев, 2021
 # DrSheppard <georg.b2012@gmail.com>, 2022
 # HectorB_2020, 2022
-# Ser82, 2022
+# Sergej A. <Ser82-png@yandex.ru>, 2023
+# Andrei Stepanov, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-29 15:26+0200\n"
+"POT-Creation-Date: 2023-09-01 19:57+0200\n"
 "PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Ser82, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
+"Last-Translator: Andrei Stepanov, 2023\n"
+"Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1397,12 +1398,12 @@ msgstr "Яп / Чуук"
 #. there a better name for this? "Mainland" seems odd in
 #. reference to an island nation...
 msgid "Mainland New Zealand"
-msgstr ""
+msgstr "Материковая часть Новой Зеландии"
 
 #. This refers to the time zone in the Chatham Islands of
 #. New Zealand.
 msgid "Chatham Islands"
-msgstr ""
+msgstr "Острова Чатем"
 
 #. The time zone for the Johnston Atoll in the United
 #. States Minor Outlying Islands, which keeps the same time
@@ -1410,7 +1411,7 @@ msgstr ""
 #. places where "US Minor Outlying Islands" is already
 #. clear from context.
 msgid "Johnston Atoll (Hawaii Time)"
-msgstr ""
+msgstr "Атолл Джонстон (Гавайское время)"
 
 #. The time zone for the Midway Atoll in the United States
 #. Minor Outlying Islands, which uses the same time as
@@ -1419,7 +1420,7 @@ msgstr ""
 #. places where "US Minor Outlying Islands" is already
 #. clear from context.
 msgid "Midway Atoll (Samoa Time)"
-msgstr ""
+msgstr "Атолл Мидуэй (стандартное время Самоа)"
 
 #. The time zone for Wake Island in the United States Minor
 #. Outlying Islands. The string is only used in places
@@ -1433,7 +1434,7 @@ msgstr "Остров Уэйк"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 msgid "Tocantins"
-msgstr ""
+msgstr "Токантинс"
 
 #. This represents the time zone in the Brazilian state of
 #. Bahia. See the comment on "Brasília Time" for more
@@ -1441,7 +1442,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Bahia"
-msgstr ""
+msgstr "Баия"
 
 #. This represents the time zone in the Brazilian state of
 #. Amapá and the eastern part of Pará. See the comment on
@@ -1449,7 +1450,7 @@ msgstr ""
 #. used in places where "Brazil" is already clear from
 #. context.
 msgid "Amapá / East Pará"
-msgstr ""
+msgstr "Амапа / восточный Пара"
 
 #. This represents the time zone in the Brazilian state of
 #. Roraima. See the comment on "Brasília Time" for more
@@ -1457,7 +1458,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Roraima"
-msgstr ""
+msgstr "Рорайма"
 
 #. This represents the time zone in the Brazilian state of
 #. Mato Grosso do Sul. See the comment on "Brasília Time"
@@ -1465,7 +1466,7 @@ msgstr ""
 #. where "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "Мату-Гросу-ду-Сул"
 
 #. This represents the time zone in the Brazilian state of
 #. Mato Grosso. See the comment on "Brasília Time" for more
@@ -1473,7 +1474,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Mato Grosso"
-msgstr ""
+msgstr "Мату-Гросу"
 
 #. This represents the time zone in the western part of the
 #. Brazilian state of Amazonas. See the comment on
@@ -1489,14 +1490,14 @@ msgstr "Западный Амазонас"
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 msgid "Ceará, Maranhão, Paraíba, Piauí, Rio Grande do Norte"
-msgstr ""
+msgstr "Сеара, Мараньян, Параиба, Пиауи, Риу-Гранди-ду-Норти"
 
 #. This represents the time zone in the Brazilian states of
 #. Alagoas and Sergipe. See the comment on "Brasília Time"
 #. for more details. This string is only used in places
 #. where "Brazil" is already clear from context.
 msgid "Alagoas, Sergipe"
-msgstr ""
+msgstr "Алагоас, Сержипи"
 
 #. This represents the time zone in the eastern part of the
 #. Brazilian state of Amazonas. See the comment on
@@ -1511,7 +1512,7 @@ msgstr "Восточный Амазонас"
 #. for more details. This string is only used in places
 #. where "Brazil" is already clear from context.
 msgid "Fernando de Noronha"
-msgstr ""
+msgstr "Фернанду-ди-Норонья"
 
 #. This represents the time zone in the Brazilian state of
 #. Rondônia and the western part of Pará. See the comment
@@ -1519,7 +1520,7 @@ msgstr ""
 #. used in places where "Brazil" is already clear from
 #. context.
 msgid "West Pará, Rondônia"
-msgstr ""
+msgstr "Вест Пара, Рондония"
 
 #. This represents the time zone in the Brazilian state of
 #. Pernambuco. See the comment on "Brasília Time" for more
@@ -1527,7 +1528,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Pernambuco"
-msgstr ""
+msgstr "Пернамбуку"
 
 #. This represents the time zone in the Brazilian state of
 #. Acre. See the comment on "Brasília Time" for more
@@ -1535,7 +1536,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Acre"
-msgstr ""
+msgstr "Акри"
 
 #. This represents the official "base" time zone in Brazil,
 #. covering the capital city of Brasília, and those states
@@ -1555,12 +1556,12 @@ msgstr ""
 #. Paulo). This string is only used in places where
 #. "Brazil" is already clear from context.
 msgid "Brasília Time"
-msgstr ""
+msgstr "Стандартное время Бразилии"
 
 #. This refers to the time zone for mainland Chile (as
 #. opposed to the time zone for Easter Island).
 msgid "Mainland Chile"
-msgstr ""
+msgstr "Материковая часть Чили"
 
 #. This refers to the time zone for Easter Island. The
 #. string is only used in places where "Chile" is already
@@ -1571,7 +1572,7 @@ msgstr "Остров Пасхи"
 #. This refers to the time zone for mainland Ecuador (as
 #. opposed to the time zone for the Galapagos Islands).
 msgid "Mainland Ecuador"
-msgstr ""
+msgstr "Материковый Эквадор"
 
 #. The time zone for the Galapagos Islands.
 msgid "Galapagos Islands"
@@ -1705,7 +1706,7 @@ msgstr "Материковая Испания"
 #. Melilla, on the coast of Africa. The string is only used
 #. in places where "Spain" is already clear from context.
 msgid "Ceuta and Melilla"
-msgstr ""
+msgstr "Сеута и Мелилья"
 
 #. The time zone used on most of the west coast of North
 #. America. In Mexico it is called "Tiempo del Pacífico"
@@ -1731,6 +1732,8 @@ msgstr "Североамериканское горное время"
 #. observe Daylight Saving Time with the rest of the zone.
 msgid "Mountain Time, no DST (Northeast BC)"
 msgstr ""
+"Горное время, без перехода на летнее время (Северо-восточный регион "
+"Британская Колумбия)"
 
 #. The time zone used in the central-east part of North
 #. America. In Mexico it is called "Tiempo del Centro", and
@@ -1746,7 +1749,7 @@ msgstr "Центральноамериканское время"
 #. zone, but does not observe Daylight Saving Time with the
 #. rest of the zone.
 msgid "Central Time, no DST (Saskatchewan)"
-msgstr ""
+msgstr "Центральное время, без перехода на летнее время (Саскачеван)"
 
 #. The time zone used on the east coast of the United
 #. States, and the corresponding (non-coastal) part of
@@ -1763,19 +1766,20 @@ msgstr "Североамериканское восточное время"
 #. of the zone.
 msgid "Eastern Time, no DST (Southampton Island, etc)"
 msgstr ""
+"Восточное время, без перехода на летнее время (остров Саутгемптон и т. д.)"
 
 #. This represents the time zone in the far eastern portion
 #. of the Canadian province of Quebec, which is part of the
 #. "Atlantic Time" zone, but does not observe Daylight
 #. Saving Time with the rest of the zone.
 msgid "Atlantic Time, no DST (Eastern Quebec)"
-msgstr ""
+msgstr "Атлантическое время, без перехода на летнее время (Восточный Квебек)"
 
 #. The time zone used in the Canadian province of
 #. Newfoundland. In French-speaking parts of Canada it is
 #. called "Heure de Terre-Neuve".
 msgid "Newfoundland Time"
-msgstr ""
+msgstr "Время Ньюфаундленда"
 
 #. "Hawaiian-Aleutian Time" is the official name of the
 #. time zone used in Hawaii and the Aleutian Islands of
@@ -1793,7 +1797,7 @@ msgstr "Гавайско-алеутское время"
 #. Daylight Saving Time. It is only used in places where
 #. "United States" is already clear from context.
 msgid "Hawaiian-Aleutian Time, no DST (Hawaii)"
-msgstr ""
+msgstr "Гавайско-алеутское время, без перехода на летнее время (Гавайи)"
 
 #. The time zone used in the majority of Alaska in the
 #. United States. The string is only used in places where
@@ -1807,7 +1811,7 @@ msgstr "Стандартное время Аляски"
 #. the zone. The string is only used in places where
 #. "United States" is already clear from context.
 msgid "Mountain Time, no DST (Arizona)"
-msgstr ""
+msgstr "Горное врмя, без перехода на летнее время (Аризона)"
 
 #. A state/province/territory in Australia
 msgid "Australian Capital Territory"
@@ -1853,7 +1857,7 @@ msgstr "Анверпен"
 #. et wallon. local name (de): Brüssel, Flämish- und
 #. Wallonisch-Brabant.
 msgid "Brussels, Flemish and Walloon Brabant"
-msgstr ""
+msgstr "Брюссель, Фламандский регион и провинция Валлонский Брабант"
 
 #. A state/province/territory in Belgium
 msgid "East-Flanders"
@@ -1894,37 +1898,37 @@ msgstr "Западная Фландрия"
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Acre"
-msgstr ""
+msgstr "Акри"
 
 #. A state/province/territory in Brazil
 msgid "Alagoas"
-msgstr ""
+msgstr "Алагоас"
 
 #. A state/province/territory in Brazil
 msgid "Amapá"
-msgstr ""
+msgstr "Амапа"
 
 #. A state/province/territory in Brazil
 msgid "Amazonas"
-msgstr ""
+msgstr "Амазонас"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Bahia"
-msgstr ""
+msgstr "Баия"
 
 #. A state/province/territory in Brazil
 msgid "Ceará"
-msgstr ""
+msgstr "Сеара"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Distrito Federal"
-msgstr ""
+msgstr "Федеральный округ"
 
 #. A state/province/territory in Brazil
 msgid "Espírito Santo"
-msgstr ""
+msgstr "Эспириту-Санту"
 
 #. A state/province/territory in Brazil
 msgid "Goiás"
@@ -1932,50 +1936,50 @@ msgstr "Гояс"
 
 #. A state/province/territory in Brazil
 msgid "Maranhão"
-msgstr ""
+msgstr "Мараньян"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Mato Grosso"
-msgstr ""
+msgstr "Мату-Гросу"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "Мату-Гросу-ду-Сул"
 
 #. A state/province/territory in Brazil
 msgid "Minas Gerais"
-msgstr ""
+msgstr "Минас-Жерайс"
 
 #. A state/province/territory in Brazil
 msgid "Paraná"
-msgstr ""
+msgstr "Парана"
 
 #. A state/province/territory in Brazil
 msgid "Paraíba"
-msgstr ""
+msgstr "Параиба"
 
 #. A state/province/territory in Brazil
 msgid "Pará"
-msgstr ""
+msgstr "Пара"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Pernambuco"
-msgstr ""
+msgstr "Пернамбуку"
 
 #. A state/province/territory in Brazil
 msgid "Piauí"
-msgstr ""
+msgstr "Пиауи"
 
 #. A state/province/territory in Brazil
 msgid "Rio Grande do Norte"
-msgstr ""
+msgstr "Риу-Гранди-ду-Норти"
 
 #. A state/province/territory in Brazil
 msgid "Rio Grande do Sul"
-msgstr ""
+msgstr "Риу-Гранди-ду-Сул"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
@@ -1984,20 +1988,20 @@ msgstr "Рио-де-Жанейро"
 
 #. A state/province/territory in Brazil
 msgid "Rondônia"
-msgstr ""
+msgstr "Рондония"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Roraima"
-msgstr ""
+msgstr "Рорайма"
 
 #. A state/province/territory in Brazil
 msgid "Santa Catarina"
-msgstr ""
+msgstr "Санта-Катарина"
 
 #. A state/province/territory in Brazil
 msgid "Sergipe"
-msgstr ""
+msgstr "Сержипи"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
@@ -2006,7 +2010,7 @@ msgstr "Сан-Паулу"
 
 #. A state/province/territory in Brazil
 msgid "Tocantis"
-msgstr ""
+msgstr "Токантинс"
 
 #. A state/province/territory in Canada
 msgid "Alberta"
@@ -2030,7 +2034,7 @@ msgstr "Ньюфаундленд и Лабрадор"
 
 #. A state/province/territory in Canada
 msgid "Northwest Territories"
-msgstr ""
+msgstr "Северо-Западные территории"
 
 #. A state/province/territory in Canada
 msgid "Nova Scotia"
@@ -2064,7 +2068,7 @@ msgstr "Юкон"
 
 #. A state/province/territory in China
 msgid "Anhui"
-msgstr ""
+msgstr "Аньхой"
 
 #. A state/province/territory in China
 msgctxt "State in China"
@@ -2074,15 +2078,15 @@ msgstr "Пекин"
 #. A state/province/territory in China
 msgctxt "State in China"
 msgid "Chongqing"
-msgstr ""
+msgstr "Чунцин"
 
 #. A state/province/territory in China
 msgid "Fujian"
-msgstr ""
+msgstr "Фуцзянь"
 
 #. A state/province/territory in China
 msgid "Gansu"
-msgstr ""
+msgstr "Ганьсу"
 
 #. A state/province/territory in China
 msgid "Guangdong"
@@ -2090,31 +2094,31 @@ msgstr "Гуандун"
 
 #. A state/province/territory in China
 msgid "Guangxi"
-msgstr ""
+msgstr "Гуанси"
 
 #. A state/province/territory in China
 msgid "Guizhou"
-msgstr ""
+msgstr "Гуйчжоу"
 
 #. A state/province/territory in China
 msgid "Hainan"
-msgstr ""
+msgstr "Хайнань"
 
 #. A state/province/territory in China
 msgid "Heilongjiang"
-msgstr ""
+msgstr "Хэйлунцзян"
 
 #. A state/province/territory in China
 msgid "Henan"
-msgstr ""
+msgstr "Хэнань"
 
 #. A state/province/territory in China
 msgid "Hubei"
-msgstr ""
+msgstr "Хубэй"
 
 #. A state/province/territory in China
 msgid "Hunan"
-msgstr ""
+msgstr "Хунань"
 
 #. A state/province/territory in China
 msgid "Inner Mongolia"
@@ -2122,23 +2126,23 @@ msgstr "Внутренняя Монголия"
 
 #. A state/province/territory in China
 msgid "Jiangsu"
-msgstr ""
+msgstr "Цзянсу"
 
 #. A state/province/territory in China
 msgid "Jilin"
-msgstr ""
+msgstr "Цзилинь"
 
 #. A state/province/territory in China
 msgid "Liaoning"
-msgstr ""
+msgstr "Ляонин"
 
 #. A state/province/territory in China
 msgid "Shaanxi"
-msgstr ""
+msgstr "Шэньси"
 
 #. A state/province/territory in China
 msgid "Shandong"
-msgstr ""
+msgstr "Шаньдун"
 
 #. A state/province/territory in China
 msgctxt "State in China"
@@ -2147,28 +2151,28 @@ msgstr "Шанхай"
 
 #. A state/province/territory in China
 msgid "Shanxi"
-msgstr ""
+msgstr "Шаньси"
 
 #. A state/province/territory in China
 msgid "Sichuan"
-msgstr ""
+msgstr "Сычуань"
 
 #. A state/province/territory in China
 msgctxt "State in China"
 msgid "Tianjin"
-msgstr ""
+msgstr "Тяньцзинь"
 
 #. A state/province/territory in China
 msgid "Xinjiang"
-msgstr ""
+msgstr "Синьцзян"
 
 #. A state/province/territory in China
 msgid "Yunnan"
-msgstr ""
+msgstr "Юньнань"
 
 #. A state/province/territory in China
 msgid "Zhejiang"
-msgstr ""
+msgstr "Чжэцзян"
 
 msgid "Tbilisi"
 msgstr "Тбилиси"
@@ -2261,24 +2265,24 @@ msgstr "Тюрингия"
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Aguascalientes"
-msgstr ""
+msgstr "Агуаскальентес"
 
 #. A state/province/territory in Mexico
 msgid "Baja California"
-msgstr ""
+msgstr "Нижняя Калифорния"
 
 #. A state/province/territory in Mexico
 msgid "Baja California Sur"
-msgstr ""
+msgstr "Южная Нижняя Калифорния"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Campeche"
-msgstr ""
+msgstr "Кампече"
 
 #. A state/province/territory in Mexico
 msgid "Chiapas"
-msgstr ""
+msgstr "Чьяпас"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
@@ -2287,17 +2291,17 @@ msgstr "Чиуауа"
 
 #. A state/province/territory in Mexico
 msgid "Coahuila"
-msgstr ""
+msgstr "Коауила"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Colima"
-msgstr ""
+msgstr "Колима"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Distrito Federal"
-msgstr ""
+msgstr "Федеральный округ"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
@@ -2322,11 +2326,11 @@ msgstr "Халиско"
 
 #. A state/province/territory in Mexico
 msgid "Michoacán"
-msgstr ""
+msgstr "Мичоакан"
 
 #. A state/province/territory in Mexico
 msgid "Morelos"
-msgstr ""
+msgstr "Морелос"
 
 #. A state/province/territory in Mexico
 msgid "México"
@@ -2334,44 +2338,44 @@ msgstr "Мехико"
 
 #. A state/province/territory in Mexico
 msgid "Nayarit"
-msgstr ""
+msgstr "Наярит"
 
 #. A state/province/territory in Mexico
 msgid "Nuevo León"
-msgstr ""
+msgstr "Нуэво-Леон"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Oaxaca"
-msgstr ""
+msgstr "Оахака"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Puebla"
-msgstr ""
+msgstr "Пуэбла"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Querétaro"
-msgstr ""
+msgstr "Керетаро"
 
 #. A state/province/territory in Mexico
 msgid "Quintana Roo"
-msgstr ""
+msgstr "Кинтана-Роо"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "San Luis Potosí"
-msgstr ""
+msgstr "Сан-Луис-Потоси"
 
 #. A state/province/territory in Mexico
 msgid "Sinaloa"
-msgstr ""
+msgstr "Синалоа"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Sonora"
-msgstr ""
+msgstr "Сонора"
 
 #. A state/province/territory in Mexico
 msgid "Tabasco"
@@ -2379,11 +2383,11 @@ msgstr "Табаско"
 
 #. A state/province/territory in Mexico
 msgid "Tamaulipas"
-msgstr ""
+msgstr "Тамаулипас"
 
 #. A state/province/territory in Mexico
 msgid "Tlaxcala"
-msgstr ""
+msgstr "Тласкала"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
@@ -2397,7 +2401,7 @@ msgstr "Юкатан"
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Zacatecas"
-msgstr ""
+msgstr "Сакатекас"
 
 #. A state/province/territory in United Kingdom
 msgid "East and South East England"
@@ -2642,7 +2646,7 @@ msgstr "Вайоминг"
 
 #. A city in Afghanistan
 msgid "Herat"
-msgstr ""
+msgstr "Герат"
 
 #. The capital of Afghanistan.
 #. "Kabul" is the traditional English name.
@@ -2658,7 +2662,7 @@ msgstr "Тирана"
 
 #. A city in Algeria
 msgid "Adrar"
-msgstr ""
+msgstr "Адрар"
 
 #. The capital of Algeria.
 #. "Algiers" is the traditional English name.
@@ -2684,7 +2688,7 @@ msgstr "Беджая"
 
 #. A city in Algeria
 msgid "Berriane"
-msgstr ""
+msgstr "Берриан"
 
 #. A city in Algeria
 msgid "Biskra"
@@ -2696,35 +2700,35 @@ msgstr "Бу-Саада"
 
 #. A city in Algeria
 msgid "Chlef"
-msgstr ""
+msgstr "Шлеф"
 
 #. A city in Algeria
 msgid "Constantine"
-msgstr ""
+msgstr "Константина"
 
 #. A city in Algeria
 msgid "Dar el Beida"
-msgstr ""
+msgstr "Дар-эль-Бейда"
 
 #. A city in Algeria
 msgid "Djanet"
-msgstr ""
+msgstr "Джанет"
 
 #. A city in Algeria
 msgid "El Golea"
-msgstr ""
+msgstr "Эль-Голеа"
 
 #. A city in Algeria
 msgid "Ghardaia"
-msgstr ""
+msgstr "Гардая"
 
 #. A city in Algeria
 msgid "Hassi Messaoud"
-msgstr ""
+msgstr "Хасси-Мессауд"
 
 #. A city in Algeria
 msgid "I-n-Amenas"
-msgstr ""
+msgstr "Ин-Аменас"
 
 #. A city in Algeria
 msgid "I-n-Salah"
@@ -2732,71 +2736,71 @@ msgstr "Ин-Салах"
 
 #. A city in Algeria
 msgid "Illizi"
-msgstr ""
+msgstr "Иллизи"
 
 #. A city in Algeria
 msgid "Jijel"
-msgstr ""
+msgstr "Джиджель"
 
 #. A city in Algeria
 msgid "Laghouat"
-msgstr ""
+msgstr "Лагуат"
 
 #. A city in Algeria
 msgid "Mascara"
-msgstr ""
+msgstr "Маскара"
 
 #. A city in Algeria
 msgid "Oran"
-msgstr ""
+msgstr "Оран"
 
 #. A city in Algeria
 msgid "Ouargla"
-msgstr ""
+msgstr "Уаргла"
 
 #. A city in Algeria
 msgid "Setif"
-msgstr ""
+msgstr "Сетиф"
 
 #. A city in Algeria
 msgid "Sidi Amrane"
-msgstr ""
+msgstr "Сиди Амран"
 
 #. A city in Algeria
 msgid "Sidi Bel Abbes"
-msgstr ""
+msgstr "Сиди-Бель-Аббес"
 
 #. A city in Algeria
 msgid "Tamanrasset"
-msgstr ""
+msgstr "Таманрассет"
 
 #. A city in Algeria
 msgid "Tebessa"
-msgstr ""
+msgstr "Тебесса"
 
 #. A city in Algeria
 msgid "Tiaret"
-msgstr ""
+msgstr "Тиарет"
 
 #. A city in Algeria
 msgid "Timimoun"
-msgstr ""
+msgstr "Тимимун"
 
 #. A city in Algeria
 msgid "Tindouf"
-msgstr ""
+msgstr "Тиндуф"
 
 #. A city in Algeria
 msgid "Tlemcen"
-msgstr ""
+msgstr "Тлемсен"
 
 #. A city in Algeria
 msgid "Touggourt"
-msgstr ""
+msgstr "Туггурт"
 
 #. A city in American Samoa
 msgid "Pago Pago"
-msgstr ""
+msgstr "Паго-Паго"
 
 #. The capital of Anguilla
 msgid "The Valley"
@@ -2807,7 +2811,7 @@ msgstr "Станция \"Амундсен-Скотт\""
 
 #. A city in Antigua and Barbuda
 msgid "Fitches Creek"
-msgstr ""
+msgstr "Фитчес Крик"
 
 #. The capital of Antigua and Barbuda
 msgctxt "City in Antigua and Barbuda"
@@ -2820,11 +2824,11 @@ msgstr "Буэнос-Айрес"
 
 #. A city in Argentina
 msgid "Comodoro Rivadavia"
-msgstr ""
+msgstr "Комодоро-Ривадавия"
 
 #. A city in Argentina
 msgid "Corrientes"
-msgstr ""
+msgstr "Корриентес"
 
 #. A city in Argentina
 msgctxt "City in Argentina"
@@ -2833,51 +2837,51 @@ msgstr "Кордова"
 
 #. A city in Argentina
 msgid "El Palomar"
-msgstr ""
+msgstr "Эль-Паломар"
 
 #. A city in Argentina
 msgid "Ezeiza"
-msgstr ""
+msgstr "Эсейса"
 
 #. A city in Argentina
 msgid "Formosa"
-msgstr ""
+msgstr "Формоса"
 
 #. A city in Argentina
 msgid "Mar del Plata"
-msgstr ""
+msgstr "Мар-дель-Плата"
 
 #. A city in Argentina
 msgid "Mendoza"
-msgstr ""
+msgstr "Мендоса"
 
 #. A city in Argentina
 msgid "Neuquén"
-msgstr ""
+msgstr "Неукен"
 
 #. A city in Argentina
 msgid "Posadas"
-msgstr ""
+msgstr "Посадас"
 
 #. A city in Argentina
 msgid "Puerto Iguazú"
-msgstr ""
+msgstr "Пуэрто-Игуасу"
 
 #. A city in Argentina
 msgid "Reconquista"
-msgstr ""
+msgstr "Реконкиста"
 
 #. A city in Argentina
 msgid "Resistencia"
-msgstr ""
+msgstr "Ресистенсия"
 
 #. A city in Argentina
 msgid "Rosario"
-msgstr ""
+msgstr "Росарио"
 
 #. A city in Argentina
 msgid "Río Gallegos"
-msgstr ""
+msgstr "Рио-Гальегос"
 
 #. A city in Argentina
 msgid "Río Grande"
@@ -2885,28 +2889,28 @@ msgstr "Рио-Гранде"
 
 #. A city in Argentina
 msgid "Salta"
-msgstr ""
+msgstr "Сальта"
 
 #. A city in Argentina
 msgid "San Carlos de Bariloche"
-msgstr ""
+msgstr "Сан-Карлос-де-Барилоче"
 
 #. A city in Argentina
 msgctxt "City in Argentina"
 msgid "San Fernando"
-msgstr ""
+msgstr "Сан-Фернандо"
 
 #. A city in Argentina
 msgid "San Miguel de Tucuman"
-msgstr ""
+msgstr "Сан-Мигель-де-Тукуман"
 
 #. A city in Argentina
 msgid "San Salvador de Jujuy"
-msgstr ""
+msgstr "Сан-Сальвадор-де-Жужуй"
 
 #. A city in Argentina
 msgid "Ushuaia"
-msgstr ""
+msgstr "Ушуая"
 
 #. The capital of Armenia
 msgid "Yerevan"
@@ -2914,7 +2918,7 @@ msgstr "Ереван"
 
 #. A city in Aruba
 msgid "Camacuri"
-msgstr ""
+msgstr "Камакури"
 
 #. The capital of Aruba
 msgid "Oranjestad"
@@ -2962,7 +2966,7 @@ msgstr "Даббо"
 
 #. A city in New South Wales in Australia
 msgid "Forest Hill"
-msgstr ""
+msgstr "Форест Хилл"
 
 #. A city in Tasmania in Australia
 msgctxt "City in Tasmania, Australia"
@@ -2983,7 +2987,7 @@ msgstr "Кунунарра"
 
 #. A city in Victoria in Australia
 msgid "Lara"
-msgstr ""
+msgstr "Лара"
 
 #. A city in Tasmania in Australia
 msgid "Launceston"
@@ -3017,7 +3021,7 @@ msgstr "Рокгемптон"
 
 #. A city in Western Australia in Australia
 msgid "Shellborough"
-msgstr ""
+msgstr "Шеллборо"
 
 #. A city in New South Wales in Australia
 msgctxt "City in New South Wales, Australia"
@@ -3039,7 +3043,7 @@ msgstr "Вумера"
 #. A city in Austria.
 #. One of several cities in Austria called "Aigen".
 msgid "Aigen im Ennstal"
-msgstr ""
+msgstr "Айген-им-Энсталь"
 
 #. A city in Austria
 msgid "Graz"
@@ -3104,7 +3108,7 @@ msgstr "Гянджа"
 #. A city in the Bahamas
 msgctxt "City in Bahamas"
 msgid "Freeport"
-msgstr ""
+msgstr "Фрипорт"
 
 #. A city in the Bahamas
 msgctxt "City in Bahamas"
@@ -3118,7 +3122,7 @@ msgstr "Нассау"
 #. A city in Bahrain.
 #. The name is also written "الحد".
 msgid "Al Hadd"
-msgstr ""
+msgstr "Эль-Хадд"
 
 #. The capital of Bahrain.
 #. "Manama" is the traditional English name.
@@ -3129,7 +3133,7 @@ msgstr "Манама"
 #. A city in Bangladesh.
 #. The local name in Bengali is "চট্টগ্রাম".
 msgid "Chittagong"
-msgstr ""
+msgstr "Читтагонг"
 
 #. The capital of Bangladesh.
 #. The local name in Bengali is "ঢাকা".
@@ -3138,7 +3142,7 @@ msgstr "Дакка"
 
 #. A city in Bangladesh
 msgid "Solpur"
-msgstr ""
+msgstr "Солпур"
 
 #. The capital of Barbados
 msgid "Bridgetown"
@@ -3146,7 +3150,7 @@ msgstr "Бриджтаун"
 
 #. A city in Barbados
 msgid "Paragon"
-msgstr ""
+msgstr "Парагон"
 
 #. A city in Belarus
 msgctxt "City in Belarus"
@@ -3179,7 +3183,7 @@ msgstr "Анверпен"
 #. A city in Brussels, Flemish and Walloon Brabant in
 #. Belgium
 msgid "Beauvechain"
-msgstr ""
+msgstr "Бовешен"
 
 #. A city in Liège in Belgium
 msgid "Bierset"
@@ -3227,11 +3231,11 @@ msgstr "Шаффен"
 
 #. A city in Belize
 msgid "Belize City"
-msgstr ""
+msgstr "Белиз (город)"
 
 #. A city in Benin
 msgid "Cotonou"
-msgstr ""
+msgstr "Котону"
 
 #. The capital of Benin
 msgid "Porto-Novo"
@@ -3245,24 +3249,24 @@ msgstr "Гамильтон"
 #. A city in Bermuda
 msgctxt "City in Bermuda"
 msgid "Saint George"
-msgstr ""
+msgstr "Сент-Джордж"
 
 #. A city in Bolivia
 msgid "Camiri"
-msgstr ""
+msgstr "Камири"
 
 #. A city in Bolivia
 msgid "Cobija"
-msgstr ""
+msgstr "Кобиха"
 
 #. A city in Bolivia
 msgid "Cochabamba"
-msgstr ""
+msgstr "Кочабамба"
 
 #. A city in Bolivia
 msgctxt "City in Bolivia"
 msgid "Concepción"
-msgstr ""
+msgstr "Консепсьон"
 
 #. The capital of Bolivia
 msgctxt "City in Bolivia"
@@ -3271,56 +3275,56 @@ msgstr "Ла-Пас"
 
 #. A city in Bolivia
 msgid "Magdalena"
-msgstr ""
+msgstr "Магдалена"
 
 #. A city in Bolivia
 msgid "Oruro"
-msgstr ""
+msgstr "Оруро"
 
 #. A city in Bolivia
 msgid "Potosí"
-msgstr ""
+msgstr "Потоси"
 
 #. A city in Bolivia
 msgid "Puerto Suárez"
-msgstr ""
+msgstr "Пуэрто-Суарес"
 
 #. A city in Bolivia
 msgid "Reyes"
-msgstr ""
+msgstr "Рейес"
 
 #. A city in Bolivia
 msgid "Riberalta"
-msgstr ""
+msgstr "Риберальта"
 
 #. A city in Bolivia
 msgid "Roboré"
-msgstr ""
+msgstr "Роборе"
 
 #. A city in Bolivia
 msgid "Rurrenabaque"
-msgstr ""
+msgstr "Рурренабаке"
 
 #. A city in Bolivia
 msgid "San Borja"
-msgstr ""
+msgstr "Сан-Боржа"
 
 #. A city in Bolivia
 msgid "San Ignacio de Velasco"
-msgstr ""
+msgstr "Сан-Игнасио-де-Веласко"
 
 #. A city in Bolivia
 msgid "San Joaquín"
-msgstr ""
+msgstr "Сан-Хоакин"
 
 #. A city in Bolivia.
 #. One of several cities in Bolivia called "San José".
 msgid "San José de Chiquitos"
-msgstr ""
+msgstr "Сан-Хосе-де-Чикитос"
 
 #. A city in Bolivia
 msgid "Santa Ana de Yacuma"
-msgstr ""
+msgstr "Санта-Ана-дель-Якума"
 
 #. A city in Bolivia
 msgid "Santa Cruz"
@@ -3332,24 +3336,24 @@ msgstr "Сукре"
 
 #. A city in Bolivia
 msgid "Tarija"
-msgstr ""
+msgstr "Тариха"
 
 #. A city in Bolivia
 msgctxt "City in Bolivia"
 msgid "Trinidad"
-msgstr ""
+msgstr "Тринидад"
 
 #. A city in Bolivia
 msgid "Villamontes"
-msgstr ""
+msgstr "Вилья-Монтес"
 
 #. A city in Bolivia
 msgid "Viro Viro"
-msgstr ""
+msgstr "Виро Виро"
 
 #. A city in Bolivia
 msgid "Yacuiba"
-msgstr ""
+msgstr "Якуиба"
 
 #. A city in Bosnia and Herzegovina
 msgid "Banja Luka"
@@ -3389,31 +3393,31 @@ msgstr ""
 
 #. A city in Botswana
 msgid "Maun"
-msgstr ""
+msgstr "Маун"
 
 #. A city in Botswana
 msgid "Mochudi"
-msgstr ""
+msgstr "Мочуди"
 
 #. A city in Botswana
 msgid "Selebi-Phikwe"
-msgstr ""
+msgstr "Селеби-Пхикве"
 
 #. A city in Botswana
 msgid "Tshabong"
-msgstr ""
+msgstr "Чабонг"
 
 #. A city in Mato Grosso in Brazil
 msgid "Alta Floresta"
-msgstr ""
+msgstr "Алта-Флореста"
 
 #. A city in Pará in Brazil
 msgid "Altamira"
-msgstr ""
+msgstr "Альтамира"
 
 #. A city in Goiás in Brazil
 msgid "Anápolis"
-msgstr ""
+msgstr "Анаполис"
 
 #. A city in Sergipe in Brazil
 msgid "Aracaju"
@@ -5438,7 +5442,7 @@ msgstr ""
 #. A city in Chile
 msgctxt "City in Chile"
 msgid "Concepción"
-msgstr ""
+msgstr "Консепсьон"
 
 #. A city in Chile
 msgid "Hanga Roa"
@@ -5497,7 +5501,7 @@ msgstr ""
 #. The name is also written "重庆".
 msgctxt "City in Chongqing, China"
 msgid "Chongqing"
-msgstr ""
+msgstr "Чунцин"
 
 #. A city in Liaoning in China
 msgid "Dalian"
@@ -5597,7 +5601,7 @@ msgstr ""
 #. The name is also written "天津".
 msgctxt "City in Tianjin, China"
 msgid "Tianjin"
-msgstr ""
+msgstr "Тяньцзинь"
 
 #. A city in Xinjiang in China.
 #. The name is also written "乌鲁木齐".
@@ -8749,12 +8753,12 @@ msgstr "Акапулько"
 #. A city in Aguascalientes in Mexico
 msgctxt "City in Aguascalientes, Mexico"
 msgid "Aguascalientes"
-msgstr ""
+msgstr "Агуаскальентес"
 
 #. A city in Campeche in Mexico
 msgctxt "City in Campeche, Mexico"
 msgid "Campeche"
-msgstr ""
+msgstr "Кампече"
 
 #. A city in Quintana Roo in Mexico
 msgid "Cancún"
@@ -8793,7 +8797,7 @@ msgstr ""
 #. A city in Colima in Mexico
 msgctxt "City in Colima, Mexico"
 msgid "Colima"
-msgstr ""
+msgstr "Колима"
 
 #. A city in Quintana Roo in Mexico
 msgid "Cozumel"
@@ -8909,7 +8913,7 @@ msgstr ""
 #. A city in Oaxaca in Mexico
 msgctxt "City in Oaxaca, Mexico"
 msgid "Oaxaca"
-msgstr ""
+msgstr "Оахака"
 
 #. A city in Coahuila in Mexico
 msgid "Piedras Negras"
@@ -8923,7 +8927,7 @@ msgstr ""
 #. A city in Puebla in Mexico
 msgctxt "City in Puebla, Mexico"
 msgid "Puebla"
-msgstr ""
+msgstr "Пуэбла"
 
 #. A city in Oaxaca in Mexico
 msgid "Puerto Escondido"
@@ -8936,7 +8940,7 @@ msgstr ""
 #. A city in Querétaro in Mexico
 msgctxt "City in Querétaro, Mexico"
 msgid "Querétaro"
-msgstr ""
+msgstr "Керетаро"
 
 #. A city in Tamaulipas in Mexico
 msgid "Reynosa"
@@ -8953,7 +8957,7 @@ msgstr ""
 #. A city in San Luis Potosí in Mexico
 msgctxt "City in San Luis Potosí, Mexico"
 msgid "San Luis Potosí"
-msgstr ""
+msgstr "Сан-Луис-Потоси"
 
 #. A city in Tamaulipas in Mexico
 msgid "Tampico"
@@ -8995,7 +8999,7 @@ msgstr ""
 #. A city in Zacatecas in Mexico
 msgctxt "City in Zacatecas, Mexico"
 msgid "Zacatecas"
-msgstr ""
+msgstr "Сакатекас"
 
 #. The capital of the Federated States of Micronesia
 msgid "Palikir"
@@ -9359,7 +9363,7 @@ msgstr ""
 
 #. A city in Norway
 msgid "Hasvik"
-msgstr ""
+msgstr "Хасвик"
 
 #. A city in Norway
 msgid "Haugesund"
@@ -11404,15 +11408,15 @@ msgstr "Ивано-Франковск"
 msgid "Kharkiv"
 msgstr "Харьков"
 
-#. The capital of Ukraine.
-#. "Kiev" is the traditional English name.
-#. The local name in Ukrainian is "Kyyiv".
-msgid "Kiev"
-msgstr "Киев"
-
 #. A city in Ukraine
 msgid "Kryvyy Rih"
 msgstr "Кривой Рог"
+
+#. The capital of Ukraine.
+#. "Kyiv" is the traditional English name.
+#. The local name in Ukrainian is "Kyyiv".
+msgid "Kyiv"
+msgstr ""
 
 #. A city in Ukraine
 msgid "L'viv"
@@ -14052,7 +14056,7 @@ msgstr ""
 #. A city in Illinois in the United States
 msgctxt "City in Illinois, United States"
 msgid "Freeport"
-msgstr ""
+msgstr "Фрипорт"
 
 #. A city in California in the United States
 msgctxt "City in California, United States"
@@ -14560,40 +14564,40 @@ msgstr ""
 #. A city in Kentucky in the United States
 msgctxt "City in Kentucky, United States"
 msgid "Henderson"
-msgstr ""
+msgstr "Хендерсон"
 
 #. A city in Nevada in the United States
 msgctxt "City in Nevada, United States"
 msgid "Henderson"
-msgstr ""
+msgstr "Хендерсон"
 
 #. A city in Oregon in the United States
 msgid "Hermiston"
-msgstr ""
+msgstr "Хермистон"
 
 #. A city in North Dakota in the United States
 msgid "Hettinger"
-msgstr ""
+msgstr "Хеттингер"
 
 #. A city in Florida in the United States
 msgid "Hialeah"
-msgstr ""
+msgstr "Хайалиа"
 
 #. A city in Minnesota in the United States
 msgid "Hibbing"
-msgstr ""
+msgstr "Хиббинг"
 
 #. A city in North Carolina in the United States
 msgid "Hickory"
-msgstr ""
+msgstr "Хикори"
 
 #. A city in Louisiana in the United States
 msgid "Hicks"
-msgstr ""
+msgstr "Хикс"
 
 #. A city in Kansas in the United States
 msgid "Hill City"
-msgstr ""
+msgstr "Хилл-Сити"
 
 #. A city in Texas in the United States
 msgid "Hillsboro"
@@ -14601,7 +14605,7 @@ msgstr "Хилсборо"
 
 #. A city in Michigan in the United States
 msgid "Hillsdale"
-msgstr ""
+msgstr "Хилсдейл"
 
 #. A city in Virginia in the United States
 msgid "Hillsville"
@@ -16797,7 +16801,7 @@ msgstr "Финикс"
 
 #. A city in South Dakota in the United States
 msgid "Pierre"
-msgstr ""
+msgstr "Пьер"
 
 #. A city in Arkansas in the United States
 msgid "Pine Bluff"
@@ -17301,7 +17305,7 @@ msgstr ""
 #. A city in Alaska in the United States
 msgctxt "City in Alaska, United States"
 msgid "Saint George"
-msgstr ""
+msgstr "Сент-Джордж"
 
 #. A city in Michigan in the United States
 msgctxt "City in Michigan, United States"
@@ -17701,7 +17705,7 @@ msgstr ""
 #. A city in Texas in the United States
 msgctxt "City in Texas, United States"
 msgid "Sonora"
-msgstr ""
+msgstr "Сонора"
 
 #. A city in Indiana in the United States
 msgid "South Bend"
@@ -18078,7 +18082,7 @@ msgstr ""
 #. A city in Colorado in the United States
 msgctxt "City in Colorado, United States"
 msgid "Trinidad"
-msgstr ""
+msgstr "Тринидад"
 
 #. A city in Alabama in the United States
 msgctxt "City in Alabama, United States"
@@ -18859,7 +18863,7 @@ msgstr ""
 #. A city in Venezuela
 msgctxt "City in Venezuela"
 msgid "San Fernando"
-msgstr ""
+msgstr "Сан-Фернандо"
 
 #. A city in Venezuela
 msgid "San Juan de los Morros"
@@ -18920,7 +18924,7 @@ msgstr "Мариб"
 
 #. A city in Yemen
 msgid "Mori"
-msgstr ""
+msgstr "Мори"
 
 #. A city in Yemen
 msgid "Sa'dah"

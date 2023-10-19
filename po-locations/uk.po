@@ -6,16 +6,17 @@
 # Translators:
 # Taras Panchenko <top39@ukr.net>, 2022
 # Yaroslav Belograd, 2022
+# Gordon Freeman, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-29 15:26+0200\n"
+"POT-Creation-Date: 2023-09-01 19:57+0200\n"
 "PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Yaroslav Belograd, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
+"Last-Translator: Gordon Freeman, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1254,7 +1255,7 @@ msgstr "Туну"
 #. The timezone at the Thule US Air Force Base on the west
 #. coast of Greenland.
 msgid "Thule AFB"
-msgstr ""
+msgstr "Туле (авіабаза)"
 
 #. The time zone used on the east coast of Canada, in
 #. Bermuda, and on many Caribbean islands. In
@@ -1268,7 +1269,7 @@ msgstr "Атлантичний час"
 #. only used in places where "Australia" is already clear
 #. from context.
 msgid "Western Time"
-msgstr ""
+msgstr "Західний час"
 
 #. The commonly-used name for an unofficial time zone used
 #. in part of southwestern Australia. The string is only
@@ -1334,32 +1335,32 @@ msgstr "Східний час (Квінсленд)"
 #. coast of Australia. This string is only used in places
 #. where "Australia" is already clear from context.
 msgid "Lord Howe Island"
-msgstr ""
+msgstr "Лорд-Гав (острів)"
 
 #. This refers to the time zone in the Society Islands of
 #. French Polynesia (including in particular the island of
 #. Tahiti). This string is only used in places where
 #. "French Polynesia" is already clear from context.
 msgid "Tahiti / Society Islands"
-msgstr ""
+msgstr "Таїті / архіпелаг Товариства"
 
 #. This refers to the time zone in the Marquesas Islands of
 #. French Polynesia. This string is only used in places
 #. where "French Polynesia" is already clear from context.
 msgid "Marquesas Islands"
-msgstr ""
+msgstr "Маркізькі острови"
 
 #. This refers to the time zone in the Gambier Islands of
 #. French Polynesia. This string is only used in places
 #. where "French Polynesia" is already clear from context.
 msgid "Gambier Islands"
-msgstr ""
+msgstr "Острови Гамб'є"
 
 #. The time zone in the Gilbert Islands, one of the three
 #. main island groups of Kiribati. This string is only used
 #. in places where "Kiribati" is already clear from context.
 msgid "Gilbert Islands"
-msgstr ""
+msgstr "Острови Гілберта"
 
 #. The time zone in the Phoenix Islands, one of the three
 #. main island groups of Kiribati. This string is only used
@@ -1478,7 +1479,7 @@ msgstr "Мату-Гросу"
 #. used in places where "Brazil" is already clear from
 #. context.
 msgid "West Amazonas"
-msgstr ""
+msgstr "Західна Амазонія"
 
 #. This represents the time zone in the Brazilian states of
 #. Ceará, Maranhão, Paraíba, Piauí, and Rio Grande do
@@ -1501,7 +1502,7 @@ msgstr "Алагоас, Сергіпе"
 #. used in places where "Brazil" is already clear from
 #. context.
 msgid "East Amazonas"
-msgstr ""
+msgstr "Східна Амазонія"
 
 #. This represents the time zone on the Brazilian island of
 #. Fernando de Noronha. See the comment on "Brasília Time"
@@ -1594,12 +1595,12 @@ msgstr "Азорські острови"
 #. of Madeira. The string is only used in places where
 #. "Portugal" is already understood from context.
 msgid "Madeira"
-msgstr ""
+msgstr "Мадейра"
 
 #. This refers to the time zone for mainland Portugal (as
 #. opposed to the time zone for the Azores).
 msgid "Mainland Portugal"
-msgstr ""
+msgstr "Материкова Португалія"
 
 #. A Russian time zone, used in the city and oblast of
 #. Kaliningrad on the Baltic sea. The Russian name is
@@ -1691,12 +1692,12 @@ msgstr "Камчатський час"
 #. string is only used in places where "Spain" is already
 #. clear from context.
 msgid "Canary Islands"
-msgstr ""
+msgstr "Канарські острови"
 
 #. This refers to the time zone for mainland Spain (as
 #. opposed to the time zone for the Canary Islands).
 msgid "Mainland Spain"
-msgstr ""
+msgstr "Материкова Іспанія"
 
 #. The time zone for the Spanish cities of Ceuta and
 #. Melilla, on the coast of Africa. The string is only used
@@ -2903,7 +2904,7 @@ msgstr ""
 
 #. A city in Argentina
 msgid "Ushuaia"
-msgstr ""
+msgstr "Усвая"
 
 #. The capital of Armenia
 msgid "Yerevan"
@@ -7407,7 +7408,7 @@ msgstr ""
 #. The local name in Panjabi is "ਨਵੀਂ ਦਿੱਲੀ".
 #. The local name in Hindi is "नई दिल्ली".
 msgid "New Delhi"
-msgstr ""
+msgstr "Нью-Делі"
 
 #. A city in India
 msgid "Patna"
@@ -7440,7 +7441,7 @@ msgstr ""
 
 #. The capital of Indonesia
 msgid "Jakarta"
-msgstr ""
+msgstr "Джакарта"
 
 #. A city in Indonesia
 msgid "Makassar"
@@ -11401,15 +11402,15 @@ msgstr "Івано-Франківськ"
 msgid "Kharkiv"
 msgstr "Харків"
 
-#. The capital of Ukraine.
-#. "Kiev" is the traditional English name.
-#. The local name in Ukrainian is "Kyyiv".
-msgid "Kiev"
-msgstr "Київ"
-
 #. A city in Ukraine
 msgid "Kryvyy Rih"
 msgstr "Кривий Ріг"
+
+#. The capital of Ukraine.
+#. "Kyiv" is the traditional English name.
+#. The local name in Ukrainian is "Kyyiv".
+msgid "Kyiv"
+msgstr ""
 
 #. A city in Ukraine
 msgid "L'viv"

@@ -4,20 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# ABE Tsunehiko, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# BALLOON | FU-SEN, 2021
-# Green, 2022
+# Green <usergreen@users.osdn.me>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-29 15:26+0200\n"
+"POT-Creation-Date: 2023-09-01 19:57+0200\n"
 "PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Green, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2022\n"
+"Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1729,7 +1727,7 @@ msgstr "山岳標準時"
 #. is part of the "Mountain Time" zone, but does not
 #. observe Daylight Saving Time with the rest of the zone.
 msgid "Mountain Time, no DST (Northeast BC)"
-msgstr "山岳部標準時, DST なし (ノースイースト BC)"
+msgstr "山岳部標準時、夏時刻なし (ノースイースト BC)"
 
 #. The time zone used in the central-east part of North
 #. America. In Mexico it is called "Tiempo del Centro", and
@@ -1745,7 +1743,7 @@ msgstr "中部標準時"
 #. zone, but does not observe Daylight Saving Time with the
 #. rest of the zone.
 msgid "Central Time, no DST (Saskatchewan)"
-msgstr "中部標準時, DST なし (サスカチュワン州)"
+msgstr "中部標準時、夏時刻なし (サスカチュワン州)"
 
 #. The time zone used on the east coast of the United
 #. States, and the corresponding (non-coastal) part of
@@ -1761,14 +1759,14 @@ msgstr "東部標準時"
 #. which do not observe Daylight Saving Time with the rest
 #. of the zone.
 msgid "Eastern Time, no DST (Southampton Island, etc)"
-msgstr "東部標準時, DST なし (サウサンプトン島など)"
+msgstr "東部標準時、夏時刻なし (サウサンプトン島など)"
 
 #. This represents the time zone in the far eastern portion
 #. of the Canadian province of Quebec, which is part of the
 #. "Atlantic Time" zone, but does not observe Daylight
 #. Saving Time with the rest of the zone.
 msgid "Atlantic Time, no DST (Eastern Quebec)"
-msgstr "大西洋標準時, DST なし (東ケベック)"
+msgstr "大西洋標準時、夏時刻なし (東ケベック)"
 
 #. The time zone used in the Canadian province of
 #. Newfoundland. In French-speaking parts of Canada it is
@@ -1792,7 +1790,7 @@ msgstr "ハワイ・アリューシャン標準時 (アリューシャン諸島)
 #. Daylight Saving Time. It is only used in places where
 #. "United States" is already clear from context.
 msgid "Hawaiian-Aleutian Time, no DST (Hawaii)"
-msgstr "ハワイ・アリューシャン標準時, DST なし (ハワイ)"
+msgstr "ハワイ・アリューシャン標準時、夏時刻なし (ハワイ)"
 
 #. The time zone used in the majority of Alaska in the
 #. United States. The string is only used in places where
@@ -1806,7 +1804,7 @@ msgstr "アラスカ標準時"
 #. the zone. The string is only used in places where
 #. "United States" is already clear from context.
 msgid "Mountain Time, no DST (Arizona)"
-msgstr "山岳部標準時, DST なし (アリゾナ)"
+msgstr "山岳部標準時、夏時刻なし (アリゾナ)"
 
 #. A state/province/territory in Australia
 msgid "Australian Capital Territory"
@@ -6478,7 +6476,7 @@ msgstr ""
 
 #. A city in France
 msgid "Nice"
-msgstr "Nice 値"
+msgstr "ニース"
 
 #. A city in France
 msgid "Nîmes"
@@ -6487,7 +6485,7 @@ msgstr ""
 #. A city in France
 msgctxt "City in France"
 msgid "Orange"
-msgstr "橙"
+msgstr "オランジェ"
 
 #. A city in France
 msgid "Orléans"
@@ -8380,7 +8378,7 @@ msgstr "吉永"
 
 #. A city in Jersey
 msgid "La Hougue"
-msgstr "岡田"
+msgstr ""
 
 #. The capital of Jersey
 msgid "Saint Helier"
@@ -11403,14 +11401,14 @@ msgstr ""
 msgid "Kharkiv"
 msgstr ""
 
-#. The capital of Ukraine.
-#. "Kiev" is the traditional English name.
-#. The local name in Ukrainian is "Kyyiv".
-msgid "Kiev"
-msgstr ""
-
 #. A city in Ukraine
 msgid "Kryvyy Rih"
+msgstr ""
+
+#. The capital of Ukraine.
+#. "Kyiv" is the traditional English name.
+#. The local name in Ukrainian is "Kyyiv".
+msgid "Kyiv"
 msgstr ""
 
 #. A city in Ukraine
@@ -12982,7 +12980,7 @@ msgstr ""
 
 #. A city in Iowa in the United States
 msgid "Cherokee"
-msgstr "チェロキー文字"
+msgstr "チェロキー"
 
 #. A city in Virginia in the United States
 msgid "Chesapeake"
@@ -16479,22 +16477,22 @@ msgstr "オンタリオ"
 #. A city in California in the United States
 msgctxt "City in California, United States"
 msgid "Orange"
-msgstr "橙"
+msgstr "オレンジ"
 
 #. A city in Massachusetts in the United States
 msgctxt "City in Massachusetts, United States"
 msgid "Orange"
-msgstr "橙"
+msgstr "オレンジ"
 
 #. A city in Texas in the United States
 msgctxt "City in Texas, United States"
 msgid "Orange"
-msgstr "橙"
+msgstr "オレンジ"
 
 #. A city in Virginia in the United States
 msgctxt "City in Virginia, United States"
 msgid "Orange"
-msgstr "橙"
+msgstr "オレンジ"
 
 #. A city in Iowa in the United States
 msgid "Orange City"
@@ -16796,7 +16794,7 @@ msgstr ""
 
 #. A city in South Dakota in the United States
 msgid "Pierre"
-msgstr "Pierre"
+msgstr "ピア"
 
 #. A city in Arkansas in the United States
 msgid "Pine Bluff"
@@ -17010,7 +17008,7 @@ msgstr ""
 
 #. A city in Utah in the United States
 msgid "Price"
-msgstr "価格"
+msgstr "プライス"
 
 #. A city in Minnesota in the United States
 msgctxt "City in Minnesota, United States"
@@ -17107,7 +17105,7 @@ msgstr ""
 
 #. A city in Oregon in the United States
 msgid "Redmond"
-msgstr "Redmond"
+msgstr "レドモンド"
 
 #. A city in Minnesota in the United States
 msgid "Redwood Falls"

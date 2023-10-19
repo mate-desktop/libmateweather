@@ -6,17 +6,17 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Martin Wimpress <code@flexion.org>, 2021
-# Andi Chandler <andi@gowling.com>, 2022
+# Andi Chandler <andi@gowling.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-29 15:26+0200\n"
+"POT-Creation-Date: 2023-09-01 19:57+0200\n"
 "PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2022\n"
-"Language-Team: English (United Kingdom) (https://www.transifex.com/mate/teams/13566/en_GB/)\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
+"Language-Team: English (United Kingdom) (https://app.transifex.com/mate/teams/13566/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -472,120 +472,120 @@ msgstr "Hong Kong"
 
 #. HU - Hungary
 msgid "Hungary"
-msgstr ""
+msgstr "Hungary"
 
 #. IS - Iceland
 msgid "Iceland"
-msgstr ""
+msgstr "Iceland"
 
 #. IN - India
 msgid "India"
-msgstr ""
+msgstr "India"
 
 #. ID - Indonesia
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonesia"
 
 #. IR - Islamic Republic of Iran
 msgid "Iran"
-msgstr ""
+msgstr "Iran"
 
 #. IQ - Iraq
 msgid "Iraq"
-msgstr ""
+msgstr "Iraq"
 
 #. IE - Ireland
 msgid "Ireland"
-msgstr ""
+msgstr "Ireland"
 
 #. IM - Isle of Man, a British Crown dependency
 msgid "Isle of Man"
-msgstr ""
+msgstr "Isle of Man"
 
 #. IL - Israel
 msgid "Israel"
-msgstr ""
+msgstr "Israel"
 
 #. IT - Italy
 msgid "Italy"
-msgstr ""
+msgstr "Italy"
 
 #. JM - Jamaica
 msgid "Jamaica"
-msgstr ""
+msgstr "Jamaica"
 
 #. JP - Japan
 msgid "Japan"
-msgstr ""
+msgstr "Japan"
 
 #. JE - The Bailiwick of Jersey, a British Crown dependency
 msgid "Jersey"
-msgstr ""
+msgstr "Jersey"
 
 #. JO - Jordan
 msgctxt "Country"
 msgid "Jordan"
-msgstr ""
+msgstr "Jordan"
 
 #. KZ - Kazakhstan
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Kazakhstan"
 
 #. KE - Kenya
 msgid "Kenya"
-msgstr ""
+msgstr "Kenya"
 
 #. KI - Kiribati
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 #. KW - Kuwait
 msgctxt "Country"
 msgid "Kuwait"
-msgstr ""
+msgstr "Kuwait"
 
 #. KG - Kyrgyzstan
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kyrgyzstan"
 
 #. LA - Lao People's Democratic Republic
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #. LV - Latvia
 msgid "Latvia"
-msgstr ""
+msgstr "Latvia"
 
 #. LB - Lebanon
 msgctxt "Country"
 msgid "Lebanon"
-msgstr ""
+msgstr "Lebanon"
 
 #. LS - Lesotho
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesotho"
 
 #. LR - Liberia
 msgctxt "Country"
 msgid "Liberia"
-msgstr ""
+msgstr "Liberia"
 
 #. LY - Libyan Arab Jamahiriya
 msgid "Libya"
-msgstr ""
+msgstr "Libya"
 
 #. LI - Liechtenstien
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Liechtenstein"
 
 #. LT - Lithuania
 msgid "Lithuania"
-msgstr ""
+msgstr "Lithuania"
 
 #. LU - Luxembourg
 msgctxt "Country"
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
 #. MO - Macao, aka "Macao Special Administrative Region of
 #. China". (The spellings "Macao" and "Macau" are both widely
@@ -593,94 +593,94 @@ msgstr ""
 #. English.)
 msgctxt "Country"
 msgid "Macau"
-msgstr ""
+msgstr "Macau"
 
 #. MK - The Former Yugoslav Republic of Macedonia
 msgid "Macedonia"
-msgstr ""
+msgstr "Macedonia"
 
 #. MG - Madagascar
 msgid "Madagascar"
-msgstr ""
+msgstr "Madagascar"
 
 #. MW - Malawi
 msgid "Malawi"
-msgstr ""
+msgstr "Malawi"
 
 #. MY - Malaysia
 msgid "Malaysia"
-msgstr ""
+msgstr "Malaysia"
 
 #. MV - Maldives
 msgid "Maldives"
-msgstr ""
+msgstr "Maldives"
 
 #. ML - Mali
 msgid "Mali"
-msgstr ""
+msgstr "Mali"
 
 #. MT - Malta
 msgctxt "Country"
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 #. MH - Marshall Islands
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Marshall Islands"
 
 #. MQ - Martinique, an overseas department of France in the
 #. Caribbean.
 msgid "Martinique"
-msgstr ""
+msgstr "Martinique"
 
 #. MR - Mauritania
 msgid "Mauritania"
-msgstr ""
+msgstr "Mauritania"
 
 #. MU - Mauritius
 msgid "Mauritius"
-msgstr ""
+msgstr "Mauritius"
 
 #. YT - Mayotte
 msgid "Mayotte"
-msgstr ""
+msgstr "Mayotte"
 
 #. MX - Mexico
 msgid "Mexico"
-msgstr ""
+msgstr "Mexico"
 
 #. FM - Federated States of Micronesia
 msgid "Micronesia, Federated States of"
-msgstr ""
+msgstr "Micronesia, Federated States of"
 
 #. MD - Moldova
 msgid "Moldova"
-msgstr ""
+msgstr "Moldova"
 
 #. MC - Monaco
 msgctxt "Country"
 msgid "Monaco"
-msgstr ""
+msgstr "Monaco"
 
 #. MN - Mongolia
 msgid "Mongolia"
-msgstr ""
+msgstr "Mongolia"
 
 #. ME - Montenegro
 msgid "Montenegro"
-msgstr ""
+msgstr "Montenegro"
 
 #. MS - Montserrat, a British territory in the Caribbean.
 msgid "Montserrat"
-msgstr ""
+msgstr "Montserrat"
 
 #. MA - Morocco
 msgid "Morocco"
-msgstr ""
+msgstr "Morocco"
 
 #. MZ - Mozambique
 msgid "Mozambique"
-msgstr ""
+msgstr "Mozambique"
 
 #. MM - Myanmar (also known as Burma, but "Myanmar" is
 #. currently the official ISO 3166 short English name, and gets
@@ -690,118 +690,118 @@ msgstr "Myanmar"
 
 #. NA - Namibia
 msgid "Namibia"
-msgstr ""
+msgstr "Namibia"
 
 #. NR - Nauru
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #. NP - Nepal
 msgid "Nepal"
-msgstr ""
+msgstr "Nepal"
 
 #. NL - Netherlands
 msgid "Netherlands"
-msgstr ""
+msgstr "Netherlands"
 
 #. AN - Netherlands Antilles, a group of Caribbean islands; one
 #. of the three constituent countries of the Kingdom of the
 #. Netherlands.
 msgid "Netherlands Antilles"
-msgstr ""
+msgstr "Netherlands Antilles"
 
 #. NC - New Caledonia, a French territory in the South Pacific.
 #. The French name is "Nouvelle-Calédonie".
 msgid "New Caledonia"
-msgstr ""
+msgstr "New Caledonia"
 
 #. NZ - New Zealand
 msgid "New Zealand"
-msgstr ""
+msgstr "New Zealand"
 
 #. NI - Nicaragua
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 #. NE - Niger
 msgid "Niger"
-msgstr ""
+msgstr "Niger"
 
 #. NG - Nigeria
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigeria"
 
 #. NU - Niue
 msgid "Niue"
-msgstr ""
+msgstr "Niue"
 
 #. NF - Norfolk Island, a territory of Australia
 msgid "Norfolk Island"
-msgstr ""
+msgstr "Norfolk Island"
 
 #. KP - The Democratic People's Republic of Korea, aka North
 #. Korea
 msgid "North Korea"
-msgstr ""
+msgstr "North Korea"
 
 #. MP - Northern Mariana Islands, a semi-independent territory
 #. of the United States in the western Pacific Ocean.
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Northern Mariana Islands"
 
 #. NO - Norway
 msgid "Norway"
-msgstr ""
+msgstr "Norway"
 
 #. OM - Oman
 msgid "Oman"
-msgstr ""
+msgstr "Oman"
 
 #. PK - Pakistan
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 #. PW - Palau
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 #. PS - Occupied Palestinian Territory
 msgid "Palestinian Territory"
-msgstr ""
+msgstr "Palestinian Territory"
 
 #. PA - Panama. The local (Spanish) name is "Panamá". In common
 #. English usage (and in ISO 3166) it does not have the accent.
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 #. PG - Papua New Guinea
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Papua New Guinea"
 
 #. PY - Paraguay
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguay"
 
 #. PE - Peru
 msgctxt "Country"
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #. PH - Philippines
 msgid "Philippines"
-msgstr ""
+msgstr "Philippines"
 
 #. PN - Pitcairn, a British territory in the South Pacific
 msgid "Pitcairn"
-msgstr ""
+msgstr "Pitcairn"
 
 #. PL - Poland
 msgid "Poland"
-msgstr ""
+msgstr "Poland"
 
 #. PT - Portugal
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 #. PR - Puerto Rico, a territory of the United States in the Caribbean.
 #. The following municipalities have airports with valid IACO codes
@@ -813,309 +813,309 @@ msgstr ""
 #. * Ponce:    TJPS
 #. * Vieques:  TJVQ
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Puerto Rico"
 
 #. QA - Qatar
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 #. RO - Romania
 msgid "Romania"
-msgstr ""
+msgstr "Romania"
 
 #. RU - Russian Federation
 msgid "Russia"
-msgstr ""
+msgstr "Russia"
 
 #. RW - Rwanda
 msgid "Rwanda"
-msgstr ""
+msgstr "Rwanda"
 
 #. RE - Réunion, an overseas department of France in the Indian
 #. Ocean.
 msgid "Réunion"
-msgstr ""
+msgstr "Réunion"
 
 #. BL - Saint Barthélemy, an overseas territory of France in
 #. the Caribbean, formerly part of Guadeloupe.
 msgid "Saint Barthélemy"
-msgstr ""
+msgstr "Saint Barthélemy"
 
 #. SH - Saint Helena, a British territory in the South Atlantic
 msgid "Saint Helena"
-msgstr ""
+msgstr "Saint Helena"
 
 #. KN - Saint Kitts and Nevis
 msgid "Saint Kitts and Nevis"
-msgstr ""
+msgstr "Saint Kitts and Nevis"
 
 #. LC - Saint Lucia
 msgid "Saint Lucia"
-msgstr ""
+msgstr "Saint Lucia"
 
 #. MF - Saint Martin, the French half of the island of Saint
 #. Martin / Sint Maarten. (The Dutch half is considered part of
 #. the Netherlands Antilles.)
 msgid "Saint Martin"
-msgstr ""
+msgstr "Saint Martin"
 
 #. PM - Saint Pierre and Miquelon, a French territory in North
 #. America (off the coast of Newfoundland). The French name is
 #. "Saint-Pierre-et-Miquelon".
 msgid "Saint Pierre and Miquelon"
-msgstr ""
+msgstr "Saint Pierre and Miquelon"
 
 #. VC - Saint Vincent and the Grenadines
 msgid "Saint Vincent and the Grenadines"
-msgstr ""
+msgstr "Saint Vincent and the Grenadines"
 
 #. WS - Samoa, an independent nation not to be confused with
 #. "American Samoa"
 msgid "Samoa"
-msgstr ""
+msgstr "Samoa"
 
 #. SM - San Marino
 msgctxt "Country"
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #. ST - Sao Tome and Principe. The local (Portuguese) name is
 #. "São Tomé and Príncipe". The official ISO 3166 short English
 #. name does not have the accents.
 msgid "Sao Tome and Principe"
-msgstr ""
+msgstr "Sao Tome and Principe"
 
 #. SA - Saudi Arabia
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Saudi Arabia"
 
 #. SN - Senegal
 msgid "Senegal"
-msgstr ""
+msgstr "Senegal"
 
 #. RS - Serbia
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 #. SC - Seychelles
 msgid "Seychelles"
-msgstr ""
+msgstr "Seychelles"
 
 #. SL - Sierra Leone
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Sierra Leone"
 
 #. SG - Singapore
 msgctxt "Country"
 msgid "Singapore"
-msgstr ""
+msgstr "Singapore"
 
 #. SK - Slovakia
 msgid "Slovakia"
-msgstr ""
+msgstr "Slovakia"
 
 #. SI - Slovenia
 msgid "Slovenia"
-msgstr ""
+msgstr "Slovenia"
 
 #. SB - Solomon Islands
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Solomon Islands"
 
 #. SO - Somalia
 msgid "Somalia"
-msgstr ""
+msgstr "Somalia"
 
 #. ZA - South Africa
 msgid "South Africa"
-msgstr ""
+msgstr "South Africa"
 
 #. GS - South Georgia and the South Sandwich Islands, a British
 #. territory in the South Atlantic.
 msgid "South Georgia and the South Sandwich Islands"
-msgstr ""
+msgstr "South Georgia and the South Sandwich Islands"
 
 #. KR - The Republic of Korea, aka South Korea
 msgid "South Korea"
-msgstr ""
+msgstr "South Korea"
 
 #. ES - Spain
 msgid "Spain"
-msgstr ""
+msgstr "Spain"
 
 #. LK - Sri Lanka
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #. SD - Sudan
 msgid "Sudan"
-msgstr ""
+msgstr "Sudan"
 
 #. SR - Suriname
 msgid "Suriname"
-msgstr ""
+msgstr "Suriname"
 
 #. SJ - Svalbard and Jan Mayen. Svalbard is an island in the
 #. Arctic Ocean which is a part of Norway with unusual status
 #. internationally.
 msgid "Svalbard and Jan Mayen"
-msgstr ""
+msgstr "Svalbard and Jan Mayen"
 
 #. SZ - Swaziland
 msgid "Swaziland"
-msgstr ""
+msgstr "Swaziland"
 
 #. SE - Sweden
 msgid "Sweden"
-msgstr ""
+msgstr "Sweden"
 
 #. CH - Switzerland
 msgid "Switzerland"
-msgstr ""
+msgstr "Switzerland"
 
 #. SY - Syrian Arab Republic
 msgid "Syria"
-msgstr ""
+msgstr "Syria"
 
 #. TW - Taiwan, Province of China. (That's the official ISO
 #. 3166 short English name.)
 msgid "Taiwan"
-msgstr ""
+msgstr "Taiwan"
 
 #. TJ - Tajikistan
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tajikistan"
 
 #. TZ - United Republic of Tanzania
 msgid "Tanzania"
-msgstr ""
+msgstr "Tanzania"
 
 #. TH - Thailand
 msgid "Thailand"
-msgstr ""
+msgstr "Thailand"
 
 #. TL - Timor-Leste (formerly known as "East Timor")
 msgid "Timor-Leste"
-msgstr ""
+msgstr "Timor-Leste"
 
 #. TG - Togo
 msgid "Togo"
-msgstr ""
+msgstr "Togo"
 
 #. TK - Tokelau, a territory of New Zealand
 msgid "Tokelau"
-msgstr ""
+msgstr "Tokelau"
 
 #. TO - Tonga
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 #. TT - Trinidad and Tobago
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Trinidad and Tobago"
 
 #. TN - Tunisia
 msgid "Tunisia"
-msgstr ""
+msgstr "Tunisia"
 
 #. TR - Turkey
 msgid "Turkey"
-msgstr ""
+msgstr "Turkey"
 
 #. TM - Turkmenistan
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turkmenistan"
 
 #. TC - Turks and Caicos Islands, a British territory in the
 #. Caribbean
 msgid "Turks and Caicos Islands"
-msgstr ""
+msgstr "Turks and Caicos Islands"
 
 #. TV - Tuvalu
 msgid "Tuvalu"
-msgstr ""
+msgstr "Tuvalu"
 
 #. UG - Uganda
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #. UA - Ukraine
 msgid "Ukraine"
-msgstr ""
+msgstr "Ukraine"
 
 #. AE - United Arab Emirates
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "United Arab Emirates"
 
 #. GB - United Kingdom
 msgid "United Kingdom"
-msgstr ""
+msgstr "United Kingdom"
 
 #. US - United States, aka United States of America
 msgid "United States"
-msgstr ""
+msgstr "United States"
 
 #. UM - United States Minor Outlying Islands, a group of
 #. mostly-uninhabited United States territories in the South
 #. Pacific.
 msgid "United States Minor Outlying Islands"
-msgstr ""
+msgstr "United States Minor Outlying Islands"
 
 #. VI - United States Virgin Islands, a territory of the United
 #. States in the Caribbean
 msgid "United States Virgin Islands"
-msgstr ""
+msgstr "United States Virgin Islands"
 
 #. UY - Uruguay
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #. UZ - Uzbekistan
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Uzbekistan"
 
 #. VU - Vanuatu
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 #. VA - Holy See (Vatican City State)
 msgid "Vatican City"
-msgstr ""
+msgstr "Vatican City"
 
 #. VE - Venezuela
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #. VN - Viet Nam (The official ISO 3166 short English name
 #. includes a space, though it is also frequently written
 #. without one.)
 msgid "Viet Nam"
-msgstr ""
+msgstr "Viet Nam"
 
 #. WF - Wallis and Futuna, a French territory in the South
 #. Pacific
 msgid "Wallis and Futuna"
-msgstr ""
+msgstr "Wallis and Futuna"
 
 #. EH - Western Sahara, a disputed territory in western Africa
 msgid "Western Sahara"
-msgstr ""
+msgstr "Western Sahara"
 
 #. YE - Yemen
 msgid "Yemen"
-msgstr ""
+msgstr "Yemen"
 
 #. ZM - Zambia
 msgid "Zambia"
-msgstr ""
+msgstr "Zambia"
 
 #. ZW - Zimbabwe
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Zimbabwe"
 
 #. AX - Åland Islands, an autonomous province of Finland
 msgid "Åland Islands"
-msgstr ""
+msgstr "Åland Islands"
 
 #. The time zone used in the western half of the Democratic
 #. Republic of the Congo. The string is only used in places
@@ -1123,7 +1123,7 @@ msgstr ""
 #. clear from context. FIXME: is there an official name for
 #. this zone?
 msgid "Western Congo"
-msgstr ""
+msgstr "Western Congo"
 
 #. The time zone used in the eastern half of the Democratic
 #. Republic of the Congo. The string is only used in places
@@ -1131,131 +1131,131 @@ msgstr ""
 #. clear from context. FIXME: is there an official name for
 #. this zone?
 msgid "Eastern Congo"
-msgstr ""
+msgstr "Eastern Congo"
 
 #. An American research station in Antarctica, which keeps
 #. the same time as mainland Chile. The string is only used
 #. in places where "Antarctica" is already clear from
 #. context.
 msgid "Palmer Station (Chile Time)"
-msgstr ""
+msgstr "Palmer Station (Chile Time)"
 
 #. A British research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 msgid "Rothera Research Station"
-msgstr ""
+msgstr "Rothera Research Station"
 
 #. A Japanese research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 msgid "Showa Station"
-msgstr ""
+msgstr "Showa Station"
 
 #. An Australian research station in Antarctica. The string
 #. is only used in places where "Antarctica" is already
 #. clear from context.
 msgid "Mawson Station"
-msgstr ""
+msgstr "Mawson Station"
 
 #. A Russian research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 msgid "Vostok Station"
-msgstr ""
+msgstr "Vostok Station"
 
 #. An Australian research station in Antarctica. The string
 #. is only used in places where "Antarctica" is already
 #. clear from context.
 msgid "Davis Station"
-msgstr ""
+msgstr "Davis Station"
 
 #. An Australian research station in Antarctica, which
 #. keeps the same time as Western Australia. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 msgid "Casey Station (Western Australia Time)"
-msgstr ""
+msgstr "Casey Station (Western Australia Time)"
 
 #. A French research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 msgid "Dumont d'Urville Station"
-msgstr ""
+msgstr "Dumont d'Urville Station"
 
 #. An American research station in Antarctica, which keeps
 #. the same time as New Zealand. The string is only used in
 #. places where "Antarctica" is already clear from context.
 msgid "McMurdo Station (New Zealand Time)"
-msgstr ""
+msgstr "McMurdo Station (New Zealand Time)"
 
 #. An American research station in Antarctica, which keeps
 #. the same time as New Zealand. The string is only used in
 #. places where "Antarctica" is already clear from context.
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
-msgstr ""
+msgstr "Amundsen-Scott South Pole Station (New Zealand Time)"
 
 #. The timezone on the western islands of Indonesia. The
 #. name in Indonesian is "Waktu Indonesia Bagian Barat".
 msgid "Western Indonesia Time"
-msgstr ""
+msgstr "Western Indonesia Time"
 
 #. The timezone on the central islands of Indonesia. The
 #. name in Indonesian is "Waktu Indonesia Bagian Tengah".
 msgid "Central Indonesia Time"
-msgstr ""
+msgstr "Central Indonesia Time"
 
 #. The timezone on the eastern islands of Indonesia. The
 #. name in Indonesian is "Waktu Indonesia Bagian Timur".
 msgid "Eastern Indonesia Time"
-msgstr ""
+msgstr "Eastern Indonesia Time"
 
 #. The time zone used in the eastern half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 msgid "Eastern Kazakhstan"
-msgstr ""
+msgstr "Eastern Kazakhstan"
 
 #. The time zone used in the western half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 msgid "Western Kazakhstan"
-msgstr ""
+msgstr "Western Kazakhstan"
 
 #. The time zone used in the eastern part of Mongolia.
 #. FIXME: Is there an official name for this zone?
 msgid "Eastern Mongolia"
-msgstr ""
+msgstr "Eastern Mongolia"
 
 #. The time zone used in the western part of Mongolia.
 #. FIXME: Is there an official name for this zone?
 msgid "Western Mongolia"
-msgstr ""
+msgstr "Western Mongolia"
 
 #. The time zone used in the central part of Mongolia.
 #. FIXME: Is there an official name for this zone?
 msgid "Central Mongolia"
-msgstr ""
+msgstr "Central Mongolia"
 
 #. The timezone around Danmarkshavn station in Greenland.
 #. The string is only used in places where "Greenland" is
 #. already clear from context.
 msgid "Danmarkshavn"
-msgstr ""
+msgstr "Danmarkshavn"
 
 #. The primary timezone for Greenland, although sources
 #. seem to point towards calling the area "Western
 #. Greenland" rathern than just "Greenland".
 msgid "Western Greenland"
-msgstr ""
+msgstr "Western Greenland"
 
 #. The timezone around Scoresbysund / Ittoqqortoormiit on
 #. the east coast of Greenland.
 msgid "Eastern Greenland"
-msgstr ""
+msgstr "Eastern Greenland"
 
 #. The timezone at the Thule US Air Force Base on the west
 #. coast of Greenland.
 msgid "Thule AFB"
-msgstr ""
+msgstr "Thule AFB"
 
 #. The time zone used on the east coast of Canada, in
 #. Bermuda, and on many Caribbean islands. In
@@ -1263,27 +1263,27 @@ msgstr ""
 #. l'Atlantique". The string is only used in places where a
 #. country is already clear from the context.
 msgid "Atlantic Time"
-msgstr ""
+msgstr "Atlantic Time"
 
 #. The time zone used in Western Australia. The string is
 #. only used in places where "Australia" is already clear
 #. from context.
 msgid "Western Time"
-msgstr ""
+msgstr "Western Time"
 
 #. The commonly-used name for an unofficial time zone used
 #. in part of southwestern Australia. The string is only
 #. used in places where "Australia" is already clear from
 #. context.
 msgid "Central Western Time"
-msgstr ""
+msgstr "Central Western Time"
 
 #. The time zone used in Central Australia. This string is
 #. specifically for the time zone as implemented in the
 #. state of South Australia, and is only used in places
 #. where "Australia" is already clear from context.
 msgid "Central Time (South Australia)"
-msgstr ""
+msgstr "Central Time (South Australia)"
 
 #. The time zone used in Central Australia. This string is
 #. specifically for the time zone as implemented in
@@ -1292,7 +1292,7 @@ msgstr ""
 #. state uses Eastern Time. This string is only used in
 #. places where "Australia" is already clear from context.
 msgid "Central Time (Yancowinna, NSW)"
-msgstr ""
+msgstr "Central Time (Yancowinna, NSW)"
 
 #. The time zone used in Central Australia. This string is
 #. specifically for the time zone as implemented in the
@@ -1300,28 +1300,28 @@ msgstr ""
 #. string is only used in places where "Australia" is
 #. already clear from context.
 msgid "Central Time (Northern Territory)"
-msgstr ""
+msgstr "Central Time (Northern Territory)"
 
 #. The time zone used in Eastern Australia. This string is
 #. specifically for the time zone as implemented in the
 #. state of Tasmania, and is only used in places where
 #. "Australia" is already clear from context.
 msgid "Eastern Time (Tasmania)"
-msgstr ""
+msgstr "Eastern Time (Tasmania)"
 
 #. The time zone used in Eastern Australia. This string is
 #. specifically for the time zone as implemented in the
 #. state of Victoria, and is only used in places where
 #. "Australia" is already clear from context.
 msgid "Eastern Time (Victoria)"
-msgstr ""
+msgstr "Eastern Time (Victoria)"
 
 #. The time zone used in Eastern Australia. This string is
 #. specifically for the time zone as implemented in the
 #. state of New South Wales, and is only used in places
 #. where "Australia" is already clear from context.
 msgid "Eastern Time (New South Wales)"
-msgstr ""
+msgstr "Eastern Time (New South Wales)"
 
 #. The time zone used in Eastern Australia. This string is
 #. specifically for the time zone as implemented in the
@@ -1329,64 +1329,64 @@ msgstr ""
 #. This string is only used in places where "Australia" is
 #. already clear from context.
 msgid "Eastern Time (Queensland)"
-msgstr ""
+msgstr "Eastern Time (Queensland)"
 
 #. The time zone used on Lord Howe Island, off the east
 #. coast of Australia. This string is only used in places
 #. where "Australia" is already clear from context.
 msgid "Lord Howe Island"
-msgstr ""
+msgstr "Lord Howe Island"
 
 #. This refers to the time zone in the Society Islands of
 #. French Polynesia (including in particular the island of
 #. Tahiti). This string is only used in places where
 #. "French Polynesia" is already clear from context.
 msgid "Tahiti / Society Islands"
-msgstr ""
+msgstr "Tahiti / Society Islands"
 
 #. This refers to the time zone in the Marquesas Islands of
 #. French Polynesia. This string is only used in places
 #. where "French Polynesia" is already clear from context.
 msgid "Marquesas Islands"
-msgstr ""
+msgstr "Marquesas Islands"
 
 #. This refers to the time zone in the Gambier Islands of
 #. French Polynesia. This string is only used in places
 #. where "French Polynesia" is already clear from context.
 msgid "Gambier Islands"
-msgstr ""
+msgstr "Gambier Islands"
 
 #. The time zone in the Gilbert Islands, one of the three
 #. main island groups of Kiribati. This string is only used
 #. in places where "Kiribati" is already clear from context.
 msgid "Gilbert Islands"
-msgstr ""
+msgstr "Gilbert Islands"
 
 #. The time zone in the Phoenix Islands, one of the three
 #. main island groups of Kiribati. This string is only used
 #. in places where "Kiribati" is already clear from context.
 msgid "Phoenix Islands"
-msgstr ""
+msgstr "Phoenix Islands"
 
 #. The time zone in the Line Islands, one of the three main
 #. island groups of Kiribati. This string is only used in
 #. places where "Kiribati" is already clear from context.
 msgid "Line Islands"
-msgstr ""
+msgstr "Line Islands"
 
 #. One of two time zones in the Federated States of
 #. Micronesia, including the islands of Pohnpei and Kosrae.
 #. The string is only used in places where "Micronesia" is
 #. already clear from context.
 msgid "Pohnpei / Kosrae"
-msgstr ""
+msgstr "Pohnpei / Kosrae"
 
 #. One of two time zones in the Federated States of
 #. Micronesia, including the islands of Yap and Chuuk. The
 #. string is only used in places where "Micronesia" is
 #. already clear from context.
 msgid "Yap / Chuuk"
-msgstr ""
+msgstr "Yap / Chuuk"
 
 #. This refers to the "mainland" of New Zealand (ie, North
 #. Island and South Island), to distinguish it from the
@@ -1395,12 +1395,12 @@ msgstr ""
 #. there a better name for this? "Mainland" seems odd in
 #. reference to an island nation...
 msgid "Mainland New Zealand"
-msgstr ""
+msgstr "Mainland New Zealand"
 
 #. This refers to the time zone in the Chatham Islands of
 #. New Zealand.
 msgid "Chatham Islands"
-msgstr ""
+msgstr "Chatham Islands"
 
 #. The time zone for the Johnston Atoll in the United
 #. States Minor Outlying Islands, which keeps the same time
@@ -1408,7 +1408,7 @@ msgstr ""
 #. places where "US Minor Outlying Islands" is already
 #. clear from context.
 msgid "Johnston Atoll (Hawaii Time)"
-msgstr ""
+msgstr "Johnston Atoll (Hawaii Time)"
 
 #. The time zone for the Midway Atoll in the United States
 #. Minor Outlying Islands, which uses the same time as
@@ -1417,21 +1417,21 @@ msgstr ""
 #. places where "US Minor Outlying Islands" is already
 #. clear from context.
 msgid "Midway Atoll (Samoa Time)"
-msgstr ""
+msgstr "Midway Atoll (Samoa Time)"
 
 #. The time zone for Wake Island in the United States Minor
 #. Outlying Islands. The string is only used in places
 #. where "US Minor Outlying Islands" is already clear from
 #. context.
 msgid "Wake Island"
-msgstr ""
+msgstr "Wake Island"
 
 #. This represents the time zone in the Brazilian state of
 #. Tocantins. See the comment on "Brasília Time" for more
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 msgid "Tocantins"
-msgstr ""
+msgstr "Tocantins"
 
 #. This represents the time zone in the Brazilian state of
 #. Bahia. See the comment on "Brasília Time" for more
@@ -1439,7 +1439,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Bahia"
-msgstr ""
+msgstr "Bahia"
 
 #. This represents the time zone in the Brazilian state of
 #. Amapá and the eastern part of Pará. See the comment on
@@ -1447,7 +1447,7 @@ msgstr ""
 #. used in places where "Brazil" is already clear from
 #. context.
 msgid "Amapá / East Pará"
-msgstr ""
+msgstr "Amapá / East Pará"
 
 #. This represents the time zone in the Brazilian state of
 #. Roraima. See the comment on "Brasília Time" for more
@@ -1455,7 +1455,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Roraima"
-msgstr ""
+msgstr "Roraima"
 
 #. This represents the time zone in the Brazilian state of
 #. Mato Grosso do Sul. See the comment on "Brasília Time"
@@ -1463,7 +1463,7 @@ msgstr ""
 #. where "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "Mato Grosso do Sul"
 
 #. This represents the time zone in the Brazilian state of
 #. Mato Grosso. See the comment on "Brasília Time" for more
@@ -1471,7 +1471,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Mato Grosso"
-msgstr ""
+msgstr "Mato Grosso"
 
 #. This represents the time zone in the western part of the
 #. Brazilian state of Amazonas. See the comment on
@@ -1479,7 +1479,7 @@ msgstr ""
 #. used in places where "Brazil" is already clear from
 #. context.
 msgid "West Amazonas"
-msgstr ""
+msgstr "West Amazonas"
 
 #. This represents the time zone in the Brazilian states of
 #. Ceará, Maranhão, Paraíba, Piauí, and Rio Grande do
@@ -1487,14 +1487,14 @@ msgstr ""
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
 msgid "Ceará, Maranhão, Paraíba, Piauí, Rio Grande do Norte"
-msgstr ""
+msgstr "Ceará, Maranhão, Paraíba, Piauí, Rio Grande do Norte"
 
 #. This represents the time zone in the Brazilian states of
 #. Alagoas and Sergipe. See the comment on "Brasília Time"
 #. for more details. This string is only used in places
 #. where "Brazil" is already clear from context.
 msgid "Alagoas, Sergipe"
-msgstr ""
+msgstr "Alagoas, Sergipe"
 
 #. This represents the time zone in the eastern part of the
 #. Brazilian state of Amazonas. See the comment on
@@ -1502,14 +1502,14 @@ msgstr ""
 #. used in places where "Brazil" is already clear from
 #. context.
 msgid "East Amazonas"
-msgstr ""
+msgstr "East Amazonas"
 
 #. This represents the time zone on the Brazilian island of
 #. Fernando de Noronha. See the comment on "Brasília Time"
 #. for more details. This string is only used in places
 #. where "Brazil" is already clear from context.
 msgid "Fernando de Noronha"
-msgstr ""
+msgstr "Fernando de Noronha"
 
 #. This represents the time zone in the Brazilian state of
 #. Rondônia and the western part of Pará. See the comment
@@ -1517,7 +1517,7 @@ msgstr ""
 #. used in places where "Brazil" is already clear from
 #. context.
 msgid "West Pará, Rondônia"
-msgstr ""
+msgstr "West Pará, Rondônia"
 
 #. This represents the time zone in the Brazilian state of
 #. Pernambuco. See the comment on "Brasília Time" for more
@@ -1525,7 +1525,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Pernambuco"
-msgstr ""
+msgstr "Pernambuco"
 
 #. This represents the time zone in the Brazilian state of
 #. Acre. See the comment on "Brasília Time" for more
@@ -1533,7 +1533,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Acre"
-msgstr ""
+msgstr "Acre"
 
 #. This represents the official "base" time zone in Brazil,
 #. covering the capital city of Brasília, and those states
@@ -1553,68 +1553,68 @@ msgstr ""
 #. Paulo). This string is only used in places where
 #. "Brazil" is already clear from context.
 msgid "Brasília Time"
-msgstr ""
+msgstr "Brasília Time"
 
 #. This refers to the time zone for mainland Chile (as
 #. opposed to the time zone for Easter Island).
 msgid "Mainland Chile"
-msgstr ""
+msgstr "Mainland Chile"
 
 #. This refers to the time zone for Easter Island. The
 #. string is only used in places where "Chile" is already
 #. understood from context.
 msgid "Easter Island"
-msgstr ""
+msgstr "Easter Island"
 
 #. This refers to the time zone for mainland Ecuador (as
 #. opposed to the time zone for the Galapagos Islands).
 msgid "Mainland Ecuador"
-msgstr ""
+msgstr "Mainland Ecuador"
 
 #. The time zone for the Galapagos Islands.
 msgid "Galapagos Islands"
-msgstr ""
+msgstr "Galapagos Islands"
 
 #. The time zone in the UK (GMT in the winter, and British
 #. Summer Time in the summer.)
 msgid "GMT/BST"
-msgstr ""
+msgstr "GMT/BST"
 
 #. The time zone in Ireland (GMT in the winter, and Irish
 #. Summer Time in the summer.)
 msgid "GMT/IST"
-msgstr ""
+msgstr "GMT/IST"
 
 #. This refers to the time zone for the Azores. The string
 #. is only used in places where "Portugal" is already
 #. understood from context.
 msgid "Azores"
-msgstr ""
+msgstr "Azores"
 
 #. This refers to the time zone for the Portuguese island
 #. of Madeira. The string is only used in places where
 #. "Portugal" is already understood from context.
 msgid "Madeira"
-msgstr ""
+msgstr "Madeira"
 
 #. This refers to the time zone for mainland Portugal (as
 #. opposed to the time zone for the Azores).
 msgid "Mainland Portugal"
-msgstr ""
+msgstr "Mainland Portugal"
 
 #. A Russian time zone, used in the city and oblast of
 #. Kaliningrad on the Baltic sea. The Russian name is
 #. "Калининградское время". This string is only used in
 #. places where "Russia" is already clear from context.
 msgid "Kaliningrad Time"
-msgstr ""
+msgstr "Kaliningrad Time"
 
 #. A Russian time zone, used in most of the European part
 #. of Russia, including Moscow. The Russian name is
 #. "Московское время". This string is only used in places
 #. where "Russia" is already clear from context.
 msgid "Moscow Time"
-msgstr ""
+msgstr "Moscow Time"
 
 #. A Russian time zone, used in the Samara oblast and
 #. Udmurtia, on the eastern edge of European Russia. The
@@ -1622,14 +1622,14 @@ msgstr ""
 #. used in places where "Russia" is already clear from
 #. context.
 msgid "Samara Time"
-msgstr ""
+msgstr "Samara Time"
 
 #. A Russian time zone, used along the Ural mountains,
 #. including the city of Yekaterinburg. The Russian name is
 #. "Екатеринбургское время". This string is only used in
 #. places where "Russia" is already clear from context.
 msgid "Yekaterinburg Time"
-msgstr ""
+msgstr "Yekaterinburg Time"
 
 #. A Russian time zone, used in the Omsk oblast
 #. and surrounding areas of south-central Russia.
@@ -1637,73 +1637,73 @@ msgstr ""
 #. used in places where "Russia" is already clear from
 #. context.
 msgid "Omsk Time"
-msgstr ""
+msgstr "Omsk Time"
 
 #. A Russian time zone, used in the Novosibirsk oblast.
 #. The Russian name is "Новосибирское время".
 #. This string is only used in places
 #. where "Russia" is already clear from context.
 msgid "Novosibirsk Time"
-msgstr ""
+msgstr "Novosibirsk Time"
 
 #. A Russian time zone, used in the Krasnoyarsk krai and
 #. surrounding areas of central Russia. The Russian name is
 #. "Красноярское время". This string is only used in places
 #. where "Russia" is already clear from context.
 msgid "Krasnoyarsk Time"
-msgstr ""
+msgstr "Krasnoyarsk Time"
 
 #. A Russian time zone, used in the Irkutsk oblast and
 #. surrounding areas of south-central Russia. The Russian
 #. name is "Иркутское время". This string is only used in
 #. places where "Russia" is already clear from context.
 msgid "Irkutsk Time"
-msgstr ""
+msgstr "Irkutsk Time"
 
 #. A Russian time zone, used in the city of Yakutsk and
 #. surrounding areas of east-central Russia. The Russian
 #. name is "Якутское время". This string is only used in
 #. places where "Russia" is already clear from context.
 msgid "Yakutsk Time"
-msgstr ""
+msgstr "Yakutsk Time"
 
 #. A Russian time zone, used in the city of Vladivostok and
 #. surrounding areas of eastern Russia. The Russian name is
 #. "Владивостокское время". This string is only used in
 #. places where "Russia" is already clear from context.
 msgid "Vladivostok Time"
-msgstr ""
+msgstr "Vladivostok Time"
 
 #. A Russian time zone, used in the Magadan oblast and
 #. surrounding areas of eastern Russia. The Russian name is
 #. "Магаданское время". This string is only used in places
 #. where "Russia" is already clear from context.
 msgid "Magadan Time"
-msgstr ""
+msgstr "Magadan Time"
 
 #. A Russian time zone, used in the Kamchatka krai and
 #. Chukotka okrug of far-eastern Russia. The Russian name
 #. is "Камчатское время". This string is only used in
 #. places where "Russia" is already clear from context.
 msgid "Kamchatka Time"
-msgstr ""
+msgstr "Kamchatka Time"
 
 #. This refers to the time zone for the Canary Islands. The
 #. string is only used in places where "Spain" is already
 #. clear from context.
 msgid "Canary Islands"
-msgstr ""
+msgstr "Canary Islands"
 
 #. This refers to the time zone for mainland Spain (as
 #. opposed to the time zone for the Canary Islands).
 msgid "Mainland Spain"
-msgstr ""
+msgstr "Mainland Spain"
 
 #. The time zone for the Spanish cities of Ceuta and
 #. Melilla, on the coast of Africa. The string is only used
 #. in places where "Spain" is already clear from context.
 msgid "Ceuta and Melilla"
-msgstr ""
+msgstr "Ceuta and Melilla"
 
 #. The time zone used on most of the west coast of North
 #. America. In Mexico it is called "Tiempo del Pacífico"
@@ -1712,7 +1712,7 @@ msgstr ""
 #. where "US", "Canada" or "Mexico" is already clear from
 #. the context.
 msgid "Pacific Time"
-msgstr ""
+msgstr "Pacific Time"
 
 #. The time zone used in the central-west part of North
 #. America (ie, the Rocky Mountains). In Mexico it is
@@ -1721,14 +1721,14 @@ msgstr ""
 #. string is only used in places where "US", "Canada" or
 #. "Mexico" is already clear from the context.
 msgid "Mountain Time"
-msgstr ""
+msgstr "Mountain Time"
 
 #. This represents the time zone in the northeastern part
 #. of the Canadian province of British Columbia (BC), which
 #. is part of the "Mountain Time" zone, but does not
 #. observe Daylight Saving Time with the rest of the zone.
 msgid "Mountain Time, no DST (Northeast BC)"
-msgstr ""
+msgstr "Mountain Time, no DST (Northeast BC)"
 
 #. The time zone used in the central-east part of North
 #. America. In Mexico it is called "Tiempo del Centro", and
@@ -1737,14 +1737,14 @@ msgstr ""
 #. "US", "Canada" or "Mexico" is already clear from the
 #. context.
 msgid "Central Time"
-msgstr ""
+msgstr "Central Time"
 
 #. This represents the time zone in the Canadian province
 #. of Saskatchewan, which is part of the "Central Time"
 #. zone, but does not observe Daylight Saving Time with the
 #. rest of the zone.
 msgid "Central Time, no DST (Saskatchewan)"
-msgstr ""
+msgstr "Central Time, no DST (Saskatchewan)"
 
 #. The time zone used on the east coast of the United
 #. States, and the corresponding (non-coastal) part of
@@ -1752,7 +1752,7 @@ msgstr ""
 #. "Heure de l'Est". The string is only used in places
 #. where "US" or "Canada" is already clear from the context.
 msgid "Eastern Time"
-msgstr ""
+msgstr "Eastern Time"
 
 #. This represents the time zone in certain parts of Canada
 #. (such as Southampton Island, Nunavut, and Atikokan,
@@ -1760,20 +1760,20 @@ msgstr ""
 #. which do not observe Daylight Saving Time with the rest
 #. of the zone.
 msgid "Eastern Time, no DST (Southampton Island, etc)"
-msgstr ""
+msgstr "Eastern Time, no DST (Southampton Island, etc)"
 
 #. This represents the time zone in the far eastern portion
 #. of the Canadian province of Quebec, which is part of the
 #. "Atlantic Time" zone, but does not observe Daylight
 #. Saving Time with the rest of the zone.
 msgid "Atlantic Time, no DST (Eastern Quebec)"
-msgstr ""
+msgstr "Atlantic Time, no DST (Eastern Quebec)"
 
 #. The time zone used in the Canadian province of
 #. Newfoundland. In French-speaking parts of Canada it is
 #. called "Heure de Terre-Neuve".
 msgid "Newfoundland Time"
-msgstr ""
+msgstr "Newfoundland Time"
 
 #. "Hawaiian-Aleutian Time" is the official name of the
 #. time zone used in Hawaii and the Aleutian Islands of
@@ -1782,7 +1782,7 @@ msgstr ""
 #. Daylight Saving Time). It is only used in places where
 #. "United States" is already clear from context.
 msgid "Hawaiian-Aleutian Time (Aleutian Islands)"
-msgstr ""
+msgstr "Hawaiian-Aleutian Time (Aleutian Islands)"
 
 #. "Hawaiian-Aleutian Time" is the official name of the
 #. time zone used in Hawaii and the Aleutian Islands of
@@ -1791,13 +1791,13 @@ msgstr ""
 #. Daylight Saving Time. It is only used in places where
 #. "United States" is already clear from context.
 msgid "Hawaiian-Aleutian Time, no DST (Hawaii)"
-msgstr ""
+msgstr "Hawaiian-Aleutian Time, no DST (Hawaii)"
 
 #. The time zone used in the majority of Alaska in the
 #. United States. The string is only used in places where
 #. "United States" is already clear from context.
 msgid "Alaska Time"
-msgstr ""
+msgstr "Alaska Time"
 
 #. This represents the time zone in the US state of
 #. Arizona, which is part of the "Mountain Time" zone, but
@@ -1805,440 +1805,440 @@ msgstr ""
 #. the zone. The string is only used in places where
 #. "United States" is already clear from context.
 msgid "Mountain Time, no DST (Arizona)"
-msgstr ""
+msgstr "Mountain Time, no DST (Arizona)"
 
 #. A state/province/territory in Australia
 msgid "Australian Capital Territory"
-msgstr ""
+msgstr "Australian Capital Territory"
 
 #. A state/province/territory in Australia
 msgid "New South Wales"
-msgstr ""
+msgstr "New South Wales"
 
 #. A state/province/territory in Australia
 msgid "Northern Territory"
-msgstr ""
+msgstr "Northern Territory"
 
 #. A state/province/territory in Australia
 msgid "Queensland"
-msgstr ""
+msgstr "Queensland"
 
 #. A state/province/territory in Australia
 msgid "South Australia"
-msgstr ""
+msgstr "South Australia"
 
 #. A state/province/territory in Australia
 msgid "Tasmania"
-msgstr ""
+msgstr "Tasmania"
 
 #. A state/province/territory in Australia
 msgctxt "State in Australia"
 msgid "Victoria"
-msgstr ""
+msgstr "Victoria"
 
 #. A state/province/territory in Australia
 msgid "Western Australia"
-msgstr ""
+msgstr "Western Australia"
 
 #. A state in Belgium. local name (nl): Antwerpen. local name
 #. (fr): Anvers. local name (de): Antwerpen.
 msgctxt "State in Belgium"
 msgid "Antwerp"
-msgstr ""
+msgstr "Antwerp"
 
 #. A state in Belgium. local name (nl): Brussel, Vlaams- en
 #. Waals-Brabant. local name (fr): Bruxelles, Brabant flamand
 #. et wallon. local name (de): Brüssel, Flämish- und
 #. Wallonisch-Brabant.
 msgid "Brussels, Flemish and Walloon Brabant"
-msgstr ""
+msgstr "Brussels, Flemish and Walloon Brabant"
 
 #. A state/province/territory in Belgium
 msgid "East-Flanders"
-msgstr ""
+msgstr "East-Flanders"
 
 #. A state in Belgium. local name (fr): Hainaut. local name
 #. (fr_BE): Hinnot. local name (nl): Henegouwen. local name
 #. (de): Hennegau.
 msgid "Hainaut"
-msgstr ""
+msgstr "Hainaut"
 
 #. A state in Belgium. local name (nl): Limburg. local name
 #. (fr): Limbourg. local name (de): Limburg.
 msgid "Limburg"
-msgstr ""
+msgstr "Limburg"
 
 #. A state in Belgium. local name (fr): Liège. local name
 #. (fr_BE): Lîdje. local name (nl): Luik. local name (de):
 #. Lüttich.
 msgid "Liège"
-msgstr ""
+msgstr "Liège"
 
 #. A state/province/territory in Belgium
 msgctxt "State in Belgium"
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
 #. A state/province/territory in Belgium
 msgid "Namur"
-msgstr ""
+msgstr "Namur"
 
 #. A state in Belgium. local name (nl): West-Vlaanderen.
 #. local name (fr): Flandre occidentale. local name (de):
 #. Westflandern.
 msgid "West-Flanders"
-msgstr ""
+msgstr "West-Flanders"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Acre"
-msgstr ""
+msgstr "Acre"
 
 #. A state/province/territory in Brazil
 msgid "Alagoas"
-msgstr ""
+msgstr "Alagoas"
 
 #. A state/province/territory in Brazil
 msgid "Amapá"
-msgstr ""
+msgstr "Amapá"
 
 #. A state/province/territory in Brazil
 msgid "Amazonas"
-msgstr ""
+msgstr "Amazonas"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Bahia"
-msgstr ""
+msgstr "Bahia"
 
 #. A state/province/territory in Brazil
 msgid "Ceará"
-msgstr ""
+msgstr "Ceará"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Distrito Federal"
-msgstr ""
+msgstr "Distrito Federal"
 
 #. A state/province/territory in Brazil
 msgid "Espírito Santo"
-msgstr ""
+msgstr "Espírito Santo"
 
 #. A state/province/territory in Brazil
 msgid "Goiás"
-msgstr ""
+msgstr "Goiás"
 
 #. A state/province/territory in Brazil
 msgid "Maranhão"
-msgstr ""
+msgstr "Maranhão"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Mato Grosso"
-msgstr ""
+msgstr "Mato Grosso"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "Mato Grosso do Sul"
 
 #. A state/province/territory in Brazil
 msgid "Minas Gerais"
-msgstr ""
+msgstr "Minas Gerais"
 
 #. A state/province/territory in Brazil
 msgid "Paraná"
-msgstr ""
+msgstr "Paraná"
 
 #. A state/province/territory in Brazil
 msgid "Paraíba"
-msgstr ""
+msgstr "Paraíba"
 
 #. A state/province/territory in Brazil
 msgid "Pará"
-msgstr ""
+msgstr "Pará"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Pernambuco"
-msgstr ""
+msgstr "Pernambuco"
 
 #. A state/province/territory in Brazil
 msgid "Piauí"
-msgstr ""
+msgstr "Piauí"
 
 #. A state/province/territory in Brazil
 msgid "Rio Grande do Norte"
-msgstr ""
+msgstr "Rio Grande do Norte"
 
 #. A state/province/territory in Brazil
 msgid "Rio Grande do Sul"
-msgstr ""
+msgstr "Rio Grande do Sul"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Rio de Janeiro"
-msgstr ""
+msgstr "Rio de Janeiro"
 
 #. A state/province/territory in Brazil
 msgid "Rondônia"
-msgstr ""
+msgstr "Rondônia"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Roraima"
-msgstr ""
+msgstr "Roraima"
 
 #. A state/province/territory in Brazil
 msgid "Santa Catarina"
-msgstr ""
+msgstr "Santa Catarina"
 
 #. A state/province/territory in Brazil
 msgid "Sergipe"
-msgstr ""
+msgstr "Sergipe"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "São Paulo"
-msgstr ""
+msgstr "São Paulo"
 
 #. A state/province/territory in Brazil
 msgid "Tocantis"
-msgstr ""
+msgstr "Tocantis"
 
 #. A state/province/territory in Canada
 msgid "Alberta"
-msgstr ""
+msgstr "Alberta"
 
 #. A state/province/territory in Canada
 msgid "British Columbia"
-msgstr ""
+msgstr "British Columbia"
 
 #. A state/province/territory in Canada
 msgid "Manitoba"
-msgstr ""
+msgstr "Manitoba"
 
 #. A state/province/territory in Canada
 msgid "New Brunswick"
-msgstr ""
+msgstr "New Brunswick"
 
 #. A state/province/territory in Canada
 msgid "Newfoundland and Labrador"
-msgstr ""
+msgstr "Newfoundland and Labrador"
 
 #. A state/province/territory in Canada
 msgid "Northwest Territories"
-msgstr ""
+msgstr "Northwest Territories"
 
 #. A state/province/territory in Canada
 msgid "Nova Scotia"
-msgstr ""
+msgstr "Nova Scotia"
 
 #. A state/province/territory in Canada
 msgid "Nunavut"
-msgstr ""
+msgstr "Nunavut"
 
 #. A state/province/territory in Canada
 msgctxt "State in Canada"
 msgid "Ontario"
-msgstr ""
+msgstr "Ontario"
 
 #. A state/province/territory in Canada
 msgid "Prince Edward Island"
-msgstr ""
+msgstr "Prince Edward Island"
 
 #. A state/province/territory in Canada
 msgctxt "State in Canada"
 msgid "Quebec"
-msgstr ""
+msgstr "Quebec"
 
 #. A state/province/territory in Canada
 msgid "Saskatchewan"
-msgstr ""
+msgstr "Saskatchewan"
 
 #. FIXME: rename this to Yukon
 msgid "Yukon Territory"
-msgstr ""
+msgstr "Yukon Territory"
 
 #. A state/province/territory in China
 msgid "Anhui"
-msgstr ""
+msgstr "Anhui"
 
 #. A state/province/territory in China
 msgctxt "State in China"
 msgid "Beijing"
-msgstr ""
+msgstr "Beijing"
 
 #. A state/province/territory in China
 msgctxt "State in China"
 msgid "Chongqing"
-msgstr ""
+msgstr "Chongqing"
 
 #. A state/province/territory in China
 msgid "Fujian"
-msgstr ""
+msgstr "Fujian"
 
 #. A state/province/territory in China
 msgid "Gansu"
-msgstr ""
+msgstr "Gansu"
 
 #. A state/province/territory in China
 msgid "Guangdong"
-msgstr ""
+msgstr "Guangdong"
 
 #. A state/province/territory in China
 msgid "Guangxi"
-msgstr ""
+msgstr "Guangxi"
 
 #. A state/province/territory in China
 msgid "Guizhou"
-msgstr ""
+msgstr "Guizhou"
 
 #. A state/province/territory in China
 msgid "Hainan"
-msgstr ""
+msgstr "Hainan"
 
 #. A state/province/territory in China
 msgid "Heilongjiang"
-msgstr ""
+msgstr "Heilongjiang"
 
 #. A state/province/territory in China
 msgid "Henan"
-msgstr ""
+msgstr "Henan"
 
 #. A state/province/territory in China
 msgid "Hubei"
-msgstr ""
+msgstr "Hubei"
 
 #. A state/province/territory in China
 msgid "Hunan"
-msgstr ""
+msgstr "Hunan"
 
 #. A state/province/territory in China
 msgid "Inner Mongolia"
-msgstr ""
+msgstr "Inner Mongolia"
 
 #. A state/province/territory in China
 msgid "Jiangsu"
-msgstr ""
+msgstr "Jiangsu"
 
 #. A state/province/territory in China
 msgid "Jilin"
-msgstr ""
+msgstr "Jilin"
 
 #. A state/province/territory in China
 msgid "Liaoning"
-msgstr ""
+msgstr "Liaoning"
 
 #. A state/province/territory in China
 msgid "Shaanxi"
-msgstr ""
+msgstr "Shaanxi"
 
 #. A state/province/territory in China
 msgid "Shandong"
-msgstr ""
+msgstr "Shandong"
 
 #. A state/province/territory in China
 msgctxt "State in China"
 msgid "Shanghai"
-msgstr ""
+msgstr "Shanghai"
 
 #. A state/province/territory in China
 msgid "Shanxi"
-msgstr ""
+msgstr "Shanxi"
 
 #. A state/province/territory in China
 msgid "Sichuan"
-msgstr ""
+msgstr "Sichuan"
 
 #. A state/province/territory in China
 msgctxt "State in China"
 msgid "Tianjin"
-msgstr ""
+msgstr "Tianjin"
 
 #. A state/province/territory in China
 msgid "Xinjiang"
-msgstr ""
+msgstr "Xinjiang"
 
 #. A state/province/territory in China
 msgid "Yunnan"
-msgstr ""
+msgstr "Yunnan"
 
 #. A state/province/territory in China
 msgid "Zhejiang"
-msgstr ""
+msgstr "Zhejiang"
 
 msgid "Tbilisi"
-msgstr ""
+msgstr "Tbilisi"
 
 #. A state/province/territory in Germany
 msgid "Baden-Württemberg"
-msgstr ""
+msgstr "Baden-Württemberg"
 
 #. A state in Germany.  The local name is "Bayern". Please
 #. use that unless you know that it has a different name in
 #. your language.
 msgid "Bavaria"
-msgstr ""
+msgstr "Bavaria"
 
 #. A state/province/territory in Germany
 msgctxt "State in Germany"
 msgid "Berlin"
-msgstr ""
+msgstr "Berlin"
 
 #. A state/province/territory in Germany
 msgid "Brandenburg"
-msgstr ""
+msgstr "Brandenburg"
 
 #. A state/province/territory in Germany
 msgctxt "State in Germany"
 msgid "Bremen"
-msgstr ""
+msgstr "Bremen"
 
 #. A state/province/territory in Germany
 msgctxt "State in Germany"
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamburg"
 
 #. A state in Germany.  The local name is "Hessen". Please
 #. use that unless you know that it has a different name in
 #. your language.
 msgid "Hesse"
-msgstr ""
+msgstr "Hesse"
 
 #. A state in Germany.  The local name is "Niedersachsen".
 #. Please use that unless you know that it has a different
 #. name in your language.
 msgid "Lower Saxony"
-msgstr ""
+msgstr "Lower Saxony"
 
 #. A state in Germany.  The local name is
 #. "Mecklenburg-Vorpommern". Please use that unless you know
 #. that it has a different name in your language.
 msgid "Mecklenburg-Western Pomerania"
-msgstr ""
+msgstr "Mecklenburg-Western Pomerania"
 
 #. A state in Germany.  The local name is
 #. "Nordrhein-Westfalen". Please use that unless you know
 #. that it has a different name in your language.
 msgid "North Rhine-Westphalia"
-msgstr ""
+msgstr "North Rhine-Westphalia"
 
 #. A state in Germany.  The local name is "Rheinland-Pfalz".
 #. Please use that unless you know that it has a different
 #. name in your language.
 msgid "Rhineland-Palatinate"
-msgstr ""
+msgstr "Rhineland-Palatinate"
 
 #. A state/province/territory in Germany
 msgid "Saarland"
-msgstr ""
+msgstr "Saarland"
 
 #. A state in Germany.  The local name is "Sachsen". Please
 #. use that unless you know that it has a different name in
 #. your language.
 msgid "Saxony"
-msgstr ""
+msgstr "Saxony"
 
 #. A state in Germany.  The local name is "Sachsen-Anhalt".
 #. Please use that unless you know that it has a different
@@ -2295,7 +2295,7 @@ msgstr ""
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
 msgid "Distrito Federal"
-msgstr ""
+msgstr "Distrito Federal"
 
 #. A state/province/territory in Mexico
 msgctxt "State in Mexico"
@@ -3172,7 +3172,7 @@ msgstr ""
 #. The local name is "Antwerpen".
 msgctxt "City in Antwerp, Belgium"
 msgid "Antwerp"
-msgstr ""
+msgstr "Antwerp"
 
 #. A city in Brussels, Flemish and Walloon Brabant in
 #. Belgium
@@ -3649,7 +3649,7 @@ msgstr ""
 #. A city in Rio de Janeiro in Brazil
 msgctxt "City in Rio de Janeiro, Brazil"
 msgid "Rio de Janeiro"
-msgstr ""
+msgstr "Rio de Janeiro"
 
 #. A city in Bahia in Brazil
 msgid "Salvador"
@@ -3691,7 +3691,7 @@ msgstr ""
 #. A city in São Paulo in Brazil
 msgctxt "City in São Paulo, Brazil"
 msgid "São Paulo"
-msgstr ""
+msgstr "São Paulo"
 
 #. A city in Rio de Janeiro in Brazil
 msgid "São Pedro da Aldeia"
@@ -4893,7 +4893,7 @@ msgstr ""
 #. The local name in French is "Québec".
 msgctxt "City in Quebec, Canada"
 msgid "Quebec"
-msgstr ""
+msgstr "Quebec"
 
 #. A city in British Columbia in Canada
 msgid "Queen Charlotte"
@@ -5289,7 +5289,7 @@ msgstr ""
 #. A city in British Columbia in Canada
 msgctxt "City in British Columbia, Canada"
 msgid "Victoria"
-msgstr ""
+msgstr "Victoria"
 
 #. A city in Manitoba in Canada
 msgid "Victoria Beach"
@@ -5474,7 +5474,7 @@ msgstr ""
 #. The capital of China
 msgctxt "City in Beijing, China"
 msgid "Beijing"
-msgstr ""
+msgstr "Beijing"
 
 #. A city in Jilin in China.
 #. The name is also written "长春".
@@ -5495,7 +5495,7 @@ msgstr ""
 #. The name is also written "重庆".
 msgctxt "City in Chongqing, China"
 msgid "Chongqing"
-msgstr ""
+msgstr "Chongqing"
 
 #. A city in Liaoning in China
 msgid "Dalian"
@@ -5571,7 +5571,7 @@ msgstr ""
 #. The name is also written "上海".
 msgctxt "City in Shanghai, China"
 msgid "Shanghai"
-msgstr ""
+msgstr "Shanghai"
 
 #. A city in Guangdong in China
 msgid "Shantou"
@@ -5595,7 +5595,7 @@ msgstr ""
 #. The name is also written "天津".
 msgctxt "City in Tianjin, China"
 msgid "Tianjin"
-msgstr ""
+msgstr "Tianjin"
 
 #. A city in Xinjiang in China.
 #. The name is also written "乌鲁木齐".
@@ -5745,7 +5745,7 @@ msgstr ""
 #. A city in Costa Rica
 msgctxt "City in Costa Rica"
 msgid "Liberia"
-msgstr ""
+msgstr "Liberia"
 
 #. A city in Costa Rica
 msgid "Mata de Palo"
@@ -6637,7 +6637,7 @@ msgstr ""
 #. The capital of Germany
 msgctxt "City in Berlin, Germany"
 msgid "Berlin"
-msgstr ""
+msgstr "Berlin"
 
 #. A city in Thuringia in Germany
 msgid "Bindersleben"
@@ -6658,7 +6658,7 @@ msgstr ""
 #. A city in Bremen in Germany
 msgctxt "City in Bremen, Germany"
 msgid "Bremen"
-msgstr ""
+msgstr "Bremen"
 
 #. A city in Rhineland-Palatinate in Germany
 msgid "Büchel"
@@ -6715,7 +6715,7 @@ msgstr ""
 #. A city in Hamburg in Germany
 msgctxt "City in Hamburg, Germany"
 msgid "Hamburg"
-msgstr ""
+msgstr "Hamburg"
 
 #. A city in Lower Saxony in Germany
 msgid "Hannover"
@@ -8496,7 +8496,7 @@ msgstr ""
 #. The local name in Arabic is "Al Kuwayt / الكويت".
 msgctxt "City in Kuwait"
 msgid "Kuwait"
-msgstr ""
+msgstr "Kuwait"
 
 #. The capital of Kyrgyzstan
 msgid "Bishkek"
@@ -8559,13 +8559,13 @@ msgstr ""
 #. The capital of Luxembourg
 msgctxt "City in Luxembourg"
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
 #. The capital of Macau.
 #. The local name in Chinese is "Aomen / 澳门".
 msgctxt "City in Macau"
 msgid "Macau"
-msgstr ""
+msgstr "Macau"
 
 #. A city in Macau.
 #. The local name in Chinese is "Dangzai / 氹仔".
@@ -8684,7 +8684,7 @@ msgstr ""
 #. A city in Malaysia
 msgctxt "City in Malaysia"
 msgid "Victoria"
-msgstr ""
+msgstr "Victoria"
 
 #. The capital of the Maldives.
 #. "Male" is the traditional English name.
@@ -9006,7 +9006,7 @@ msgstr ""
 #. The capital of Monaco
 msgctxt "City in Monaco"
 msgid "Monaco"
-msgstr ""
+msgstr "Monaco"
 
 #. The capital of Mongolia.
 #. The name is also written "Улаанбаатар".
@@ -10188,7 +10188,7 @@ msgstr ""
 #. The capital of San Marino
 msgctxt "City in San Marino"
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #. A city in Saudi Arabia
 msgid "'Ar'ar"
@@ -10355,7 +10355,7 @@ msgstr ""
 #. The capital of the Seychelles
 msgctxt "City in Seychelles"
 msgid "Victoria"
-msgstr ""
+msgstr "Victoria"
 
 #. The capital of Sierra Leone
 msgid "Freetown"
@@ -10368,7 +10368,7 @@ msgstr ""
 #. The capital of Singapore
 msgctxt "City in Singapore"
 msgid "Singapore"
-msgstr ""
+msgstr "Singapore"
 
 #. The capital of Slovakia
 msgid "Bratislava"
@@ -11402,14 +11402,14 @@ msgstr ""
 msgid "Kharkiv"
 msgstr ""
 
-#. The capital of Ukraine.
-#. "Kiev" is the traditional English name.
-#. The local name in Ukrainian is "Kyyiv".
-msgid "Kiev"
-msgstr ""
-
 #. A city in Ukraine
 msgid "Kryvyy Rih"
+msgstr ""
+
+#. The capital of Ukraine.
+#. "Kyiv" is the traditional English name.
+#. The local name in Ukrainian is "Kyyiv".
+msgid "Kyiv"
 msgstr ""
 
 #. A city in Ukraine
@@ -12434,7 +12434,7 @@ msgstr ""
 #. A city in New Hampshire in the United States
 msgctxt "City in New Hampshire, United States"
 msgid "Berlin"
-msgstr ""
+msgstr "Berlin"
 
 #. A city in Alaska in the United States
 msgid "Bethel"
@@ -14935,7 +14935,7 @@ msgstr ""
 #. A city in Montana in the United States
 msgctxt "City in Montana, United States"
 msgid "Jordan"
-msgstr ""
+msgstr "Jordan"
 
 #. A city in New Jersey in the United States
 msgid "Juliustown"
@@ -15332,7 +15332,7 @@ msgstr ""
 #. A city in New Hampshire in the United States
 msgctxt "City in New Hampshire, United States"
 msgid "Lebanon"
-msgstr ""
+msgstr "Lebanon"
 
 #. A city in Florida in the United States
 msgctxt "City in Florida, United States"
@@ -15564,7 +15564,7 @@ msgstr ""
 #. A city in Idaho in the United States
 msgctxt "City in Idaho, United States"
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 #. A city in Virginia in the United States
 msgid "Manassas"
@@ -16468,12 +16468,12 @@ msgstr ""
 #. A city in California in the United States
 msgctxt "City in California, United States"
 msgid "Ontario"
-msgstr ""
+msgstr "Ontario"
 
 #. A city in Oregon in the United States
 msgctxt "City in Oregon, United States"
 msgid "Ontario"
-msgstr ""
+msgstr "Ontario"
 
 #. A city in California in the United States
 msgctxt "City in California, United States"
@@ -16755,12 +16755,12 @@ msgstr ""
 #. A city in Illinois in the United States
 msgctxt "City in Illinois, United States"
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #. A city in Indiana in the United States
 msgctxt "City in Indiana, United States"
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #. A city in Alaska in the United States
 msgctxt "City in Alaska, United States"
@@ -18228,7 +18228,7 @@ msgstr ""
 #. A city in Texas in the United States
 msgctxt "City in Texas, United States"
 msgid "Victoria"
-msgstr ""
+msgstr "Victoria"
 
 #. A city in California in the United States
 msgid "Victorville"
