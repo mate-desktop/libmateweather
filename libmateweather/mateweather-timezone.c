@@ -61,7 +61,8 @@ static gboolean
 parse_tzdata (const char *tzname, time_t start, time_t end,
 	      int *offset, gboolean *has_dst, int *dst_offset)
 {
-    char *tzdir, *filename, *contents;
+    char *filename, *contents;
+    const char *tzdir;
     gsize length;
     int timecnt, transitions_size, ttinfo_map_size;
     int initial_transition = -1, second_transition = -1;
