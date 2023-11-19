@@ -550,7 +550,7 @@ metar_start_open (WeatherInfo *info)
     }
 
     msg = soup_form_request_new (
-        "GET", "https://www.aviationweather.gov/cgi-bin/data/dataserver.php",
+        "GET", "https://aviationweather.gov/cgi-bin/data/dataserver.php",
         "dataSource", "metars",
         "requestType", "retrieve",
         "format", "xml",
