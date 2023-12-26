@@ -1,3 +1,8 @@
+### libmateweather 1.26.3
+
+  * Translations update
+  * The url with 'www.' is a permanent redirect (308) to the url without it
+
 ### libmateweather 1.26.2
 
   * Translations update
