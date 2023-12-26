@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Green <usergreen@users.osdn.me>, 2022
+# Green <usergreen@users.osdn.me>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 22:20+0200\n"
 "PO-Revision-Date: 2021-12-11 13:55+0000\n"
-"Last-Translator: Green <usergreen@users.osdn.me>, 2022\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2200,7 +2200,7 @@ msgstr "ハンブルグ"
 #. use that unless you know that it has a different name in
 #. your language.
 msgid "Hessen"
-msgstr ""
+msgstr "ヘッセン"
 
 #. A state in Germany.  The local name is "Niedersachsen".
 #. Please use that unless you know that it has a different
@@ -2892,7 +2892,7 @@ msgstr "サンフェルナンド"
 
 #. A city in Argentina
 msgid "San Miguel de Tucuman"
-msgstr ""
+msgstr "サン・ミゲル・デ・トゥクマン"
 
 #. A city in Argentina
 msgid "San Salvador de Jujuy"

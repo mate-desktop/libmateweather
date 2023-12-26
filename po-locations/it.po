@@ -2201,7 +2201,7 @@ msgstr "Amburgo"
 #. use that unless you know that it has a different name in
 #. your language.
 msgid "Hessen"
-msgstr ""
+msgstr "Assia"
 
 #. A state in Germany.  The local name is "Niedersachsen".
 #. Please use that unless you know that it has a different
@@ -3133,7 +3133,7 @@ msgstr "Dhaka"
 
 #. A city in Bangladesh
 msgid "Solapur"
-msgstr ""
+msgstr "Solapur"
 
 #. The capital of Barbados
 msgid "Bridgetown"
