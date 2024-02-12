@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Green <usergreen@users.osdn.me>, 2022
+# Green <usergreen@users.osdn.me>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-01 19:57+0200\n"
+"POT-Creation-Date: 2023-10-18 22:07+0200\n"
 "PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Green <usergreen@users.osdn.me>, 2022\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1429,6 +1429,7 @@ msgstr "ウェーク島標準時"
 #. Tocantins. See the comment on "Brasília Time" for more
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
+#. A state/province/territory in Brazil
 msgid "Tocantins"
 msgstr "トカンチンス標準時"
 
@@ -2001,10 +2002,6 @@ msgctxt "State in Brazil"
 msgid "São Paulo"
 msgstr "サンパウロ"
 
-#. A state/province/territory in Brazil
-msgid "Tocantis"
-msgstr "トカンティンス"
-
 #. A state/province/territory in Canada
 msgid "Alberta"
 msgstr "アルバータ"
@@ -2202,7 +2199,7 @@ msgstr "ハンブルグ"
 #. A state in Germany.  The local name is "Hessen". Please
 #. use that unless you know that it has a different name in
 #. your language.
-msgid "Hesse"
+msgid "Hessen"
 msgstr "ヘッセン"
 
 #. A state in Germany.  The local name is "Niedersachsen".
@@ -2895,7 +2892,7 @@ msgstr "サンフェルナンド"
 
 #. A city in Argentina
 msgid "San Miguel de Tucuman"
-msgstr ""
+msgstr "サン・ミゲル・デ・トゥクマン"
 
 #. A city in Argentina
 msgid "San Salvador de Jujuy"
@@ -3134,8 +3131,8 @@ msgid "Dhaka"
 msgstr "ダッカ"
 
 #. A city in Bangladesh
-msgid "Solpur"
-msgstr "ソラプール"
+msgid "Solapur"
+msgstr ""
 
 #. The capital of Barbados
 msgid "Bridgetown"
@@ -6691,7 +6688,7 @@ msgstr ""
 msgid "Faßberg"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Frankfurt"
 msgstr ""
 
@@ -6699,7 +6696,7 @@ msgstr ""
 msgid "Friedrichshafen"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Fritzlar"
 msgstr ""
 
@@ -6748,7 +6745,7 @@ msgstr ""
 msgid "Karlsruhe"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Kassel"
 msgstr ""
 
@@ -6894,7 +6891,7 @@ msgstr ""
 msgid "Westerland"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Wiesbaden"
 msgstr ""
 

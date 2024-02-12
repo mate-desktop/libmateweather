@@ -8,17 +8,17 @@
 # Дмитрий Михирев, 2021
 # DrSheppard <georg.b2012@gmail.com>, 2022
 # HectorB_2020, 2022
-# Sergej A. <Ser82-png@yandex.ru>, 2023
-# Andrei Stepanov, 2023
+# Sergej A. <Ser82-png@yandex.ru>, 2024
+# Andrei Stepanov, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-01 19:57+0200\n"
+"POT-Creation-Date: 2023-10-18 22:07+0200\n"
 "PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Andrei Stepanov, 2023\n"
+"Last-Translator: Andrei Stepanov, 2024\n"
 "Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1433,6 +1433,7 @@ msgstr "Остров Уэйк"
 #. Tocantins. See the comment on "Brasília Time" for more
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
+#. A state/province/territory in Brazil
 msgid "Tocantins"
 msgstr "Токантинс"
 
@@ -2008,10 +2009,6 @@ msgctxt "State in Brazil"
 msgid "São Paulo"
 msgstr "Сан-Паулу"
 
-#. A state/province/territory in Brazil
-msgid "Tocantis"
-msgstr "Токантинс"
-
 #. A state/province/territory in Canada
 msgid "Alberta"
 msgstr "Альберта"
@@ -2209,7 +2206,7 @@ msgstr "Гамбург"
 #. A state in Germany.  The local name is "Hessen". Please
 #. use that unless you know that it has a different name in
 #. your language.
-msgid "Hesse"
+msgid "Hessen"
 msgstr "Гессен"
 
 #. A state in Germany.  The local name is "Niedersachsen".
@@ -3141,8 +3138,8 @@ msgid "Dhaka"
 msgstr "Дакка"
 
 #. A city in Bangladesh
-msgid "Solpur"
-msgstr "Солпур"
+msgid "Solapur"
+msgstr "Солапур"
 
 #. The capital of Barbados
 msgid "Bridgetown"
@@ -3369,7 +3366,7 @@ msgstr "Сараево"
 
 #. A city in Botswana
 msgid "Francistown"
-msgstr ""
+msgstr "Франсистаун"
 
 #. The capital of Botswana
 msgid "Gaborone"
@@ -3377,15 +3374,15 @@ msgstr "Габороне"
 
 #. A city in Botswana
 msgid "Ghanzi"
-msgstr ""
+msgstr "Ганзи"
 
 #. A city in Botswana
 msgid "Kasane"
-msgstr ""
+msgstr "Касане"
 
 #. A city in Botswana
 msgid "Letlhakane"
-msgstr ""
+msgstr "Летлхакане"
 
 #. A city in Botswana
 msgid "Lokerane"
@@ -3421,35 +3418,35 @@ msgstr "Анаполис"
 
 #. A city in Sergipe in Brazil
 msgid "Aracaju"
-msgstr ""
+msgstr "Аракажу"
 
 #. A city in Minas Gerais in Brazil
 msgid "Barbacena"
-msgstr ""
+msgstr "Барбасена"
 
 #. A city in Mato Grosso in Brazil
 msgid "Barra do Garças"
-msgstr ""
+msgstr "Барра-ду-Гарсас"
 
 #. A city in São Paulo in Brazil
 msgid "Bauru"
-msgstr ""
+msgstr "Бауру"
 
 #. A city in Minas Gerais in Brazil
 msgid "Belo Horizonte"
-msgstr ""
+msgstr "Белу-Оризонти"
 
 #. A city in Pará in Brazil
 msgid "Belém"
-msgstr ""
+msgstr "Белен"
 
 #. A city in Roraima in Brazil
 msgid "Boa Vista"
-msgstr ""
+msgstr "Боа-Виста"
 
 #. A city in Bahia in Brazil
 msgid "Bom Jesus da Lapa"
-msgstr ""
+msgstr "Бон-Жезус-да-Лапа"
 
 #. The capital of Brazil
 msgid "Brasília"
@@ -3457,200 +3454,200 @@ msgstr "Бразилиа"
 
 #. A city in Pará in Brazil
 msgid "Cachimbo"
-msgstr ""
+msgstr "Качимбо"
 
 #. A city in Paraíba in Brazil
 msgid "Campina Grande"
-msgstr ""
+msgstr "Кампина-Гранди"
 
 #. A city in São Paulo in Brazil
 msgid "Campinas"
-msgstr ""
+msgstr "Кампинас"
 
 #. A city in Mato Grosso do Sul in Brazil
 msgid "Campo Grande"
-msgstr ""
+msgstr "Кампу-Гранди"
 
 #. A city in Rio de Janeiro in Brazil
 msgid "Campos"
-msgstr ""
+msgstr "Кампос"
 
 #. A city in Pará in Brazil
 msgid "Conceição do Araguaia"
-msgstr ""
+msgstr "Консейсан-ду-Арагуая"
 
 #. A city in Mato Grosso do Sul in Brazil
 msgid "Corumbá"
-msgstr ""
+msgstr "Корумба"
 
 #. A city in Acre in Brazil
 msgid "Cruzeiro do Sul"
-msgstr ""
+msgstr "Крузейру-ду-Сул"
 
 #. A city in Mato Grosso in Brazil
 msgid "Cuiabá"
-msgstr ""
+msgstr "Куяба"
 
 #. A city in Paraná in Brazil
 msgid "Curitiba"
-msgstr ""
+msgstr "Куритиба"
 
 #. A city in Bahia in Brazil
 msgid "Feira de Santana"
-msgstr ""
+msgstr "Фейра-ди-Сантана"
 
 #. A city in Santa Catarina in Brazil
 msgid "Florianópolis"
-msgstr ""
+msgstr "Флорианополис"
 
 #. A city in Ceará in Brazil
 msgid "Fortaleza"
-msgstr ""
+msgstr "Форталеза"
 
 #. A city in Paraná in Brazil
 msgid "Foz do Iguaçu"
-msgstr ""
+msgstr "Фос-ду-Игуасу"
 
 #. A city in Goiás in Brazil
 msgid "Goiânia"
-msgstr ""
+msgstr "Гояния"
 
 #. A city in São Paulo in Brazil
 msgid "Guaratinguetá"
-msgstr ""
+msgstr "Гуаратингета"
 
 #. A city in São Paulo in Brazil
 msgid "Guarulhos"
-msgstr ""
+msgstr "Гуарульюс"
 
 #. A city in Bahia in Brazil
 msgid "Ilhéus"
-msgstr ""
+msgstr "Ильеус"
 
 #. A city in Maranhão in Brazil
 msgid "Imperatriz"
-msgstr ""
+msgstr "Императрис"
 
 #. A city in Pará in Brazil
 msgid "Itaituba"
-msgstr ""
+msgstr "Итайтуба"
 
 #. A city in Pará in Brazil
 msgid "Jacareacanga"
-msgstr ""
+msgstr "Жакареаканга"
 
 #. A city in Santa Catarina in Brazil
 msgid "Joinville"
-msgstr ""
+msgstr "Жоинвили"
 
 #. A city in Paraíba in Brazil
 msgid "João Pessoa"
-msgstr ""
+msgstr "Жуан-Песоа"
 
 #. A city in Minas Gerais in Brazil
 msgid "Juiz de Fora"
-msgstr ""
+msgstr "Жуис-ди-Фора"
 
 #. A city in Paraná in Brazil
 msgid "Londrina"
-msgstr ""
+msgstr "Лондрина"
 
 #. A city in Alagoas in Brazil
 msgid "Maceió"
-msgstr ""
+msgstr "Масейо"
 
 #. A city in Amazonas in Brazil
 msgid "Manaus"
-msgstr ""
+msgstr "Манаус"
 
 #. A city in Amazonas in Brazil
 msgid "Manicoré"
-msgstr ""
+msgstr "Маникоре"
 
 #. A city in Pará in Brazil
 msgid "Marabá"
-msgstr ""
+msgstr "Мараба"
 
 #. A city in Paraná in Brazil
 msgid "Maringá"
-msgstr ""
+msgstr "Маринга"
 
 #. A city in Minas Gerais in Brazil
 msgid "Montes Claros"
-msgstr ""
+msgstr "Монтис-Кларус"
 
 #. A city in Rio Grande do Norte in Brazil
 msgid "Mossoró"
-msgstr ""
+msgstr "Мосоро"
 
 #. A city in Rio Grande do Norte in Brazil
 msgctxt "City in Rio Grande do Norte, Brazil"
 msgid "Natal"
-msgstr ""
+msgstr "Натал"
 
 #. A city in Amapá in Brazil
 msgid "Oiapoque"
-msgstr ""
+msgstr "Ояпоки"
 
 #. A city in São Paulo in Brazil
 msgid "Palmeiras"
-msgstr ""
+msgstr "Палмейрас"
 
 #. A city in Piauí in Brazil
 msgid "Parnaíba"
-msgstr ""
+msgstr "Парнаиба"
 
 #. A city in Bahia in Brazil
 msgid "Paulo Afonso"
-msgstr ""
+msgstr "Паулу-Афонсу"
 
 #. A city in Rio Grande do Sul in Brazil
 msgid "Pelotas"
-msgstr ""
+msgstr "Пелотас"
 
 #. A city in Pernambuco in Brazil
 msgid "Petrolina"
-msgstr ""
+msgstr "Петролина"
 
 #. A city in São Paulo in Brazil
 msgid "Piraçununga"
-msgstr ""
+msgstr "Пирассунунга"
 
 #. A city in Pará in Brazil
 msgid "Piri Grande"
-msgstr ""
+msgstr "Пири-Гранди"
 
 #. A city in Mato Grosso do Sul in Brazil
 msgid "Ponta Porã"
-msgstr ""
+msgstr "Понта-Поран"
 
 #. A city in Rio Grande do Sul in Brazil
 msgid "Porto Alegre"
-msgstr ""
+msgstr "Порту-Алегри"
 
 #. A city in Minas Gerais in Brazil
 msgid "Poços de Caldas"
-msgstr ""
+msgstr "Посус-ди-Калдас"
 
 #. A city in São Paulo in Brazil
 msgid "Presidente Prudente"
-msgstr ""
+msgstr "Президенти-Пруденти"
 
 #. A city in Bahia in Brazil
 msgid "Pôrto Seguro"
-msgstr ""
+msgstr "Порту-Сегуру"
 
 #. A city in Rondônia in Brazil
 msgid "Pôrto Velho"
-msgstr ""
+msgstr "Порту-Велью"
 
 #. A city in Pernambuco in Brazil
 msgid "Recife"
-msgstr ""
+msgstr "Ресифи"
 
 #. A city in Acre in Brazil
 msgid "Rio Branco"
-msgstr ""
+msgstr "Рио-Бранку"
 
 #. A city in Rio de Janeiro in Brazil
 msgctxt "City in Rio de Janeiro, Brazil"
@@ -3659,40 +3656,40 @@ msgstr "Рио-де-Жанейро"
 
 #. A city in Bahia in Brazil
 msgid "Salvador"
-msgstr ""
+msgstr "Салвадор"
 
 #. A city in Rio Grande do Sul in Brazil
 msgctxt "City in Rio Grande do Sul, Brazil"
 msgid "Santa Maria"
-msgstr ""
+msgstr "Санта-Мария"
 
 #. A city in Pará in Brazil
 msgid "Santarém"
-msgstr ""
+msgstr "Сантарен"
 
 #. A city in São Paulo in Brazil
 msgid "Santos"
-msgstr ""
+msgstr "Сантус"
 
 #. A city in Santa Catarina in Brazil
 msgid "São Bento do Sul"
-msgstr ""
+msgstr "Сан-Бенту-ду-Сул"
 
 #. A city in Amazonas in Brazil
 msgid "São Félix"
-msgstr ""
+msgstr "Сан-Фелис"
 
 #. A city in Amazonas in Brazil
 msgid "São Gabriel"
-msgstr ""
+msgstr "Сан-Габриел"
 
 #. A city in São Paulo in Brazil
 msgid "São José dos Campos"
-msgstr ""
+msgstr "Сан-Жозе-дус-Кампус"
 
 #. A city in Maranhão in Brazil
 msgid "São Luís"
-msgstr ""
+msgstr "Сан-Луис"
 
 #. A city in São Paulo in Brazil
 msgctxt "City in São Paulo, Brazil"
@@ -3701,51 +3698,51 @@ msgstr "Сан-Паулу"
 
 #. A city in Rio de Janeiro in Brazil
 msgid "São Pedro da Aldeia"
-msgstr ""
+msgstr "Сан-Педру-да-Алдея"
 
 #. A city in Acre in Brazil
 msgid "Tarauacá"
-msgstr ""
+msgstr "Тарауака"
 
 #. A city in Amazonas in Brazil
 msgid "Tefé"
-msgstr ""
+msgstr "Тефе"
 
 #. A city in Piauí in Brazil
 msgid "Teresina"
-msgstr ""
+msgstr "Терезина"
 
 #. A city in Pará in Brazil
 msgid "Tucuruí"
-msgstr ""
+msgstr "Тукуруи"
 
 #. A city in Minas Gerais in Brazil
 msgid "Uberaba"
-msgstr ""
+msgstr "Убераба"
 
 #. A city in Minas Gerais in Brazil
 msgid "Uberlândia"
-msgstr ""
+msgstr "Уберландия"
 
 #. A city in Rio Grande do Sul in Brazil
 msgid "Uruguaiana"
-msgstr ""
+msgstr "Уругуаяна"
 
 #. A city in Pernambuco in Brazil
 msgid "Vila dos Remédios"
-msgstr ""
+msgstr "Вила дос Ремедиос"
 
 #. A city in Rondônia in Brazil
 msgid "Vilhena"
-msgstr ""
+msgstr "Вильена"
 
 #. A city in Espírito Santo in Brazil
 msgid "Vitória"
-msgstr ""
+msgstr "Витория"
 
 #. A city in Bahia in Brazil
 msgid "Vitória da Conquista"
-msgstr ""
+msgstr "Витория-да-Конкиста"
 
 #. The capital of the British Virgin Islands
 msgid "Road Town"
@@ -3797,19 +3794,19 @@ msgstr "Пномпень"
 
 #. A city in Cambodia
 msgid "Siemreab"
-msgstr ""
+msgstr "Сиемреап"
 
 #. A city in Cameroon
 msgid "Douala"
-msgstr ""
+msgstr "Дуала"
 
 #. A city in Cameroon
 msgid "Garoua"
-msgstr ""
+msgstr "Гаруа"
 
 #. A city in Cameroon
 msgid "Ngaoundere"
-msgstr ""
+msgstr "Нгаундере"
 
 #. The capital of Cameroon
 msgid "Yaounde"
@@ -3817,11 +3814,11 @@ msgstr "Яунде"
 
 #. A city in British Columbia in Canada
 msgid "Abbotsford"
-msgstr ""
+msgstr "Абботсфорд"
 
 #. A city in British Columbia in Canada
 msgid "Agassiz"
-msgstr ""
+msgstr "Агасси"
 
 #. A city in Northwest Territories in Canada
 msgid "Aklavik"
@@ -4712,7 +4709,7 @@ msgstr ""
 #. A city in British Columbia in Canada
 msgctxt "City in British Columbia, Canada"
 msgid "Natal"
-msgstr ""
+msgstr "Натал"
 
 #. A city in Quebec in Canada
 msgid "Natashquan"
@@ -6698,7 +6695,7 @@ msgstr ""
 msgid "Faßberg"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Frankfurt"
 msgstr "Франкфурт-на-Майне"
 
@@ -6706,7 +6703,7 @@ msgstr "Франкфурт-на-Майне"
 msgid "Friedrichshafen"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Fritzlar"
 msgstr ""
 
@@ -6755,7 +6752,7 @@ msgstr ""
 msgid "Karlsruhe"
 msgstr "Карлсруэ"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Kassel"
 msgstr ""
 
@@ -6901,7 +6898,7 @@ msgstr ""
 msgid "Westerland"
 msgstr ""
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Wiesbaden"
 msgstr "Висбаден"
 
@@ -7270,35 +7267,35 @@ msgstr ""
 #. A city in India
 #. the local name in Bengali is "আগরতলা/Agortôla"
 msgid "Agartala"
-msgstr ""
+msgstr "Агартала"
 
 #. A city in India
 #. the local name in Hindi is "आगरा"
 msgid "Agra"
-msgstr ""
+msgstr "Агра"
 
 #. A city in India
 msgid "Ahmadabad"
-msgstr ""
+msgstr "Ахмадабад"
 
 #. A city in India
 #. the local name in Hindi is "इलाहाबाद"
 msgid "Allahabad"
-msgstr ""
+msgstr "Праяградж"
 
 #. A city in India
 #. the local name in Punjabi is "ਅੰਮ੍ਰਿਤਸਰ"
 msgid "Amritsar"
-msgstr ""
+msgstr "Амритсар"
 
 #. A city in India
 #. the local name in Marathi is "औरंगाबाद"
 msgid "Aurangabad"
-msgstr ""
+msgstr "Аурангабад"
 
 #. A city in India
 msgid "Bagdogra"
-msgstr ""
+msgstr "Багдогра"
 
 #. A city in India - local airport
 #. "Bengaluru" is the new name
@@ -7598,7 +7595,7 @@ msgstr "Киш"
 
 #. A city in Iran
 msgid "Lar"
-msgstr ""
+msgstr "Лар"
 
 #. A city in Iran.
 #. The name is also written "مشهد".
@@ -7608,7 +7605,7 @@ msgstr "Мешхед"
 #. A city in Iran.
 #. The name is also written "مسجد سلیمان".
 msgid "Masjed Soleyman"
-msgstr ""
+msgstr "Месджеде-Солейман"
 
 #. A city in Iran.
 #. The name is also written "نو شهر".
@@ -10168,11 +10165,11 @@ msgstr "Кастри"
 
 #. A city in Saint Lucia
 msgid "Pointe Sable"
-msgstr ""
+msgstr "Поинте Сабле"
 
 #. A city in Saint Lucia
 msgid "Vigie"
-msgstr ""
+msgstr "Виги"
 
 #. The capital of Saint Pierre and Miquelon
 msgctxt "City in Saint Pierre and Miquelon"
@@ -10181,7 +10178,7 @@ msgstr "Сен-Пьер"
 
 #. A city in Saint Vincent and the Grenadines
 msgid "Arnos Vale"
-msgstr ""
+msgstr "Арнос Вейл"
 
 #. The capital of Saint Vincent and the Grenadines
 msgid "Kingstown"
@@ -10356,7 +10353,7 @@ msgstr "Земун"
 
 #. A city in the Seychelles
 msgid "Cascade"
-msgstr ""
+msgstr "Каскад"
 
 #. The capital of the Seychelles
 msgctxt "City in Seychelles"
@@ -10369,7 +10366,7 @@ msgstr "Фритаун"
 
 #. A city in Sierra Leone
 msgid "Lungi"
-msgstr ""
+msgstr "Лунги"
 
 #. The capital of Singapore
 msgctxt "City in Singapore"
@@ -10517,39 +10514,39 @@ msgstr "Тэгу"
 
 #. A city in Spain
 msgid "A Coruña"
-msgstr ""
+msgstr "Ла-Корунья"
 
 #. A city in Spain
 msgid "Agoncillo"
-msgstr ""
+msgstr "Агонсильо"
 
 #. A city in Spain
 msgid "Alcantarilla"
-msgstr ""
+msgstr "Алькантарилья"
 
 #. A city in Spain
 msgid "Alicante"
-msgstr ""
+msgstr "Аликанте"
 
 #. A city in Spain
 msgid "Almería"
-msgstr ""
+msgstr "Альмерия"
 
 #. A city in Spain
 msgid "Armilla"
-msgstr ""
+msgstr "Армилья"
 
 #. A city in Spain
 msgid "Atogo"
-msgstr ""
+msgstr "Атого"
 
 #. A city in Spain
 msgid "Avilés"
-msgstr ""
+msgstr "Авилес"
 
 #. A city in Spain
 msgid "Barajas"
-msgstr ""
+msgstr "Барахас"
 
 #. A city in Spain
 msgctxt "City in Spain"
@@ -10558,19 +10555,19 @@ msgstr "Барселона"
 
 #. A city in Spain
 msgid "Bilbao"
-msgstr ""
+msgstr "Бильбао"
 
 #. A city in Spain
 msgid "Colmenar Viejo"
-msgstr ""
+msgstr "Кольменар-Вьехо"
 
 #. A city in Spain
 msgid "Corcovados"
-msgstr ""
+msgstr "Корковадос"
 
 #. A city in Spain
 msgid "Cuatro Vientos"
-msgstr ""
+msgstr "Куатро Виентос"
 
 #. A city in Spain
 msgctxt "City in Spain"
@@ -10579,31 +10576,31 @@ msgstr "Кордова"
 
 #. A city in Spain
 msgid "El Matorral"
-msgstr ""
+msgstr "Эль-Маторраль"
 
 #. A city in Spain
 msgid "Fuenterrabía"
-msgstr ""
+msgstr "Фуэнтеррабия"
 
 #. A city in Spain
 msgid "Gando"
-msgstr ""
+msgstr "Гандо"
 
 #. A city in Spain
 msgid "Gerona"
-msgstr ""
+msgstr "Жирона"
 
 #. A city in Spain
 msgid "Getafe"
-msgstr ""
+msgstr "Хетафе"
 
 #. A city in Spain
 msgid "Granada"
-msgstr ""
+msgstr "Гранада"
 
 #. A city in Spain
 msgid "Güime"
-msgstr ""
+msgstr "Гуйме"
 
 #. A city in Spain
 msgid "Ibiza"
@@ -10620,7 +10617,7 @@ msgstr "Леон"
 
 #. A city in Spain
 msgid "Lleida"
-msgstr ""
+msgstr "Льейда"
 
 #. A city in Spain
 msgid "Los Baldíos"
@@ -10676,15 +10673,15 @@ msgstr ""
 
 #. A city in Spain
 msgid "San Javier"
-msgstr ""
+msgstr "Сан-Хавьер"
 
 #. A city in Spain
 msgid "San Pablo"
-msgstr ""
+msgstr "Сан-Пабло"
 
 #. A city in Spain
 msgid "Santander"
-msgstr ""
+msgstr "Сантандер"
 
 #. A city in Spain
 msgctxt "City in Spain"
@@ -10693,15 +10690,15 @@ msgstr "Сантьяго"
 
 #. A city in Spain
 msgid "Talavera la Real"
-msgstr ""
+msgstr "Талавера-ла-Реаль"
 
 #. A city in Spain
 msgid "Tamaduste"
-msgstr ""
+msgstr "Тамадусте"
 
 #. A city in Spain
 msgid "Torrejón del Rey"
-msgstr ""
+msgstr "Торрехон-дель-Рей"
 
 #. A city in Spain
 msgctxt "City in Spain"
@@ -10710,15 +10707,15 @@ msgstr "Валенсия"
 
 #. A city in Spain
 msgid "Vigo"
-msgstr ""
+msgstr "Виго"
 
 #. A city in Spain
 msgid "Villanubla"
-msgstr ""
+msgstr "Вильянубла"
 
 #. A city in Spain
 msgid "Vitoria-Gasteiz"
-msgstr ""
+msgstr "Витория-Гастейс"
 
 #. A city in Spain
 msgid "Zaragoza"
@@ -10730,7 +10727,7 @@ msgstr "Коломбо"
 
 #. A city in Sri Lanka
 msgid "Katunayaka"
-msgstr ""
+msgstr "Катунейейк"
 
 #. The capital of Sri Lanka
 msgid "Sri Jayewardenepura Kotte"
@@ -17468,7 +17465,7 @@ msgstr "Санта-Фе"
 #. A city in California in the United States
 msgctxt "City in California, United States"
 msgid "Santa Maria"
-msgstr ""
+msgstr "Санта-Мария"
 
 #. A city in California in the United States
 msgid "Santa Monica"
@@ -18867,7 +18864,7 @@ msgstr "Сан-Фернандо"
 
 #. A city in Venezuela
 msgid "San Juan de los Morros"
-msgstr ""
+msgstr "Сан-Хуан-де-лос-Моррос"
 
 #. A city in Venezuela
 msgid "San Tomé"

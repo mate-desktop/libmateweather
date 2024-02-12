@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Quentin PAGÈS, 2021
+# Quentin PAGÈS, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-01 19:57+0200\n"
+"POT-Creation-Date: 2023-10-18 22:07+0200\n"
 "PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Quentin PAGÈS, 2021\n"
+"Last-Translator: Quentin PAGÈS, 2023\n"
 "Language-Team: Occitan (post 1500) (https://app.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1428,6 +1428,7 @@ msgstr "Illa Wake"
 #. Tocantins. See the comment on "Brasília Time" for more
 #. details. This string is only used in places where
 #. "Brazil" is already clear from context.
+#. A state/province/territory in Brazil
 msgid "Tocantins"
 msgstr "Tocantins"
 
@@ -2000,10 +2001,6 @@ msgctxt "State in Brazil"
 msgid "São Paulo"
 msgstr "São Paulo"
 
-#. A state/province/territory in Brazil
-msgid "Tocantis"
-msgstr "Tocantis"
-
 #. A state/province/territory in Canada
 msgid "Alberta"
 msgstr "Alberta"
@@ -2201,8 +2198,8 @@ msgstr "Amborg"
 #. A state in Germany.  The local name is "Hessen". Please
 #. use that unless you know that it has a different name in
 #. your language.
-msgid "Hesse"
-msgstr "Èssa"
+msgid "Hessen"
+msgstr ""
 
 #. A state in Germany.  The local name is "Niedersachsen".
 #. Please use that unless you know that it has a different
@@ -3133,8 +3130,8 @@ msgid "Dhaka"
 msgstr "Dhaka"
 
 #. A city in Bangladesh
-msgid "Solpur"
-msgstr "Solpur"
+msgid "Solapur"
+msgstr ""
 
 #. The capital of Barbados
 msgid "Bridgetown"
@@ -6211,11 +6208,11 @@ msgstr "Varkaus"
 
 #. A city in France
 msgid "Abbeville"
-msgstr ""
+msgstr "Abbeville"
 
 #. A city in France
 msgid "Acon"
-msgstr ""
+msgstr "Acon"
 
 #. A city in France
 msgid "Agen"
@@ -6232,7 +6229,7 @@ msgstr "Alençon"
 #. A city in France.
 #. One of several cities in France called "Ambérieu".
 msgid "Ambérieu-en-Bugey"
-msgstr ""
+msgstr "Ambérieu-en-Bugey"
 
 #. A city in France
 msgid "Auch"
@@ -6244,7 +6241,7 @@ msgstr "Orlhac"
 
 #. A city in France
 msgid "Avord"
-msgstr ""
+msgstr "Avord"
 
 #. A city in France
 msgid "Bastia"
@@ -6323,11 +6320,11 @@ msgstr "Cherbourg"
 #. A city in France.
 #. One of several cities in France called "Châlons".
 msgid "Châlons-en-Champagne"
-msgstr ""
+msgstr "Chalons de Champanha"
 
 #. A city in France
 msgid "Châteaudun"
-msgstr ""
+msgstr "Châteaudun"
 
 #. A city in France
 msgid "Châteauroux"
@@ -6347,7 +6344,7 @@ msgstr "Colmar"
 
 #. A city in France
 msgid "Creil"
-msgstr ""
+msgstr "Creil"
 
 #. A city in France
 msgid "Dax"
@@ -6690,7 +6687,7 @@ msgstr ""
 msgid "Faßberg"
 msgstr "Faßberg"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Frankfurt"
 msgstr "Francfòrt de Men"
 
@@ -6698,7 +6695,7 @@ msgstr "Francfòrt de Men"
 msgid "Friedrichshafen"
 msgstr "Friedrichshafen"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Fritzlar"
 msgstr "Fritzlar"
 
@@ -6747,7 +6744,7 @@ msgstr "Kalkum"
 msgid "Karlsruhe"
 msgstr "Karlsruhe"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Kassel"
 msgstr "Kassel"
 
@@ -6893,7 +6890,7 @@ msgstr "Webershausen"
 msgid "Westerland"
 msgstr "Westerland"
 
-#. A city in Hesse in Germany
+#. A city in Hessen in Germany
 msgid "Wiesbaden"
 msgstr "Wiesbaden"
 
