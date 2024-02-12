@@ -1,4 +1,4 @@
-AC_INIT([libmateweather], [1.27.1], [https://mate-desktop.org])
+AC_INIT([libmateweather], [1.28.0], [https://mate-desktop.org])
 AC_PREREQ(2.60)
 
 AC_CONFIG_HEADERS([config.h])

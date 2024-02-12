@@ -1,3 +1,9 @@
+### libmateweather 1.28.0
+
+  * Translations update
+  * The url with 'www.' is a permanent redirect (308) to the url without it
+  * timezone: declare 'tzdir' as 'const char'
+
 ### libmateweather 1.27.1
 
   * Translations update
