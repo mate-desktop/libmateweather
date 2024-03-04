@@ -8,6 +8,7 @@ AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
+AC_USE_SYSTEM_EXTENSIONS
 # Before making a release, the LT_VERSION string should be modified.
 # The string is of the form C:R:A.
 # - If interfaces have been changed or added, but binary compatibility has
@@ -23,7 +24,7 @@ AC_CANONICAL_HOST
 
 GLIB_REQUIRED=2.56.0
 GTK_REQUIRED=3.22.0
-LIBSOUP_REQUIRED=2.34.0
+LIBSOUP_REQUIRED=3.0.0
 GIO_REQUIRED=2.25.0
 LIBXML_REQUIRED=2.6.0
 
@@ -65,7 +66,7 @@ dnl -- Check for libxml (required) ------------------------------------------
 PKG_CHECK_MODULES(LIBXML, libxml-2.0 >= $LIBXML_REQUIRED)
 
 dnl -- check for libsoup (required) -----------------------------------------
-PKG_CHECK_MODULES(LIBSOUP, [libsoup-2.4 >= $LIBSOUP_REQUIRED])
+PKG_CHECK_MODULES(LIBSOUP, [libsoup-3.0 >= $LIBSOUP_REQUIRED])
 
 dnl -- check for gio (required) -----------------------------------------
 PKG_CHECK_MODULES(GIO,
@@ -100,6 +101,7 @@ AC_CHECK_FUNCS(regexec,,[AC_CHECK_LIB(regex,regexec,
                [AC_MSG_ERROR([No regex library found])])])
 AC_SUBST(REGEX_LIBS)
 
+AC_CHECK_FUNC(memmem,[],[AC_MSG_ERROR([memmem is required])])
 
 dnl ***************************************************************************
 dnl *** Check for presence of tm.tm_gmtoff on the system                    ***

@@ -119,19 +119,20 @@ met_reprocess (char *x, int len)
  */
 
 static gchar *
-met_parse (const gchar *meto)
+met_parse (const gchar *meto, gsize len)
 {
     gchar *p;
     gchar *rp;
     gchar *r = g_strdup ("Met Office Forecast\n");
     gchar *t;
+    const gchar *end = meto + len;
 
     g_return_val_if_fail (meto != NULL, r);
 
-    p = strstr (meto, "Summary: </b>");
+    p = xstrnstr (meto, len, "Summary: </b>");
     g_return_val_if_fail (p != NULL, r);
 
-    rp = strstr (p, "Text issued at:");
+    rp = xstrnstr (p, end - p, "Text issued at:");
     g_return_val_if_fail (rp != NULL, r);
 
     p += 13;
@@ -143,21 +144,31 @@ met_parse (const gchar *meto)
 }
 
 static void
-met_finish (SoupSession *session, SoupMessage *msg, gpointer data)
+met_finish (GObject *source, GAsyncResult *result, gpointer data)
 {
     WeatherInfo *info = (WeatherInfo *)data;
+    GError *error = NULL;
+    GBytes *bytes;
+    const char *response_body = NULL;
+    gsize len = 0;
 
     g_return_if_fail (info != NULL);
 
-    if (!SOUP_STATUS_IS_SUCCESSFUL (msg->status_code)) {
-	g_warning ("Failed to get Met Office forecast data: %d %s.\n",
-		   msg->status_code, msg->reason_phrase);
-        request_done (info, FALSE);
+    bytes = soup_session_send_and_read_finish (SOUP_SESSION(source),
+                                               result, &error);
+
+    if (error != NULL) {
+        g_warning ("Failed to get Met Office forecast data: %s.\n",
+                   error->message);
+        request_done (info, error);
+        g_error_free (error);
         return;
     }
 
-    info->forecast = met_parse (msg->response_body->data);
-    request_done (info, TRUE);
+    response_body = g_bytes_get_data (bytes, &len);
+    info->forecast = met_parse (response_body, len);
+    g_bytes_unref (bytes);
+    request_done (info, NULL);
 }
 
 void
@@ -171,7 +182,8 @@ metoffice_start_open (WeatherInfo *info)
     url = g_strdup_printf ("http://www.metoffice.gov.uk/weather/europe/uk/%s.html", loc->zone + 1);
 
     msg = soup_message_new ("GET", url);
-    soup_session_queue_message (info->session, msg, met_finish, info);
+    soup_session_send_and_read_async (info->session, msg, G_PRIORITY_DEFAULT,
+                                      NULL, met_finish, info);
     g_free (url);
 
     info->requests_pending++;

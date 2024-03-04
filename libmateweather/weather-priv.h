@@ -21,6 +21,7 @@
 
 #include "config.h"
 
+#include <string.h>
 #include <time.h>
 #include <libintl.h>
 #include <math.h>
@@ -34,6 +35,8 @@ const char *mateweather_dpgettext (const char *context, const char *str) G_GNUC_
 #define _(str) (mateweather_gettext (str))
 #define C_(context, str) (mateweather_dpgettext (context, str))
 #define N_(str) (str)
+#define xstrnstr(haystack, hlen, needle) \
+	memmem(haystack, hlen, needle, strlen(needle))
 
 #define WEATHER_LOCATION_CODE_LEN 4
 
@@ -95,7 +98,6 @@ struct _WeatherInfo {
     GSList *forecast_list; /* list of WeatherInfo* for the forecast, NULL if not available */
     gchar *radar_buffer;
     gchar *radar_url;
-    GdkPixbufLoader *radar_loader;
     GdkPixbufAnimation *radar;
     SoupSession *session;
     gint requests_pending;
@@ -167,7 +169,7 @@ gboolean	metar_parse		(gchar *metar,
 
 gboolean	requests_init		(WeatherInfo *info);
 void		request_done		(WeatherInfo *info,
-					 gboolean     ok);
+					 GError      *error);
 
 void		ecl2equ			(gdouble t,
 					 gdouble eclipLon,
