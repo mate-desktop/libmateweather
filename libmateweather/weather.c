@@ -348,12 +348,13 @@ requests_init (WeatherInfo *info)
     return TRUE;
 }
 
-void request_done (WeatherInfo *info, gboolean ok)
+void request_done (WeatherInfo *info, GError *error)
 {
-    if (ok) {
+    if (error == NULL) {
 	(void) calc_sun (info);
 	info->moonValid = info->valid && calc_moon (info);
-    }
+    } else if (error->code == G_IO_ERROR_CANCELLED)
+        return; /* Caused by soup_session_abort */
     if (!--info->requests_pending)
         info->finish_cb (info, info->cb_data);
 }

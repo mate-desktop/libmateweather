@@ -27,34 +27,45 @@
 #include "weather-priv.h"
 
 static void
-bom_finish (SoupSession *session, SoupMessage *msg, gpointer data)
+bom_finish (GObject *source, GAsyncResult *result, gpointer data)
 {
     char *p, *rp;
     WeatherInfo *info = (WeatherInfo *)data;
+    GError *error = NULL;
+    GBytes *bytes;
+    const char *response_body = NULL;
+    gsize len = 0;
 
     g_return_if_fail (info != NULL);
 
-    if (!SOUP_STATUS_IS_SUCCESSFUL (msg->status_code)) {
-        g_warning ("Failed to get BOM forecast data: %d %s.\n",
-		   msg->status_code, msg->reason_phrase);
-        request_done (info, FALSE);
-	return;
+    bytes = soup_session_send_and_read_finish (SOUP_SESSION(source),
+                                               result, &error);
+
+    if (error != NULL) {
+        g_warning ("Failed to get BOM forecast data: %s.\n", error->message);
+        request_done (info, error);
+        g_error_free (error);
+        return;
     }
 
-    p = strstr (msg->response_body->data, "Forecast for the rest");
+    response_body = g_bytes_get_data (bytes, &len);
+
+    p = xstrnstr (response_body, len, "Forecast for the rest");
     if (p != NULL) {
-        rp = strstr (p, "The next routine forecast will be issued");
+        rp = xstrnstr (p, len - (p - response_body),
+                     "The next routine forecast will be issued");
         if (rp == NULL)
-            info->forecast = g_strdup (p);
+            info->forecast = g_strndup (p, len - (p - response_body));
         else
             info->forecast = g_strndup (p, rp - p);
     }
 
     if (info->forecast == NULL)
-        info->forecast = g_strdup (msg->response_body->data);
+        info->forecast = g_strndup (response_body, len);
 
+    g_bytes_unref (bytes);
     g_print ("%s\n",  info->forecast);
-    request_done (info, TRUE);
+    request_done (info, NULL);
 }
 
 void
@@ -70,7 +81,8 @@ bom_start_open (WeatherInfo *info)
 			   loc->zone + 1);
 
     msg = soup_message_new ("GET", url);
-    soup_session_queue_message (info->session, msg, bom_finish, info);
+    soup_session_send_and_read_async (info->session, msg, G_PRIORITY_DEFAULT,
+                                      NULL, bom_finish, info);
     g_free (url);
 
     info->requests_pending++;

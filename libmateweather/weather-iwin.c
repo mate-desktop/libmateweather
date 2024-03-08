@@ -93,7 +93,7 @@ hasAttr (xmlNode *node, const char *attr_name, const char *attr_value)
 }
 
 static GSList *
-parseForecastXml (const char *buff, WeatherInfo *master_info)
+parseForecastXml (const char *buff, gsize len, WeatherInfo *master_info)
 {
     GSList *res = NULL;
     xmlDocPtr doc;
@@ -107,7 +107,7 @@ parseForecastXml (const char *buff, WeatherInfo *master_info)
     #define XC (const xmlChar *)
     #define isElem(_node,_name) g_str_equal ((const char *)_node->name, _name)
 
-    doc = xmlParseMemory (buff, strlen (buff));
+    doc = xmlParseMemory (buff, len);
     if (!doc)
         return NULL;
 
@@ -380,26 +380,36 @@ parseForecastXml (const char *buff, WeatherInfo *master_info)
 }
 
 static void
-iwin_finish (SoupSession *session, SoupMessage *msg, gpointer data)
+iwin_finish (GObject *source, GAsyncResult *result, gpointer data)
 {
     WeatherInfo *info = (WeatherInfo *)data;
+    GError *error = NULL;
+    GBytes *bytes;
+    const char *response_body = NULL;
+    gsize len = 0;
 
     g_return_if_fail (info != NULL);
 
-    if (!SOUP_STATUS_IS_SUCCESSFUL (msg->status_code)) {
+    bytes = soup_session_send_and_read_finish (SOUP_SESSION(source),
+                                               result, &error);
+
+    if (error != NULL) {
         /* forecast data is not really interesting anyway ;) */
-        g_warning ("Failed to get IWIN forecast data: %d %s\n",
-                   msg->status_code, msg->reason_phrase);
-        request_done (info, FALSE);
+        g_warning ("Failed to get IWIN forecast data: %s\n",
+                   error->message);
+        request_done (info, error);
+        g_error_free (error);
         return;
     }
 
+    response_body = g_bytes_get_data (bytes, &len);
     if (info->forecast_type == FORECAST_LIST)
-        info->forecast_list = parseForecastXml (msg->response_body->data, info);
+        info->forecast_list = parseForecastXml (response_body, len, info);
     else
-        info->forecast = formatWeatherMsg (g_strdup (msg->response_body->data));
+        info->forecast = formatWeatherMsg (g_strndup (response_body, len));
 
-    request_done (info, TRUE);
+    g_bytes_unref (bytes);
+    request_done (info, NULL);
 }
 
 /* Get forecast into newly alloc'ed string */
@@ -439,7 +449,9 @@ iwin_start_open (WeatherInfo *info)
 
             msg = soup_message_new ("GET", url);
             g_free (url);
-            soup_session_queue_message (info->session, msg, iwin_finish, info);
+            soup_session_send_and_read_async (info->session, msg,
+                                              G_PRIORITY_DEFAULT,
+                                              NULL, iwin_finish, info);
 
             info->requests_pending++;
         }
@@ -470,7 +482,8 @@ iwin_start_open (WeatherInfo *info)
 
     msg = soup_message_new ("GET", url);
     g_free (url);
-    soup_session_queue_message (info->session, msg, iwin_finish, info);
+    soup_session_send_and_read_async (info->session, msg, G_PRIORITY_DEFAULT,
+                                      NULL, iwin_finish, info);
 
     info->requests_pending++;
 }
