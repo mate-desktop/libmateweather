@@ -523,7 +523,7 @@ metar_finish (GObject *source, GAsyncResult *result, gpointer data)
 
     loc = info->location;
 
-    searchkey = g_strdup_printf ("<raw_text>%s", loc->code);
+    searchkey = g_strdup_printf ("<raw_text>METAR %s", loc->code);
 
     response_body = g_bytes_get_data (bytes, &len);
     end = response_body + len;
@@ -578,7 +578,7 @@ metar_start_open (WeatherInfo *info)
         "stationString", loc->code,
         NULL);
     msg = soup_message_new_from_encoded_form (
-        "GET", "https://aviationweather.gov/cgi-bin/data/dataserver.php",
+        "GET", "https://aviationweather.gov/api/data/dataserver",
         query);
     soup_session_send_and_read_async (info->session, msg, G_PRIORITY_DEFAULT,
                                       NULL, metar_finish, info);
