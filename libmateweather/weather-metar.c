@@ -510,7 +510,7 @@ metar_finish (SoupSession *session, SoupMessage *msg, gpointer data)
 
     loc = info->location;
 
-    searchkey = g_strdup_printf ("<raw_text>%s", loc->code);
+    searchkey = g_strdup_printf ("<raw_text>METAR %s", loc->code);
     p = strstr (msg->response_body->data, searchkey);
     g_free (searchkey);
     if (p) {
@@ -550,7 +550,7 @@ metar_start_open (WeatherInfo *info)
     }
 
     msg = soup_form_request_new (
-        "GET", "https://aviationweather.gov/cgi-bin/data/dataserver.php",
+        "GET", "https://aviationweather.gov/api/data/dataserver",
         "dataSource", "metars",
         "requestType", "retrieve",
         "format", "xml",
