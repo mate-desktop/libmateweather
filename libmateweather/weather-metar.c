@@ -523,15 +523,20 @@ metar_finish (GObject *source, GAsyncResult *result, gpointer data)
 
     loc = info->location;
 
-    searchkey = g_strdup_printf ("<raw_text>METAR %s", loc->code);
-
     response_body = g_bytes_get_data (bytes, &len);
     end = response_body + len;
 
+    /* Try METAR first, then SPECI */
+    searchkey = g_strdup_printf ("<raw_text>METAR %s", loc->code);
     p = xstrnstr (response_body, len, searchkey);
+    if (!p) {
+        g_free (searchkey);
+        searchkey = g_strdup_printf ("<raw_text>SPECI %s", loc->code);
+        p = xstrnstr (response_body, len, searchkey);
+    }
+
     if (p) {
         p += WEATHER_LOCATION_CODE_LEN + 11;
-        endtag = strstr (p, "</raw_text>");
         endtag = xstrnstr (p, end - p, "</raw_text>");
         if (endtag)
             metar = g_strndup (p, endtag - p);
@@ -539,7 +544,10 @@ metar_finish (GObject *source, GAsyncResult *result, gpointer data)
             metar = g_strndup (p, end - p);
         success = metar_parse (metar, info);
         g_free (metar);
-    } else if (!xstrnstr (response_body, len, "aviationweather.gov")) {
+    }
+    g_free (searchkey);
+
+    if (!success && !xstrnstr (response_body, len, "aviationweather.gov")) {
         /* The response doesn't even seem to have come from NOAA...
          * most likely it is a wifi hotspot login page. Call that a
          * network error.
