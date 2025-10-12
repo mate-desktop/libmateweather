@@ -3150,6 +3150,16 @@
         <name>Guangdong</name>
         <fips-code>CH30</fips-code>
         <city>
+          <!-- A city in Guangdong in China -->
+          <name>Foshan</name>
+          <coordinates>23.021400 113.121600</coordinates>
+          <location>
+            <name>Foshan Shadi Airport</name>
+            <code>ZGFS</code>
+            <coordinates>23.068184 113.066331</coordinates>
+          </location>
+        </city>
+        <city>
           <!-- A city in Guangdong in China.
                The name is also written "广州".
             -->
@@ -3159,6 +3169,16 @@
             <name>Guangzhou</name>
             <code>ZGGG</code>
             <coordinates>23.166667 113.333333</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Guangdong in China -->
+          <name>Huizhou</name>
+          <coordinates>23.112000 114.416000</coordinates>
+          <location>
+            <name>Huizhou Pingtan Airport</name>
+            <code>ZGHZ</code>
+            <coordinates>23.049969 114.595308</coordinates>
           </location>
         </city>
         <city>
@@ -3179,6 +3199,26 @@
             <name>Shenzhen</name>
             <code>ZGSZ</code>
             <coordinates>22.550000 114.100000</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Guangdong in China -->
+          <name>Zhongshan</name>
+          <coordinates>22.517000 113.392500</coordinates>
+          <location>
+            <name>Zhongshan Ferry Port</name>
+            <code>CN-0412</code>
+            <coordinates>22.516543 113.365289</coordinates>
+          </location>
+        </city>
+        <city>
+          <!-- A city in Guangdong in China -->
+          <name>Zhuhai</name>
+          <coordinates>22.274167 113.571944</coordinates>
+          <location>
+            <name>Zhuhai Jinwan Airport</name>
+            <code>ZGSD</code>
+            <coordinates>22.008077 113.376018</coordinates>
           </location>
         </city>
       </state>
@@ -3578,13 +3618,33 @@
       </timezones>
       <tz-hint>Asia/Hong_Kong</tz-hint>
       <city>
-        <!-- A city in Hong Kong -->
+        <!-- A district in Hong Kong -->
+        <name>Hong Kong Island</name>
+        <coordinates>22.264444 114.187222</coordinates>
+        <location>
+          <name>HKGFS Wan Chai Heliport</name>
+          <code>HK07</code>
+          <coordinates>22.2850956 114.1717245</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A district in Hong Kong -->
         <name>Kowloon</name>
         <coordinates>22.316667 114.183333</coordinates>
         <location>
+          <name>Kowloon Peak Heliport</name>
+          <code>KL08</code>
+          <coordinates>22.340762 114.2188541</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A district in Hong Kong -->
+        <name>New Territories</name>
+        <coordinates>22.410000 114.125000</coordinates>
+        <location>
           <name>Hong Kong International Airport</name>
           <code>VHHH</code>
-          <coordinates>22.333333 114.183333</coordinates>
+          <coordinates>22.313988 113.918734</coordinates>
         </location>
       </city>
     </country>
