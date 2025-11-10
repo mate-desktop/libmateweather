@@ -494,7 +494,7 @@ mateweather_location_get_children (MateWeatherLocation *loc)
 {
     static MateWeatherLocation *no_children = NULL;
 
-    g_return_val_if_fail (loc != NULL, NULL);
+    g_return_val_if_fail (loc != NULL, &no_children);
 
     if (loc->children)
 	return loc->children;
