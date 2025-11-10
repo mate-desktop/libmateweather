@@ -223,16 +223,17 @@ mateweather_location_entry_set_location (MateWeatherLocationEntry *entry,
     completion = gtk_entry_get_completion (GTK_ENTRY (entry));
     model = gtk_entry_completion_get_model (completion);
 
-    gtk_tree_model_get_iter_first (model, &iter);
-    do {
-	gtk_tree_model_get (model, &iter,
-			    MATEWEATHER_LOCATION_ENTRY_COL_LOCATION, &cmploc,
-			    -1);
-	if (loc == cmploc) {
-	    set_location_internal (entry, model, &iter);
-	    return;
-	}
-    } while (gtk_tree_model_iter_next (model, &iter));
+    if (gtk_tree_model_get_iter_first (model, &iter)) {
+        do {
+            gtk_tree_model_get (model, &iter,
+                                MATEWEATHER_LOCATION_ENTRY_COL_LOCATION, &cmploc,
+                                -1);
+            if (loc == cmploc) {
+                set_location_internal (entry, model, &iter);
+                return;
+            }
+        } while (gtk_tree_model_iter_next (model, &iter));
+    }
 
     set_location_internal (entry, model, NULL);
 }
@@ -309,28 +310,29 @@ mateweather_location_entry_set_city (MateWeatherLocationEntry *entry,
     completion = gtk_entry_get_completion (GTK_ENTRY (entry));
     model = gtk_entry_completion_get_model (completion);
 
-    gtk_tree_model_get_iter_first (model, &iter);
-    do {
-	gtk_tree_model_get (model, &iter,
-			    MATEWEATHER_LOCATION_ENTRY_COL_LOCATION, &cmploc,
-			    -1);
+    if (gtk_tree_model_get_iter_first (model, &iter)) {
+        do {
+            gtk_tree_model_get (model, &iter,
+                                MATEWEATHER_LOCATION_ENTRY_COL_LOCATION, &cmploc,
+                                -1);
 
-	cmpcode = mateweather_location_get_code (cmploc);
-	if (!cmpcode || strcmp (cmpcode, code) != 0)
-	    continue;
+            cmpcode = mateweather_location_get_code (cmploc);
+            if (!cmpcode || strcmp (cmpcode, code) != 0)
+                continue;
 
-	if (city_name) {
-	    cmpname = mateweather_location_get_city_name (cmploc);
-	    if (!cmpname || strcmp (cmpname, city_name) != 0) {
-		g_free (cmpname);
-		continue;
-	    }
-	    g_free (cmpname);
-	}
+            if (city_name) {
+                cmpname = mateweather_location_get_city_name (cmploc);
+                if (!cmpname || strcmp (cmpname, city_name) != 0) {
+                    g_free (cmpname);
+                    continue;
+                }
+                g_free (cmpname);
+            }
 
-	set_location_internal (entry, model, &iter);
-	return TRUE;
-    } while (gtk_tree_model_iter_next (model, &iter));
+            set_location_internal (entry, model, &iter);
+            return TRUE;
+        } while (gtk_tree_model_iter_next (model, &iter));
+    }
 
     set_location_internal (entry, model, NULL);
 
