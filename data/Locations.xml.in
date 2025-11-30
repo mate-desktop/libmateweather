@@ -2868,6 +2868,38 @@
       </timezones>
       <tz-hint>Asia/Yerevan</tz-hint>
       <city>
+        <!-- A city in Armenia.
+             The local name in Russian is "Гюмри".
+          -->
+        <name>Gyumri</name>
+        <name xml:lang="ru">Гюмри</name>
+        <name xml:lang="pl">Giumri</name>
+        <coordinates>40.785214 43.842697</coordinates>
+        <location>
+          <name>Gyumri</name>
+          <name xml:lang="ru">Гюмри</name>
+          <name xml:lang="pl">Giumri</name>
+          <code>UDSG</code>
+          <coordinates>40.751028 43.854380</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Armenia.
+             The local name in Russian is "Капан".
+          -->
+        <name>Kapan</name>
+        <name xml:lang="ru">Капан</name>
+        <name xml:lang="pl">Kapan</name>
+        <coordinates>39.205823 46.403117</coordinates>
+        <location>
+          <name>Kapan</name>
+          <name xml:lang="ru">Капан</name>
+          <name xml:lang="pl">Kapan</name>
+          <code>UDSK</code>
+          <coordinates>39.202932 46.454088</coordinates>
+        </location>
+      </city>
+      <city>
         <!-- The capital of Armenia -->
         <name>Yerevan</name>
         <coordinates>40.181111 44.513611</coordinates>
@@ -5186,6 +5218,134 @@
           <name>Manas Airport</name>
           <code>UAFM</code>
           <coordinates>42.850000 74.583333</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Баткен".
+          -->
+        <name>Batken</name>
+        <name xml:lang="ru">Баткен</name>
+        <name xml:lang="pl">Batken</name>
+        <coordinates>40.061712 70.820762</coordinates>
+        <location>
+          <name>Batken</name>
+          <name xml:lang="ru">Баткен</name>
+          <name xml:lang="pl">Batken</name>
+          <code>UAFI</code>
+          <coordinates>40.050723 70.828279</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Джалал-Абад".
+          -->
+        <name>Jalal-Abad</name>
+        <name xml:lang="ru">Джалал-Абад</name>
+        <name xml:lang="pl">Dżalalabad</name>
+        <coordinates>40.930056 73.001045</coordinates>
+        <location>
+          <name>Jalal-Abad</name>
+          <name xml:lang="ru">Джалал-Абад</name>
+          <name xml:lang="pl">Dżalalabad</name>
+          <code>UAFJ</code>
+          <coordinates>40.937295 72.978428</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Каракол".
+          -->
+        <name>Karakol</name>
+        <name xml:lang="ru">Каракол</name>
+        <name xml:lang="pl">Karakoł</name>
+        <coordinates>42.490321 78.397475</coordinates>
+        <location>
+          <name>Karakol</name>
+          <name xml:lang="ru">Каракол</name>
+          <name xml:lang="pl">Karakoł</name>
+          <code>UCFP</code>
+          <coordinates>42.501904 78.408978</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Нарын".
+          -->
+        <name>Naryn</name>
+        <name xml:lang="ru">Нарын</name>
+        <name xml:lang="pl">Naryn</name>
+        <coordinates>41.429002 75.997374</coordinates>
+        <location>
+          <name>Naryn</name>
+          <name xml:lang="ru">Нарын</name>
+          <name xml:lang="pl">Naryn</name>
+          <code>UCFN</code>
+          <coordinates>41.438441 76.123491</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Ош".
+          -->
+        <name>Osh</name>
+        <name xml:lang="ru">Ош</name>
+        <name xml:lang="pl">Osz</name>
+        <coordinates>40.516841 72.804657</coordinates>
+        <location>
+          <name>Osh</name>
+          <name xml:lang="ru">Ош</name>
+          <name xml:lang="pl">Osz</name>
+          <code>UCFO</code>
+          <coordinates>40.608069 72.786639</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Талас".
+          -->
+        <name>Talas</name>
+        <name xml:lang="ru">Талас</name>
+        <name xml:lang="pl">Tałas</name>
+        <coordinates>42.522299 72.248088</coordinates>
+        <location>
+          <name>Talas</name>
+          <name xml:lang="ru">Талас</name>
+          <name xml:lang="pl">Tałas</name>
+          <code>UAFT</code>
+          <coordinates>42.509093 72.253680</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Тамчы".
+          -->
+        <name>Tamchy</name>
+        <name xml:lang="ru">Тамчы</name>
+        <name xml:lang="pl">Tamczy</name>
+        <coordinates>42.565067 76.660373</coordinates>
+        <location>
+          <name>Tamchy</name>
+          <name xml:lang="ru">Тамчы</name>
+          <name xml:lang="pl">Tamczy</name>
+          <code>UCFL</code>
+          <coordinates>42.584133 76.707942</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Kyrgyzstan.
+             The local name in Russian is "Токмак".
+          -->
+        <name>Tokmok</name>
+        <name xml:lang="ru">Токмак</name>
+        <name xml:lang="pl">Tokmok</name>
+        <coordinates>42.837562 75.299683</coordinates>
+        <location>
+          <name>Tokmok</name>
+          <name xml:lang="ru">Токмак</name>
+          <name xml:lang="pl">Tokmok</name>
+          <code>UAFF</code>
+          <coordinates>42.831601 75.317565</coordinates>
         </location>
       </city>
     </country>
@@ -13121,6 +13281,22 @@
       </timezones>
       <tz-hint>Europe/Tallinn</tz-hint>
       <city>
+        <!-- A city in Estonia.
+             The local name in Russian is "Эмари".
+          -->
+        <name>Ämari</name>
+        <name xml:lang="ru">Эмари</name>
+        <name xml:lang="pl">Ämari</name>
+        <coordinates>59.247689 24.239449</coordinates>
+        <location>
+          <name>Ämari</name>
+          <name xml:lang="ru">Эмари</name>
+          <name xml:lang="pl">Ämari</name>
+          <code>EEEI</code>
+          <coordinates>59.256410 24.206039</coordinates>
+        </location>
+      </city>
+      <city>
         <!-- A city in Estonia -->
         <name>Kuressaare</name>
         <coordinates>58.248056 22.503889</coordinates>
@@ -13138,6 +13314,38 @@
           <name>Kärdla</name>
           <code>EEKA</code>
           <coordinates>58.983333 22.816667</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Estonia.
+             The local name in Russian is "Кохтла-Ярве".
+          -->
+        <name>Kohtla-Järve</name>
+        <name xml:lang="ru">Кохтла-Ярве</name>
+        <name xml:lang="pl">Kohtla-Jarve</name>
+        <coordinates>59.399934 27.283200</coordinates>
+        <location>
+          <name>Jõhvi</name>
+          <name xml:lang="ru">Йыхви</name>
+          <name xml:lang="pl">Jõhvi</name>
+          <code>EEJI</code>
+          <coordinates>59.328990 27.397152</coordinates>
+        </location>
+      </city>
+      <city>
+        <!-- A city in Estonia.
+             The local name in Russian is "Нарва".
+          -->
+        <name>Narva</name>
+        <name xml:lang="ru">Нарва</name>
+        <name xml:lang="pl">Narwa</name>
+        <coordinates>59.375600 28.195847</coordinates>
+        <location>
+          <name>Narva</name>
+          <name xml:lang="ru">Нарва</name>
+          <name xml:lang="pl">Narwa</name>
+          <code>EENA</code>
+          <coordinates>39.202932 46.454088</coordinates>
         </location>
       </city>
       <city>
