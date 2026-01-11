@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Lasse Liehu <larso@gmx.com>, 2018
+# Lasse Liehu-Inui <larso@gmx.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Mikko Harhanen <gitti@mikkoharhanen.fi>, 2018
 # Andy, 2018
