@@ -1,3 +1,9 @@
+### libmateweather 1.28.2
+
+  * Update Translations
+  * configure: fix disable behavior
+  * location: provide extra checks to avoid SEGFAULT
+
 ### libmateweather 1.28.1
 
   * metar: Update AviationWeather URL
