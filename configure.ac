@@ -41,14 +41,14 @@ GLIB_GSETTINGS
 AC_ARG_ENABLE(all-translations-in-one-xml,
         [AS_HELP_STRING([--enable-all-translations-in-one-xml],
                         [Put all translations in a big Locations.xml file (slow to parse)])],
-        [enable_big_xml=yes],
+        [enable_big_xml=$enableval],
         [enable_big_xml=no])
 AM_CONDITIONAL(USE_ONE_BIG_XML, test "x$enable_big_xml" = "xyes")
 
 AC_ARG_ENABLE(locations-compression,
         [AS_HELP_STRING([--enable-locations-compression],
                         [Compress Locations.xml files])],
-        [enable_locations_compression=yes],
+        [enable_locations_compression=$enableval],
         [enable_locations_compression=no])
 if test "x$enable_locations_compression" = "xyes"; then
     COMPRESS_EXT=.gz
