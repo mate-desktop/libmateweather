@@ -13,7 +13,7 @@ requires=(
 	ccache # Use ccache to speed up build
 )
 
-# https://src.fedoraproject.org/cgit/rpms/pluma.git
+# https://src.fedoraproject.org/cgit/rpms/libmateweather.git
 requires+=(
 	autoconf-archive
 	gcc
