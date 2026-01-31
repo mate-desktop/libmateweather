@@ -24,14 +24,13 @@
 #include <gtk/gtk.h>
 #include <libmateweather/weather.h>
 
-enum
-{
-    MATEWEATHER_XML_COL_LOC = 0,
-    MATEWEATHER_XML_COL_POINTER,
-    MATEWEATHER_XML_NUM_COLUMNS
+enum {
+  MATEWEATHER_XML_COL_LOC = 0,
+  MATEWEATHER_XML_COL_POINTER,
+  MATEWEATHER_XML_NUM_COLUMNS
 };
 
-GtkTreeModel *mateweather_xml_load_locations (void);
-void          mateweather_xml_free_locations (GtkTreeModel *locations);
+GtkTreeModel *mateweather_xml_load_locations(void);
+void mateweather_xml_free_locations(GtkTreeModel *locations);
 
 #endif /* __MATEWEATHER_XML_H__ */
