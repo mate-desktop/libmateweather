@@ -24,31 +24,39 @@
 #include <gtk/gtk.h>
 #include <libmateweather/mateweather-location.h>
 
-#define MATEWEATHER_TYPE_TIMEZONE_MENU            (mateweather_timezone_menu_get_type ())
-#define MATEWEATHER_TIMEZONE_MENU(object)         (G_TYPE_CHECK_INSTANCE_CAST ((object), MATEWEATHER_TYPE_TIMEZONE_MENU, MateWeatherTimezoneMenu))
-#define MATEWEATHER_TIMEZONE_MENU_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), MATEWEATHER_TYPE_TIMEZONE_MENU, MateWeatherTimezoneMenuClass))
-#define MATEWEATHER_IS_TIMEZONE_MENU(object)      (G_TYPE_CHECK_INSTANCE_TYPE ((object), MATEWEATHER_TYPE_TIMEZONE_MENU))
-#define MATEWEATHER_IS_TIMEZONE_MENU_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), MATEWEATHER_TYPE_TIMEZONE_MENU))
-#define MATEWEATHER_TIMEZONE_MENU_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS ((obj), MATEWEATHER_TYPE_TIMEZONE_MENU, MateWeatherTimezoneMenuClass))
+#define MATEWEATHER_TYPE_TIMEZONE_MENU (mateweather_timezone_menu_get_type())
+#define MATEWEATHER_TIMEZONE_MENU(object)                                      \
+  (G_TYPE_CHECK_INSTANCE_CAST((object), MATEWEATHER_TYPE_TIMEZONE_MENU,        \
+                              MateWeatherTimezoneMenu))
+#define MATEWEATHER_TIMEZONE_MENU_CLASS(klass)                                 \
+  (G_TYPE_CHECK_CLASS_CAST((klass), MATEWEATHER_TYPE_TIMEZONE_MENU,            \
+                           MateWeatherTimezoneMenuClass))
+#define MATEWEATHER_IS_TIMEZONE_MENU(object)                                   \
+  (G_TYPE_CHECK_INSTANCE_TYPE((object), MATEWEATHER_TYPE_TIMEZONE_MENU))
+#define MATEWEATHER_IS_TIMEZONE_MENU_CLASS(klass)                              \
+  (G_TYPE_CHECK_CLASS_TYPE((klass), MATEWEATHER_TYPE_TIMEZONE_MENU))
+#define MATEWEATHER_TIMEZONE_MENU_GET_CLASS(obj)                               \
+  (G_TYPE_INSTANCE_GET_CLASS((obj), MATEWEATHER_TYPE_TIMEZONE_MENU,            \
+                             MateWeatherTimezoneMenuClass))
 
 typedef struct {
-    GtkComboBox parent;
+  GtkComboBox parent;
 
-    /*< private >*/
-    MateWeatherTimezone *zone;
+  /*< private >*/
+  MateWeatherTimezone *zone;
 } MateWeatherTimezoneMenu;
 
 typedef struct {
-    GtkComboBoxClass parent_class;
+  GtkComboBoxClass parent_class;
 
 } MateWeatherTimezoneMenuClass;
 
-GType       mateweather_timezone_menu_get_type         (void);
+GType mateweather_timezone_menu_get_type(void);
 
-GtkWidget  *mateweather_timezone_menu_new              (MateWeatherLocation     *top);
+GtkWidget *mateweather_timezone_menu_new(MateWeatherLocation *top);
 
-void        mateweather_timezone_menu_set_tzid         (MateWeatherTimezoneMenu *menu,
-						     const char           *tzid);
-const char *mateweather_timezone_menu_get_tzid         (MateWeatherTimezoneMenu *menu);
+void mateweather_timezone_menu_set_tzid(MateWeatherTimezoneMenu *menu,
+                                        const char *tzid);
+const char *mateweather_timezone_menu_get_tzid(MateWeatherTimezoneMenu *menu);
 
 #endif
