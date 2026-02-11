@@ -45,18 +45,6 @@ AC_ARG_ENABLE(all-translations-in-one-xml,
         [enable_big_xml=no])
 AM_CONDITIONAL(USE_ONE_BIG_XML, test "x$enable_big_xml" = "xyes")
 
-AC_ARG_ENABLE(locations-compression,
-        [AS_HELP_STRING([--enable-locations-compression],
-                        [Compress Locations.xml files])],
-        [enable_locations_compression=$enableval],
-        [enable_locations_compression=no])
-if test "x$enable_locations_compression" = "xyes"; then
-    COMPRESS_EXT=.gz
-else
-    COMPRESS_EXT=
-fi
-AC_SUBST(COMPRESS_EXT)
-
 MATE_COMPILE_WARNINGS
 
 dnl -- Check for GTK+ (required) ------------------------------------------
@@ -203,5 +191,4 @@ Configure summary:
 	Compiler flags:                 ${CFLAGS}
 	Warning flags:                  ${WARN_CFLAGS}
 	Locations.xml translations:	${LOCATIONS_XML_TRANSLATIONS}
-	Locations.xml compression:	${enable_locations_compression}
 " >&2

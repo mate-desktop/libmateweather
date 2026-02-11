@@ -6,15 +6,12 @@ libmateweatherlocations_in_files = Locations.xml.in
 
 if USE_ONE_BIG_XML
 
-LOCATIONS_STAMP = 
+LOCATIONS_STAMP =
 
-libmateweatherlocations_DATA = $(libmateweatherlocations_in_files:.xml.in=.xml$(COMPRESS_EXT))
+libmateweatherlocations_DATA = $(libmateweatherlocations_in_files:.xml.in=.xml)
 
-%.xml$(COMPRESS_EXT): %.xml.in $(wildcard $(top_srcdir)/po-locations/*.po)
-	$(AM_V_GEN) GETTEXTDATADIR=$(top_srcdir) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po-locations -o `echo $@ | sed "s/.xml$(COMPRESS_EXT)/.xml/"` && \
-	if test "x$(COMPRESS_EXT)" = "x.gz"; then				\
-		gzip -n --force `echo $@ | sed "s/.xml$(COMPRESS_EXT)/.xml/"`;	\
-	fi
+%.xml: %.xml.in $(wildcard $(top_srcdir)/po-locations/*.po)
+	$(AM_V_GEN) GETTEXTDATADIR=$(top_srcdir) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po-locations -o $@
 
 else # USE_ONE_BIG_XML
 
@@ -25,7 +22,7 @@ PO_LOCATIONS = $(shell if test -n "$(LINGUAS)"; then for lang in $(LINGUAS); do 
 # Helper variable
 libmateweatherlocations_data = $(libmateweatherlocations_in_files:.xml.in=.xml)
 
-libmateweatherlocations_DATA = $(shell echo $(PO_LOCATIONS) | sed "s|$(top_srcdir)/po-locations/|Locations.|g;s|\.po|.xml$(COMPRESS_EXT)|g") $(libmateweatherlocations_data)$(COMPRESS_EXT)
+libmateweatherlocations_DATA = $(shell echo $(PO_LOCATIONS) | sed "s|$(top_srcdir)/po-locations/|Locations.|g;s|\.po|.xml|g") $(libmateweatherlocations_data)
 
 # We need this step so that we merge all the make Locations.xy.xml destinations
 # into one unique destination. This makes -j2 work. (Else, we end up with
@@ -38,14 +35,8 @@ $(LOCATIONS_STAMP): $(libmateweatherlocations_in_files) $(PO_LOCATIONS) Makefile
 		GETTEXTDATADIR=$(top_srcdir) $(MSGFMT) -l $$locale --xml --template $< $(top_srcdir)/po-locations/$$locale.po -o $(libmateweatherlocations_data) && \
 		xmllint --noblanks -o Locations.$$locale.xml $(libmateweatherlocations_data); \
 		rm -f $(libmateweatherlocations_data);			\
-		if test "x$(COMPRESS_EXT)" = "x.gz"; then		\
-			gzip -n --force Locations.$$locale.xml;		\
-		fi;							\
 	done &&								\
 	xmllint --noblanks --dtdvalid $(top_srcdir)/data/$(libmateweatherdtd_DATA) -o Locations.xml $(top_srcdir)/data/$(libmateweatherlocations_in_files) && \
-	if test "x$(COMPRESS_EXT)" = "x.gz"; then			\
-		gzip -n --force Locations.xml;				\
-	fi &&								\
 	touch $@
 
 endif # USE_ONE_BIG_XML
