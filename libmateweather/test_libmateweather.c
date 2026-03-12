@@ -23,9 +23,71 @@
 #endif
 
 #include <locale.h>
+#include <string.h>
+#include <unistd.h>
 
 #define MATEWEATHER_I_KNOW_THIS_IS_UNSTABLE
 #include "mateweather-location.h"
+#include "mateweather-timezone.h"
+
+static GHashTable *validated_tzids;
+
+static void
+validate_timezone_id (const char *tzid)
+{
+    char *path;
+
+    if (g_hash_table_contains (validated_tzids, tzid))
+	return;
+
+    g_hash_table_add (validated_tzids, g_strdup (tzid));
+
+    path = g_build_filename (ZONEINFO_DIR, tzid, NULL);
+    if (access (path, F_OK) != 0) {
+	g_test_message ("Location has invalid timezone '%s'", tzid);
+	g_test_fail ();
+    }
+    g_free (path);
+}
+
+static void
+test_timezones_for_location (MateWeatherLocation *location)
+{
+    MateWeatherTimezone **tzs;
+    MateWeatherLocation **children;
+    guint i;
+
+    tzs = mateweather_location_get_timezones (location);
+    if (tzs) {
+	for (i = 0; tzs[i] != NULL; i++) {
+	    const char *tzid = mateweather_timezone_get_tzid (tzs[i]);
+	    if (tzid)
+		validate_timezone_id (tzid);
+	}
+	mateweather_location_free_timezones (location, tzs);
+    }
+
+    children = mateweather_location_get_children (location);
+    for (i = 0; children[i] != NULL; i++)
+	test_timezones_for_location (children[i]);
+}
+
+static void
+test_timezones (void)
+{
+    MateWeatherLocation *world;
+
+    validated_tzids = g_hash_table_new_full (g_str_hash, g_str_equal,
+					    g_free, NULL);
+
+    world = mateweather_location_new_world (FALSE);
+    g_assert (world);
+
+    test_timezones_for_location (world);
+
+    mateweather_location_unref (world);
+    g_hash_table_destroy (validated_tzids);
+}
 
 static void
 log_handler (const char *log_domain, GLogLevelFlags log_level, const char *message, gpointer user_data)
@@ -43,6 +105,8 @@ main (int argc, char *argv[])
 
 	/* We need to handle log messages produced by g_message so they're interpreted correctly by the GTester framework */
 	g_log_set_handler (NULL, G_LOG_LEVEL_MESSAGE | G_LOG_LEVEL_INFO | G_LOG_LEVEL_DEBUG, log_handler, NULL);
+
+	g_test_add_func ("/weather/timezones", test_timezones);
 
 	return g_test_run ();
 }
