@@ -167,11 +167,19 @@ mateweather_parser_new (gboolean use_regions)
     parser->use_regions = use_regions;
     parser->locales = g_get_language_names ();
 
+    /* Allow environment variable to override compiled-in location data
+     * directory. This is used by the test suite to load from the source
+     * tree before installation.
+     */
+    const char *location_dir = g_getenv ("MATEWEATHER_XML_LOCATION_DIR");
+    if (!location_dir)
+	location_dir = MATEWEATHER_XML_LOCATION_DIR;
+
     /* First try to load a locale-specific XML. It's much faster. */
     filename = NULL;
     for (i = 0; parser->locales[i] != NULL; i++) {
 	filename = g_strdup_printf ("%s/Locations.%s.xml",
-				    MATEWEATHER_XML_LOCATION_DIR,
+				    location_dir,
 				    parser->locales[i]);
 
 	if (g_file_test (filename, G_FILE_TEST_IS_REGULAR))
@@ -185,7 +193,7 @@ mateweather_parser_new (gboolean use_regions)
      * the english names (depending on the configure flags).
      */
     if (!filename)
-	filename = g_build_filename (MATEWEATHER_XML_LOCATION_DIR, "Locations.xml", NULL);
+	filename = g_build_filename (location_dir, "Locations.xml", NULL);
 
     /* Open the xml file containing the different locations */
     parser->xml = xmlNewTextReaderFilename (filename);
