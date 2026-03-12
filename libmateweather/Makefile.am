@@ -72,6 +72,9 @@ test_sun_moon_LDADD = libmateweather.la $(GTK_LIBS) $(LIBM)
 test_libmateweather_SOURCES = test_libmateweather.c
 test_libmateweather_LDADD = libmateweather.la $(GTK_LIBS)
 
+AM_TESTS_ENVIRONMENT = \
+	MATEWEATHER_XML_LOCATION_DIR=$(top_srcdir)/data
+
 mateweather-enum-types.h: $(mateweather_new_headers)
 	$(AM_V_GEN)( cd $(srcdir) && $(GLIB_MKENUMS) --template mateweather-enum-types.h.tmpl \
 		$(mateweather_new_headers) ) > mateweather-enum-types.h.tmp \
