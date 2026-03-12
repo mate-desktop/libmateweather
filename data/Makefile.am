@@ -50,12 +50,10 @@ locationdb.sqlite: build-locationdb.pl major-cities.txt sources/nsd_cccc.txt sou
 
 check:
 	xmllint --valid --noout $(top_srcdir)/data/Locations.xml.in
-	$(srcdir)/check-timezones.sh $(srcdir)/Locations.xml.in
 
 EXTRA_DIST =	\
 	$(libmateweatherlocations_in_files)	\
 	$(libmateweatherdtd_DATA)			\
-	check-timezones.sh			\
 	README					\
 	README.timezones
 
