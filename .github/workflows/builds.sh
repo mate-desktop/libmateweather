@@ -27,9 +27,7 @@ if [ -f autogen.sh ]; then
 	infoend
 
 	infobegin "Check (autotools)"
-	make -j ${CPUS} check || {
-		true
-	}
+	make -j ${CPUS} check
 	infoend
 
 	infobegin "Distcheck (autotools)"
