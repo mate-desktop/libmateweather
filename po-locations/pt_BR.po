@@ -7,8 +7,8 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2021
 # Luciano Luck, 2022
-# Rodrigo Zimmermann <rodrigo.zimmermann23@gmail.com>, 2023
 # Walter Andrade, 2023
+# Rodrigo Zimmermann <rodrigo.zimmermann23@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 22:07+0200\n"
 "PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Walter Andrade, 2023\n"
+"Last-Translator: Rodrigo Zimmermann <rodrigo.zimmermann23@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -290,7 +290,7 @@ msgstr "Cuba"
 
 #. CY - Cyprus
 msgid "Cyprus"
-msgstr ""
+msgstr "Chipre"
 
 #. CZ - Czech Republic
 msgid "Czech Republic"
@@ -312,7 +312,7 @@ msgstr ""
 #. DM - Dominica, a Caribbean island nation, not to be confused
 #. with the Domincan Republic.
 msgid "Dominica"
-msgstr ""
+msgstr "Dominica"
 
 #. DO - Dominican Republic
 msgid "Dominican Republic"
@@ -352,7 +352,7 @@ msgstr "Etiópia"
 #. Malvinas". The parenthesized form is the compromise used by
 #. ISO and the UN.)
 msgid "Falkland Islands (Malvinas)"
-msgstr ""
+msgstr "Ilhas Malvinas"
 
 #. FO - Faroe Islands, an autonomous province of Denmark in the
 #. north Atlantic.
@@ -379,7 +379,7 @@ msgstr "Guiana Francesa"
 #. PF - French Polynesia, a French territory in the South
 #. Pacific
 msgid "French Polynesia"
-msgstr ""
+msgstr "Polinésia Francesa"
 
 #. TF - French Southern Territories, a territory of France
 #. consisting of several mostly-uninhabited islands in the
@@ -422,7 +422,7 @@ msgstr "Grécia"
 #. GL - Greenland, an autonomous province of Denmark in the
 #. North Atlantic.
 msgid "Greenland"
-msgstr ""
+msgstr "Groeenlândia"
 
 #. GD - Grenada
 msgid "Grenada"
@@ -431,7 +431,7 @@ msgstr "Granada"
 #. GP - Guadeloupe, an overseas department of France in the
 #. Caribbean.
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Guadalupe"
 
 #. GU - Guam, a territory of the United States in the South
 #. Pacific.
@@ -552,7 +552,7 @@ msgstr ""
 
 #. LA - Lao People's Democratic Republic
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #. LV - Latvia
 msgid "Latvia"
@@ -653,11 +653,11 @@ msgstr "México"
 
 #. FM - Federated States of Micronesia
 msgid "Micronesia, Federated States of"
-msgstr ""
+msgstr "Micronésia, Estados Federados da"
 
 #. MD - Moldova
 msgid "Moldova"
-msgstr ""
+msgstr "Moldávia"
 
 #. MC - Monaco
 msgctxt "Country"
@@ -666,7 +666,7 @@ msgstr "Mônaco"
 
 #. MN - Mongolia
 msgid "Mongolia"
-msgstr ""
+msgstr "Mongólia"
 
 #. ME - Montenegro
 msgid "Montenegro"
@@ -719,7 +719,7 @@ msgstr ""
 
 #. NZ - New Zealand
 msgid "New Zealand"
-msgstr ""
+msgstr "Nova Zelândia"
 
 #. NI - Nicaragua
 msgid "Nicaragua"
@@ -831,7 +831,7 @@ msgstr "Rússia"
 
 #. RW - Rwanda
 msgid "Rwanda"
-msgstr ""
+msgstr "Ruanda"
 
 #. RE - Réunion, an overseas department of France in the Indian
 #. Ocean.
@@ -879,7 +879,7 @@ msgstr ""
 #. SM - San Marino
 msgctxt "Country"
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #. ST - Sao Tome and Principe. The local (Portuguese) name is
 #. "São Tomé and Príncipe". The official ISO 3166 short English
@@ -889,15 +889,15 @@ msgstr "São Tomé e Príncipe"
 
 #. SA - Saudi Arabia
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Arábia Saudita"
 
 #. SN - Senegal
 msgid "Senegal"
-msgstr ""
+msgstr "Senegal"
 
 #. RS - Serbia
 msgid "Serbia"
-msgstr ""
+msgstr "Sérvia"
 
 #. SC - Seychelles
 msgid "Seychelles"
@@ -905,32 +905,32 @@ msgstr ""
 
 #. SL - Sierra Leone
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Serra Leoa"
 
 #. SG - Singapore
 msgctxt "Country"
 msgid "Singapore"
-msgstr ""
+msgstr "Cingapura"
 
 #. SK - Slovakia
 msgid "Slovakia"
-msgstr ""
+msgstr "Eslováquia"
 
 #. SI - Slovenia
 msgid "Slovenia"
-msgstr ""
+msgstr "Eslovênia"
 
 #. SB - Solomon Islands
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Ilhas Salomão"
 
 #. SO - Somalia
 msgid "Somalia"
-msgstr ""
+msgstr "Somália"
 
 #. ZA - South Africa
 msgid "South Africa"
-msgstr ""
+msgstr "África do Sul"
 
 #. GS - South Georgia and the South Sandwich Islands, a British
 #. territory in the South Atlantic.
@@ -947,15 +947,15 @@ msgstr "Espanha"
 
 #. LK - Sri Lanka
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #. SD - Sudan
 msgid "Sudan"
-msgstr ""
+msgstr "Sudão"
 
 #. SR - Suriname
 msgid "Suriname"
-msgstr ""
+msgstr "Suriname"
 
 #. SJ - Svalbard and Jan Mayen. Svalbard is an island in the
 #. Arctic Ocean which is a part of Norway with unusual status
@@ -977,7 +977,7 @@ msgstr ""
 
 #. SY - Syrian Arab Republic
 msgid "Syria"
-msgstr ""
+msgstr "Síria"
 
 #. TW - Taiwan, Province of China. (That's the official ISO
 #. 3166 short English name.)
@@ -994,11 +994,11 @@ msgstr "Tanzânia"
 
 #. TH - Thailand
 msgid "Thailand"
-msgstr ""
+msgstr "Tailândia"
 
 #. TL - Timor-Leste (formerly known as "East Timor")
 msgid "Timor-Leste"
-msgstr ""
+msgstr "Timor-Leste"
 
 #. TG - Togo
 msgid "Togo"
@@ -1014,19 +1014,19 @@ msgstr ""
 
 #. TT - Trinidad and Tobago
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Trindade e Tobago"
 
 #. TN - Tunisia
 msgid "Tunisia"
-msgstr ""
+msgstr "Tunísia"
 
 #. TR - Turkey
 msgid "Turkey"
-msgstr ""
+msgstr "Turquia"
 
 #. TM - Turkmenistan
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turcomenistão"
 
 #. TC - Turks and Caicos Islands, a British territory in the
 #. Caribbean
@@ -1039,23 +1039,23 @@ msgstr ""
 
 #. UG - Uganda
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #. UA - Ukraine
 msgid "Ukraine"
-msgstr ""
+msgstr "Ucrânia"
 
 #. AE - United Arab Emirates
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Emirados Árabes Unidos"
 
 #. GB - United Kingdom
 msgid "United Kingdom"
-msgstr ""
+msgstr "Reino Unido"
 
 #. US - United States, aka United States of America
 msgid "United States"
-msgstr ""
+msgstr "Estados Unidos"
 
 #. UM - United States Minor Outlying Islands, a group of
 #. mostly-uninhabited United States territories in the South
@@ -1074,7 +1074,7 @@ msgstr "Uruguai"
 
 #. UZ - Uzbekistan
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Uzbequistão"
 
 #. VU - Vanuatu
 msgid "Vanuatu"
@@ -1082,17 +1082,17 @@ msgstr ""
 
 #. VA - Holy See (Vatican City State)
 msgid "Vatican City"
-msgstr ""
+msgstr "Cidade do Vaticano"
 
 #. VE - Venezuela
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #. VN - Viet Nam (The official ISO 3166 short English name
 #. includes a space, though it is also frequently written
 #. without one.)
 msgid "Viet Nam"
-msgstr ""
+msgstr "Vietnã"
 
 #. WF - Wallis and Futuna, a French territory in the South
 #. Pacific
@@ -1105,7 +1105,7 @@ msgstr ""
 
 #. YE - Yemen
 msgid "Yemen"
-msgstr ""
+msgstr "Iêmen"
 
 #. ZM - Zambia
 msgid "Zambia"
@@ -1528,7 +1528,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Pernambuco"
-msgstr ""
+msgstr "Pernambuco"
 
 #. This represents the time zone in the Brazilian state of
 #. Acre. See the comment on "Brasília Time" for more
@@ -1536,7 +1536,7 @@ msgstr ""
 #. "Brazil" is already clear from context.
 msgctxt "Timezone"
 msgid "Acre"
-msgstr ""
+msgstr "Acre"
 
 #. This represents the official "base" time zone in Brazil,
 #. covering the capital city of Brasília, and those states
@@ -1556,7 +1556,7 @@ msgstr ""
 #. Paulo). This string is only used in places where
 #. "Brazil" is already clear from context.
 msgid "Brasília Time"
-msgstr ""
+msgstr "Horário de Brasília"
 
 #. This refers to the time zone for mainland Chile (as
 #. opposed to the time zone for Easter Island).
@@ -1592,7 +1592,7 @@ msgstr ""
 #. is only used in places where "Portugal" is already
 #. understood from context.
 msgid "Azores"
-msgstr ""
+msgstr "Açores"
 
 #. This refers to the time zone for the Portuguese island
 #. of Madeira. The string is only used in places where
@@ -1715,7 +1715,7 @@ msgstr ""
 #. where "US", "Canada" or "Mexico" is already clear from
 #. the context.
 msgid "Pacific Time"
-msgstr ""
+msgstr "Horário do Pacífico"
 
 #. The time zone used in the central-west part of North
 #. America (ie, the Rocky Mountains). In Mexico it is
@@ -1832,7 +1832,7 @@ msgstr "Sul da Austrália"
 
 #. A state/province/territory in Australia
 msgid "Tasmania"
-msgstr ""
+msgstr "Tasmânia"
 
 #. A state/province/territory in Australia
 msgctxt "State in Australia"
@@ -1895,15 +1895,15 @@ msgstr ""
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Acre"
-msgstr ""
+msgstr "Acre"
 
 #. A state/province/territory in Brazil
 msgid "Alagoas"
-msgstr ""
+msgstr "Alagoas"
 
 #. A state/province/territory in Brazil
 msgid "Amapá"
-msgstr ""
+msgstr "Amapá"
 
 #. A state/province/territory in Brazil
 msgid "Amazonas"
@@ -1925,11 +1925,11 @@ msgstr "Distrito Federal"
 
 #. A state/province/territory in Brazil
 msgid "Espírito Santo"
-msgstr ""
+msgstr "Espírito Santo"
 
 #. A state/province/territory in Brazil
 msgid "Goiás"
-msgstr ""
+msgstr "Goiás"
 
 #. A state/province/territory in Brazil
 msgid "Maranhão"
@@ -1947,24 +1947,24 @@ msgstr "Mato Grosso do Sul"
 
 #. A state/province/territory in Brazil
 msgid "Minas Gerais"
-msgstr ""
+msgstr "Minas Gerais"
 
 #. A state/province/territory in Brazil
 msgid "Paraná"
-msgstr ""
+msgstr "Paraná"
 
 #. A state/province/territory in Brazil
 msgid "Paraíba"
-msgstr ""
+msgstr "Paraíba"
 
 #. A state/province/territory in Brazil
 msgid "Pará"
-msgstr ""
+msgstr "Pará"
 
 #. A state/province/territory in Brazil
 msgctxt "State in Brazil"
 msgid "Pernambuco"
-msgstr ""
+msgstr "Pernambuco"
 
 #. A state/province/territory in Brazil
 msgid "Piauí"
@@ -2040,7 +2040,7 @@ msgstr ""
 #. A state/province/territory in Canada
 msgctxt "State in Canada"
 msgid "Ontario"
-msgstr ""
+msgstr "Ontário"
 
 #. A state/province/territory in Canada
 msgid "Prince Edward Island"
@@ -2049,7 +2049,7 @@ msgstr ""
 #. A state/province/territory in Canada
 msgctxt "State in Canada"
 msgid "Quebec"
-msgstr ""
+msgstr "Quebec"
 
 #. A state/province/territory in Canada
 msgid "Saskatchewan"
@@ -2430,7 +2430,7 @@ msgstr ""
 
 #. A state/province/territory in United States
 msgid "Alabama"
-msgstr ""
+msgstr "Alabama"
 
 #. A state/province/territory in United States
 msgid "Alaska"
@@ -2442,7 +2442,7 @@ msgstr "Arizona"
 
 #. A state/province/territory in United States
 msgid "Arkansas"
-msgstr ""
+msgstr "Arkansas"
 
 #. A state/province/territory in United States
 msgid "California"
@@ -2450,7 +2450,7 @@ msgstr "Califórnia"
 
 #. A state/province/territory in United States
 msgid "Colorado"
-msgstr ""
+msgstr "Colorado"
 
 #. A state/province/territory in United States
 msgid "Connecticut"
@@ -2462,7 +2462,7 @@ msgstr ""
 
 #. A state/province/territory in United States
 msgid "District of Columbia"
-msgstr ""
+msgstr "Distrito de Columbia"
 
 #. A state/province/territory in United States
 msgid "Florida"
@@ -2475,7 +2475,7 @@ msgstr "Geórgia"
 
 #. A state/province/territory in United States
 msgid "Hawaii"
-msgstr ""
+msgstr "Havaí"
 
 #. A state/province/territory in United States
 msgid "Idaho"
@@ -2552,7 +2552,7 @@ msgstr ""
 
 #. A state/province/territory in United States
 msgid "New Jersey"
-msgstr ""
+msgstr "Nova Jersey"
 
 #. A state/province/territory in United States
 msgid "New Mexico"
@@ -2585,7 +2585,7 @@ msgstr ""
 
 #. A state/province/territory in United States
 msgid "Pennsylvania"
-msgstr ""
+msgstr "Pensilvânia"
 
 #. A state/province/territory in United States
 msgid "Rhode Island"
@@ -2593,7 +2593,7 @@ msgstr ""
 
 #. A state/province/territory in United States
 msgid "South Carolina"
-msgstr ""
+msgstr "Carolina do Sul"
 
 #. A state/province/territory in United States
 msgid "South Dakota"
@@ -4892,7 +4892,7 @@ msgstr ""
 #. The local name in French is "Québec".
 msgctxt "City in Quebec, Canada"
 msgid "Quebec"
-msgstr ""
+msgstr "Quebec"
 
 #. A city in British Columbia in Canada
 msgid "Queen Charlotte"
@@ -10187,7 +10187,7 @@ msgstr ""
 #. The capital of San Marino
 msgctxt "City in San Marino"
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #. A city in Saudi Arabia
 msgid "'Ar'ar"
@@ -10367,7 +10367,7 @@ msgstr ""
 #. The capital of Singapore
 msgctxt "City in Singapore"
 msgid "Singapore"
-msgstr ""
+msgstr "Cingapura"
 
 #. The capital of Slovakia
 msgid "Bratislava"
@@ -16467,12 +16467,12 @@ msgstr ""
 #. A city in California in the United States
 msgctxt "City in California, United States"
 msgid "Ontario"
-msgstr ""
+msgstr "Ontário"
 
 #. A city in Oregon in the United States
 msgctxt "City in Oregon, United States"
 msgid "Ontario"
-msgstr ""
+msgstr "Ontário"
 
 #. A city in California in the United States
 msgctxt "City in California, United States"

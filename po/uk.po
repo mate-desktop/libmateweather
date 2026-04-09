@@ -8,7 +8,7 @@
 # zubr139, 2018
 # Микола Ткач <chistomov@gmail.com>, 2018
 # 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2018
-# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018
+# Анатолій Романович Шаповалов <elrond.716.smith@gmail.com>, 2018
 # Taras Panchenko <top39@ukr.net>, 2021
 # 
 msgid ""
