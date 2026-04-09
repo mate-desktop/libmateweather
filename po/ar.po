@@ -10,6 +10,7 @@
 # Mubarak Qahtani <abu-q76@hotmail.com>, 2018
 # مهدي السطيفي <chinoune.mehdi@gmail.com>, 2018
 # وجدي أبو سلطان, 2018
+# Mostapha Mostapha, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
 "POT-Creation-Date: 2023-10-18 22:10+0200\n"
 "PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: وجدي أبو سلطان, 2018\n"
+"Last-Translator: Mostapha Mostapha, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/mate/teams/13566/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,11 +132,11 @@ msgstr "وقت جرينتش"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:38
 msgid "Show notifications"
-msgstr ""
+msgstr "إظهار الإشعارات"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:39
 msgid "Determines whether the applet shows a notification on each update."
-msgstr ""
+msgstr "يحدد ما إذا كانت الواجهة المصغّرة تعرض إشعارًا عند كل تحديث."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:43
 msgid "Update the data automatically"
@@ -195,6 +196,8 @@ msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
 msgstr ""
+"وحدة القياس المستخدمة للضغط. القيم الممكنة: 'kPa'، 'hPa'، 'mb'، 'mmHg'، "
+"'inHg'، 'atm'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
@@ -792,7 +795,7 @@ msgstr "%I.1f °ف"
 #: libmateweather/weather.c:766 libmateweather/weather.c:783
 #: libmateweather/weather.c:800
 msgid "n/a"
-msgstr ""
+msgstr "غير متوفر"
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
