@@ -527,7 +527,7 @@ metar_send_cb (GObject *source, GAsyncResult *result, gpointer data)
     GByteArray *body = read_stream_sync (stream, 30000);
     g_object_unref (stream);
 
-    g_boolean success = FALSE;
+    gboolean success = FALSE;
     if (body->len > 0) {
         const char *resp = (const char *)body->data;
         const gchar *p = xstrnstr (resp, body->len, "<raw_text>");
@@ -546,71 +546,6 @@ metar_send_cb (GObject *source, GAsyncResult *result, gpointer data)
 
     info->valid = success;
     request_done (info, NULL);
-}
-
-static void
-metar_finish (GObject *source, GAsyncResult *result, gpointer data)
-{
-    WeatherInfo *info = (WeatherInfo *)data;
-    WeatherLocation *loc;
-    const gchar *p, *end, *endtag;
-    gchar *metar;
-    gboolean success = FALSE;
-    GError *error = NULL;
-    GBytes *bytes;
-    const char *response_body = NULL;
-    gsize len = 0;
-
-    g_return_if_fail (info != NULL);
-
-    bytes = soup_session_send_and_read_finish (SOUP_SESSION(source),
-                                               result, &error);
-
-    if (error != NULL) {
-        /* https://libsoup.org/libsoup-3.0/migrating-from-libsoup-2.html#status-codes-no-longer-used-for-internal-errors */
-        switch (error->code) {
-        case SOUP_SESSION_ERROR_PARSING:
-        case SOUP_SESSION_ERROR_ENCODING:
-        case SOUP_SESSION_ERROR_TOO_MANY_REDIRECTS:
-            info->network_error = TRUE;
-            break;
-        default:
-            break;
-        }
-        g_warning (_("Failed to get METAR data: %s.\n"),
-                   error->message);
-        request_done (info, error);
-        g_error_free (error);
-        return;
-    }
-
-    loc = info->location;
-
-    response_body = g_bytes_get_data (bytes, &len);
-    end = response_body + len;
-
-    /* Search for raw_text tag - new API returns "<raw_text>METAR UUWW..." */
-    p = xstrnstr (response_body, len, "<raw_text>");
-    if (p) {
-        p += 10; /* skip "<raw_text>" */
-        endtag = xstrnstr (p, end - p, "</raw_text>");
-        if (endtag)
-            metar = g_strndup (p, endtag - p);
-        else
-            metar = g_strndup (p, end - p);
-        success = metar_parse (metar, info);
-        g_free (metar);
-    } else if (!xstrnstr (response_body, len, "aviationweather.gov")) {
-        /* The response doesn't even seem to have come from NOAA...
-         * most likely it is a wifi hotspot login page. Call that a
-         * network error.
-         */
-        info->network_error = TRUE;
-    }
-
-    info->valid = success;
-    request_done (info, NULL);
-    g_bytes_unref(bytes);
 }
 
 /* Read current conditions and fill in info structure */
