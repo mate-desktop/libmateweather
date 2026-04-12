@@ -485,13 +485,76 @@ metar_parse (gchar *metar, WeatherInfo *info)
     return TRUE;
 }
 
+/* Read all bytes from input stream synchronously */
+static GByteArray *
+read_stream_sync (GInputStream *stream, guint timeout_ms)
+{
+    GByteArray *buf = g_byte_array_new ();
+    guint8 tmp[8192];
+    GTimer *timer = g_timer_new ();
+    GError *error = NULL;
+
+    while (g_timer_elapsed (timer, NULL) * 1000 < timeout_ms) {
+        gssize n = g_input_stream_read (stream, tmp, sizeof (tmp), NULL, &error);
+        if (n < 0) {
+            g_warning ("METAR read error: %s", error ? error->message : "unknown");
+            if (error) g_error_free (error);
+            break;
+        }
+        if (n == 0) break; /* EOF */
+        g_byte_array_append (buf, tmp, n);
+        g_timer_reset (timer);
+    }
+    g_timer_destroy (timer);
+    return buf;
+}
+
+static void
+metar_send_cb (GObject *source, GAsyncResult *result, gpointer data)
+{
+    WeatherInfo *info = (WeatherInfo *)data;
+    GError *error = NULL;
+    GInputStream *stream = soup_session_send_finish (SOUP_SESSION(source), result, &error);
+
+    if (error) {
+        info->network_error = TRUE;
+        g_warning (_("Failed to get METAR data: %s.\n"), error->message);
+        request_done (info, error);
+        g_error_free (error);
+        return;
+    }
+
+    GByteArray *body = read_stream_sync (stream, 30000);
+    g_object_unref (stream);
+
+    g_boolean success = FALSE;
+    if (body->len > 0) {
+        const char *resp = (const char *)body->data;
+        const gchar *p = xstrnstr (resp, body->len, "<raw_text>");
+        if (p) {
+            p += 10;
+            const gchar *endtag = xstrnstr (p, body->len - (p - resp), "</raw_text>");
+            gchar *metar = endtag ? g_strndup (p, endtag - p)
+                                  : g_strndup (p, resp + body->len - p);
+            success = metar_parse (metar, info);
+            g_free (metar);
+        } else if (!xstrnstr (resp, body->len, "aviationweather.gov")) {
+            info->network_error = TRUE;
+        }
+    }
+    g_byte_array_free (body, TRUE);
+
+    info->valid = success;
+    request_done (info, NULL);
+}
+
 static void
 metar_finish (GObject *source, GAsyncResult *result, gpointer data)
 {
     WeatherInfo *info = (WeatherInfo *)data;
     WeatherLocation *loc;
     const gchar *p, *end, *endtag;
-    gchar *searchkey, *metar;
+    gchar *metar;
     gboolean success = FALSE;
     GError *error = NULL;
     GBytes *bytes;
@@ -526,20 +589,10 @@ metar_finish (GObject *source, GAsyncResult *result, gpointer data)
     response_body = g_bytes_get_data (bytes, &len);
     end = response_body + len;
 
-    /* Try METAR first, then SPECI */
-    searchkey = g_strdup_printf ("<raw_text>METAR %s", loc->code);
-    p = xstrnstr (response_body, len, searchkey);
-    if (!p) {
-        g_free (searchkey);
-        searchkey = g_strdup_printf ("<raw_text>SPECI %s", loc->code);
-        p = xstrnstr (response_body, len, searchkey);
-    }
-
+    /* Search for raw_text tag - new API returns "<raw_text>METAR UUWW..." */
+    p = xstrnstr (response_body, len, "<raw_text>");
     if (p) {
-        p += strlen (searchkey) + 1;
-    }
-    g_free (searchkey);
-    if (p) {
+        p += 10; /* skip "<raw_text>" */
         endtag = xstrnstr (p, end - p, "</raw_text>");
         if (endtag)
             metar = g_strndup (p, endtag - p);
@@ -588,8 +641,8 @@ metar_start_open (WeatherInfo *info)
     msg = soup_message_new_from_encoded_form (
         "GET", "https://aviationweather.gov/api/data/dataserver",
         query);
-    soup_session_send_and_read_async (info->session, msg, G_PRIORITY_DEFAULT,
-                                      NULL, metar_finish, info);
+    soup_session_send_async (info->session, msg, G_PRIORITY_DEFAULT,
+                             NULL, metar_send_cb, info);
 
     info->requests_pending++;
 }
