@@ -48,6 +48,41 @@ mateweather_prefs_load (MateWeatherPrefs *prefs, GSettings *settings)
     zone = g_settings_get_string (settings, "location2");
     radar = g_settings_get_string (settings, "location3");
     coordinates = g_settings_get_string (settings, "coordinates");
+
+    /* Fallback if DEFAULT_CODE: read from standalone applet path */
+    if (!code || strcmp (code, "DEFAULT_CODE") == 0) {
+        GSettings *fb = g_settings_new_with_path ("org.mate.weather",
+            "/org/mate/panel/objects/MateWeatherAppletFactory-MateWeatherApplet/");
+        if (!code || strcmp (code, "DEFAULT_CODE") == 0) {
+            g_free (code);
+            code = g_settings_get_string (fb, "location1");
+            if (code && strcmp (code, "DEFAULT_CODE") == 0) { g_free (code); code = NULL; }
+        }
+        if (!name || strcmp (name, "DEFAULT_LOCATION") == 0) {
+            g_free (name);
+            name = g_settings_get_string (fb, "location4");
+            if (name && strcmp (name, "DEFAULT_LOCATION") == 0) { g_free (name); name = NULL; }
+        }
+        if (!zone || strcmp (zone, "DEFAULT_ZONE") == 0) {
+            g_free (zone);
+            zone = g_settings_get_string (fb, "location2");
+            if (zone && strcmp (zone, "DEFAULT_ZONE") == 0) { g_free (zone); zone = NULL; }
+        }
+        if (!radar || radar[0] == '\0') {
+            g_free (radar);
+            radar = g_settings_get_string (fb, "location3");
+            if (radar && radar[0] == '\0') { g_free (radar); radar = NULL; }
+        }
+        if (!coordinates || strcmp (coordinates, "DEFAULT_COORDINATES") == 0) {
+            g_free (coordinates);
+            coordinates = g_settings_get_string (fb, "coordinates");
+            if (coordinates && strcmp (coordinates, "DEFAULT_COORDINATES") == 0) {
+                g_free (coordinates); coordinates = NULL;
+            }
+        }
+        g_object_unref (fb);
+    }
+
     prefs->location = weather_location_new (name, code, zone, radar, coordinates,
 					    NULL, NULL);
 
