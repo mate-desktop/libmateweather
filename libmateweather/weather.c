@@ -350,13 +350,33 @@ requests_init (WeatherInfo *info)
 
 void request_done (WeatherInfo *info, GError *error)
 {
+    WeatherInfoFunc cb = NULL;
+    gpointer cb_data = NULL;
+    gboolean is_last = FALSE;
+
+    if (!info)
+        return;
+
     if (error == NULL) {
-	(void) calc_sun (info);
-	info->moonValid = info->valid && calc_moon (info);
-    } else if (error->code == G_IO_ERROR_CANCELLED)
+        if (info->valid) {
+            (void) calc_sun (info);
+            info->moonValid = calc_moon (info);
+        }
+    } else if (error->code == G_IO_ERROR_CANCELLED) {
         return; /* Caused by soup_session_abort */
+    }
+
     if (!--info->requests_pending)
-        info->finish_cb (info, info->cb_data);
+        is_last = TRUE;
+
+    if (is_last) {
+        cb = info->finish_cb;
+        cb_data = info->cb_data;
+        info->finish_cb = NULL;
+        info->cb_data = NULL;
+        if (cb)
+            cb (info, cb_data);
+    }
 }
 
 /* it's OK to pass in NULL */
@@ -552,6 +572,10 @@ _weather_info_fill (WeatherInfo *info,
 
     if (!info->session) {
         info->session = soup_session_new ();
+        g_object_set (info->session,
+                      "user-agent", "libmateweather/1.26.3",
+                      "accept-language-auto", TRUE,
+                      NULL);
     }
 
     metar_start_open (info);

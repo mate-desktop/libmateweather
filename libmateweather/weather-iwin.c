@@ -424,6 +424,16 @@ iwin_start_open (WeatherInfo *info)
     loc = info->location;
     g_return_if_fail (loc != NULL);
 
+    /* Skip IWIN for non-US locations (latlon outside continental US)
+     * to avoid 404 errors from weather.gov */
+    if (loc->latlon_valid) {
+        gdouble lat = RADIANS_TO_DEGREES (loc->latitude);
+        gdouble lon = RADIANS_TO_DEGREES (loc->longitude);
+        /* Rough bounding box for continental US: lat 24-50, lon -125 to -66 */
+        if (lat < 24.0 || lat > 50.0 || lon < -125.0 || lon > -66.0)
+            return;
+    }
+
     if (loc->zone[0] == '-' && (info->forecast_type != FORECAST_LIST || !loc->latlon_valid))
         return;
 
