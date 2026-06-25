@@ -77,7 +77,7 @@ jobs:
         with:
           key: ${{ env.DISTRO }}-${{ matrix.cc }}
       - name: Cache mate-desktop binary packages
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: cache-mate-desktop
         with:
           path: ${{ env.CACHE_PATH }}
