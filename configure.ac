@@ -25,6 +25,7 @@ AC_CANONICAL_HOST
 GLIB_REQUIRED=2.56.0
 GTK_REQUIRED=3.22.0
 LIBSOUP_REQUIRED=3.0.0
+JSON_GLIB_REQUIRED=1.6.0
 GIO_REQUIRED=2.25.0
 LIBXML_REQUIRED=2.6.0
 
@@ -55,6 +56,9 @@ PKG_CHECK_MODULES(LIBXML, libxml-2.0 >= $LIBXML_REQUIRED)
 
 dnl -- check for libsoup (required) -----------------------------------------
 PKG_CHECK_MODULES(LIBSOUP, [libsoup-3.0 >= $LIBSOUP_REQUIRED])
+
+dnl -- check for json-glib (required) -----------------------------------------
+PKG_CHECK_MODULES(JSON_GLIB, [json-glib-1.0 >= $JSON_GLIB_REQUIRED])
 
 dnl -- check for gio (required) -----------------------------------------
 PKG_CHECK_MODULES(GIO,

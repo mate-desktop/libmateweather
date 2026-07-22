@@ -131,6 +131,7 @@ const gchar *	weather_conditions_string	(WeatherConditions cond);
 #define WINDSPEED_KNOTS_TO_MPH(knots)	((knots) * 1.150779)
 #define WINDSPEED_KNOTS_TO_MS(knots)	((knots) * 0.514444)
 #define WINDSPEED_MS_TO_KNOTS(ms)	((ms) / 0.514444)
+#define WINDSPEED_KMH_TO_KNOTS(kmh)	((kmh) * 0.539957)
 /* 1 bft ~= (1 m/s / 0.836) ^ (2/3) */
 #define WINDSPEED_KNOTS_TO_BFT(knots)	(pow ((knots) * 0.615363, 0.666666))
 
@@ -159,6 +160,7 @@ const gchar *	weather_conditions_string	(WeatherConditions cond);
 #define PERIGEE_LONGITUDE(d)       (282.93768193 + (d)/36525.*0.32327364)
 
 void		metar_start_open	(WeatherInfo *info);
+void		openmeteo_start_open	(WeatherInfo *info);
 void		iwin_start_open		(WeatherInfo *info);
 void		metoffice_start_open	(WeatherInfo *info);
 void		bom_start_open		(WeatherInfo *info);

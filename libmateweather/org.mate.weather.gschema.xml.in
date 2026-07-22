@@ -161,6 +161,11 @@
       <summary>Location coordinates</summary>
       <description>Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS[EW].</description>
     </key>
+    <key name="weather-provider" type="s">
+      <default>'metar'</default>
+      <summary>Weather data provider</summary>
+      <description>The weather data provider to use. 'metar' uses aviationweather.gov (ICAO codes required), 'open-meteo' uses open-meteo.com (coordinates required, supports any location worldwide).</description>
+    </key>
     <key name="use-custom-radar-url" type="b">
       <default>false</default>
       <summary>Use custom url for the radar map</summary>

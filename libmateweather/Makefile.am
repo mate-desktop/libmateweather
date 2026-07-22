@@ -26,7 +26,7 @@ noinst_HEADERS = weather-priv.h
 
 libmateweather_la_SOURCES = \
 	weather.c weather.h weather-priv.h \
-	weather-metar.c weather-iwin.c weather-met.c \
+	weather-metar.c weather-openmeteo.c weather-iwin.c weather-met.c \
 	weather-bom.c weather-wx.c \
 	weather-sun.c weather-moon.c \
 	mateweather-enum-types.c \
@@ -42,6 +42,7 @@ libmateweather_la_CPPFLAGS = \
 	$(AM_CPPFLAGS)			\
 	$(LIBXML_CFLAGS)		\
 	$(LIBSOUP_CFLAGS)		\
+	$(JSON_GLIB_CFLAGS)		\
 	$(GIO_CFLAGS)			\
 	-DG_LOG_DOMAIN=\"MateWeather\"	\
 	-DMATELOCALEDIR=\""$(datadir)/locale"\" \
@@ -52,6 +53,7 @@ libmateweather_la_LIBADD = \
 	$(GTK_LIBS)	\
 	$(LIBXML_LIBS)	\
 	$(LIBSOUP_LIBS)	\
+	$(JSON_GLIB_LIBS) \
 	$(GIO_LIBS) \
 	$(REGEX_LIBS)
 

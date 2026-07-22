@@ -36,6 +36,7 @@
 #include <unistd.h>
 
 #include <gdk-pixbuf/gdk-pixbuf.h>
+#include <gio/gio.h>
 
 #define MATEWEATHER_I_KNOW_THIS_IS_UNSTABLE
 #include "weather.h"
@@ -554,7 +555,23 @@ _weather_info_fill (WeatherInfo *info,
         info->session = soup_session_new ();
     }
 
-    metar_start_open (info);
+    {
+        GSettings *wsettings;
+        gchar *provider = NULL;
+
+        wsettings = g_settings_new ("org.mate.weather");
+        if (wsettings) {
+            provider = g_settings_get_string (wsettings, "weather-provider");
+            g_object_unref (wsettings);
+        }
+
+        if (g_strcmp0 (provider, "open-meteo") == 0 && info->location->latlon_valid) {
+            openmeteo_start_open (info);
+        } else {
+            metar_start_open (info);
+        }
+        g_free (provider);
+    }
     iwin_start_open (info);
 
     if (prefs->radar) {
