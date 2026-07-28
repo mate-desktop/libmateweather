@@ -246,7 +246,6 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
     JsonParser *parser;
     JsonNode *root;
     JsonObject *root_obj, *current_obj, *daily_obj;
-    gboolean success = FALSE;
 
     g_return_if_fail (info != NULL);
 
@@ -509,7 +508,6 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
     }
 
     info->valid = TRUE;
-    success = TRUE;
 
     g_object_unref (parser);
     g_bytes_unref (bytes);
