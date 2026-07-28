@@ -556,21 +556,21 @@ _weather_info_fill (WeatherInfo *info,
     }
 
     {
-        GSettings *wsettings;
+        static gchar *cached_provider = NULL;
         gchar *provider = NULL;
 
-        wsettings = g_settings_new ("org.mate.weather");
-        if (wsettings) {
-            provider = g_settings_get_string (wsettings, "weather-provider");
+        if (G_UNLIKELY (cached_provider == NULL)) {
+            GSettings *wsettings = g_settings_new ("org.mate.weather");
+            cached_provider = g_settings_get_string (wsettings, "weather-provider");
             g_object_unref (wsettings);
         }
+        provider = cached_provider;
 
         if (g_strcmp0 (provider, "open-meteo") == 0 && info->location->latlon_valid) {
             openmeteo_start_open (info);
         } else {
             metar_start_open (info);
         }
-        g_free (provider);
     }
     iwin_start_open (info);
 

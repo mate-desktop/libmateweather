@@ -218,42 +218,21 @@ json_node_get_string (JsonNode *node)
 }
 
 static time_t
-parse_iso8601_date (const gchar *str)
+parse_iso8601_time (const gchar *str)
 {
-    struct tm tm;
-    gint year, month, day;
+    GDateTime *dt;
+    time_t t;
 
-    if (!str || sscanf (str, "%d-%d-%d", &year, &month, &day) < 3)
+    if (!str)
         return 0;
 
-    memset (&tm, 0, sizeof (tm));
-    tm.tm_year = year - 1900;
-    tm.tm_mon  = month - 1;
-    tm.tm_mday = day;
-    tm.tm_isdst = -1;
+    dt = g_date_time_new_from_iso8601 (str, NULL);
+    if (!dt)
+        return 0;
 
-    return timegm (&tm);
-}
-
-static time_t
-parse_iso8601_datetime (const gchar *str)
-{
-    struct tm tm;
-    gint year, month, day, hour, min;
-
-    if (!str || sscanf (str, "%d-%d-%dT%d:%d", &year, &month, &day, &hour, &min) < 5)
-        return parse_iso8601_date (str);
-
-    memset (&tm, 0, sizeof (tm));
-    tm.tm_year = year - 1900;
-    tm.tm_mon  = month - 1;
-    tm.tm_mday = day;
-    tm.tm_hour = hour;
-    tm.tm_min  = min;
-    tm.tm_sec  = 0;
-    tm.tm_isdst = -1;
-
-    return timegm (&tm);
+    t = g_date_time_to_unix (dt);
+    g_date_time_unref (dt);
+    return t;
 }
 
 static void
@@ -439,21 +418,19 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
         {
             const gchar *timestr = json_node_get_string (node);
             if (timestr)
-                info->update = parse_iso8601_datetime (timestr);
+                info->update = parse_iso8601_time (timestr);
         }
     } while (0);
 
     /* Parse daily forecast */
     if (daily_obj) {
-        JsonArray *times, *wcodes, *tmax, *tmin, *precip, *precip_prob, *wspeed, *wdir;
+        JsonArray *times, *wcodes, *tmax, *tmin, *wspeed, *wdir;
         gint i, count;
 
         times = json_object_get_array_member (daily_obj, "time");
         wcodes = json_object_get_array_member (daily_obj, "weather_code");
         tmax = json_object_get_array_member (daily_obj, "temperature_2m_max");
         tmin = json_object_get_array_member (daily_obj, "temperature_2m_min");
-        precip = json_object_get_array_member (daily_obj, "precipitation_sum");
-        precip_prob = json_object_get_array_member (daily_obj, "precipitation_probability_max");
         wspeed = json_object_get_array_member (daily_obj, "wind_speed_10m_max");
         wdir = json_object_get_array_member (daily_obj, "wind_direction_10m_dominant");
 
@@ -465,21 +442,28 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
             for (i = 0; i < count; i++) {
                 WeatherInfo *day_info;
                 JsonNode *day_node;
-                gint wmo, cc = 0;
+                gint wmo;
 
-                day_info = g_new0 (WeatherInfo, 1);
+                day_info = weather_info_clone (info);
                 day_info->forecast_type = FORECAST_LIST;
-                day_info->temperature_unit = info->temperature_unit;
-                day_info->speed_unit = info->speed_unit;
-                day_info->pressure_unit = info->pressure_unit;
-                day_info->distance_unit = info->distance_unit;
+                day_info->requests_pending = 0;
+                day_info->session = NULL;
+                day_info->forecast = NULL;
+                day_info->forecast_list = NULL;
+                day_info->radar = NULL;
+                day_info->radar_url = NULL;
+                day_info->finish_cb = NULL;
+                day_info->cb_data = NULL;
+                day_info->sunriseValid = FALSE;
+                day_info->sunsetValid = FALSE;
+                day_info->moonValid = FALSE;
 
                 /* Date */
                 day_node = json_array_get_element (times, i);
                 if (day_node) {
                     const gchar *dstr = json_node_get_string (day_node);
                     if (dstr)
-                        day_info->update = parse_iso8601_date (dstr);
+                        day_info->update = parse_iso8601_time (dstr);
                 }
 
                 /* Weather code */
@@ -503,11 +487,6 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
 
                 day_info->tempMinMaxValid = (day_info->temp_max > -500.0 && day_info->temp_min > -500.0);
 
-                /* Precipitation */
-                day_node = json_array_get_element (precip, i);
-                if (day_node)
-                    day_info->dew = json_node_get_double (day_node);
-
                 /* Wind */
                 day_node = json_array_get_element (wspeed, i);
                 if (day_node) {
@@ -521,7 +500,7 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
                     day_info->wind = (WeatherWindDirection) json_node_get_int (day_node);
 
                 /* Sky + conditions from WMO code */
-                wmo_to_sky_conditions (wmo, cc, &day_info->sky, &day_info->cond);
+                wmo_to_sky_conditions (wmo, 0, &day_info->sky, &day_info->cond);
                 day_info->valid = TRUE;
 
                 info->forecast_list = g_slist_append (info->forecast_list, day_info);
