@@ -31,8 +31,8 @@
 #include <json-glib/json-glib.h>
 
 #define OPENMETEO_BASE_URL "https://api.open-meteo.com/v1/forecast"
-#define OPENMETEO_CURRENT_PARAMS "temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,cloud_cover,wind_speed_10m,wind_direction_10m,visibility"
-#define OPENMETEO_DAILY_PARAMS "weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,wind_speed_10m_max,wind_direction_10m_dominant"
+#define OPENMETEO_CURRENT_PARAMS "temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,cloud_cover,wind_speed_10m,wind_direction_10m,visibility"
+#define OPENMETEO_DAILY_PARAMS "weather_code,temperature_2m_max,temperature_2m_min,wind_speed_10m_max,wind_direction_10m_dominant"
 #define OPENMETEO_FORECAST_DAYS 7
 
 static void
@@ -189,16 +189,17 @@ wmo_to_sky_conditions (gint wmo_code, gint cloud_cover,
     }
 }
 
-static gdouble
-json_node_get_double (JsonNode *node)
+static gboolean
+get_json_double (JsonNode *node, gdouble *out)
 {
     if (!node || json_node_get_value_type (node) != G_TYPE_DOUBLE)
-        return -1.0;
-    return json_node_get_double (node);
+        return FALSE;
+    *out = json_node_get_double (node);
+    return TRUE;
 }
 
 static gint
-json_node_get_int (JsonNode *node)
+get_json_int (JsonNode *node)
 {
     if (!node)
         return -1;
@@ -210,7 +211,7 @@ json_node_get_int (JsonNode *node)
 }
 
 static const gchar *
-json_node_get_string (JsonNode *node)
+get_json_string (JsonNode *node)
 {
     if (!node || json_node_get_value_type (node) != G_TYPE_STRING)
         return NULL;
@@ -325,19 +326,17 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
 
         /* Temperature: °C -> °F */
         node = json_object_get_member (current_obj, "temperature_2m");
-        dval = json_node_get_double (node);
-        if (dval > -100.0)
+        if (get_json_double (node, &dval))
             info->temp = TEMP_C_TO_F (dval);
 
         /* Apparent temperature: °C -> °F */
         node = json_object_get_member (current_obj, "apparent_temperature");
-        dval = json_node_get_double (node);
-        if (dval > -100.0)
+        if (get_json_double (node, &dval))
             info->dew = TEMP_C_TO_F (dval);
 
         /* Relative humidity */
         node = json_object_get_member (current_obj, "relative_humidity_2m");
-        ival = json_node_get_int (node);
+        ival = get_json_int (node);
         if (ival >= 0) {
             /* Derive dew point from temp and humidity */
             if (info->temp > -500.0) {
@@ -351,25 +350,24 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
 
         /* Weather code + cloud cover -> sky + conditions */
         node = json_object_get_member (current_obj, "weather_code");
-        ival = json_node_get_int (node);
+        ival = get_json_int (node);
 
         gint cloud_cover = 0;
         node = json_object_get_member (current_obj, "cloud_cover");
         if (node)
-            cloud_cover = json_node_get_int (node);
+            cloud_cover = get_json_int (node);
         if (cloud_cover < 0) cloud_cover = 0;
 
         wmo_to_sky_conditions (ival, cloud_cover, &info->sky, &info->cond);
 
         /* Wind speed: km/h -> knots */
         node = json_object_get_member (current_obj, "wind_speed_10m");
-        dval = json_node_get_double (node);
-        if (dval >= 0.0)
+        if (get_json_double (node, &dval))
             info->windspeed = WINDSPEED_KMH_TO_KNOTS (dval);
 
         /* Wind direction: degrees -> compass point */
         node = json_object_get_member (current_obj, "wind_direction_10m");
-        ival = json_node_get_int (node);
+        ival = get_json_int (node);
         if (ival >= 0) {
             gint dir = ival;
             if ((349 <= dir) || (dir <= 11))
@@ -408,14 +406,14 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
 
         /* Visibility: meters -> miles */
         node = json_object_get_member (current_obj, "visibility");
-        ival = json_node_get_int (node);
+        ival = get_json_int (node);
         if (ival > 0)
             info->visibility = (WeatherVisibility) ival / 1609.344;
 
         /* Update time */
         node = json_object_get_member (current_obj, "time");
         {
-            const gchar *timestr = json_node_get_string (node);
+            const gchar *timestr = get_json_string (node);
             if (timestr)
                 info->update = parse_iso8601_time (timestr);
         }
@@ -433,7 +431,7 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
         wspeed = json_object_get_array_member (daily_obj, "wind_speed_10m_max");
         wdir = json_object_get_array_member (daily_obj, "wind_direction_10m_dominant");
 
-        if (times && wcodes && tmax && tmin) {
+        if (times && wcodes && tmax && tmin && wspeed && wdir) {
             count = json_array_get_length (times);
             if (count > OPENMETEO_FORECAST_DAYS)
                 count = OPENMETEO_FORECAST_DAYS;
@@ -460,27 +458,27 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
                 /* Date */
                 day_node = json_array_get_element (times, i);
                 if (day_node) {
-                    const gchar *dstr = json_node_get_string (day_node);
+                    const gchar *dstr = get_json_string (day_node);
                     if (dstr)
                         day_info->update = parse_iso8601_time (dstr);
                 }
 
                 /* Weather code */
                 day_node = json_array_get_element (wcodes, i);
-                wmo = json_node_get_int (day_node);
+                wmo = get_json_int (day_node);
 
                 /* Temperatures: °C -> °F */
                 day_node = json_array_get_element (tmax, i);
                 if (day_node) {
-                    gdouble v = json_node_get_double (day_node);
-                    if (v > -100.0)
+                    gdouble v;
+                    if (get_json_double (day_node, &v))
                         day_info->temp_max = TEMP_C_TO_F (v);
                 }
 
                 day_node = json_array_get_element (tmin, i);
                 if (day_node) {
-                    gdouble v = json_node_get_double (day_node);
-                    if (v > -100.0)
+                    gdouble v;
+                    if (get_json_double (day_node, &v))
                         day_info->temp_min = TEMP_C_TO_F (v);
                 }
 
@@ -489,14 +487,14 @@ openmeteo_finish (GObject *source, GAsyncResult *result, gpointer data)
                 /* Wind */
                 day_node = json_array_get_element (wspeed, i);
                 if (day_node) {
-                    gdouble v = json_node_get_double (day_node);
-                    if (v >= 0.0)
+                    gdouble v;
+                    if (get_json_double (day_node, &v))
                         day_info->windspeed = WINDSPEED_KMH_TO_KNOTS (v);
                 }
 
                 day_node = json_array_get_element (wdir, i);
                 if (day_node)
-                    day_info->wind = (WeatherWindDirection) json_node_get_int (day_node);
+                    day_info->wind = (WeatherWindDirection) get_json_int (day_node);
 
                 /* Sky + conditions from WMO code */
                 wmo_to_sky_conditions (wmo, 0, &day_info->sky, &day_info->cond);
@@ -534,7 +532,6 @@ openmeteo_start_open (WeatherInfo *info)
     if (!loc->latlon_valid) {
         g_warning ("Open-Meteo requires valid coordinates for location '%s'", loc->name ? loc->name : "(null)");
         info->network_error = TRUE;
-        request_done (info, NULL);
         return;
     }
 
