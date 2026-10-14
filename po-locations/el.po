@@ -4,20 +4,22 @@
 # Kostas Papadimas <pkst@gnome.org>, 2004, 2006.
 # Simos Xenitellis <simos@gnome.org>, 2004, 2005.
 # Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-17 10:35+0200\n"
-"PO-Revision-Date: 2010-03-27 19:56+0200\n"
-"Last-Translator: Bakaoukas Nikolaos <nikolaosx1@gmail.com>\n"
-"Language-Team: Greek <team@mate.gr>\n"
+"PO-Revision-Date: 2026-07-28 22:18+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/libmateweather-locations/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 msgid "Africa"
 msgstr "Αφρική"
@@ -36,7 +38,7 @@ msgid "Atlantic"
 msgstr "Ατλαντικός"
 
 msgid "Australasia &amp; Oceania"
-msgstr "Αυστραλασία &amp; Ωκεανία"
+msgstr "Αυστραλασία και Ωκεανία"
 
 msgid "Central and South America"
 msgstr "Κεντρική και Νότια Αμερική"
@@ -71,15 +73,15 @@ msgstr "Αμερικανική Σαμόα"
 
 #. AD - Andorra
 msgid "Andorra"
-msgstr "Ανδόρα"
+msgstr "Ανδόρρα"
 
 #. AO - Angola
 msgid "Angola"
-msgstr "Αγκόλα"
+msgstr "Ανγκόλα"
 
 #. AI - Anguilla, a British territory in the Caribbean
 msgid "Anguilla"
-msgstr "Αγκουίλα"
+msgstr "Ανγκουίλα"
 
 #. AQ - Antarctica
 msgctxt "Country"
@@ -88,7 +90,7 @@ msgstr "Ανταρκτική"
 
 #. AG - Antigua and Barbuda
 msgid "Antigua and Barbuda"
-msgstr "Αντίγκουα και Μπαρμπούντα "
+msgstr "Αντίγκουα και Μπαρμπούντα"
 
 #. AR - Argentina
 msgid "Argentina"
@@ -127,7 +129,7 @@ msgstr "Μπαχρέιν"
 
 #. BD - Bangladesh
 msgid "Bangladesh"
-msgstr "Μπαγκλαντές"
+msgstr "Μπανγκλαντές"
 
 #. BB - Barbados
 msgid "Barbados"
@@ -167,7 +169,7 @@ msgstr "Βολιβία"
 
 #. BA - Bosnia and Herzegovina
 msgid "Bosnia and Herzegovina"
-msgstr "Βοσνία - Ερζεγοβίνη"
+msgstr "Βοσνία και Ερζεγοβίνη"
 
 #. BW - Botswana
 msgid "Botswana"
@@ -187,7 +189,7 @@ msgstr "Βρετανικά Εδάφη Ινδικού Ωκεανού"
 #. Caribbean
 #.
 msgid "British Virgin Islands"
-msgstr "Παρθένοι Νήσοι, Βρετανικές"
+msgstr "Βρετανικές Παρθένοι Νήσοι"
 
 #. BN - Brunei Darussalam
 msgid "Brunei"
@@ -223,7 +225,7 @@ msgstr "Πράσινο Ακρωτήριο"
 
 #. KY - Cayman Islands, a British territory in the Caribbean
 msgid "Cayman Islands"
-msgstr "Νήσοι Κάιμαν"
+msgstr "Νήσοι Κέιμαν"
 
 #. CF - Central African Republic
 msgid "Central African Republic"
@@ -248,14 +250,14 @@ msgstr "Κίνα"
 #. of the same name.
 #.
 msgid "Christmas Island"
-msgstr "Νησί των Χριστουγέννων"
+msgstr "Νήσος των Χριστουγέννων"
 
 #. CC - Cocos (Keeling) Islands, a territory of Australia in
 #. the Indian Ocean. The "(Keeling)" is to distinguish them
 #. from other "Cocos Island"s, and is part of the official name.
 #.
 msgid "Cocos (Keeling) Islands"
-msgstr "Νήσοι Κόκος (Κήλιγκ)"
+msgstr "Νήσοι Κόκος (Κήλινγκ)"
 
 #. CO - Colombia
 msgid "Colombia"
@@ -267,7 +269,7 @@ msgstr "Κομόρες"
 
 #. CD - Democratic Republic of the Congo
 msgid "Congo, Democratic Republic of the"
-msgstr "Κονγκό, Λαϊκή Δημοκρατία του"
+msgstr "Κονγκό (Λαϊκή Δημοκρατία)"
 
 #. CG - Republic of the Congo. The official ISO 3166 short
 #. English name is simply "Congo"; we use the long name to
@@ -275,7 +277,7 @@ msgstr "Κονγκό, Λαϊκή Δημοκρατία του"
 #. the Congo).
 #.
 msgid "Congo, Republic of the"
-msgstr "Κονγκό, Δημοκρατία του"
+msgstr "Κονγκό (Δημοκρατία)"
 
 #. CK - Cook Islands
 msgid "Cook Islands"
@@ -359,13 +361,13 @@ msgstr "Αιθιοπία"
 #. ISO and the UN.)
 #.
 msgid "Falkland Islands (Malvinas)"
-msgstr "Νήσοι Φάλκλαντ (Μαλβίνες)"
+msgstr "Νήσοι Φώκλαντ (Μαλβίνες)"
 
 #. FO - Faroe Islands, an autonomous province of Denmark in the
 #. north Atlantic.
 #.
 msgid "Faroe Islands"
-msgstr "Νήσοι Φερόε"
+msgstr "Νήσοι Φερόες"
 
 #. FJ - Fiji
 msgid "Fiji"
@@ -373,7 +375,7 @@ msgstr "Φίτζι"
 
 #. FI - Finland
 msgid "Finland"
-msgstr "Φιλανδία"
+msgstr "Φινλανδία"
 
 #. FR - France
 msgid "France"
@@ -564,7 +566,7 @@ msgstr "Κουβέιτ"
 
 #. KG - Kyrgyzstan
 msgid "Kyrgyzstan"
-msgstr "Κιργιστάν"
+msgstr "Κιργιζία"
 
 #. LA - Lao People's Democratic Republic
 msgid "Laos"
@@ -572,7 +574,7 @@ msgstr "Λάος"
 
 #. LV - Latvia
 msgid "Latvia"
-msgstr "Λεττονία"
+msgstr "Λετονία"
 
 #. LB - Lebanon
 msgctxt "Country"
@@ -616,7 +618,7 @@ msgstr "Μακάο"
 
 #. MK - The Former Yugoslav Republic of Macedonia
 msgid "Macedonia"
-msgstr "Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"
+msgstr "Βόρεια Μακεδονία"
 
 #. MG - Madagascar
 msgid "Madagascar"
@@ -671,7 +673,7 @@ msgstr "Μεξικό"
 
 #. FM - Federated States of Micronesia
 msgid "Micronesia, Federated States of"
-msgstr "Μικρονησίας, Ηνωμένες Πολιτείες της"
+msgstr "Μικρονησία (Ομόσπονδες Πολιτείες)"
 
 #. MD - Moldova
 msgid "Moldova"
@@ -692,7 +694,7 @@ msgstr "Μαυροβούνιο"
 
 #. MS - Montserrat, a British territory in the Caribbean.
 msgid "Montserrat"
-msgstr "Μονσεράτ"
+msgstr "Μοντσερράτ"
 
 #. MA - Morocco
 msgid "Morocco"
@@ -723,7 +725,7 @@ msgstr "Νεπάλ"
 
 #. NL - Netherlands
 msgid "Netherlands"
-msgstr "Ολλανδία (Κάτω Χώρες)"
+msgstr "Ολλανδία"
 
 #. AN - Netherlands Antilles, a group of Caribbean islands; one
 #. of the three constituent countries of the Kingdom of the
@@ -802,7 +804,7 @@ msgstr "Παναμάς"
 
 #. PG - Papua New Guinea
 msgid "Papua New Guinea"
-msgstr "Παπουασία-Νέα Γουινέα"
+msgstr "Παπούα Νέα Γουινέα"
 
 #. PY - Paraguay
 msgid "Paraguay"
@@ -894,7 +896,7 @@ msgstr "Άγιος Μαρτίνος"
 #. "Saint-Pierre-et-Miquelon".
 #.
 msgid "Saint Pierre and Miquelon"
-msgstr "Σεν Πιερ και Μικελόν"
+msgstr "Σεν Πιέρ και Μικελόν"
 
 #. VC - Saint Vincent and the Grenadines
 msgid "Saint Vincent and the Grenadines"
@@ -953,7 +955,7 @@ msgstr "Σλοβενία"
 
 #. SB - Solomon Islands
 msgid "Solomon Islands"
-msgstr "Νήσοι Σολομώντος"
+msgstr "Νήσοι Σολομώντα"
 
 #. SO - Somalia
 msgid "Somalia"
@@ -994,11 +996,11 @@ msgstr "Σουρινάμ"
 #. internationally.
 #.
 msgid "Svalbard and Jan Mayen"
-msgstr "Νήσοι Σβάλμπαρντ και Γιαν Μαγιέν"
+msgstr "Σβάλμπαρντ και Γιαν Μάγεν"
 
 #. SZ - Swaziland
 msgid "Swaziland"
-msgstr "Σουαζιλάνδη"
+msgstr "Εσουατίνι"
 
 #. SE - Sweden
 msgid "Sweden"
@@ -1032,7 +1034,7 @@ msgstr "Ταϊλάνδη"
 
 #. TL - Timor-Leste (formerly known as "East Timor")
 msgid "Timor-Leste"
-msgstr "Τιμόρ, Ανατολικό"
+msgstr "Ανατολικό Τιμόρ"
 
 #. TG - Togo
 msgid "Togo"
@@ -1048,7 +1050,7 @@ msgstr "Τόνγκα"
 
 #. TT - Trinidad and Tobago
 msgid "Trinidad and Tobago"
-msgstr "Τρινιδάδ και Τομπάγκο"
+msgstr "Τρινιντάντ και Τομπάγκο"
 
 #. TN - Tunisia
 msgid "Tunisia"
@@ -1066,7 +1068,7 @@ msgstr "Τουρκμενιστάν"
 #. Caribbean
 #.
 msgid "Turks and Caicos Islands"
-msgstr "Νήσοι Τερκς και Κάικος"
+msgstr "Νήσοι Τερκς και Κέικος"
 
 #. TV - Tuvalu
 msgid "Tuvalu"
@@ -1097,13 +1099,13 @@ msgstr "Ηνωμένες Πολιτείες της Αμερικής"
 #. Pacific.
 #.
 msgid "United States Minor Outlying Islands"
-msgstr "Ελάσσονες Νήσοι ΗΠΑ"
+msgstr "Απομακρυσμένες Νησίδες των Ηνωμένων Πολιτειών"
 
 #. VI - United States Virgin Islands, a territory of the United
 #. States in the Caribbean
 #.
 msgid "United States Virgin Islands"
-msgstr "Παρθένοι Νήσοι, Αμερικανικές"
+msgstr "Αμερικανικές Παρθένοι Νήσοι"
 
 #. UY - Uruguay
 msgid "Uruguay"
@@ -1136,7 +1138,7 @@ msgstr "Βιετνάμ"
 #. Pacific
 #.
 msgid "Wallis and Futuna"
-msgstr "Νήσοι Γουόλις και Φουτούνα"
+msgstr "Ουαλίς και Φουτουνά"
 
 #. EH - Western Sahara, a disputed territory in western Africa
 msgid "Western Sahara"
@@ -1165,7 +1167,7 @@ msgstr "Νήσοι Ώλαντ"
 #. this zone?
 #.
 msgid "Western Congo"
-msgstr "Western Congo"
+msgstr "Δυτικό Κονγκό"
 
 #. The time zone used in the eastern half of the Democratic
 #. Republic of the Congo. The string is only used in places
@@ -1174,7 +1176,7 @@ msgstr "Western Congo"
 #. this zone?
 #.
 msgid "Eastern Congo"
-msgstr "Eastern Congo"
+msgstr "Ανατολικό Κονγκό"
 
 #. An American research station in Antarctica, which keeps
 #. the same time as mainland Chile. The string is only used
@@ -1182,42 +1184,42 @@ msgstr "Eastern Congo"
 #. context.
 #.
 msgid "Palmer Station (Chile Time)"
-msgstr "Palmer Station (Chile Time)"
+msgstr "Σταθμός Πάλμερ (ώρα Χιλής)"
 
 #. A British research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 #.
 msgid "Rothera Research Station"
-msgstr "Rothera Research Station"
+msgstr "Ερευνητικός σταθμός Ροθέρα"
 
 #. A Japanese research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 #.
 msgid "Showa Station"
-msgstr "Showa Station"
+msgstr "Σταθμός Σόουα"
 
 #. An Australian research station in Antarctica. The string
 #. is only used in places where "Antarctica" is already
 #. clear from context.
 #.
 msgid "Mawson Station"
-msgstr "Mawson Station"
+msgstr "Σταθμός Μόσον"
 
 #. A Russian research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 #.
 msgid "Vostok Station"
-msgstr "Vostok Station"
+msgstr "Σταθμός Βοστόκ"
 
 #. An Australian research station in Antarctica. The string
 #. is only used in places where "Antarctica" is already
 #. clear from context.
 #.
 msgid "Davis Station"
-msgstr "Davis Station"
+msgstr "Σταθμός Ντέιβις"
 
 #. An Australian research station in Antarctica, which
 #. keeps the same time as Western Australia. The string is
@@ -1225,76 +1227,76 @@ msgstr "Davis Station"
 #. from context.
 #.
 msgid "Casey Station (Western Australia Time)"
-msgstr "Casey Station (Western Australia Time)"
+msgstr "Σταθμός Κέισι (ώρα Δυτικής Αυστραλίας)"
 
 #. A French research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 #.
 msgid "Dumont d'Urville Station"
-msgstr "Dumont d'Urville Station"
+msgstr "Σταθμός Ντυμόν ντ' Ουρβίλ"
 
 #. An American research station in Antarctica, which keeps
 #. the same time as New Zealand. The string is only used in
 #. places where "Antarctica" is already clear from context.
 #.
 msgid "McMurdo Station (New Zealand Time)"
-msgstr "McMurdo Station (New Zealand Time)"
+msgstr "Σταθμός ΜακΜέρντο (ώρα Νέας Ζηλανδίας)"
 
 #. An American research station in Antarctica, which keeps
 #. the same time as New Zealand. The string is only used in
 #. places where "Antarctica" is already clear from context.
 #.
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
-msgstr "Amundsen-Scott South Pole Station (New Zealand Time)"
+msgstr "Σταθμός Νότιου Πόλου Άμουνδσεν-Σκοτ (ώρα Νέας Ζηλανδίας)"
 
 #. The timezone on the western islands of Indonesia. The
 #. name in Indonesian is "Waktu Indonesia Bagian Barat".
 #.
 msgid "Western Indonesia Time"
-msgstr "Western Indonesia Time"
+msgstr "Ώρα Δυτικής Ινδονησίας"
 
 #. The timezone on the central islands of Indonesia. The
 #. name in Indonesian is "Waktu Indonesia Bagian Tengah".
 #.
 msgid "Central Indonesia Time"
-msgstr "Central Indonesia Time"
+msgstr "Ώρα Κεντρικής Ινδονησίας"
 
 #. The timezone on the eastern islands of Indonesia. The
 #. name in Indonesian is "Waktu Indonesia Bagian Timur".
 #.
 msgid "Eastern Indonesia Time"
-msgstr "Eastern Indonesia Time"
+msgstr "Ώρα Ανατολικής Ινδονησίας"
 
 #. The time zone used in the eastern half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 #.
 msgid "Eastern Kazakhstan"
-msgstr "Eastern Kazakhstan"
+msgstr "Ανατολικό Καζακστάν"
 
 #. The time zone used in the western half of Kazakhstan.
 #. FIXME: is there an official name for this zone?
 #.
 msgid "Western Kazakhstan"
-msgstr "Western Kazakhstan"
+msgstr "Δυτικό Καζακστάν"
 
 #. The time zone used in the eastern part of Mongolia.
 #. FIXME: Is there an official name for this zone?
 #.
 msgid "Eastern Mongolia"
-msgstr "Eastern Mongolia"
+msgstr "Ανατολική Μογγολία"
 
 #. The time zone used in the western part of Mongolia.
 #. FIXME: Is there an official name for this zone?
 #.
 msgid "Western Mongolia"
-msgstr "Western Mongolia"
+msgstr "Δυτική Μογγολία"
 
 #. The time zone used in the central part of Mongolia.
 #. FIXME: Is there an official name for this zone?
 #.
 msgid "Central Mongolia"
-msgstr "Central Mongolia"
+msgstr "Κεντρική Μογγολία"
 
 #. The timezone around Danmarkshavn station in Greenland.
 #. The string is only used in places where "Greenland" is
@@ -5891,7 +5893,7 @@ msgstr "Santa Marta"
 
 #. A city in Colombia
 msgid "Villavicencio"
-msgstr "Villavicencio"
+msgstr "Βιλιαβισένσιο"
 
 #. A city in Comoros
 msgid "Mbaléni"
@@ -7679,7 +7681,7 @@ msgstr "Pekanbaru"
 
 #. A city in Indonesia
 msgid "Yogyakarta"
-msgstr ""
+msgstr "Γιογκιακάρτα"
 
 #. A city in Iran.
 #. The name is also written "آبادان".
@@ -8013,7 +8015,7 @@ msgstr "Alghero"
 
 #. A city in Italy
 msgid "Ancona"
-msgstr ""
+msgstr "Ανκόνα"
 
 #. A city in Italy
 msgid "Aviano"
@@ -8665,7 +8667,7 @@ msgstr "Αμμάν"
 
 #. A city in Kazakhstan
 msgid "Aktau"
-msgstr ""
+msgstr "Ακτάου"
 
 #. A city in Kazakhstan
 msgid "Aktobe"
@@ -8687,7 +8689,7 @@ msgstr ""
 #. The local name in Russian is "Balkhash".
 #.
 msgid "Balqash"
-msgstr ""
+msgstr "Μπαλχάς"
 
 #. A city in Kazakhstan
 msgid "Karaganda"
@@ -8736,7 +8738,7 @@ msgstr "Shymkent"
 
 #. A city in Kazakhstan
 msgid "Taraz"
-msgstr ""
+msgstr "Ταράζ"
 
 #. A city in Kenya
 msgid "Eldoret"
@@ -9485,7 +9487,7 @@ msgstr "Christchurch"
 
 #. A city in New Zealand
 msgid "Dunedin"
-msgstr ""
+msgstr "Ντουνεντίν"
 
 #. The capital of New Zealand
 msgid "Wellington"
@@ -10059,7 +10061,7 @@ msgstr "Água de Pena"
 
 #. A municipality of Puerto Rico
 msgid "Aguadilla"
-msgstr ""
+msgstr "Αγουαδίγια"
 
 #. A municipality of Puerto Rico
 msgid "Carolina"
@@ -18714,7 +18716,7 @@ msgstr "Wautoma"
 
 #. A city in Georgia in the United States
 msgid "Waycross"
-msgstr "Waycross"
+msgstr "Γουέικρος"
 
 #. A city in Nebraska in the United States
 msgid "Wayne"
