@@ -1,33 +1,36 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the libmateweather package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Azwaw <azwaw10@proton.me>, 2020
 # ButterflyOfFire, 2025
 # Transifex Bot <>, 2026
-# 
+# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: libmateweather 1.27.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
 "POT-Creation-Date: 2023-10-18 22:10+0200\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Transifex Bot <>, 2026\n"
-"Language-Team: Kabyle (https://app.transifex.com/mate/teams/13566/kab/)\n"
+"PO-Revision-Date: 2026-06-30 19:17+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/libmateweather/kab/>\n"
+"Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kab\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: libmateweather/mateweather-prefs.c:93
 #: libmateweather/mateweather-prefs.c:113
 #: libmateweather/mateweather-prefs.c:139
 #: libmateweather/mateweather-prefs.c:168
 msgid "Default"
-msgstr "Prédéfini(e)"
+msgstr "Amezwer"
 
 #. Translators: Kelvin
 #: libmateweather/mateweather-prefs.c:96
@@ -200,7 +203,7 @@ msgstr ""
 
 #: libmateweather/org.mate.weather.gschema.xml.in:74
 msgid "Speed unit"
-msgstr ""
+msgstr "Aferdis n tazzla"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:75
 msgid ""
@@ -399,87 +402,87 @@ msgstr ""
 
 #: libmateweather/weather.c:237
 msgid "North"
-msgstr ""
+msgstr "Agafa"
 
 #: libmateweather/weather.c:237
 msgid "North - NorthEast"
-msgstr ""
+msgstr "Agafa - Agafa asammar"
 
 #: libmateweather/weather.c:237
 msgid "Northeast"
-msgstr ""
+msgstr "Agafa asammar"
 
 #: libmateweather/weather.c:237
 msgid "East - NorthEast"
-msgstr ""
+msgstr "Asammar - Agafa asammar"
 
 #: libmateweather/weather.c:238
 msgid "East"
-msgstr ""
+msgstr "Asammar"
 
 #: libmateweather/weather.c:238
 msgid "East - Southeast"
-msgstr ""
+msgstr "Asammar - Anẓul asammar"
 
 #: libmateweather/weather.c:238
 msgid "Southeast"
-msgstr ""
+msgstr "Anẓul asammar"
 
 #: libmateweather/weather.c:238
 msgid "South - Southeast"
-msgstr ""
+msgstr "Anẓul - Anẓul asammar"
 
 #: libmateweather/weather.c:239
 msgid "South"
-msgstr ""
+msgstr "Anẓul"
 
 #: libmateweather/weather.c:239
 msgid "South - Southwest"
-msgstr ""
+msgstr "Anẓul - Anẓul amalu"
 
 #: libmateweather/weather.c:239
 msgid "Southwest"
-msgstr ""
+msgstr "Anẓul amalu"
 
 #: libmateweather/weather.c:239
 msgid "West - Southwest"
-msgstr ""
+msgstr "Amalu - Anẓul amalu"
 
 #: libmateweather/weather.c:240
 msgid "West"
-msgstr ""
+msgstr "Amalu"
 
 #: libmateweather/weather.c:240
 msgid "West - Northwest"
-msgstr ""
+msgstr "Amalu - Agafa amalu"
 
 #: libmateweather/weather.c:240
 msgid "Northwest"
-msgstr ""
+msgstr "Agafa amalu"
 
 #: libmateweather/weather.c:240
 msgid "North - Northwest"
-msgstr ""
+msgstr "Agafa - Agafa amalu"
 
 #: libmateweather/weather.c:253
 msgid "Clear Sky"
-msgstr ""
+msgstr "Igenni yeṣfan"
 
 #: libmateweather/weather.c:254
 msgid "Broken clouds"
-msgstr ""
+msgstr "Asigna yerrẓen"
 
 #: libmateweather/weather.c:255
 msgid "Scattered clouds"
-msgstr ""
+msgstr "Asigna yefṛqen"
 
 #: libmateweather/weather.c:256
 msgid "Few clouds"
-msgstr ""
+msgstr "Kra n usigna"
 
 #: libmateweather/weather.c:257
 msgid "Overcast"
-msgstr ""
+msgstr "D asigna"
 
 #. Translators: If you want to know what "blowing" "shallow" "partial"
 #. * etc means, you can go to http://www.weather.com/glossary/ and
@@ -487,11 +490,11 @@ msgstr ""
 #. NONE
 #: libmateweather/weather.c:295 libmateweather/weather.c:297
 msgid "Thunderstorm"
-msgstr ""
+msgstr "Azayaḍ"
 
 #: libmateweather/weather.c:296
 msgid "Drizzle"
-msgstr ""
+msgstr "Timiqqwa"
 
 #: libmateweather/weather.c:296
 msgid "Light drizzle"
@@ -535,7 +538,7 @@ msgstr ""
 
 #: libmateweather/weather.c:298
 msgid "Snow"
-msgstr ""
+msgstr "Adfel"
 
 #: libmateweather/weather.c:298
 msgid "Light snow"
@@ -551,7 +554,7 @@ msgstr ""
 
 #: libmateweather/weather.c:298
 msgid "Snowstorm"
-msgstr ""
+msgstr "Tazwawaḍt n wedfel"
 
 #: libmateweather/weather.c:298
 msgid "Blowing snowfall"
@@ -753,7 +756,7 @@ msgstr ""
 #. *             see `man 3 strftime` for more details
 #: libmateweather/weather.c:707
 msgid "%a, %b %d / %H:%M"
-msgstr ""
+msgstr "%a %d %b / %H:%M"
 
 #: libmateweather/weather.c:722
 msgid "Unknown observation time"
@@ -774,7 +777,7 @@ msgstr "Arussin"
 #: libmateweather/weather.c:758
 #, c-format
 msgid "%.1f °F"
-msgstr ""
+msgstr "%.1f °F"
 
 #: libmateweather/weather.c:766 libmateweather/weather.c:783
 #: libmateweather/weather.c:800
@@ -786,39 +789,39 @@ msgstr ""
 #: libmateweather/weather.c:769
 #, c-format
 msgid "%d °F"
-msgstr ""
+msgstr "%d °F"
 
 #. Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
 #: libmateweather/weather.c:775
 #, c-format
 msgid "%.1f °C"
-msgstr ""
+msgstr "%.1f °C"
 
 #. Translators: This is the temperature in degrees Celsius (\302\260 is U+00B0
 #. DEGREE SIGN)
 #: libmateweather/weather.c:786
 #, c-format
 msgid "%d °C"
-msgstr ""
+msgstr "%d °C"
 
 #. Translators: This is the temperature in kelvin
 #: libmateweather/weather.c:792
 #, c-format
 msgid "%.1f K"
-msgstr ""
+msgstr "%.1f K"
 
 #. Translators: This is the temperature in kelvin
 #: libmateweather/weather.c:803
 #, c-format
 msgid "%d K"
-msgstr ""
+msgstr "%d K"
 
 #. Translators: This is the humidity in percent
 #: libmateweather/weather.c:885
 #, c-format
 msgid "%.f%%"
-msgstr ""
+msgstr "%.f%%"
 
 #. Translators: This is the wind speed in knots
 #: libmateweather/weather.c:913
@@ -859,7 +862,7 @@ msgstr ""
 #: libmateweather/weather.c:960
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. Translators: This is pressure in inches of mercury
 #: libmateweather/weather.c:982
@@ -907,13 +910,13 @@ msgstr ""
 #: libmateweather/weather.c:1034
 #, c-format
 msgid "%.1f km"
-msgstr ""
+msgstr "%.1f km"
 
 #. Translators: This is the visibility in meters
 #: libmateweather/weather.c:1038
 #, c-format
 msgid "%.0fm"
-msgstr ""
+msgstr "%.0fm"
 
 #: libmateweather/weather.c:1067 libmateweather/weather.c:1088
 msgid "%H:%M"

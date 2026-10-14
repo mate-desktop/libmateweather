@@ -1,27 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the libmateweather package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2018
 # Junghee Lee <daemul72@gmail.com>, 2021
-# 
+# 김인수 <simmon@nplob.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: libmateweather 1.27.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
 "POT-Creation-Date: 2023-10-18 22:10+0200\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Junghee Lee <daemul72@gmail.com>, 2021\n"
-"Language-Team: Korean (https://app.transifex.com/mate/teams/13566/ko/)\n"
+"PO-Revision-Date: 2026-10-14 02:18+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/libmateweather/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: libmateweather/mateweather-prefs.c:93
 #: libmateweather/mateweather-prefs.c:113
@@ -133,25 +135,25 @@ msgstr "알림 표시"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:39
 msgid "Determines whether the applet shows a notification on each update."
-msgstr "애플릿이 자동으로 매 업데이트를 알릴지를 결정합니다."
+msgstr "애플릿이 개별 최신화 에 알림을 표시 할지를 결정합니다."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:43
 msgid "Update the data automatically"
-msgstr "데이터를 자동으로 업데이트합니다."
+msgstr "자료를 자동으로 최신화합니다"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:44
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
-msgstr "애플릿이 자동으로 날씨 통계를 업데이트할 지 여부를 결정합니다."
+msgstr "애플릿이 자동으로 날씨 통계를 최신화 할지 여부를 결정합니다."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:48
 msgid "Update interval"
-msgstr "업데이트 간격"
+msgstr "최신화 간격"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:49
 msgid "The interval, in seconds, between automatic updates."
-msgstr "자동 업데이트 시간 간격(초)."
+msgstr "자동 최신화 사이의 간격(초)."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:53
 msgid "Use metric units"
@@ -235,7 +237,7 @@ msgstr "레이더 지도 보기"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:91
 msgid "Fetch a radar map on each update."
-msgstr "업데이트할 때마다 레이더 지도 가져오기."
+msgstr "최신화 할 때마다 레이다 지도 가져오기."
 
 #. TRANSLATORS: Change this to the default location name, used
 #. when you first start the Weather Applet. This is the common
@@ -371,7 +373,7 @@ msgstr "위치의 위도와 경도는 DD-MM-SS[NS] DD-MM-SS[EW] 형태로 씁니
 
 #: libmateweather/org.mate.weather.gschema.xml.in:166
 msgid "Use custom url for the radar map"
-msgstr "레이더 지도에 직접 설정한 URL 사용"
+msgstr "레이더 지도에 사용자 정의 url을 사용합니다"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:167
 msgid ""
@@ -381,11 +383,11 @@ msgstr "참이면, \"radar\" 키에서 시정한 위치에서 레이더 지도�
 
 #: libmateweather/org.mate.weather.gschema.xml.in:171
 msgid "Url for the radar map"
-msgstr "레이더 지도의 URL"
+msgstr "레이더 지도용 Url"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:172
 msgid "The custom url from where to retrieve a radar map."
-msgstr "레이더 지도를 가져올 때 직접 설정한 URL을 사용합니다."
+msgstr "레이더 지도를 검색 할 때에 사용자 정의 url."
 
 #: libmateweather/timezone-menu.c:278
 msgctxt "timezone"
@@ -788,7 +790,7 @@ msgstr "%.1f °F"
 #: libmateweather/weather.c:766 libmateweather/weather.c:783
 #: libmateweather/weather.c:800
 msgid "n/a"
-msgstr ""
+msgstr "n/a"
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
