@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# Quentin PAGÈS <quentinantonin@free.fr>, 2026.
+#
 # Translators:
 # Quentin PAGÈS, 2023
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 22:07+0200\n"
-"PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Quentin PAGÈS, 2023\n"
-"Language-Team: Occitan (post 1500) (https://app.transifex.com/mate/teams/13566/oc/)\n"
+"PO-Revision-Date: 2026-09-30 05:18+0000\n"
+"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
+"Language-Team: Occitan <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/libmateweather-locations/oc/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: oc\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 msgid "Africa"
 msgstr "Africa"
@@ -37,7 +38,7 @@ msgid "Atlantic"
 msgstr "Atlantic"
 
 msgid "Australasia &amp; Oceania"
-msgstr ""
+msgstr "Austràlasia e Oceania"
 
 msgid "Central and South America"
 msgstr "America centrala e America del Sud"
@@ -2199,7 +2200,7 @@ msgstr "Amborg"
 #. use that unless you know that it has a different name in
 #. your language.
 msgid "Hessen"
-msgstr ""
+msgstr "Hessen"
 
 #. A state in Germany.  The local name is "Niedersachsen".
 #. Please use that unless you know that it has a different
@@ -2891,7 +2892,7 @@ msgstr "San Fernando"
 
 #. A city in Argentina
 msgid "San Miguel de Tucuman"
-msgstr ""
+msgstr "San Miguel de Tucuman"
 
 #. A city in Argentina
 msgid "San Salvador de Jujuy"
@@ -3131,7 +3132,7 @@ msgstr "Dhaka"
 
 #. A city in Bangladesh
 msgid "Solapur"
-msgstr ""
+msgstr "Solapur"
 
 #. The capital of Barbados
 msgid "Bridgetown"
@@ -3486,7 +3487,7 @@ msgstr "Curitiba"
 
 #. A city in Bahia in Brazil
 msgid "Feira de Santana"
-msgstr ""
+msgstr "Feira de Santana"
 
 #. A city in Santa Catarina in Brazil
 msgid "Florianópolis"
@@ -3530,7 +3531,7 @@ msgstr "Jacareacanga"
 
 #. A city in Santa Catarina in Brazil
 msgid "Joinville"
-msgstr ""
+msgstr "Joinville"
 
 #. A city in Paraíba in Brazil
 msgid "João Pessoa"
@@ -3665,7 +3666,7 @@ msgstr "Santos"
 
 #. A city in Santa Catarina in Brazil
 msgid "São Bento do Sul"
-msgstr ""
+msgstr "São Bento do Sul"
 
 #. A city in Amazonas in Brazil
 msgid "São Félix"
@@ -6681,7 +6682,7 @@ msgstr "Dresden"
 
 #. A city in Saarland in Germany
 msgid "Ensheim"
-msgstr ""
+msgstr "Ensheim"
 
 #. A city in Lower Saxony in Germany
 msgid "Faßberg"
@@ -7210,7 +7211,7 @@ msgstr "Yoro"
 
 #. A city in Hong Kong
 msgid "Kowloon"
-msgstr ""
+msgstr "Kowloon"
 
 #. The capital of Hungary
 msgid "Budapest"
@@ -7456,7 +7457,7 @@ msgstr "Pekanbaru"
 
 #. A city in Indonesia
 msgid "Yogyakarta"
-msgstr ""
+msgstr "Yogyakarta"
 
 #. A city in Iran.
 #. The name is also written "آبادان".
@@ -7698,16 +7699,16 @@ msgstr "Dublin"
 #. A city in Ireland.
 #. The local name in Irish is "Dún Laoghaire".
 msgid "Dunleary"
-msgstr ""
+msgstr "Dunleary"
 
 #. A city in Ireland
 msgid "Glentavraun"
-msgstr ""
+msgstr "Glentavraun"
 
 #. A city in Ireland.
 #. The local name in Irish is "Sionainn".
 msgid "Shannon"
-msgstr ""
+msgstr "Shannon"
 
 #. The capital of the Isle of Man
 msgctxt "City in Isle of Man"
@@ -7720,19 +7721,19 @@ msgstr "Ronaldsway"
 
 #. A city in Israel
 msgid "Elat"
-msgstr ""
+msgstr "Elat"
 
 #. A city in Israel
 msgid "Mahanayim"
-msgstr ""
+msgstr "Mahanayim"
 
 #. A city in Israel
 msgid "Mahane Yisra'el"
-msgstr ""
+msgstr "Mahane Yisra'el"
 
 #. A city in Israel
 msgid "Ramot Remez"
-msgstr ""
+msgstr "Ramot Remez"
 
 #. A city in Israel
 msgid "Shizzafon"
@@ -7760,7 +7761,7 @@ msgstr "Aviano"
 
 #. A city in Italy
 msgid "Bari"
-msgstr ""
+msgstr "Bari"
 
 #. A city in Italy
 msgid "Bergamo"
@@ -8396,11 +8397,11 @@ msgstr "Amman"
 
 #. A city in Kazakhstan
 msgid "Aktau"
-msgstr ""
+msgstr "Aktau"
 
 #. A city in Kazakhstan
 msgid "Aktobe"
-msgstr ""
+msgstr "Aktobe"
 
 #. A city in Kazakhstan
 msgid "Almaty"
@@ -8417,23 +8418,23 @@ msgstr "Atyrau"
 #. A city in Kazakhstan.
 #. The local name in Russian is "Balkhash".
 msgid "Balqash"
-msgstr ""
+msgstr "Balqash"
 
 #. A city in Kazakhstan
 msgid "Karaganda"
-msgstr ""
+msgstr "Karaganda"
 
 #. A city in Kazakhstan
 msgid "Kokshetau"
-msgstr ""
+msgstr "Kokshetau"
 
 #. A city in Kazakhstan
 msgid "Kostanay"
-msgstr ""
+msgstr "Kostanay"
 
 #. A city in Kazakhstan
 msgid "Kyzylorda"
-msgstr ""
+msgstr "Kyzylorda"
 
 #. A city in Kazakhstan.
 #. The local name in Russian is "Ural'sk".
@@ -8442,20 +8443,20 @@ msgstr "Oral"
 
 #. A city in Kazakhstan.
 msgid "Oskemen"
-msgstr ""
+msgstr "Oskemen"
 
 #. A city in Kazakhstan
 msgid "Pavlodar"
-msgstr ""
+msgstr "Pavlodar"
 
 #. A city in Kazakhstan.
 #. The local name in Russian is "Petropavlovsk".
 msgid "Petropavl"
-msgstr ""
+msgstr "Petropavl"
 
 #. A city in Kazakhstan
 msgid "Semey"
-msgstr ""
+msgstr "Semey"
 
 #. A city in Kazakhstan
 msgid "Shymkent"
@@ -8463,7 +8464,7 @@ msgstr "Shymkent"
 
 #. A city in Kazakhstan
 msgid "Taraz"
-msgstr ""
+msgstr "Taraz"
 
 #. A city in Kenya
 msgid "Eldoret"
@@ -9156,7 +9157,7 @@ msgstr "The Hague"
 
 #. A city in the Netherlands
 msgid "Valkenburg"
-msgstr ""
+msgstr "Valkenburg"
 
 #. A city in the Netherlands
 msgid "Volkel"
@@ -9200,7 +9201,7 @@ msgstr "Christchurch"
 
 #. A city in New Zealand
 msgid "Dunedin"
-msgstr ""
+msgstr "Dunedin"
 
 #. The capital of New Zealand
 msgid "Wellington"
@@ -9332,7 +9333,7 @@ msgstr "Fiskenes"
 
 #. A city in Norway
 msgid "Flesland"
-msgstr ""
+msgstr "Flesland"
 
 #. A city in Norway
 msgid "Florø"
@@ -9773,7 +9774,7 @@ msgstr "Água de Pena"
 
 #. A municipality of Puerto Rico
 msgid "Aguadilla"
-msgstr ""
+msgstr "Aguadilla"
 
 #. A municipality of Puerto Rico
 msgid "Carolina"
@@ -9781,7 +9782,7 @@ msgstr "Carolina"
 
 #. A municipality of Puerto Rico
 msgid "Ceiba"
-msgstr ""
+msgstr "Ceiba"
 
 #. A municipality of Puerto Rico
 msgid "San Juan"
@@ -10025,7 +10026,7 @@ msgstr "Penza"
 #. A city in Russia.
 #. The local name in Russian is "Пермь".
 msgid "Perm'"
-msgstr ""
+msgstr "Perm'"
 
 #. A city in Russia.
 #. The local name in Russian is "Петропавловск-Камчатский".
@@ -10061,7 +10062,7 @@ msgstr "Stavropol"
 #. A city in Russia.
 #. The local name in Russian is "Стригино".
 msgid "Strigino"
-msgstr ""
+msgstr "Strigino"
 
 #. A city in Russia.
 #. The local name in Russian is "Сургут".
@@ -10387,7 +10388,7 @@ msgstr "Lučenec"
 
 #. A city in Slovakia
 msgid "Nitra"
-msgstr ""
+msgstr "Nitra"
 
 #. A city in Slovakia
 msgid "Piešťany"
@@ -11030,7 +11031,7 @@ msgstr "Bangkok"
 
 #. A city in Thailand
 msgid "Buriram"
-msgstr ""
+msgstr "Buriram"
 
 #. A city in Thailand
 msgid "Chiang Mai"
@@ -11038,7 +11039,7 @@ msgstr "Chiang Mai"
 
 #. A city in Thailand
 msgid "Chiang Rai"
-msgstr ""
+msgstr "Chiang Rai"
 
 #. A city in Thailand
 msgid "Chon Buri"
@@ -11046,7 +11047,7 @@ msgstr "Chon Buri"
 
 #. A city in Thailand
 msgid "Chumphon"
-msgstr ""
+msgstr "Chumphon"
 
 #. A city in Thailand
 msgid "Hat Yai"
@@ -11062,11 +11063,11 @@ msgstr "Khon Kaen"
 
 #. An island in Thailand
 msgid "Koh Samui"
-msgstr ""
+msgstr "Koh Samui"
 
 #. A city in Thailand
 msgid "Krabi"
-msgstr ""
+msgstr "Krabi"
 
 #. A city in Thailand
 msgid "Lampang"
@@ -11074,7 +11075,7 @@ msgstr "Lampang"
 
 #. A city in Thailand
 msgid "Loei"
-msgstr ""
+msgstr "Loei"
 
 #. A city in Thailand
 msgid "Mae Hong Son"
@@ -11082,18 +11083,18 @@ msgstr "Mae Hong Son"
 
 #. A city in Thailand
 msgid "Mae Sot"
-msgstr ""
+msgstr "Mae Sot"
 
 #. A city in Thailand
 msgid "Nakhon Phanom"
-msgstr ""
+msgstr "Nakhon Phanom"
 
 #. A city in Thailand
 msgid "Nakhon Ratchasima"
-msgstr ""
+msgstr "Nakhon Ratchasima"
 
 msgid "Nakhon Si Thammarat"
-msgstr ""
+msgstr "Nakhon Si Thammarat"
 
 #. A city in Thailand
 msgid "Nan"
@@ -11101,15 +11102,15 @@ msgstr "Nan"
 
 #. A city in Thailand
 msgid "Narathiwat"
-msgstr ""
+msgstr "Narathiwat"
 
 #. A city in Thailand
 msgid "Phetchabun"
-msgstr ""
+msgstr "Phetchabun"
 
 #. A city in Thailand
 msgid "Phitsanulok"
-msgstr ""
+msgstr "Phitsanulok"
 
 #. A city in Thailand
 msgid "Phrae"
@@ -11129,11 +11130,11 @@ msgstr "Rayong"
 
 #. A city in Thailand
 msgid "Roi Et"
-msgstr ""
+msgstr "Roi Et"
 
 #. A city in Thailand
 msgid "Sukhothai"
-msgstr ""
+msgstr "Sukhothai"
 
 #. A city in Thailand
 msgid "Surat Thani"
@@ -11375,7 +11376,7 @@ msgstr "Boryspil"
 
 #. A city in Ukraine
 msgid "Chagor"
-msgstr ""
+msgstr "Chagor"
 
 #. A city in Ukraine
 msgid "Dnipropetrovs'k"
@@ -11405,7 +11406,7 @@ msgstr "Kryvyy Rih"
 #. "Kyiv" is the traditional English name.
 #. The local name in Ukrainian is "Kyyiv".
 msgid "Kyiv"
-msgstr ""
+msgstr "Kyiiv"
 
 #. A city in Ukraine
 msgid "L'viv"
@@ -11833,7 +11834,7 @@ msgstr "Wainfleet"
 #. A city in East and South East England in the United
 #. Kingdom
 msgid "Wattisham"
-msgstr ""
+msgstr "Wattisham"
 
 #. A city in Scotland in the United Kingdom
 msgid "Wick"
@@ -15212,7 +15213,7 @@ msgstr "Lakeland"
 
 #. A city in Utah in the United States
 msgid "Lakeside"
-msgstr ""
+msgstr "Lakeside"
 
 #. A city in Oregon in the United States
 msgid "Lakeview"
@@ -17909,7 +17910,7 @@ msgstr "Sylvania"
 
 #. A city in New York in the United States
 msgid "Syracuse"
-msgstr ""
+msgstr "Syracuse"
 
 #. A city in Washington in the United States
 msgid "Tacoma"
@@ -18536,7 +18537,7 @@ msgstr "Willow"
 
 #. A city in Pennsylvania in the United States
 msgid "Willow Grove"
-msgstr ""
+msgstr "Willow Grove"
 
 #. A city in Delaware in the United States
 msgctxt "City in Delaware, United States"
