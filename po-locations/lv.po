@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Rihards Priedītis <rprieditis@gmail.com>, 2025
-# 
-#, fuzzy
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-18 22:07+0200\n"
-"PO-Revision-Date: 2021-12-11 13:38+0000\n"
-"Last-Translator: Rihards Priedītis <rprieditis@gmail.com>, 2025\n"
-"Language-Team: Latvian (https://app.transifex.com/mate/teams/13566/lv/)\n"
+"PO-Revision-Date: 2026-11-18 17:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/libmateweather-locations/lv/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lv\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 msgid "Africa"
 msgstr "Āfrika"
@@ -499,7 +500,7 @@ msgstr "Īrija"
 
 #. IM - Isle of Man, a British Crown dependency
 msgid "Isle of Man"
-msgstr "Menas Sala"
+msgstr "Mena sala"
 
 #. IL - Israel
 msgid "Israel"
@@ -558,7 +559,7 @@ msgstr "Latvija"
 #. LB - Lebanon
 msgctxt "Country"
 msgid "Lebanon"
-msgstr "Libāna"
+msgstr "Lebanona"
 
 #. LS - Lesotho
 msgid "Lesotho"
@@ -842,7 +843,7 @@ msgstr "Svētais Bartolomejs"
 
 #. SH - Saint Helena, a British territory in the South Atlantic
 msgid "Saint Helena"
-msgstr "Svētās Helēnas Sala"
+msgstr "Svētās Helēnas sala"
 
 #. KN - Saint Kitts and Nevis
 msgid "Saint Kitts and Nevis"
@@ -856,7 +857,7 @@ msgstr "Sentlūsija"
 #. Martin / Sint Maarten. (The Dutch half is considered part of
 #. the Netherlands Antilles.)
 msgid "Saint Martin"
-msgstr "Saint Martin"
+msgstr "Senmartēna"
 
 #. PM - Saint Pierre and Miquelon, a French territory in North
 #. America (off the coast of Newfoundland). The French name is
@@ -1137,19 +1138,19 @@ msgstr "Austrumu Kongo"
 #. in places where "Antarctica" is already clear from
 #. context.
 msgid "Palmer Station (Chile Time)"
-msgstr "Palmers stacija (Čīles laiks)"
+msgstr "Palmera stacija (Čīles laiks)"
 
 #. A British research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 msgid "Rothera Research Station"
-msgstr "Rothera pētniecības stacija"
+msgstr "Roteras pētniecības stacija"
 
 #. A Japanese research station in Antarctica. The string is
 #. only used in places where "Antarctica" is already clear
 #. from context.
 msgid "Showa Station"
-msgstr "Shova stacija"
+msgstr "Šovas stacija"
 
 #. An Australian research station in Antarctica. The string
 #. is only used in places where "Antarctica" is already
@@ -1180,7 +1181,7 @@ msgstr "Keisija stacija (Rietumaustrālijas laiks)"
 #. only used in places where "Antarctica" is already clear
 #. from context.
 msgid "Dumont d'Urville Station"
-msgstr "Dumont d'Urville stacija"
+msgstr "Dimondirvila stacija"
 
 #. An American research station in Antarctica, which keeps
 #. the same time as New Zealand. The string is only used in
@@ -1192,7 +1193,7 @@ msgstr "Makmērdo stacija (Jaunzēlandes laiks)"
 #. the same time as New Zealand. The string is only used in
 #. places where "Antarctica" is already clear from context.
 msgid "Amundsen-Scott South Pole Station (New Zealand Time)"
-msgstr "Amundsen-Scott Dienvidpola stacija (Jaunzēlandes laiks)"
+msgstr "Amundsena-Skota Dienvidpola stacija (Jaunzēlandes laiks)"
 
 #. The timezone on the western islands of Indonesia. The
 #. name in Indonesian is "Waktu Indonesia Bagian Barat".
@@ -1291,7 +1292,7 @@ msgstr "Centrālā laika zona (Dienvidaustrālija)"
 #. state uses Eastern Time. This string is only used in
 #. places where "Australia" is already clear from context.
 msgid "Central Time (Yancowinna, NSW)"
-msgstr "Centrālā laika zona (Jancowinna, Jaundienvidvelsa)"
+msgstr "Centrālā laika zona (Jankovinna, Jaundienvidvelsa)"
 
 #. The time zone used in Central Australia. This string is
 #. specifically for the time zone as implemented in the
@@ -1423,7 +1424,7 @@ msgstr "Midvai atols (Samoa laiks)"
 #. where "US Minor Outlying Islands" is already clear from
 #. context.
 msgid "Wake Island"
-msgstr "Vake Sala"
+msgstr "Veika sala"
 
 #. This represents the time zone in the Brazilian state of
 #. Tocantins. See the comment on "Brasília Time" for more
@@ -2220,7 +2221,7 @@ msgstr "Meklenburga-Priekšpomerānija"
 #. "Nordrhein-Westfalen". Please use that unless you know
 #. that it has a different name in your language.
 msgid "North Rhine-Westphalia"
-msgstr "Ziemeļreina-Vestfālenē"
+msgstr "Ziemeļreina-Vestfālene"
 
 #. A state in Germany.  The local name is "Rheinland-Pfalz".
 #. Please use that unless you know that it has a different
@@ -2708,7 +2709,7 @@ msgstr "Žanē"
 
 #. A city in Algeria
 msgid "El Golea"
-msgstr "El Golea"
+msgstr "Elgolea"
 
 #. A city in Algeria
 msgid "Ghardaia"
@@ -2869,7 +2870,7 @@ msgstr "Resistensija"
 
 #. A city in Argentina
 msgid "Rosario"
-msgstr "Rosario"
+msgstr "Rosārio"
 
 #. A city in Argentina
 msgid "Río Gallegos"
@@ -2918,7 +2919,7 @@ msgstr "Oranjestade"
 
 #. A city in South Australia in Australia
 msgid "Adelaide"
-msgstr "Adelaide"
+msgstr "Adelaida"
 
 #. A city in Northern Territory in Australia
 msgid "Alice Springs"
@@ -4372,7 +4373,7 @@ msgstr "Holovela"
 #. A city in Ontario in Canada
 msgctxt "City in Ontario, Canada"
 msgid "Hamilton"
-msgstr "Hemiltona"
+msgstr "Hamiltona"
 
 #. A city in Newfoundland and Labrador in Canada
 msgid "Harbour Breton"
@@ -6371,7 +6372,7 @@ msgstr "Dolmāra"
 
 #. A city in France
 msgid "Grenoble"
-msgstr "Grenoble"
+msgstr "Grenobla"
 
 #. A city in France
 msgid "Hoëricourt"
@@ -8020,7 +8021,7 @@ msgstr "Trevīzo"
 
 #. A city in Italy
 msgid "Trieste"
-msgstr "Trieste"
+msgstr "Triesta"
 
 #. A city in Italy.
 #. "Turin" is the traditional English name.
@@ -9295,7 +9296,7 @@ msgstr "Berlevoga"
 
 #. A city in Norway
 msgid "Bodø"
-msgstr "Būdē"
+msgstr "Būde"
 
 #. A city in Norway
 msgid "Bolle"
@@ -11530,7 +11531,7 @@ msgstr "Bjūtsa"
 #. Kingdom
 msgctxt "City in East and South East England, United Kingdom"
 msgid "Cambridge"
-msgstr "Keimbridža"
+msgstr "Kembridža"
 
 #. A city in Scotland in the United Kingdom
 msgid "Campbeltown"
@@ -11923,7 +11924,7 @@ msgstr "Olbani"
 #. A city in New York in the United States
 msgctxt "City in New York, United States"
 msgid "Albany"
-msgstr "Olbani"
+msgstr "Olbanija"
 
 #. A city in North Carolina in the United States
 msgid "Albemarle"
@@ -13889,7 +13890,7 @@ msgstr "Fārmvila"
 #. A city in Arkansas in the United States
 msgctxt "City in Arkansas, United States"
 msgid "Fayetteville"
-msgstr "Fejetvila"
+msgstr "Feietvila"
 
 #. A city in North Carolina in the United States
 msgctxt "City in North Carolina, United States"
@@ -15628,7 +15629,7 @@ msgstr "Marietta"
 #. A city in Illinois in the United States
 msgctxt "City in Illinois, United States"
 msgid "Marion"
-msgstr "Meriona"
+msgstr "Mariona"
 
 #. A city in Ohio in the United States
 msgctxt "City in Ohio, United States"
@@ -18942,7 +18943,7 @@ msgstr "Činganze"
 
 #. A city in Zambia
 msgid "Livingstone"
-msgstr "Livingstone"
+msgstr "Livingstona"
 
 #. The capital of Zambia
 msgid "Lusaka"
