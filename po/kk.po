@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the libmateweather package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2018
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2018, 2026.
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# 
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: libmateweather 1.27.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org\n"
 "POT-Creation-Date: 2023-10-18 22:10+0200\n"
-"PO-Revision-Date: 2018-03-11 16:04+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
-"Language-Team: Kazakh (https://app.transifex.com/mate/teams/13566/kk/)\n"
+"PO-Revision-Date: 2026-08-30 04:18+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/libmateweather/kk/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: libmateweather/mateweather-prefs.c:93
 #: libmateweather/mateweather-prefs.c:113
@@ -132,16 +133,20 @@ msgstr "Хабарламаларды көрсету"
 #: libmateweather/org.mate.weather.gschema.xml.in:39
 msgid "Determines whether the applet shows a notification on each update."
 msgstr ""
+"Апплет әр жаңарту кезінде хабарландыру көрсететінін не көрсетпейтінін "
+"анықтайды."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:43
 msgid "Update the data automatically"
-msgstr ""
+msgstr "Деректерді автоматты түрде жаңарту"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:44
 msgid ""
 "Determines whether the applet automatically updates its weather statistics "
 "or not."
 msgstr ""
+"Апплет ауа райы статистикасын автоматты түрде жаңартатынын не жаңартпайтынын "
+"анықтайды."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:48
 msgid "Update interval"
@@ -149,22 +154,22 @@ msgstr "Жаңарту аралығы"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:49
 msgid "The interval, in seconds, between automatic updates."
-msgstr ""
+msgstr "Автоматты жаңартулар арасындағы аралық (секундпен)."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:53
 msgid "Use metric units"
-msgstr ""
+msgstr "Метрикалық бірліктерді пайдалану"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:54
 msgid "Use metric units instead of english units."
-msgstr ""
+msgstr "Ағылшын бірліктерінің орнына метрикалық бірліктерді пайдалану."
 
 #. TRANSLATORS: pick a default distance unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: libmateweather/org.mate.weather.gschema.xml.in:59
 msgid "'miles'"
-msgstr ""
+msgstr "'miles'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:60
 msgid "Distance unit"
@@ -173,13 +178,14 @@ msgstr "Ара қашықтықтың өлшем бірлігі"
 #: libmateweather/org.mate.weather.gschema.xml.in:61
 msgid "The unit to use for visibility. Values: 'meters', 'km' ,'miles'."
 msgstr ""
+"Көріну қашықтығы үшін қолданылатын бірлік. Мәндері: 'meters', 'km', 'miles'."
 
 #. TRANSLATORS: pick a default pressure unit for your locale, see key
 #. description
 #. for valid values; values must be quoted
 #: libmateweather/org.mate.weather.gschema.xml.in:66
 msgid "'inHg'"
-msgstr ""
+msgstr "'inHg'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:67
 msgid "Pressure unit"
@@ -190,12 +196,14 @@ msgid ""
 "The unit to use for pressure. Values: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
 "'atm'."
 msgstr ""
+"Қысым үшін қолданылатын бірлік. Мәндері: 'kPa', 'hPa', 'mb', 'mmHg', 'inHg', "
+"'atm'."
 
 #. TRANSLATORS: pick a default speed unit for your locale, see key description
 #. for valid values; values must be quoted
 #: libmateweather/org.mate.weather.gschema.xml.in:73
 msgid "'knots'"
-msgstr ""
+msgstr "'knots'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:74
 msgid "Speed unit"
@@ -206,12 +214,14 @@ msgid ""
 "The unit to use for wind speed. Values: 'm/s', 'km/h, 'mph', 'knots', "
 "'Beaufort scale'."
 msgstr ""
+"Жел жылдамдығы үшін қолданылатын бірлік. Мәндері: 'm/s', 'km/h, 'mph', "
+"'knots', 'Beaufort scale'."
 
 #. TRANSLATORS: pick a temperature unit that should be used by default in your
 #. locale, see key description for valid values; values must be quoted
 #: libmateweather/org.mate.weather.gschema.xml.in:80
 msgid "'Fahrenheit'"
-msgstr ""
+msgstr "'Fahrenheit'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:81
 msgid "Temperature unit"
@@ -222,18 +232,20 @@ msgid ""
 "The unit to use for temperature. Values: 'Kelvin', 'Centigrade', "
 "'Fahrenheit'."
 msgstr ""
+"Температура үшін қолданылатын бірлік. Мәндері: 'Kelvin', 'Centigrade', "
+"'Fahrenheit'."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:86
 msgid "Not used anymore"
-msgstr ""
+msgstr "Енді пайдаланылмайды"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:90
 msgid "Display radar map"
-msgstr ""
+msgstr "Радар картасын көрсету"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:91
 msgid "Fetch a radar map on each update."
-msgstr ""
+msgstr "Әрбір жаңарту кезінде радар картасын жүктеп алу."
 
 #. TRANSLATORS: Change this to the default location name, used
 #. when you first start the Weather Applet. This is the common
@@ -246,15 +258,15 @@ msgstr ""
 #: libmateweather/org.mate.weather.gschema.xml.in:102
 #: libmateweather/org.mate.weather.gschema.xml.in:147
 msgid "'DEFAULT_LOCATION'"
-msgstr ""
+msgstr "'DEFAULT_LOCATION'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:103
 msgid "Weather location information"
-msgstr ""
+msgstr "Ауа райы орналасуының ақпараты"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:104
 msgid "Weather location information."
-msgstr ""
+msgstr "Ауа райы орналасуының ақпараты."
 
 #. TRANSLATORS: Change this to the code of your default location
 #. that corresponds to the DEFAULT_LOCATION name you put above. This
@@ -267,11 +279,11 @@ msgstr ""
 #. If you do not require a DEFAULT_CODE, set this to "DEFAULT_CODE".
 #: libmateweather/org.mate.weather.gschema.xml.in:115
 msgid "'DEFAULT_CODE'"
-msgstr ""
+msgstr "'DEFAULT_CODE'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:116
 msgid "Nearby city"
-msgstr ""
+msgstr "Жақын маңдағы қала"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:117
 msgid ""
@@ -279,6 +291,9 @@ msgid ""
 "https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
+"https://raw.github.com/mate-desktop/libmateweather/master/data/"
+"Locations.xml.in мекенжайынан табылған, астана сияқты жақын маңдағы негізгі "
+"аймақ"
 
 #. TRANSLATORS: Change this to the zone of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -291,17 +306,19 @@ msgstr ""
 #. "DEFAULT_ZONE".
 #: libmateweather/org.mate.weather.gschema.xml.in:128
 msgid "'DEFAULT_ZONE'"
-msgstr ""
+msgstr "'DEFAULT_ZONE'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:129
 msgid "Zone location"
-msgstr ""
+msgstr "Аймақтың орналасуы"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:130
 msgid ""
 "A unique zone for the city, as found from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
+"https://raw.github.com/mate-desktop/libmateweather/master/data/"
+"Locations.xml.in мекенжайынан табылған, қала үшін бірегей аймақ"
 
 #. TRANSLATORS: Change this to the radar of your default location
 #. that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE you put
@@ -315,11 +332,11 @@ msgstr ""
 #. If you do not have a default location, set this to DEFAULT_RADAR.
 #: libmateweather/org.mate.weather.gschema.xml.in:142
 msgid "'DEFAULT_RADAR'"
-msgstr ""
+msgstr "'DEFAULT_RADAR'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:143
 msgid "Radar location"
-msgstr ""
+msgstr "Радар орналасуы"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:144
 msgid ""
@@ -327,14 +344,17 @@ msgid ""
 "from https://raw.github.com/mate-"
 "desktop/libmateweather/master/data/Locations.xml.in"
 msgstr ""
+"https://raw.github.com/mate-desktop/libmateweather/master/data/"
+"Locations.xml.in мекенжайынан табылған, weather.com сайтынан радар "
+"карталарын алуға арналған үш таңбалы код"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:148
 msgid "Weather for a city"
-msgstr ""
+msgstr "Қала үшін ауа райы"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:149
 msgid "The city that mateweather displays information for."
-msgstr ""
+msgstr "mateweather ақпаратын көрсететін қала."
 
 #. TRANSLATORS: Change this to the coordinates of your default
 #. location that corresponds to the DEFAULT_LOCATION and DEFAULT_CODE
@@ -347,31 +367,35 @@ msgstr ""
 #. default location, set this to DEFAULT_COORDINATES.
 #: libmateweather/org.mate.weather.gschema.xml.in:160
 msgid "'DEFAULT_COORDINATES'"
-msgstr ""
+msgstr "'DEFAULT_COORDINATES'"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:161
 msgid "Location coordinates"
-msgstr ""
+msgstr "Орналасу координаталары"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:162
 msgid ""
 "Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-"
 "SS[EW]."
 msgstr ""
+"DD-MM-SS[NS] DD-MM-SS[EW] пішімінде көрсетілген орналасуыңыздың ендігі мен "
+"бойлығы."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:166
 msgid "Use custom url for the radar map"
-msgstr ""
+msgstr "Радар картасы үшін пайдаланушылық URL пайдалану"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:167
 msgid ""
 "If true, then retrieve a radar map from a location specified by the "
 "\"radar\" key."
 msgstr ""
+"Егер мәні ақиқат болса, радар картасы «radar» кілтімен көрсетілген орыннан "
+"алынады."
 
 #: libmateweather/org.mate.weather.gschema.xml.in:171
 msgid "Url for the radar map"
-msgstr ""
+msgstr "Радар картасы үшін URL"
 
 #: libmateweather/org.mate.weather.gschema.xml.in:172
 msgid "The custom url from where to retrieve a radar map."
@@ -390,7 +414,7 @@ msgstr "METAR деректерін алу сәтсіз аяқталды: %d %s.\
 
 #: libmateweather/weather-metar.c:548
 msgid "WeatherInfo missing location"
-msgstr ""
+msgstr "WeatherInfo: орналасуы жоқ"
 
 #: libmateweather/weather.c:236
 msgid "Variable"
@@ -398,7 +422,7 @@ msgstr "Айнымалы"
 
 #: libmateweather/weather.c:237
 msgid "North"
-msgstr "Солтүстік"
+msgstr "Норт"
 
 #: libmateweather/weather.c:237
 msgid "North - NorthEast"
@@ -586,27 +610,27 @@ msgstr "Мұз кристалдары"
 
 #: libmateweather/weather.c:301
 msgid "Ice pellets"
-msgstr ""
+msgstr "Мұз түйіршіктері"
 
 #: libmateweather/weather.c:301
 msgid "Few ice pellets"
-msgstr ""
+msgstr "Аздаған мұз түйіршіктері"
 
 #: libmateweather/weather.c:301
 msgid "Moderate ice pellets"
-msgstr ""
+msgstr "Орташа мұз түйіршіктері"
 
 #: libmateweather/weather.c:301
 msgid "Heavy ice pellets"
-msgstr ""
+msgstr "Қатты мұз түйіршіктері"
 
 #: libmateweather/weather.c:301
 msgid "Ice pellet storm"
-msgstr ""
+msgstr "Мұз түйіршікті дауыл"
 
 #: libmateweather/weather.c:301
 msgid "Showers of ice pellets"
-msgstr ""
+msgstr "Мұз түйіршікті өткінші жауын"
 
 #: libmateweather/weather.c:302
 msgid "Hail"
@@ -778,7 +802,7 @@ msgstr "%.1f °F"
 #: libmateweather/weather.c:766 libmateweather/weather.c:783
 #: libmateweather/weather.c:800
 msgid "n/a"
-msgstr ""
+msgstr "қ/ж"
 
 #. Translators: This is the temperature in degrees Fahrenheit (\302\260 is
 #. U+00B0 DEGREE SIGN)
